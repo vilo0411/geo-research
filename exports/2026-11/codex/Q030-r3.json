@@ -1,0 +1,257 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q030-r3",
+ "prompt_id": "Q030",
+ "run": 3,
+ "question": "Mở tài khoản chứng khoán mất bao lâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:19",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 21.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b012-b86a-7841-8403-f78001ba9b94"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-a6a8c3c7-8e5d-47f4-a3e4-d8be94beb016",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-a6a8c3c7-8e5d-47f4-a3e4-d8be94beb016",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn mở tài khoản chứng khoán bao lâu eKYC ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn mở tài khoản chứng khoán bao lâu eKYC",
+      "site.ssi.com.vn mở tài khoản trực tuyến 5 phút kích hoạt"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Trong quá trình mở tài khoản tại VNDIRECT, sau khi chụp ảnh 2 mặt CCCD để hệ thống tự động nhận diện các thông tin,",
+      "title": "FAQ - Mở Tài Khoản – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "# Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước ... Để rút tiền về tài khoản ngân hàng,",
+      "title": "Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/4413910748697-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-m%E1%BB%9F-t%C3%A0i-kho%E1%BA%A3n-tr%E1%BB%B1c-tuy%E1%BA%BFn-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-c%C3%A1-nh%C3%A2n-trong-n%C6%B0%E1%BB%9Bc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "###### Đầy đủ lựa chọn các gói giao dịch chủ động hay có hỗ trợ của chuyên viên tư vấn với mức phí và lãi",
+      "title": "Mở tài khoản chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/mo-tai-khoan-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "### Miễn phí vận chuyển cho khách hàng tại tất cả tỉnh/ thành trên cả nước ... VỀ VNDIRECT ... VỀ VNDIRECT ... ### Lưu",
+      "title": "HỒ SƠ MỞ TÀI KHOẢN CHỨNG KHOÁN",
+      "url": "https://www.vndirect.com.vn/huong-dan-van-chuyen-ho-so-ve-VNDIRECT/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mydgo.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Mở tài khoản VNDIRECT Chào mừng bạn đến với nền tảng đầu tư và giao dịch chứng khoán của VNDIRECT. ... DSTOCK Giao dịch chứng",
+      "title": "My DGO",
+      "url": "https://mydgo.vndirect.com.vn/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Dịch vụ ứng trước tiền bán chứng khoán là việc VNDIRECT ứng trước/thanh toán trước cho Khách hàng một khoản tiền trên cơ sở Khách",
+      "title": "CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Hiện nay, việc mở tài khoản chứng khoán và đầu tư trở nên dễ dàng hơn bao giờ hết chỉ với 1 lần kích hoạt",
+      "title": "Mở tài khoản chứng khoán VNDIRECT online 1 chạm và định danh eKYC",
+      "url": "https://dautu.vndirect.com.vn/mo-tai-khoan-chung-khoan-vndirect-online-ekyc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Đa dạng các sản phẩm quỹ của Công ty quản lý quỹ IPA Đầu tư sinh lời một cách hiệu quả và dễ dàng trong",
+      "title": "Mở tài khoản chứng khoán VNDIRECT - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/mo-tai-khoan-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoan.accounts.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Đăng ký thông tin mở tài khoản chứng khoán SSI Online MỞ TÀI KHOẢN TRỰC TUYẾN ... Website: https://www.ssi.com.vn/",
+      "title": "Đăng ký mở tài khoản Online trực tuyến chứng khoán SSI Miễn Phí",
+      "url": "https://chungkhoan.accounts.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Công nghệ Việt Nam 2024 (Vietnam Tech Impact Summit 2024 – VTIS 2024). ... Bên cạnh đó, vào tháng 4/2024, SSI chính thức dừng hoạt",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2024_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Chứng minh nhân dân (CMND) hoặc thẻ căn cước công dân (CCCD) còn hiệu ... Mở tài khoản eKYC có trải nghiệm tốt nhất trình",
+      "title": "Hướng dẫn\nMở tài khoản trực tuyến\nĐịnh danh điện t",
+      "url": "https://www.vietcap.com.vn/mo-tai-khoan/docs/huongdan_ekyc_mobile.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search9",
+      "snippet": "Mở tài khoản VNDirect online trên app DGO, DStock hoặc web MyDGO: 4 bước eKYC, số tài khoản, phí 0,1%, đăng ký margin và phái",
+      "title": "Cách mở tài khoản chứng khoán VNDirect online 2026 (DGO)",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "kisvn.vn",
+      "ref_id": "turn0search10",
+      "snippet": "HƯỚNG DẪN MỞ TÀI KHOẢN CHỨNG KHOÁN QUA EKYC ... Theo quy định của Uỷ ban Chứng Khoán Nhà nước thì mỗi nhà đầu tư",
+      "title": "Hướng dẫn mở tài khoản qua eKyc",
+      "url": "https://kisvn.vn/ca-nhan/ho-tro/huong-dan-ekyc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ekyc.bvsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Công nghệ eKYC cho phép người dùng tạo tài khoản chứng khoán trực tuyến ngay trên thiết bị di động mà không cần tới các",
+      "title": "Mở tài khoản trực tuyến BVSC",
+      "url": "https://ekyc.bvsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kbsec.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "MỞ TÀI KHOẢN EKYC ... vụ giao dịch chứng khoán.",
+      "title": "HƯỚNG DẪN KÝ SỐ HỢP ĐỒNG ĐIỆN TỬ MỞ TÀI KHOẢN",
+      "url": "https://www.kbsec.com.vn/pic/general/files/HDSD%20MTK%282%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aisec.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Hai màn hình điện thoại minh họa quy trình “Mở tài khoản” ở bước “Xác thực chữ ký”. ... Khung xác nhận có ô chọn",
+      "title": "Hướng dẫn TK EKYC",
+      "url": "https://www.aisec.com.vn/pub/media/Upload/Huong_dan_mo_tai_khoan_eKYC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "pháp eKYC tại VNDIRECT được xây dựng trên ... khoán, VNDIRECT đã phát triển DBOARD trở ... khách hàng mở tài khoản (trực tuyến qua",
+      "title": "01  PHẦN MỞ ĐẦU",
+      "url": "https://www.vndirect.com.vn/VNDIRECT.BCTN2020.2705.TiengViet.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pbsv.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "HƯỚNG DẪN SỬ DỤNG MỞ TÀI KHOẢN EKYC",
+      "title": "HƯỚNG DẪN SỬ DỤNG MỞ TÀI KHOẢN EKYC",
+      "url": "https://pbsv.com.vn/center_data/ps_cms_articles/file/Guides_for_Online_Trading/Huong_dan_su_dung_mo_tai_khoan_ekyc.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "Vào vndirect.com.vn mở tài khoản, y như đăng ký account google thôi. ... Nạp xong thì vào tìm mã, bắt đầu kiến tiền thôi, phiên",
+      "title": "Chứng khoán",
+      "url": "https://www.reddit.com/r/vozforums/comments/1m8ty9e"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-1197b985-6663-49ab-b1b1-96121dc66e56",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-1197b985-6663-49ab-b1b1-96121dc66e56",
+    "type": "web_search",
+    "query": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n",
+    "action": {
+     "type": "open_page",
+     "url": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 165",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/zgsSlff3IPD-CAQh8-Y0UVDRvR5unW6zvR9JXLP1z45qeqdXTbvZspkccnTYkhx23OjPzg-dCesCavOJTOurHvk5n2HQE4O0oSA_B2RVNNc",
+      "title": "FAQ - Mở Tài Khoản – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Đăng ký online chỉ mất vài phút, nhưng để được giao dịch có thể phải chờ đến ngày làm việc tiếp theo**, tùy công ty và thời điểm mở.\n\nVí dụ, **VNDIRECT** quy định:\n- Hoàn tất trước **15h50 ngày làm việc**: kích hoạt giao dịch trong ngày.\n- Hoàn tất sau giờ đó hoặc ngoài giờ hành chính: xử lý vào **ngày làm việc kế tiếp**. [Nguồn VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n)\n\nBạn nên chuẩn bị căn cước còn hiệu lực, điện thoại nhận OTP, email và tài khoản ngân hàng chính chủ để đăng ký thuận lợi.\n\nBạn định mở ở công ty chứng khoán nào?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 38492,
+    "cached_input_tokens": 26496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 332,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b012-b86a-7841-8403-f78001ba9b94",
+ "error": ""
+}

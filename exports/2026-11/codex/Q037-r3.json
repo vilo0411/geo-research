@@ -1,0 +1,201 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q037-r3",
+ "prompt_id": "Q037",
+ "run": 3,
+ "question": "Mua chứng chỉ quỹ ở đâu uy tín?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:59:04",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b015-3f0e-7432-b574-0fa8264aa65f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d5f66307-81ae-463d-9720-5ba9c8486ecf",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d5f66307-81ae-463d-9720-5ba9c8486ecf",
+    "type": "web_search",
+    "query": "site.ssc.gov.vn chứng chỉ quỹ nhà đầu tư đại lý phân phối quỹ mở ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssc.gov.vn chứng chỉ quỹ nhà đầu tư đại lý phân phối quỹ mở",
+      "site.vinaCapital.com đầu tư quỹ mở MiO VinaCapital",
+      "site.dragoncapital.com.vn mua chứng chỉ quỹ DragonX",
+      "site.fmarket.vn giấy phép ủy ban chứng khoán phân phối chứng chỉ quỹ"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Mức đầu tư tối thiểu chỉ từ 100.000 đồng và miễn phí mua chứng chỉ quỹ. ... DragonX là ứng dụng đầu tư chứng chỉ",
+      "title": "Mở tài khoản chứng chỉ quỹ online trên DragonX: 3 bước, eKYC trong 5 phút - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "wm.vinacapital.com",
+      "ref_id": "turn0search1",
+      "snippet": "* Khách hàng đầu tư vào Quỹ mở do VinaCapital quản lý có tài khoản online VinaCapital MiO có thể theo dõi kết quả đầu",
+      "title": "Kiến thức đầu tư - VinaCapital",
+      "url": "https://wm.vinacapital.com/vi/investment-education/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "• Liên kết tài khoản KIS sẵn có: khách hàng trong nước hoặc nước ngoài có số điện thoại và giấy tờ tuỳ thân trùng",
+      "title": "10 câu hỏi thường gặp khi giao dịch quỹ ETF trên DragonX - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/10-cau-hoi-thuong-gap-ve-quy-etf-tren-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.momo.vn",
+      "ref_id": "turn0search3",
+      "snippet": "* Nắm giữ và tiếp tục giao dịch trực tiếp trên nền tảng của các Công ty Quản lý quỹ tương ứng như: Công ty",
+      "title": "Thông báo: MoMo dừng hỗ trợ Dịch vụ Chứng Chỉ Quỹ từ 01/07/2026 và ra mắt mô hình mới Chứng Chỉ Quỹ CVS",
+      "url": "https://www.momo.vn/tin-tuc/khuyen-mai/thong-bao-momo-dung-ho-tro-dich-vu-chung-chi-quy-8695"
+     },
+     {
+      "type": "text_result",
+      "domain": "wm.vinacapital.com",
+      "ref_id": "turn0search4",
+      "snippet": "Tải ứng dụng VinaCapital MiO từ Google Play Store (đối với Android) hoặc Apple App Store (đối với iOS). ... * Chọn quỹ muốn đầu",
+      "title": "Hướng dẫn sử dụng ứng dụng Vinacapital MiO",
+      "url": "https://wm.vinacapital.com/vi/investment-education/using-vinacapital-mio-app/"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Đồng thời, số tiền đầu tư vào các quỹ mở VinaCapital không bao giờ được yêu cầu chuyển vào tài khoản cá nhân, mà chỉ",
+      "title": "VinaCapital cảnh báo lừa đảo mạo danh để gọi đầu tư",
+      "url": "https://baochinhphu.vn/vinacapital-canh-bao-lua-dao-mao-danh-de-keu-goi-dau-tu-102260115115951044.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search6",
+      "snippet": "VINACAPITAL-VMEEF là quỹ mở cổ phiếu đầu tư vào cổ phiếu của những doanh nghiệp có triển vọng tốt về tăng trưởng doanh thu và",
+      "title": "Quỹ Đầu tư Cổ Phiếu Kinh Tế Hiện Đại VinaCapital (VINACAPITAL-VMEEF)",
+      "url": "https://vinacapital.com/vi/investment-solutions/onshore-funds/vmeEF/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Thời điểm khớp lệnh: Lệnh đặt trước 14:30 ngày làm việc T sẽ khớp theo NAV của ngày T. ... * Phí mua: Dragon",
+      "title": "Hướng dẫn đặt lệnh đầu tư trên DragonX - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-dat-lenh-dau-tu-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search8",
+      "snippet": "Quỹ VINACAPITAL-VDEF đặt mục tiêu mang tăng trưởng tài sản ổn định cho nhà đầu tư trong trung và dài hạn, thông qua việc đầu",
+      "title": "Các giải pháp đầu tư - VinaCapital",
+      "url": "https://vinacapital.com/vi/investment-solutions/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube12",
+      "snippet": "Host Ngọc Quyên cùng anh Đoàn Duy (Giám đốc Mảng Kinh doanh số - \"Cha đẻ\" đứng sau ứng dụng DragonX) sẽ bật mí toàn",
+      "title": "Cách Đầu Tư Chứng Chỉ Quỹ & Bí Quyết Tích Lũy Bền Vững | Quỹ Mở 101 - Tập 5 | Đoàn Duy - YouTube",
+      "url": "https://www.youtube.com/watch?v=4ytboJSPUP8"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search13",
+      "snippet": "đ) Việc cung cấp và sử dụng dịch vụ giao dịch chứng khoán trực tuyến với nhà đầu tư phải được thể hiện bằng hợp",
+      "title": "BỘ TÀI CHÍNH",
+      "url": "https://ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=V%C4%83n+b%E1%BA%A3n+h%E1%BB%A3p+nh%E1%BA%A5t+s%E1%BB%91+37&allowInterrupt=1&dDocName=APPSSCGOVVN162134741&dID=99054&filename=VB_HopNhat02TT_+TT134+va+TT73_End.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search9",
+      "snippet": "VinaCapital được chọn để cùng dẫn dắt Quỹ Đầu tư Mạo hiểm Thành phố Hồ Chí Minh ... * Hệ thống giao dịch quỹ: Chứng",
+      "title": "Tập đoàn đầu tư và quản lý tài sản hàng đầu Việt Nam - VinaCapital",
+      "url": "https://vinacapital.com/vi//"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search14",
+      "snippet": "tư hàng đ ầu tại Vi ệt Nam, đư ợc l ựa ch ọn để đảm nhận vai trò ch ủ ch ốt trong vi",
+      "title": "THÔNG CÁO BÁO CHÍ",
+      "url": "https://vinacapital.com/wp-content/uploads/2026/04/TCBC_VinaCapital-duoc-chon-de-cung-dan-dat-Quy-Dau-tu-Mao-hiem-TPHCM.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kisvn.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Chứng khoán KIS Việt Nam (KIS) phối hợp cùng CTCP Quản lý Quỹ Đầu tư Dragon Capital Việt Nam (DCVFM) chính thức khởi động chương",
+      "title": "Nhận ngay 200.000 VNĐ khi mở tài khoản KIS và mua ETF trên DragonX",
+      "url": "https://www.kisvn.vn/nhan-thuong-200k-mua-etf-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search15",
+      "snippet": "Tôi hiểu rằng VinaCapital và đối tác của VinaCapital không chịu và không có bất kỳ nghĩa vụ pháp lý nào phải bồi thường cho",
+      "title": "VinaCapital",
+      "url": "https://vinacapital.com/wp-content/uploads/2023/02/Instruction-for-using-VinaCapital-MiO-app.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "infina.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Từ ngày 03/07/2023, để có thể tiếp tục mua bán chứng chỉ quỹ của Dragon Capital trên ứng dụng Infina, Quý nhà đầu tư cần",
+      "title": "Hướng dẫn mở tài khoản chứng chỉ quỹ Dragon Capital tại Infina",
+      "url": "https://infina.vn/blog/huong-dan-mo-tai-khoan-chung-chi-quy-dragon-capital-tai-infina/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Nếu bạn ở Việt Nam và mới bắt đầu, mình ưu tiên mua trực tiếp qua kênh chính thức của công ty quản lý quỹ** để dễ kiểm tra thông tin và được hỗ trợ:\n\n| Nơi mua | Phù hợp khi |\n|---|---|\n| **VinaCapital MiO** | Bạn muốn mua các quỹ do VinaCapital quản lý. Xem [hướng dẫn chính thức](https://wm.vinacapital.com/vi/investment-education/using-vinacapital-mio-app/). |\n| **DragonX của Dragon Capital** | Bạn muốn mua các quỹ của Dragon Capital. Xem [hướng dẫn mở tài khoản chính thức](https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx). |\n\nBạn cũng có thể mua qua **đại lý phân phối**, nhưng hãy kiểm tra đại lý có được công ty quản lý quỹ liệt kê trên website chính thức hay không. [VinaCapital hướng dẫn rõ nguyên tắc này](https://vinacapital.com/vi/).\n\n**Trước khi chuyển tiền, kiểm tra 4 điều:**\n- Vào website chính thức để lấy đường dẫn tải ứng dụng, tránh link từ nhóm chat.\n- Chuyển tiền đúng tài khoản được hướng dẫn chính thức; **không chuyển vào tài khoản cá nhân của người tư vấn**. [Cảnh báo giả mạo VinaCapital](https://baochinhphu.vn/vinacapital-canh-bao-lua-dao-mao-danh-de-keu-goi-dau-tu-102260115115951044.htm).\n- Đọc phí mua/bán, phí quản lý và thời gian nhận tiền khi bán.\n- **Uy tín không có nghĩa là bảo toàn vốn**: chứng chỉ quỹ vẫn có thể giảm giá; đừng tin lời cam kết lãi chắc chắn.\n\nBạn dự định đầu tư khoảng bao nhiêu và trong bao lâu? Mình có thể giúp bạn chọn **loại quỹ phù hợp**, thay vì chỉ chọn ứng dụng."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22173,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 556,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b015-3f0e-7432-b574-0fa8264aa65f",
+ "error": ""
+}

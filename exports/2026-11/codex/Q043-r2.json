@@ -1,0 +1,380 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q043-r2",
+ "prompt_id": "Q043",
+ "run": 2,
+ "question": "Ứng trước tiền bán chứng khoán là gì? Phí bao nhiêu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:02:07",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.9,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b018-076c-73a0-a188-4cee51053da0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-ee570fc1-1e56-4444-a81c-e7f1714fc413",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-ee570fc1-1e56-4444-a81c-e7f1714fc413",
+    "type": "web_search",
+    "query": "site.ssi.com.vn ứng trước tiền bán phí 0,03% ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn ứng trước tiền bán phí 0,03%",
+      "site.vps.com.vn ứng trước tiền bán phí",
+      "site.hsc.com.vn ứng trước tiền bán T+2 phí"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Ứng trước Tiền bán Chứng khoán (UT TBCK) là dịch vụ do HSC cung cấp nhằm hỗ trợ vốn cho Khách hàng, căn cứ trên",
+      "title": "Ứng trước Tiền bán Chứng khoán",
+      "url": "https://www.hsc.com.vn/vi/ung-truoc-tien-ban-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "smartone.vps.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "- Trong trường hợp không chắc chắn về mã CK, Qúy khách có thể tìm kiếm bằng cách nhấp chuột vào mục “Mã CK”, nhập",
+      "title": "VPS SmartOne – Nền tảng quản lý tài chính toàn diện",
+      "url": "https://smartone.vps.com.vn/Home/BriefUserGuide"
+     },
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Trong mọi trường hợp, số tiền ứng trước sẽ không vượt quá Tiền bán chứng khoán trừ phí giao dịch, Phí ứng ... Khách hàng",
+      "title": "BỘ ĐIỀU KHOẢN VÀ ĐIỀU KIỆN CỦA HỢP ĐỒNG MỞ TÀI KHOẢN CHỨNG KHOÁN",
+      "url": "https://images.vps.com.vn/2025/files/bo-dieu-khoan-va-dieu-kien-cua-hop-dong-mo-tai-khoan-chung-khoan-viet-nam-052025-30f5.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Email: support@hsc.com.vn hoặc ... * Đối với lệnh bán: Giá trị lệnh = Số tiền - Phí tạm tính 0.35% - Thuế 0.1%. ...",
+      "title": "Đặt lệnh",
+      "url": "https://www.hsc.com.vn/vi/dat-lenh"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Căn cứ theo Quyết định số 109/QĐ-VSD và Quyết định số 110/QĐ-VSD do Trung tâm lưu ký chứng khoán Việt Nam (VSD) ký ngày 19/08/2022,",
+      "title": "Thông báo rút ngắn thời gian thanh toán chứng khoán - H...",
+      "url": "https://hsc.com.vn/vi/news/notice-of-shortening-the-settlement-time-for-securities-with-t-2-settlement-cycle.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "* Phí giao dịch hấp dẫn ... ### Ứng trước tiền bán Dịch vụ giúp khách hàng nhận tiền ngay sau khi khớp lệnh bán",
+      "title": "Dịch vụ chứng khoán - BSC",
+      "url": "https://www.bsc.com.vn/dich-vu-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieuchungkhoan.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Theo quy định thanh toán bù trừ hiện hành trên thị trường chứng khoán Việt Nam (chu kỳ $T+2$), khi bạn đặt lệnh bán cổ",
+      "title": "Phí Ứng Trước Tiền Bán SSI 2026: Cách Tính & Mẹo Tối Ưu Phí - Hoàng - Tư vấn viên tại chứng khoán SSI",
+      "url": "https://cophieuchungkhoan.com.vn/phi-ung-truoc-tien-ban-chung-khoan-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "motaikhoan-doitac.vps.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "VPS được nhận Tiền bán chứng khoán để bù trừ nghĩa vụ Khách hàng hoàn trả cho VPS toàn bộ Số tiền ứng trước, Phí",
+      "url": "https://motaikhoan-doitac.vps.com.vn/Content/htmlTemp/BoTCHDMTK.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "ftp2.ssi.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN SSI ... TÍNH NĂNG ỨNG TRƯỚC TIỀN BÁN",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN SSI",
+      "url": "https://ftp2.ssi.com.vn/Customers/GDDT/Document/SSI_HDSD_Ung_truoc_tien_ban.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Chi tiết tại: https://www.hsc.com.vn/nop-tien/tai-khoan-co-phieu.html ... * Trường hợp chưa đăng ký Dịch vụ chuyển tiền trực tuyến, vui lòng đăng nhập ứng dụng HSC ONE",
+      "title": "Chuyển tiền",
+      "url": "https://www.hsc.com.vn/vi/chuyen-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search8",
+      "snippet": "Ứng trước tiền bán | 0,0389%/ngày, tối thiểu 50.000 đồng | 13,5%/năm, không có mức tối thiểu ... ## Mua bán cổ phiếu ở VPS",
+      "title": "VPS và VPBankS khác nhau thế nào? So sánh phí, margin 2026",
+      "url": "https://reviewchungkhoan.com/vps-hay-vpbanks/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vixs.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Bên trên có bảng chỉ số thị trường với các cột Chỉ số, Điểm, +/-, Tổng KLGD; các dòng VNINDEX, VN30, HNX, UPCOM. ... Ảnh",
+      "title": "PowerPoint Presentation",
+      "url": "https://vixs.vn/uploads/a64f5726-c696-485d-bef5-21180bdca037-Huong_dan_su_dung_Web_Trading_2.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "casin.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Ứng trước tiền bán chứng khoán tại SSI mất phí bao nhiêu? Mức phí ứng trước tiền bán thường dao động từ 0.038% đến 0.04%/ngày",
+      "title": "Phí giao dịch SSI: Thông tin, Biểu phí, Cách tính và Các chương trình ưu đãi",
+      "url": "https://casin.vn/phan-tich/co-phieu/phi-giao-dich-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search10",
+      "snippet": "Chuyển sang tài khoản chứng khoán của người khác cũng ở VPS bằng mục Trong VPS, miễn phí theo biểu phí chuyển tiền. ... VPS:",
+      "title": "Nạp tiền VPS và rút tiền VPS: số tài khoản, phí, thời gian",
+      "url": "https://reviewchungkhoan.com/nap-rut-tien-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "# Công ty cổ phần chứng khoán SSI ... hose: ssi | Cập nhật mới nhất 04/11/2026 ... 20,40 | 1,25 (0,00%) | 19,25 |",
+      "title": "Quan hệ nhà đầu tư",
+      "url": "https://www.ssi.com.vn/quan-he-nha-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsi.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Bên trái là khung nhập liệu theo tài khoản 888C000352 / Nguyễn Thị Anh Kiều, có các tab 00, 01, 02, 03, 04, 05, 06,",
+      "title": "Tài liệu hướng dẫn sử dụng altisss home v3",
+      "url": "https://www.bsi.com.vn/public/upload/files/Beta%20Trading%20Platform/Beta%20Pro%20%28HDSD%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "BƯỚC 3 Quý khách vui lòng chọn ngày giao dịch Quý khách muốn ứng trước tiền bán",
+      "title": "HƯ\nHƯỚỚNG DNG DẪẪNN   \n Ứ\nỨNG TNG TRƯRƯỚỚC TIC TIỀ",
+      "url": "https://www.shs.com.vn/Sites/QuoteVN/SiteRoot/documents/2025/HDungtientrenSHtrading.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search17",
+      "snippet": "<td>Ứng trước tiền bán</td> ... </table>10.1.2. ... những tư vấn chuyên sâu, giải pháp sáng tạo và quy trình thực hiện chuyên nghiệp.Để giúp khách",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://staticfile.hsx.vn/Uploads/LocalFiles/7f1857f50f9b4f61b6508c0b37a77382/20240201_20240201%20-%20Q.mua%20HSC%20-%20Ban%20cao%20bach%20CB%20CP%20cua%20HSC.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-e2b42717-b207-44bf-8e0d-1bc6d4a4308a",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-e2b42717-b207-44bf-8e0d-1bc6d4a4308a",
+    "type": "web_search",
+    "query": "site.ssi.com.vn \"ứng trước\" \"0,0389\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn \"ứng trước\" \"0,0389\"",
+      "site.hsc.com.vn \"ứng trước\" \"0,04%\"",
+      "site.ssi.com.vn \"ứng trước\" \"50.000\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "(Tương ứng 0,0389%/ngày) ... Dịch vụ Ứng trước tiền bán ... VNĐ/lần ứng)",
+      "title": "BIỂU PHÍ DỊCH VỤ TÀI CHÍNH",
+      "url": "https://images.vps.com.vn/2026/files/bieu-phi-dich-vu-tai-chinh---dvtc-ck-01062026-26e3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "one.hsc.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Đến ngày T+2 số tiền ứng trước sẽ được hoàn lại kèm theo một khoản phí nhỏ tùy thuộc vào quy định của công ty",
+      "title": "Ứng trước tiền bán chứng khoán là gì? Có mất phí không?",
+      "url": "https://one.hsc.com.vn/sp/blogs/ung-truoc-tien-ban-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn1search1",
+      "snippet": "## Trả lời nhanh: có nên mở tài khoản SSI? ... ~3 phút có số tài khoản eKYC, theo quảng bá của SSI ... Phí",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnrebates.co",
+      "ref_id": "turn1search2",
+      "snippet": "Phí quản lí tài sản kí quỹ: 0.0024% Giá trị lũy kế số dư tài sản ký quỹ (Tiền + Giá trị chứng khoán tính",
+      "title": "Công ty Chứng khoán",
+      "url": "https://vnrebates.co/cong-ty-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "<td>Phải thu của khách hàng</td> ... <td>- Phải thu các khoản ứng trước tiền bán chứng khoán cho người đầu tư</td> ... <td>- Phải thu",
+      "title": "Công ty Cổ phần Chứng khoán Sài GònBáo cáo tài chính hợp nhất",
+      "url": "https://www.ssi.com.vn/upload/file/0a90b1b5-7aad-49cb-ad1c-c0a9d50a2ee3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search3",
+      "snippet": "Ý nghĩa của tỷ lệ duy trì, tỷ lệ xử lý được giải thích ở bài tỷ lệ margin. ... SSI: ứng trước 0,0389%/ngày, thu",
+      "title": "SSI hay HSC? So sánh phí, lãi margin, danh mục margin 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-hsc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.japan-sec.vn",
+      "ref_id": "turn1search14",
+      "snippet": "<td>Số tiền chuyển tối thiểu: 50.000 VNĐ<br>Phí chuyển tiền: Thu theo biểu phí của ngân hàng thanh toán được chỉ định</td> ... <td>Phí ứng trước",
+      "title": "BỘ PHÍ DỊCH VỤ",
+      "url": "https://www.japan-sec.vn/wp-content/uploads/2025/12/Bieu-phi-dich-vu_Hieu-luc-tu-2026.02.09.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "topthuonghieu.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Khi nhà đầu tư có nhu cầu ứng trước tiền bán chứng khoán, SSI áp dụng mức phí là 0.0389%/ngày tính trên số tiền ứng",
+      "title": "Review Công Ty Cp Chứng Khoán Ssi Có Uy Tín Không?",
+      "url": "https://topthuonghieu.vn/review/doanh-nghiep/review-cong-ty-cp-chung-khoan-ssi-co-uy-tin-khong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search5",
+      "snippet": "SSI: hướng dẫn rút tiền, biểu giá chuyển khoản hiệu lực 11/02/2022, biểu giá dịch vụ tài chính cho ứng trước (0,0389%/ngày, thu ít nhất",
+      "title": "SSI hay TCBS? So sánh phí, lãi margin, API, phái sinh 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "MsoPapDefault {mso-style-type:export-only; margin-bottom:10.0pt; line-height:115%;} @page Section1 {size:8.5in 11.0in; margin:1.0in 1.0in 1.0in 1.0in; mso-header-margin:.5in; mso-footer-margin:.5in; m",
+      "title": "Tin SSI",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/tin-ssi?page=59"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienchungkhoan.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "* Nhà đầu tư có thể chủ động gửi yêu cầu ứng trước bất kỳ lúc nào khi có nhu cầu, thông qua các kênh",
+      "title": "Cách tối ưu phí ứng trước tiền bán SSI hiệu quả",
+      "url": "https://thuvienchungkhoan.com.vn/ung-truoc-tien-ban-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "note8.vn",
+      "ref_id": "turn1search8",
+      "snippet": "* Website: https://www.masvn.com ... Với dịch vụ ứng tiền trước bán, SSI thu phí 0,05 – 0,1%/lần ứng, tối thiểu 50.000 đồng/lần, tạo điều kiện",
+      "title": "TOP 12 công ty chứng khoán có phí giao dịch thấp nhất 2025",
+      "url": "https://note8.vn/top-12-cong-ty-chung-khoan-co-phi-giao-dich-thap-nhat-2025-6684"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search9",
+      "snippet": "SSI là công ty chứng khoán được cấp phép thật: Ủy ban Chứng khoán Nhà nước (UBCKNN) cấp Giấy phép thành lập và hoạt động",
+      "title": "SSI có uy tín không? Đánh giá Chứng khoán SSI",
+      "url": "https://reviewchungkhoan.com/ctck/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieuchungkhoan.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Căn cứ theo Biểu giá dịch vụ giao dịch chủ động của SSI và Biểu giá dịch vụ giao dịch có chuyên viên TVCK của",
+      "title": "Phí giao dịch tại SSI - Hoàng - Tư vấn viên tại chứng khoán SSI",
+      "url": "https://cophieuchungkhoan.com.vn/phi-giao-dich-tai-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "thebank.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Là định chế tài chính hàng đầu tại Việt Nam, SSI hoạt động trên các lĩnh vực dịch vụ tài chính lớn bao gồm Dịch",
+      "title": "Giới thiệu về Công ty chứng khoán SSI - biểu phí và thông tin cần thiết",
+      "url": "https://thebank.vn/blog/16603-gioi-thieu-ve-cong-ty-chung-khoan-ssi-bieu-phi-va-thong-tin-can-thiet.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Hai ảnh chụp màn hình ứng dụng chuyển tiền chứng khoán trên điện thoại, có mũi tên chỉ từ màn hình nhập liệu bên trái",
+      "title": "Tài liệu mô tả sản phẩm ‘Sức mua ứng trước’ - backoffice",
+      "url": "https://www.mbs.com.vn/uploads/files/Huong-dan-giao-dich/HDSD-chuyen-tien-online-tu-MB-sang-MBS-tren-App-MBBank.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Các hợp đồng này được đảm bảo bằng danh mục chứng khoán hoặc tài sản ròng của nhà đầu tư và có thời hạn hiệu",
+      "title": "Slide 1",
+      "url": "https://static2.vietstock.vn/vietstock/2016/5/6/MBS_2016.5.6_24bf387_005_2016.4.8_f40bae2_MBS_Bao_cao_thuong_nien_2015_signed.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Ứng trước tiền bán chứng khoán** là việc công ty chứng khoán cho bạn nhận và sử dụng sớm khoản tiền bán đã khớp lệnh nhưng đang chờ thanh toán, thay vì chờ đến **T+2 — ngày làm việc thứ hai sau ngày bán**. Khi tiền về, công ty tự động thu lại khoản đã ứng và phí. [Nguồn: HSC](https://www.hsc.com.vn/vi/ung-truoc-tien-ban-chung-khoan)\n\n### Phí bao nhiêu?\n**Không có mức phí chung**, tùy công ty và chính sách từng thời điểm. Ví dụ, HSC công bố mức **0,04%/ngày**. [Nguồn: HSC](https://one.hsc.com.vn/sp/blogs/ung-truoc-tien-ban-chung-khoan)\n\nCách tính thông thường:\n> **Phí = Số tiền ứng × Tỷ lệ phí/ngày × Số ngày tính phí**\n\nVí dụ: ứng **100 triệu đồng**, mức phí **0,04%/ngày**, tính **2 ngày** thì phí là **80.000 đồng**.\n\nBạn cần kiểm tra thêm **phí tối thiểu mỗi lần ứng** và **cách tính ngày nghỉ, lễ**; không nên mặc định T+2 nghĩa là chỉ bị tính phí 2 ngày. Phí ứng trước là khoản riêng, ngoài phí giao dịch bán.\n\n**Bạn đang dùng công ty chứng khoán nào?** Mình có thể tra mức phí cụ thể cho bạn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39341,
+    "cached_input_tokens": 23552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 486,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b018-076c-73a0-a188-4cee51053da0",
+ "error": ""
+}

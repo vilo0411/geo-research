@@ -1,0 +1,433 @@
+﻿month,prompt_id,group,run,entity,is_brand,rank_in_answer
+2026-11,Q001,1_kien_thuc,1,Phú Hưng,0,1
+2026-11,Q001,1_kien_thuc,2,TCBS,0,1
+2026-11,Q001,1_kien_thuc,3,Phú Hưng,0,1
+2026-11,Q002,1_kien_thuc,3,VPS,0,1
+2026-11,Q002,1_kien_thuc,3,SSI,0,2
+2026-11,Q003,1_kien_thuc,1,SSI,0,1
+2026-11,Q003,1_kien_thuc,2,SSI,0,1
+2026-11,Q003,1_kien_thuc,3,SSI,0,1
+2026-11,Q004,1_kien_thuc,1,VNDIRECT,0,1
+2026-11,Q004,1_kien_thuc,3,VNDIRECT,0,1
+2026-11,Q005,1_kien_thuc,1,VNDIRECT,0,1
+2026-11,Q005,1_kien_thuc,1,SSI,0,2
+2026-11,Q005,1_kien_thuc,1,BSC,0,3
+2026-11,Q005,1_kien_thuc,2,SSI,0,1
+2026-11,Q005,1_kien_thuc,2,VNDIRECT,0,2
+2026-11,Q005,1_kien_thuc,3,SSI,0,1
+2026-11,Q005,1_kien_thuc,3,TCBS,0,2
+2026-11,Q006,1_kien_thuc,1,VNDIRECT,0,1
+2026-11,Q006,1_kien_thuc,3,VNDIRECT,0,1
+2026-11,Q007,1_kien_thuc,1,VNDIRECT,0,1
+2026-11,Q009,2_chon_ctck,1,TCBS,0,1
+2026-11,Q009,2_chon_ctck,1,SSI,0,2
+2026-11,Q009,2_chon_ctck,1,VNDIRECT,0,3
+2026-11,Q009,2_chon_ctck,2,TCBS,0,1
+2026-11,Q009,2_chon_ctck,2,SSI,0,2
+2026-11,Q009,2_chon_ctck,2,VNDIRECT,0,3
+2026-11,Q009,2_chon_ctck,3,TCBS,0,1
+2026-11,Q009,2_chon_ctck,3,SSI,0,2
+2026-11,Q009,2_chon_ctck,3,VNDIRECT,0,3
+2026-11,Q009,2_chon_ctck,4,TCBS,0,1
+2026-11,Q009,2_chon_ctck,4,SSI,0,2
+2026-11,Q009,2_chon_ctck,5,TCBS,0,1
+2026-11,Q009,2_chon_ctck,5,SSI,0,2
+2026-11,Q009,2_chon_ctck,5,VNDIRECT,0,3
+2026-11,Q010,2_chon_ctck,1,DNSE,0,1
+2026-11,Q010,2_chon_ctck,1,TCBS,0,2
+2026-11,Q010,2_chon_ctck,1,Shinhan,0,3
+2026-11,Q010,2_chon_ctck,2,DNSE,0,1
+2026-11,Q010,2_chon_ctck,2,TCBS,0,2
+2026-11,Q010,2_chon_ctck,2,Shinhan,0,3
+2026-11,Q010,2_chon_ctck,3,DNSE,0,1
+2026-11,Q010,2_chon_ctck,3,Shinhan,0,2
+2026-11,Q010,2_chon_ctck,3,TCBS,0,3
+2026-11,Q010,2_chon_ctck,4,DNSE,0,1
+2026-11,Q010,2_chon_ctck,4,Shinhan,0,2
+2026-11,Q010,2_chon_ctck,4,TCBS,0,3
+2026-11,Q010,2_chon_ctck,5,DNSE,0,1
+2026-11,Q010,2_chon_ctck,5,TCBS,0,2
+2026-11,Q010,2_chon_ctck,5,Shinhan,0,3
+2026-11,Q011,2_chon_ctck,1,TCBS,0,1
+2026-11,Q011,2_chon_ctck,1,VNDIRECT,0,2
+2026-11,Q011,2_chon_ctck,2,TCBS,0,1
+2026-11,Q011,2_chon_ctck,2,SSI,0,2
+2026-11,Q011,2_chon_ctck,2,VNDIRECT,0,3
+2026-11,Q011,2_chon_ctck,3,TCBS,0,1
+2026-11,Q011,2_chon_ctck,3,SSI,0,2
+2026-11,Q011,2_chon_ctck,3,VNDIRECT,0,3
+2026-11,Q011,2_chon_ctck,4,TCBS,0,1
+2026-11,Q011,2_chon_ctck,4,VNDIRECT,0,2
+2026-11,Q011,2_chon_ctck,5,TCBS,0,1
+2026-11,Q011,2_chon_ctck,5,VNDIRECT,0,2
+2026-11,Q012,2_chon_ctck,1,SSI,0,1
+2026-11,Q012,2_chon_ctck,1,VPS,0,2
+2026-11,Q012,2_chon_ctck,1,TCBS,0,3
+2026-11,Q012,2_chon_ctck,1,Vietcap,0,4
+2026-11,Q012,2_chon_ctck,1,HSC,0,5
+2026-11,Q012,2_chon_ctck,1,MBS,0,6
+2026-11,Q012,2_chon_ctck,1,VNDIRECT,0,7
+2026-11,Q012,2_chon_ctck,1,KIS,0,8
+2026-11,Q012,2_chon_ctck,1,Mirae Asset,0,9
+2026-11,Q012,2_chon_ctck,1,VPBankS,0,10
+2026-11,Q012,2_chon_ctck,2,SSI,0,1
+2026-11,Q012,2_chon_ctck,2,TCBS,0,2
+2026-11,Q012,2_chon_ctck,2,VPS,0,3
+2026-11,Q012,2_chon_ctck,2,HSC,0,4
+2026-11,Q012,2_chon_ctck,2,VNDIRECT,0,5
+2026-11,Q012,2_chon_ctck,2,Vietcap,0,6
+2026-11,Q012,2_chon_ctck,2,MBS,0,7
+2026-11,Q012,2_chon_ctck,2,SHS,0,8
+2026-11,Q012,2_chon_ctck,2,ACBS,0,9
+2026-11,Q012,2_chon_ctck,2,VPBankS,0,10
+2026-11,Q012,2_chon_ctck,3,SSI,0,1
+2026-11,Q012,2_chon_ctck,3,TCBS,0,2
+2026-11,Q012,2_chon_ctck,3,VPS,0,3
+2026-11,Q012,2_chon_ctck,3,ACBS,0,4
+2026-11,Q012,2_chon_ctck,4,SSI,0,1
+2026-11,Q012,2_chon_ctck,4,TCBS,0,2
+2026-11,Q012,2_chon_ctck,4,VPS,0,3
+2026-11,Q012,2_chon_ctck,4,Vietcap,0,4
+2026-11,Q012,2_chon_ctck,4,HSC,0,5
+2026-11,Q012,2_chon_ctck,4,MBS,0,6
+2026-11,Q012,2_chon_ctck,4,VNDIRECT,0,7
+2026-11,Q012,2_chon_ctck,4,KIS,0,8
+2026-11,Q012,2_chon_ctck,4,Mirae Asset,0,9
+2026-11,Q012,2_chon_ctck,4,VPBankS,0,10
+2026-11,Q012,2_chon_ctck,5,SSI,0,1
+2026-11,Q012,2_chon_ctck,5,VPS,0,2
+2026-11,Q012,2_chon_ctck,5,TCBS,0,3
+2026-11,Q012,2_chon_ctck,5,Vietcap,0,4
+2026-11,Q012,2_chon_ctck,5,HSC,0,5
+2026-11,Q012,2_chon_ctck,5,MBS,0,6
+2026-11,Q012,2_chon_ctck,5,VNDIRECT,0,7
+2026-11,Q012,2_chon_ctck,5,KIS,0,8
+2026-11,Q012,2_chon_ctck,5,Mirae Asset,0,9
+2026-11,Q012,2_chon_ctck,5,VPBankS,0,10
+2026-11,Q013,2_chon_ctck,1,KIS,0,1
+2026-11,Q013,2_chon_ctck,1,DNSE,0,2
+2026-11,Q013,2_chon_ctck,1,KBSV,0,3
+2026-11,Q013,2_chon_ctck,2,TCBS,0,1
+2026-11,Q013,2_chon_ctck,2,VNDIRECT,0,2
+2026-11,Q013,2_chon_ctck,2,Kafi,0,3
+2026-11,Q013,2_chon_ctck,2,VPS,0,4
+2026-11,Q013,2_chon_ctck,3,DNSE,0,1
+2026-11,Q013,2_chon_ctck,3,TCBS,0,2
+2026-11,Q013,2_chon_ctck,3,VPS,0,3
+2026-11,Q013,2_chon_ctck,3,VNDIRECT,0,4
+2026-11,Q013,2_chon_ctck,4,An Bình,0,1
+2026-11,Q013,2_chon_ctck,4,TCBS,0,2
+2026-11,Q013,2_chon_ctck,4,DNSE,0,3
+2026-11,Q013,2_chon_ctck,4,KIS,0,4
+2026-11,Q013,2_chon_ctck,5,An Bình,0,1
+2026-11,Q013,2_chon_ctck,5,DNSE,0,2
+2026-11,Q013,2_chon_ctck,5,KIS,0,3
+2026-11,Q014,2_chon_ctck,1,TCBS,0,1
+2026-11,Q014,2_chon_ctck,1,SSI,0,2
+2026-11,Q014,2_chon_ctck,2,TCBS,0,1
+2026-11,Q014,2_chon_ctck,2,SSI,0,2
+2026-11,Q014,2_chon_ctck,3,TCBS,0,1
+2026-11,Q014,2_chon_ctck,3,SSI,0,2
+2026-11,Q014,2_chon_ctck,4,TCBS,0,1
+2026-11,Q014,2_chon_ctck,4,SSI,0,2
+2026-11,Q014,2_chon_ctck,5,TCBS,0,1
+2026-11,Q014,2_chon_ctck,5,SSI,0,2
+2026-11,Q014,2_chon_ctck,5,VPS,0,3
+2026-11,Q015,2_chon_ctck,1,SSI,0,1
+2026-11,Q015,2_chon_ctck,1,TCBS,0,2
+2026-11,Q015,2_chon_ctck,1,VPS,0,3
+2026-11,Q015,2_chon_ctck,2,SSI,0,1
+2026-11,Q015,2_chon_ctck,2,TCBS,0,2
+2026-11,Q015,2_chon_ctck,2,VNDIRECT,0,3
+2026-11,Q015,2_chon_ctck,3,TCBS,0,1
+2026-11,Q015,2_chon_ctck,3,SSI,0,2
+2026-11,Q015,2_chon_ctck,3,VNDIRECT,0,3
+2026-11,Q015,2_chon_ctck,4,TCBS,0,1
+2026-11,Q015,2_chon_ctck,4,VNDIRECT,0,2
+2026-11,Q015,2_chon_ctck,4,SSI,0,3
+2026-11,Q015,2_chon_ctck,5,TCBS,0,1
+2026-11,Q015,2_chon_ctck,5,VNDIRECT,0,2
+2026-11,Q016,2_chon_ctck,1,TCBS,0,1
+2026-11,Q016,2_chon_ctck,1,Pinetree,0,2
+2026-11,Q016,2_chon_ctck,1,DNSE,0,3
+2026-11,Q016,2_chon_ctck,1,Shinhan,0,4
+2026-11,Q016,2_chon_ctck,1,KIS,0,5
+2026-11,Q016,2_chon_ctck,2,TCBS,0,1
+2026-11,Q016,2_chon_ctck,2,DNSE,0,2
+2026-11,Q016,2_chon_ctck,2,Pinetree,0,3
+2026-11,Q016,2_chon_ctck,2,VPBankS,0,4
+2026-11,Q016,2_chon_ctck,3,TCBS,0,1
+2026-11,Q016,2_chon_ctck,3,DNSE,0,2
+2026-11,Q016,2_chon_ctck,3,Pinetree,0,3
+2026-11,Q016,2_chon_ctck,4,TCBS,0,1
+2026-11,Q016,2_chon_ctck,4,DNSE,0,2
+2026-11,Q016,2_chon_ctck,4,Pinetree,0,3
+2026-11,Q016,2_chon_ctck,4,Shinhan,0,4
+2026-11,Q016,2_chon_ctck,4,KBSV,0,5
+2026-11,Q016,2_chon_ctck,5,TCBS,0,1
+2026-11,Q016,2_chon_ctck,5,DNSE,0,2
+2026-11,Q016,2_chon_ctck,5,Shinhan,0,3
+2026-11,Q016,2_chon_ctck,5,Pinetree,0,4
+2026-11,Q017,2_chon_ctck,1,TCBS,0,1
+2026-11,Q017,2_chon_ctck,1,SSI,0,2
+2026-11,Q017,2_chon_ctck,1,VNDIRECT,0,3
+2026-11,Q017,2_chon_ctck,2,TCBS,0,1
+2026-11,Q017,2_chon_ctck,2,SSI,0,2
+2026-11,Q017,2_chon_ctck,2,VNDIRECT,0,3
+2026-11,Q017,2_chon_ctck,3,TCBS,0,1
+2026-11,Q017,2_chon_ctck,3,SSI,0,2
+2026-11,Q017,2_chon_ctck,3,VNDIRECT,0,3
+2026-11,Q017,2_chon_ctck,4,TCBS,0,1
+2026-11,Q017,2_chon_ctck,4,SSI,0,2
+2026-11,Q017,2_chon_ctck,4,VNDIRECT,0,3
+2026-11,Q017,2_chon_ctck,5,TCBS,0,1
+2026-11,Q017,2_chon_ctck,5,SSI,0,2
+2026-11,Q017,2_chon_ctck,5,VNDIRECT,0,3
+2026-11,Q018,2_chon_ctck,1,SSI,0,1
+2026-11,Q018,2_chon_ctck,1,TCBS,0,2
+2026-11,Q018,2_chon_ctck,1,VNDIRECT,0,3
+2026-11,Q018,2_chon_ctck,2,TCBS,0,1
+2026-11,Q018,2_chon_ctck,2,SSI,0,2
+2026-11,Q018,2_chon_ctck,2,VNDIRECT,0,3
+2026-11,Q018,2_chon_ctck,3,TCBS,0,1
+2026-11,Q018,2_chon_ctck,3,SSI,0,2
+2026-11,Q018,2_chon_ctck,3,VNDIRECT,0,3
+2026-11,Q018,2_chon_ctck,4,TCBS,0,1
+2026-11,Q018,2_chon_ctck,4,SSI,0,2
+2026-11,Q018,2_chon_ctck,4,VNDIRECT,0,3
+2026-11,Q018,2_chon_ctck,5,SSI,0,1
+2026-11,Q018,2_chon_ctck,5,TCBS,0,2
+2026-11,Q018,2_chon_ctck,5,HSC,0,3
+2026-11,Q019,2_chon_ctck,1,HSC,0,1
+2026-11,Q019,2_chon_ctck,1,SSI,0,2
+2026-11,Q019,2_chon_ctck,1,Vietcap,0,3
+2026-11,Q019,2_chon_ctck,1,VNDIRECT,0,4
+2026-11,Q019,2_chon_ctck,2,HSC,0,1
+2026-11,Q019,2_chon_ctck,2,SSI,0,2
+2026-11,Q019,2_chon_ctck,2,Vietcap,0,3
+2026-11,Q019,2_chon_ctck,2,MBS,0,4
+2026-11,Q019,2_chon_ctck,3,SSI,0,1
+2026-11,Q019,2_chon_ctck,3,HSC,0,2
+2026-11,Q019,2_chon_ctck,3,VNDIRECT,0,3
+2026-11,Q019,2_chon_ctck,4,HSC,0,1
+2026-11,Q019,2_chon_ctck,4,SSI,0,2
+2026-11,Q019,2_chon_ctck,4,VNDIRECT,0,3
+2026-11,Q019,2_chon_ctck,5,SSI,0,1
+2026-11,Q019,2_chon_ctck,5,HSC,0,2
+2026-11,Q019,2_chon_ctck,5,Vietcap,0,3
+2026-11,Q019,2_chon_ctck,5,VNDIRECT,0,4
+2026-11,Q020,2_chon_ctck,1,Chứng khoán DSC,1,1
+2026-11,Q020,2_chon_ctck,1,SSI,0,2
+2026-11,Q020,2_chon_ctck,2,Chứng khoán DSC,1,1
+2026-11,Q020,2_chon_ctck,2,SSI,0,2
+2026-11,Q020,2_chon_ctck,3,Chứng khoán DSC,1,1
+2026-11,Q020,2_chon_ctck,3,SSI,0,2
+2026-11,Q020,2_chon_ctck,4,Chứng khoán DSC,1,1
+2026-11,Q020,2_chon_ctck,4,SSI,0,2
+2026-11,Q020,2_chon_ctck,5,Chứng khoán DSC,1,1
+2026-11,Q020,2_chon_ctck,5,SSI,0,2
+2026-11,Q021,3_phi_margin,1,TCBS,0,1
+2026-11,Q021,3_phi_margin,1,Shinhan,0,2
+2026-11,Q021,3_phi_margin,2,TCBS,0,1
+2026-11,Q021,3_phi_margin,2,SSI,0,2
+2026-11,Q021,3_phi_margin,3,SSI,0,1
+2026-11,Q021,3_phi_margin,3,HSC,0,2
+2026-11,Q022,3_phi_margin,1,KIS,0,1
+2026-11,Q022,3_phi_margin,1,Pinetree,0,2
+2026-11,Q022,3_phi_margin,1,ACBS,0,3
+2026-11,Q022,3_phi_margin,1,KBSV,0,4
+2026-11,Q022,3_phi_margin,1,TCBS,0,5
+2026-11,Q022,3_phi_margin,1,SHS,0,6
+2026-11,Q022,3_phi_margin,1,DNSE,0,7
+2026-11,Q022,3_phi_margin,1,FPTS,0,8
+2026-11,Q022,3_phi_margin,1,Mirae Asset,0,9
+2026-11,Q022,3_phi_margin,1,Yuanta,0,10
+2026-11,Q022,3_phi_margin,1,SSI,0,11
+2026-11,Q022,3_phi_margin,1,Vietcap,0,12
+2026-11,Q022,3_phi_margin,1,VPBankS,0,13
+2026-11,Q022,3_phi_margin,1,MBS,0,14
+2026-11,Q022,3_phi_margin,1,VNDIRECT,0,15
+2026-11,Q022,3_phi_margin,1,VPS,0,16
+2026-11,Q022,3_phi_margin,1,HSC,0,17
+2026-11,Q022,3_phi_margin,2,SSI,0,1
+2026-11,Q022,3_phi_margin,2,VPS,0,2
+2026-11,Q022,3_phi_margin,2,HSC,0,3
+2026-11,Q022,3_phi_margin,2,Vietcap,0,4
+2026-11,Q022,3_phi_margin,2,VPBankS,0,5
+2026-11,Q022,3_phi_margin,2,TCBS,0,6
+2026-11,Q022,3_phi_margin,2,MBS,0,7
+2026-11,Q022,3_phi_margin,2,VNDIRECT,0,8
+2026-11,Q022,3_phi_margin,3,SSI,0,1
+2026-11,Q022,3_phi_margin,3,VPS,0,2
+2026-11,Q022,3_phi_margin,3,HSC,0,3
+2026-11,Q022,3_phi_margin,3,VNDIRECT,0,4
+2026-11,Q022,3_phi_margin,3,Vietcap,0,5
+2026-11,Q022,3_phi_margin,3,TCBS,0,6
+2026-11,Q023,3_phi_margin,1,Chứng khoán DSC,1,1
+2026-11,Q023,3_phi_margin,2,Chứng khoán DSC,1,1
+2026-11,Q023,3_phi_margin,3,Chứng khoán DSC,1,1
+2026-11,Q024,3_phi_margin,1,Chứng khoán DSC,1,1
+2026-11,Q024,3_phi_margin,2,Chứng khoán DSC,1,1
+2026-11,Q024,3_phi_margin,3,Chứng khoán DSC,1,1
+2026-11,Q025,3_phi_margin,1,Chứng khoán DSC,1,1
+2026-11,Q025,3_phi_margin,2,Chứng khoán DSC,1,1
+2026-11,Q025,3_phi_margin,3,Chứng khoán DSC,1,1
+2026-11,Q026,3_phi_margin,1,HSC,0,1
+2026-11,Q026,3_phi_margin,1,BSC,0,2
+2026-11,Q026,3_phi_margin,1,Phú Hưng,0,3
+2026-11,Q026,3_phi_margin,2,MBS,0,1
+2026-11,Q026,3_phi_margin,2,HSC,0,2
+2026-11,Q026,3_phi_margin,3,SSI,0,1
+2026-11,Q026,3_phi_margin,3,Phú Hưng,0,2
+2026-11,Q026,3_phi_margin,3,Vietcap,0,3
+2026-11,Q027,3_phi_margin,1,VFS,0,1
+2026-11,Q027,3_phi_margin,3,SSI,0,1
+2026-11,Q028,3_phi_margin,1,TCBS,0,1
+2026-11,Q028,3_phi_margin,1,VPBankS,0,2
+2026-11,Q028,3_phi_margin,1,MBS,0,3
+2026-11,Q028,3_phi_margin,2,TCBS,0,1
+2026-11,Q028,3_phi_margin,2,VPBankS,0,2
+2026-11,Q028,3_phi_margin,3,TCBS,0,1
+2026-11,Q028,3_phi_margin,3,HSC,0,2
+2026-11,Q029,4_mo_tai_khoan,1,SSI,0,1
+2026-11,Q029,4_mo_tai_khoan,1,VNDIRECT,0,2
+2026-11,Q029,4_mo_tai_khoan,2,SSI,0,1
+2026-11,Q029,4_mo_tai_khoan,2,VNDIRECT,0,2
+2026-11,Q029,4_mo_tai_khoan,3,SSI,0,1
+2026-11,Q029,4_mo_tai_khoan,3,VNDIRECT,0,2
+2026-11,Q030,4_mo_tai_khoan,2,TCBS,0,1
+2026-11,Q030,4_mo_tai_khoan,3,VNDIRECT,0,1
+2026-11,Q031,4_mo_tai_khoan,1,Chứng khoán DSC,1,1
+2026-11,Q031,4_mo_tai_khoan,2,VFS,0,1
+2026-11,Q031,4_mo_tai_khoan,3,ACBS,0,1
+2026-11,Q032,4_mo_tai_khoan,1,Vietcap,0,1
+2026-11,Q032,4_mo_tai_khoan,2,Vietcap,0,1
+2026-11,Q032,4_mo_tai_khoan,2,TCBS,0,2
+2026-11,Q032,4_mo_tai_khoan,3,Vietcap,0,1
+2026-11,Q032,4_mo_tai_khoan,3,TCBS,0,2
+2026-11,Q033,4_mo_tai_khoan,1,SSI,0,1
+2026-11,Q033,4_mo_tai_khoan,1,VPS,0,2
+2026-11,Q033,4_mo_tai_khoan,1,VNDIRECT,0,3
+2026-11,Q033,4_mo_tai_khoan,2,SSI,0,1
+2026-11,Q033,4_mo_tai_khoan,2,VPS,0,2
+2026-11,Q033,4_mo_tai_khoan,2,VNDIRECT,0,3
+2026-11,Q033,4_mo_tai_khoan,3,SSI,0,1
+2026-11,Q033,4_mo_tai_khoan,3,VPS,0,2
+2026-11,Q033,4_mo_tai_khoan,3,TCBS,0,3
+2026-11,Q034,4_mo_tai_khoan,1,Chứng khoán DSC,1,1
+2026-11,Q034,4_mo_tai_khoan,2,Chứng khoán DSC,1,1
+2026-11,Q034,4_mo_tai_khoan,3,Chứng khoán DSC,1,1
+2026-11,Q035,4_mo_tai_khoan,1,SSI,0,1
+2026-11,Q035,4_mo_tai_khoan,1,VNDIRECT,0,2
+2026-11,Q035,4_mo_tai_khoan,2,SSI,0,1
+2026-11,Q035,4_mo_tai_khoan,2,VNDIRECT,0,2
+2026-11,Q035,4_mo_tai_khoan,3,SSI,0,1
+2026-11,Q036,4_mo_tai_khoan,1,MBS,0,1
+2026-11,Q036,4_mo_tai_khoan,2,MBS,0,1
+2026-11,Q036,4_mo_tai_khoan,2,TCBS,0,2
+2026-11,Q036,4_mo_tai_khoan,3,MBS,0,1
+2026-11,Q037,5_san_pham,1,SSI,0,1
+2026-11,Q038,5_san_pham,1,TCBS,0,1
+2026-11,Q038,5_san_pham,1,SSI,0,2
+2026-11,Q038,5_san_pham,2,TCBS,0,1
+2026-11,Q038,5_san_pham,2,VNDIRECT,0,2
+2026-11,Q038,5_san_pham,3,TCBS,0,1
+2026-11,Q039,5_san_pham,1,TCBS,0,1
+2026-11,Q039,5_san_pham,1,FPTS,0,2
+2026-11,Q039,5_san_pham,2,TCBS,0,1
+2026-11,Q039,5_san_pham,3,FPTS,0,1
+2026-11,Q039,5_san_pham,3,TCBS,0,2
+2026-11,Q039,5_san_pham,3,SSI,0,3
+2026-11,Q040,5_san_pham,1,VPS,0,1
+2026-11,Q040,5_san_pham,1,VNDIRECT,0,2
+2026-11,Q040,5_san_pham,1,HSC,0,3
+2026-11,Q040,5_san_pham,2,VPS,0,1
+2026-11,Q040,5_san_pham,2,SSI,0,2
+2026-11,Q040,5_san_pham,2,VNDIRECT,0,3
+2026-11,Q040,5_san_pham,3,VPS,0,1
+2026-11,Q040,5_san_pham,3,SSI,0,2
+2026-11,Q040,5_san_pham,3,VNDIRECT,0,3
+2026-11,Q041,5_san_pham,1,VNDIRECT,0,1
+2026-11,Q041,5_san_pham,1,Vietcap,0,2
+2026-11,Q041,5_san_pham,1,Phú Hưng,0,3
+2026-11,Q041,5_san_pham,2,VNDIRECT,0,1
+2026-11,Q041,5_san_pham,2,HSC,0,2
+2026-11,Q041,5_san_pham,3,SSI,0,1
+2026-11,Q041,5_san_pham,3,Vietcap,0,2
+2026-11,Q042,5_san_pham,1,TCBS,0,1
+2026-11,Q042,5_san_pham,1,VNDIRECT,0,2
+2026-11,Q042,5_san_pham,2,VNDIRECT,0,1
+2026-11,Q042,5_san_pham,2,TCBS,0,2
+2026-11,Q042,5_san_pham,3,TCBS,0,1
+2026-11,Q043,5_san_pham,1,VNDIRECT,0,1
+2026-11,Q043,5_san_pham,1,SSI,0,2
+2026-11,Q043,5_san_pham,2,HSC,0,1
+2026-11,Q043,5_san_pham,3,VNDIRECT,0,1
+2026-11,Q044,5_san_pham,1,DNSE,0,1
+2026-11,Q044,5_san_pham,1,TCBS,0,2
+2026-11,Q044,5_san_pham,1,MBS,0,3
+2026-11,Q044,5_san_pham,1,VNDIRECT,0,4
+2026-11,Q044,5_san_pham,2,TCBS,0,1
+2026-11,Q044,5_san_pham,2,DNSE,0,2
+2026-11,Q044,5_san_pham,2,VNDIRECT,0,3
+2026-11,Q044,5_san_pham,2,Pinetree,0,4
+2026-11,Q044,5_san_pham,3,DNSE,0,1
+2026-11,Q044,5_san_pham,3,TCBS,0,2
+2026-11,Q044,5_san_pham,3,VNDIRECT,0,3
+2026-11,Q045,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q045,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q045,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q045,6_xac_minh,4,Chứng khoán DSC,1,1
+2026-11,Q045,6_xac_minh,5,Chứng khoán DSC,1,1
+2026-11,Q046,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q046,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q046,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q046,6_xac_minh,4,Chứng khoán DSC,1,1
+2026-11,Q046,6_xac_minh,5,Chứng khoán DSC,1,1
+2026-11,Q047,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q047,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q047,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q048,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q048,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q048,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q048,6_xac_minh,4,Chứng khoán DSC,1,1
+2026-11,Q048,6_xac_minh,5,Chứng khoán DSC,1,1
+2026-11,Q049,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q049,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q049,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q050,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q050,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q050,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q051,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q051,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q051,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q051,6_xac_minh,4,Chứng khoán DSC,1,1
+2026-11,Q051,6_xac_minh,5,Chứng khoán DSC,1,1
+2026-11,Q052,6_xac_minh,1,Chứng khoán DSC,1,1
+2026-11,Q052,6_xac_minh,2,Chứng khoán DSC,1,1
+2026-11,Q052,6_xac_minh,3,Chứng khoán DSC,1,1
+2026-11,Q052,6_xac_minh,4,Chứng khoán DSC,1,1
+2026-11,Q052,6_xac_minh,5,Chứng khoán DSC,1,1
+2026-11,Q053,7_van_hanh,1,Chứng khoán DSC,1,1
+2026-11,Q053,7_van_hanh,2,Chứng khoán DSC,1,1
+2026-11,Q053,7_van_hanh,3,Chứng khoán DSC,1,1
+2026-11,Q054,7_van_hanh,1,Chứng khoán DSC,1,1
+2026-11,Q054,7_van_hanh,2,Chứng khoán DSC,1,1
+2026-11,Q054,7_van_hanh,3,Chứng khoán DSC,1,1
+2026-11,Q055,7_van_hanh,1,Chứng khoán DSC,1,1
+2026-11,Q055,7_van_hanh,2,Chứng khoán DSC,1,1
+2026-11,Q055,7_van_hanh,3,Chứng khoán DSC,1,1
+2026-11,Q056,7_van_hanh,1,Chứng khoán DSC,1,1
+2026-11,Q056,7_van_hanh,2,Chứng khoán DSC,1,1
+2026-11,Q056,7_van_hanh,3,Chứng khoán DSC,1,1
+2026-11,Q057,7_van_hanh,1,SSI,0,1
+2026-11,Q057,7_van_hanh,1,VNDIRECT,0,2
+2026-11,Q057,7_van_hanh,2,SSI,0,1
+2026-11,Q057,7_van_hanh,3,SSI,0,1
+2026-11,Q057,7_van_hanh,3,VNDIRECT,0,2
+2026-11,Q058,7_van_hanh,1,TCBS,0,1
+2026-11,Q058,7_van_hanh,2,TCBS,0,1
+2026-11,Q058,7_van_hanh,2,ASEAN Securities,0,2
+2026-11,Q060,7_van_hanh,1,Chứng khoán DSC,1,1
+2026-11,Q060,7_van_hanh,2,Chứng khoán DSC,1,1
+2026-11,Q060,7_van_hanh,3,Chứng khoán DSC,1,1

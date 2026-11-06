@@ -1,0 +1,212 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q005-r1",
+ "prompt_id": "Q005",
+ "run": 1,
+ "question": "Margin trong chứng khoán là gì? Có rủi ro gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:36:39",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.6,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b000-b85e-7f80-b948-63b0507fc00c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-c65caf30-ada3-49cb-8ee4-4493204b274a",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-c65caf30-ada3-49cb-8ee4-4493204b274a",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn margin là gì call margin force sell",
+    "action": {
+     "type": "search",
+     "query": "site.vndirect.com.vn margin là gì call margin force sell"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "# Biểu phí lãi margin ... Mọi thông tin chi tiết và giải đáp thắc mắc, nhà đầu tư vui lòng liên hệ Tổng đài",
+      "title": "Biểu phí lãi margin - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-lai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ub.edu.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Call margin là tín hiệu cảnh báo sớm trước khi xảy ra force sell. ## Call margin là gì? ... * Ngưỡng call margin: thường",
+      "title": "Call margin là gì? | Thư viện thuật ngữ ngân hàng",
+      "url": "https://ub.edu.vn/thu-vien-thuat-ngu/call-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Force Sell (Bán giải chấp) xảy ra khi nhà đầu tư bỏ qua hoặc không xử lý Call Margin trong thời hạn quy định. ...",
+      "title": "Giao dịch ký quỹ (Margin) là gì?",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/95800-giao-dich-ky-quy-margin-la-gi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "# MARGIN - GIAO DỊCH KÝ QUỸ VNDIRECT ... Giao dịch ký quỹ: là sản phẩm hỗ trợ vốn mà VNDIRECT cung cấp cho khách",
+      "title": "MARGIN - GIAO DỊCH KÝ QUỸ VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360002244373-MARGIN-GIAO-D%E1%BB%8ACH-K%C3%9D-QU%E1%BB%B8-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search4",
+      "snippet": "# Call margin và giải chấp (force sell) là gì ... Image: Minh họa Call margin và giải chấp (force sell): cảnh công ty chứng",
+      "title": "Call margin là gì: gọi ký quỹ và bán giải chấp | HODL.VN",
+      "url": "https://www.hodl.vn/call-margin-giai-chap-la-gi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Thuật ngữ Call Margin trong chứng khoán được hiểu là một thông báo mà sàn giao dịch gửi đến nhà đầu tư để cảnh báo",
+      "title": "Call Margin là gì? Nhà đầu tư cần làm gì khi bị Call Margin? - Vietcap",
+      "url": "https://www.vietcap.com.vn/kien-thuc/call-margin-la-gi-nha-dau-tu-can-lam-gi-khi-bi-call-margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "# Call Margin - Force Sell LƯU Ý VỀ VIỆC CALL MARGIN (CẢNH BÁO) & FORCE SELL (BÁN XỬ LÝ) TỰ ĐỘNG ... * Bất",
+      "title": "Call Margin - Force Sell | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-ky-quy-theo-deal/call-margin-force-sell"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "# Call Margin - Force Sell PS ... Sau khi lệnh khớp, giá trị cọc của lệnh đó sẽ được nộp lại vào deal. ...",
+      "title": "Call Margin - Force Sell PS | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-chung-khoan-phai-sinh/call-margin-force-sell-ps"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tvsi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "**Tỷ lệ ký quỹ ban đầu (Initial Margin hay IM):** là tỷ lệ mà NĐT phải có để mua chứng khoán, trên tài khoản giao",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://www.tvsi.com.vn/TVSIDocument/HopdongMargin2016.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Margin call là gì? ... CTCK có quyền chủ động bán chứng khoán để thu hồi nợ margin (force sell) trong các trường hợp sau:",
+      "title": "Margin là gì? Khi nào nhà đầu tư nên sử dụng margin?",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "ainvest.aisec.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "<tr><td><b>Sức mua tối thiểu</b></td><td>= Tài sản ròng - Tổng giá trị ký quỹ - Tổng giá trị ký quỹ của lệnh mua chờ khớp (Giá",
+      "title": "Hướng dẫn sử dụng Giao dịch trực tuyến",
+      "url": "https://ainvest.aisec.com.vn/Templates/Huong_dan_giao_dich_truc_tuyen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dff.vn",
+      "ref_id": "turn0search9",
+      "snippet": "# Call margin, force sell là gì? ... Cụ thể, chỉ số VN-Index đã để mất hơn 100 điểm chỉ sau 4 phiên giao dịch",
+      "title": "Call margin, force sell là gì? Khi nào nhà đầu tư bị call margin?",
+      "url": "https://dff.vn/%E2%80%9Ccall-margin%E2%80%9D-%E2%80%9Cforce-sell%E2%80%9D-la-gi-khi-nao-nha-dau-tu-bi-%E2%80%9Ccall-margin%E2%80%9D-p21806.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "# Margin là gì và lưu ý khi sử dụng dành cho Nhà đầu tư F0 ... Đây là một dạng đòn bẩy tài chính",
+      "title": "Margin là gì và lưu ý khi sử dụng dành cho Nhà đầu tư F0 - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/margin-la-gi-va-luu-y-khi-su-dung-danh-cho-nha-dau-tu-f0/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Để đăng ký sản phẩm giao dịch ký quỹ (Margin), Quý khách vui lòng truy cập vào website: https://mydgo.vndirect.com.vn/ và làm theo các bước sau",
+      "title": "HƯỚNG DẪN ĐĂNG KÝ SẢN PHẨM GIAO DỊCH KÝ QUỸ (MARGIN) – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/25558075607321-H%C6%AF%E1%BB%9ANG-D%E1%BA%AAN-%C4%90%C4%82NG-K%C3%9D-S%E1%BA%A2N-PH%E1%BA%A8M-GIAO-D%E1%BB%8ACH-K%C3%9D-QU%E1%BB%B8-MARGIN"
+     },
+     {
+      "type": "text_result",
+      "domain": "mbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Force sell do tỷ lệ ký quỹ của tài khoản xuống dưới tỷ lệ Call margin ... Tỷ lệ Call margin",
+      "title": "THÔNG BÁO \n(V/v: Chính sách dịch vụ Margin) \n \nKín",
+      "url": "https://mbs.com.vn/uploads/files/SSG/TB-chinh-sach-DV-Margin-tu-18_6_15.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tvsi.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Sàn giao dịch của mọi nhà ... CALL MARGIN = LMV * call_LMV ... FORCE SELL = LMV * force_LMV ... Đối với mỗi loại",
+      "title": "TVSI  \nSàn giao dịch của mọi nhà\n\nHƯỚNG DẪN GIAO D",
+      "url": "https://www.tvsi.com.vn/Document/TVSI_HDsudungiTradePRO.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube17",
+      "snippet": "# Hướng dẫn sử dụng Margin Vndirect an toàn ko bị Call Margin ... Hướng dẫn sử dụng Margin Vndirect an toàn ko bị Call",
+      "title": "Hướng dẫn sử dụng Margin Vndirect an toàn ko bị Call Margin - YouTube",
+      "url": "https://www.youtube.com/watch?v=rpa3MtACiPc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube18",
+      "snippet": "12:53 Force sell ... Call margin là gì? ... Fanpage: / simplize.vn",
+      "title": "làm gì khi bị call margin? - YouTube",
+      "url": "https://www.youtube.com/watch?v=KSmj9LUXRY0"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Margin (giao dịch ký quỹ)** là việc bạn **vay tiền của công ty chứng khoán để mua cổ phiếu**, dùng tài sản trong tài khoản làm bảo đảm. Bạn phải trả lãi cho khoản vay này. [Giải thích của VNDIRECT](https://www.vndirect.com.vn/margin-la-gi-va-luu-y-khi-su-dung-danh-cho-nha-dau-tu-f0/)\n\n### Ví dụ dễ hiểu\nBạn có **100 triệu**, vay thêm **100 triệu** để mua **200 triệu đồng cổ phiếu**:\n\n| Giá cổ phiếu | Giá trị cổ phiếu | Vốn còn lại sau khi trừ nợ gốc | Lãi/lỗ trên vốn tự có |\n|---|---:|---:|---:|\n| Tăng 10% | 220 triệu | 120 triệu | **Lãi 20%** |\n| Giảm 10% | 180 triệu | 80 triệu | **Lỗ 20%** |\n\n*Ví dụ chưa tính lãi vay, thuế và phí.*\n\n### Có những rủi ro gì?\n- **Lỗ bị khuếch đại:** Giá cổ phiếu giảm ít nhưng vốn tự có có thể giảm nhiều, như ví dụ trên.\n- **Lãi vay vẫn phát sinh:** Dù cổ phiếu giảm hoặc đi ngang, bạn vẫn phải trả lãi, làm tăng lỗ hoặc giảm lợi nhuận. [SSI](https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin)\n- **Call margin — yêu cầu bổ sung tài sản:** Khi tỷ lệ an toàn xuống thấp, bạn có thể phải nộp thêm tiền/tài sản hoặc bán bớt cổ phiếu để giảm nợ.\n- **Bán giải chấp:** Khi chạm điều kiện xử lý, công ty chứng khoán có thể bán cổ phiếu để thu hồi nợ, kể cả lúc giá đang thấp. Ngưỡng và thời hạn xử lý tùy chính sách, hợp đồng của từng công ty. [BSC](https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/95800-giao-dich-ky-quy-margin-la-gi/)\n\n**Tóm lại:** Margin khuếch đại cả lãi lẫn lỗ, chứ không làm khoản đầu tư an toàn hơn. Nếu mới bắt đầu, nên ưu tiên dùng tiền tự có; trước khi vay, cần hiểu rõ lãi suất, ngưỡng call margin và điều kiện bán giải chấp."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21994,
+    "cached_input_tokens": 13568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 605,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b000-b85e-7f80-b948-63b0507fc00c",
+ "error": ""
+}

@@ -1,0 +1,191 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q057-r2",
+ "prompt_id": "Q057",
+ "run": 2,
+ "question": "Giờ giao dịch chứng khoán Việt Nam",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:10:47",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 19.8,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01f-f85d-7173-9bca-eae450d4998e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-ff8c1165-24a7-4a93-b5b8-1d47ae14cdeb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-ff8c1165-24a7-4a93-b5b8-1d47ae14cdeb",
+    "type": "web_search",
+    "query": "site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45",
+      "site.hnx.vn thời gian giao dịch cổ phiếu 9h 11h30 13h 15h"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "# Quy định giao dịch tại HSX ... 14h30 - 14h45 | Khớp lệnh định kỳ đóng cửa | ATC, LO Không được sửa lệnh/hủy",
+      "title": "Quy định giao dịch tại HSX",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "9h00 - 11h30 & 13h00 - 15h00 | Khớp lệnh thỏa thuận | Lệnh thỏa thuận ... Lệnh mua/ bán cổ phiếu, chứng chỉ quỹ",
+      "title": "Quy định giao dịch tại HNX",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hnx"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# Quy định giao dịch tại HSX ... ##### Thời gian giao dịch Giao dịch từ thứ Hai đến thứ Sáu hàng tuần, trừ các",
+      "title": "Quy định giao dịch tại HSX",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "# Quy định giao dịch tại sàn HNX ... Thời gian giao dịch chứng khoán niêm yết từ thứ Hai đến thứ Sáu hàng tuần,",
+      "title": "Quy định giao dịch tại sàn HNX – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360002241873-Quy-%C4%91%E1%BB%8Bnh-giao-d%E1%BB%8Bch-t%E1%BA%A1i-s%C3%A0n-HNX"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "# Quy định giao dịch tại sàn HSX ... Giao dịch thỏa thuận | 9h00 - 11h30 | ... * Khớp lệnh định kỳ đóng",
+      "title": "Quy định giao dịch tại sàn HSX – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360002192174-Quy-%C4%91%E1%BB%8Bnh-giao-d%E1%BB%8Bch-t%E1%BA%A1i-s%C3%A0n-HSX"
+     },
+     {
+      "type": "text_result",
+      "domain": "upcom.hnx.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Thị trường cổ phiếu niêm yết HNX có kết cấu gồm phiên khớp lệnh liên tục từ 9h00-14h30 (nghỉ trưa từ 11h30-13h00) và phiên khớp",
+      "title": "Hỏi đáp",
+      "url": "https://upcom.hnx.vn/vi-vn/hoi-dap.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Quy định giao dịch của HSX ... Thời gian giao dịch từ thứ Hai đến thứ Sáu hằng tuần, trừ các ngày nghỉ theo quy",
+      "title": "1.1. Quy định giao dịch của HSX",
+      "url": "https://www.hsc.com.vn/vi/11-quy-dinh-giao-dich-cua-hsx"
+     },
+     {
+      "type": "text_result",
+      "domain": "vtgs.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Sàn None | Thời gian 09h - 09h15 | 09h15 - 11h30 | 11h30 - 13h | 13h - 14h30 | 14h30 - 14h45 |",
+      "title": "MỤC LỤC \n \nI. \nThời gian giao dịch ...............",
+      "url": "https://vtgs.vn/uploads/2025/5/Tai_lieu_huong_dan_Nha_dau_tu_GDCK_05_2025_f5c25d4f3d.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "gtht.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "## Quy định giao dịch chứng khoán tại sàn HNX ... Từ 9h00 đến 15h00 từ thứ Hai đến thứ Sáu hàng tuần, trừ các",
+      "title": "Quy định giao dịch chứng khoán tại sàn HNX - Chứng Khoán Guotai Haitong (Việt Nam)",
+      "url": "https://gtht.com.vn/support/huong-dan-giao-dich-chung-khoan-tai-san-hnx/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ccbonds.hnx.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Thời gian giao dịch tại Sở giao dịch Chứng khoán Hà Nội? ... Phiên Sáng: Từ 8h30-11h00 Phiên Chiều: Từ 13h00-14h15 ... Năng lực tài",
+      "title": "Hỏi đáp",
+      "url": "https://ccbonds.hnx.vn/vi-vn/hoi-dap.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* # Quy định giao dịch đối với sàn HSX ... SGDCK tổ chức giao dịch chứng khoán từ thứ Hai đến thứ Sáu hàng",
+      "title": "Quy định giao dịch đối với sàn HSX",
+      "url": "https://dsc.com.vn/huong-dan/quy-dinh-giao-dich-doi-voi-hsx?id=901530%40"
+     },
+     {
+      "type": "text_result",
+      "domain": "nhsv.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Đối với cổ phiểu lẻ trên sàn HNX, Upcom: ... – Thời gian thanh toán: Lệnh giao dịch lô lẻ sau khi khớp cũng được",
+      "title": "Hướng dẫn giao dịch cổ phiếu lẻ",
+      "url": "https://nhsv.vn/page/huong-dan-giao-dich-co-phieu-le.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Quy định giao dịch của HSX ... Thời gian giao dịch từ thứ Hai đến thứ Sáu hằng tuần, trừ các ngày nghỉ theo quy",
+      "title": "1.1. Quy định giao dịch của HSX - HSC",
+      "url": "https://hsc.com.vn/transaction-regulations/hsx-trading-regulations.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.cts.vn",
+      "ref_id": "turn0search13",
+      "snippet": "| Giao dịch thỏa thuận | 09h00 – 11h30 | ... | Giao dịch thỏa thuận | Trong phiên: 9h00 – 11h30 13h00 – 14h45",
+      "title": "Quy định giao dịch chứng khoán tại HNX1. Thời gian giao dịch chứng khoán niêm yếtTừ Thứ Hai đến Thứ Sáu hàng tuần, trừ ngày nghỉ lễ theo quy định của Luật lao động hoặc quyết định của Ủy ban Chứng khoán Nhà nước.1.1. Đối với giao dịch Cổ phiếu, chứng chỉ quỹ ETF niêm yếtPhiên  | Thời gian  | Phương thức giao dịch",
+      "url": "https://www.cts.vn/wp-content/uploads/2025/08/KRX_2.Quy-dinh-giao-dich-chung-khoan-tai-HNX.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vncsi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Quy đi ̣nh giao di ̣ch của HNX ... Thời gian giao dịch: ... 9h00’ đến 11h30’ ... 11h30’ đến 13h00’ ... dịch đầu tiên",
+      "title": "Quy đi ̣nh giao di ̣ch của HNX",
+      "url": "https://vncsi.com.vn/images/products/download_file/huong-dan-giao-dich-tai_hnx_1691139775.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Giờ giao dịch cổ phiếu Việt Nam** theo giờ Việt Nam (UTC+7), từ **thứ Hai đến thứ Sáu**, trừ ngày nghỉ lễ, Tết:\n\n| Phiên giao dịch | HOSE | HNX | UPCoM |\n|---|---|---|---|\n| Mở cửa ATO | 9:00–9:15 | Không có | Không có |\n| Khớp lệnh liên tục buổi sáng | 9:15–11:30 | 9:00–11:30 | 9:00–11:30 |\n| **Nghỉ trưa** | **11:30–13:00** | **11:30–13:00** | **11:30–13:00** |\n| Khớp lệnh liên tục buổi chiều | 13:00–14:30 | 13:00–14:30 | 13:00–15:00 |\n| Đóng cửa ATC | 14:30–14:45 | 14:30–14:45 | Không có |\n| Khớp lệnh sau giờ | Không có | 14:45–15:00 | Không có |\n\n**Lưu ý:** HOSE vẫn có giao dịch **thỏa thuận đến 15:00**, dù khớp lệnh thông thường kết thúc lúc 14:45.\n\nNguồn: [Quy định HOSE – SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx), [Quy định HNX – SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hnx), [UPCoM – HNX](https://upcom.hnx.vn/vi-vn/hoi-dap.html)."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22044,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 478,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01f-f85d-7173-9bca-eae450d4998e",
+ "error": ""
+}

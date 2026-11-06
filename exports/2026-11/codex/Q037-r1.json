@@ -1,0 +1,200 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q037-r1",
+ "prompt_id": "Q037",
+ "run": 1,
+ "question": "Mua chứng chỉ quỹ ở đâu uy tín?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:58:58",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 29.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b015-2775-7db1-a13e-9750ce0c736d"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-219d4424-d3db-4d8f-a244-607f6cf053a9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-219d4424-d3db-4d8f-a244-607f6cf053a9",
+    "type": "web_search",
+    "query": "site.vina capital.com mua chứng chỉ quỹ VinaCapital MiO ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vina capital.com mua chứng chỉ quỹ VinaCapital MiO",
+      "site.dragoncapital.com.vn mua chứng chỉ quỹ DragonX",
+      "site.ssi.com.vn SSIAM mua chứng chỉ quỹ đại lý phân phối"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Trong đó, quỹ đại chúng được hình thành từ vốn góp của các nhà đầu tư với mục đích kiếm lợi nhuận từ việc đa",
+      "title": "Chứng chỉ quỹ",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/san-pham/chung-chi-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Mức đầu tư tối thiểu chỉ từ 100.000 đồng và miễn phí mua chứng chỉ quỹ. ... DragonX là ứng dụng đầu tư chứng chỉ",
+      "title": "Mở tài khoản chứng chỉ quỹ online trên DragonX: 3 bước, eKYC trong 5 phút - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search12",
+      "snippet": "Nhà đầu tư mua Chứng chỉ Quỹ những lần tiếp theo cần điền đầy đủ vào phiếu Lệnh Mua được đính kèm theo Đơn Đăng",
+      "title": "PHỤ LỤC 01: QUY TRÌNH VÀ CÁC HƯỚNG DẪN GIAO DỊCH CHỨNG CHỈ QUỸ",
+      "url": "https://vinacapital.com/wp-content/uploads/2025/04/20241001_VDEF-Ban-cao-bach-sua-doi-bo-sung-10.2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "• Liên kết tài khoản KIS sẵn có: khách hàng trong nước hoặc nước ngoài có số điện thoại và giấy tờ tuỳ thân trùng",
+      "title": "10 câu hỏi thường gặp khi giao dịch quỹ ETF trên DragonX - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/10-cau-hoi-thuong-gap-ve-quy-etf-tren-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.momo.vn",
+      "ref_id": "turn0search3",
+      "snippet": "* Nắm giữ và tiếp tục giao dịch trực tiếp trên nền tảng của các Công ty Quản lý quỹ tương ứng như: Công ty",
+      "title": "Thông báo: MoMo dừng hỗ trợ Dịch vụ Chứng Chỉ Quỹ từ 01/07/2026 và ra mắt mô hình mới Chứng Chỉ Quỹ CVS",
+      "url": "https://www.momo.vn/tin-tuc/khuyen-mai/thong-bao-momo-dung-ho-tro-dich-vu-chung-chi-quy-8695"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search4",
+      "snippet": "VinaCapital hợp tác cùng Chứng khoán Rồng Việt phân phối chứng chỉ quỹ mở ... * Hệ thống giao dịch quỹ: Chứng chỉ quỹ mở",
+      "title": "Tập đoàn đầu tư và quản lý tài sản hàng đầu Việt Nam - VinaCapital",
+      "url": "https://vinacapital.com/vi//"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Thời điểm khớp lệnh: Lệnh đặt trước 14:30 ngày làm việc T sẽ khớp theo NAV của ngày T. ... * Phí mua: Dragon",
+      "title": "Hướng dẫn đặt lệnh đầu tư trên DragonX - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-dat-lenh-dau-tu-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search13",
+      "snippet": "Nhà đầu tư có thể đăng ký mua Chứng chỉ Quỹ VINACAPITAL-VMEEF sau đợt phát hành lần đầu thông qua các địa điểm phân phối",
+      "title": "5. Mua Chứng chỉ quỹ",
+      "url": "https://vinacapital.com/wp-content/uploads/2024/08/20240805_VMEEF-Ban-cao-bach-sua-doi-bo-sung-08.2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube14",
+      "snippet": "Host Ngọc Quyên cùng anh Đoàn Duy (Giám đốc Mảng Kinh doanh số - \"Cha đẻ\" đứng sau ứng dụng DragonX) sẽ bật mí toàn",
+      "title": "Cách Đầu Tư Chứng Chỉ Quỹ & Bí Quyết Tích Lũy Bền Vững | Quỹ Mở 101 - Tập 5 | Đoàn Duy - YouTube",
+      "url": "https://www.youtube.com/watch?v=4ytboJSPUP8"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "* “Giấy đăng ký mở tài khoản giao dịch chứng chỉ quỹ mở” của SSIAM ... + Đặt lệnh qua đại lý SSI: điền thông",
+      "title": "Hướng dẫn giao dịch",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/huong-dan-giao-dich-vlgf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.trinitythai.com",
+      "ref_id": "turn0search15",
+      "snippet": "Tuy nhiên, áp lực bán cũng tăng theo khi nhiều nhóm cổ phiếu bị chốt lời ở vùng giá cao tập trung ở những nhóm",
+      "title": "Document1",
+      "url": "https://www.trinitythai.com/Upload/SSI-SC_1588827819_50715.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Sản phẩm, Dịch vụ đối với chứng khoán niêm yết: Mở tài khoản giao dịch, Môi giới, Tư vấn giao dịch, Thực hiện lệnh, Thanh",
+      "title": "PHẦN 1 - TỔNG QUAN",
+      "url": "https://stream.vnx.vn/VNX/cims/2025/4_W2/000000014758500_20250408__SSI__Bao_cao_phat_trien_ben_vung_nam_2024_signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search17",
+      "snippet": "• Tôi hiểu và chấp nhận VinaCapital có thể phải cung cấp thông tin về tài khoản này cho cơ quan quản lý liên quan",
+      "title": "VinaCapital",
+      "url": "https://vinacapital.com/wp-content/uploads/2023/02/Instruction-for-using-VinaCapital-MiO-app.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "wm.vinacapital.com",
+      "ref_id": "turn0search7",
+      "snippet": "* Theo quy định tại Khoản 4 Điều 22, Thông Tư 98/2020/TT-BTC về “hướng dẫn hoạt động và quản lý quỹ đầu tư chứng khoán”",
+      "title": "Kiến thức đầu tư - VinaCapital",
+      "url": "https://wm.vinacapital.com/vi/investment-education/"
+     },
+     {
+      "type": "text_result",
+      "domain": "infina.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Từ ngày 03/07/2023, để có thể tiếp tục mua bán chứng chỉ quỹ của Dragon Capital trên ứng dụng Infina, Quý nhà đầu tư cần",
+      "title": "Hướng dẫn mở tài khoản chứng chỉ quỹ Dragon Capital tại Infina",
+      "url": "https://infina.vn/blog/huong-dan-mo-tai-khoan-chung-chi-quy-dragon-capital-tai-infina/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.trinitythai.com",
+      "ref_id": "turn0search19",
+      "snippet": "SSIAM gửi Quý Nhà Đầu Tư thông tin Giá Trị Tài Sản Ròng của Quỹ SSI-SCA tại ngày giao dịch 09/10/2020 như ... : Standard",
+      "title": "CÔNG TY TNHH QUẢN LÝ QUỸ SSI",
+      "url": "https://www.trinitythai.com/Upload/SSI-SC_1602240216_99899.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn ở Việt Nam và muốn mua **chứng chỉ quỹ mở**, mình ưu tiên **mua trực tiếp qua công ty quản lý quỹ hoặc đại lý phân phối chính thức**. Một số kênh đáng cân nhắc:\n\n| Nơi mua | Phù hợp khi |\n|---|---|\n| **Dragon Capital – ứng dụng DragonX** | Muốn mua trực tiếp các quỹ của Dragon Capital. DragonX là ứng dụng chính thức của đơn vị này. [Hướng dẫn chính thức](https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx) |\n| **VinaCapital – ứng dụng MiO** | Muốn đầu tư các quỹ của VinaCapital. Hãng xác nhận giao dịch qua MiO hoặc đại lý chính thức được liệt kê trên website. [Website VinaCapital](https://vinacapital.com/vi/) |\n| **Chứng khoán SSI – kênh phân phối chứng chỉ quỹ** | Muốn giao dịch qua công ty chứng khoán, đặc biệt nếu đã là khách hàng SSI. [Thông tin sản phẩm](https://www.ssi.com.vn/khach-hang-ca-nhan/san-pham/chung-chi-quy) |\n\n**Trước khi chuyển tiền, nên kiểm tra:**\n- Tải ứng dụng từ đường dẫn trên **website chính thức**, không qua người lạ gửi link.\n- Chuyển đúng tài khoản được hướng dẫn chính thức; **không chuyển vào tài khoản cá nhân của “chuyên viên”**.\n- Đọc phí quản lý, phí bán sớm, lịch giao dịch và thời gian nhận tiền.\n- Tránh nơi cam kết “lãi cao, bảo toàn vốn”. **Kênh mua uy tín không có nghĩa là quỹ không thể lỗ**; giá chứng chỉ quỹ có thể giảm. [Lưu ý từ VinaCapital](https://wm.vinacapital.com/vi/investment-education/)\n\n**Nếu mới bắt đầu:** chọn mua trực tiếp qua DragonX hoặc MiO sẽ giúp bạn bớt một lớp trung gian; sau đó chọn quỹ theo nhu cầu, không chỉ theo lợi nhuận năm vừa qua.\n\nBạn định đầu tư khoảng bao nhiêu mỗi tháng và trong bao lâu?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22206,
+    "cached_input_tokens": 14592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 574,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b015-2775-7db1-a13e-9750ce0c736d",
+ "error": ""
+}

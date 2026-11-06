@@ -1,0 +1,388 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q017-r3",
+ "prompt_id": "Q017",
+ "run": 3,
+ "question": "Mở tài khoản chứng khoán ở Hà Nội nên chọn công ty nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:48:11",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 38.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00b-4e7d-7fc0-af43-f7333c244f9c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-fc5ef3d5-daa4-4406-ba71-698fccbcbaa9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-fc5ef3d5-daa4-4406-ba71-698fccbcbaa9",
+    "type": "web_search",
+    "query": "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 mở tài khoản chi nhánh Hà Nội ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 mở tài khoản chi nhánh Hà Nội",
+      "site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở DGO Hà Nội",
+      "site.tcbs.com.vn phí giao dịch cổ phiếu TCInvest zero fee"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Phí giao dịch chứng khoán cơ sở tại VNDIRECT phụ thuộc vào gói tài khoản Quý khách đăng ký: ... Ngoài phí giao dịch chứng",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Bi%E1%BB%83u-ph%C3%AD-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-c%C6%A1-s%E1%BB%9F"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "1 | Giao dịch cơ sở và giao dịch chứng quyền không do VNDIRECT phát hành* | Phí bậc thang từ 0,15%/GTGD ... 3 |",
+      "title": "Biểu phí dịch vụ giao dịch chứng khoán tại VNDIRECT - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Các giao dịch trực tuyến chuyển khoản từ tài khoản chứng khoán TCBS sang tài khoản ngân hàng thụ hưởng trong và ngoài Techcombank: Miễn",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "(Qua nhân viên SSI) ... * Giá dịch vụ giao dịch Hợp đồng tương lai VN30⁤ (HĐTLVN30) và VN100⁤ (HĐTLVN100) ... * Giá dịch vụ",
+      "title": "Biểu giá dịch vụ giao dịch chủ động",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Mở tài khoản chứng khoán 100% online, miễn phí giao dịch cổ phiếu và nhận nhiều ưu đãi hấp dẫn cho giao dịch trong 60",
+      "title": "Mở Tài Khoản TCBS Nhận Trọn Bộ Ưu Đãi Đầu Tư",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-mo-tai-khoan-tcbs-2/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "### DGO INVESTMENT CONSULTANCY & MANAGEMENT SERVICES ... DWEALTH DMA VNVALUE | Minimum investment amount: 20,000,000 VND | Free registration fee PFee for portfolio management:",
+      "title": "Biểu phí dịch vụ - Các dịch vụ của VNDIRECTCông ty cổ phần chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/en/service-fee-schedule/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "#### Zero Fee – Miễn phí giao dịch Miễn phí giao dịch cổ phiếu cơ sở, phái sinh, chứng quyền và Chứng chỉ Quỹ niêm",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Liên kết tài khoản ngân hàng Techcombank để chuyển tiền tức thì không mất phí. ... TCBS (Techcom Securities) là cái tên tiên phong mở",
+      "title": "Review TCBS Securities: Có nên mở tài khoản TCBS không? (2026) | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-tcbs-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Bước vào năm thứ 2 triển khai chính sách Zero fee, giá trị giao dịch chứng khoán qua TCBS đạt hơn 1,4 triệu tỷ đồng,",
+      "title": "MẢNG DỊCH VỤ CHỨNG KHOÁN",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-24/155706_000000014665875_VI_BaoCaoThuongNien_2024.pdf_TCBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Khi Quý khách sở hữu chứng khoán trên tài khoản chứng khoán thì sẽ phát sinh phí lưu ký. ... Quý khách có thể đặt",
+      "title": "Nguyên tắc giao dịch – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/38641828396953-Nguy%C3%AAn-t%E1%BA%AFc-giao-d%E1%BB%8Bch"
+     },
+     {
+      "type": "text_result",
+      "domain": "sgbank.vn",
+      "ref_id": "turn0search9",
+      "snippet": "# App TCInvest – Ứng dụng đầu tư chứng khoán của Techcombank | App chứng khoán TCBS ... * Bước 3: Khi tải thành công",
+      "title": "App TCInvest - Ứng dụng đầu tư chứng khoán của Techcombank | App chứng khoán TCBS",
+      "url": "https://sgbank.vn/tcinvest/"
+     },
+     {
+      "type": "text_result",
+      "domain": "traderviet.tv",
+      "ref_id": "turn0search10",
+      "snippet": "TCinvest cho phép giao dịch: ... * Không thu phí giao dịch cổ phiếu cơ sở ... * Hậu thuẫn bởi Techcombank ... * Là",
+      "title": "TCinvest là gì? Hướng dẫn toàn diện nền tảng đầu tư của TCBS cho người mới | TraderViet | Cộng Đồng Trader Việt Nam",
+      "url": "https://traderviet.tv/t/tcinvest-la-gi-huong-dan-toan-dien-nen-tang-dau-tu-cua-tcbs-cho-nguoi-moi.110780/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ftp2.ssi.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Nếu chào bán thành công số lượng cổ phiếu trên, TCBS sẽ thu về hơn 10,8 nghìn tỷ đồng, tăng thêm khoảng 36% so với",
+      "title": "SSI - TRUNG TÂM PHÂN TÍCH VÀ TƯ VẤN ĐẦU TƯ",
+      "url": "https://ftp2.ssi.com.vn/Customers/GDDT/Analyst_Report/Sector%20Report/Cap%20nhat%20nganh%20Chung%20khoan_2025.08.08_SSIResearch.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Hướng dẫn giao dịch về cổ phiếu và chính sách, ưu đãi tại VNDIRECT ... * Biểu phí giao dịch chứng khoán cơ sở",
+      "title": "CỔ PHIẾU – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/sections/38641206501273-C%E1%BB%94-PHI%E1%BA%BEU"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search14",
+      "snippet": "Đối với TCBS hiện nay khi giao dịch với chúng tôi phí giao dịch là zero. ... Câu hỏi: Tại sao hiện nay khách hàng",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mobiv2.fireant.vn",
+      "ref_id": "turn0search15",
+      "snippet": "TCBS tiếp tục theo đuổi chiến lược \"zero-fee\" với chính sách miễn phí giao dịch toàn bộ sản phẩm cổ phiếu, phái sinh, chứng quyền",
+      "title": "22\n\nTCBS | BÁO CÁO THƯỜNG NIÊN 2025  \nCHƯƠNG 02: V",
+      "url": "https://mobiv2.fireant.vn/News/NewsAttachedFile/1867216"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "ĐẶT LỆNH CỔ PHIẾU ... https://invest.tcbs.com.vn",
+      "title": "HƯỚNG DẪN GIAO DỊCH CỔ PHIẾU",
+      "url": "https://www.tcbs.com.vn/documents/10181/320637/Huong%2Bdan%2Bgiao%2Bdich%2Bco%2Bphieu_iStock.pdf/0ce37a37-8dec-4acc-8615-302665574a9a"
+     },
+     {
+      "type": "text_result",
+      "domain": "masvn.com",
+      "ref_id": "turn0search17",
+      "snippet": "sẽ không được áp dụng Chương trình miễn phí giao dịch Zero Fee. ... Đối với khách hàng thực hiện chuyển đổi từ kênh chủ",
+      "title": "THỂ LỆ VÀ ĐIỀU KHOẢN",
+      "url": "https://masvn.com/api/attachment/file/1775094984927-TnC-Th%E1%BB%83l%E1%BB%87ch%C6%B0%C6%A1ngtr%C3%ACnh%C6%B0u%C4%91%C3%A3iZeroFee-mi%E1%BB%85nph%C3%ADgiaod%E1%BB%8Bch.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "Không chỉ có phí giao dịch cực kỳ cạnh tranh mà công nghệ Robot cố vấn đầu tư được tích hợp vào TCinvest TCBS cũng",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-9178f424-6011-4977-a2d9-18a0ac1d7bf1",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-9178f424-6011-4977-a2d9-18a0ac1d7bf1",
+    "type": "web_search",
+    "query": "site.ssi.com.vn mạng lưới chi nhánh Hà Nội tư vấn đầu tư SSI ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn mạng lưới chi nhánh Hà Nội tư vấn đầu tư SSI",
+      "site.vndirect.com.vn liên hệ Hà Nội trụ sở 1 Nguyễn Thượng Hiền"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "# Mạng lưới ... Trong trường hợp cần hỗ trợ về thông tin, Quý Khách hàng vui lòng gửi email tới hòm thư điện tử",
+      "title": "Mạng lưới",
+      "url": "https://www.ssi.com.vn/mang-luoi"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "# Danh sách Trụ sở/Chi nhánh/PGD của VNDIRECT ... Địa chỉ: Số 1 Nguyễn Thượng Hiền, Phường Hai Bà Trưng, Thành phố Hà Nội",
+      "title": "Danh sách Trụ sở/Chi nhánh/PGD của VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360001931554-Danh-s%C3%A1ch-Tr%E1%BB%A5-s%E1%BB%9F-Chi-nh%C3%A1nh-PGD-c%E1%BB%A7a-VNDIRECT?page=2"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Kể từ ngày 06/07/2026, SSI sẽ điều chỉnh địa điểm tiếp nhận tập trung các yêu cầu dịch vụ trực tiếp tại quầy của khách",
+      "title": "Thông báo điều chỉnh hoạt động phục vụ giao dịch trực tiếp tại quầy của SSI",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/thong-bao-dieu-chinh-hoat-dong-phuc-vu-giao-dich-truc-tiep-tai-quay-cua-ssi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "* ###### Trụ sở chính Số 1 Nguyễn Thượng Hiền, phường Hai Bà Trưng, Thành phố Hà Nội ... Tầng 3 Tòa nhà CT1 số",
+      "title": "Mạng lưới chi nhánh - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/mang-luoi-chi-nhanh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "### Liên lạc với VNDIRECT ... Trụ sở chính của VNDIERCT nằm tại Số 1 Nguyễn Thượng Hiền, phường Nguyễn Du, Quận Hai Bà Trưng,",
+      "title": "Trụ sở chính của VNDIRECT nằm ở đâu? - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/cau_hoi_thuong_gap/tru-so-chinh-cua-vndirect-o-dau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.gov.hnx.vn",
+      "ref_id": "turn1search5",
+      "snippet": "số 1 Nguyễn Thượng Hiền - Hai Bà Trưng - Hà Nội ... www.vndirect.com.vn ... - Trụ sở chính ... Số 1 Nguyễn Thượng Hiền",
+      "title": "Thành viên",
+      "url": "https://www.gov.hnx.vn/vi-vn/phai-sinh/chi-tiet-thanh-vien-021.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "### Hà Nội Số 1, Nguyễn Thượng Hiền ... Liên hệ",
+      "title": "Liên hệ - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/lien-he/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Nhằm mang đến không gian giao dịch, làm việc tiện nghi và trải nghiệm dịch vụ tốt hơn, Công ty Cổ phần Chứng khoán VNDIRECT",
+      "title": "THÔNG BÁO VỀ VIỆC SỬA CHỮA VĂN PHÒNG TẠI TRỤ SỞ CHÍNH NGUYỄN THƯỢNG HIỀN - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/thong-bao-ve-viec-sua-chua-van-phong-tai-tru-so-chinh-nguyen-thuong-hien/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Các giao dịch giữa Công ty Cổ phần Chứng khoán VNDIRECT và người có liên quanSTT | Tên tổ chức/cá nhân | Mối quan hệ",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/2024.07.30_VND.-Bao-cao-tinh-hinh-quan-tri-6-thang-dau-nam-2024.che-ttcn-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.gov.hnx.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Trụ sở chính Số 1 Nguyễn Thượng Hiền, Phường Hai Bà Trưng, Thành phố Hà Nội, Việt Nam ... 3 | 02/11/2026 10:51 | VNDIRECT",
+      "title": "Công ty Cổ phần Chứng khoán VNDIRECT",
+      "url": "https://www.gov.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-ny-vnd125033.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn1search9",
+      "snippet": "Công ty Cổ phần Chứng khoán VNDIRECT (\"Công ty\") là một công ty cổ phần được thành lập theo Luật Doanh nghiệp của Việt Nam",
+      "title": "Công ty Cổ phần Chứng khoán VNDIRECT - Interim / Quarterly Report 2026 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-vndirect/interim-quarterly-report/2026/74431944/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Sở Giao dịch Chứng khoán Hà Nội đã nhận được bộ hồ sơ đăng ký niêm yết chứng khoán, cụ thể như sau: ... +",
+      "title": "HNX: Nhận hồ sơ đăng ký niêm yết chứng khoán tại Sở GDCK Hà Nội",
+      "url": "https://www.phs.vn/tin-tuc/hnx-nhan-ho-so-dang-ky-niem-yet-chung-khoan-tai-so-gdck-ha-noi/6356961"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "MẠNG LƯỚI HOẠT ĐỘNG ... CHI NHÁNH CÔNG TY CỔ PHẦN CHỨNG KHOÁN SÀI GÒN TẠI HÀ NỘI ... TẦNG G, TÒA NHÀ THE MANOR",
+      "title": "MẠNG LƯỚI HOẠT ĐỘNG",
+      "url": "https://www.ssi.com.vn/upload/file/2ce62250-dc0b-4b6a-956f-5c5a0ca673cf.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Do tình hình dịch bệnh diến biến phức tạp, Công ty Cổ phần Chứng khoán VNDIRECT thông báo tạm dừng đón khách tới giao dịch",
+      "title": "Thông báo: Tạm ngừng đón khách tại Trụ sở chính VNDIRECT - Số 1 Nguyễn Thượng Hiền từ ngày 27/12/2021 - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/thong-bao-tam-ngung-don-khach-tai-chi-nhanh-nguyen-thuong-hien-tu-ngay-27-12-2021/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Ảnh minh họa mạng lưới kết nối: nhiều ghim đỏ trên nền xanh nhạt, nối với nhau bằng các đường màu xanh đậm. ... **Chi",
+      "title": "THÔNG TIN KHÁC / MẠNG LƯỚI HOẠT ĐỘNG",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2019.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "VNDIRECT (Địa chỉ: 01 Nguyễn Thượng Hiền, Phường Nguyễn Du, Quận Hai Bà Trưng, Hà Nội) ... Địa chỉ: 01 Nguyễn Thượng Hiền, Phường Nguyễn",
+      "title": "VNDIRECT (Địa chỉ: 01 Nguyễn Thượng Hiền, Phường Nguyễn Du, Quận Hai Bà Trưng, Hà Nội)",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/1.2024.05.17_VND.-TB-so-461-chao-ban-CP-RCC-va-phat-hanh-CP-de-tra-co-tuc.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static1.vietstock.vn",
+      "ref_id": "turn1search16",
+      "snippet": "- **TRUNG TÍNH**: Các cổ phiếu trong ngành có khuyến nghị trung bình, tính trên cơ sở vốn hóa thị trường gia quyền ... VNDIRECT",
+      "title": "HỆ THỐNG KHUYẾN NGHỊ CỦA VNDIRECT",
+      "url": "https://static1.vietstock.vn/edocs/Files/2022/06/22/bao-cao-nganh-san-xuat-va-che-bien-thit-kho-khan-noi-tiep-kho-khan_20220622081632.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Nếu bạn mới bắt đầu, mình nghiêng về TCBS khi ưu tiên phí thấp và tự giao dịch; SSI nếu muốn có người tư vấn, hỗ trợ trực tiếp.** Ở Hà Nội, bạn có thể cân nhắc 3 lựa chọn:\n\n| Công ty | Phù hợp khi | Điểm cần lưu ý |\n|---|---|---|\n| **TCBS** | Tự mua bán online, ưu tiên tiết kiệm phí | Theo biểu phí hiện công bố, TCBS miễn phần phí giao dịch cổ phiếu do công ty thu, nhưng **vẫn thu hộ phí Sở 0,03%** — không phải hoàn toàn miễn phí. [Biểu phí TCBS](https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226) |\n| **SSI** | Muốn có tư vấn viên và điểm hỗ trợ tại Hà Nội | Nên hỏi rõ phí của tài khoản tự giao dịch và tài khoản có tư vấn; chất lượng người phụ trách cũng quan trọng. [Biểu phí SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong), [mạng lưới](https://www.ssi.com.vn/mang-luoi) |\n| **VNDIRECT** | Muốn thêm lựa chọn có điểm giao dịch tại Hà Nội | Phí phụ thuộc gói dịch vụ; có trụ sở tại **số 1 Nguyễn Thượng Hiền**. [Biểu phí VNDIRECT](https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/), [địa điểm](https://www.vndirect.com.vn/mang-luoi-chi-nhanh/) |\n\n**Cách mình sẽ chọn:**\n- **Tự đầu tư, không cần môi giới:** ưu tiên xem TCBS trước.\n- **Cần người hướng dẫn:** trao đổi thử với SSI và VNDIRECT, rồi chọn nơi giải thích rõ ràng, không thúc ép mua bán hoặc vay margin.\n- Trước khi nạp nhiều tiền, thử khoản nhỏ để kiểm tra đặt lệnh, nạp/rút và hỗ trợ. Hỏi rõ phí lưu ký, ứng trước tiền bán và lãi margin nếu định sử dụng; đừng chỉ nhìn ưu đãi mở tài khoản.\n\nBạn dự định đầu tư khoảng bao nhiêu và muốn **tự mua bán hay có người tư vấn**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39539,
+    "cached_input_tokens": 27648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 723,
+    "reasoning_output_tokens": 9
+   }
+  }
+ ],
+ "thread_id": "01a1b00b-4e7d-7fc0-af43-f7333c244f9c",
+ "error": ""
+}

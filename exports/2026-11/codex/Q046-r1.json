@@ -1,0 +1,237 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q046-r1",
+ "prompt_id": "Q046",
+ "run": 1,
+ "question": "Chứng khoán DSC có lừa đảo không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:03:55",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 31.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b019-af35-71b1-b54d-dfd91212d8ae"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-22173aab-c6dc-4230-ad16-bfab97156230",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-22173aab-c6dc-4230-ad16-bfab97156230",
+    "type": "web_search",
+    "query": "DSC chứng khoán Ủy ban chứng khoán giấy phép DSC giả mạo lừa đảo ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "DSC chứng khoán Ủy ban chứng khoán giấy phép DSC giả mạo lừa đảo",
+      "site.dsc.com.vn cảnh báo giả mạo lừa đảo"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Giấy phép thành lập và hoạt động kinh doanh công ty chứng khoán số 29/UBCK-GPHĐKD ngày 18/12/2006 do Ủy ban Chứng khoán Nhà nước cấp.",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Audit Report / Information 2024 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/audit-report-information/2025/46750687/"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Giấy phép điều chỉnh được lập thành hai (02) bản chính: 01 bản cấp cho Công ty Cổ phần Chứng khoán DSC; 01 bản lưu",
+      "title": "2\n\nĐiều 3. Giấy phép điều chỉnh được lập thành hai",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/2023/05/6.-Giay-phep-thanh-lap-va-hoat-dong-cong-ty-chung-khoan-va-Cac-giay-phep-dieu-chinh-co-lien-quan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://owa.hnx.vn/ftp/cims/2023/3_W5/000000012422909_2._230330__DSC__BCTC_Signed__nen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Giấy Chứng nhận ĐKDN: Giấy phép thành lập và hoạt động số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước cấp ngày 18 tháng 12",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/240321_DSC_Tai_lieu_hop_DHDCD_Final_7308a20963.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Thành phố Hà Nội. ... GPTL/ĐKKD ... DSC_Ban_Thong_tin_tom_tat_DNSC.pdf ...",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-uc-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieu68.vn",
+      "ref_id": "turn0search3",
+      "snippet": "# CTCP Chứng khoán Đà Nẵng (dsc) ... Địa chỉ | 102 Nguyễn Thị Minh Khai - Q. ... - CT được Uỷ ban Chứng",
+      "url": "https://cophieu68.vn/quote/profile.php?id=dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search4",
+      "snippet": "240/QD-XPHC on administrative sanctions against DSC Securities Corp. (the Company, address: 2nd Floor, Thanh Cong Building, 80 Dich Vong Hau, Cau Giay Ward, Hanoi City",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620159005"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Trong ngày giao dịch, khi các lệnh mua chứng khoán trên TKKQ được khớp có tổng giá trị (bao gồm cả khoản phí giao dịch",
+      "url": "https://dsc.com.vn/dieu-khoan-chung/ban-dieu-khoan-va-dieu-kien-mo-tai-khoan-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "baomoi.com",
+      "ref_id": "turn0search6",
+      "snippet": "Công ty cổ phần Chứng khoán DSC (mã DSC) vừa nhận Quyết định số 90/QĐ-XPHC từ Ủy ban Chứng khoán Nhà nước (UBCKNN) về việc",
+      "title": "Chứng khoán DSC (DSC) bị xử phạt do vi phạm công bố thông tin, lãnh đạo sắp nhận hàng triệu cổ phiếu ưu đãi - Chuyên trang Doanh nhân & Pháp luật - Báo Pháp luật Việt Nam",
+      "url": "https://baomoi.com/chung-khoan-dsc-dsc-bi-xu-phat-do-vi-pham-cong-bo-thong-tin-lanh-dao-sap-nhan-hang-trieu-co-phieu-uu-dai-c54474323.epi"
+     },
+     {
+      "type": "text_result",
+      "domain": "suckhoedoisong.vn",
+      "ref_id": "turn0search7",
+      "snippet": "SKĐS - Công ty Cổ phần Chứng khoán DSC bị Ủy ban Chứng khoán Nhà nước (UBCKNN) phạt tổng cộng hơn 700 triệu đồng cho",
+      "title": "Chứng khoán DSC bị phạt hơn 700 triệu đồng vì nhiều vi phạm",
+      "url": "https://suckhoedoisong.vn/chung-khoan-dsc-bi-phat-hon-700-trieu-dong-vi-nhieu-vi-pham-169250911194431206.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC thông báo giấy phép điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán như",
+      "title": "DSC: Thông báo giấy phép điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-tuc-ma-co-phieu/1434717-dsc-thong-bao-giay-phep-dieu-chinh-giay-phep-thanh-lap-va-hoat-dong-kinh-doanh-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* Đăng ký và sử dụng Giao dịch ký quỹ ... * Cách xem bảng giá chứng khoán cho người mới bắt đầu ... *",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://www.dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search11",
+      "snippet": "## Hồ sơ Công ty Cổ phần Chứng khoán DSC ... Mã chứng khoán ... Sở Giao dịch Chứng khoán TP. Hồ Chí Minh (HOSE)",
+      "title": "Công ty Cổ phần Chứng khoán DSC (DSC) — HOSE: hồ sơ, báo cáo tài chính, vốn hóa | Dữ Liệu Pháp Luật",
+      "url": "https://dulieuphapluat.vn/cong-cu/cong-ty-niem-yet/dsc-cong-ty-co-phan-chung-khoan-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "- Giấy chứng nhận đăng ký chào bán cổ phiếu ra công chúng số 317/GCN-UBCK ngày 17/09/2025 của Ủy ban Chứng khoán Nhà nước. -",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/20250917_DSC_CBTT_nhan_duoc_GPCB_va_CV_BC_phat_hanh_co_tuc_222e96bd0c.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn0search16",
+      "snippet": "DSC ... của Đại hội ... cổ ... thuộc Ban ... việc ... mưu thiêt lập ... của Bộ ... phạt từ ... nhất tính",
+      "title": "CÔNG TY \nCỔ PHẦN \nCHỨNG \nKHOÁN \nDSC\nDigitally sign",
+      "url": "https://cafef1.mediacdn.vn/download/220925/dsc-ban-cao-bach-chao-ban-them-co-phieu-ra-cong-chung-phan-2-3-4-2.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-6a0ee5db-aab3-4e96-a10f-ae8142dbf907",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-6a0ee5db-aab3-4e96-a10f-ae8142dbf907",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 1",
+      "title": "ssc.gov.vn",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620159005"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Nếu bạn nói đến Công ty Cổ phần Chứng khoán DSC chính thức, tôi chưa thấy căn cứ đáng tin cậy để kết luận công ty này “lừa đảo”.** Tuy nhiên, cần phân biệt công ty thật với người hoặc ứng dụng mạo danh.\n\n- **DSC có giấy phép hoạt động:** Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam ghi nhận DSC là thành viên lưu ký mã 024, được UBCKNN cấp phép số 29/UBCK-GPHĐKD ngày 18/12/2006. [Thông tin tại VSDC](https://vsdc.vn/vi/md/8229).\n- **DSC từng bị xử phạt:** UBCKNN công bố quyết định xử phạt ngày 9/9/2025 về nhiều vi phạm trong hoạt động chứng khoán, bao gồm công bố thông tin sai lệch. Đây là điểm cần cân nhắc, nhưng **xử phạt hành chính không đồng nghĩa với kết luận lừa đảo**. [Thông báo của UBCKNN](https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620159005).\n\n**Nếu có người mời bạn đầu tư mang tên DSC**, hãy đặc biệt cảnh giác khi họ:\n- Cam kết lợi nhuận cao, “bao lỗ”.\n- Yêu cầu chuyển tiền vào tài khoản cá nhân hoặc cài ứng dụng qua đường dẫn lạ.\n- Bắt nộp thêm “thuế/phí mở khóa” mới được rút tiền.\n\nĐừng chuyển thêm tiền trước khi xác minh độc lập qua website chính thức **[dsc.com.vn](https://www.dsc.com.vn/)**. Có giấy phép cũng không có nghĩa đầu tư được bảo đảm lợi nhuận.\n\n**Bạn đang hỏi về công ty DSC, hay một app/nhóm Zalo đang mời đầu tư?** Gửi tên app, đường dẫn hoặc ảnh tin nhắn (che thông tin cá nhân), tôi sẽ giúp kiểm tra cụ thể."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 43706,
+    "cached_input_tokens": 31744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 557,
+    "reasoning_output_tokens": 10
+   }
+  }
+ ],
+ "thread_id": "01a1b019-af35-71b1-b54d-dfd91212d8ae",
+ "error": ""
+}

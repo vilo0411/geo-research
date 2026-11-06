@@ -1,0 +1,373 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q060-r1",
+ "prompt_id": "Q060",
+ "run": 1,
+ "question": "Quên mật khẩu tài khoản chứng khoán Chứng khoán DSC phải làm sao?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:12:01",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 23.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b021-1928-7fb3-bb93-f9a646dc71e9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0d59e24f-728f-41c9-9427-5cde5bbdfa31",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0d59e24f-728f-41c9-9427-5cde5bbdfa31",
+    "type": "web_search",
+    "query": "site.dsc.com.vn quên mật khẩu tài khoản chứng khoán DSC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn quên mật khẩu tài khoản chứng khoán DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Image: Mở tài khoản số đẹp giao dịch chứng khoán DSC Mở tài khoản số đẹp giao dịch chứng khoán DSC Sau khi hoàn tất",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "scms.ssc.gov.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Hệ thống quản lý Công ty chứng khoán SCMS ... Tài khoản ... Quên mật khẩu Đăng nhập",
+      "title": "Màn hình đăng nhập",
+      "url": "https://scms.ssc.gov.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Bước 1: Quý khách vui lòng truy cập website: https://trading.dsc.com.vn/, sau đó chọn mục “Đăng nhập” tại góc phải màn hình. ... Trường hợp không",
+      "title": "Hướng dẫn đăng nhập DSC Trading Web - Chứng khoán DSC",
+      "url": "https://dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Bước 1: Quý khách vui lòng truy cập website: https://trading.dsc.com.vn/, sau đó chọn mục “Đăng nhập” tại góc phải màn hình. ... Bước 2: Nhập",
+      "title": "Hướng dẫn đăng nhập DSC Trading Web - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Tại màn hình DSC Trading, nhập Số tài khoản chứng khoán và Mật khẩu, sau đó bấm Đăng nhập. ... Trường hợp không nhớ mật",
+      "title": "Hướng dẫn đăng nhập trên DSC Trading App",
+      "url": "https://www.dsc.com.vn/en/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-app"
+     },
+     {
+      "type": "text_result",
+      "domain": "phantichchungkhoan.net",
+      "ref_id": "turn0search5",
+      "snippet": "Tại màn hình DSC Trading, nhập Số tài khoản chứng khoán và Mật khẩu, sau đó bấm Đăng nhập. ... * Các chỉ số: VNI,",
+      "title": "Hướng dẫn sử dụng app chứng khoán DSC Trading | P1 - Phân Tích Chứng Khoán",
+      "url": "https://phantichchungkhoan.net/huong-dan-su-dung-app-chung-khoan-dsc-trading-p1/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Quy định giao dịch đối với sàn UPCOM ... * Cách xem",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Quy định giao dịch đối với sàn UPCOM ... * Cách xem",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "hệ thống hiển thị cửa sổ Quên mật khẩu. ... Tại khung Đăng nhập, nhập Tên đăng nhập (Mặc định là tài khoản chứng khoán)",
+      "title": "HƯỚNG DẪN SỬ DỤNG",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/1-vcbs-hdsd-chuc-nang-dang-nhap-cai-dat-09-2025pdf.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Tại màn hình DSC Trading, nhập Số tài khoản chứng khoán và Mật khẩu, sau đó bấm “Đăng nhập”. ... Sau đó, nhấn “Đăng ký”",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-mo-tieu-khoan-margin-online"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Trên Website Trading cho phép Người dùng thực hiện Quên mật khẩu để được cấp lại mật khẩu mới trực tuyến một cách nhanh chóng.",
+      "title": "[Website] Quên mật khẩu - Vietcap",
+      "url": "https://www.vietcap.com.vn/huong-dan-chung/website-quen-mat-khau"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Image: Mở tài khoản số đẹp giao dịch chứng khoán DSC Mở tài khoản số đẹp giao dịch chứng khoán DSC Sau khi hoàn tất",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/en/huong-dan/thay-doi-tu-van-quan-ly-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "- Sở Giao dịch chứng khoán Việt Nam/Vietnam Stock Exchange ... Email: **info@dsc.com.vn** ... Công ty Cổ phần Chứng Khoán DSC (“DSC”) công bố thông",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://stream.vnx.vn/VNX/cims/2026/4_W3/000000016167820_20260417__DSC__CBTT_NQ_BBH_DHDCD_2026_VI.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Hướng dẫn đăng ký tài khoản DSC eLearn Hướng dẫn đăng nhập vào DSC eLearn Hướng dẫn lấy lại mật khẩu đăng nhập tài khoản",
+      "title": "Hướng dẫn xem các khóa học bạn đã đăng ký tại DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/huong-dan/huong-dan-xem-khoa-hoc-da-dang-ky-tren-dsc-elearn"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Những quan điểm này không thể hiện quan điểm chung của Công ty Cổ phần Chứng khoán DSC và có thể thay đổi mà không",
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://cafef1.mediacdn.vn/Images/Uploaded/DuLieuDownload/PhanTichBaoCao/VCG_281124_DSCS28112024161849.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "- **DSC Elearn:** Nền tảng học trực tuyến cung cấp khóa học tài chính, chứng khoán từ cơ bản đến nâng cao. ... - Tháng",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search16",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... Các khoản lãi, lỗ phát sinh khi thanh lý tài sản là chênh lệch giữa thu nhập",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/17/m88_20260417_dsc_bc_baocaotaichinh_quy_11776413286225wnh95kk1.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-948c197a-13b6-452e-a95d-b8243e01729d",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-948c197a-13b6-452e-a95d-b8243e01729d",
+    "type": "web_search",
+    "query": "site.dsc.com.vn \"Hướng dẫn lấy lại mật khẩu\"",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn \"Hướng dẫn lấy lại mật khẩu\""
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "* Hướng dẫn lấy lại mật khẩu đăng nhập trên web: ... Bước 3: Quý khách nhập số tài khoản lưu ký 024C…… và số",
+      "title": "Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading Web",
+      "url": "https://dsc.com.vn/huong-dan/huong-dan-lay-lai-mat-khau-dang-nhap-tren-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "* Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading Web",
+      "title": "Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading Web",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-lay-lai-mat-khau-dang-nhap-tren-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "* Quy định giao dịch đối với sàn UPCOM ... * Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading Web ... *",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "* Quy định giao dịch đối với sàn UPCOM ... * Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading Web ... *",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "* Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading App",
+      "title": "Hướng dẫn Chức năng Quên mật khẩu đăng nhập trên app",
+      "url": "https://dsc.com.vn/huong-dan/huong-dan-lay-lai-mat-khau-dang-nhap-tren-dsc-trading-app"
+     },
+     {
+      "type": "text_result",
+      "domain": "daotao.sis.vnu.edu.vn",
+      "ref_id": "turn1search12",
+      "snippet": "TRUNG TÂM QUẢN TRỊ ĐẠI HỌC SỐ ... HƯỚNG DẪN LẤY LẠI MẬT KHẨU TÀI KHOẢN EMAIL VNU ... các cổng thông tin liên kết",
+      "title": "Cập nhật 24/3/2024",
+      "url": "https://daotao.sis.vnu.edu.vn/wp-content/uploads/2024/03/240324.-Huong-dan-lay-lai-mat-khau-tai-khoan-email-VNU-sinh-vien-va-MS.Teams_-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Step 1: Please visit the website: https://trading.dsc.com.vn, then select \"Login\" in the right corner of the screen.",
+      "title": "Hướng dẫn lấy lại mật khẩu đăng nhập trên DSC Trading Web",
+      "url": "https://dsc.com.vn/en/huong-dan/huong-dan-lay-lai-mat-khau-dang-nhap-tren-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "mcdt.moh.gov.vn",
+      "ref_id": "turn1search6",
+      "snippet": "## Video hướng dẫn lấy lại mật khẩu ... * Video hướng dẫn nộp hồ sơ dịch vụ công trực tuyến",
+      "title": "Video hướng dẫn lấy lại mật khẩu - Bộ y tế",
+      "url": "https://mcdt.moh.gov.vn/video-huong-dan-lay-lai-mat-khau"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "* Tên đăng nhập: Số lưu ký/email/số điện thoại được sử dụng khi nhà đầu tư đăng ký mở tài khoản tại DNSE. ... Trong",
+      "title": "Màn hình Đăng nhập | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/giao-dien-entrade-x/giao-dien/man-hinh-dang-nhap"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "* Quy định giao dịch đối với sàn UPCOM ... * Hướng dẫn thêm mới số tài khoản ngân hàng chính chủ và xóa số",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/en/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Hướng dẫn đăng ký tài khoản DSC eLearn Hướng dẫn đăng nhập vào DSC eLearn Hướng dẫn lấy lại mật khẩu đăng nhập tài khoản",
+      "title": "Hướng dẫn xem các khóa học bạn đã đăng ký tại DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/huong-dan/huong-dan-xem-khoa-hoc-da-dang-ky-tren-dsc-elearn"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Hướng dẫn đăng ký tài khoản DSC eLearn Hướng dẫn đăng nhập vào DSC eLearn Hướng dẫn lấy lại mật khẩu đăng nhập tài khoản",
+      "title": "Hướng dẫn học các khóa học mà bạn đã đăng ký tại DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/huong-dan/huong-dan-hoc-va-lam-bai-kiem-tra-tren-dsc-elearn"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Hướng dẫn đăng ký tài khoản DSC eLearn Hướng dẫn đăng nhập vào DSC eLearn Hướng dẫn lấy lại mật khẩu đăng nhập tài khoản",
+      "title": "Hướng dẫn đăng nhập vào nền tảng DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/huong-dan/huong-dan-dang-nhap-vao-dsc-elearn"
+     },
+     {
+      "type": "text_result",
+      "domain": "img.nordangliaeducation.com",
+      "ref_id": "turn1search13",
+      "snippet": "Xin lưu ý rằng Quý vị cần cẩn thận làm theo các hướng dẫn để lấy lại mật khẩu TRƯỚC KHI liên hệ với Trường.",
+      "title": "BRITISH VIETNAMESE INTERNATIONAL SCHOOL",
+      "url": "https://img.nordangliaeducation.com/resources/asia/_filecache/02d/14f/194541-hung-dn-thit-lp-li-mt-khu-chq.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "daotao.sis.vnu.edu.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Nếu chưa tự lấy lại mật khẩu (như mục I đã hướng dẫn) hoặc phần lấy lại mật khẩu bị lỗi thì người dùng thực",
+      "title": "HƯỚNG DẪN LẤY LẠI MẬT KHẨU TÀI KHOẢN EMAIL VNU",
+      "url": "https://daotao.sis.vnu.edu.vn/wp-content/uploads/2024/10/241102-Huong-dan-tim-lai-mat-khau-email-VNU.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "daotao.sis.vnu.edu.vn",
+      "ref_id": "turn1search15",
+      "snippet": "HƯỚNG DẪN LẤY LẠI MẬT KHẨU MSTEAM ... Text: 1 mã bảo mật sẽ gửi về hộp thư cho số điện thoại của bạn.",
+      "title": "TRƯỜNG KHOA HỌC LIÊN NGÀNH VÀ NGHỆ THUẬT",
+      "url": "https://daotao.sis.vnu.edu.vn/wp-content/uploads/2023/09/241612_HDSD_Microsoft-Teams.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.abs.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Hệ thống ABS sẽ gửi lại mật khẩu + mã PIN về email Quý khách đã đăng ký sử dụng với ABS (và gửi SMS",
+      "title": "HƯỚNG DẪN LẤY LẠI",
+      "url": "https://www.abs.vn/wp-content/uploads/2022/08/Huong-dan-lay-lai-Mat-khau-va-ma-Pin.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 248",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/C2qetL59f7aoWzDlR94nPg8XtPRojJr5fgdxSxAsIET60ns0DMIfgFp7CxVDu0_e5dOa9JXnMT5QHpuhWCpldw",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://www.dsc.com.vn/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "Bạn có thể **đặt lại mật khẩu DSC online**, không cần mở tài khoản mới:\n\n1. Truy cập [DSC Trading](https://trading.dsc.com.vn/), chọn **Đăng nhập → Quên mật khẩu**.\n2. Nhập **số tài khoản chứng khoán dạng 024C…** và **số điện thoại đã đăng ký với DSC**, rồi nhấn **Yêu cầu**.\n3. Nhập **mã OTP gửi qua SMS**. Theo hướng dẫn DSC, mã gồm 6 số, có hiệu lực 2 phút.\n4. Nhập mật khẩu mới hai lần, chọn **Chấp nhận**, sau đó đăng nhập lại. [Hướng dẫn chính thức của DSC](https://dsc.com.vn/huong-dan/huong-dan-lay-lai-mat-khau-dang-nhap-tren-web).\n\n**Nếu quên cả số tài khoản:** tìm lại SMS hoặc email DSC gửi khi mở tài khoản. [Hướng dẫn tra cứu](https://dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web).\n\nNếu không nhận được OTP hoặc không còn dùng số điện thoại đã đăng ký, hãy liên hệ bộ phận hỗ trợ qua [website chính thức DSC](https://www.dsc.com.vn/) để được hướng dẫn xác minh.\n\n**Lưu ý:** Không cung cấp mật khẩu hay mã OTP cho bất kỳ ai."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39296,
+    "cached_input_tokens": 27648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 414,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b021-1928-7fb3-bb93-f9a646dc71e9",
+ "error": ""
+}

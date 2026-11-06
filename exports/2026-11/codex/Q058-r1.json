@@ -1,0 +1,208 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q058-r1",
+ "prompt_id": "Q058",
+ "run": 1,
+ "question": "Chuyển chứng khoán từ công ty này sang công ty khác thế nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:11:01",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 26.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b020-2f16-7b40-a6c9-f1832baf9fff"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-c52fbb78-cb7a-4118-9394-9b4318173e5c",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-c52fbb78-cb7a-4118-9394-9b4318173e5c",
+    "type": "web_search",
+    "query": "site.vsd.vn chuyển khoản chứng khoán nhà đầu tư thành viên lưu ký khác ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn chuyển khoản chứng khoán nhà đầu tư thành viên lưu ký khác",
+      "site.tcbs.com.vn chuyển chứng khoán sang công ty chứng khoán khác",
+      "site.ssi.com.vn chuyển khoản chứng khoán khác công ty cùng chủ sở hữu"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Chi nhánh: Tầng 8, Tòa nhà Techcombank Saigon Tower, số 23 đường Lê Duẩn, Phường Sài Gòn, TP. ... Việc ghi nhận chứng khoán",
+      "title": "Chuyển khoản chứng khoán sang công ty khác | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "#### Chính sách CK phái sinh với HĐTL chỉ số cổ phiếu ... #### Chuyển khoản chứng khoán sang công ty khác ... #### Tự",
+      "title": "Giao dịch chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "2 | Chuyển khoản chứng khoán từ TCBS sang công ty chứng khoán khác (bao gồm cả chuyển khoản tất toán tài khoản) | 1",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Trả lời: Mỗi thành viên của VSD được mở một tài khoản lưu ký chứng khoán tại VSD và không được mở tài khoản lưu",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/fa"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "#### Mở tài khoản Techcombank từ mục đối tác TCBS ... #### Điều khoản và điều kiện giao dịch chứng khoán ... #### Hướng dẫn",
+      "title": "Mở, thay đổi và quản lý tài khoản | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mo-va-quan-ly-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mcp.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Ví dụ hỏi: \"Ai đang lãnh đạo công ty SSI? ... `marketdata_list_share_holder_summary` | Lấy tổng hợp tỷ lệ sở hữu theo nhóm (nước ngoài/nhà nước/khác)",
+      "title": "Hướng dẫn công cụ (tools)",
+      "url": "https://mcp.ssi.com.vn/docs/huong-dan-tool/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search6",
+      "snippet": "TVBT được nộp ký quỹ ban đầu bằng tiền và chứng khoán nhưng phải đảm bảo tỷ lệ ký quỹ bằng tiền trên tổng giá",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/thong-tin-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vsd.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Hội thảo \"Trao đổi, thảo luận về dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán\" Áp dụng các biện",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://www.vsd.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Từ nền tảng tư vấn và phân phối trái phiếu doanh nghiệp, TCBS đã mở rộng hoạt động sang môi giới chứng khoán, cho vay",
+      "title": "Về Techcom Securities (TCBS) – Công ty Cổ phần Chứng khoán Kỹ Thương",
+      "url": "https://www.tcbs.com.vn/ve-chung-toi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Tổ chức phát hành chịu trách nhiệm thu hồi Sổ/Giấy chứng nhận sở hữu cổ phần của nhà đầu tư và lập Danh sách tổng",
+      "title": "Quyết định 26/QĐ-VSD Quy chế hoạt động lưu ký chứng khoán",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-26-QD-VSD-Quy-che-hoat-dong-luu-ky-chung-khoan-108502.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "hethongphapluat.com",
+      "ref_id": "turn0search10",
+      "snippet": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản của thành viên lưu ký, VSD gửi văn bản đến thành",
+      "title": "Quyết định 110/qđ-vsd năm 2022 về quy chế thành viên lưu ký tại trung tâm lưu ký chứng khoán việt nam",
+      "url": "https://hethongphapluat.com/quyet-dinh-110-qd-vsd-nam-2022-ve-quy-che-thanh-vien-luu-ky-tai-trung-tam-luu-ky-chung-khoan-viet-nam.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "brobank.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Công ty Cổ phần Chứng khoán Kỹ Thương ... Thông tin nhận diện theo website của tổ chức. ... www.tcbs.com.vn ↗ ... Lọc dịch vụ",
+      "url": "https://brobank.vn/to-chuc/tcbs"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Website: www.tcbs.com.vn ... - Sở giao dịch chứng khoán Thành phố Hồ Chí Minh ... - Tổng công ty Lưu ký và Bù trừ chứng",
+      "title": "Tổng quan TCBS",
+      "url": "https://static2.vietstock.vn/vietstock/2026/3/25/m88_20260325_cbtt_vie_bao_cao_thuong_nien_20251774437705393zkclwsah.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-363ae629-7dde-40dc-9207-391946875606",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-363ae629-7dde-40dc-9207-391946875606",
+    "type": "web_search",
+    "query": "https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/",
+    "action": {
+     "type": "open_page",
+     "url": "https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 151",
+      "title": "Chuyển khoản chứng khoán sang công ty khác | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Được nhé, bạn không cần bán cổ phiếu rồi mua lại.** Nếu hai tài khoản đều đứng tên bạn, bạn làm thủ tục **chuyển khoản chứng khoán khác công ty, cùng chủ sở hữu**.\n\n### Cách thực hiện\n1. **Mở tài khoản ở công ty muốn chuyển đến**, bảo đảm thông tin định danh khớp với tài khoản cũ.\n2. **Liên hệ công ty đang giữ chứng khoán** để yêu cầu chuyển đi. Tùy công ty, bạn có thể làm trên ứng dụng hoặc phải ký giấy đề nghị. Chuẩn bị số tài khoản nhận, tên công ty nhận, mã chứng khoán và số lượng muốn chuyển.\n3. **Liên hệ cả công ty nhận** để xác nhận thông tin và hoàn tất thủ tục nhận nếu được yêu cầu.\n4. **Theo dõi đến khi chứng khoán được ghi có** vào tài khoản mới. Quy trình chuyển đi qua VSDC; cách ghi nhận tại bên nhận tùy từng công ty. [Hướng dẫn của TCBS](https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/)\n\n### Lưu ý\n- Có thể chuyển **một phần hoặc toàn bộ** chứng khoán; không nhất thiết phải đóng tài khoản cũ. [Giải đáp về lưu ký chứng khoán](https://vsdportal.navisoft.com.vn/vi/fa)\n- **Phí và thời gian xử lý tùy công ty**, không áp dụng chung một mức. Ví dụ, TCBS công bố phí chuyển đi 1 đồng/cổ phiếu, tối đa 1 triệu đồng, và thời gian xử lý yêu cầu trong 5 ngày làm việc. [Chi tiết tại TCBS](https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/)\n- Nếu có **dư nợ margin, chứng khoán đang cầm cố hoặc chờ về**, hãy báo công ty chuyển đi kiểm tra trước.\n\n**Bạn đang muốn chuyển từ công ty nào sang công ty nào?** Mình sẽ hướng dẫn đúng thủ tục và phí của bên đó."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 36947,
+    "cached_input_tokens": 19968,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 594,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b020-2f16-7b40-a6c9-f1832baf9fff",
+ "error": ""
+}

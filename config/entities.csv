@@ -1,0 +1,39 @@
+entity,is_brand,aliases,domains
+{BRAND},1,{BRAND}|Chứng khoán Đà Nẵng,{BRAND_DOMAIN}
+SSI,0,SSI|Chứng khoán SSI|SSI iBoard,ssi.com.vn
+VPS,0,VPS|Chứng khoán VPS|SmartOne,vps.com.vn
+TCBS,0,TCBS|Techcom Securities|Chứng khoán Kỹ Thương|TCInvest,tcbs.com.vn
+VNDIRECT,0,VNDIRECT|VNDirect|DStock,vndirect.com.vn
+HSC,0,HSC|Chứng khoán TP.HCM|Chứng khoán Thành phố Hồ Chí Minh,hsc.com.vn
+Vietcap,0,Vietcap|Chứng khoán Bản Việt|VCI,vietcap.com.vn
+Mirae Asset,0,Mirae Asset|Mirae,masvn.com
+MBS,0,MBS|Chứng khoán MB,mbs.com.vn
+VCBS,0,VCBS|Chứng khoán Vietcombank,vcbs.com.vn
+KIS,0,KIS|KIS Việt Nam|Chứng khoán KIS,kisvn.vn
+ACBS,0,ACBS|Chứng khoán ACB,acbs.com.vn
+BSC,0,BSC|Chứng khoán BIDV,bsc.com.vn
+DNSE,0,DNSE|Entrade,dnse.com.vn
+Pinetree,0,Pinetree|Chứng khoán Pinetree,pinetree.vn
+FPTS,0,FPTS|Chứng khoán FPT,fpts.com.vn
+Yuanta,0,Yuanta|Chứng khoán Yuanta,yuanta.com.vn
+Rồng Việt,0,VDSC|Chứng khoán Rồng Việt|Rong Viet Securities,vdsc.com.vn
+Bảo Việt,0,BVSC|Chứng khoán Bảo Việt,bvsc.com.vn
+SHS,0,SHS|Chứng khoán Sài Gòn - Hà Nội|Chứng khoán Sài Gòn Hà Nội,shs.com.vn
+Agriseco,0,Agriseco|Chứng khoán Agribank,agriseco.com.vn
+VPBankS,0,VPBankS|VPBank Securities|Chứng khoán VPBank,vpbanks.com.vn
+KBSV,0,KBSV|KB Securities|Chứng khoán KB Việt Nam|Chứng khoán KB,kbsec.com.vn
+Shinhan,0,Shinhan Securities|Chứng khoán Shinhan|SSV,shinhansec.com.vn|shinhansec.com
+Phú Hưng,0,PHS|Chứng khoán Phú Hưng,phs.vn
+Kafi,0,Kafi|Chứng khoán Kafi|KAFI,kafi.vn
+TVSI,0,TVSI|Chứng khoán Tân Việt,tvsi.com.vn
+Vietinbank Securities,0,CTS|Chứng khoán Vietinbank|Chứng khoán Công Thương|VietinBank Securities,
+Maybank,0,Maybank Securities|Maybank Investment Bank|Chứng khoán Maybank|MSVN,
+Everest,0,Chứng khoán Everest|EVS,
+Thiên Việt,0,Chứng khoán Thiên Việt|TVS,
+Tiên Phong,0,Chứng khoán Tiên Phong|TPS|TPBank Securities,
+LPBank Securities,0,LPBS|Chứng khoán LPBank|Chứng khoán Lộc Việt,
+Haseco,0,Haseco|Chứng khoán Haseco|Chứng khoán Hải Phòng,haseco.vn
+An Bình,0,ABS|Chứng khoán An Bình,abs.vn
+VFS,0,VFS|Chứng khoán Nhất Việt|Chứng khoán VFS,vfs.com.vn
+ASEAN Securities,0,ASEAN Securities|Aseansc|Chứng khoán ASEAN,aseansc.com.vn
+Japan Securities,0,JSI|Japan Securities|Chứng khoán Nhật Bản,japan-sec.vn

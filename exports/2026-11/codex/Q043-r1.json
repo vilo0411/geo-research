@@ -1,0 +1,286 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q043-r1",
+ "prompt_id": "Q043",
+ "run": 1,
+ "question": "Ứng trước tiền bán chứng khoán là gì? Phí bao nhiêu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:01:56",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 36.8,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b017-dd43-75c1-a995-f883a001a9d4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0263319d-344f-4d04-a091-fd38e46c7a25",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0263319d-344f-4d04-a091-fd38e46c7a25",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn ứng trước tiền bán phí 0,03% ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn ứng trước tiền bán phí 0,03%",
+      "site.ssi.com.vn ứng trước tiền bán phí 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Không cần đăng ký, khách hàng có thể thực hiện yêu cầu ứng trước bất cứ lúc nào khi có nhu cầu qua các kênh",
+      "title": "Ứng trước tiền bán",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/ung-truoc-tien-ban"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Anh vui lòng đăng nhập vào Bảng giá VNDIRECT, tại mục Giao dịch tiền, anh chọn Ứng trước tiền bán sau đó lựa chọn món",
+      "title": "Ứng trước tiền bán – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360002261634-%E1%BB%A8ng-tr%C6%B0%E1%BB%9Bc-ti%E1%BB%81n-b%C3%A1n?sort_by=votes"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Để thực hiện UTTB, Quý khách vui lòng ấn nút “Ứng trước tiền bán” tại chi tiết lệnh bán đã khớp, màn hình chuyển sang",
+      "title": "Hướng dẫn giao dịch trái phiếu trên bảng giá VNDIRECT -",
+      "url": "https://dautu.vndirect.com.vn/huong-dan-giao-dich-trai-phieu-tren-bang-gia-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pbsv.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "• Số tiền yêu cầu ứng : < Khách hàng nhập số tiền cần ứng theo yêu cầu (6) ... • Phí : < Hệ",
+      "title": "HƯỚNG DẪN SỬ DỤNG ỨNG TRƯỚC TIỀN BÁN",
+      "url": "https://pbsv.com.vn/center_data/ps_cms_articles/file/Guides_for_Online_Trading/APP_-_07_-_Huong_dan_UTTB_-_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieuchungkhoan.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "# Phí Ứng Trước Tiền Bán SSI 2026: Cách Tính & Mẹo Tối Ưu Phí ... Biểu phí ứng trước tiền bán chứng khoán tại",
+      "title": "Phí Ứng Trước Tiền Bán SSI 2026: Cách Tính & Mẹo Tối Ưu Phí - Hoàng - Tư vấn viên tại chứng khoán SSI",
+      "url": "https://cophieuchungkhoan.com.vn/phi-ung-truoc-tien-ban-chung-khoan-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Dịch vụ ứng trước tiền bán chứng khoán là việc VNDIRECT ứng trước/thanh toán trước cho Khách hàng một khoản tiền trên cơ sở Khách",
+      "title": "CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Ứng trước tiền bán ... * BIỂU PHÍ",
+      "title": "Dịch vụ chứng khoán khách hàng cá nhân",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Ứng trước tiền bán | 0,0389%/ngày (≈14%/năm), tối thiểu 50.000 đ ... SSI – Biểu giá dịch vụ tài chính (margin, ứng trước): ssi.com.vn ...",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bvsc.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Khách hàng sử dụng dịch vụ ứng trước tiền bán trực tuyến ... Tại mục Thanh toán nhấn vào Ứng trước. ... <Hệ thống tự",
+      "title": "Hướng dẫn Ứng trước tiền bán chứng khoán",
+      "url": "https://www.bvsc.com.vn/media/ttbgixn5/41-ungtruoc.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search7",
+      "snippet": "DNSE | 0% (tiền mặt), chưa gồm phí Sở | Tự giao dịch; dùng margin thì 0,045%; có tư vấn thì 0,12% | Không ghi",
+      "title": "Công ty chứng khoán miễn phí giao dịch 2026 và điều kiện",
+      "url": "https://reviewchungkhoan.com/cong-ty-chung-khoan-mien-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cms.apsc.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Đăng nhập WEB/HOME, chọn Giao dịch tiền -> Ứng trước tiền bán ... tiểu khoản, loại giao dịch, giá trị ứng trước, phí ứng trước,",
+      "title": "3. Ứng trước tiền bán trên WEB Trading/ HOME Trading",
+      "url": "https://cms.apsc.vn/wp-content/uploads/2024/11/3.-UNG-TRUOC-TIEN-BAN-CHUNG-KHOAN-TREN-WEB-TRADING.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search8",
+      "snippet": "Rút về BIDV, Vietcombank, Techcombank, VietinBank, ACB, Sacombank, Eximbank hoặc MB thì SSI không thu phí; rút về ngân hàng khác SSI thu 0,022% số",
+      "title": "Nạp tiền SSI và rút tiền: số định danh, phí, giờ tiền về",
+      "url": "https://reviewchungkhoan.com/nap-rut-tien-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dautruongtaichinh.com",
+      "ref_id": "turn0search9",
+      "snippet": "10 Video hướng dẫn sử dụng SSI W ebtrading giao dịch thị trường chứng khoán cơ sở tại địa chỉ: https://webtrading.ssi.com.vn/ ... - Xem lại",
+      "title": "[SSI - Hướng dẫn sử dụng webtrading trên TTCK cơ sở] - Đấu trường Tài chính - Phân tích, tư vấn đầu tư chứng khoán",
+      "url": "https://www.dautruongtaichinh.com/p/hdgd-chung-khoan-co-so.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search10",
+      "snippet": "Bạn có thể tự kiểm tra giấy phép và các quyết định xử phạt (nếu có) trên cổng thông tin của Ủy ban Chứng khoán",
+      "title": "SSI có uy tín không? Đánh giá Chứng khoán SSI",
+      "url": "https://reviewchungkhoan.com/ctck/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search11",
+      "snippet": "Mức ứng trước của VNDirect đọc từ bản lưu biểu lãi 14/05/2026, có thể đã khác. ... Phí Sở 0,027% cho cổ phiếu niêm yết",
+      "title": "So sánh SSI và VNDirect: phí, lãi margin, phái sinh 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Đểsửdụng dịch vụỨng trước tiền bán chứng khoán, nhà đầu tư vui lòng đăng ký khi mởtài khoản tại ... Nhà đầu tư nhập các",
+      "title": "Slide 1",
+      "url": "https://pinetree.vn/wp-content/uploads/2020/08/8.-PTSV_Ung-truoc-tien-ban.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vtgs.vn",
+      "ref_id": "turn0search16",
+      "snippet": "17.3 Nếu kết quả khớp lệnh bị hủy thanh toán hoặc kết quả khớp lệnh bị hủy theo thông báo của Tổng Công ty Lưu",
+      "title": "16.3 Trong mọi trường hợp, Số tiền ứng trước không vượt quá Tiền bán chứng khoán trừ phí giao dịch, Phí ứng trước, thuế và phí khác theo quy định pháp luật (nếu có).",
+      "url": "https://vtgs.vn/wp-content/uploads/2025/08/BM_02_BO_DIEU_KHOAN_VA_DIEU_KIEN_CUA_HDMTK_29042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Tổng nợ + lãi: 0<br> ... ❖ Tiền có thể ứng trước = Tiền bán chờ về - (Đã ứng trước + Phí ứng trước",
+      "title": "Userguide: frontadmin",
+      "url": "https://www.vfs.com.vn/document/HDSD_ONLINETRADING.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-df2a1cda-9568-404a-8881-e64692a752a2",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-df2a1cda-9568-404a-8881-e64692a752a2",
+    "type": "web_search",
+    "query": "https://www.ssi.com.vn/khach-hang-ca-nhan/ung-truoc-tien-ban",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/ung-truoc-tien-ban"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 214",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/azzB0cO1AAnPPk4psGka6ivYhb9Gvt_WiGgjMa-GHwvZ5rSkLSIT3W0G1ksCU0gyZEW9rsP2PRRkDxBialbapANeLsvDRGCcw84WD14llr0",
+      "title": "Ứng trước tiền bán",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/ung-truoc-tien-ban"
+     },
+     {
+      "type": "text_result",
+      "ref_id": "turn1view1",
+      "title": "Internal Error"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-ccb7b308-c1fa-4f5d-910f-333161bdd160",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-ccb7b308-c1fa-4f5d-910f-333161bdd160",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 216",
+      "title": "Biểu giá dịch vụ tài chính",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-tai-chinh?tab=bieu-gia-dich-vu-ung-truoc-tien-ban"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Ứng trước tiền bán chứng khoán** là việc công ty chứng khoán cho bạn nhận và sử dụng sớm tiền từ **lệnh bán đã khớp nhưng tiền chưa về tài khoản**. Khi tiền bán về, công ty thu lại khoản đã ứng cùng phí tương ứng. [Điều khoản VNDIRECT](https://www.vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan/)\n\n### Phí bao nhiêu?\n**Không có mức phí chung**, mà tùy công ty chứng khoán và chính sách tài khoản. Cách tính thường là:\n\n**Phí = Số tiền ứng × Mức phí/ngày × Số ngày tính phí**\n\nCó thể áp dụng **phí tối thiểu mỗi lần ứng**. Ví dụ, biểu phí SSI đang công bố là **0,0389%/ngày, tối thiểu 50.000 đồng/lần ứng**. [Biểu phí SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-tai-chinh?tab=bieu-gia-dich-vu-ung-truoc-tien-ban)\n\n- Ứng **100 triệu đồng**, giả sử tính phí **2 ngày**: phí **77.800 đồng**.\n- Ứng **10 triệu đồng**, cũng 2 ngày: tính ra 7.780 đồng nhưng chịu mức tối thiểu **50.000 đồng**.\n\nBạn nên xem số ngày và phí hiển thị trước khi xác nhận ứng, nhất là khi gần cuối tuần hoặc ngày lễ.\n\n**Bạn đang dùng công ty chứng khoán nào?** Mình sẽ tra đúng mức phí cho bạn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 56220,
+    "cached_input_tokens": 44928,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 548,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b017-dd43-75c1-a995-f883a001a9d4",
+ "error": ""
+}

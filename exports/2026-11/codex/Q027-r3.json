@@ -1,0 +1,172 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q027-r3",
+ "prompt_id": "Q027",
+ "run": 3,
+ "question": "Phí lưu ký chứng khoán là bao nhiêu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:55:07",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 15.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-a13f-7c81-a6f9-da1fc3b6ca5f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-113b7416-b1f6-44d5-b778-3b808b3022db",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-113b7416-b1f6-44d5-b778-3b808b3022db",
+    "type": "web_search",
+    "query": "VSDC giá dịch vụ lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026",
+    "action": {
+     "type": "search",
+     "query": "VSDC giá dịch vụ lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "- Cổ phiếu, chứng chỉ quỹ, chứng quyền có bảo đảm | 0.27 đồng/CP, CCQ, CW/tháng ... Đối tượng thu: Cá nhân, tổ chức có",
+      "title": "Biểu giá dịch vụ lưu ký",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-luu-ky"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vdsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Dịch vụ lưu ký | CTCP Chứng khoán Rồng Việt - Kiến tạo tương lai thịnh vượng ... Cổ phiếu/Chứng chỉ quỹ/Chứng quyền có bảo",
+      "title": "CTCP Chứng khoán Rồng Việt - Kiến tạo tương lai thịnh vượng | Dịch vụ lưu ký",
+      "url": "https://www.vdsc.com.vn/ca-nhan/bieu-phi/dich-vu-luu-ky-z4"
+     },
+     {
+      "type": "text_result",
+      "domain": "img.baovietfund.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "<td colspan=\"5\">A.III Giá dịch vụ lưu ký, chuyển khoản của VSDC (Giá dịch vụ của bên thứ 3)</td> ... <td>0,27 đồng/cổ phiếu, CCQ, CQ có",
+      "title": "Ủy ban Chứng khoán Nhà nước cấp giấy phép phát hành Chứng chỉ Quỹ cho các",
+      "url": "https://img.baovietfund.com.vn/resource/07112025/1762538699_bcbbvpf11.2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "img.baovietfund.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "<td colspan=\"5\"><b>A.III Giá dịch vụ lưu ký, chuyển khoản của VSDC (Giá dịch vụ của bên thứ 3)</b></td> ... <td>0,27 đồng/cổ phiếu, CCQ, CQ có",
+      "title": "Phụ lục số 5: BIỂU GIÁ DỊCH VỤ LƯU KÝ GIÁM SÁT VÀ GIÁ DỊCH VỤ TRẢ CHO DỊCH VỤ ỦY QUYỀN",
+      "url": "https://img.baovietfund.com.vn/resource/11032025/1741708556_tts200v.vthongquanoidungdhndtbvpf.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "img.baovietfund.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "<tr><td colspan=\"5\">A.III Giá dịch vụ lưu ký, chuyển khoản của VSDC (Giá dịch vụ của bên thứ 3)</td></tr> ... <td>0,27 đồng/cổ phiếu, CCQ, CQ có",
+      "title": "Phụ lục 5. Giá dịch vụ lưu ký giám sát và Giá dịch vụ trả cho dịch vụ ủy quyền",
+      "url": "https://img.baovietfund.com.vn/resource/11042025/1744392358_bcbbvpf04.2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "## Áp dụng kể từ ngày 27 tháng 07 năm 2026 ... 2 | Số dư tiền gửi để duy trì tài khoản giao dịch",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "img.baovietfund.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "<td><b>A.III Giá dịch vụ lưu ký, chuyển khoản của VSDC (Giá dịch vụ của bên thứ 3)</b></td> ... <td>0,27 đồng/cổ phiếu/CCQ có đăng ký giao",
+      "title": "Phụ lục số 5:",
+      "url": "https://img.baovietfund.com.vn/resource/11042025/1744390903_nqso01.2025dhndtthuongnienbvbf.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "1 | Phí lưu ký Cổ phiếu (CP), chứng chỉ quỹ (CCQ), chứng quyền có bảo đảm (CW) | 0,27 đồng/CP,CCQ/tháng | | ... 3",
+      "title": "Biểu phí",
+      "url": "https://www.vfs.com.vn/dich-vu-chung-khoan-khach-hang-ca-nhan/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bvsc.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Phí dịch vụ lưu ký ... <td>* Trường hợp BVSC thực hiện thủ tục chuyển nhượng:<br>Mức thu: 0,165% x giá trị chứng khoán cơ cấu",
+      "title": "BAOVIET Securities",
+      "url": "https://www.bvsc.com.vn/media/1ysbdi2t/ds-ph%C3%AD-d%E1%BB%8Bch-v%E1%BB%A5-thay-%C4%91%E1%BB%95i-bi%E1%BB%83u-t%E1%BB%AB-172025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "bmsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Đối với CP/CCQ/CW niêm yết | 0,27 đồng/cổ phiếu, CCQ, CW/tháng ... CHUYỂN KHOẢN CHỨNG KHOÁN | 0,5 đồng/1 chứng khoán/1 lần chuyển khoản/1 mã",
+      "title": "Biểu phí",
+      "url": "https://bmsc.com.vn/dich-vu-chung-khoan/Bieu-phi.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vixs.vn",
+      "ref_id": "turn0search17",
+      "snippet": "<td>Phí áp dụng với dịch vụ thanh toán tiền giao dịch TPRL (phí này có thể thay đổi theo biểu phí của VCB trong từng",
+      "title": "BIỂU PHÍ DỊCH VỤ GIAO DỊCH CHỨNG KHOÁN",
+      "url": "https://vixs.vn/wp-content/uploads/2024/09/34-12.09.2024-QD-TGD-Ban-hanh-Bieu-phi-giao-dich-chung-khoan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vixs.vn",
+      "ref_id": "turn0search5",
+      "snippet": "1.3 | Phí áp dụng với dịch vụ thanh toán tiền giao dịch TPRL (phí này có thể thay đổi theo biểu phí của VCB",
+      "title": "Biểu phí dịch vụ - Công ty CP Chứng khoán VIX",
+      "url": "https://vixs.vn/ho-tro/bieu-phi-dich-vu-giao-dich-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search6",
+      "snippet": "### Giá dịch vụ trong lĩnh vực chứng khoán áp dụng tại VSDC do Nhà nước định giá ... Giá do Bộ Tài chính quy",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/led/2684"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Tại Việt Nam, **phí lưu ký cổ phiếu phổ biến là 0,27 đồng/cổ phiếu/tháng**; chứng chỉ quỹ và chứng quyền có bảo đảm cũng áp dụng mức này. Theo [biểu phí SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-luu-ky).\n\nVí dụ, bạn giữ **10.000 cổ phiếu suốt tháng** thì phí khoảng **2.700 đồng/tháng**, không phụ thuộc giá thị trường của cổ phiếu.\n\nĐây là phí lưu giữ chứng khoán, **khác với phí mua/bán**. Số tiền thực thu còn tùy số dư, thời gian nắm giữ và chính sách công ty chứng khoán.\n\nBạn đang dùng công ty chứng khoán nào để mình kiểm tra mức áp dụng cụ thể?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21888,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 244,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-a13f-7c81-a6f9-da1fc3b6ca5f",
+ "error": ""
+}

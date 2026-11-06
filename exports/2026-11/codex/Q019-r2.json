@@ -1,0 +1,217 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q019-r2",
+ "prompt_id": "Q019",
+ "run": 2,
+ "question": "Công ty chứng khoán nào có đội ngũ môi giới tư vấn tốt?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:49:57",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 31.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00c-e716-7782-babc-cbf300087c97"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-b4ce4bb5-c572-4218-ba52-3edd64bab43f",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-b4ce4bb5-c572-4218-ba52-3edd64bab43f",
+    "type": "web_search",
+    "query": "site.ssi.com.vn tư vấn đầu tư khách hàng cá nhân môi giới báo cáo phân tích ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn tư vấn đầu tư khách hàng cá nhân môi giới báo cáo phân tích",
+      "site.hsc.com.vn khách hàng cá nhân tư vấn đầu tư môi giới",
+      "site.vietcap.com.vn khách hàng cá nhân tư vấn đầu tư",
+      "site.mbs.com.vn tư vấn đầu tư khách hàng cá nhân"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Với nền tảng nghiên cứu uy tín, công nghệ giao dịch tiên tiến và đội ngũ tư vấn giàu kinh nghiệm, HSC cung cấp các",
+      "title": "Who We Serve - CTCP Chứng khoán Thành phố Hồ Chí Minh - HSC",
+      "url": "https://www.hsc.com.vn/vi/khach-hang"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Tư vấn đầu tư là dịch vụ nghiên cứu và tư vấn của Trung tâm phân tích SSI với mục tiêu gửi tới nhà đầu",
+      "title": "Phân tích và tư vấn đầu tư",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Pro-Advide là dịch vụ được MBS cung cấp trên ứng dụng điện thoại MBS Mobile App và trên nền tảng giao dịch website S24, cho",
+      "title": "Tư vấn - MBS",
+      "url": "https://www.mbs.com.vn/tu-van/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ktck.1cdn.vn",
+      "ref_id": "turn0search12",
+      "snippet": "www.vietcap.com.vn ... research@vietcap.com.vn ... Dầu khí, Điện và Nước ... - Nguyễn Thị Ngọc Hân, Chuyên viên, ext 191 ... Khách hàng cá nhân ...",
+      "title": "Cập nhật  \n  Update Report  \n \n \n \n \n \n \nCTCP Bán",
+      "url": "https://ktck.1cdn.vn/2025/09/07/frt.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Với đội ngũ chuyên viên tư vấn đầu tư chuyên nghiệp và tận tâm, chúng tôi sẽ tư vấn để khách hàng có thể đầu",
+      "title": "Tư vấn Khách hàng Cá nhân - Vietcap",
+      "url": "https://www.vietcap.com.vn/dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Trung tâm Chăm sóc Khách hàng MBS là cầu nối giữa MBS và Khách hàng nhằm trao đổi thông tin tập trung, thống nhất và",
+      "title": "Trung tâm chăm sóc khách hàng - MBS",
+      "url": "https://www.mbs.com.vn/trung-tam-cham-soc-khach-hang/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "### Khách hàng cá nhân ... * Đầu tư ... * Bảo hiểm kết hợp tích lũy & đầu tư ... * Hoàn tiền di",
+      "title": "Dịch vụ Khách hàng Cá nhân - Ngân hàng MSB",
+      "url": "https://www.msb.com.vn/khach-hang-ca-nhan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Từng thành công khi triển khai các sản phẩm đầu tư tài chính trước đây, HSC tự tin sẽ tiếp tục mang lại nhiều chọn",
+      "title": "Môi giới phái sinh",
+      "url": "https://www.hsc.com.vn/vi/moi-gioi-phai-sinh-1"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Trung tâm Dịch vụ Khách hàng ... support@hsc.com.vn ... Vui lòng để lại thông tin để chúng tôi có thể liên hệ tư vấn ...",
+      "title": "Liên hệ | HSC",
+      "url": "https://www.hsc.com.vn/vi/lien-he"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* MSB Digital Bank Khách hàng cá nhân ... Câu hỏi thường gặp ... Tra cứu yêu cầu Kiểm tra tình trạng xử lý cho",
+      "title": "Liên hệ & hỗ trợ - MSB - Ngân hàng TMCP Hàng Hải Việt Nam",
+      "url": "https://www.msb.com.vn/lien-he-ho-tro/?csrt=18309923015137004062"
+     },
+     {
+      "type": "text_result",
+      "domain": "careers.mbbank.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "### Chuyên viên Tư vấn Khách hàng Cá nhân (Chuyên viên UB) - Khu vực Hồ Ch... ... ### Tập sự Chuyên viên Khách hàng",
+      "title": "MBCareersWeb",
+      "url": "https://careers.mbbank.com.vn/list-of-posts?name=Khu+v%E1%BB%B1c+H%E1%BB%93+Ch%C3%AD+Min"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "sẽ tập trung mở rộng thị trường, đa dạng hóa sản phẩm, nâng ... hợp với nhu cầu đầu tư của từng phân khúc khách",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2024_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "online.hsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Image | Tư vấn đầu tư tất cả các sản phẩm tài chính cá nhân: Cổ phiếu, Chứng quyền, Hợp đồng tương lai. ... Image",
+      "title": "Đăng Ký Dịch Vụ Tư Vấn Đầu Tư Chứng Khoán - HSC Online",
+      "url": "https://online.hsc.com.vn/tu-van/dang-ky-tu-van-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "HSC không chỉ là một công ty môi giới mà còn là cầu nối giữa dòng vốn toàn cầu và nền kinh tế Việt Nam",
+      "title": "CTCP Chứng khoán Thành phố Hồ Chí Minh | HSC",
+      "url": "https://www.hsc.com.vn/vi"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search14",
+      "snippet": "MSB cam kết tuân thủ chặt chẽ về an toàn hệ thống thông tin trong hoạt động được quy định tại Thông tư số 09/2020/TT-NHNN",
+      "title": "LẮNG NGHE KHÁCH HÀNG",
+      "url": "https://cmsv5.fiingroup.vn/medialib/Crawler/2024/2024-06/2024-06-21/20240621_20240620-MSB-CBTT-Bao-cao-PTBV-2023-signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search15",
+      "snippet": "Trong khi vẫn tiếp tục phục vụ các đối tượng khách hàng này, chúng tôi cũng nhận thấy rằng cùng với sự tăng trưởng của",
+      "title": "THÔNG ĐIỆP TỔNG GIÁM ĐỐC",
+      "url": "https://storage.googleapis.com/hsc-cweb/annual-report/2016/file-2017-04-19-549b526f-c4d1-43ea-97be-7096f646c60b.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Với chuyển đổi chiến lược từ “sản phẩm làm trung tâm” sang “khách hàng làm trung tâm”, HSC bắt đầu thực ... Thành phố Hồ",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2019",
+      "url": "https://rs.nguoiquansat.vn/ReportFile/HCM/2019/Baocaothuongniennam2019.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search17",
+      "snippet": "BẢN CÁO BẠCHĐể hạn chế các rủi ro có thể xảy ra, ngay từ những ngày đầu thành lập HSC đã xây dựng văn hóa",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://staticfile.hsx.vn/Uploads/LocalFiles/7f1857f50f9b4f61b6508c0b37a77382/20240201_20240201%20-%20Q.mua%20HSC%20-%20Ban%20cao%20bach%20CB%20CP%20cua%20HSC.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Bạn có thể đưa HSC, SSI, Vietcap và MBS vào danh sách tìm hiểu.** Tuy nhiên, chất lượng tư vấn phụ thuộc rất nhiều vào **người môi giới trực tiếp phụ trách bạn**, không chỉ tên công ty.\n\nDựa trên dịch vụ các công ty công bố, tôi gợi ý:\n\n| Công ty | Điểm đáng cân nhắc |\n|---|---|\n| **HSC** | Có nền tảng nghiên cứu và đội ngũ môi giới có chứng chỉ hành nghề; đáng tìm hiểu nếu bạn muốn người đồng hành tư vấn thường xuyên. [Thông tin HSC](https://www.hsc.com.vn/vi/khach-hang) |\n| **SSI** | Có hệ thống báo cáo từ vĩ mô, chiến lược thị trường đến phân tích cổ phiếu; đáng cân nhắc nếu bạn thích khuyến nghị có luận điểm để tự kiểm chứng. [Phân tích và tư vấn SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu) |\n| **Vietcap** | Công bố dịch vụ tư vấn cá nhân gắn với hoàn cảnh khách hàng và mức rủi ro phù hợp; đáng trao đổi nếu bạn cần tư vấn danh mục. [Dịch vụ Vietcap](https://www.vietcap.com.vn/dich-vu) |\n| **MBS** | Có dịch vụ Pro-Advide cho phép lựa chọn chuyên gia tư vấn; nên hỏi rõ cách phục vụ và phí trước khi đăng ký. [Tư vấn MBS](https://www.mbs.com.vn/tu-van/) |\n\n*Đây là danh sách để khảo sát, không phải bảng xếp hạng hiệu quả tư vấn; thông tin trên do chính các công ty công bố.*\n\n**Cách chọn môi giới quan trọng hơn chọn thương hiệu:** hãy trao đổi với 2–3 người và yêu cầu một khuyến nghị mẫu, trong đó có:\n- Lý do mua, thời gian nắm giữ và rủi ro khiến luận điểm không còn đúng.\n- Tỷ trọng đề xuất và cách xử lý nếu giá giảm.\n- Phí giao dịch, phí tư vấn và điều kiện được chăm sóc riêng.\n\nTránh người **cam kết lợi nhuận, thúc dùng margin hoặc mua bán liên tục**, chỉ khoe lệnh thắng mà không nói đến lệnh thua.\n\nBạn mới đầu tư hay đã có kinh nghiệm, vốn dự kiến khoảng bao nhiêu và muốn đầu tư dài hạn hay giao dịch ngắn hạn? Tôi có thể giúp thu hẹp lựa chọn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22228,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 645,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00c-e716-7782-babc-cbf300087c97",
+ "error": ""
+}

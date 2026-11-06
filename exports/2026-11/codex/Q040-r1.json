@@ -1,0 +1,422 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q040-r1",
+ "prompt_id": "Q040",
+ "run": 1,
+ "question": "Mở tài khoản phái sinh ở công ty chứng khoán nào tốt?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:00:26",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 47.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b016-7fed-77a3-91c7-372a3703e899"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-f450873a-bb3f-4081-9a0c-f1dc0ced166b",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-f450873a-bb3f-4081-9a0c-f1dc0ced166b",
+    "type": "web_search",
+    "query": "site.vps.com.vn phí giao dịch phái sinh 2026 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vps.com.vn phí giao dịch phái sinh 2026",
+      "site.vndirect.com.vn phí giao dịch phái sinh",
+      "site.hsc.com.vn phí giao dịch phái sinh",
+      "site.ssi.com.vn biểu phí phái sinh"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "1 | Giao dịch cơ sở và giao dịch chứng quyền không do VNDIRECT phát hành* | Phí bậc thang từ 0,15%/GTGD ... 2.1 |",
+      "title": "Biểu phí dịch vụ giao dịch chứng khoán tại VNDIRECT - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Để tham khảo các thông tin về biểu phí và chính sách các sản phẩm dịch vụ của VPS, Quý khách vui lòng tham khảo:",
+      "title": "Tôi có thể tham khảo thông tin các biểu phí, chính sách của VPS ở đâu? | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/toi-co-tham-khao-thong-tin-cac-bieu-phi-chinh-sach-cua-vps-o-dau"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# Hưởng phí Zero, Giao dịch Pro – Miễn phí giao dịch phái sinh tại VNDIRECT ... ĐẶC QUYỀN KHI THAM GIA GIAO DỊCH PHÁI",
+      "title": "Hưởng phí Zero, Giao dịch Pro - Miễn phí giao dịch phái sinh tại VNDIRECT - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/huong-phi-zero-giao-dich-pro-mien-phi-giao-dich-phai-sinh-tai-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Bắt đầu từ 26/02/2019, VNDIRECT trân trọng thông báo Biểu phí Giao dịch Phái sinh tại VNDIRECT như sau:",
+      "title": "Thông báo Áp dụng Biểu phí Giao dịch Phái sinh mới tại VNDIRECT từ 26/02/2019 - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/thong-bao-ap-dung-bieu-phi-giao-dich-phai-sinh-moi-tai-vndirect-tu-26-02-2019/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieuchungkhoan.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Căn cứ theo Biểu giá dịch vụ giao dịch chủ động của SSI và Biểu giá dịch vụ giao dịch có chuyên viên TVCK của",
+      "title": "Phí giao dịch tại SSI - Hoàng - Tư vấn viên tại chứng khoán SSI",
+      "url": "https://cophieuchungkhoan.com.vn/phi-giao-dich-tai-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Email: support@hsc.com.vn hoặc ... Ngay khi hoàn tất mở tài khoản trực tuyến, Quý khách đã có thể trải nghiệm các tính năng của",
+      "title": "Tài khoản",
+      "url": "https://www.hsc.com.vn/vi/tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search12",
+      "snippet": "HSC quy định để đảm bảo thực hiện các nghĩa vụ của Khách Hàng phát sinh từ Giao Dịch Chứng Khoán Phái Sinh và theo",
+      "title": "HD MTK Phai Sinh CNTN-TCTN - 1.cdr",
+      "url": "https://storage.googleapis.com/hsc-cweb/knowledge/mo-tai-khoan/hd-mtk-phai-sinh-cntn-tctn-17-2-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssit.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "## Biểu giá dịch vụ ... 1 | Phụ phí nhiên liệu dịch vụ cảng SSIT - 24.4.2026 | 20/04/2026 | 118 KB | ...",
+      "title": "Biểu giá dịch vụ",
+      "url": "https://www.ssit.com.vn/thu-tuc/bieu-gia-dich-vu.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Ngoài phí giao dịch chứng khoán, theo quy định của pháp luật, VNDIRECT sẽ thu và nộp thuế thay đối với khoản thuế TNCN của",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Bi%E1%BB%83u-ph%C3%AD-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-c%C6%A1-s%E1%BB%9F"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "VNDIRECT thông báo biểu phí giao dịch chứng khoán phái sinh từ ngày 28/03/2018 như sau: • Phí giao dịch mở/đóng/đáo hạn: 20,000 đồng/giao dịch/hợp",
+      "title": "Chứng khoán phái sinh - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/category/chung-khoan-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tradersunion.com",
+      "ref_id": "turn0search9",
+      "snippet": "Phí của VNDIRECT bao gồm các khoản thanh toán cho các dịch vụ của nhà môi giới, sàn giao dịch chứng khoán và Tổng công",
+      "title": "Đánh giá VNDIRECT‌ 2026: Xếp hạng nhà môi giới Forex",
+      "url": "https://tradersunion.com/vi/brokers/fond/view/vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "iboard.ssi.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Giá trị × 1,000,000 VNĐ. Bản quyền thuộc về Công ty Cổ phần Chứng khoán SSI © 2019.",
+      "title": "Bảng giá - SSI iBoard",
+      "url": "https://iboard.ssi.com.vn/bang-gia/phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "* ĐẦU TƯ & GIAO DỊCH TẠI VNDIRECT Hướng dẫn đầu tư, giao dịch cổ phiếu, trái phiếu, chứng chỉ quỹ, phái sinh, chứng quyền",
+      "title": "TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "● 41I1F7000 – HĐ tương lai chỉ số VN30 tháng 07/2025 ... #10 Cách tính Giá phí dịch vụ bù trừ chứng khoán phái sinh",
+      "title": "Bảng: Cấu trúc mã HĐ phải sinh theo ISIN",
+      "url": "https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/Vietcap-KRX_220425.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "2.2 Khách Hàng có thể ký quỹ bằng tiền hoặc/và chứng khoán thuộc quyền sở hữu và sử dụng của mình, trong danh mục chứng",
+      "title": "E. CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN PHÁI SINH",
+      "url": "https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/1-BO%20DIEU%20KHOAN%20DIEU%20KIEN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Trong trường hợp không có giá đóng cửa của Sở giao dịch chứng khoán như quy định tại điều này, thì giá xác định theo",
+      "title": "Chứng khoán phái sinh",
+      "url": "https://cmsv5.fiingroup.vn/medialib/Crawler/2024/2024-03/2024-03-22/20240322_20240322-FUEVFVND-CBTT-tai-lieu-dai-hoi-NDT-thuong-nien-nam-tai-chinh-2023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vbse.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Để nộp tiền giao dịch phái sinh( tiểu khoản .50), Quý khách thực hiện theo hướng dẫn sau: ... Thông số quản lý Tài khoản",
+      "title": "HƯỚNG DẪN GIAO DỊCH CHỨNG KHOÁN PHÁI SINH",
+      "url": "https://www.vbse.vn/wp-content/uploads/2025/09/7.Huong-dan-giao-dich-chung-khoan-phai-sinh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "- Với mục tiêu tri ân và thúc đẩy các khách hàng giao dịch chứng khoán phái sinh tại VCBS, VCBS thực hiện miễn phí",
+      "title": "Ng©n hµng Ngo¹i th­ng ViÖt Nam",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/1-the-le-chuong-trinh-mien-phi-gdck-phai-sinh-2023-28022023.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5532bb4f-e7b4-4a90-a650-04c4b1a16a79",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5532bb4f-e7b4-4a90-a650-04c4b1a16a79",
+    "type": "web_search",
+    "query": "site.vps.com.vn \"phái sinh\" \"2.000\" \"phí\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vps.com.vn \"phái sinh\" \"2.000\" \"phí\"",
+      "site.ssi.com.vn \"phái sinh\" \"2.000\" \"500\" biểu",
+      "site.hsc.com.vn \"phái sinh\" \"phí giao dịch\" \"2026\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "BIỂU PHÍ GIAO DỊCH CHỨNG KHOÁN PHÁI SINH ... <td rowspan=\"8\">Hợp đồng tương lai Chỉ số VN30 (*)</td> ... <td>2.000 đồng/hợp đồng</td> ... Đối với",
+      "title": "BIỂU PHÍ GIAO DỊCH CHỨNG KHOÁN PHÁI SINH",
+      "url": "https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search0",
+      "snippet": "Phái sinh VPS: phí 2.000 đồng/HĐ (1.000 từ 200 HĐ/ngày) cộng phí Sở, VSDC, thuế; ký quỹ, ngưỡng xử lý, app SmartPro, demo SmartEasy (10/2026).",
+      "title": "Phái sinh VPS 2026: phí, ký quỹ, app SmartPro, demo",
+      "url": "https://reviewchungkhoan.com/phai-sinh-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search1",
+      "snippet": "Phí cổ phiếu online của VPS theo biểu là 0,2% giá trị giao dịch, đã gồm phí, thuế trả Sở và VSDC (biểu phí áp",
+      "title": "VPS có uy tín không? Đánh giá Chứng khoán VPS",
+      "url": "https://reviewchungkhoan.com/ctck/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoanvps.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "* Phí giao dịch phái sinh tại VPS áp dụng mới từ ngày 03/04/2023 cho KH mở mới tài khoản chứng khoán VPS trong 3",
+      "title": "Biểu phí giao dịch chứng khoán Phái Sinh - Mở Tài khoản Chứng khoán VPS miễn phí giao dịch 6 tháng",
+      "url": "https://chungkhoanvps.com.vn/bieu-phi-giao-dich-chung-khoan-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search3",
+      "snippet": "> Thuế mỗi lượt = 0,1% × (giá thanh toán × 100.000 đồng × số hợp đồng × tỷ lệ ký quỹ ban đầu của",
+      "title": "Phí giao dịch phái sinh 2026: bảng phí của 21 CTCK",
+      "url": "https://reviewchungkhoan.com/phi-giao-dich-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Biểu phí giao dịch chứng khoán phái sinh ... (Áp dụng từ ngày 30 tháng 03 năm 2026) ... 1.1 | Phí giao dịch cổ",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở",
+      "url": "https://www.phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn1search5",
+      "snippet": "VPS – Biểu phí phái sinh (05/05/2025): images.vps.com.vn ... VPS – Thị phần HOSE quý 2/2026: cafef.vn Cách đọc số liệu: phí và lãi suất",
+      "title": "Đánh giá VPS 2026: phí 0,20%, margin 8,8%, thị phần số 1",
+      "url": "https://dautuvn.vn/chung-khoan/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoanvps.org",
+      "ref_id": "turn1search6",
+      "snippet": "Phí giao dịch phái sinh tại VPS | 1.000 – 2.000 VNĐ / hợp đồng | Áp dụng cho hợp đồng tương lai VN30, tùy",
+      "title": "Phí Giao Dịch VPS: Loại Phí, Biểu Phí, Cách Tính & Tối Ưu",
+      "url": "https://chungkhoanvps.org/phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Thị trường phái sinh là một kênh đầu tư hấp dẫn nhờ khả năng sinh lời cao và tính thanh khoản tốt. ... Hiểu được",
+      "title": "phs ưu đãi",
+      "url": "https://www.phs.vn/tin-tuc/phai-sinh-chuan-gu-uu-dai-cuc-cool-chi-co-tai-phs/6259032"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Để tham gia chương trình, Nhà đầu tư có thể đăng ký thông qua (1) tổng đài 1900545471, (2) đăng ký tại quầy dịch vụ",
+      "title": "BỘ 03 ƯU ĐÃI CỰC HẤP DẪN DÀNH RIÊNG CHO KHÁCH HÀNG SSI",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/bo-03-uu-dai-cuc-hap-dan-danh-rieng-cho-khach-hang-ssi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shs.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "* Biểu phí giao dịch chứng khoán phái sinh - 03/11/2025 * Biểu phí dịch vụ (áp dụng từ 25/05/2026) - 03/11/2025",
+      "title": "Biểu phí giao dịch | shs.com.vn",
+      "url": "https://www.shs.com.vn/ho-tro/huong-dan-giao-dich/bieu-phi-giao-dich"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search10",
+      "snippet": "Nếu bạn không chọn nhân viên chăm sóc, VPBankS thu 0 đồng phần công ty cho mỗi HĐ tương lai chỉ số VN30, VN100 (từ",
+      "title": "VPS và VPBankS khác nhau thế nào? So sánh phí, margin 2026",
+      "url": "https://reviewchungkhoan.com/vps-hay-vpbanks/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vdg.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Nếu bạn muốn mở tài khoản chứng khoán VPS thì có thể truy cập vào đường link sau: https://openaccount.vps.com.vn/? ... Có nghĩa là mỗi lần",
+      "title": "Mở tài khoản chứng khoán VPS có mất phí không? - VDG Invest - Dẫn lối đầu tư thông minh",
+      "url": "https://dautu.vdg.vn/mo-tai-khoan-chung-khoan-vps-co-mat-phi-khong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "(Áp dụng từ ngày 01/06/2026 cho đến khi có Thông báo thay thế) ... hưởng ưu đãi phí giao dịch, tiền giới thiệu cổ phiếu",
+      "title": "CHÍNH SÁCH CHƯƠNG TRÌNH ĐỐI TÁC GIỚI THIỆU KHÁCH HÀNG IWEALTH",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/06/Chinh-sach-iWealth-Partner-062026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "(Thời gian hiệu lực: Kể từ ngày 16/03/2026) ... Khách hàng Phi định chế1 được phân loại là Khách hàng Ưu tiên của Ngân hàng",
+      "title": "CHÍNH SÁCH ƯU ĐÃI DÀNH CHO KHÁCH HÀNG VIETCOMBANK PRIORITY",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/chinh-sach-danh-cho-kh-vcb-priority-updated-20260316.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.maybank-kimeng.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Phí giao dịch chứng khoán cơ sở và thị trường phái sinh của MSVN: 0% (*) trên tài khoản ... thanh toán các loại phí",
+      "title": "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN",
+      "url": "https://www.maybank-kimeng.com.vn/securities/assets/uploads/file/MSVN202601060006.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Pinetree trân trọng thông báo Biểu phí Dịch vụ Chứng khoán Phái sinh áp dụng tại Pinetree từ ngày 27/09/2024 như sau: ... Mức phí",
+      "title": "PINETREE SECURITIES CORPORATION",
+      "url": "https://pinetree.vn/wp-content/uploads/2024/10/PT-Schedules-of-fees-Phai-sinh-11.10.24.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn1search17",
+      "snippet": "CHO GIAI ĐOẠN TỪ NGÀY 01 THÁNG 01 NĂM 2026 ĐẾN NGÀY 30 THÁNG 09 NĂM 2026 ... Lãi (hoặc lỗ) vị thế của hợp",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN THÀNH PHỐ HỒ CHÍ MINH",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2506028/20261020%20-%20HCM%20-%20Bao%20cao%20tai%20chinh%20Q3.2026.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-6292810c-b665-412a-aeab-d3eb209b9dad",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-6292810c-b665-412a-aeab-d3eb209b9dad",
+    "type": "web_search",
+    "query": "https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf",
+    "action": {
+     "type": "open_page",
+     "url": "https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 57",
+      "url": "https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "Nếu bạn nói đến **phái sinh niêm yết tại Việt Nam như hợp đồng tương lai VN30**, mình sẽ đưa **VPS và VNDIRECT vào danh sách so sánh đầu tiên**, thêm **HSC nếu muốn có người hỗ trợ**. Không có công ty tốt nhất cho mọi người.\n\n| Công ty | Khi nào đáng cân nhắc? | Điểm cần kiểm tra |\n|---|---|---|\n| **VPS** | Muốn một lựa chọn để bắt đầu so sánh chi phí giao dịch | Biểu phí chính thức mình tìm được ghi **2.000đ/HĐ khi dưới 200 HĐ/ngày**, **1.000đ/HĐ từ 200 HĐ/ngày**. Tuy nhiên tài liệu áp dụng từ 2023, nên cần xác nhận mức hiện hành và ưu đãi trước khi mở. [Biểu phí VPS](https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf) |\n| **VNDIRECT** | Muốn thương lượng phí theo nhu cầu giao dịch | Biểu phí công bố mức cơ bản **2.000đ/giao dịch/HĐ**, có thể thỏa thuận xuống **0đ phần phí công ty**; không mặc nhiên áp dụng cho mọi tài khoản. [Biểu phí VNDIRECT](https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/) |\n| **HSC** | Muốn tìm hiểu dịch vụ hỗ trợ trước khi quyết định | Có thể đăng ký phái sinh trực tuyến qua HSC ONE sau khi kích hoạt tài khoản cơ sở; thời gian kích hoạt được công bố là trong **1 ngày làm việc**. Nên xin báo giá phí riêng để so sánh. [Hướng dẫn HSC](https://www.hsc.com.vn/vi/tai-khoan) |\n\n**Mình sẽ chọn theo 3 tiêu chí, không chỉ nhìn “phí 0 đồng”:**\n- **Tổng chi phí:** phí mở và đóng vị thế, phí Sở, bù trừ, thuế, quản lý ký quỹ và nộp/rút tiền. Phí công ty bằng 0 không có nghĩa giao dịch miễn phí hoàn toàn. [Biểu phí VNDIRECT](https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/)\n- **Trải nghiệm đặt lệnh:** thử thao tác đặt/sửa/hủy, lệnh điều kiện và kênh hỗ trợ khi ứng dụng gặp sự cố.\n- **Quản trị ký quỹ:** hỏi rõ mức cảnh báo, ngưỡng đóng vị thế bắt buộc và thời hạn bổ sung tiền.\n\n**Chốt lại:** nếu tự giao dịch và ưu tiên chi phí, hãy xin báo giá cùng điều kiện từ **VPS và VNDIRECT** rồi chọn. Nếu mới bắt đầu, nên ưu tiên hỗ trợ và kiểm soát rủi ro hơn chênh lệch vài nghìn đồng phí—phái sinh có đòn bẩy, có thể lỗ nhanh.\n\nBạn mới chơi hay đã giao dịch rồi, và dự kiến khoảng bao nhiêu hợp đồng/ngày?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 69376,
+    "cached_input_tokens": 45312,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 967,
+    "reasoning_output_tokens": 15
+   }
+  }
+ ],
+ "thread_id": "01a1b016-7fed-77a3-91c7-372a3703e899",
+ "error": ""
+}

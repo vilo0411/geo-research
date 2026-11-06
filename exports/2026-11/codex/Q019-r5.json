@@ -1,0 +1,201 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q019-r5",
+ "prompt_id": "Q019",
+ "run": 5,
+ "question": "Công ty chứng khoán nào có đội ngũ môi giới tư vấn tốt?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:50:28",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 28.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00d-5eda-7a80-ab72-fd0bec073f21"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-8fe35d14-2810-4209-9c3a-2254da8a87bc",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-8fe35d14-2810-4209-9c3a-2254da8a87bc",
+    "type": "web_search",
+    "query": "site.ssi.com.vn tư vấn đầu tư môi giới khách hàng cá nhân báo cáo phân tích ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn tư vấn đầu tư môi giới khách hàng cá nhân báo cáo phân tích",
+      "site.hsc.com.vn khách hàng cá nhân môi giới tư vấn đầu tư",
+      "site.vndirect.com.vn tư vấn đầu tư khách hàng cá nhân môi giới",
+      "site.vcsc.com.vn Vietcap khách hàng cá nhân tư vấn đầu tư"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Với đội ngũ chuyên viên tư vấn đầu tư chuyên nghiệp và tận tâm, chúng tôi sẽ tư vấn để khách hàng có thể đầu",
+      "title": "Tư vấn Khách hàng Cá nhân - Vietcap",
+      "url": "https://www.vietcap.com.vn/tu-van-khach-hang-ca-nhan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Với nền tảng nghiên cứu uy tín, công nghệ giao dịch tiên tiến và đội ngũ tư vấn giàu kinh nghiệm, HSC cung cấp các",
+      "title": "Who We Serve - CTCP Chứng khoán Thành phố Hồ Chí Minh - HSC",
+      "url": "https://www.hsc.com.vn/vi/khach-hang"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Tư vấn đầu tư là dịch vụ nghiên cứu và tư vấn của Trung tâm phân tích SSI với mục tiêu gửi tới nhà đầu",
+      "title": "Phân tích và tư vấn đầu tư",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "### Liên lạc với VNDIRECT ... Khách hàng cá nhân muốn có chuyên gia môi giới riêng để giúp tư vấn giao dịch và quản",
+      "title": "Tư vấn giao dịch chứng khoán - Dịch vụ giúp khách hàng An tâm đầu tưVNDIRECT",
+      "url": "https://www.vndirect.com.vn/san-pham-ca-nhan/dich-vu-dau-tu/quan-ly-tai-san-dau-tu/tu-van-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Bà Tôn Minh Phương – Tổng Giám đốc ... Số 68/UBCK-GP do UBCKNN cấp ngày 06/11/2007; Giấy phép điều chỉnh Giấy phép thành lập và",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/mddps/1964"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Từng thành công khi triển khai các sản phẩm đầu tư tài chính trước đây, HSC tự tin sẽ tiếp tục mang lại nhiều chọn",
+      "title": "Môi giới phái sinh",
+      "url": "https://www.hsc.com.vn/vi/moi-gioi-phai-sinh-1"
+     },
+     {
+      "type": "text_result",
+      "domain": "vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Dưới sự phát triển nhanh chóng của nền kinh tế Việt Nam và Thế Giới, nhu cầu cuộc sống của con người trong xã hội",
+      "title": "Tuyển dụng WA",
+      "url": "https://vndirect.com.vn/tuyen_dung_WA/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Từ khi thành lập, Vietcap luôn tìm kiếm cơ hội đầu tư vào các công ty tốt và triển vọng trong những ngành nghề",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/20241224%20-%20Chung%20quyen%20VHM.VIETCAP.M.Au.T.A4%20-%20B%E1%BA%A3n%20c%C3%A1o%20b%E1%BA%A1ch.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Sự tích hợp này giúp VNDIRECT hiểu khách hàng sâu hơn, không chỉ qua hành vi giao dịch mà còn qua các nhu cầu và",
+      "title": "2.2.1. Khách hàng cá nhân: nền tảng giao dịch và quản lý tài sản chuyên nghiệp",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/4.-Bao-cao-ban-dieu-hanh-VNDIRECT-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vn.joboko.com",
+      "ref_id": "turn0search7",
+      "snippet": "## CÔNG TY CỔ PHẦN CHỨNG KHOÁN BẢN VIỆT (VCSC) ... * Tư vấn đầu tư cho khách hàng cá nhân và tổ chức trong",
+      "title": "Tuyển CHUYÊN VIÊN/CHUYÊN VIÊN CAO CẤP TƯ VẤN ĐẦU TƯ tại CÔNG TY CỔ PHẦN CHỨNG KHOÁN BẢN VIỆT (VCSC), Việc làm - Joboko",
+      "url": "https://vn.joboko.com/viec-lam-chuyen-vien-chuyen-vien-cao-cap-tu-van-dau-tu-xvi6645206?amp=1"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "VNDCARE là gói dịch vụ chuyên gia cho phép bạn lựa chọn chuyên gia tư vấn giúp bạn thiết lập hành trình học tập và",
+      "title": "Tài khoản tư vấn (Advisory account - AEcareby) - Dịch vụ đầu tưVNDIRECT",
+      "url": "https://www.vndirect.com.vn/dcare-dich-vu-chuyen-gia/"
+     },
+     {
+      "type": "text_result",
+      "domain": "play.google.com",
+      "ref_id": "turn0search9",
+      "snippet": "Ứng dụng giao dịch thế hệ mới dành cho khách hàng cá nhân tại Vietcap, với những cải tiến nổi bật: ... Sự an toàn",
+      "title": "Vietcap - Ứng dụng trên Google Play",
+      "url": "https://play.google.com/store/apps/details?hl=vi&id=com.vcsc.vietcap"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Lựa chọn đầu tư linh hoạt từ ngắn tới dài hạn cho các mục tiêu lớn trong tương lai nhằm bảo an thịnh vượng tài",
+      "title": "Nếp sống đầu tư | VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "career.vdsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "# TƯ VẤN VIÊN TƯ VẤN ĐẦU TƯ - KH CÁ NHÂN ... - Tìm kiếm và phát triển mạng lưới khách hàng giao dịch",
+      "title": "TƯ VẤN VIÊN TƯ VẤN ĐẦU TƯ - KH CÁ NHÂN | Rồng Việt Careers",
+      "url": "https://career.vdsc.com.vn/job/16"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "www.vcsc.com.vn ... research@vcsc.com.vn ... **Khách hàng cá nhân** ... - Vũ Thị Minh Ngọc, Chuyên viên, ext 365 ... www.vietcap.com.vn | Vietcap<GO>",
+      "title": "Liên hệ\n\nCTCP Chứng khoán Vietcap (Vietcap)  \nwww.",
+      "url": "https://finance.vietstock.vn/downloadedoc/11153"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Tỷ lệ sở hữu nước ngoài tối đa tại công ty theo quyết định của Đại hội đồng cổ đông và quy định tại Điều",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://staticfile.hsx.vn/Uploads/LocalFiles/7f1857f50f9b4f61b6508c0b37a77382/20240201_20240201%20-%20Q.mua%20HSC%20-%20Ban%20cao%20bach%20CB%20CP%20cua%20HSC.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Bạn có thể đưa SSI, HSC, Vietcap và VNDIRECT vào danh sách để so sánh.** Tuy nhiên, chất lượng tư vấn phụ thuộc rất nhiều vào **môi giới trực tiếp phụ trách tài khoản**, không chỉ thương hiệu công ty.\n\n| Công ty | Điểm đáng cân nhắc |\n|---|---|\n| **SSI** | Có hệ thống báo cáo vĩ mô, chiến lược thị trường và phân tích cổ phiếu — đáng xem nếu bạn muốn tư vấn có luận cứ nghiên cứu. [Dịch vụ SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu) |\n| **HSC** | Công bố có hơn 300 nhân viên môi giới có chứng chỉ hành nghề, kết hợp nền tảng nghiên cứu và tư vấn cho khách hàng cá nhân. [Dịch vụ HSC](https://www.hsc.com.vn/vi/khach-hang) |\n| **Vietcap** | Có dịch vụ tư vấn cá nhân, hướng đến giải pháp phù hợp với hoàn cảnh và mức chịu rủi ro của khách hàng. [Dịch vụ Vietcap](https://www.vietcap.com.vn/tu-van-khach-hang-ca-nhan) |\n| **VNDIRECT** | Có dịch vụ cho phép lựa chọn chuyên gia môi giới theo khẩu vị và cách tiếp cận đầu tư của khách hàng. [Dịch vụ VNDIRECT](https://www.vndirect.com.vn/dcare-dich-vu-chuyen-gia/) |\n\n*Đây là thông tin dịch vụ do các công ty công bố, không phải bảng xếp hạng độc lập về hiệu quả tư vấn.*\n\n**Cách chọn thực tế:** Hãy trao đổi với 2–3 môi giới và yêu cầu một khuyến nghị mẫu. Người tư vấn tốt nên:\n- Hỏi mục tiêu, thời gian đầu tư và mức lỗ bạn có thể chịu **trước khi giới thiệu mã**.\n- Giải thích lý do mua, rủi ro, tỷ trọng và khi nào cần bán.\n- Minh bạch phí, lãi margin; không thúc giao dịch liên tục.\n- Không cam kết lợi nhuận hoặc yêu cầu chuyển tiền vào tài khoản cá nhân.\n\n**Bạn mới đầu tư hay đã có kinh nghiệm, vốn dự kiến khoảng bao nhiêu và muốn đầu tư dài hạn hay lướt sóng?** Mình có thể giúp thu hẹp lựa chọn phù hợp hơn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21921,
+    "cached_input_tokens": 8960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 631,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00d-5eda-7a80-ab72-fd0bec073f21",
+ "error": ""
+}

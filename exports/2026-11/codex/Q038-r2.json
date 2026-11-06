@@ -1,0 +1,241 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q038-r2",
+ "prompt_id": "Q038",
+ "run": 2,
+ "question": "Nên mua trái phiếu ở công ty chứng khoán nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:59:27",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 40.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b015-9a29-77e2-9cf2-ff84a28924c7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0a8177a4-8c7a-4bbf-a778-4c04653d5b6b",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0a8177a4-8c7a-4bbf-a778-4c04653d5b6b",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn trái phiếu khách hàng cá nhân ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn trái phiếu khách hàng cá nhân",
+      "site.tcbs.com.vn trái phiếu iBond rủi ro",
+      "site.ssi.com.vn trái phiếu khách hàng cá nhân"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Đối với Trái phiếu dòng tiền định sẵn: TCBS sẽ hỗ trợ môi giới bán lại tại các thời điểm định sẵn theo thời",
+      "title": "Trái phiếu iBond | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/trai-phieu-ibond/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Nhà đầu tư cá nhân nắm giữ TPDN có thể giao dịch, chuyển nhượng trái phiếu để đáp ứng mục tiêu về lợi nhuận, thanh",
+      "title": "Trái phiếu - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/trai-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tiencuatoi.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Thông tin về chương trình iBond và đặc tính của chương trình có thể xem tại website TCBS hoặc xem tại các tài liệu giới",
+      "title": "Rủi ro đầu tư trái phiếu iBond tại TCBS",
+      "url": "https://tiencuatoi.vn/rui-ro-trai-phieu-tcbs.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "* Khách hàng có thể cùng mua và bán 1 loại cổ phiếu trong cùng ngày; không được đặt các lệnh giao dịch vừa mua,",
+      "title": "Quy định giao dịch cổ phiếu",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "### VÌ SAO NÊN CHỌN ĐẦU TƯ SẢN PHẨM TRÁI PHIẾU CỦA VNDIRECT? ... ### Với sản phẩm đầu tư trái phiếu , bạn sẽ",
+      "title": "Trái phiếu - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/trai-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "brobank.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Thông tin nhận diện theo website của tổ chức. ... www.tcbs.com.vn ↗ ... Thông tin và điều kiện do TCBS công bố. ... ### Trái",
+      "url": "https://brobank.vn/to-chuc/tcbs"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Do được lựa chọn từ những doanh nghiệp uy tín hàng đầu mà TCBS trực tiếp tư vấn phát hành, iBond là sản phẩm đầu",
+      "title": "TECHCOMSECURITIES",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2025/11/BCTNTCBS2021Viet-compress2_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Để giao dịch mua/bán, theo dõi bảng giá trái phiếu, thông tin về trái phiếu, Quý khách đăng nhập tài khoản VNDIRECT tại https://myaccount.vndirect.com.vn ...",
+      "title": "Hướng dẫn giao dịch trái phiếu trên bảng giá VNDIRECT -",
+      "url": "https://dautu.vndirect.com.vn/huong-dan-giao-dich-trai-phieu-tren-bang-gia-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "GIAO DỊCH TRÁI PHIẾU iBOND TRỰC TUYẾN",
+      "title": "HƯỚNG DẪN THAO TÁC",
+      "url": "https://www.tcbs.com.vn/documents/10181/327015/iBond%2Bonline%2BManual%2BGuide_FINAL.pdf/acf232aa-9688-4e98-9a44-83fa6748ae7a"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Sản phẩm giao dịch trên iBond được lựa chọn từ những trái phiếu do các doanh nghiệp uy tín hàng đầu mà TCBS trực tiếp",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/3.-Ban-cao-bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Với kho kiến thức đầu tư bổ ích và đồ sộ, SSI sẽ giúp bạn trở thành nhà đầu tư thực thụ ... * NGƯỜI",
+      "title": "Dịch vụ chứng khoán khách hàng cá nhân - SSI",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "2 | Xác thực khuôn mặt | Xác thực qua hệ thống điện tử của VNDIRECT | Ảnh Thẻ CCCD/CC và ảnh khuôn mặt thực",
+      "title": "Xác thực khách hàng tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/53826986692121-X%C3%A1c-th%E1%BB%B1c-kh%C3%A1ch-h%C3%A0ng-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* [TCBS-WS] Giới thiệu trái phiếu iBond",
+      "title": "Understanding iBond (corporate bond) | TCBS Help",
+      "url": "https://help.tcbs.com.vn/en/ibond/"
+     },
+     {
+      "type": "text_result",
+      "domain": "static.tcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "&nbsp;&nbsp;(i) Đăng ký trực tuyến: bằng cách đăng nhập vào tài khoản chứng khoán mở tại TCBS và thực hiện đăng ký mua trái phiếu.<br>",
+      "title": "VF12202201_OC.pdf",
+      "url": "https://static.tcbs.com.vn/documents/OC/MSN02202301_OC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube18",
+      "snippet": "# TCBS - TRÁI PHIẾU DOANH NGHIỆP iBOND LÀ GÌ? ... Giới thiệu về Trái phiếu doanh nghiệp iBond 1 sản phẩm tài chính VƯỢT",
+      "title": "TCBS - TRÁI PHIẾU DOANH NGHIỆP iBOND LÀ GÌ? - YouTube",
+      "url": "https://www.youtube.com/watch?v=1BhjFjyXLoE"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube19",
+      "snippet": "# [TCBS] HƯỚNG DẪN ĐẶT MUA TRÁI PHIẾU iBOND ONLINE ... Một sản phẩm có bản quyền thuộc sở hữu của Techcom Securities (TCBS)",
+      "title": "[TCBS] HƯỚNG DẪN ĐẶT MUA TRÁI PHIẾU iBOND ONLINE - YouTube",
+      "url": "https://www.youtube.com/watch?v=rLVz2sEoWoE"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-19d4aa70-ae15-4cec-8032-ae00089dd606",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-19d4aa70-ae15-4cec-8032-ae00089dd606",
+    "type": "web_search",
+    "query": "https://help.tcbs.com.vn/trai-phieu-ibond/",
+    "action": {
+     "type": "open_page",
+     "url": "https://help.tcbs.com.vn/trai-phieu-ibond/"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 131",
+      "title": "Trái phiếu iBond | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/trai-phieu-ibond/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 242",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/scCqUuteR72xde5S67Jhq3Nz_fav-adzggp4SLkSwgMpLn9QDrbTZm_Rft4NpEt9rrKBPY_0x80thzOfMEpxC7M6sZY7yCy6g4czAsTcecR4vFrxzWdJfm26HiBfg7Gy",
+      "title": "Trái phiếu - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/trai-phieu/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Nếu bạn đang hỏi trái phiếu doanh nghiệp, tôi sẽ đưa TCBS và VNDIRECT vào danh sách so sánh trước**, chứ chưa chọn ngay nơi nào “an toàn nhất”. Quan trọng hơn tên công ty chứng khoán là **doanh nghiệp nào nợ bạn tiền và điều kiện thu hồi vốn**.\n\n| Nơi cân nhắc | Khi nào đáng xem | Điểm cần lưu ý |\n|---|---|---|\n| **TCBS** | Muốn mua qua iBond và có kênh tìm người mua lại qua iConnect | TCBS nêu rõ một số sản phẩm chỉ được **hỗ trợ môi giới bán lại**; khớp lệnh phụ thuộc cung cầu, không nên hiểu là cam kết mua lại. [Thông tin TCBS](https://help.tcbs.com.vn/trai-phieu-ibond/) |\n| **VNDIRECT** | Muốn xem sản phẩm DBond có thời gian nắm giữ và ngày mua lại theo hợp đồng | VNDIRECT công bố DBond có cam kết mua lại tại ngày quy định. Bạn vẫn phải đánh giá **khả năng thực hiện cam kết của VNDIRECT**, điều kiện và giá bán trước ngày đó. Không áp dụng mặc nhiên cho mọi trái phiếu tại đây. [Thông tin VNDIRECT](https://www.vndirect.com.vn/trai-phieu/) |\n\n**Cách tôi sẽ chọn:**\n- Nếu có thể giữ đến đáo hạn: ưu tiên chất lượng doanh nghiệp phát hành, dòng tiền trả nợ và điều khoản trái phiếu.\n- Nếu có thể cần tiền sớm: ưu tiên **cam kết mua lại bằng văn bản**, không chỉ lời tư vấn “thanh khoản linh hoạt”.\n- So sánh **lợi suất thực nhận sau thuế, phí và giá mua**, không chỉ lãi suất quảng cáo.\n- Không dồn toàn bộ tiền vào một doanh nghiệp phát hành, dù mua qua công ty chứng khoán lớn.\n\n**Kết luận:** Tôi sẽ xem **TCBS để tìm lựa chọn phù hợp**, và **VNDIRECT DBond nếu cần ngày thu hồi vốn theo hợp đồng**; chưa có cơ sở khẳng định bên nào tốt hơn cho bạn chỉ từ thương hiệu.\n\nBạn định đầu tư **bao nhiêu, trong bao lâu, và có cần rút tiền trước hạn không**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 40198,
+    "cached_input_tokens": 29056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 671,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b015-9a29-77e2-9cf2-ff84a28924c7",
+ "error": ""
+}

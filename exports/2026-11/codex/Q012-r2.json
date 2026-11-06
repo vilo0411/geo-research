@@ -1,0 +1,391 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q012-r2",
+ "prompt_id": "Q012",
+ "run": 2,
+ "question": "Top công ty chứng khoán uy tín nhất Việt Nam",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:42:08",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 47.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b005-bee9-7802-b819-2acbeccbf8b0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-140e855a-59fc-42a0-8fbb-793fe37c24c4",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-140e855a-59fc-42a0-8fbb-793fe37c24c4",
+    "type": "web_search",
+    "query": "site.hsx.vn thị phần môi giới quý 3 2026 công ty chứng khoán ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.hsx.vn thị phần môi giới quý 3 2026 công ty chứng khoán",
+      "công ty chứng khoán uy tín 2025 Vietnam Report top 10 SSI HSC VCI"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Công ty Cổ phần Chứng khoán SSI (SSI) tự hào được vinh danh tại hai hạng mục danh giá do Vietnam Report (VNR) phối hợp",
+      "title": "SSI VINH DỰ NHẬN CÚ ĐÚP GIẢI THƯỞNG UY TÍN TỪ VIETNAM REPORT NĂM 2025",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/ssi-vinh-du-nhan-cu-dup-giai-thuong-uy-tin-tu-vietnam-report-nam-2025"
+     },
+     {
+      "type": "text_result",
+      "domain": "baodautu.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Bức tranh thị phần môi giới trên 3 sàn cũng có những thay đổi lớn trong quý III/2026 khi nhiều cái tên trong top 10",
+      "title": "Bức tranh ngành chứng khoán quý III/2026: Thanh khoản biến động, lợi nhuận phân hóa",
+      "url": "https://baodautu.vn/buc-tranh-nganh-chung-khoan-quy-iii2026-thanh-khoan-bien-dong-loi-nhuan-phan-hoa-d726866.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuoitre.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Vietnam Report vừa công bố top 10 công ty chứng khoán uy tín năm 2025 gồm: SSI, TCBS, VPS, HSC, VNDirect, Vietcap, MBS, SHS, ACBS",
+      "title": "Công ty chứng khoán lao vào cuộc đua 'lướt sóng' trên sàn, kiếm đậm hơn 27.000 tỉ đồng - Tuổi Trẻ Online",
+      "url": "https://tuoitre.vn/cong-ty-chung-khoan-lao-vao-cuoc-dua-luot-song-tren-san-kiem-dam-hon-27-000-ti-dong-20250626153437825.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Danh mục đầu tư của Công ty và các hạn chế đầu tư phải phù hợp với mục tiêu và chính sách đầu tư đã",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN THÀNH PHỐ HỒ CHÍ MINH",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2506028/20261020%20-%20HCM%20-%20Bao%20cao%20tai%20chinh%20Q3.2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search3",
+      "snippet": "Top 10 công ty chứng khoán lớn nhất quý 3/2026 theo 4 thước đo: thị phần HOSE, HNX và phái sinh, dư nợ margin, vốn",
+      "title": "Top 10 công ty chứng khoán lớn nhất Việt Nam quý 3/2026",
+      "url": "https://reviewchungkhoan.com/top-cong-ty-chung-khoan-lon-nhat/"
+     },
+     {
+      "type": "text_result",
+      "domain": "static1.vietstock.vn",
+      "ref_id": "turn0search13",
+      "snippet": "TỔNG QUAN NGÀNH DỊCH VỤ TÀI CHÍNH 2025 ... Các công ty có tỷ trọng đầu tư cổ phiếu cao nhất so với VCSH là",
+      "title": "TỔNG QUAN NGÀNH DỊCH VỤ TÀI CHÍNH 2025",
+      "url": "https://static1.vietstock.vn/edocs/Files/2026/01/12/bao-cao-chien-luoc-can-bang-rui-ro-loi-nhuan_20260112132301.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search4",
+      "snippet": "The 2025 Annual Report and 2025 Sustainable Development Report (Vietnamese and English versions) ... Kết thúc năm 2025, quy mô tài sản và nguồn vốn",
+      "title": "Công ty Cổ phần Chứng khoán SSI - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-ssi/annual-report/2026/44989492/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Top 1 trong Bảng xếp hạng Top 10 Công ty Chứng khoán uy tín năm 2025",
+      "title": "Giải thưởng",
+      "url": "https://www.ssi.com.vn/ve-ssi/giai-thuong"
+     },
+     {
+      "type": "text_result",
+      "domain": "taichinhcongnghe.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Ngày 30/6, Vietnam Report công bố danh sách Top 10 công ty chứng khoán uy tín năm 2026. ... Theo kết quả công bố, Công",
+      "title": "Infographic | Công bố Top 10 công ty chứng khoán uy tín năm 2026 — Tài chính Công nghệ",
+      "url": "https://taichinhcongnghe.vn/bai-viet/infographic-cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-eb763b"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "TCBS nằm trong nhóm 10 công ty có thị phần lớn nhất từ năm 2021 và duy trì vị trí top 3 kể từ Q4/2023",
+      "title": "Báo cáo nhanh về ngành - Chứng khoán  Ngày 19/8/2025",
+      "url": "https://www.tcbs.com.vn/documents/10181/757092/TCBS-Report-19-Aug-25-VN_byHSC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hva.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Để xác minh giấy phép hoạt động, bạn có thể truy cập website chính thức của UBCKNN tại ssc.gov.vn và tìm kiếm trong danh sách",
+      "title": "Danh sách các công ty chứng khoán uy tín nhất Việt Nam 2025",
+      "url": "https://hva.vn/danh-sach-cac-cong-ty-chung-khoan-uy-tin-nhat-viet-nam-2025"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Theo số liệu thị phần môi giới quý III/2026 do Sở Giao dịch Chứng khoán TP.HCM và Sở Giao dịch Chứng khoán Hà Nội công",
+      "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/bai-viet/vps-quy-iii2026-tich-luy-nen-tang-kien-tao-tuong-lai"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuoitre.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Ngày 21-10-2025, TCX bước vào thị trường với vốn hóa 113.139 tỉ đồng, cao hơn 41% so với mức 80.130 tỉ đồng của SSI cùng",
+      "title": "Top 10 công ty chứng khoán đảo lộn sau một năm - Tuổi Trẻ Online",
+      "url": "https://tuoitre.vn/mot-nam-dao-lon-cua-top-10-cong-ty-chung-khoan-100260829080249243.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Trong kết quả kinh doanh công ty chứng khoán quý 3/2026, lợi nhuận sau thuế của 30 công ty chỉ đạt 6.262 tỷ đồng, giảm",
+      "title": "Kết quả kinh doanh chứng khoán Q3/2026: lãi giảm 51,7% | HODL.VN",
+      "url": "https://www.hodl.vn/ket-qua-kinh-doanh-chung-khoan-quy-3-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "* Môi giới chứng khoán: doanh thu đạt 152 tỷ đồng, giảm 70% so với cùng kỳ do thanh khoản thị trường sụt giảm và",
+      "title": "HSC công bố Lợi nhuận trước thuế quý 3.2026 đạt 371 tỷ đồng, lũy kế 9 tháng tương đương cùng kỳ",
+      "url": "https://www.hsc.com.vn/vi/hsc-cong-bo-loi-nhuan-truoc-thue-quy-3-2026-dat-371-ty-dong-luy-ke-9-thang-tuong-duong-cung-ky"
+     },
+     {
+      "type": "text_result",
+      "domain": "static1.vietstock.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Danh sách công ty trong báo cáo của chúng tôi: ... <tr><td>1</td><td>SSI</td><td>CTCP Chứng khoán SSI</td><td>Công ty chứng khoán lớn</td></tr> ... <tr><td>5</td><td>VPSS</td><td>CTCP Chứng khoán VPS<",
+      "title": "CÔNG TY CỔ PHẦN XẾP HẠNG TÍN NHIỆM ĐẦU TƯ VIỆT NAM",
+      "url": "https://static1.vietstock.vn/edocs/18245/VIS_Rating_Nganh_Chung_khoan_Cap_nhat_9T2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "CHỨNG KHOÁN VIỆT NAM, SSI ĐÃ ... TỔ CHỨC UY TÍN TRONG VÀ NGOÀI ... Top 50 Công ty ... VNR - Vietnamnet ... Top",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2024_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "SSI luôn nằm trong top CTCK hàng đầu trong vòng 5 năm qua với các mảng kinh doanh môi giới, đầu tư tự doanh, quản",
+      "title": "Vietcap\n\nCTCP Chứng khoán SSI (SSI)  \nKHẢ QUAN +12",
+      "url": "https://www.vietcap.com.vn/api/cms-api/uploads/file/202406/SSI-20240610-KQ.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search18",
+      "snippet": "In 2016, Vietcombank regained the top position in terms of profit in the Vietnamese banking market. ... As of 2025, with the height of 206",
+      "title": "Vietcombank",
+      "url": "https://en.wikipedia.org/wiki/Vietcombank"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-e57e69a8-9951-4e5a-96d5-907d64869d37",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-e57e69a8-9951-4e5a-96d5-907d64869d37",
+    "type": "web_search",
+    "query": "site.vietnamreport.net.vn \"chứng khoán\" \"2026\" \"Top 10\"",
+    "action": {
+     "type": "search",
+     "query": "site.vietnamreport.net.vn \"chứng khoán\" \"2026\" \"Top 10\""
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vietnamreport.net",
+      "ref_id": "turn1search0",
+      "snippet": "Ngày 6/8/2026, Công ty TNHH Chứng khoán ACB (ACBS) được Vietnam Report và báo VietnamNet vinh danh là một trong 10 công ty chứng khoán",
+      "title": "VIETNAM REPORT - Giá trị - Khoa học - Lan tỏa",
+      "url": "https://vietnamreport.net/Home/"
+     },
+     {
+      "type": "text_result",
+      "domain": "topplus.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Ngày 6/8, tại Hà Nội, Công ty Cổ phần Báo cáo Đánh giá Việt Nam (Vietnam Report) phối hợp cùng Báo VietNamNet tổ chức Lễ",
+      "title": "Công bố Top 50 công ty đại chúng uy tín và hiệu quả năm 2026",
+      "url": "https://topplus.vn/tin-tuc/top-viet-nam/cong-bo-top-50-cong-ty-dai-chung-uy-tin-va-hieu-qua-nam-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuonghieuvaphapluat.vn",
+      "ref_id": "turn1search2",
+      "snippet": "## (THPL) - Ngày 2/6/2026, Công ty Cổ phần Báo cáo Đánh giá Việt Nam (Vietnam Report) đã chính thức công bố Bảng xếp hạng",
+      "title": "Vietnam Report công bố Top 10 Công ty Đại chúng uy tín và hi",
+      "url": "https://thuonghieuvaphapluat.vn/vietnam-report-cong-bo-top-10-cong-ty-dai-chung-uy-tin-va-hieu-qua-nam-2026-d81875.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuonghieuvaphapluat.vn",
+      "ref_id": "turn1search3",
+      "snippet": "## (THPL) - Ngày 30/6, Vietnam Report chính thức công bố bảng xếp hạng Top 10 Công ty Chứng khoán uy tín và Top 5",
+      "title": "Vietnam Report công bố top 10 công ty chứng khoán và top 5 c",
+      "url": "https://thuonghieuvaphapluat.vn/vietnam-report-cong-bo-top-10-cong-ty-chung-khoan-va-top-5-cong-ty-tai-chinh-uy-tin-d82458.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamnet.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (Sabeco) được Vietnam Report xếp hạng Top 1 Công ty Đồ",
+      "title": "Vietnam Report",
+      "url": "https://vietnamnet.vn/vietnam-report-tag9066693490942717167.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamreport.net",
+      "ref_id": "turn1search5",
+      "snippet": "Để TTCK Việt Nam bước vào một chu kỳ tăng trưởng bền vững hơn, điều quan trọng không chỉ là việc chỉ số tiếp tục",
+      "title": "Top 50 Công ty Đại chúng uy tín và hiệu quả năm 2026",
+      "url": "https://vietnamreport.net/Top-50-Cong-ty-Dai-chung-uy-tin-va-hieu-qua-nam-2026-12492-1006.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "toptenvietnam.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Ngày 11/09/2026, Vietnam Report công bố Bảng xếp hạng Top 50 Doanh nghiệp Lợi nhuận Xuất sắc Việt Nam, nhằm ghi nhận và tôn vinh",
+      "title": "Tin tức | TOP10-VietNam Report",
+      "url": "https://toptenvietnam.vn/News"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamreport.net",
+      "ref_id": "turn1search7",
+      "snippet": "Sau giai đoạn phục hồi mạnh mẽ, thị trường chứng khoán Việt Nam đang bước vào một chu kỳ tăng trưởng mới với quy mô",
+      "title": "Danh Mục | VietNam Report",
+      "url": "https://vietnamreport.net/0.html?pageNumber=4"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search12",
+      "snippet": "<td><b>Top 10 Giám đốc/Trưởng Phòng Tư vấn chứng khoán năm 2026</b><br><i>Top 10 Directors/Managers (Securities Advisory) of 2026</i></td> ... <td><b>Top 20 Chuyên gia/Chuyên viên cao cấp/Chuyên",
+      "title": "<table id=\"e1\">",
+      "url": "https://static2.vietstock.vn/data/HOSE/2026/NGHI%20QUYET%20DHCD/VN/SSI_Nghiquyet_DHDCD%20thuong%20nien_2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "24hmoney.vn",
+      "ref_id": "turn1search8",
+      "snippet": "#Chứng khoán ... Trong danh sách Top 10 Công ty đại chúng uy tín và hiệu quả năm 2026 do Vietnam Report công bố, nhiều",
+      "title": "Câu chuyện nào ẩn sau Top 10 doanh nghiệp đại chúng uy tín và hiệu quả?",
+      "url": "https://24hmoney.vn/news/cau-chuyen-nao-an-sau-top-10-doanh-nghiep-dai-chung-uy-tin-va-hieu-qua-c1a2791607.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamreport.net",
+      "ref_id": "turn1search9",
+      "snippet": "Song song với đó, các công ty chứng khoán và tài chính tiêu dùng cũng đang bước vào chu kì tăng trưởng mới sau giai",
+      "title": "Danh Mục | VietNam Report",
+      "url": "https://vietnamreport.net/0.html?pageNumber=6"
+     },
+     {
+      "type": "text_result",
+      "domain": "tradecoinunderground.com",
+      "ref_id": "turn1search10",
+      "snippet": "Toàn bộ tin tức, phân tích và cập nhật mới nhất về Vietnam-Report trong mảng chứng khoán — 13 bài viết được biên tập tiếng",
+      "title": "#Vietnam-Report - Tin tức & Phân tích | Trade Coin Underground",
+      "url": "https://tradecoinunderground.com/blog/tag/vietnam-report"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search13",
+      "snippet": "<td>Top 10 Giám đốc/Trưởng Phòng Tư vấn chứng khoán năm 2026<br>Top 10 Directors/Managers (Securities Advisory) of 2026</td> ... <td>Top 20 Chuyên gia/Chuyên viên cao cấp/Chuyên",
+      "title": "<table id=\"e1\">",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/28/20260424___ssi___minutes_and_resolution_of_the_2026_agm.pdf"
+     },
+     {
+      "type": "text_result",
+      "ref_id": "turn1view0",
+      "title": "Internal Error"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-f848c87e-7e3e-43b1-b77e-0e82fcc106de",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-f848c87e-7e3e-43b1-b77e-0e82fcc106de",
+    "type": "web_search",
+    "query": "https://thuonghieuvaphapluat.vn/vietnam-report-cong-bo-top-10-cong-ty-chung-khoan-va-top-5-cong-ty-tai-chinh-uy-tin-d82458.html",
+    "action": {
+     "type": "open_page",
+     "url": "https://thuonghieuvaphapluat.vn/vietnam-report-cong-bo-top-10-cong-ty-chung-khoan-va-top-5-cong-ty-tai-chinh-uy-tin-d82458.html"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "thuonghieuvaphapluat.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 262",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/XElLeSFP7QQlea-SfxfSlIMn2LnikaOsdN0ZZj3mZeIOvhM9CjPotvgs8-aUZLK_62_0tkdaz7CVnC9d5PsMQ5yLT_vdS8gpeKCVg3JHmFh1cFDQ2ARS-HG_pYLjZQg2THHcvDKVakfJtIzXqaBViYfA2TFT5tCP4Q1WXy4GyCeG4q1HNRKWXRjletBOeUonw_evZhxA6FEvhZxz-xUctw",
+      "title": "Vietnam Report công bố top 10 công ty chứng khoán và top 5 c",
+      "url": "https://thuonghieuvaphapluat.vn/vietnam-report-cong-bo-top-10-cong-ty-chung-khoan-va-top-5-cong-ty-tai-chinh-uy-tin-d82458.html"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**SSI, TCBS và VPS là 3 cái tên nổi bật nhất** nếu bạn đang tìm công ty chứng khoán uy tín tại Việt Nam. Đây cũng là ba vị trí dẫn đầu bảng xếp hạng **Công ty chứng khoán uy tín năm 2026 của Vietnam Report**. [Nguồn](https://taichinhcongnghe.vn/bai-viet/infographic-cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-eb763b)\n\n### Top 10 để bạn tham khảo\nDanh sách đầy đủ dưới đây **theo bảng xếp hạng Vietnam Report năm 2025**, không phải thứ hạng năm 2026:\n\n| Hạng | Công ty |\n|---|---|\n| 1 | **SSI** – Chứng khoán SSI |\n| 2 | **TCBS** – Chứng khoán Kỹ Thương |\n| 3 | **VPS** – Chứng khoán VPS |\n| 4 | **HSC** – Chứng khoán TP.HCM |\n| 5 | **VNDIRECT** |\n| 6 | **Vietcap** |\n| 7 | **MBS** – Chứng khoán MB |\n| 8 | **SHS** – Chứng khoán Sài Gòn – Hà Nội |\n| 9 | **ACBS** – Chứng khoán ACB |\n| 10 | **VPBankS** – Chứng khoán VPBank |\n\n[Nguồn: Tuổi Trẻ dẫn bảng xếp hạng Vietnam Report 2025](https://tuoitre.vn/cong-ty-chung-khoan-lao-vao-cuoc-dua-luot-song-tren-san-kiem-dam-hon-27-000-ti-dong-20250626153437825.htm).\n\n**Nếu chọn để mở tài khoản**, đừng chỉ nhìn thứ hạng. Bạn nên so sánh:\n- **Tổng phí thực trả**, không chỉ chương trình miễn phí ban đầu.\n- **Ứng dụng, độ ổn định và bảo mật** tài khoản.\n- **Chất lượng hỗ trợ**, đặc biệt khi cần xử lý giao dịch.\n- **Lãi vay margin và điều kiện áp dụng**, nếu có sử dụng.\n\nUy tín của công ty **không đồng nghĩa đầu tư sẽ có lãi**.\n\nBạn muốn chọn công ty cho **người mới, đầu tư dài hạn hay giao dịch thường xuyên**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 73274,
+    "cached_input_tokens": 54656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 879,
+    "reasoning_output_tokens": 92
+   }
+  }
+ ],
+ "thread_id": "01a1b005-bee9-7802-b819-2acbeccbf8b0",
+ "error": ""
+}

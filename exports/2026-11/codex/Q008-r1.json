@@ -1,0 +1,167 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q008-r1",
+ "prompt_id": "Q008",
+ "run": 1,
+ "question": "Trái phiếu doanh nghiệp có an toàn không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:38:43",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 28.6,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b002-9c95-7451-a2e4-d158c9fed472"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-8ada902f-ff82-4f96-bf97-f28c69735aa7",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-8ada902f-ff82-4f96-bf97-f28c69735aa7",
+    "type": "web_search",
+    "query": "site.mof.gov.vn trái phiếu doanh nghiệp không phải tiền gửi tiết kiệm rủi ro nhà đầu tư ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.mof.gov.vn trái phiếu doanh nghiệp không phải tiền gửi tiết kiệm rủi ro nhà đầu tư",
+      "site.chinhphu.vn trái phiếu doanh nghiệp bảo lãnh phát hành không bảo lãnh thanh toán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search0",
+      "snippet": "## (Chinhphu.vn) - Trước các vi phạm của doanh nghiệp phát hành thời gian qua, trên thị trường xảy ra hiện tượng doanh nghiệp tăng",
+      "title": "Bộ Tài chính khuyến cáo mua bán trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nong-bo-tai-chinh-khuyen-cao-cac-chu-the-tham-gia-thi-truong-trai-phieu-doanh-nghiep-119221114165946867.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search1",
+      "snippet": "- Cung cấp đầy đủ, chính xác các thông tin cho nhà đầu tư theo phương án phát hành trái phiếu đã được phê duyệt,",
+      "title": "TOÀN VĂN Nghị định 65/2022/NĐ-CP về chào bán trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-65-2022-nd-cp-sua-doi-bo-sung-mot-so-dieu-nghi-dinh-153-2020-nd-cp-quy-dinh-ve-chao-ban-giao-dich-trai-phieu-doanh-nghiep-rieng-le-tai-thi-truong-trong-nuoc-va-chao-ban-trai-phieu-doanh-nghiep-ra-thi-truong-quoc-te-11922091817354034.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search2",
+      "snippet": "## (Chinhphu.vn) - Bộ Tài chính cho biết, thời gian qua mặc dù khung khổ pháp lý về trái phiếu doanh nghiệp đã được ban",
+      "title": "Bộ Tài chính lưu ý nhà đầu tư 5 vấn đề khi mua trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-luu-y-nha-dau-tu-5-van-de-khi-mua-trai-phieu-doanh-nghiep-11922090617013811.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbaocdn.chinhphu.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Tên doanh nghiệp; ... Phương thức thanh toán gốc, lãi trái phiếu ... Cam kết về đảm bảo (trong trường hợp phát hành trái",
+      "title": "Ký bởi: Cổng Thông tin điện tử Chính phủ",
+      "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2018/12/27747/24612-1-20181107-1108163-2018-nd-cp.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search3",
+      "snippet": "## (Chinhphu.vn) - Chính phủ ban hành Nghị định số 200/2026/NĐ-CP ngày 05/6/2026 quy định về chào bán, giao dịch trái phiếu doanh nghiệp riêng",
+      "title": "Quy định mới về phát hành trái phiếu và trách nhiệm của doanh nghiệp",
+      "url": "https://baochinhphu.vn/quy-dinh-moi-ve-phat-hanh-trai-phieu-va-trach-nhiem-cua-doanh-nghiep-102260610102225292.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "chinhphu.vn",
+      "ref_id": "turn0search4",
+      "snippet": "NGHỊ ĐỊNH Về phát hành trái phiếu doanh nghiệp ____________ CHÍNH PHỦ Căn cứ Luật Tổ chức Chính phủ ngày 25 tháng 12 năm 2001;",
+      "title": "Quyết định số 90/2011/NĐ-CP của Chính phủ: Về phát hành trái phiếu doanh nghiệp",
+      "url": "https://chinhphu.vn/default.aspx?docid=151820&pageid=27160"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn0search13",
+      "snippet": "a) Trái phiếu doanh nghiệp phát hành được Chính phủ bảo lãnh; ... ^32 Số dư mua, nắm giữ, đầu tư trái phiếu Chính phủ,",
+      "title": "26\n\nTRÁI PHIẾU ĐƯỢC CHÍNH PHỦ BẢO LÃNH\n\nĐiều 17. T",
+      "url": "https://vbma.org.vn/storage/legal-documents/July2024/VBHN%2018.VBHN-NHNN_compressed1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Đối với trái phiếu doanh nghiệp riêng lẻ, để được mua, giao dịch trái phiếu doanh nghiệp riêng lẻ, nhà đầu tư cá nhân phải",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620167931"
+     },
+     {
+      "type": "text_result",
+      "domain": "tusach.fph.gov.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau: ... “Trái phiếu được Chính phủ bảo lãnh” là loại trái phiếu",
+      "title": "CHÍNH PHỦ\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  \nĐộ",
+      "url": "https://tusach.fph.gov.vn/upload/data/news/16-01-20/1579162066_noi-dung.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mof.gov.vn",
+      "ref_id": "turn0search15",
+      "snippet": "<td>- Được số người sở hữu trái phiếu đại diện từ 65% tổng số trái phiếu cùng loại đang lưu hành trở lên chấp thuận.<br>-",
+      "title": "BAO CAO THUONG NIEN 2025_CT.cdr",
+      "url": "https://mof.gov.vn/api/mediafile/media-article/712a4214-9189-4554-a274-9ea982345c9c/a263b3cf-0145-4c6a-9e1a-26a145fee9cd.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "portal.mof.gov.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Trong quá trình nghiên cứu Nghị định số 163/2018/NĐ-CP quy định về phát hành trái phiếu doanh nghiệp (“Nghị định 163”), có hiệu lực kể",
+      "title": "Hỏi đáp CSTC",
+      "url": "https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/59297"
+     },
+     {
+      "type": "text_result",
+      "domain": "datafiles.chinhphu.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Trái phiếu được Chính phủ bảo lãnh là công cụ nợ do doanh nghiệp, ngân hàng chính sách của Nhà nước phát hành và được",
+      "title": "3\n\n12. Trái phiếu được Chính phủ bảo lãnh là công",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/8/91-vbhn-vpqh.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Trái phiếu doanh nghiệp không an toàn tuyệt đối và không nên xem như tiền gửi tiết kiệm.** Bạn đang cho doanh nghiệp vay tiền; khả năng thu hồi vốn và lãi phụ thuộc vào khả năng trả nợ của họ. Bộ Tài chính cũng cảnh báo sản phẩm này thường rủi ro hơn tiết kiệm ngân hàng. [Nguồn](https://xaydungchinhsach.chinhphu.vn/nong-bo-tai-chinh-khuyen-cao-cac-chu-the-tham-gia-thi-truong-trai-phieu-doanh-nghiep-119221114165946867.htm)\n\nBa rủi ro cần hiểu:\n- **Chậm trả hoặc mất vốn:** doanh nghiệp có thể không trả đủ gốc, lãi.\n- **Khó rút tiền sớm:** muốn bán trước hạn có thể không có người mua hoặc phải bán lỗ.\n- **Có tài sản bảo đảm vẫn có thể mất tiền:** tài sản có thể giảm giá, khó bán hoặc không đủ trả nợ. **Ngân hàng phân phối không đồng nghĩa ngân hàng bảo lãnh thanh toán**; bảo lãnh phát hành cũng không phải bảo lãnh trả nợ. [Cảnh báo của Bộ Tài chính](https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-luu-y-nha-dau-tu-5-van-de-khi-mua-trai-phieu-doanh-nghiep-11922090617013811.htm)\n\n**Trước khi mua**, hãy kiểm tra doanh nghiệp có dòng tiền trả nợ từ đâu, báo cáo tài chính kiểm toán, điều khoản bảo đảm/bảo lãnh và điều kiện bán lại. Đừng chỉ nhìn lãi suất cao hay lời giới thiệu “an toàn như tiết kiệm”.\n\nNếu đây là **tiền dự phòng hoặc tiền sắp cần dùng**, nên ưu tiên bảo toàn vốn và khả năng rút tiền, thay vì chạy theo lãi cao.\n\nBạn đang cân nhắc trái phiếu của doanh nghiệp nào, lãi suất và kỳ hạn bao nhiêu?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22242,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 520,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b002-9c95-7451-a2e4-d158c9fed472",
+ "error": ""
+}

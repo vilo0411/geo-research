@@ -1,0 +1,381 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q028-r1",
+ "prompt_id": "Q028",
+ "run": 1,
+ "question": "Phí giao dịch phái sinh ở công ty chứng khoán nào rẻ nhất?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:55:12",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 30.8,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-b4c4-7de0-811e-b535655c7e86"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-529924b9-1399-4dce-a2a3-ff05af3ca868",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-529924b9-1399-4dce-a2a3-ff05af3ca868",
+    "type": "web_search",
+    "query": "phí giao dịch phái sinh chứng khoán 0 đồng 2026 VPS DNSE ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "phí giao dịch phái sinh chứng khoán 0 đồng 2026 VPS DNSE",
+      "biểu phí giao dịch phái sinh chứng khoán HSC MBS 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Biểu phí giao dịch chứng khoán phái sinh ... Biểu phí giao dịch phái sinh áp dụng tại MBS, bao gồm các khoản phí",
+      "title": "Biểu phí giao dịch chứng khoán phái sinh - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-giao-dich-chung-khoan-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Biểu phí giao dịch Chứng khoán phái sinh ... Lệnh đặt qua kênh App MBBank: Phí giao dịch và phí chăm sóc áp dụng",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-giao-dich-chung-khoan-co-so/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Biểu phí giao dịch chứng khoán phái sinh ... (Áp dụng từ ngày 30 tháng 03 năm 2026) ... 1.3 | Phí giao dịch cổ",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở",
+      "url": "https://www.phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "* Biểu phí giao dịch chứng khoán phái sinh ... Đối với chuyển nhượng chứng khoán từ CTCK khác về MBS: ... Phí chuyển quyền",
+      "title": "Biểu phí khác - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-khac/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Miễn phí với mọi giao dịch chuyển khoản. ... Ra ngân hàng khác: MBS thu hộ, làm trung gian thu theo biểu phí của ngân",
+      "title": "Biểu phí giao dịch - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search5",
+      "snippet": "Thuế giống nhau ở mọi công ty: 0,1% của giá chuyển nhượng mỗi lượt, trong đó giá chuyển nhượng của hợp đồng tương lai bằng",
+      "title": "Phái sinh VPS 2026: phí, ký quỹ, app SmartPro, demo",
+      "url": "https://reviewchungkhoan.com/phai-sinh-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search6",
+      "snippet": "Nếu bạn giao dịch ở mức vài trăm hợp đồng mỗi ngày, hãy hỏi CTCK hai câu trước khi mở tài khoản: bậc phí áp",
+      "title": "Phí giao dịch phái sinh 2026: bảng phí của 21 CTCK",
+      "url": "https://reviewchungkhoan.com/phi-giao-dich-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "# Phí giao dịch chứng khoán phái sinh có thay đổi gì không? ... Bên cạnh đó, sẽ thu bổ sung phí dịch vụ bù",
+      "title": "Phí giao dịch chứng khoán phái sinh có thay đổi gì không? | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/phi-giao-dich-chung-khoan-phai-sinh-co-thay-doi-gi-khong"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "HƯỚNG DẪN GIAO DỊCH CHỨNG KHOÁN PHÁI SINH TẠI CÔNG TY CỔ PHẦN CHỨNG KHOÁN DNSE ... PHẦN 1: KIẾN THỨC CƠ BẢN VỀ CHỨNG",
+      "title": "SP Giao dịch Chứng khoán Phái sinh | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-chung-khoan-phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "vps.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm Đồng hành cùng bạn đón sóng tài lộc đầu năm mới,",
+      "title": "Phái Sinh | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://vps.com.vn/ca-nhan/san-pham-dich-vu/phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "539770798-files.gitbook.io",
+      "ref_id": "turn0search12",
+      "snippet": "<tr><td>Chứng minh nhân dân hoặc Hộ chiếu của Đại diện pháp luật, Người được ủy quyền (nếu có);</td><td></td><td>x</td></tr> ... <tr><td>2</td><td>Phí giao dịch chứng khoán phái",
+      "title": "<table id=\"e1\">",
+      "url": "https://539770798-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJ0-9Tzhtqir6mnYmqv%2Fuploads%2Fu1iEcPeHjqZ0xAqsNOf7%2FDNSE_HDGD%20CKPS%202025_T10.pdf?alt=media&token=cd7cd1cd-c519-4d9e-b6a3-4f0ab44547bf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search10",
+      "snippet": "Giao dịch phái sinh ở đâu tùy cách bạn giao dịch: lướt nhiều lệnh trong ngày thì chọn theo phí mỗi hợp đồng (TCBS, FPTS,",
+      "title": "Giao dịch phái sinh ở đâu? So sánh 21 công ty chứng khoán 2026",
+      "url": "https://reviewchungkhoan.com/giao-dich-phai-sinh-o-dau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search11",
+      "snippet": "VPS dẫn đầu thị phần môi giới HOSE 22 quý liên tiếp với 12,61% quý 2/2026, mã VCK niêm yết HOSE từ 16/12/2025 với 1,48",
+      "title": "Đánh giá VPS 2026: phí 0,20%, margin 8,8%, thị phần số 1",
+      "url": "https://dautuvn.vn/chung-khoan/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kbsec.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "BIỂU PHÍ ... | | | Phí giao dịch chứng khoán phái sinh | | | | | | | | | | | |",
+      "title": "BIỂU PHÍ DỊCH VỤ",
+      "url": "https://www.kbsec.com.vn/pic/general/files/KBSV_Bieu%20phi%20giao%20dich_05_05_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Nghĩa vụ thanh toán hàng ngày: Là các khoán phí thuế phát sinh hàng ngày trên tài khoản CKPS của Khách ... Điều 2: Quy",
+      "title": "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN DỊCH VỤ GIAO DỊCH CHỨNG KHOÁN PHÁI SINH",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2023/08/DK-giao-dich-Phai-sinh_04082023-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search15",
+      "snippet": "Thanh toán phí môi giới, phí lưu ký và các khoản phí khác cho HSC theo quy định tại Điều 8 Các Điều Khoản Và",
+      "title": "Dieu Khoan va Dieu Kien 4.cdr",
+      "url": "https://storage.googleapis.com/hsc-cweb/knowledge/dieu-khoan-va-dieu-kien-11-6-2025.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7bbbf2a1-ae48-4357-84a5-42b8f05ba553",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7bbbf2a1-ae48-4357-84a5-42b8f05ba553",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn phái sinh miễn phí giao dịch ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn phái sinh miễn phí giao dịch",
+      "site.vpbank s.com.vn biểu phí phái sinh",
+      "site.vpbanks.com.vn phái sinh \"0\" \"phí\"",
+      "site.fpts.com.vn phái sinh miễn phí giao dịch 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "### Biểu mẫu, biểu phí, hướng dẫn sử dụng ... #### Hướng dẫn mẫu biểu Sửa đổi bổ sung Hướng dẫn mẫu biểu bản điều",
+      "title": "Tài liệu, biểu mẫu VPBank",
+      "url": "https://www.vpbank.com.vn/tai-lieu-bieu-mau"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vpbanks.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "# Biểu phí dịch vụ giao dịch phái sinh ... * Đối với phí dịch vụ quản lý tài sản ký quỹ: VPBankS thực hiện",
+      "title": "Biểu phí dịch vụ giao dịch phái sinh | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vpbanks.com.vn/phai-sinh/bieu-phi-dich-vu-giao-dich-phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "TCBS miễn phí giao dịch cổ phiếu (phần phí TCBS thu) và chỉ thu hộ phí giao dịch của sở là 0.03% theo quy định.",
+      "title": "Miễn phí giao dịch | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mien-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Miễn phí giao dịch cổ phiếu cơ sở, phái sinh, chứng quyền và Chứng chỉ Quỹ niêm yết (chỉ thu 0.03% để thanh toán cho",
+      "title": "Ưu đãi giao dịch cổ phiếu tại TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbanks.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Ngoài phí giao dịch mua bán, nhà đầu tư có thể phát sinh phí lưu ký, chuyển khoản chứng khoán, phong tỏa tài sản, xác",
+      "title": "Phí giao dịch chứng khoán 2026: Các loại phí và cách tính",
+      "url": "https://www.vpbanks.com.vn/trung-tam-kien-thuc/phi-giao-dich-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "fpts.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "MIỄN PHÍ GIAO DỊCH với giao dịch chủ động ... Các chuyên viên của FPTS hỗ trợ, hướng dẫn cách thức giao dịch, các thông",
+      "title": "Mở Tài Khoản",
+      "url": "https://fpts.com.vn/mo-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vpbanks.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Ví dụ: Tên mã HĐTL chỉ số VN30 đáo hạn tháng 09/2025 theo quy định hiện tại là VN30F2509. ... Khi tài khoản phái sinh",
+      "title": "Thị trường phái sinh | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vpbanks.com.vn/krx-cau-hoi-thuong-gap/thi-truong-phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "nợ đến hạn, quá hạn, các khoản lãi và các chi phí khác phát sinh trong quá trình quản lý tài khoản và ... dịch",
+      "title": "BỘ SẢN PHẨM",
+      "url": "https://www.vpbank.com.vn/sites/default/files/bieu_mau_bieu_phi_website.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.fpts.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "* Giao dịch CK Phái sinh ... * Biểu phí dịch vụ ... * Gọi tới Tổng đài 1900 6446 ... Ez Futures Giao dịch",
+      "title": "FPTS - Home",
+      "url": "https://www.fpts.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search8",
+      "snippet": "* Phương thức xác thực: từ 01/10/2025, FPTS thu phí SMS OTP 33.000 đồng/tháng (đã gồm VAT), chỉ vào tháng tài khoản dùng SMS OTP",
+      "title": "Cách mở tài khoản chứng khoán FPTS online trên EzTrade 2026",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-fpts/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search9",
+      "snippet": "* VPS: miễn phí giao dịch cổ phiếu, chứng chỉ quỹ, chứng quyền trên kênh online trong 3 tháng kể từ ngày mở, cho tài",
+      "title": "Công ty chứng khoán miễn phí giao dịch 2026 và điều kiện",
+      "url": "https://reviewchungkhoan.com/cong-ty-chung-khoan-mien-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.fpts.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "* Biểu phí dịch vụ môi giới chứng khoán niêm yết và chứng khoán đăng ký giao dịch (UPCoM) tại FPTS được áp dụng như",
+      "title": "Giao dịch chứng khoán cơ sở",
+      "url": "https://www.fpts.com.vn/ho-tro-khach-hang/dich-vu-tai-chinh/bieu-phi-dich-vu/giao-dich-chung-khoan-co-so/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Để mở màn năm giao dịch mới kỳ vọng đầy bứt phá, từ ngày 01/01/2023, khách hàng của TCBS sẽ được giao dịch thả ga,",
+      "title": "TCBS miễn phí giao dịch Zero Fee, lãi suất margin 0,5%/năm",
+      "url": "https://cafef.vn/tcbs-mien-phi-giao-dich-zero-fee-lai-suat-margin-05-nam-20230105095038343.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn1search13",
+      "snippet": "C DỊCH VỤ ... Ảnh chụp màn hình giao diện tài khoản phái sinh ở chế độ “Tổng quan”, với tab “Tổng quan” được chọn",
+      "title": "C DỊCH VỤ\n\n23\n\n1.2. Tài khoản Phái sinh  \n1.2.1. S",
+      "url": "https://storage.googleapis.com/hsc-cweb/services-file/huong-dan-su-dung-hsc-one-web.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "**“Giao dịch điện tử”**: là hoạt động đăng ký và thực hiện (các) giao dịch chứng khoán trực tuyến của Khách Hàng tại TCBS, bao",
+      "title": "B. CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN VỀ GIAO DỊCH ĐIỆN TỬ",
+      "url": "https://help.tcbs.com.vn/wp-content/uploads/2025/11/MB11-QT_TKDT-TCBS_TC_tich_hop_Vi_1224-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "1.6.3 1.7.3 | Sao thêm sổ phụ Chứng từ đã phát sinh của tài khoản đã tất toán | | | 100,000 VND/ 1 chứng",
+      "title": "BIỂU PHÍ QUẢN LÝ TIỀN TỆ",
+      "url": "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/bieu-phi/sme/bieu-phi-quan-ly-tien-te.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.vnistock.net",
+      "ref_id": "turn1search16",
+      "snippet": "TUYÊN BỐ MIỄN TRÁCH NHIỆM ... Nhà đầu tư sử dụng báo cáo này cần lưu ý rằng các nhận định trong báo cáo này",
+      "title": "TUYÊN BỐ MIỄN TRÁCH NHIỆM",
+      "url": "https://cdn.vnistock.net/docs/2026/01/bao-cao-chien-luoc-2026-fpts-ck-fpt.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "<td>Số điện thoại KH đăng ký trên hệ thống</td> ... <td>Theo biểu phí tại phụ lục 08</td> ... Văn bản này chứa các thông tin",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.vpbank.com.vn/-/media/vpbank-latest/tai-lieu-bieu-mau/bieu-phi/khcn/bieuphi-tksd.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit18",
+      "snippet": "\"Vàng phái sinh Nguyễn Tuân FX trả lời các thắc mắc câu hỏi khách hàng ... \\*\\*\\* Chi phí mỗi lần giao dịch là bao",
+      "title": "Vàng phái sinh Nguyễn Tuân FX trả lời các thắc mắc câu hỏi khách hàng",
+      "url": "https://www.reddit.com/r/u_vangphaisinhnt/comments/qcjy12"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Nếu bạn hỏi phái sinh chỉ số VN30 tại Việt Nam, TCBS và VPBankS thuộc nhóm rẻ nhất về phí công ty chứng khoán thu: 0 đồng/hợp đồng/lượt.** Không có một công ty duy nhất rẻ nhất ở khoản này.\n\n| Công ty | Phí công ty thu | Lưu ý |\n|---|---:|---|\n| **TCBS** | **0 đồng** | Công bố miễn phí giao dịch phái sinh theo chính sách Zero Fee. [Nguồn TCBS](https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu/) |\n| **VPBankS** | **0 đồng** | Biểu phí công bố miễn phí HĐTL chỉ số VN30/VN100; cần xác nhận mức áp dụng nếu chọn nhân viên chăm sóc tài khoản. [Biểu phí VPBankS](https://hdsd.vpbanks.com.vn/phai-sinh/bieu-phi-dich-vu-giao-dich-phai-sinh) |\n| MBS | 3.000 đồng/HĐ/lượt | Chưa gồm phí Sở, VSDC và thuế. [Biểu phí MBS](https://www.mbs.com.vn/bieu-phi-giao-dich-chung-khoan-phai-sinh/) |\n\n**Lưu ý: “miễn phí giao dịch” không có nghĩa tổng chi phí bằng 0.** Với HĐTL chỉ số, vẫn có:\n- Phí Sở: **2.700 đồng/HĐ/lượt**.\n- Phí bù trừ VSDC: **2.550 đồng/HĐ/lượt**.\n\nNhư vậy, mở rồi đóng **1 hợp đồng** vẫn mất **10.500 đồng hai khoản trên**, chưa tính thuế TNCN, phí quản lý tài sản ký quỹ và các phí phụ khác. [Nguồn VPBankS](https://hdsd.vpbanks.com.vn/phai-sinh/bieu-phi-dich-vu-giao-dich-phai-sinh)\n\n**Chốt lại:** Nếu ưu tiên phí thấp, hãy so **TCBS và VPBankS** trước; trước khi mở tài khoản, xác nhận thêm phí duy trì/hệ thống, nộp–rút ký quỹ và điều kiện hưởng mức 0 đồng."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51196,
+    "cached_input_tokens": 31488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 670,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-b4c4-7de0-811e-b535655c7e86",
+ "error": ""
+}

@@ -1,0 +1,347 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q058-r3",
+ "prompt_id": "Q058",
+ "run": 3,
+ "question": "Chuyển chứng khoán từ công ty này sang công ty khác thế nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:11:23",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 32.6,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b020-8595-79e3-99c9-87508ee58d1c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-8cdb6106-266c-455e-aacb-3fd424f8013e",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-8cdb6106-266c-455e-aacb-3fd424f8013e",
+    "type": "web_search",
+    "query": "site.vsd.vn chuyển khoản chứng khoán khác thành viên lưu ký nhà đầu tư ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn chuyển khoản chứng khoán khác thành viên lưu ký nhà đầu tư",
+      "site.tcbs.com.vn chuyển chứng khoán công ty chứng khoán khác chuyển khoản tất toán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Trả lời: Mỗi thành viên của VSD được mở một tài khoản lưu ký chứng khoán tại VSD và không được mở tài khoản lưu",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/fa"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search12",
+      "snippet": "b) Chuyển khoản chứng khoán từtài khoản lưu ký của khách hàng tại thành ... môi giới chứng khoán hoặc bịVSD thu hồi Giấy chứng",
+      "title": "BỘ TÀI CHÍNH",
+      "url": "https://ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=Th%C3%B4ng+t%C6%B0+s%E1%BB%91+05%2F2015%2FTT-BTC&allowInterrupt=1&dDocName=APPSSCGOVVN162093500&dID=87807&filename=Thong+tu+05.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "#### Chuyển khoản chứng khoán sang công ty khác ... #### Miễn phí giao dịch và ưu đãi margin khi mở tài khoản chứng khoán",
+      "title": "Giao dịch chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "9 | Chuyển chứng khoán từ TCSC sang công ty chứng khoán khác theo yêu cầu của khách hàng (áp dụng cả cho trường hợp",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Thành viên lưu ký phải gửi cho VSD (Trụ sở chính) các báo cáo định kỳ hàng tháng theo quy định tại khoản 2 Điều",
+      "title": "Quyết định 110/QĐ-VSD 2022 Quy chế thành viên lưu ký",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-110-QD-VSD-2022-Quy-che-thanh-vien-luu-ky-526770.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "#### Mở tài khoản Techcombank từ mục đối tác TCBS ... #### Hướng dẫn chuyển khoản chứng khoán từ công ty khác về TCBS ...",
+      "title": "Mở, thay đổi và quản lý tài khoản | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mo-va-quan-ly-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Tùy theo mục đích ký quỹ ban đầu hay ký quỹ đảm bảo thực hiện HĐTL TPCP, TVBT gửi cho VSD điện yêu cầu chuyển",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/thong-tin-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "portal.mof.gov.vn",
+      "ref_id": "turn0search13",
+      "snippet": "q2) Chuyển quyền sở hữu cổ phiếu từ tài khoản của nhà đầu tư nước ngoài ... ngoại trừ trường hợp pháp luật chuyên ngành",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://portal.mof.gov.vn/webcenter/vbdt/backend/08_04_25_Du_thao_2_TT_sua_119_va_96_dang_web_20250409085507.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vsd.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Hội thảo \"Trao đổi, thảo luận về dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán\" Áp dụng các biện",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://www.vsd.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Trường hợp khác mệnh giá, khi đăng ký chứng khoán với VSD, tổ chức phát hành phải chuyển đổi sang mệnh giá phù hợp với",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/is"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search8",
+      "snippet": "6 | 17/QĐ-HĐTV | 29/04/2026 | Quy chế hoạt động lưu ký, thanh toán giao dịch hạn ngạch phát thải khí nhà kính, tín chỉ",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/lel/6"
+     },
+     {
+      "type": "text_result",
+      "domain": "hethongphapluat.com",
+      "ref_id": "turn0search9",
+      "snippet": "* Nghĩa vụ của thành viên lưu ký: Tuân thủ nghiêm ngặt Luật Chứng khoán, các quy chế nghiệp vụ của VSD; cung cấp thông",
+      "title": "Quyết định 110/qđ-vsd năm 2022 về quy chế thành viên lưu ký tại trung tâm lưu ký chứng khoán việt nam",
+      "url": "https://hethongphapluat.com/quyet-dinh-110-qd-vsd-nam-2022-ve-quy-che-thanh-vien-luu-ky-tai-trung-tam-luu-ky-chung-khoan-viet-nam.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.moj.gov.vn",
+      "ref_id": "turn0search14",
+      "snippet": "hàng xác nhận tài khoản vốn đầu tư gián tiếp mới; bản sao hợp lệ hộ chiếu mới ... dung khác; các tài liệu khác",
+      "title": "Ký bởi: Cổng Thông tin điện tử Chính phủ",
+      "url": "https://vbpl.moj.gov.vn/FileData/TW/Lists/vbpq/Attachments/78067/VanBanGoc_123.2015.TT.BTC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* Lưu ký chứng khoán * Thanh toán giao dịch chứng khoán ... * Quy chế của VSDC * Loại văn bản khác ... *",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.tailieu.vn",
+      "ref_id": "turn0search15",
+      "snippet": "các công ty chứng khoán hoặc các ngân hàng thương mại trong nước, nhà ... Chính về việc sửa đổi, bổ sung một số điều",
+      "title": "Lưu ký chứng khoán (Deposit)",
+      "url": "https://cdn.tailieu.vn/files/samples/2012/20121102/bibocumi12/luu_ky_chung_khoan_4098.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "luatvietnam.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Quyết định này có hiệu lực kể từ ngày 29 tháng 8 năm 2022 và thay thế Quyết định số 112/QĐ-VSD ngày 23 tháng 08",
+      "title": "Quyết định 110/QĐ-VSD 2022 Quy chế thành viên lưu ký",
+      "url": "https://luatvietnam.vn/chung-khoan/quyet-dinh-110-qd-vsd-trung-tam-luu-ky-chung-khoan-228450-d1.html"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-459aea7a-136f-48b4-aa34-5489a6dcea05",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-459aea7a-136f-48b4-aa34-5489a6dcea05",
+    "type": "web_search",
+    "query": "site.help.tcbs.com.vn \"Hướng dẫn chuyển khoản chứng khoán từ công ty khác\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.help.tcbs.com.vn \"Hướng dẫn chuyển khoản chứng khoán từ công ty khác\"",
+      "site.ssi.com.vn chuyển khoản chứng khoán khác công ty hồ sơ"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "#### Mở tài khoản Techcombank từ mục đối tác TCBS #### Hướng dẫn chuyển quyền nội bộ ... #### Điều khoản và điều kiện giao",
+      "title": "Mở, thay đổi và quản lý tài khoản | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mo-va-quan-ly-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mcp.ssi.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "`marketdata_list_symbols_by_exchange` | Lấy danh sách mã chứng khoán theo sàn | `exchange` | `stockType` ... Ví dụ hỏi: \"iNAV mới nhất của quỹ E1VFVN30 là",
+      "title": "Hướng dẫn công cụ (tools)",
+      "url": "https://mcp.ssi.com.vn/docs/huong-dan-tool/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "# Công ty cổ phần chứng khoán SSI ... * Dịch vụ thị trường vốn ... * Quản lý thanh khoản ... CỔNG THÔNG TIN",
+      "title": "Công ty cổ phần chứng khoán SSI",
+      "url": "https://www.ssi.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Nhà đầu tư (NĐT) chỉ có thể mở 1 tài khoản tại 01 công ty chứng khoán và được phép mở tài khoản ở nhiều",
+      "title": "Quy định chung",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-chung"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "* Giá dịch vụ giao dịch Hợp đồng tương lai VN30⁤ (HĐTLVN30) và VN100 (HĐTLVN100) ... * Giá dịch vụ giao dịch trả Sở Giao",
+      "title": "Biểu giá dịch vụ giao dịch có chuyên viên TVCK",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbtd.hnx.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Hồ sơ thành viên ... * [Input] 011 - Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh ... www.ssi.com.vn ... Công ty",
+      "title": "Thành viên",
+      "url": "https://cbtd.hnx.vn/vi-vn/phai-sinh/chi-tiet-thanh-vien-003.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sbsi.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Mở tài khoản ... * CBTT ĐHĐCĐ bất thường lần 1.2025 tổ chức thành công: Phê duyệt phương án tăng vốn ... * Nộp/rút tiền",
+      "title": "Cổng thông tin SBSI",
+      "url": "https://www.sbsi.vn/vi-vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Sau 25 năm vận hành theo cơ chế thị trường, SSI là một trong những công ty hoạt động lâu đời nhất đồng thời là",
+      "title": "Tổng quan",
+      "url": "https://www.ssi.com.vn/ve-ssi/tong-quan"
+     },
+     {
+      "type": "text_result",
+      "domain": "developers.ssi.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "* Danh sách chứng khoán: Tra cứu mã chứng khoán theo sàn (HOSE, HNX, UPCOM) hoặc chỉ số * Thông tin giao dịch: Dữ liệu",
+      "title": "Tổng quan hệ thống | SSI Developer Portal",
+      "url": "https://developers.ssi.com.vn/docs/getting-started/overview"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.stockbiz.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Trong nhiều năm qua, SSI luôn nằm trong nhóm dẫn đầu thị phần môi giới cổ phiếu và chứng chỉ quỹ trên thị trường Việt",
+      "title": "ssi | Hồ sơ | Hồ sơ doanh nghiệp",
+      "url": "https://web.stockbiz.vn/Stocks/ssi/Snapshot.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Biểu đồ đường “Diễn biến giá” so sánh SSI (đường cam) và VNIndex (đường xanh đậm) theo thời gian từ 06/2023 đến 02/2024, trục tung",
+      "title": "CTCP CHỨNG KHOÁN SSI (SSI)",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/SSI_BCCapnhat_20240604.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Biểu đồ đường “Diễn biến giá” với trục thời gian Apr-23, Aug-23, Dec-23; trục phần trăm từ -40% đến 120%. ... <tr><td>Tập đoàn Chứng Khoán",
+      "title": "CTCP CHỨNG KHOÁN SSI (SSI)",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/SSI_BCaolandau_20240423.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "chinhlatoi.ssi.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "## Điểm nhấn khác biệt Cùng SSI Đầu Tư thật tuyệt ... #### Mở tài khoản đơn giản, ... CỔNG THÔNG TIN ĐIỆN TỬ -",
+      "title": "SSI - Chính Là Tôi",
+      "url": "https://chinhlatoi.ssi.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn1search11",
+      "snippet": "- Sở Giao dịch Chứng khoán Việt Nam/ Vietnam Stock Exchange ... Thông tin này đã được công bố trên trang thông tin điện tử",
+      "title": "Công ty Cổ phần Chứng khoán SSI - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-ssi/annual-report/2026/44989492/"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Bán: Ước tính tiềm năng giảm giá lớn hơn hoặc bằng 10 điểm phần trăm so với mức tăng chung của thị trường trong 12",
+      "title": "SSICập nhật ngành BĐS Khu công nghiệp:",
+      "url": "https://rs.nguoiquansat.vn/bcpt/C%2CGVR%2CDPR/C%2CGVR%2CDPR_26_13533_57.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Bạn có thể chuyển nguyên chứng khoán sang công ty chứng khoán khác, không cần bán rồi mua lại**, nếu hai tài khoản đều đứng tên bạn. Thủ tục này gọi là **chuyển khoản chứng khoán**.\n\n### Cách thực hiện\n1. **Mở tài khoản tại công ty muốn chuyển đến**, bảo đảm thông tin họ tên, CCCD khớp với tài khoản cũ.\n2. **Liên hệ công ty đang giữ chứng khoán** để lấy mẫu yêu cầu chuyển khoản. Chuẩn bị CCCD, số tài khoản nhận, tên công ty nhận, mã chứng khoán và số lượng muốn chuyển.\n3. **Chọn phạm vi chuyển:**\n   - Chuyển một phần chứng khoán;\n   - Chuyển toàn bộ nhưng vẫn giữ tài khoản cũ;\n   - Chuyển toàn bộ và đóng tài khoản cũ — gọi là *chuyển khoản tất toán*. Các hình thức này được nêu trong [hỏi đáp của VSDC](https://vsdportal.navisoft.com.vn/vi/fa).\n4. **Nộp yêu cầu theo hướng dẫn bên chuyển**, thanh toán phí nếu có; sau khi hoàn tất, kiểm tra số dư tại bên nhận.\n\n### Cần lưu ý\n- Nếu chứng khoán đang **cầm cố, bảo đảm khoản vay margin, bị phong tỏa hoặc chờ về**, hãy yêu cầu bên chuyển kiểm tra điều kiện trước.\n- Nếu có **cổ tức, cổ phiếu thưởng hoặc quyền mua đang chờ**, cần hỏi rõ quyền đó sẽ được ghi nhận ở đâu.\n- **Phí và thời gian xử lý tùy công ty**, nên xác nhận trước khi nộp yêu cầu. Ví dụ, [TCSC có biểu phí chuyển chứng khoán sang công ty khác](https://tcsc.vn/vi/support).\n- Nếu chuyển sang **tài khoản người khác đứng tên**, đó là chuyển quyền sở hữu, thủ tục khác với chuyển giữa hai tài khoản của chính bạn.\n\n**Bạn muốn chuyển từ công ty nào sang công ty nào, và có đang vay margin không?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39503,
+    "cached_input_tokens": 29312,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 582,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b020-8595-79e3-99c9-87508ee58d1c",
+ "error": ""
+}

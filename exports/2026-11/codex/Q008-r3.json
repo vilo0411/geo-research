@@ -1,0 +1,151 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q008-r3",
+ "prompt_id": "Q008",
+ "run": 3,
+ "question": "Trái phiếu doanh nghiệp có an toàn không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:39:12",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 27.6,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b003-0c4a-79d3-9e98-0e1686e6e8e7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-771a8cdb-5e1b-4c78-91e5-17472831307e",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-771a8cdb-5e1b-4c78-91e5-17472831307e",
+    "type": "web_search",
+    "query": "site.chinhphu.vn trái phiếu doanh nghiệp không phải tiền gửi ngân hàng rủi ro nhà đầu tư ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.chinhphu.vn trái phiếu doanh nghiệp không phải tiền gửi ngân hàng rủi ro nhà đầu tư",
+      "site.mof.gov.vn trái phiếu doanh nghiệp nhà đầu tư rủi ro tài sản bảo đảm"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Trên các mạng xã hội, hội nhóm gần đây đã xuất hiện hiện tượng môi giới của một số doanh nghiệp, tổ chức tài chính",
+      "title": "Cảnh báo rủi ro trên thị trường trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search1",
+      "snippet": "d) Việc xác định nhà đầu tư chứng khoán chuyên nghiệp là cá nhân theo quy định tại điểm d khoản 1 Điều 11 Luật",
+      "title": "TOÀN VĂN Nghị định 65/2022/NĐ-CP về chào bán trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-65-2022-nd-cp-sua-doi-bo-sung-mot-so-dieu-nghi-dinh-153-2020-nd-cp-quy-dinh-ve-chao-ban-giao-dich-trai-phieu-doanh-nghiep-rieng-le-tai-thi-truong-trong-nuoc-va-chao-ban-trai-phieu-doanh-nghiep-ra-thi-truong-quoc-te-11922091817354034.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search2",
+      "snippet": "## (Chinhphu.vn) - Chính phủ ban hành Nghị định số 200/2026/NĐ-CP ngày 05/6/2026 quy định về chào bán, giao dịch trái phiếu doanh nghiệp riêng",
+      "title": "Quy định mới về phát hành trái phiếu và trách nhiệm của doanh nghiệp",
+      "url": "https://baochinhphu.vn/quy-dinh-moi-ve-phat-hanh-trai-phieu-va-trach-nhiem-cua-doanh-nghiep-102260610102225292.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "portal.mof.gov.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Từ các quy định tại điểm đ khoản 1 Điều 9 và khoản 4 Điều 50 NĐ 200 nêu trên, chúng tôi hiểu rằng các",
+      "title": "Hỏi đáp CSTC",
+      "url": "https://portal.mof.gov.vn/hoidapcstc/home/cthoidap/163075"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search4",
+      "snippet": "## (Chinhphu.vn) - Nghị định số 65/2022/NĐ-CP đã bổ sung các quy định để tăng chất lượng của nhà đầu tư chuyên nghiệp, đồng thời",
+      "title": "Nghị định số 65/2022/NĐ-CP: Không có chuyện 'sau một đêm trở thành nhà đầu tư chuyên nghiệp'",
+      "url": "https://xaydungchinhsach.chinhphu.vn/nghi-dinh-so-65-2022-nd-cp-ngan-chan-tinh-trang-lach-luat-de-sau-mot-dem-tro-thanh-nha-dau-tu-chuyen-nghiep-119220922150447034.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Đối với trái phiếu doanh nghiệp riêng lẻ, để được mua, giao dịch trái phiếu doanh nghiệp riêng lẻ, nhà đầu tư cá nhân phải",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620167931"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mof.gov.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Để tăng tính chuyên nghiệp của nhà đầu tư khi mua TPDN riêng lẻ, hạn chế việc nhà đầu tư cá nhân mua TPDN thông",
+      "title": "Cổng thông tin điện tử Bộ Tài Chính",
+      "url": "https://www.mof.gov.vn/trai-phieu-chinh-phu/tin-tuc-su-kien-4/mofucm248717"
+     },
+     {
+      "type": "text_result",
+      "domain": "www2.en.baochinhphu.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Theo đó, mọi hành vi gian lận để trở thành nhà đầu tư chứng khoán chuyên nghiệp không chỉ khiến nhà đầu tư chịu nhiều",
+      "title": "Bộ Tài chính: xử lý nghiêm các vi phạm, khẩn trương hoàn thiện cơ chế cho thị trường trái phiếu",
+      "url": "https://www2.en.baochinhphu.vn/bo-tai-chinh-xu-ly-nghiem-vi-pham-hoan-thien-co-che-cho-thi-truong-trai-phieu-doanh-nghiep-102220408171638578.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search8",
+      "snippet": "## (Chinhphu.vn) - Bộ Tài chính vừa khuyến nghị doanh nghiệp phát hành, các tổ chức cung cấp dịch vụ và nhà đầu tư cần",
+      "title": "Bộ Tài chính khuyến nghị các nhà đầu tư cần lưu ý khi tham gia thị trường trái phiếu doanh nghiệp",
+      "url": "https://baochinhphu.vn/bo-tai-chinh-khuyen-nghi-cac-nha-dau-tu-can-luu-y-khi-tham-gia-thi-truong-trai-phieu-doanh-nghiep-102264389.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www2.en.baochinhphu.vn",
+      "ref_id": "turn0search9",
+      "snippet": "## (Chinhphu.vn) - Bộ trưởng Bộ Tài chính đã ban hành Thông tư số 138/2026/TT-BTC hướng dẫn một số điều của Nghị định số 200/2026/NĐ-CP",
+      "title": "Quy định mới về chào bán, giao dịch trái phiếu doanh nghiệp riêng lẻ",
+      "url": "https://www2.en.baochinhphu.vn/quy-dinh-moi-ve-chao-ban-giao-dich-trai-phieu-doanh-nghiep-rieng-le-102260928180806073.htm"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Trái phiếu doanh nghiệp không an toàn tuyệt đối và không nên coi như gửi tiết kiệm.** Bạn đang cho doanh nghiệp vay: nếu doanh nghiệp mất khả năng thanh toán, bạn có thể bị chậm trả lãi, gốc hoặc mất vốn. Bộ Tài chính cũng cảnh báo không nên mua chỉ vì lãi suất cao. [Khuyến cáo của Bộ Tài chính](https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm)\n\nMức độ an toàn phụ thuộc chủ yếu vào:\n\n- **Khả năng trả nợ:** doanh nghiệp có dòng tiền thực để trả nợ hay phải vay mới trả nợ cũ?\n- **Điều khoản bảo vệ:** có tài sản bảo đảm hoặc bảo lãnh thanh toán không, phạm vi thế nào? Có tài sản bảo đảm không đồng nghĩa chắc chắn thu hồi đủ tiền.\n- **Khả năng bán lại:** khi cần tiền sớm, bạn có thể không bán được hoặc phải bán lỗ. Đừng mặc định được rút trước hạn như tiết kiệm.\n- **Vai trò bên bán:** ngân hàng hoặc công ty chứng khoán phân phối **không đồng nghĩa họ bảo đảm trả nợ thay**. Phải đọc cam kết cụ thể. [Cảnh báo rủi ro](https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm)\n\n**Trước khi mua**, hãy xem báo cáo tài chính kiểm toán, mục đích sử dụng vốn, lịch trả gốc/lãi và hồ sơ tài sản bảo đảm — đây cũng là những thông tin Bộ Tài chính khuyến nghị kiểm tra. [Hướng dẫn kiểm tra](https://baochinhphu.vn/bo-tai-chinh-khuyen-nghi-cac-nha-dau-tu-can-luu-y-khi-tham-gia-thi-truong-trai-phieu-doanh-nghiep-102264389.htm)\n\nNếu mục tiêu là **giữ tiền dự phòng hoặc sắp cần dùng**, đừng chọn trái phiếu doanh nghiệp chỉ vì lãi cao hơn.\n\nBạn đang cân nhắc trái phiếu của doanh nghiệp nào, lãi suất và kỳ hạn bao nhiêu?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22243,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 616,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b003-0c4a-79d3-9e98-0e1686e6e8e7",
+ "error": ""
+}

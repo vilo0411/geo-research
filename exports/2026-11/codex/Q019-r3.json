@@ -1,0 +1,184 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q019-r3",
+ "prompt_id": "Q019",
+ "run": 3,
+ "question": "Công ty chứng khoán nào có đội ngũ môi giới tư vấn tốt?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:50:02",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 26.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00c-f967-75a0-9510-1696a07eb2ba"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-ddd9f52d-1a93-4bf6-953d-65f2903daeae",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-ddd9f52d-1a93-4bf6-953d-65f2903daeae",
+    "type": "web_search",
+    "query": "site.ssi.com.vn khách hàng cá nhân môi giới tư vấn đầu tư báo cáo phân tích ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn khách hàng cá nhân môi giới tư vấn đầu tư báo cáo phân tích",
+      "site.hsc.com.vn khách hàng cá nhân môi giới tư vấn đầu tư",
+      "site.vndirect.com.vn tư vấn đầu tư khách hàng cá nhân môi giới"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Với nền tảng nghiên cứu uy tín, công nghệ giao dịch tiên tiến và đội ngũ tư vấn giàu kinh nghiệm, HSC cung cấp các",
+      "title": "Who We Serve - CTCP Chứng khoán Thành phố Hồ Chí Minh - HSC",
+      "url": "https://www.hsc.com.vn/vi/khach-hang"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Tư vấn đầu tư là dịch vụ nghiên cứu và tư vấn của Trung tâm phân tích SSI với mục tiêu gửi tới nhà đầu",
+      "title": "Phân tích và tư vấn đầu tư",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "### Liên lạc với VNDIRECT ... Khách hàng cá nhân muốn có chuyên gia môi giới riêng để giúp tư vấn giao dịch và quản",
+      "title": "Tư vấn giao dịch chứng khoán - Dịch vụ giúp khách hàng An tâm đầu tưVNDIRECT",
+      "url": "https://www.vndirect.com.vn/san-pham-ca-nhan/dich-vu-dau-tu/quan-ly-tai-san-dau-tu/tu-van-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hvnh.edu.vn",
+      "ref_id": "turn0search3",
+      "snippet": "## VNDIRECT tuyển dụng nhân sự môi giới chứng khoán ... • Tìm kiếm, xây dựng và chăm sóc khách hàng có nhu cầu đầu",
+      "title": "[TUYỂN DỤNG]",
+      "url": "https://hvnh.edu.vn/fin/vi/co-hoi-viec-lam-he-chuan/tuyen-dung-12002.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Dưới sự phát triển nhanh chóng của nền kinh tế Việt Nam và Thế Giới, nhu cầu cuộc sống của con người trong xã hội",
+      "title": "Tuyển dụng WA",
+      "url": "https://vndirect.com.vn/tuyen_dung_WA/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Sự tích hợp này giúp VNDIRECT hiểu khách hàng sâu hơn, không chỉ qua hành vi giao dịch mà còn qua các nhu cầu và",
+      "title": "2.2.1. Khách hàng cá nhân: nền tảng giao dịch và quản lý tài sản chuyên nghiệp",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/4.-Bao-cao-ban-dieu-hanh-VNDIRECT-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "VNDCARE là gói dịch vụ chuyên gia cho phép bạn lựa chọn chuyên gia tư vấn giúp bạn thiết lập hành trình học tập và",
+      "title": "Tài khoản tư vấn (Advisory account - AEcareby) - Dịch vụ đầu tưVNDIRECT",
+      "url": "https://www.vndirect.com.vn/dcare-dich-vu-chuyen-gia/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Lựa chọn đầu tư linh hoạt từ ngắn tới dài hạn cho các mục tiêu lớn trong tương lai nhằm bảo an thịnh vượng tài",
+      "title": "Nếp sống đầu tư | VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Các mã cổ phiếu ưa thích: HT1, PVT, HPG, MSN, VCB, VPB, SSI, MCH, VHM, VRE, BID, FPT, DPR, BMP, TNG. ... Trạng thái ổn",
+      "title": "Báo cáo chiến lược",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bao-cao-chien-luoc"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search13",
+      "snippet": "Khách Hàng đồng ý rằng HSC sẽ khấu trừ tiền từ tài khoản của Khách Hàng để hoàn lại bất cứ khoản tiền ứng trước",
+      "title": "Hop Dong Co So va Phai Sinh (KH Ca nhan)(20 trang).cdr",
+      "url": "https://storage.googleapis.com/storage-cweb/general-media/1-hop-dong-co-so-va-phai-sinh-kh-ca-nhan20-trang25-5-2020.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "16%, thể hiện sự phát triển bền vững của hoạt động bán lẻ trong toàn hệ thống. ... hợp với nhu cầu đầu tư của",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2024_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "HSC không chỉ là một công ty môi giới mà còn là cầu nối giữa dòng vốn toàn cầu và nền kinh tế Việt Nam",
+      "title": "CTCP Chứng khoán Thành phố Hồ Chí Minh | HSC",
+      "url": "https://www.hsc.com.vn/vi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Thành lập năm 2003, Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh (HSC) là một trong những định chế tài chính và",
+      "title": "Về chúng tôi | HSC",
+      "url": "https://www.hsc.com.vn/vi/ve-chung-toi"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafefnew.mediacdn.vn",
+      "ref_id": "turn0search15",
+      "snippet": "SSI - TRUNG TÂM PHÂN TÍCH VÀ TƯ VẤN ĐẦU TƯ | Tỷ đồng Bảng cân đối kế toán | | | 2020 None |",
+      "title": "SSI - TRUNG TÂM PHÂN TÍCH VÀ TƯ VẤN ĐẦU TƯ",
+      "url": "https://cafefnew.mediacdn.vn/Images/Uploaded/DuLieuDownload/PhanTichBaoCao/IDC_140823_SSI25082023102158.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Bạn có thể bắt đầu tìm hiểu SSI, HSC và VNDIRECT.** Tuy nhiên, chất lượng tư vấn phụ thuộc nhiều vào **người môi giới trực tiếp phụ trách**, không chỉ thương hiệu công ty.\n\n| Công ty | Điểm đáng cân nhắc |\n|---|---|\n| **SSI** | Đáng xem xét nếu bạn muốn tư vấn có báo cáo làm cơ sở: SSI cung cấp phân tích vĩ mô, chiến lược thị trường và khuyến nghị cổ phiếu. [Dịch vụ của SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu) |\n| **HSC** | Đáng tìm hiểu nếu ưu tiên môi giới hỗ trợ trực tiếp, kết hợp nghiên cứu. HSC công bố có hơn 300 nhân viên môi giới có chứng chỉ hành nghề. [Dịch vụ khách hàng HSC](https://www.hsc.com.vn/vi/khach-hang) |\n| **VNDIRECT** | Đáng cân nhắc nếu muốn lựa chọn chuyên viên theo khẩu vị và cách đầu tư; gói tài khoản tư vấn của hãng có mô hình này. [Tài khoản tư vấn VNDIRECT](https://www.vndirect.com.vn/dcare-dich-vu-chuyen-gia/) |\n\n*Đây là danh sách để bạn phỏng vấn, so sánh; thông tin dịch vụ do các công ty công bố chưa chứng minh bên nào tư vấn sinh lời tốt hơn.*\n\n**Trước khi chọn, hãy hỏi môi giới 4 điều:**\n- Khuyến nghị có luận điểm, rủi ro và điều kiện bán rõ ràng không?\n- Có xem xét mục tiêu, thời gian đầu tư và mức chịu lỗ của bạn trước khi đề xuất không?\n- Có cho xem lịch sử khuyến nghị, **cả lệnh lỗ**, thay vì chỉ ảnh chốt lời không?\n- Phí giao dịch, phí tư vấn và lãi margin cụ thể là bao nhiêu?\n\nNên tránh người **cam kết lợi nhuận, thúc ép dùng margin hoặc mua bán liên tục**.\n\nBạn mới đầu tư hay đã có kinh nghiệm, vốn dự kiến khoảng bao nhiêu và thích ngắn hạn hay dài hạn? Mình sẽ giúp thu hẹp lựa chọn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21926,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 571,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00c-f967-75a0-9510-1696a07eb2ba",
+ "error": ""
+}

@@ -1,0 +1,215 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q020-r4",
+ "prompt_id": "Q020",
+ "run": 4,
+ "question": "Chứng khoán DSC hay SSI tốt hơn?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:51:03",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 41.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00d-ecbb-77d3-9afe-703d6a922771"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-00a9d862-1947-40d3-ad36-7d46247564a5",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-00a9d862-1947-40d3-ad36-7d46247564a5",
+    "type": "web_search",
+    "query": "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 lãi suất margin ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 lãi suất margin",
+      "site.dsc.com.vn biểu phí giao dịch chứng khoán lãi suất margin 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu lãi suất giao dịch ký quỹ và ứng trước tiền bán ... Phí giao dịch chứng khoán niêm yết, Upcom | Cổ phiếu, chứng",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "(Qua nhân viên SSI) ... * Giá dịch vụ giao dịch trả Sở Giao dịch Chứng khoán Hà Nội (HNX), Trung tâm Lưu ký Chứng",
+      "title": "Biểu giá dịch vụ giao dịch chủ động",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# Biểu lãi suất dịch vụ tài chính ... 1 | Giao dịch chứng khoản ký quỹ (margin) | 13.9%/năm 2 | Dịch vụ ứng",
+      "title": "Biểu lãi suất dịch vụ tài chính",
+      "url": "https://fhsc.com.vn/bieu-lai-suat-dich-vu-tai-chinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Lưu ý: Để đảm bảo thanh toán khoản vay, tài khoản giao dịch chứng khoán có đủ tiền trước 16h30 của ngày thanh toán (không",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy?_ccrz_cb=e108f53d77df"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Margin transaction interest rates and sales advances ... Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Phí giao dịch chứng khoán tại SSI là bao nhiêu? ... SSI thành lập tháng 12/1999, niêm yết HOSE từ 2007 với mã SSI, vốn",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Trong khi đó, DSC tính trên cơ sở 365 ngày/năm giúp chi phí lãi thực tế được phản ánh chính xác và minh bạch hơn.",
+      "title": "So sánh DSC và VPS: Chọn phí thấp hay hệ sinh thái môi giới? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/dsc-vs-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "1 | Margin interest in term | According to DSC announcement from time to time ... 6 | Loan rate | According to DSC announcement",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/en/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "SSI trân trọng thông báo cập nhật chính sách Gói Nhập Cuộc với lãi suất ưu đãi hấp dẫn dành riêng cho Khách hàng mở",
+      "title": "ĐIỀU CHỈNH GÓI NHẬP CUỘC VỚI LÃI SUẤT 7.99% DÀNH CHO KHÁCH HÀNG MỚI VÀ KÍCH HOẠT TRỞ LẠI",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kisvn.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Nếu nhà đầu tư đang tìm kiếm công ty chứng khoán có phí giao dịch và lãi suất margin thấp nhất tháng 6/2026 để tối",
+      "title": "Công ty chứng khoán nào có phí giao dịch và lãi margin thấp nhất?",
+      "url": "https://www.kisvn.vn/hoc-dau-tu/phi-giao-dich-cong-ty-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Biểu Phí Giao Dịch ... * Lãi suất Margin chỉ 7.5%/năm ... Công cụ đòn bẩy hỗ trợ vốn cho khách hàng trong hoạt động",
+      "title": "Dịch vụ chứng khoán - BSC",
+      "url": "https://www.bsc.com.vn/dich-vu-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "goctaisan.com",
+      "ref_id": "turn0search11",
+      "snippet": "SSI niêm yết mở tài khoản miễn phí trong biểu giá dịch vụ khác hiệu lực 27/03/2026; phí thật nằm ở dịch vụ đi kèm:",
+      "title": "Mở tài khoản chứng khoán cho người mới 2026: phí và sai lầm",
+      "url": "https://goctaisan.com/mo-tai-khoan-chung-khoan-cho-nguoi-moi-2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Tháng 4/2024, với việc nâng cấp luồng trả kết quả **Thu hộ định danh API** đã giúp các giao dịch nộp tiền vào tài",
+      "title": "Báo cáo thường niên DSC 2024",
+      "url": "https://static2.vietstock.vn/vietstock/2025/3/25/20250325_20250325___dsc___cbtt_bao_cao_thuong_nien_nam_2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Hỗ trợ nhà đầu tư Tránh nguy cơ mất vốn lớn khi tài sản giảm giá mạnh, hoặc bỏ lỡ cơ hội có lời khi",
+      "title": "GIAO DỊCH CƠ SỞ",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.yuanta.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "10 | Phong tỏa và theo dõi phong tỏa chứng khoán theo yêu cầu bên thứ 3 (Tính trên tổng giá trị phong tỏa theo",
+      "title": "BIỂU PHÍ DỊCH VỤ",
+      "url": "https://support.yuanta.com.vn/wp-content/uploads/2025/06/Bieu-phi-dich-vu-27112023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hienkafi.com",
+      "ref_id": "turn0search15",
+      "snippet": "Là một trong các công ty có thị phần môi giới lớn nhất thị trường, nên khi số lượng tài khoản cá nhân tăng, SSI",
+      "title": "14.3.2026 Báo cáo phân tích ngành chứng khoán.pdf",
+      "url": "https://hienkafi.com/wp-content/uploads/2026/03/14.3.2026-Bao-cao-phan-tich-nganh-chung-khoan.pdf.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search16",
+      "snippet": "These assets are characterized by high safety, low risk, and strong liquidity, and have been selected by DSC to maintain readily available capital to support",
+      "title": "DSC SECURITIES",
+      "url": "https://stream.vnx.vn/VNX/cims/2026/4_W3/000000016167820_20260417__DSC__CBTT_NQ_BBH_DHDCD_2026_VI.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Một trong những lợi thế rất lớn của SSI so với các công ty chứng khoán khác là các mảng kinh doanh phát triển mạnh",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Phat-trien-san-pham/Covered%20Warrant/2025/23.06.2025/ACB15M/ACB_15M.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Bạn hỏi để mở tài khoản giao dịch hay để mua cổ phiếu DSC/SSI?** Hai trường hợp này cần đánh giá khác nhau.\n\n**Nếu để mở tài khoản**, điểm khác biệt rõ nhất là chi phí:\n\n| Tiêu chí | DSC | SSI |\n|---|---|---|\n| Phí tự giao dịch | **0,10%** với tài khoản do khối Tư vấn số quản lý | **0,15%** với dịch vụ giao dịch chủ động, đặt lệnh online |\n| Ví dụ mua 100 triệu đồng | 100.000 đồng phí | 150.000 đồng phí |\n| Nếu có môi giới hỗ trợ | Biểu phí khác; cần xác nhận theo tài khoản | Biểu phí khác; cần xác nhận theo tài khoản |\n\nNguồn: biểu phí chính thức của [DSC](https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet) và [SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong). Ví dụ chưa tính thuế và các khoản phí khác; ưu đãi riêng có thể thay đổi mức thực trả.\n\n**Mình nghiêng về:**\n- **DSC nếu bạn tự chọn cổ phiếu, ưu tiên phí thấp**, không cần môi giới.\n- **Nếu cần tư vấn:** nên chọn theo chất lượng người hỗ trợ thực tế, không chỉ tên công ty. Chưa đủ căn cứ để nói SSI hay DSC tư vấn tốt hơn cho mọi người.\n- **Nếu dùng margin:** phải so lãi suất thực nhận, thời hạn ưu đãi và điều kiện bán giải chấp; đừng chỉ nhìn phí giao dịch.\n\n**Nếu bạn hỏi nên mua cổ phiếu DSC hay SSI**, phí mở tài khoản không quyết định mã nào tốt hơn; cần so giá mua, định giá và kết quả kinh doanh. Bạn đang hỏi theo hướng nào?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 26174,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 497,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00d-ecbb-77d3-9afe-703d6a922771",
+ "error": ""
+}

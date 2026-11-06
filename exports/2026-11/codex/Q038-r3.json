@@ -1,0 +1,192 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q038-r3",
+ "prompt_id": "Q038",
+ "run": 3,
+ "question": "Nên mua trái phiếu ở công ty chứng khoán nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:59:29",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 28.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b015-a122-7f71-9d9e-0a42c5b9954e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d65197bb-b2df-46a6-a512-47c4298d7873",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d65197bb-b2df-46a6-a512-47c4298d7873",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn trái phiếu iBond rủi ro nhà đầu tư chuyên nghiệp ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn trái phiếu iBond rủi ro nhà đầu tư chuyên nghiệp",
+      "site.ssi.com.vn trái phiếu doanh nghiệp nhà đầu tư rủi ro",
+      "site.hnx.vn trái phiếu doanh nghiệp riêng lẻ nhà đầu tư chuyên nghiệp"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Có, tuy nhiên chỉ có nhà đầu tư cá nhân chuyên nghiệp được phép giao dịch trái phiếu doanh nghiệp phát hành riêng lẻ. ...",
+      "title": "Hỏi đáp",
+      "url": "https://www.hnx.vn/vi-vn/hoi-dap.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "iBond là sản phẩm trái phiếu của những doanh nghiệp hàng đầu Việt Nam, được TCBS thiết kế dành riêng cho khách hàng cá nhân",
+      "title": "Trái phiếu iBond - Giải pháp đầu tư trái phiếu tại TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/trai-phieu-ibond/?openArticle=showArticle"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* [TCBS-WS] Giới thiệu trái phiếu iBond ... a Lãi suất đầu tư cuối kỳ trái phiếu iBond theo thông báo của TCBS có phải",
+      "title": "Trái phiếu iBond | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/trai-phieu-ibond/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Giao dịch trái phiếu thuộc chương trình iBond, iConnect (áp dụng từ ngày 20/05/2026) ... Lưu ý: Trong trường hợp có thỏa thuận khác giữa",
+      "title": "Biểu phí giao dịch trái phiếu | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbonds.hnx.vn",
+      "ref_id": "turn0search4",
+      "snippet": "5 | 02/11/2026 17:00 | TNRC - Công ty cổ phần đầu tư phát triển bất động sản TNR holdings Việt Nam | TNR.BOND.11.2019.32 |",
+      "title": "Trang chủ - CBIS Portal",
+      "url": "https://cbonds.hnx.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tiencuatoi.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Thông tin về chương trình iBond và đặc tính của chương trình có thể xem tại website TCBS hoặc xem tại các tài liệu giới",
+      "title": "Rủi ro đầu tư trái phiếu iBond tại TCBS",
+      "url": "https://tiencuatoi.vn/rui-ro-trai-phieu-tcbs.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Nhà đầu tư nắm rõ chính sách sản phẩm và đánh giá được rủi ro của kênh đầu tư. ... Nhà đầu tư cần xác",
+      "title": "TRÁI PHIẾU DOANH NGHIỆP KỲ HẠN NGẮN",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/Ban-chao-chung-Dbond-8.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "# Công ty cổ phần chứng khoán SSI ... * Thông tin cổ phiếu SSI ... * Quản trị doanh nghiệp ... * Thuyết trình",
+      "title": "Quan hệ nhà đầu tư",
+      "url": "https://www.ssi.com.vn/quan-he-nha-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnexpress.net",
+      "ref_id": "turn0search7",
+      "snippet": "Tại TCBS, trái phiếu nằm trong khẩu vị rủi ro của Techcombank mới được chào bán cho nhà đầu tư. ... Từ tháng 11/2022 đến",
+      "title": "Cách hạn chế rủi ro khi mua trái phiếu doanh nghiệp - Báo VnExpress Kinh doanh",
+      "url": "https://vnexpress.net/cach-han-che-rui-ro-khi-mua-trai-phieu-doanh-nghiep-4701499.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Tùy thuộc vào chiến lược đầu tư của từng Quỹ mà tài sản của Quỹ tiềm ẩn các rủi ro khác nhau. (i) Nếu Quỹ",
+      "title": "Điều 5. Nhận biết rủi ro khi đầu tư vào Chứng chỉ quỹ mở",
+      "url": "https://help.tcbs.com.vn/wp-content/uploads/2025/11/MB11-QT_TKDT-TCBS_TC_tich_hop_Vi_1224-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Các hoạt động kinh doanh chính của SSI liên quan đến rủi ro thị trường là các hoạt động đầu tư trái phiếu, cổ phiếu,",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2024_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.gov.hnx.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Hướng dẫn Nhà đầu tư tham gia đấu thầu trái phiếu và giao dịch Trái phiếu Chính phủ tại Sở GDCK ... Hướng dẫn doanh",
+      "title": "Hướng dẫn thủ tục",
+      "url": "https://www.gov.hnx.vn/vi-vn/huong-dan-thu-tuc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Sản phẩm giao dịch trên iBond được lựa chọn từ những trái phiếu do các doanh nghiệp uy tín hàng đầu mà TCBS trực tiếp",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/3.-Ban-cao-bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube18",
+      "snippet": "# [TCBS]#26 | Hướng dẫn thực hiện bán trái phiếu doanh nghiệp iBond trên ứng dụng TCinvest của TCBs ... ► Mở tài khoản đầu",
+      "title": "[TCBS]#26 | Hướng dẫn thực hiện bán  trái phiếu doanh nghiệp iBond trên ứng dụng TCinvest của TCBs - YouTube",
+      "url": "https://www.youtube.com/watch?v=7XCplaVofkI"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube19",
+      "snippet": "# [TCBS] HƯỚNG DẪN ĐẶT MUA TRÁI PHIẾU iBOND TRÊN HỆ THỐNG TCINVEST MỚI ... Một sản phẩm có bản quyền thuộc sở hữu của",
+      "title": "[TCBS] HƯỚNG DẪN ĐẶT MUA TRÁI PHIẾU iBOND TRÊN HỆ THỐNG TCINVEST MỚI - YouTube",
+      "url": "https://www.youtube.com/watch?v=L6SxhgQYUeY"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn đang nói đến **trái phiếu doanh nghiệp**, tôi nghiêng về **TCBS để bắt đầu tìm hiểu**, nhưng **không nên chọn trái phiếu chỉ vì tên công ty chứng khoán bán nó**.\n\n**Vì sao cân nhắc TCBS?** Có sản phẩm iBond dành cho cá nhân và các dịch vụ hỗ trợ bán lại như iConnect. Tuy nhiên, hỗ trợ bán lại **không đồng nghĩa chắc chắn bán được ngay hoặc thu đủ vốn**; cần đọc điều kiện của từng mã. [Thông tin iBond của TCBS](https://www.tcbs.com.vn/ca-nhan/trai-phieu-ibond/?openArticle=showArticle)\n\nTrước khi mua, hãy yêu cầu bên bán trả lời rõ 4 câu:\n\n| Cần kiểm tra | Điều quan trọng |\n|---|---|\n| **Ai trả nợ?** | Doanh nghiệp phát hành là ai, tài chính và dòng tiền thế nào? |\n| **Có bảo lãnh thanh toán không?** | Đừng nhầm với bảo lãnh phát hành hoặc chỉ có tài sản bảo đảm. |\n| **Cần tiền sớm thì sao?** | Có cam kết mua lại bằng văn bản hay chỉ hỗ trợ tìm người mua? |\n| **Thực nhận bao nhiêu?** | So lợi suất sau thuế, phí và giá bán trước hạn, không chỉ lãi suất quảng cáo. |\n\n**Điểm mấu chốt:** mua qua công ty chứng khoán không tự động khiến công ty đó chịu trách nhiệm trả gốc, lãi thay doanh nghiệp. HNX cũng lưu ý doanh nghiệp phát hành chịu trách nhiệm về thông tin và nghĩa vụ liên quan đến trái phiếu. [Thông tin HNX](https://cbonds.hnx.vn/)\n\nNgoài ra, trái phiếu doanh nghiệp **phát hành riêng lẻ** chỉ dành cho nhà đầu tư đáp ứng điều kiện chuyên nghiệp. [Hỏi đáp HNX](https://www.hnx.vn/vi-vn/hoi-dap.html)\n\n**Bạn định đầu tư khoảng bao nhiêu, trong bao lâu và có cần rút tiền trước hạn không?** Có ba thông tin này tôi mới khuyên sát hơn nên chọn nơi nào và loại trái phiếu nào."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22182,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 601,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b015-a122-7f71-9d9e-0a42c5b9954e",
+ "error": ""
+}

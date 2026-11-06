@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# PDF written when the main report was locked by a viewer
+reports/*_moi.pdf
+exports/**/_run.log

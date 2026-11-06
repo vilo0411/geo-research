@@ -1,0 +1,373 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q044-r1",
+ "prompt_id": "Q044",
+ "run": 1,
+ "question": "Công ty chứng khoán nào có robot/AI gợi ý đầu tư?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:02:32",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 32.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b018-6cd5-7663-b111-44d342822f95"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-8d605c2d-6f53-4757-aa98-a6194913ca1f",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-8d605c2d-6f53-4757-aa98-a6194913ca1f",
+    "type": "web_search",
+    "query": "công ty chứng khoán AI robot gợi ý đầu tư TCBS TCInvest ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "công ty chứng khoán AI robot gợi ý đầu tư TCBS TCInvest",
+      "công ty chứng khoán trợ lý AI đầu tư VNDIRECT VPS SSI robo"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Trợ lý thông tin là tính năng toàn diện giúp nhà đầu tư cập nhật nhanh chóng và phân tích chi tiết về thị trường",
+      "title": "Hướng dẫn sử dụng tính năng trợ lý thông tin – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/43227712395801-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-t%C3%ADnh-n%C4%83ng-tr%E1%BB%A3-l%C3%BD-th%C3%B4ng-tin"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty Cổ phần Chứng khoán Kỹ Thương (Techcom Securities, TCBS) là công ty chứng khoán phát triển theo định hướng Wealthtech, kết hợp chuyên",
+      "title": "Về Techcom Securities (TCBS) – Công ty Cổ phần Chứng khoán Kỹ Thương",
+      "url": "https://www.tcbs.com.vn/ve-chung-toi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dstock.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Công ty Cổ phần Chứng khoán SSI (SSI) có tiền thân là Công ty Cổ phần Chứng khoán Sài Gòn được thành lập vào năm",
+      "title": "Tổng quan doanh nghiệp",
+      "url": "https://dstock.vndirect.com.vn/tong-quan/SSI"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sacombank.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Sở Giao dịch Chứng khoán Tp.HCM vừa công bố danh sách 10 công ty chứng khoán có thị phần giao dịch môi giới cổ phiếu,",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.sacombank.com.vn/content/dam/sacombank/files/tin-tuc/BTKT-05.04.2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "- Với tinh thần “Khách hàng là trọng tâm” và tận dụng thế mạnh dữ liệu và công nghệ tiên tiến, TCBS đã giới thiệu",
+      "title": "TECHCOMSECURITIES",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Công ty Cổ phần Chứng khoán Vndirect Số 1 Nguyễn Thượng Hiền,Quận Hai Bà Trưng, Tp.Hà Nội | ... Công ty Cổ phần Chứng khoán",
+      "title": "THÔNG BÁO BÁN ĐẤU GIÁ CỔ PHẦN LẦN ĐẦU RA CÔNG CHÚNG",
+      "url": "https://www.ssi.com.vn/upload/file/0e197375-006c-48a4-a9b6-e1e30edb5697.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ftp2.ssi.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Chứng khoán VNDirect (VND): VNDirect cung cấp giải pháp \"DirectInvest\", cho phép nhà đầu tư toàn cầu thực hiện giao dịch trực tuyến theo ...",
+      "title": "SSI - TRUNG TÂM PHÂN TÍCH VÀ TƯ VẤN ĐẦU TƯ",
+      "url": "https://ftp2.ssi.com.vn/Customers/GDDT/Analyst_Report/Sector%20Report/Cap%20nhat%20nganh%20Chung%20khoan_2025.08.08_SSIResearch.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "STT 1 | Tên công ty chứng khoán Công ty Cổ phần Chứng khoán VPS | Tên viết tắt VPS | Thị phần 17,38% ---",
+      "title": "NỘI DUNG\nBÁO CÁO THƯỜNG NIÊN 2022\nTHÔNG ĐIỆP BAN L",
+      "url": "https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/05042023_VCI_AR2022%20-%20VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Sự gia tăng của tổng nợ vay chủ yếu tài trợ cho cho vay ký quỹ, chiếm 50% tổng nợ, với 50% còn lại được",
+      "title": "CTCP Chứng Khoán SSI (SSI)",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/SSI_BCKQKD_20241104.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "VNDIRECT phát triển ba hướng đầu tư gồm VNDSIP - VNDTRADE - VNDWEALTH, đáp ứng các nhu cầu từ giao dịch chủ động, tích lũy",
+      "title": "VNDIRECT | Your Investment Home",
+      "url": "https://www.vndirect.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "stockbiz.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Chia sẻ trên chương trình \"Chuyển động 24h\" trưa ngày 26/3, ông Nguyễn Vũ Long, Tổng Giám đốc VNDirect cho biết hệ thống công ty",
+      "title": "Công ty chứng khoán nào đầu tư nhiều nhất cho công nghệ?",
+      "url": "https://stockbiz.vn/tin-tuc/cong-ty-chung-khoan-nao-dau-tu-nhieu-nhat-cho-cong-nghe/24191776"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search5",
+      "snippet": "* SSI iBoard Pro: Stop, Stop Limit, Trailing Stop, Trailing Stop Limit, OCO, chốt lời cắt lỗ (Bull&Bear); không hỗ trợ sửa lệnh điều kiện.",
+      "title": "Giao dịch phái sinh ở đâu? So sánh 21 công ty chứng khoán 2026",
+      "url": "https://reviewchungkhoan.com/giao-dich-phai-sinh-o-dau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbtd.hnx.vn",
+      "ref_id": "turn0search6",
+      "snippet": "* [Input] 021 - Công ty Cổ phần Chứng khoán VNDIRECT ... * [Input] 026 - Công ty Cổ phần Chứng khoán VPS ... 22",
+      "title": "Thành viên",
+      "url": "https://cbtd.hnx.vn/vi-vn/phai-sinh/chi-tiet-thanh-vien-003.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnbiznews.com",
+      "ref_id": "turn0search7",
+      "snippet": "# Phía sau công ty chứng khoán có vốn hóa lớn nhất thị trường: Không cần dùng môi giới, Gen AI len sâu vào toàn",
+      "title": "Phía sau công ty chứng khoán có vốn hóa lớn nhất thị | VNBizNews",
+      "url": "https://vnbiznews.com/phia-sau-cong-ty-chung-khoan-co-von-hoa-lon-nhat-thi-truong-khong-can-dung-moi-gioi-gen-ai-len-sau-vao-toan-bo-to-chuc-pid1989595272"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7ae36e39-3ee2-4ebb-8036-7a3240e0d493",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7ae36e39-3ee2-4ebb-8036-7a3240e0d493",
+    "type": "web_search",
+    "query": "site.dnse.com.vn \"AI\" \"Ensa\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dnse.com.vn \"AI\" \"Ensa\"",
+      "site.mbs.com.vn \"Stock\" \"AI\"",
+      "site.vpbanksec.com.vn \"Nami\"",
+      "site.tcbs.com.vn \"TCWealth\" \"robo\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "tcbs.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "TCWealth (https://wealth.tcbs.com.vn) is an advanced online financial advisory system, also known as the first Robo-Advisor in Vietnam.",
+      "title": "Head Office:",
+      "url": "https://tcbs.com.vn/documents/10181/339203/TCBS%2BCompany%2BProfile_ENG_2018-6zEKx0sd.pdf/35e2bf46-a77c-46b5-9498-b08174938853"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "ENSA - Trợ lý đầu tư AI ... DNSE hợp tác với ZaloPay, triển khai tài khoản chứng khoán trên ví điện tử, giao dịch",
+      "title": "Chứng khoán DNSE - Miễn phí giao dịch trọn đời",
+      "url": "https://www.dnse.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "As the first Robo Advisor developed in Vietnam, TCWealth simplifies financial planning, providing investors with a comprehensive view of their wealth accumulation and investment journey",
+      "title": "Hệ thống iWealth | TechcomSecurities",
+      "url": "https://www.tcbs.com.vn/en/individual/systems/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "TCWealth is an online personal financial planning tool powered by Robo-iAdvisor technology. ... ### TCBS is a subsidiary of Techcombank (Vietnam Technological and Commercial Joint",
+      "title": "Individual - Techcom Securities - TCBS",
+      "url": "https://www.tcbs.com.vn/en/individual/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "LỆNH AI VÀ ENSA ... Lệnh AI là tính năng mới của DNSE cho phép khách hàng đặt lệnh cơ sở áp dụng công nghệ",
+      "title": "Hoạt động phát triển sản phẩm",
+      "url": "https://cdn.dnse.com.vn/dnse-assets/CBTT/20260323%20-%20DSE%20-%20B%C3%A1o%20c%C3%A1o%20th%C6%B0%E1%BB%9Dng%20ni%C3%AAn%202025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Left side: a red-and-white 3D promotional scene with a cartoon AI assistant standing on a circular platform in front of large “ENSA” letters and the",
+      "title": "TRỢ LÝ CHỨNG KHOÁN AI",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "TCWealth là hệ thống tư vấn và quản lý tài chính trực tuyến hay còn gọi là Robo – Advisor đầu tiên ở Việt Nam.",
+      "title": "TECHCOMSECURITIES",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2025/11/BCTNTCBS2021Viet-compress2_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search16",
+      "snippet": "• TCWealth Robo Advisor – Hoạch định tài chính cá nhân tự động TCWealth Robo Advisor là nền tảng hoạch định tài chính tự động",
+      "title": "Báo cáo Phân tích doanh nghiệp",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/VIE_TCBS_Bc_Phan_tich_lan_dau_0725.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Promotional image showing three smartphone screens on a red stage with the DNSE logo and the Vietnamese slogan “BẮT NHỊP THỊ TRƯỜNG NHANH CHÓNG cùng",
+      "title": "Product Development operations",
+      "url": "https://cdn.dnse.com.vn/dnse-assets/CBTT/20260323%20-%20DSE%20-%20Annual%20Report%202025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Dolphin AI Assistant and Expert Advisory for Smarter Investing ... Image: Website Stock ... S24 is an online trading platform on the website, providing an",
+      "title": "Stocks - MBS",
+      "url": "https://www.mbs.com.vn/en/stocks/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Là Robo Advisor đầu tiên được phát triển ở Việt Nam, TCWealth đơn giản hóa việc lập kế hoạch tài chính, cung cấp cho khách",
+      "title": "Hệ thống iWealth | TechcomSecurities",
+      "url": "https://www.tcbs.com.vn/ca-nhan/he-thong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "##### Robo Advisor TCWealth ... ### TCBS là công ty con của Techcombank, tiên phong giải pháp tài chính và phát triển hệ sinh thái",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-cho-khnn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Ensa: trợ lý môi giới ảo AI chat của DNSE, hướng dẫn tại đây",
+      "title": "Trang chủ | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/giao-dien-entrade-x/giao-dien-web-entradex/trang-chu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn1youtube18",
+      "snippet": "# [TCBS] Tạo kế hoạch tài chính TCWealth phiên bản mới ... Là Robo Advisor đầu tiên được phát triển ở Việt Nam, TCWealth đơn",
+      "title": "[TCBS] Tạo kế hoạch tài chính TCWealth phiên bản mới - YouTube",
+      "url": "https://www.youtube.com/watch?v=_Z38Cyr8Q38"
+     },
+     {
+      "type": "text_result",
+      "domain": "thoibaotaichinhvietnam.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Công ty TNHH Chứng khoán Kỹ Thương - Techcom Securities (TCBS) đã chính thức giới thiệu phiên bản hoàn chỉnh của TCWealth – công cụ",
+      "title": "TCBS ra mắt công cụ tư vấn tài chính online đầu tiên tại Việt Nam",
+      "url": "https://thoibaotaichinhvietnam.vn/tcbs-ra-mat-cong-cu-tu-van-tai-chinh-online-dau-tien-tai-viet-nam-36167.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Webtrading: https://entradex.dnse.com.vn ... * ENSA AI Chat",
+      "title": "Hướng dẫn sử dụng Entrade X | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "ENSA - Trợ lý đầu tư AI đầu tiên trên thị trường ... hello@dnse.com.vn",
+      "title": "Cơ hội đầu tư vào công ty Chứng khoán Công nghệ số 1 Việt Nam",
+      "url": "https://www.dnse.com.vn/ipo"
+     },
+     {
+      "type": "text_result",
+      "domain": "banggia.dnse.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "ENSA Trợ lý AI nói gì?",
+      "title": "Bảng giá chứng khoán DNSE",
+      "url": "https://banggia.dnse.com.vn/v2/niem-yet/vay-uu-dai?symbol=SDX"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tinnhanhchungkhoan.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Đó chính là lý do TCBS là đơn vị đầu tiên tại Việt Nam đưa ra mô hình Robo Advisor – chính là công cụ",
+      "title": "Techcom Securities định hướng Fintech từ cảm hứng Cách mạng công nghệ | Tin nhanh chứng khoán",
+      "url": "https://www.tinnhanhchungkhoan.vn/techcom-securities-dinh-huong-fintech-tu-cam-hung-cach-mang-cong-nghe-post179406.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn1search19",
+      "snippet": "Techcom Securities (TCBS) is the leading wealthtech company and is the largest securities company in Vietnam in terms of profit and brand value. ... *",
+      "title": "Nguyen Xuan Minh",
+      "url": "https://en.wikipedia.org/wiki/Nguyen_Xuan_Minh"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "Có. **Tại Việt Nam, một số công ty chứng khoán có AI/robot hỗ trợ phân tích và gợi ý đầu tư** gồm:\n\n| Công ty | Công cụ | Hỗ trợ chính |\n|---|---|---|\n| **DNSE** | **ENSA / ENSA Pro** | Hỏi đáp thị trường, phân tích và so sánh cổ phiếu, đánh giá danh mục; ENSA Pro có thể đưa ra gợi ý kèm lập luận từ dữ liệu kỹ thuật, cơ bản và tin tức. [Nguồn DNSE](https://www.dnse.com.vn/) |\n| **TCBS** | **Mập thông thái**, **TCWealth** | Mập thông thái hỗ trợ tư vấn danh mục cá nhân hóa bằng AI; TCWealth là robo-advisor thiên về lập kế hoạch tài chính, đầu tư theo mục tiêu dài hạn. [Mập thông thái](https://www.tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf), [TCWealth](https://www.tcbs.com.vn/ca-nhan/he-thong/) |\n| **MBS** | **Dolphin** | Trợ lý AI hỗ trợ đầu tư, bên cạnh dịch vụ tư vấn chuyên gia. [Nguồn MBS](https://www.mbs.com.vn/en/stocks/) |\n| **VNDIRECT** | **Trợ lý thông tin** | Tổng hợp thông tin, phân tích thị trường và hiển thị cổ phiếu kèm điểm số AI. VNDIRECT lưu ý nhận định này **không phải khuyến nghị mua/bán**. [Hướng dẫn VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/43227712395801) |\n\n**Nếu muốn AI phân tích từng mã cổ phiếu**, bạn có thể tìm hiểu ENSA trước; **nếu muốn lập kế hoạch tích lũy dài hạn**, TCWealth sát nhu cầu hơn.\n\nLưu ý: **AI gợi ý đầu tư không đồng nghĩa robot tự giao dịch**, và không bảo đảm lợi nhuận. Trước khi dùng, nên kiểm tra phí, độ cập nhật dữ liệu và cách công cụ giải thích khuyến nghị.\n\nBạn muốn AI **gợi ý cổ phiếu mua/bán ngắn hạn** hay **xây danh mục dài hạn**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39568,
+    "cached_input_tokens": 29312,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 666,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b018-6cd5-7663-b111-44d342822f95",
+ "error": ""
+}

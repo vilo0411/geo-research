@@ -1,0 +1,347 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q046-r4",
+ "prompt_id": "Q046",
+ "run": 4,
+ "question": "Chứng khoán DSC có lừa đảo không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:04:26",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 29.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01a-29c2-7331-bda2-7fa7473d3298"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-38a7b715-c7c3-4727-acac-378eb0dc6cc1",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-38a7b715-c7c3-4727-acac-378eb0dc6cc1",
+    "type": "web_search",
+    "query": "site.dsc.com.vn cảnh báo giả mạo DSC lừa đảo ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn cảnh báo giả mạo DSC lừa đảo",
+      "site.hsx.vn DSC Công ty cổ phần chứng khoán DSC niêm yết",
+      "site.ssc.gov.vn chứng khoán DSC giấy phép"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "### DSC Công ty cổ phần Chứng khoán DSC ... Mặc dù theo bảng xếp hạng thị phần DNSC mới chỉ chiếm thị phần môi",
+      "title": "Thông tin cổ phiếu",
+      "url": "https://www.dsc.com.vn/thong-tin-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "taichinh.com",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC Cổ phiếu Chứng khoán DSC lúc 11:26 ngày 05/11/2026 ở mức 9.540 đồng/cổ phiếu, tăng 0,5% so với",
+      "title": "Giá cổ phiếu DSC - Chứng khoán DSC - taichinh.com",
+      "url": "https://taichinh.com/chung-khoan/dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Tính từ số liệu năm 2025 và khối lượng 278.000.000 cổ phiếu đang niêm yết . ... Tiền chi cho vay, mua các công cụ",
+      "title": "Công ty Cổ phần Chứng khoán DSC (DSC) — HOSE: hồ sơ, báo cáo tài chính, vốn hóa | Dữ Liệu Pháp Luật",
+      "url": "https://dulieuphapluat.vn/cong-cu/cong-ty-niem-yet/dsc-cong-ty-co-phan-chung-khoan-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Website: www.hsx.vn ... A large green screen in the background reads: “LỄ TRAO QUYẾT ĐỊNH NIÊM YẾT & CHÀO MỪNG NGÀY GIAO DỊCH CHÍNH THỨC",
+      "title": "SỞ GIAO DỊCH CHỨNG KHOÁN TP. HỒ CHÍ MINH",
+      "url": "https://static2.vietstock.vn/vietstock/2024/10/24/20241024_tcbc_niem_yet_co_phieu_dsc_24_10_2024__tttt__1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "- Số lượng chứng khoán trước khi thay đổi niêm yết: **239.661.453 cổ phiếu** *(Hai trăm ba mươi chín triệu sáu trăm sáu mươi mốt",
+      "title": "2025-12-22 (5)",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2425740/20251222%20-%20DSC%20-%20Quyet%20dinh%20thay%20doi%20niem%20yet.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Niêm yết Ngày niêm yết Ngày cổ phiếu bắt đầu giao dịch trên sàn.Giá phiên đầu 22.500 đ ... 13/07/2021 Đổi tên thành Công ty",
+      "title": "Cổ phiếu DSC: giá 9.490, 52 tuần 8.810–16.650 | HODL.VN",
+      "url": "https://www.hodl.vn/stock/dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietfina.com",
+      "ref_id": "turn0search4",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC (DSC) là doanh nghiệp niêm yết hoạt động trong ngành Dịch vụ tài chính, giao dịch trên sàn",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC (DSC) — Hồ sơ & định giá | VietFina",
+      "url": "https://vietfina.com/doanh-nghiep/cong-ty-co-phan-chung-khoan-dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "hnx.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Tin tức từ HNX Báo cáo sở hữu của cổ đông lớn - Công ty cổ phần Chứng khoán DSC ... - Tên tổ chức",
+      "title": "Báo cáo sở hữu của cổ đông lớn - Công ty cổ phần Chứng khoán DSC",
+      "url": "https://hnx.vn/vi-vn/m-tin-tuc-hnx/tintuc-610278-1.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Phí giao dịch chuyển quyền sở hữu chứng khoán ngoài hệ thống giao dịch của Sở giao dịch chứng khoán (trừ các trường hợp tặng",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Công ty Cổ phần Chứng khoán DSC (trước đây là Chứng khoán Đà Nẵng) được thành lập từ năm 2006, hiện có trụ sở",
+      "url": "https://www.dsc.com.vn/quan-he-co-dong/tong-quan"
+     },
+     {
+      "type": "text_result",
+      "domain": "fireant.vn",
+      "ref_id": "turn0search8",
+      "snippet": "# CTCP Chứng khoán DSC Image: Thị trường đóng cửa DSC:HSX ... ## Cổ đông lớn của DSC Cổ đông lớn nhất là CTCP Đầu",
+      "title": "DSC: Cổ đông lớn, cơ cấu sở hữu CTCP Chứng khoán DSC | FireAnt",
+      "url": "https://fireant.vn/ma-chung-khoan/DSC/co-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Chiều 9/4/2025, Công ty Cổ phần Chứng khoán DSC (DSC) đã tổ chức thành công chương trình Hội nghị Nhà đầu tư - Cập nhật",
+      "title": "Tin tức và sự kiện - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/tin-tuc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vnvalue.tech",
+      "ref_id": "turn0search10",
+      "snippet": "Mọi cổ phiếu trong ngành, đánh dấu DSC: chênh lệch hiệu chỉnh so với giá đóng cửa theo chiều ngang, vốn hóa theo chiều dọc,",
+      "title": "DSC — Giá trị nội tại hiệu chỉnh so với giá đóng cửa",
+      "url": "https://www.vnvalue.tech/vi/co-phieu/DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search11",
+      "snippet": "VN000000DSC6 ... Công ty cổ phần Chứng khoán DSC và các tổ chức, cá nhân tham gia vào quá trình lập hồ sơ, tài liệu",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/194722"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... <tr><td>1</td><td>Tên cổ phiếu</td><td>Cổ phiếu công ty Cổ phần Chứng khoán DSC</td></tr> ... <tr><td>5</td><td>Tổng số tiền thu được",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/17/20260417___dsc___cbtt_nq__bbh_dhdcd_2026__vi_en_.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "file.fpts.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... Email: info@dsc.com.vn ... Địa chỉ: Số 14 đường Nguyễn Văn Trỗi, phường 17, quận Phú Nhuận, thành",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://file.fpts.com.vn/FileStore2/File/2025/03/25/20250325_20250325_-_DSC_-_CBTT_Bao_cao_thuong_nien_nam_2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Giấy phép điều chỉnh được lập thành hai (02) bản chính: 01 bản cấp cho Công ty Cổ phần Chứng khoán DSC; 01 bản lưu",
+      "title": "2\n\nĐiều 3. Giấy phép điều chỉnh được lập thành hai",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/2023/05/6.-Giay-phep-thanh-lap-va-hoat-dong-cong-ty-chung-khoan-va-Cac-giay-phep-dieu-chinh-co-lien-quan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Sau 03 năm tái cấu trúc doanh nghiệp, dưới sự chỉ đạo, điều hành sát sao của Ban TGĐ, DSC đã hoàn tất việc tái",
+      "title": "DSC SECURITIES",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/NGHI%20QUYET%20HDQT/VN/20250828___dsc___cbtt_nq_phe_duyet_tl_lay_y_kien_vb_lan_2_2025.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-4eaa2d4a-7ede-49ce-b562-097aa137e141",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-4eaa2d4a-7ede-49ce-b562-097aa137e141",
+    "type": "web_search",
+    "query": "site.dsc.com.vn \"giả mạo\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn \"giả mạo\"",
+      "site.dsc.com.vn \"lừa đảo\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "cccc.org.vn",
+      "ref_id": "turn1search12",
+      "snippet": "(Kèm theo Báo cáo số /BC-CATTT ngày tháng năm 2024 của Cục An toàn thông tin) ... <td>https://giaohangtietkiemvietnam[.]com</td> ... <td>Website giả mạo Dịch vụ công",
+      "title": "10\n\nPhụ lục I  \nDANH SÁCH CÁC WEBSITE GIẢ MẠO, LỪA",
+      "url": "https://cccc.org.vn/wp-content/uploads/2024/12/1728532986592-BC16-2024-CATT.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "scam.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Các cảnh báo khác: doithevip.vn 100 Giả mạo người thân ở nước ngoài làm dịch vụ đổi tiền 91 App đen tự giải ngân và",
+      "title": "SCAM.VN - Cảnh Báo Lừa Đảo",
+      "url": "https://scam.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mst.gov.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Cục An toàn thông tin (Bộ Thông tin và Truyền thông) khuyến cáo người dân nâng cao cảnh giác, không nên mù quáng tin vào",
+      "title": "lừa đảo trực tuyến: Tin tức, Video, hình ảnh lừa đảo trực tuyến",
+      "url": "https://mst.gov.vn/lua-dao-truc-tuyen.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Với thủ đoạn tinh vi, các đối tượng sử dụng thông tin giả mạo HSC để tạo dựng niềm tin với Khách hàng từ đó",
+      "title": "Cảnh báo lừa đảo | Giả mạo thông tin Giấy chứng nhận đăng ký doanh nghiệp HSC",
+      "url": "https://www.hsc.com.vn/vi/canh-bao-lua-dao-gia-mao-thong-tin-giay-chung-nhan-dang-ky-doanh-nghiep-hsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "pbgdpl.moj.gov.vn",
+      "ref_id": "turn1search13",
+      "snippet": "- Giả mạo trang thông tin điện tử của tổ chức, ... (i) Phạt tiền từ 10.000.000 đồng đến ... - Cung cấp, chia sẻ",
+      "title": "- Giả mạo trang thông tin điện tử của tổ chức,",
+      "url": "https://pbgdpl.moj.gov.vn/qt/tintuc/Lists/ToGap/Attachments/352/To%20gap%2015.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "fica.dantri.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Đến Công ty Chứng khoán DSC để hỏi thì chị mới phát hiện ra mình đã bị lừa. ... Lãnh đạo DSC cho biết, thời",
+      "title": "Mạo danh công ty chứng khoán để lừa đảo",
+      "url": "https://fica.dantri.com.vn/chung-khoan/mao-danh-cong-ty-chung-khoan-de-lua-dao-20221223115529149.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "static.socotec.com",
+      "ref_id": "turn1search14",
+      "snippet": "Lừa đảo nghề nghiệp được định nghĩa là hành vi của ... mục đích là cố tình lừa dối người khác. ... Nếu bạn có",
+      "title": "BỘ QUY TẮC ĐẠO",
+      "url": "https://static.socotec.com/s3fs-public/2025-04/p2-2024-11-bo-quy-tac-dao-duc-socotec-vn_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "congthuong.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Cụ thể, Công ty cổ phần chứng khoán Đà Nẵng (DSC) đã phải đăng tải trên website dsc.com.vn về việc bị các đối tượng lừa",
+      "title": "Những chiêu thức \"lùa gà\" trên thị trường chứng khoán",
+      "url": "https://congthuong.vn/nhung-chieu-thuc-lua-ga-tren-thi-truong-chung-khoan-246278.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vast.gov.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Chuyên mục \"Nhận diện các hình thức lừa đảo trực tuyến\", kì 2 là câu chuyện về các đối tượng lừa đảo với chiêu thức",
+      "title": "Cổng TTĐT Viện Hàn lâm Khoa học và Công nghệ Việt Nam",
+      "url": "https://vast.gov.vn/web/chuyen-doi-so/tin-chi-tiet/-/chi-tiet/lua-%C4%91ao-tuyen-cong-tac-vien-online-tien-loi-cao-bao-nguoi-sap-bay--59809-5801.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dhcsolar.com",
+      "ref_id": "turn1search6",
+      "snippet": "Trong thời gian gần đây, DHC Solar liên tục nhận được phản ánh từ nhiều khách hàng về việc bị các đối tượng mạo danh",
+      "title": "Cảnh Báo Giả Mạo DHC Solar với Thủ Đoạn Lừa Đảo Tinh Vi - DHC Solar",
+      "url": "https://www.dhcsolar.com/canh-bao-gia-mao-dhc-solar/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Hiện nay, BSC đã ghi nhận sự xuất hiện của một số địa chỉ Website mạo danh BSC: https://www.bscitd.com/. ... Quý khách hàng tuyệt đối",
+      "title": "Cảnh báo lừa đảo, giả mạo thông tin BSC",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/64016-canh-bao-lua-dao-gia-mao-thong-tin-bsc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "nhandan.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Cục Cảnh sát quản lý hành chính về trật tự xã hội (C06), Bộ Công an cho biết, để kịp thời cảnh báo, cung cấp",
+      "title": "Tra cứu, nhận diện website lừa đảo",
+      "url": "https://nhandan.vn/tra-cuu-nhan-dien-website-lua-dao-post859461.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "scam.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Thu thập bằng chứng: Lưu lại tất cả các thông tin liên quan đến vụ lừa đảo, bao gồm nội dung tin nhắn, email, lịch",
+      "title": "Danh sách thông tin cảnh báo (Trang 1 - Xếp theo Lượt xem) | SCAM.VN - Cảnh Báo Lừa Đảo",
+      "url": "https://scam.vn//danh-sach"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Chưa có cơ sở để kết luận Công ty Cổ phần Chứng khoán DSC là lừa đảo. Tuy nhiên, cần phân biệt DSC thật với người hoặc ứng dụng mạo danh DSC.**\n\n- **DSC là doanh nghiệp có thật**, có cổ phiếu niêm yết trên HOSE, được xác nhận trong [quyết định của HOSE](https://staticfile.hsx.vn/Uploads/UploadDocuments/2425740/20251222%20-%20DSC%20-%20Quyet%20dinh%20thay%20doi%20niem%20yet.pdf). Điều này **không có nghĩa mọi lời mời đầu tư mang tên DSC đều đáng tin**, hay đầu tư sẽ không thua lỗ.\n- **Đã có trường hợp mạo danh DSC để chiếm đoạt tiền**, được phản ánh trong [bài báo của Dân trí](https://fica.dantri.com.vn/chung-khoan/mao-danh-cong-ty-chung-khoan-de-lua-dao-20221223115529149.htm).\n\n**Bạn nên dừng chuyển tiền để xác minh nếu gặp các dấu hiệu:**\n- Cam kết lãi cao, chắc thắng hoặc “bao lỗ”.\n- Yêu cầu chuyển tiền vào tài khoản cá nhân, cài ứng dụng từ đường dẫn lạ.\n- Không cho rút tiền và bắt nộp thêm “thuế”, “phí xác minh” hoặc “phí mở khóa”.\n\nHãy tự truy cập [website DSC](https://www.dsc.com.vn/) để lấy thông tin liên hệ và kiểm tra trực tiếp, không dùng số điện thoại do người mời đầu tư đưa.\n\n**Bạn đang hỏi về công ty DSC, hay một app/nhóm Zalo mang tên DSC?** Gửi đường dẫn hoặc ảnh chụp màn hình, che thông tin cá nhân, mình có thể giúp kiểm tra dấu hiệu đáng ngờ."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 47584,
+    "cached_input_tokens": 14592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 545,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01a-29c2-7331-bda2-7fa7473d3298",
+ "error": ""
+}

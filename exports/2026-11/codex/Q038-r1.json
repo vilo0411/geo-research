@@ -1,0 +1,200 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q038-r1",
+ "prompt_id": "Q038",
+ "run": 1,
+ "question": "Nên mua trái phiếu ở công ty chứng khoán nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:59:27",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.8,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b015-991d-7850-8d94-24c5546432ed"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-08065ede-7ee7-4d91-beb7-b32db611d376",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-08065ede-7ee7-4d91-beb7-b32db611d376",
+    "type": "web_search",
+    "query": "site.vcbs.com.vn trái phiếu khách hàng cá nhân phân phối ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vcbs.com.vn trái phiếu khách hàng cá nhân phân phối",
+      "site.tcbs.com.vn trái phiếu rủi ro không bảo lãnh thanh toán",
+      "site.ssi.com.vn trái phiếu khách hàng cá nhân"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Trái Phiếu không được bảo lãnh thanh toán cũng như bảo đảm bằng bất kỳ tài sản nào, dù của Tổ Chức Phát Hành hay",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/3.-Ban-cao-bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Đặt lệnh qua kênh online | Đặt lệnh qua kênh khác (Qua nhân viên SSI) ... Từ 100 triệu đồng đến dưới 500 triệu đồng",
+      "title": "Biểu giá dịch vụ áp dụng cho tkgd chứng khoán cơ sở",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Khách hàng có thể cùng mua và bán 1 loại cổ phiếu trong cùng ngày; không được đặt các lệnh giao dịch vừa mua,",
+      "title": "Quy định giao dịch cổ phiếu",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Giá trị rủi ro thị trường của các tài sản sẽ được điều chỉnh tăng thêm trong trường hợp Công ty đầu tư quá nhiều",
+      "title": "SEY23081116310",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/TCS%2B30.06.2023%2B-%2BFSR%2B-%2BVIE.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Biểu giá dịch vụ giao dịch trái phiếu riêng lẻ đăng ký giao dịch tại HNX ### Biểu giá dịch vụ giao dịch trái",
+      "title": "Dịch vụ chứng khoán khách hàng cá nhân",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdbs.vn",
+      "ref_id": "turn0search14",
+      "snippet": "BẢN CÔNG BỐ THÔNG TINkhông thanh toán đầy đủ bất kỳ Nghĩa Vụ Được Bảo Đảm Bằng Bảo Lãnh nào khi đến ... (iii) Nghĩa",
+      "title": "BẢN CÔNG BỐ THÔNG TINCÔNG BỐ THÔNG TIN VỀ CHÀO BÁN TRÁI PHIẾU RIÊNG LẺ",
+      "url": "https://hdbs.vn/wp-content/uploads/2024/10/OC_XKSCH2429001.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Từ trái phiếu của các doanh nghiệp uy tín hàng đầu đến các quỹ mở đầu tư và quỹ bất động sản được quản lý",
+      "title": "Sản phẩm TCBS - Giải pháp đầu tư tài chính toàn diện",
+      "url": "https://www.tcbs.com.vn/ca-nhan/san-pham/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Với kho kiến thức đầu tư bổ ích và đồ sộ, SSI sẽ giúp bạn trở thành nhà đầu tư thực thụ ... * NGƯỜI",
+      "title": "Dịch vụ chứng khoán khách hàng cá nhân - SSI",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbonds.hnx.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Doanh nghiệp phát hành trái phiếu chịu trách nhiệm trước pháp luật, trước nhà đầu tư về tính chính xác, trung thực, đầy đủ,",
+      "title": "Trang chủ - CBIS Portal",
+      "url": "https://cbonds.hnx.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "static.tcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "<td>Trong vòng 1 (một) ngày làm việc kể từ ngày kết thúc thời gian chào bán Trái Phiếu, Tổ Chức Phát Hành và/hoặc TCBS sẽ",
+      "title": "VF12202201_OC.pdf",
+      "url": "https://static.tcbs.com.vn/documents/OC/MSN02202301_OC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sbsi.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Trang chủ Khách hàng cá nhân Dịch vụ chứng khoán ... SBSI cung cấp các sản phẩm, dịch vụ tài chính đa dạng với chi",
+      "title": "Dịch vụ chứng khoán Khách hàng cá nhân",
+      "url": "https://www.sbsi.vn/vi-vn/san-pham-dich-vu/bai-viet/khach-hang-ca-nhan/bao-cao-phan-tich/A11"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "3) Icon of a handshake; text: “Hợp tác toàn diện với Vietcombank trong việc giới thiệu các dịch vụ sản phẩm của VCBS tới cộng",
+      "title": "KHÁCH HÀNG CÁ NHÂN",
+      "url": "https://www.vcbs.com.vn/storage/upload/media/bao-cao-thuong-nien/2019/ar2019-vi.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vcbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Căn cứ thời gian còn lại của từng Trái ... VCBS cam kết môi giới bán trái phiếu cho ... Khách hàng kiểm tra số",
+      "title": "GIỚI THIỆU SẢN PHẨM TRÁI PHIẾU DOANH NGHIỆP TẠI VCBS",
+      "url": "https://vcbs.com.vn/storage/uploads/News/2019/T8/TPDN/Gi%E1%BB%9Bi%20thi%E1%BB%87u%20chung%20s%E1%BA%A3n%20ph%E1%BA%A9m%20TPDN%20%282%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "files.vcbs.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "# Vietcombank Securities (VCBS) - CÔNG TY TNHH CHỨNG KHOÁN NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM ... * Khách hàng cá nhân ... *",
+      "title": "Vietcombank Securities",
+      "url": "https://files.vcbs.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "#### Dẫn đầu mảng trái phiếu doanh nghiệp từ 2014 đến nay​ ... Dịch vụ TCBS cung cấp ... * Trái phiếu có bảo lãnh",
+      "title": "Doanh nghiệp - Techcom Securities - TCBS",
+      "url": "https://www.tcbs.com.vn/doanh-nghiep/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "#### Chính sách CK phái sinh với HĐTL chỉ số cổ phiếu ... #### Miễn phí giao dịch và ưu đãi margin khi mở tài",
+      "title": "Giao dịch chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/giao-dich-chung-khoan/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Bạn có thể bắt đầu so sánh TCBS và SSI**, nhưng nên chọn **mã trái phiếu trước, nơi mua sau**. Công ty chứng khoán phân phối không đồng nghĩa họ bảo đảm trả gốc, lãi thay doanh nghiệp.\n\n| Nơi tham khảo | Khi nào nên cân nhắc |\n|---|---|\n| **TCBS** | Muốn tìm hiểu sản phẩm dành cho cá nhân: có iBond và các giải pháp thanh khoản. Tuy nhiên, cần đọc điều kiện bán trước hạn của từng sản phẩm, không hiểu là luôn rút tiền được. [Sản phẩm TCBS](https://www.tcbs.com.vn/ca-nhan/san-pham/) |\n| **SSI** | Muốn có thêm đầu mối tư vấn, đối chiếu mã trái phiếu và chi phí; SSI có dịch vụ giao dịch trái phiếu, bao gồm trái phiếu riêng lẻ đăng ký tại HNX. [Dịch vụ SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu) |\n\n**Nếu là người mới, tôi sẽ xin báo giá cùng kỳ hạn từ cả hai nơi**, rồi kiểm tra 4 điểm:\n\n- **Ai nợ bạn?** Doanh nghiệp phát hành có dòng tiền và khả năng trả nợ ra sao?\n- **Có bảo lãnh thanh toán không?** Đừng nhầm với bảo lãnh phát hành hoặc có tài sản bảo đảm.\n- **Cần tiền sớm thì bán cho ai?** Có nghĩa vụ mua lại bằng văn bản hay chỉ hỗ trợ tìm người mua?\n- **Thực nhận bao nhiêu?** So lợi suất sau thuế, phí và giá mua, không chỉ lãi suất quảng cáo.\n\nViệc trái phiếu được đăng ký giao dịch tại HNX **không bảo đảm doanh nghiệp sẽ trả đủ gốc, lãi**. [Thông tin HNX](https://cbonds.hnx.vn/)\n\n**Bạn định đầu tư khoảng bao nhiêu, giữ trong bao lâu và có thể cần rút trước hạn không?** Tôi sẽ giúp bạn thu hẹp lựa chọn theo nhu cầu đó."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22125,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 531,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b015-991d-7850-8d94-24c5546432ed",
+ "error": ""
+}

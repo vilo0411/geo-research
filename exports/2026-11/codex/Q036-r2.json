@@ -1,0 +1,223 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q036-r2",
+ "prompt_id": "Q036",
+ "run": 2,
+ "question": "Mở tài khoản chứng khoán qua app ngân hàng được không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:58:41",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 16.8,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b014-e5ce-7aa1-98b0-309977e392ca"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5b407dea-76b1-4180-a1bf-243d391b926d",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5b407dea-76b1-4180-a1bf-243d391b926d",
+    "type": "web_search",
+    "query": "site.techcombank.com mở tài khoản chứng khoán TCBS trên Techcombank Mobile ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.techcombank.com mở tài khoản chứng khoán TCBS trên Techcombank Mobile",
+      "site.mbbank.com.vn mở tài khoản chứng khoán app MBBank MBS"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Mở tài khoản online qua ứng dụng MBBank ... Bước 2: Khách hàng đăng ký thông tin cá nhân, xác thực eKYC, Chọn số tài",
+      "title": "Hướng dẫn mở tài khoản - MBS",
+      "url": "https://www.mbs.com.vn/huong-dan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Nếu Quý khách đã có tài khoản ngân hàng Techcombank, Quý khách có thể thực hiện mở từ ứng dụng Techcombank mobile theo hướng dẫn",
+      "title": "Mở tài khoản nhà đầu tư cá nhân trong nước | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mo-tai-khoan-truc-tuyen-cho-khach-hang-ca-nhan-trong-nuoc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Cách 3: Mở tài khoản chứng khoán online qua App MBBank trên điện thoại tại mục: Thêm -> Dịch vụ tập đoàn -> MBS ->",
+      "title": "Muốn mở tài khoản chứng khoán online thì làm thế nào? - MBS",
+      "url": "https://www.mbs.com.vn/muon-mo-tai-khoan-chung-khoan-online-thi-lam-the-nao/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "#### Mở tài khoản Techcombank từ mục đối tác TCBS ... #### Mở tài khoản chứng khoán cho doanh nghiệp trên Techcombank Business",
+      "title": "Mở, thay đổi và quản lý tài khoản | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mo-va-quan-ly-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbbank.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Bắt đầu hành trình trải nghiệm của bạn cùng App MBBank ... Tải App MBBank và mở tài khoản ... Dịch vụ tài khoản MB",
+      "title": "Khách hàng cá nhân",
+      "url": "https://www.mbbank.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Khách hàng chưa có tài khoản MBBank chỉ cần thực hiện 3 bước nhanh chóng để sở hữu tài khoản chứng khoán của MBS: Bước",
+      "title": "Cách mở tài khoản chứng khoán online siêu nhanh qua App MBBank - MBS",
+      "url": "https://www.mbs.com.vn/vi/goc-truyen-thong/tin-tuc-mbs/cach-mo-tai-khoan-chung-khoan-online-sieu-nhanh-qua-app-mb-bank/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search6",
+      "snippet": "Nếu bạn đang sử dụng Techcombank Mobile trên thiết bị chạy hệ điều hành Android, sau khi xóa và tải lại, ứng dụng sẽ hiển",
+      "title": "Câu hỏi thường gặp - Techcombank Mobile | Techcombank",
+      "url": "https://techcombank.com/khach-hang-ca-nhan/ngan-hang-truc-tuyen/ngan-hang-so/techcombank-mobile/cau-hoi-thuong-gap"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search7",
+      "snippet": "Bạn mở được tài khoản chứng khoán MBS online theo 3 cách: trên app MBS Mobile (chụp 2 mặt căn cước, chụp khuôn mặt, chọn",
+      "title": "Cách mở tài khoản chứng khoán MBS online 2026 và qua MB Bank",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-mbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Tel: +84 24 3726 2600 www.mbs.com.vn ... # TỪ MB SANG MBS TRÊN APP MOBILE MBBANK ... Khách hàng có tài khoản thanh toán và",
+      "title": "MB Securities",
+      "url": "https://www.mbs.com.vn/media/smubi25c/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-chuy%E1%BB%83n-ti%E1%BB%81n-t%E1%BB%AB-app-mbb.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbbank.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* App MBBank là ứng dụng ngân hàng số của MB trên điện thoại di động ... Để mở tài khoản trùng số điện thoại",
+      "title": "App MBBank",
+      "url": "https://www.mbbank.com.vn/ca-nhan/priority/thanh-toan/thanh-toan-trong-nuoc/app-mbbank/app-mbbank"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbbank.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Cung cấp hướng dẫn nhanh, dễ hiểu về cách tải ứng dụng, mở tài khoản, giao dịch, thanh toán, quản lý tài khoản và sử",
+      "title": "Câu hỏi thường gặp",
+      "url": "https://www.mbbank.com.vn/ho-tro/cau-hoi-thuong-gap"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbbank.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Image: Tài khoản chứng khoán MBBank trên ứng dụng ngân hàng số.Giao dịch chứng khoán tích hợp trên App MBBank giúp chuyển tiền và đặt",
+      "title": "Mở Tài Khoản Chứng Khoán MBBank MBS Online Miễn Phí – CBBank",
+      "url": "https://cbbank.vn/mo-tai-khoan-chung-khoan-mbbank/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbbank.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "App MBBank là ứng dụng ngân hàng của MB trên điện thoại di động, cho phép khách hàng thực hiện hầu hết giao dịch tài",
+      "title": "MB NGÂN HÀNG QUÂN ĐỘI | MBBANK",
+      "url": "https://www.mbbank.com.vn/so-sanh-san-pham/274"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube13",
+      "snippet": "# Hướng dẫn mở bộ đôi tài khoản thanh toán Techcombank & chứng khoán TCBS trên Techcombank Mobile ... 📍 Kênh Youtube chính thức của",
+      "title": "Hướng dẫn mở bộ đôi tài khoản thanh toán Techcombank & chứng khoán TCBS trên Techcombank Mobile - YouTube",
+      "url": "https://www.youtube.com/watch?v=t5GoRgveJyc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "tỏa số chứng khoán có giá trị tương đương nghĩa vụ phải thanh toán trong tài khoản ... Techcombank được quyền trích tiền trên TKTT",
+      "title": "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN VỀ VIỆC KẾT NỐI TÀI KHOẢN THANH TOÁN VÀ",
+      "url": "https://www.tcbs.com.vn/documents/10181/379349/K%E1%BA%BET%2BN%E1%BB%90I%2BT%C3%80I%2BKHO%E1%BA%A2N%2BIA.pdf/b61c27e2-4077-46cd-b775-02096364a059"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbbank.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Khách hàng bấm chọn “Thêm tài khoản liên kết” và xác nhận thông tin TK liên kết. ... Hệ thống hiển thị thông tin cá",
+      "title": "HƯỚNG DẪN NỘP/CHUYỂN TIỀN VÀO TKGDCK",
+      "url": "https://www.mbbank.com.vn/resources/files/Tin-MB/tin-tuc/Nam-2022/Thang-8/tinh-nang-nop-tien-tk-mb/huong-dan-nop-tien-tren-app-mbs-va-mbb.pdf?expires=1780538720&md5=A8rKH85p2MVACK4gDLASog"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kbsec.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Hướng dẫn giao dịch KB-Mobile App ... Các mã nhìn thấy gồm: MZO, MAC, MAFPF1, MAS, MBB, MBB_Q, MBG, MBS, MC3, và một phần dòng",
+      "title": "Hướng dẫn giao dịch KB-Mobile App",
+      "url": "https://www.kbsec.com.vn/pic/general/files/KBSV_KB-Mobile%20App_User%20Guide_Clients%202018%282%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "media.techcombank.com",
+      "ref_id": "turn0search17",
+      "snippet": "hàng trong trường hợp Techcombank phong tỏa tài khoản thanh toán mà khách hàng đã mở. ... Ngân hàng điện tử của Techcombank và chỉ",
+      "title": "QUY TRÌNH MỞ VÀ SỬ DỤNG TÀI KHOẢN THANH TOÁN",
+      "url": "https://media.techcombank.com/uploads/Phu-Luc-Dieu-Khoan-Dieu-Kien-Ve-Mo-Tai-Khoan-Va-Su-Dung-Dich-Vu-Tai-Khoan-Tai-Techcombank-5c3621604f.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn0search18",
+      "snippet": "Quy trình đăng ký online Dịch vụ Ngân hàng điện tử M-BANKING dành cho KHDN tại MSB bao gồm 4 bước sau: ... - Truy",
+      "title": "II. QUY TRÌNH CHUNG",
+      "url": "https://www.msb.com.vn/documents/20121/595178/HD_Dang_Ky_online_M_Banking.pdf/56acb330-f685-dabc-13a4-fc720d876cfb?t=1654243713812"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Được bạn nhé, nhưng tùy app ngân hàng có hỗ trợ hay không.** Ví dụ:\n\n- **App MBBank:** có thể đăng ký mở tài khoản chứng khoán tại **MBS**. [Hướng dẫn của MBS](https://www.mbs.com.vn/huong-dan/)\n- **Techcombank Mobile:** hỗ trợ mở tài khoản chứng khoán tại **TCBS**. [Hướng dẫn của TCBS](https://help.tcbs.com.vn/mo-tai-khoan-truc-tuyen-cho-khach-hang-ca-nhan-trong-nuoc/)\n\nLưu ý: bạn mở tài khoản **tại công ty chứng khoán thông qua app ngân hàng**, chứ tài khoản ngân hàng không tự trở thành tài khoản chứng khoán. Bạn cần hoàn tất thông tin, xác thực và hợp đồng theo hướng dẫn.\n\n**Bạn đang dùng app ngân hàng nào?** Mình chỉ cách mở cụ thể cho bạn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22253,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 276,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b014-e5ce-7aa1-98b0-309977e392ca",
+ "error": ""
+}

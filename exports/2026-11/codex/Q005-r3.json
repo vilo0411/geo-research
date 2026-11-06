@@ -1,0 +1,215 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q005-r3",
+ "prompt_id": "Q005",
+ "run": 3,
+ "question": "Margin trong chứng khoán là gì? Có rủi ro gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:37:06",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 27.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b001-2078-70e3-8254-47967ec6a4f6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7d37bc7a-751f-4793-99db-1ee14936e349",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7d37bc7a-751f-4793-99db-1ee14936e349",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn margin là gì call margin force sell ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn margin là gì call margin force sell",
+      "site.ssi.com.vn giao dịch ký quỹ rủi ro call margin"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Dịch vụ giao dịch ký quỹ là dịch vụ SSI hỗ trợ vốn cho khách hàng dưới hình thức vay vốn để thực hiện giao",
+      "title": "Giao dịch ký quỹ",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Dưới đây là so sánh kết quả đầu tư sau 1 tháng giữa việc Dùng Margin và Không dùng Margin theo 3 kịch bản diễn",
+      "title": "Giao dịch ký quỹ (Margin) là gì?",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/95800-giao-dich-ky-quy-margin-la-gi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "a Dịch vụ giao dịch ký quỹ (margin) là gì? ... Nếu cổ phiếu tính làm sức mua thì mỗi cổ phiếu sẽ có tỷ",
+      "title": "Dịch vụ margin | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/hoi-nhanh-dap-hay/co-phieu/dich-vu-margin/?Display_FAQ=36126"
+     },
+     {
+      "type": "text_result",
+      "domain": "ub.edu.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Call margin là tín hiệu cảnh báo sớm trước khi xảy ra force sell. ## Call margin là gì? Call margin (gọi ký quỹ bổ",
+      "title": "Call margin là gì? | Thư viện thuật ngữ ngân hàng",
+      "url": "https://ub.edu.vn/thu-vien-thuat-ngu/call-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "“Lệnh gọi yêu cầu ký quỹ bổ sung – CM” là lệnh của Công ty chứng khoán gửi đến Khách hàng vào bất kỳ thời",
+      "title": "CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN/ TERMS AND CONDITIONS",
+      "url": "https://www.tcbs.com.vn/documents/10181/398264/MB12-QT.TK%C4%90T-TCBS%2B%28TC%2Btich%2Bhop_En%29-0623.pdf/448e450d-a076-4bd4-839f-d01d6a3b84c3"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search4",
+      "snippet": "# Call margin và giải chấp (force sell) là gì ... Image: Minh họa Call margin và giải chấp (force sell): cảnh công ty chứng",
+      "title": "Call margin là gì: gọi ký quỹ và bán giải chấp | HODL.VN",
+      "url": "https://www.hodl.vn/call-margin-giai-chap-la-gi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tvsi.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "**Hợp đồng mở tài khoản giao dịch ký quỹ kiêm hợp đồng tín dụng cho các khoản vay trên tài khoản giao dịch ký quỹ",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://www.tvsi.com.vn/TVSIDocument/HopdongMargin2016.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "# Call Margin - Force Sell PS ... Khi Deal đang mở chạm tỷ lệ này, KH sẽ nhận được thông báo Call Margin (có",
+      "title": "Call Margin - Force Sell PS | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-chung-khoan-phai-sinh/call-margin-force-sell-ps"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tvsi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Sàn giao dịch của mọi nhà ... CALL MARGIN = LMV * call_LMV ... FORCE SELL = LMV * force_LMV ... Đối với mỗi loại",
+      "title": "TVSI  \nSàn giao dịch của mọi nhà\n\nHƯỚNG DẪN GIAO D",
+      "url": "https://www.tvsi.com.vn/Document/TVSI_HDsudungiTradePRO.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search15",
+      "snippet": "Quản lý Margin Call: ... thái Buộc bán (Force sell). ... (3) Sau đó kiểm tra các thông số tài khoản thay đổi tương",
+      "title": "HƯỚNG DẪN SỬ DỤNG NỀN TẢNG",
+      "url": "https://storage.googleapis.com/hsc-cweb/knowledge/hsc-one/guideline-web-full-vn.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ainvest.aisec.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "<tr><td><b>Sức mua tối thiểu</b></td><td>= Tài sản ròng - Tổng giá trị ký quỹ - Tổng giá trị ký quỹ của lệnh mua chờ khớp (Giá",
+      "title": "Hướng dẫn sử dụng Giao dịch trực tuyến",
+      "url": "https://ainvest.aisec.com.vn/Templates/Huong_dan_giao_dich_truc_tuyen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Với cách tiếp cận khác biệt rõ nét so với mặt bằng chung thị trường, TCBS không xem margin là một sản phẩm để “bán",
+      "title": "Báo cáo Phân tích doanh nghiệp",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/VIE_TCBS_Bc_Phan_tich_lan_dau_0725.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search6",
+      "snippet": "# Khi nào bị call margin TCBS ... Theo trang chính sách giao dịch ký quỹ của TCBS, tài khoản bị gọi ký quỹ bổ",
+      "title": "Khi nào bị call margin TCBS: mốc Rtt 85% và 80% | HODL.VN",
+      "url": "https://www.hodl.vn/khi-nao-bi-call-margin-tcbs"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Mốc duy trì (cảnh báo): xuống dưới mốc này là bị call margin, tức gọi bổ sung ký quỹ. ... Đây là bán giải",
+      "title": "RTT là gì trong chứng khoán: công thức và mốc margin | HODL.VN",
+      "url": "https://www.hodl.vn/rtt-la-gi"
+     },
+     {
+      "type": "text_result",
+      "domain": "ub.edu.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Là hành động công ty chứng khoán tự động bán chứng khoán trong tài khoản margin của khách hàng khi tỷ lệ ký quỹ duy",
+      "title": "Force sell là gì? | Thư viện thuật ngữ ngân hàng",
+      "url": "https://ub.edu.vn/thu-vien-thuat-ngu/force-sell/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "| 15.000.000.000 VNĐ/Khách hàng (Mười lăm tỷ đồng chẵn) Trường hợp Khách hàng có nhu cầu thay đổi hạn mức, vui lòng liên hệ với",
+      "title": "Chính sách dịch vụ Margin - MBS",
+      "url": "https://www.mbs.com.vn/chinh-sach-dich-vu-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube18",
+      "snippet": "# làm gì khi bị call margin? ... 12:53 Force sell ... Call margin là gì?",
+      "title": "làm gì khi bị call margin? - YouTube",
+      "url": "https://www.youtube.com/watch?v=KSmj9LUXRY0"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube19",
+      "snippet": "Khi nào thì bị Call Margin VPS Làm sao để tránh bị Force-sell ... #TCBS #iCopy #iCopier ... 👉🏻 Tải App \"TCInvest\", chọn phần mở",
+      "title": "Call Margin là gì? Khi nào thì bị Call Margin VPS Làm sao để tránh bị Force-sell - YouTube",
+      "url": "https://www.youtube.com/watch?v=x4LGQ1egTJg"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Margin (giao dịch ký quỹ) là vay tiền của công ty chứng khoán để mua cổ phiếu**, dùng tiền và chứng khoán trong tài khoản làm tài sản bảo đảm. Nhờ vậy, bạn có thể mua nhiều hơn số vốn đang có. [Nguồn: SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/giao-dich-ky-quy)\n\n### Ví dụ dễ hiểu\nBạn có **100 triệu đồng**, vay thêm **100 triệu** để mua **200 triệu đồng cổ phiếu**:\n\n| Giá cổ phiếu | Giá trị cổ phiếu | Vốn còn lại sau khi trừ nợ gốc | Lãi/lỗ trên vốn của bạn |\n|---|---:|---:|---:|\n| Tăng 10% | 220 triệu | 120 triệu | **Lãi 20%** |\n| Giảm 10% | 180 triệu | 80 triệu | **Lỗ 20%** |\n\n*Ví dụ chưa tính lãi vay, thuế và phí; giả định chưa bị bán giải chấp.*\n\n### Có những rủi ro gì?\n- **Lỗ bị khuếch đại:** Cổ phiếu giảm 10% nhưng vốn của bạn có thể mất 20%, như ví dụ trên.\n- **Phải trả lãi vay:** Kể cả khi cổ phiếu đi ngang hoặc giảm giá.\n- **Call margin — yêu cầu bổ sung ký quỹ:** Khi tỷ lệ an toàn của tài khoản xuống dưới ngưỡng quy định, bạn phải bổ sung tiền/tài sản hoặc giảm dư nợ.\n- **Force sell — bán giải chấp:** Công ty chứng khoán có thể bán cổ phiếu của bạn theo điều kiện hợp đồng để thu hồi nợ, dù bạn muốn tiếp tục giữ. Ngưỡng và thời hạn xử lý tùy công ty. [Nguồn: TCBS](https://help.tcbs.com.vn/hoi-nhanh-dap-hay/co-phieu/dich-vu-margin/?Display_FAQ=36126)\n- **Thị trường giảm mạnh, khó bán:** Nếu cổ phiếu mất thanh khoản, việc bán có thể không kịp; trong tình huống xấu, bạn có thể mất hết vốn và vẫn còn nợ.\n\n**Tóm lại: Margin khuếch đại cả lãi lẫn lỗ, không làm cổ phiếu trở nên an toàn hơn.** Nếu mới đầu tư, cách thận trọng là dùng vốn tự có; trước khi vay cần hiểu rõ lãi suất, cách tính tỷ lệ ký quỹ và điều kiện bán giải chấp."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22153,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 627,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b001-2078-70e3-8254-47967ec6a4f6",
+ "error": ""
+}

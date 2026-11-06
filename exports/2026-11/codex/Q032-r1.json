@@ -1,0 +1,357 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q032-r1",
+ "prompt_id": "Q032",
+ "run": 1,
+ "question": "Người nước ngoài mở tài khoản chứng khoán ở Việt Nam thế nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:53",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 49.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b013-400d-7060-a200-50d6b61ca5de"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-08031874-2188-46f6-84e0-1c5cd398db59",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-08031874-2188-46f6-84e0-1c5cd398db59",
+    "type": "web_search",
+    "query": "site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản lưu ký ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản lưu ký",
+      "site.ssi.com.vn nhà đầu tư nước ngoài mở tài khoản chứng khoán cá nhân tài khoản vốn đầu tư gián tiếp 2025"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Nhà đầu tư nước ngoài (cả cá nhân và tổ chức) cần đăng ký mã số giao dịch chứng khoán (MSGD) với Tổng công ty",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Cấp mã số giao dịch",
+      "url": "https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "# Hướng dẫn đăng ký mã số giao dịch chứng khoán cho nhà đầu tư nước ngoài tại VNDIRECT ... Để mở tài khoản giao",
+      "title": "Hướng dẫn đăng ký mã số giao dịch chứng khoán cho nhà đầu tư nước ngoài tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50930665003289-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C4%83ng-k%C3%BD-m%C3%A3-s%E1%BB%91-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-n%C6%B0%E1%BB%9Bc-ngo%C3%A0i-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Trả lời: Tài liệu chứng minh thông tin nhận diện nhà đầu tư TVLK phải cung cấp khi lập hồ sơ điều chỉnh thông tin",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/fa"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Nhà đầu tư nước ngoài (“NĐTNN”) được hiểu bao gồm cá nhân có quốc tịch nước ngoài, tổ chức thành lập theo pháp luật nước",
+      "title": "Danh mục hồ sơ mở tài khoản cho nhà đầu tư nước ngoài tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/29870967103641-Danh-m%E1%BB%A5c-h%E1%BB%93-s%C6%A1-m%E1%BB%9F-t%C3%A0i-kho%E1%BA%A3n-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-n%C6%B0%E1%BB%9Bc-ngo%C3%A0i-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Khách hàng nước ngoài phải được Trung tâm Lưu ký Chứng khoán Việt Nam (TTLKCKVN) cấp Mã số Giao dịch Chứng khoán để giao dịch",
+      "title": "HƯỚNG DẪN MỞ TÀI KHOẢN KHÁCH HÀNG NƯỚC NGOÀI",
+      "url": "https://www.vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssc.gov.vn",
+      "ref_id": "turn0search12",
+      "snippet": "hiện giao dịch đối ứng đểđóng vị thế của nhà đầu tư , Trung tâm lưu ký chứng ... Nhà đầu tư phải ký hợp",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦNGHĨA VIỆT NAM",
+      "url": "https://www.ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=Consolidated+document+No.++08&allowInterrupt=1&dDocName=APPSSCGOVVN162126951&dID=39149&filename=VBHN+so+08.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Nhà đầu tư (NĐT) chỉ có thể mở 1 tài khoản tại 01 công ty chứng khoán và được phép mở tài khoản ở nhiều",
+      "title": "Quy định chung",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-chung"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Nhà đầu tư phải có đủ tiền khi đặt lệnh mua chứng khoán, ngoại trừ các trường hợp giao dịch ký quỹ và tổ chức",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620166175&dID=174871"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vsd.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Hội thảo \"Trao đổi, thảo luận về dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán\" Áp dụng các biện",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://www.vsd.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Dịch vụ quỹ Dịch vụ quỹ VSDC là tổ chức được cung cấp dịch vụ đại lý chuyển nhượng và dịch vụ quản trị quỹ",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vsd.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Cá nhân | Tổ chức | Tổng | Cá nhân | Tổ chức | Tổng | Cá nhân | Tổ chức | Tổng ... STT",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://www.vsd.vn/tra-cuu-thong-ke/TK_MACK_CHUYENSAN?tab=4"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Thi hành biện pháp đình chỉ hoạt động giao dịch chứng khoán của Công ty TNHH Đầu tư – Xây dựng – Thương mại –",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "acb.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "* Hồ sơ/giấy tờ pháp lý của KH phải được xuất trình/cập nhật đầy đủ cho ACB tại thời điểm thực hiện giao dịch để",
+      "title": "Tài khoản đầu tư gián tiếp",
+      "url": "https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn0search13",
+      "snippet": "c) Trường hợp người sở hữu trái phiếu trước đây đã đăng ký quốc tịch nước ngoài trên Danh sách người sở hữu mà tổ",
+      "title": "19\n\na) Trường hợp tổ chức phát hành gửi văn bản xá",
+      "url": "https://vbma.org.vn/storage/legal-documents/January2026/Q%C4%90%2027.Q%C4%90-H%C4%90TV_compressed_compressed_compressed1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpq.mof.gov.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Trung tâm Lưu ký Chứng khoán Việt Nam được chấm dứt vô thời hạn việc sử dụng hệ thống đăng ký mã số giao dịch",
+      "title": "4. Trung tâm Lưu ký Chứng khoán Việt Nam có trách nhiệm xây dựng hệ thống đăng ký mã số giao dịch chứng khoán trực tuyến và ban hành quy trình sử dụng hệ thống.",
+      "url": "https://vbpq.mof.gov.vn/DKC.FileManagement/FileStorage/File/18907"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbao.cdnchinhphu.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Thông tin chi tiết về khách hàng nước ngoài | |STT None | | | Tên nhà đầu tư None | | | Mã số",
+      "title": "Người ký: CỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ",
+      "url": "https://congbao.cdnchinhphu.vn/CongBaoCP/CongBao/2025/7/45478/57519-1-939-940.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vplsdms.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Hồ sơ đăng ký mã số giao dịch chứng khoán của nhà đầu tư nước ngoài, tổ chức phát hành chứng chỉ lưu ký tại",
+      "title": "CHÍNH PHỦ \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM \n___",
+      "url": "https://vplsdms.vn/upload/post/ND_155_2020_ND_CP.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search17",
+      "snippet": "- Đối với Nhà đầu tư là tổ chức: Tên đầy đủ, tên viết tắt (nếu có), tên giao dịch (nếu có), địa chỉ trụ",
+      "title": "Điều 15. Sổ Đăng Ký Nhà Đầu Tư",
+      "url": "https://www.vcbf.com/images/2024/240415_i_u_l_qu_mgf_singed_.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "Căn cứ theo khoản 32 điều 3 Luật doanh nghiệp 2020, công ty nước ngoài là tổ chức được thành lập ở nước ngoài theo",
+      "title": "THÀNH LẬP CÔNG TY CÓ VỐN ĐẦU TƯ NƯỚC NGOÀI – TRÌNH TỰ, THỦ TỤC TỪ [A-Z]",
+      "url": "https://www.reddit.com/r/u_luat_thien_ma/comments/qy0bpb"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-f7cb28d5-b6ba-4808-b9a1-76fc0af54de0",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-f7cb28d5-b6ba-4808-b9a1-76fc0af54de0",
+    "type": "web_search",
+    "query": "https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep",
+    "action": {
+     "type": "open_page",
+     "url": "https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "acb.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 152",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/_8rbV9SVv0WCdr5j3o3PrBfF9mYXz617FMzckNLcyV40ipjp85VfOTQlWKcvwV1GzDN5kcuMFLBboP1tlXN5bSj5ZeTAeDBUHsebmSGyxbWcm-3oZt3Y5YPqccGhWw5LB41cogEpLalQfISPCNdBOZT6xYKMlsuJYi8UpFsT42qURk2u4_6Nm-cRpxwls2Wu",
+      "title": "Tài khoản đầu tư gián tiếp",
+      "url": "https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 258",
+      "title": "HƯỚNG DẪN MỞ TÀI KHOẢN KHÁCH HÀNG NƯỚC NGOÀI",
+      "url": "https://www.vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d5d619b6-369b-46a1-81e1-8e98863a05c2",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d5d619b6-369b-46a1-81e1-8e98863a05c2",
+    "type": "web_search",
+    "query": "site.sbv.gov.vn \"03/2025/TT-NHNN\" \"cư trú\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.sbv.gov.vn \"03/2025/TT-NHNN\" \"cư trú\"",
+      "site.chinhphu.vn \"03/2025/TT-NHNN\" \"cư trú\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn2search12",
+      "snippet": "Số: 03 /2025/TT-NHNN Hà Nội, ngày 29 tháng 4 năm 2025 ... tại Việt Nam của nhà đầu tư nước ngoài là người cư trú",
+      "title": "NGÂN HÀNG NHÀ NƯỚC VIỆT NAM                             CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://vbma.org.vn/storage/Th%C3%B4ng%20t%C6%B0%20M%E1%BB%9AI/2025/Th%C3%B4ng%20t%C6%B0%2003.2025.TT-NHNN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cms.baochinhphu.vn",
+      "ref_id": "turn2search0",
+      "snippet": "## (Chinhphu.vn) - Nhà đầu tư nước ngoài cư trú tại Việt Nam, có tài khoản thanh toán bằng đồng Việt Nam (VND) mở tại",
+      "title": "Nhà đầu tư nước ngoài cư trú tại Việt Nam, góp vốn theo hình thức nào?",
+      "url": "https://cms.baochinhphu.vn/nha-dau-tu-nuoc-ngoai-cu-tru-tai-viet-nam-gop-von-theo-hinh-thuc-nao-10226072215215679.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www2.vdsc.com.vn",
+      "ref_id": "turn2search13",
+      "snippet": "Quy định trọng yếu: (i) Bổ sung Điều 9a vào TT 120/2020/TT-BTC cho phép NĐT nước ngoài là tổ chức đặt lệnh mua cổ phiếu",
+      "title": "PowerPoint Presentation",
+      "url": "https://www2.vdsc.com.vn/data/api/app/file-storage/03945e3a-8490-49a1-5734-08de046c4feb/VDSC_Monthly%20Market%20Monitor_Oct%202025_VN.pdf?downloadFrom=ManagementReport-10024"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn2search1",
+      "snippet": "*Lưu ý: Việc mở và sử dụng tài khoản đầu tư gián tiếp của nhà đầu tư nước ngoài (bao gồm tổ chức thành lập",
+      "title": "Thông tư 03/2025/TT-NHNN mở tài khoản bằng đồng Việt Nam thực hiện đầu tư gián tiếp nước ngoài mới nhất",
+      "url": "https://thuvienphapluat.vn/van-ban/Tien-te-Ngan-hang/Thong-tu-03-2025-TT-NHNN-mo-tai-khoan-bang-dong-Viet-Nam-thuc-hien-dau-tu-gian-tiep-nuoc-ngoai-tai-Viet-Nam-626733.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn2search2",
+      "snippet": "03/2025/TT-NHNN dated April 29, 2025 on opening and use of VND-denominated accounts for conducting foreign indirect investment in Viet Nam Download document in VN Download",
+      "title": "03/2025/TT-NHNN in Vietnam, Circular 03/2025/TT-NHNN opening VND-denominated accounts conducting foreign indirect investment in Viet Nam in Vietnam",
+      "url": "https://thuvienphapluat.vn/van-ban/EN/Dau-tu/Circular-03-2025-TT-NHNN-opening-VND-denominated-accounts-conducting-foreign-indirect-investment-in-Viet-Nam/657769/tieng-anh.aspx?tab=7"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn2search3",
+      "snippet": "03/2025/TT-NHNN dated April 29, 2025 on opening and use of VND-denominated accounts for conducting foreign indirect investment in Viet Nam MỤC LỤC VĂN BẢN Image",
+      "title": "Thông tư 03/2025/TT-NHNN mở tài khoản bằng đồng Việt Nam thực hiện đầu tư gián tiếp nước ngoài",
+      "url": "https://thuvienphapluat.vn/van-ban/Dau-tu/Circular-03-2025-TT-NHNN-opening-VND-denominated-accounts-conducting-foreign-indirect-investment-in-Viet-Nam-657769.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vdsc.com.vn",
+      "ref_id": "turn2search14",
+      "snippet": "<td><b>Mục tiêu chung:</b> Gỡ bỏ rào cản “prefunding” cho NĐTNN tổ chức, tăng minh bạch công bố thông tin (song ngữ), hoàn thiện quy trình",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.vdsc.com.vn/data/api/app/file-storage/03945e3a-8490-49a1-5734-08de046c4feb/VDSC_Monthly%20Market%20Monitor_Oct%202025_VN.pdf?downloadFrom=ManagementReport-10024"
+     },
+     {
+      "type": "text_result",
+      "domain": "hethongphapluat.com",
+      "ref_id": "turn2search4",
+      "snippet": "Thông tư này quy định về mở và sử dụng tài khoản bằng đồng Việt Nam để thực hiện đầu tư gián tiếp và các",
+      "title": "Circular no. 03/2025/tt-nhnn dated april 29, 2025 on opening and use of vnd-denominated accounts for conducting foreign indirect investment in viet nam",
+      "url": "https://hethongphapluat.com/circular-no-03-2025-tt-nhnn-dated-april-29-2025-on-opening-and-use-of-vnd-denominated-accounts-for-conducting-foreign-indirect-investment-in-viet-nam.html"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Người nước ngoài được mở tài khoản chứng khoán tại Việt Nam.** Nếu là **cá nhân mua bán cổ phiếu niêm yết**, quy trình thường gồm các bước sau:\n\n### 1. Chuẩn bị hồ sơ mở tài khoản\nLiên hệ bộ phận hỗ trợ nhà đầu tư nước ngoài của công ty chứng khoán để nhận bộ mẫu. Hồ sơ cơ bản gồm:\n- Hộ chiếu còn hiệu lực; bản sao công chứng/chứng thực theo yêu cầu.\n- Hợp đồng mở tài khoản và đăng ký dịch vụ.\n- Giấy đăng ký mã số giao dịch chứng khoán.\n- Giấy ủy quyền cho đơn vị thực hiện thủ tục đăng ký mã số.\n\nYêu cầu bản dịch, chứng thực hoặc hợp pháp hóa lãnh sự tùy nơi lập giấy tờ và đơn vị tiếp nhận, nên xác nhận trước khi làm. [Hồ sơ tham khảo tại Vietcap](https://www.vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai).\n\n### 2. Đăng ký mã số giao dịch chứng khoán\nNhà đầu tư nước ngoài phải có **mã số giao dịch do VSDC cấp trước khi giao dịch**. Công ty chứng khoán/thành viên lưu ký thường hỗ trợ đăng ký; bạn không cần tự đến VSDC. Nếu đã có mã số, hãy cung cấp để sử dụng lại, không đăng ký mới. [Quy định của VSDC](https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg).\n\n### 3. Mở tài khoản ngân hàng phù hợp — cần phân biệt tình trạng cư trú\n- **Người không cư trú:** thông thường phải mở **tài khoản đầu tư gián tiếp bằng VND** tại ngân hàng được phép để thực hiện dòng tiền đầu tư. [Thông tin từ ACB](https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep).\n- **Người cư trú:** hoạt động đầu tư gián tiếp thực hiện qua **tài khoản thanh toán VND** theo quy định liên quan; không nên mặc định mọi người nước ngoài đều phải mở tài khoản đầu tư gián tiếp. [Thông tư 03/2025/TT-NHNN, Điều 1](https://vbma.org.vn/storage/Th%C3%B4ng%20t%C6%B0%20M%E1%BB%9AI/2025/Th%C3%B4ng%20t%C6%B0%2003.2025.TT-NHNN.pdf).\n\nHãy để ngân hàng xác định tình trạng cư trú theo quy định quản lý ngoại hối từ hồ sơ của bạn.\n\n### 4. Hoàn tất, kích hoạt và nạp tiền\nSau khi hồ sơ được duyệt, mã số giao dịch và thông tin ngân hàng được ghi nhận, công ty chứng khoán sẽ hướng dẫn kích hoạt dịch vụ và nạp/rút tiền đúng quy trình. Không nên chuyển tiền trước khi nhận hướng dẫn dành riêng cho tài khoản nước ngoài.\n\n**Cách bắt đầu nhanh nhất:** gửi thông tin quốc tịch, nơi đang sinh sống và tình trạng hộ chiếu/thị thực cho công ty chứng khoán, đề nghị họ gửi checklist cho cả tài khoản chứng khoán lẫn ngân hàng.\n\nBạn mở cho **cá nhân hay công ty**, và người đứng tên **đang ở Việt Nam hay ở nước ngoài**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 75924,
+    "cached_input_tokens": 56064,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1007,
+    "reasoning_output_tokens": 11
+   }
+  }
+ ],
+ "thread_id": "01a1b013-400d-7060-a200-50d6b61ca5de",
+ "error": ""
+}

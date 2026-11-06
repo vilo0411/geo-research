@@ -1,0 +1,670 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q022-r2",
+ "prompt_id": "Q022",
+ "run": 2,
+ "question": "Lãi suất margin các công ty chứng khoán 2026",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:52:09",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 57.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00e-e859-74b0-ab45-d0fb9a71e31e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7d5ebdf1-02e2-4656-a156-340471335ef0",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7d5ebdf1-02e2-4656-a156-340471335ef0",
+    "type": "web_search",
+    "query": "lãi suất margin 2026 SSI HSC TCBS VPS VNDIRECT ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "lãi suất margin 2026 SSI HSC TCBS VPS VNDIRECT",
+      "site.tcbs.com.vn lãi suất margin 2026",
+      "site.ssi.com.vn lãi suất cho vay ký quỹ 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Dịch vụ giao dịch ký quỹ là dịch vụ SSI hỗ trợ vốn cho khách hàng dưới hình thức vay vốn để thực hiện giao",
+      "title": "Giao dịch ký quỹ",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "archive.shs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "trường cuối Q1.2025 là 282 nghìn tỷ đồng. ... TCBS là CTCK tăng vốn mạnh nhất tính từ năm ... Doanh thu cho vay của",
+      "title": "SHS Outlook H2/2025",
+      "url": "https://archive.shs.com.vn/Sites/QuoteVN/SiteRoot/reportattach/20250704_155731_SHS%20Outlook%20H220251%20%281%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Ưu đãi lãi suất margin · Từ 01/10/2026 ... Khi dư nợ gốc vay ký quỹ bình quân tháng liền trước đạt từ 2 tỷ",
+      "title": "Mở khóa ưu đãi margin: Giảm lãi tới 1.5%/năm | TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-khoa-uu-dai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "static1.vietstock.vn",
+      "ref_id": "turn0search13",
+      "snippet": "TỔNG QUAN NGÀNH DỊCH VỤ TÀI CHÍNH 2025 ... Các CTCK lớn như TCX và SSI dẫn đầu với dư nợ margin vượt 39.000 tỷ",
+      "title": "TỔNG QUAN NGÀNH DỊCH VỤ TÀI CHÍNH 2025",
+      "url": "https://static1.vietstock.vn/edocs/Files/2026/01/12/bao-cao-chien-luoc-can-bang-rui-ro-loi-nhuan_20260112132301.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search2",
+      "snippet": "TCBS cũng áp 12%/năm, nhưng chỉ cho các mã thuộc danh mục tiềm năng của TCBS. ... ## Cách tính lãi margin: công thức và",
+      "title": "Lãi suất margin các công ty chứng khoán 2026: bảng so sánh",
+      "url": "https://reviewchungkhoan.com/lai-suat-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tienphong.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Ngân hàng Nhà nước vừa yêu cầu các tổ chức tín dụng giảm tối thiểu 0,5 điểm phần trăm/năm lãi suất tiền gửi niêm yết",
+      "title": "Lãi suất hạ nhiệt, công ty chứng khoán cho vay margin thế nào?",
+      "url": "https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo"
+     },
+     {
+      "type": "text_result",
+      "domain": "iboard.ssi.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "⚡Sinh lời tự động trên tài khoản 4%/năm, kỳ hạn 1 tháng 6,5%/năm với S-CASH ... Ưu đãi lãi suất - Khách hàng mới hoặc",
+      "title": "Margin - Vay ký quỹ - SSI iBoard",
+      "url": "https://iboard.ssi.com.vn/margin/general?accountId=&p=NhapCuoc_Retail_T8.2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "## &nbsp; SSI trân trọng thông báo cập nhật chính sách Gói Nhập Cuộc với lãi suất ưu đãi hấp dẫn dành riêng cho Khách",
+      "title": "ĐIỀU CHỈNH GÓI NHẬP CUỘC VỚI LÃI SUẤT 7.99% DÀNH CHO KHÁCH HÀNG MỚI VÀ KÍCH HOẠT TRỞ LẠI",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kisvn.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Nếu nhà đầu tư đang tìm kiếm công ty chứng khoán có phí giao dịch và lãi suất margin thấp nhất tháng 6/2026 để tối",
+      "title": "Công ty chứng khoán nào có phí giao dịch và lãi margin thấp nhất?",
+      "url": "https://www.kisvn.vn/hoc-dau-tu/phi-giao-dich-cong-ty-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "vwealth.vn",
+      "ref_id": "turn0search7",
+      "snippet": "So sánh SSI, VPS, VNDirect, TCBS theo phí, lãi margin, app, thị phần HOSE quý 2/2026 và kết luận nên mở tài khoản ở đâu",
+      "title": "Chọn công ty chứng khoán nào 2026: SSI, VPS, VNDirect, TCBS – VWEALTH",
+      "url": "https://vwealth.vn/chon-cong-ty-chung-khoan-nao-2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsi.vn",
+      "ref_id": "turn0search8",
+      "snippet": "### Danh mục chứng khoán cho vay giao dịch ký quỹ kể từ ngày 19.10.2026",
+      "title": "Danh mục cho vay",
+      "url": "https://sbsi.vn/vi-vn/san-pham-dich-vu/bai-viet/giao-dich-ky-quy/danh-muc-cho-vay/A43"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* Mục Tài khoản cung cấp các thông tin liên quan đến Gói margin khách hàng đang sử dụng, Tổng dư nợ và Lãi tạm",
+      "title": "Giao dịch chứng khoán",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/giao-dich-chung-khoan-ib-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Phí giao dịch, lãi margin, ưu đãi khách mới, ứng dụng và cách mở tài khoản của SSI, TCBS (Techcombank Securities), VPS, MBS và DNSE.",
+      "title": "So sánh 5 công ty chứng khoán 2026: SSI, TCBS, VPS, MBS, DNSE",
+      "url": "https://dautuvn.vn/chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search11",
+      "snippet": "Công ty | Tỷ lệ cho vay | Giá chặn | Lãi suất margin | Ngày danh mục | Mở tài khoản ... VNDirect |",
+      "title": "Margin VDS: tỷ lệ cho vay tại 20 công ty chứng khoán",
+      "url": "https://reviewchungkhoan.com/margin/vds/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "<th>Tỷ lệ hỗ trợ (quyền mua đã thực hiện/ CP thưởng/ cổ tức bằng CP)</th> ... <th>Tỷ lệ hỗ trợ (cổ tức bằng tiền)</th> ...",
+      "title": "THÔNG BÁO(V/v: CÔNG TY CỔ PHẦN CHỨNG KHOÁN SSI THỰC HIỆN GIAO DỊCH KÝ QUỸ)Ngày 22/01/2025CTCP Chứng Khoán SSI trân trọng thông báo về việc thực hiện giao dịch ký quỹ tại công ty như sau:1. Lãi suất cho vay:- Lãi suất trong hạn: 13.5%/năm (tính trên cơ sở 360 ngày), được thay đổi tùy từng thời điểm",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Danh-muc-ty-le-ky-quy/Danh-muc-giao-d%E1%BB%8Bch-ky-quy-22_01_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search15",
+      "snippet": "TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không? ... Còn margin, nếu mà quý",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "- VPS: margin loan 11,000; room for margin loan 20,000; margin loan/equity 1.18 - SSI: margin loan 20,000; room for margin loan 48,000; margin loan/equity",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI%20presentation_Jul%202024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Riêng quý 1/2025, doanh thu từ lãi hoạt động margin đạt gần 718 tỷ đồng, tăng 28% so với cùng kỳ 2024. ... - **Thiết",
+      "title": "Báo cáo Phân tích doanh nghiệp",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/VIE_TCBS_Bc_Phan_tich_lan_dau_0725.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "[Tuesday July 12 2022] [+1 votes] ... TCBS là một trong những thành phần của hệ sinh thái Techcombank; top 4 ngân hàng hàng đầu",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit19",
+      "snippet": "[Tuesday October 20 2026] [+9 votes] ... Ae cho mình xin review về quy trình pv cũng như văn hoá của bên này nhé, đồng",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-1b4afc3e-bfbe-49ea-ad74-80eb864ed875",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-1b4afc3e-bfbe-49ea-ad74-80eb864ed875",
+    "type": "web_search",
+    "query": "site.vps.com.vn \"2026\" \"14%\" \"lãi\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vps.com.vn \"2026\" \"14%\" \"lãi\"",
+      "site.hsc.com.vn \"lãi suất\" \"14%\"",
+      "site.vietcap.com.vn \"2026\" \"13,5%\"",
+      "site.tcbs.com.vn \"12%\" \"13.5%\" margin"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "tuoitre.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Theo ghi nhận của Tuổi Trẻ Online, mặt bằng lãi suất margin đã cao hơn đầu năm 2026, đi cùng với diễn biến nóng lên",
+      "title": "Lãi suất margin lên 14%, CTCK bắt đầu chuyển áp lực sang nhà đầu tư? - Tuổi Trẻ Online",
+      "url": "https://tuoitre.vn/lai-suat-margin-len-den-14-cong-ty-chung-khoan-bat-dau-chuyen-ap-luc-sang-nha-dau-tu-20260318140649637.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "developers.tcbs.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Tra cứu gói lãi suất margin ... `curl -X GET \"https://openapi.tcbs.com.vn/hydros/v1/account/0001170730/pricing-policy\" \\ ... \"undueFixedValue\": 12.5, ... \"extensionInterest\": 13.5,",
+      "title": "Margin pricing policy | TCBS OpenAPI",
+      "url": "https://developers.tcbs.com.vn/docs/v1.0.0/stock/pricing-policy/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Chuyển cổ phiếu từ công ty chứng khoán khác về TCBS để nhận ưu đãi kép: quyền lợi quy đổi bằng iXu và lãi suất",
+      "title": "Gom cổ về nhà: Nhận iXu và ưu đãi margin | TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/gom-co-ve-nha/"
+     },
+     {
+      "type": "text_result",
+      "domain": "static1.vietstock.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Trong kịch bản cơ sở, chúng tôi dự báo giả định tăng trưởng giá thuê ngày giàn JU trung bình của PVD trong các năm",
+      "title": "Vietcap\n\n# Các thay đổi trong dự báo dài hạn (Kịch",
+      "url": "https://static1.vietstock.vn/edocs/19800/PVD_20260409_MUA.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search3",
+      "snippet": "# Danh mục margin VPS 2026 ... Nguồn: danh mục ký quỹ công bố trên website VPS, ngày 03/11/2026.",
+      "title": "Danh mục margin VPS 2026: 249 mã, lãi 14%/năm",
+      "url": "https://reviewchungkhoan.com/margin/ctck/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "# VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm ... Đồng hành cùng bạn đón sóng tài lộc đầu",
+      "title": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai"
+     },
+     {
+      "type": "text_result",
+      "domain": "nguoiquansat.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Quý I/2026 ghi nhận một nhịp tăng rõ của mặt bằng lãi vay ký quỹ tại nhiều công ty chứng khoán. ... Nhiều công ty",
+      "title": "Lãi margin vọt lên 14%, dư nợ vượt 400.000 tỷ đồng: Áp lực đè nặng NĐT trong bối cảnh thị trường biến động khó lường",
+      "url": "https://nguoiquansat.vn/lai-margin-vot-len-14-du-no-vuot-400-000-ty-dong-ap-luc-de-nang-ndt-trong-boi-canh-thi-truong-bien-dong-kho-luong-280365.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Khách mở mới được gói Phát Tài 8,8%/năm trong 90 ngày kể từ ngày mở tài khoản chính, hạn mức dư nợ ưu đãi 5",
+      "title": "Đánh giá VPS 2026: phí 0,20%, margin 8,8%, thị phần số 1",
+      "url": "https://dautuvn.vn/chung-khoan/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Lãi suất Ứng trước tiền bán chứng khoán: 14%/năm",
+      "title": "Lãi suất giao dịch ký quỹ",
+      "url": "https://www.hsc.com.vn/vi/lai-suat-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn1search13",
+      "snippet": "VN-Index (thực tế/mục tiêu của Vietcap) | 2021 1.498 | 2022 1.007 | 2023 1.130 | 2024 1.267 | 2025 1.784 | 2026F 1.955 |",
+      "title": "Vietcap Mid-year Strategy 2026",
+      "url": "https://cafef1.mediacdn.vn/Images/Uploaded/DuLieuDownload/PhanTichBaoCao/BAOCAOCHIENLUOC_20260620122713_6fb67bae92f64e4bb8adde35.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tinhieuviet.com",
+      "ref_id": "turn1search8",
+      "snippet": "Từ đầu năm 2026 tới phiên 03/11/2026, VPS đã chia 1 đợt cổ tức tiền mặt, tổng 550 đ/cp (5.5% mệnh giá). ... 12 tháng",
+      "title": "Cổ phiếu VPS (CTCP Thuốc sát trùng Việt Nam): lịch chia cổ tức, khối ngoại, biên giá 1 năm | Tín Hiệu Việt",
+      "url": "https://tinhieuviet.com/co-phieu/VPS"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search9",
+      "snippet": "Với mã cả hai cùng nhận cho vay, TCBS luôn rẻ hơn, bất kể mã đó chịu 12% hay 13,5%/năm. ... Ở nhóm mã thứ",
+      "title": "SSI hay TCBS? So sánh phí, lãi margin, API, phái sinh 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietnam.vn",
+      "ref_id": "turn1search10",
+      "snippet": "VPS Securities raised its interest rate from 13.8% to 14% per year in mid-February 2026. ... Source: https://tuoitre.vn/lai-suat-margin-len-den-14-cong-ty-chung-khoan-bat-dau-chuyen-ap-luc-sang-nha-da",
+      "title": "With margin interest rates reaching 14%, are securities companies starting to shift the pressure onto investors?",
+      "url": "https://www.vietnam.vn/en/lai-suat-margin-len-den-14-cong-ty-chung-khoan-bat-dau-chuyen-ap-luc-sang-nha-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "24hmoney.vn",
+      "ref_id": "turn1search11",
+      "snippet": "16/03/2026 ... Thay vì mức 11% - 13%/năm khá dễ chịu của năm trước, mặt bằng chung hiện tại đã vọt lên ngưỡng 13% -",
+      "title": "Lãi suất margin đồng loạt cán mốc 14%/năm: áp lực hay cơ hội khi dư nợ vượt đỉnh lịch sử?",
+      "url": "https://24hmoney.vn/news/lai-suat-margin-dong-loat-can-moc-14-nam-ap-luc-hay-co-hoi-khi-du-no-vuot-dinh-lich-su-c30a2757035.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "static1.vietstock.vn",
+      "ref_id": "turn1search14",
+      "snippet": "<tr><td>LPB</td><td>49.500</td><td>9,8%</td><td>6,9%</td><td>15,8%</td><td>3,40</td><td>2,77</td><td>2,33</td><td>14,6</td><td>13,7</td><td>11,8</td><td>22,9%</td><td>12,4</td></tr> ... Nguồn: Vietcap",
+      "title": "Vietcap-Strategy-2026",
+      "url": "https://static1.vietstock.vn/edocs/18418/VIETCAP_STRATEGY_2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn02.wigroup.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Các nhãn phần trăm hiển thị gồm: SSI 22%, TCBS 83%, VND 43%, VPBANKS -67%, VIX 47%, VCI 58%, VPS 15%, SHS 29%, HCM 35%,",
+      "title": "PowerPoint Presentation",
+      "url": "https://cdn02.wigroup.vn/baocaophantich/20247_ABS_2025-04-17.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Tin tức nổi bật 14/04/2026 Tập đoàn dệt may lớn nhất Việt Nam báo lãi tăng 31% trong quý đầu năm 2026 ... VPS ghi",
+      "title": "Morning call",
+      "url": "https://shinhansec.com.vn/uploads/report/Morning_call_2026_14_04_VN_File2.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "smoney.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Do đó, chúng tôi hạ giả định tăng trưởng tín dụng trung bình của CTG giai đoạn 2026-2028 từ 16,3% xuống còn 13,5%. ... www.vietcap.com.vn",
+      "title": "Vietcap\n\nMã tài khoản\n\nCập nhật\n\nNgân hàng TMCP Cô",
+      "url": "https://smoney.com.vn/media/analyst_reports/2026/04/VCI_b654a263276f7403.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit18",
+      "snippet": "[Friday August 28 2026] [+70 votes] ... Dạo này lãi cao quá, nợ chung cư thả nổi tận 14%",
+      "title": "Nãi suất ngày 26/08",
+      "url": "https://www.reddit.com/r/Xammerstrading/comments/1w0fjnp/n%C3%A3i_su%E1%BA%A5t_ng%C3%A0y_2608/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit19",
+      "snippet": "Sau 4 tháng lãi suất cho vay bất động sản đã thay đổi quá nhanh, từ 6.3% hiện đã lên 13.9%. ... [Saturday February 14",
+      "title": "Sắp tới khó khăn hơn cho các dự án bất động sản không đủ tiềm lực tài chính",
+      "url": "https://www.reddit.com/r/reviewnganhluat/comments/1r2o800/s%E1%BA%AFp_t%E1%BB%9Bi_kh%C3%B3_kh%C4%83n_h%C6%A1n_cho_c%C3%A1c_d%E1%BB%B1_%C3%A1n_b%E1%BA%A5t_%C4%91%E1%BB%99ng_s%E1%BA%A3n/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit20",
+      "snippet": "[Monday February 09 2026] [+23 votes] ... Đừng để những con số GDP 10% hay báo cáo \"khởi đầu mạnh mẽ\" trên TV đánh lừa.",
+      "title": "KINH TẾ VIỆT NAM 2026",
+      "url": "https://www.reddit.com/r/VietNamNation/comments/1qzzc11/kinh_t%E1%BA%BF_vi%E1%BB%87t_nam_2026/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-3b8f07bc-ad72-47cc-9186-b5aee5c59d3c",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-3b8f07bc-ad72-47cc-9186-b5aee5c59d3c",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn \"2026\" \"13,5%\" \"T10\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn \"2026\" \"13,5%\" \"T10\"",
+      "site.mbs.com.vn \"2026\" \"lãi suất\" \"13.5\"",
+      "site.bsc.com.vn \"2026\" \"7,5%\" \"90\" margin"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn2search12",
+      "snippet": "Lãi suất qua đêm liên ngân hàng đã giảm về quanh mức 4% cuối T1/2026 từ mức 8.45% cuối 2025, lãi suất huy động đã",
+      "title": "Bao cao Chien luoc thi truong tuan",
+      "url": "https://www.mbs.com.vn/files/uploads/2026/01/Danh-muc-Alpha-T2-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "Ngày đăng: 13/07/2026 - Thời gian áp dụng: 01/07/2026 - 31/12/2026 ... 5 | Phạm vi áp dụng | Áp dụng cho các món giải",
+      "title": "Ưu đãi lãi suất 7,5% - độc quyền dành riêng cho khách hàng mở mới sử dụng dịch vụ giao dịch chủ động - MBS",
+      "url": "https://www.mbs.com.vn/uu-dai-lai-suat-7-5-doc-quyen-danh-rieng-cho-khach-hang-mo-moi-su-dung-dich-vu-giao-dich-chu-dong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn2search13",
+      "snippet": "Nguồn: HNX, FiinPro, MBS Research Hình 20: Các doanh nghiệp phát hành trái phiếu có lãi suất cao nhất trong năm 2025 ... Hình 21:",
+      "title": "Báo cáo thị trường trái phiếu | 2 Tháng 3 2026",
+      "url": "https://www.mbs.com.vn/files/uploads/2026/03/BC_TTTraiphieu_260302.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn2search14",
+      "snippet": "Khoan vay nay da dLYQ'C gia h;;in lich thanh loan goc va lai den nam 2027, theo d6 ngay tra nq cu6i cung la ngay",
+      "title": "CÔNG TY \nCỔ PHẦN \nTẬP ĐOÀN \nĐẦU TƯ \nĐỊA ỐC \nNO VA",
+      "url": "https://cafef1.mediacdn.vn/download/060526/nvl122001-bao-cao-tai-chinh-hop-nhat-q1-2026-va-giai-trinh-lnst-1-613710.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn2search1",
+      "snippet": "Trong nửa sau 2026, chúng tôi hạ kỳ vọng với luận điểm lãi suất thiết lập mặt bằng mới sẽ dần tác động đến thanh",
+      "title": "Báo cáo Triển vọng Việt Nam 6 tháng cuối năm 2026 - Bảo toàn tài sản - Chờ đợi thời cơ - MBS",
+      "url": "https://www.mbs.com.vn/bao-cao-trien-vong-viet-nam-6-thang-cuoi-nam-2026-bao-toan-tai-san-cho-doi-thoi-co/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mbs.com.vn",
+      "ref_id": "turn2search15",
+      "snippet": "Chúng tôi dự báo mức tăng trưởng lợi nhuận ròng của các ngân hàng MBS Research theo dõi, tăng 13.5% svck trong năm 2025 và",
+      "title": "Báo cáo ngành | Ngân hàng",
+      "url": "https://mbs.com.vn/files/uploads/2025/07/Ngan-hang_20250711_TV_1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search2",
+      "snippet": "Lãi margin khởi điểm cho khách mới là 7,5%/năm (theo trang chương trình của BSC chỉ trong 30 ngày đầu, rồi 8,5% đến ngày 90),",
+      "title": "BSC có uy tín không? Đánh giá Chứng khoán BIDV",
+      "url": "https://reviewchungkhoan.com/ctck/bsc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "moit.gov.vn",
+      "ref_id": "turn2search16",
+      "snippet": "Năm 2026 chỉ có T1 khoảng 12,6 và T2 là 5,8; Năm 2025 lần lượt khoảng T1 10,0; T2 7,8; T3 9,8; T4 9,1; T5",
+      "title": "gây áp lực lên giá cả.",
+      "url": "https://moit.gov.vn/upload/2005517/fck/files/B___n_tin_Th____tr_____ng_NLTS_s____ra_ng__y_12_3_2026_9354a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn2search3",
+      "snippet": "## Nguồn: BLOOMBERG, FIINPRO, VNDIRECT RESEARCH, dữ liệu ngày 19/06/2026 47 ... ➢ P/E trượt 12 tháng của VN-Index hiện đã giảm xuống 13,46 lần,",
+      "title": "BCCL 2h2026 Vndirect | PDF",
+      "url": "https://www.scribd.com/document/1057969310/Bccl-2h2026-Vndirect"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search4",
+      "snippet": "# Danh mục margin BSC 2026",
+      "title": "Danh mục margin BSC 2026: 266 mã, lãi 12,5%/năm",
+      "url": "https://reviewchungkhoan.com/margin/ctck/bsc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search5",
+      "snippet": "Với khách mới, BSC áp 7,5%/năm trong 30 ngày đầu rồi 8,5% đến ngày 90, VCBS 8,9%/năm, Shinhan 0% trong 2 tháng đầu (dư nợ",
+      "title": "Lãi suất margin các công ty chứng khoán 2026: bảng so sánh",
+      "url": "https://reviewchungkhoan.com/lai-suat-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mbs.com.vn",
+      "ref_id": "turn2search17",
+      "snippet": "MBSTHỊ TRƯỜNG CHỨNG KHOÁN THẾ GIỚIThị trường hiện đang định giá 5 lần cắt giảm lãi suất của Fed trước khi kết thúc nămLàn sóng",
+      "title": "MBSMBS Head Office",
+      "url": "https://mbs.com.vn/media/uximvotr/bao-cao-chien-luoc-thi-truong-tuan-08-04-11-04-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search6",
+      "snippet": "SSI và VNDirect cùng thu lãi margin chuẩn 13,5%/năm, nên chỗ khác nhau thật nằm ở phí khi tự đặt lệnh, phái sinh, API và",
+      "title": "So sánh SSI và VNDirect: phí, lãi margin, phái sinh 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn2search7",
+      "snippet": "# MBS Research | BÁO CÁO CỔ PHIẾU ... Chỉ tiêu tài chính Q2/2026 Q2/2025 % svck ... Chi phí hoạt động (5,627) (4,956) +13.5%",
+      "title": "MBB_AM-2Q26_20260806 | PDF",
+      "url": "https://www.scribd.com/document/1071885050/MBB-AM-2Q26-20260806"
+     },
+     {
+      "type": "text_result",
+      "domain": "24hmoney.vn",
+      "ref_id": "turn2search8",
+      "snippet": "### Vượt mặt Vingroup, một “đại gia” địa ốc phát hành trái phiếu lãi suất cao nhất thị trường: 13,5%/năm ... Trần Ngọc Thúy -",
+      "title": "Bài viết về chủ đề trái phiếu lãi suất | MXH 24HMoney",
+      "url": "https://24hmoney.vn/tags/trai-phieu-lai-suat.html?q=tr%C3%A1i+phi%E1%BA%BFu+l%C3%A3i+su%E1%BA%A5t"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn2search9",
+      "snippet": "Despesas Gerais e Adm. - Diretas | (0,5) | (0,6) | (12,6%) | (0,8) | (1,2) | (36,7%) ... MN EX-RA CATERING | 2T26 |",
+      "title": "INTERNATIONAL MEAL COMPANY ALIMENTAÇÃO S.A. - Earnings Release 2026 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/international-meal-company-alimentacao-sa/earnings-release/2026/55993297/"
+     },
+     {
+      "type": "text_result",
+      "domain": "thanhnien.vn",
+      "ref_id": "turn2search10",
+      "snippet": "# Giá USD hôm nay 13.5.2026: Ngân hàng đứng yên, đô tự do vẫn đi lùi ... Sáng nay (13.5), tỷ giá trung tâm giữa",
+      "title": "Giá USD hôm nay 13.5.2026: Ngân hàng đứng yên, đô tự do vẫn đi lùi",
+      "url": "https://thanhnien.vn/gia-usd-hom-nay-1352026-ngan-hang-dung-yen-do-tu-do-van-di-lui-1852605130757184.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "oto-vinfastsaigon.com",
+      "ref_id": "turn2search11",
+      "snippet": "Lãi suất vay đảm bảo cho 3 năm sau(nếu vượt quá mức này, VinFast thanh toán phần chênh lệch) | 10,5% | 10,5% | 10,5%",
+      "title": "Các Chương Trình Ưu Đãi Của VinFast Cập Nhật Mới Nhất - VinFast Sài Gòn",
+      "url": "https://oto-vinfastsaigon.com/uu-dai/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 77",
+      "title": "Lãi suất giao dịch ký quỹ",
+      "url": "https://www.hsc.com.vn/vi/lai-suat-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn2view1",
+      "snippet": "Total lines: 151",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/2XE3azsatod5AYpQfXbmcCL_Hu0QM9PiqgrUlARRjcCNqR2xzN1LZ_243VAHyznnR8sktZLVDpfVUgAcNu-fla_4ZvMTMwbIc_eeml_eLmUbIkxjLBeZbX1lA9fZOmTMbgT3AGI48-jM96QeIQq6XCypl3VFkdyvWvt5XfMZ5Tg",
+      "title": "ĐIỀU CHỈNH GÓI NHẬP CUỘC VỚI LÃI SUẤT 7.99% DÀNH CHO KHÁCH HÀNG MỚI VÀ KÍCH HOẠT TRỞ LẠI",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-73ea02a3-412f-4d28-a139-cec73ab15285",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-73ea02a3-412f-4d28-a139-cec73ab15285",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn3view0",
+      "snippet": "Total lines: 151",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/6VfBmB8_TztU7bo1BhbYO1njx-3KzuiJNEsIZxkFIvMOW80EAzWt36RtlvWwd_CrAH6HnyAIoKZeuLNeU262NQbY4a9Fchj6QCyh71sxkbnbzSuTuXspB5s4PnvhiPYgVFn_MOHk6mBDYlJod_ohfZ66wBuleWy9gJlb67XL3wE",
+      "title": "ĐIỀU CHỈNH GÓI NHẬP CUỘC VỚI LÃI SUẤT 7.99% DÀNH CHO KHÁCH HÀNG MỚI VÀ KÍCH HOẠT TRỞ LẠI",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn3view1",
+      "snippet": "Total lines: 77",
+      "title": "Lãi suất giao dịch ký quỹ",
+      "url": "https://www.hsc.com.vn/vi/lai-suat-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "tienphong.vn",
+      "ref_id": "turn3view2",
+      "snippet": "Total lines: 360",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/TuAREhk6lhkgaAKm7Cw11gZPA_URM-cDpxveQTO_d6fxHf49EIzB7gCMqrWaPU4wBV0EXJwlPck4h3Hp_tqyzn_xzmx9jkoCCWUzaiWqznKlK_JNn0M46taYDyrxs-bYlE4vAQIlJBYKfHd5vhTcOy7BF9izmdcxclthf6A1nKeqfjtWpqDKFoOjM2WZA183iNbYepPdoNlE1jH5s7O_98yUF3brdEUNnom6gi94QuishByHM4dGdTy-esTnnfTC",
+      "title": "Lãi suất hạ nhiệt, công ty chứng khoán cho vay margin thế nào?",
+      "url": "https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_4",
+    "type": "agent_message",
+    "text": "## Lãi suất margin các công ty chứng khoán 2026\n\n**Tham khảo đến ngày 06/11/2026:** cần phân biệt **lãi suất thông thường** với **lãi suất ưu đãi có điều kiện**, không áp dụng một mức cố định cho cả năm.\n\n| Công ty | Lãi suất thông thường | Ưu đãi / điều kiện đáng chú ý |\n|---|---:|---|\n| **SSI** | **13,5%/năm** | Gói Nhập Cuộc **7,99%/năm trong 90 ngày**, hạn mức 3 tỷ đồng; dành cho khách có chuyên viên tư vấn, mở mới hoặc không có dư nợ margin ít nhất 180 ngày. [Nguồn SSI](https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai) |\n| **VPS** | **14%/năm** | Gói Phát Tài **8,8%/năm**, hạn mức ưu đãi tới 5 tỷ đồng/khách hàng/ngày cho tài khoản mở từ 14/01/2026; cần xác nhận điều kiện còn áp dụng. [Lãi chuẩn](https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo), [ưu đãi VPS](https://www.vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai) |\n| **HSC** | **14%/năm** | Mức hiện hành công bố trên trang lãi suất. [Nguồn HSC](https://www.hsc.com.vn/vi/lai-suat-giao-dich-ky-quy) |\n| **Vietcap** | **13,5%/năm** | Áp dụng mức tiêu chuẩn này từ 01/09/2026. [Nguồn Tiền Phong](https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo) |\n| **VPBankS** | **13,5%/năm** | Có gói ưu đãi **9,9%/năm**, tùy điều kiện khách hàng. [Nguồn Tiền Phong](https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo) |\n| **TCBS** | Theo mã và chính sách tài khoản | Chương trình chuyển cổ phiếu về TCBS: **10,5–12%/năm trong 90 ngày**, hạn mức tùy giá trị chuyển về; triển khai 01/10–31/12/2026. [Nguồn TCBS](https://www.tcbs.com.vn/ca-nhan/uu-dai/gom-co-ve-nha/) |\n| **MBS** | Theo dịch vụ và tài khoản | Khách mở mới sử dụng dịch vụ Giao dịch chủ động: **7,5%/năm**, hạn mức 300 triệu đồng; áp dụng cho khoản giải ngân mới trong 90 ngày từ khi đăng ký. Chương trình đến 31/12/2026 hoặc hết hạn mức. [Nguồn MBS](https://www.mbs.com.vn/uu-dai-lai-suat-7-5-doc-quyen-danh-rieng-cho-khach-hang-mo-moi-su-dung-dich-vu-giao-dich-chu-dong/) |\n| **VNDIRECT – gói T10** | **16%/năm từ ngày vay thứ 11** | Miễn lãi 10 ngày đầu theo điều kiện sản phẩm. Đây là **gói T10**, không phải mức chung cho mọi khoản vay. [Nguồn Tiền Phong](https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo) |\n\n### So sánh chi phí thực tế\n\nVí dụ vay **100 triệu đồng trong 30 ngày**, giả sử tính trên cơ sở 365 ngày và toàn bộ khoản vay được hưởng mức lãi tương ứng:\n\n| Lãi suất | Tiền lãi khoảng |\n|---:|---:|\n| 7,5%/năm | 616.000 đồng |\n| 7,99%/năm | 657.000 đồng |\n| 13,5%/năm | 1.110.000 đồng |\n| 14%/năm | 1.151.000 đồng |\n\n**Lưu ý:** kiểm tra thêm cơ sở tính 360 hay 365 ngày, lãi sau ưu đãi, phần dư nợ vượt hạn mức, phí giao dịch và điều kiện bán giải chấp. Lãi quảng cáo thấp nhất chưa chắc là chi phí thấp nhất cho thời gian bạn thực sự vay.\n\nBạn dự định **vay bao nhiêu và giữ trong bao lâu**? Mình có thể so sánh chi phí theo đúng nhu cầu đó."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 126702,
+    "cached_input_tokens": 92032,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1659,
+    "reasoning_output_tokens": 13
+   }
+  }
+ ],
+ "thread_id": "01a1b00e-e859-74b0-ab45-d0fb9a71e31e",
+ "error": ""
+}

@@ -1,0 +1,211 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q050-r1",
+ "prompt_id": "Q050",
+ "run": 1,
+ "question": "Website chính thức của Chứng khoán DSC là gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:06:40",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 15.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01c-344b-7311-8a35-d81c544d6492"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-597c0cd3-b306-4d45-81d1-650329c212d9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-597c0cd3-b306-4d45-81d1-650329c212d9",
+    "type": "web_search",
+    "query": "Chứng khoán DSC website chính thức",
+    "action": {
+     "type": "search",
+     "query": "Chứng khoán DSC website chính thức"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Theo quan điểm của DSC, số liệu kinh tế - xã hội tháng 9/2026 tiếp tục cho thấy nền kinh tế duy trì đà tăng",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search1",
+      "snippet": "### 024 - Công ty cổ phần Chứng khoán DSC ... Tầng 2 Thành Công Building, 80 Dịch Vọng Hậu, Phường Cầu Giấy, Thành phố",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "file.fpts.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước cấp lần đầu ngày 18/12/2006",
+      "title": "Báo cáo thường niên DSC 2024",
+      "url": "https://file.fpts.com.vn/FileStore2/File/2025/03/25/20250325_20250325_-_DSC_-_CBTT_Bao_cao_thuong_nien_nam_2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thông báo về ngày đăng ký cuối cùng để thực hiện quyền",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad1/202150"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Thông tin chung Tên giao dịch Công ty Cổ phần Chứng khoán DSC ... Liên hệ Website www.dsc.com.vn ... Công ty Chứng khoán DSC được",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://rs.nguoiquansat.vn/ReportFile/DSC/2023/Baocaothuongniennam2023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "bc.bsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "CTCP Chứng khoán DSC [Input] ... Tài chính : Công ty Chứng khoán ... Website ... DSC: Thông báo thay đổi số lượng cổ phiếu",
+      "title": "Trang chủ- Công ty cổ phần chứng khoán BIDV",
+      "url": "https://bc.bsc.com.vn/cong-ty/tong-quan/DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Cổ phiếu được giao dịch ký quỹ theo Thông báo 1994/TB-SGDHCM ngày 02/10/2026 của HSX ... Công ty Cổ phần Chứng khoán DSC (DSC -",
+      "title": "DSC:Công ty Cổ phần Chứng khoán DSC (HOSE)",
+      "url": "https://cafef.vn/du-lieu/dsc/thong-tin-chung.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "stockbiz.vn",
+      "ref_id": "turn0search6",
+      "snippet": "CTCP Chứng khoán DSC · Công ty chứng khoán ... ## Chỉ số chính so với trung bình ngành ... Nhà đầu tư trả 22,0",
+      "title": "DSC: giá cổ phiếu, chỉ số, tin tức · CTCP Chứng khoán DSC · Stockbiz",
+      "url": "https://stockbiz.vn/ma-chung-khoan/DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietfina.com",
+      "ref_id": "turn0search7",
+      "snippet": "Cổ phiếu DSC chính thức niêm yết ngày 05/01/2018. ... Trên thị trường, DSC có vốn hóa khoảng 2.578,6 tỷ đồng (số liệu tới 30/10/2026).",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC (DSC) — Hồ sơ & định giá | VietFina",
+      "url": "https://vietfina.com/doanh-nghiep/cong-ty-co-phan-chung-khoan-dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC là doanh nghiệp ngành Dịch vụ tài chính, cổ phiếu giao dịch trên Sở Giao dịch Chứng khoán",
+      "title": "Công ty Cổ phần Chứng khoán DSC (DSC) — HOSE: hồ sơ, báo cáo tài chính, vốn hóa | Dữ Liệu Pháp Luật",
+      "url": "https://dulieuphapluat.vn/cong-cu/cong-ty-niem-yet/dsc-cong-ty-co-phan-chung-khoan-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Nếu không có văn bản đồng ý chính thức của DSC, các bản quyền nêu trên không được phép sao chép, chuyển giao, trưng bày",
+      "url": "https://dsc.com.vn/en/dieu-khoan-chung"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Tên TCPH: | CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC Trụ sở chính: | Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường Dịch",
+      "title": "Tổ chức phát hành",
+      "url": "https://www.hnx.vn/vi-vn/m-tim-kiem-DSC.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Tên công ty viết bằng tiếng Việt: CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường",
+      "title": "SỞ KẾ HOẠCH VÀ ĐẦU TƯ",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/2_GCN_DKDN_7e8909e2d1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn0search15",
+      "snippet": "DSC ... Chứng khoán ... Tên, hình thức ... chứng khoán DSC là ... chính của ... Website: ... đồng ... hoạt động của chỉ",
+      "title": "CÔNG TY \nCỔ PHẦN \nCHỨNG \nKHOÁN \nDSC\nDigitally sign",
+      "url": "https://cafef1.mediacdn.vn/download/220925/dsc-ban-cao-bach-chao-ban-them-co-phieu-ra-cong-chung-phan-2-3-4-2.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "“DSC” là Công ty Cổ phần Chứng khoán DSC. ... Thông tin khách hàng của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài,",
+      "title": "Điều khoản - Điều kiện về xử lý dữ liệu cá nhân tại DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/dieu-khoan-va-dieu-kien/dieu-khoan-ve-xu-ly-du-lieu-ca-nhan"
+     },
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Các thuyết minh này là bộ phận hợp thành và cần được đọc đồng thời với Báo cáo tình hình sử dụng vốn kèm theo",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://stream.vnx.vn/VNX/cims/2026/4_W3/000000016167820_20260417__DSC__CBTT_NQ_BBH_DHDCD_2026_VI.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search17",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... Website: www.dsc.com.vn Email: info@dsc.com.vnIII. ... <td><strong>Nội dung 01:</strong> Thông qua toàn bộ nội dung về “<em>Căn cứ",
+      "title": "CÔNG TY\nCỔ PHẦN\nCHỨNG\nKHOÁN\nDSC\n\nDigitally signed",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/TAI%20LIEU%20DHCD/VN/DSC_TAILIEU_DHDCD%20bat%20thuong_2025.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Website chính thức của **Công ty Cổ phần Chứng khoán DSC** là: [**https://dsc.com.vn/**](https://dsc.com.vn/)."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22148,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 80,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01c-344b-7311-8a35-d81c544d6492",
+ "error": ""
+}

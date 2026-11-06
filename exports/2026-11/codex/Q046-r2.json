@@ -1,0 +1,383 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q046-r2",
+ "prompt_id": "Q046",
+ "run": 2,
+ "question": "Chứng khoán DSC có lừa đảo không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:04:15",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 29.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b019-fd5a-73f1-b041-a1d0234096d6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-2698f5cd-f815-414d-987d-f0a9bdb29c6c",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-2698f5cd-f815-414d-987d-f0a9bdb29c6c",
+    "type": "web_search",
+    "query": "DSC chứng khoán giấy phép Ủy ban chứng khoán lừa đảo giả mạo DSC",
+    "action": {
+     "type": "search",
+     "query": "DSC chứng khoán giấy phép Ủy ban chứng khoán lừa đảo giả mạo DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Giấy phép thành lập và hoạt động kinh doanh công ty chứng khoán số 29/UBCK-GPHĐKD ngày 18/12/2006 do Ủy ban Chứng khoán Nhà nước cấp.",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Ngày 8/8/2025, Thanh tra Ủy ban chứng khoán Nhà nước ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty",
+      "title": "Ngày 8/8/2025, Thanh tra Ủy ban chứng khoán Nhà nước ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty cổ phần chứng khoán DSC, toàn văn Kết luận Thanh tra như sau:",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Interim / Quarterly Report 2026 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/interim-quarterly-report/2026/66181515/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "### DSC: Cấp Giấy chứng nhận Thành viên lưu ký sửa đổi lần 7 ... Giấy phép thành lập và hoạt động kinh doanh chứng",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/194372"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search3",
+      "snippet": "* Sản phẩm, Dịch vụ đối với chừng khoán niêm yết: Mỡ tài khoản giao dịch, Mối giới, Tư vấn giao dịch, Thực hiện lệnh,",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/annual-report/2026/45016802/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Ngày 29/12/2025, Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam đã cấp Giấy chứng nhận Thành viên lưu ký sửa đổi",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/190636"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Giấy phép điều chỉnh được lập thành hai (02) bản chính: 01 bản cấp cho Công ty Cổ phần Chứng khoán DSC; 01 bản lưu",
+      "title": "2\n\nĐiều 3. Giấy phép điều chỉnh được lập thành hai",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/2023/05/6.-Giay-phep-thanh-lap-va-hoat-dong-cong-ty-chung-khoan-va-Cac-giay-phep-dieu-chinh-co-lien-quan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "SSC grants an amended license for the establishment and operation of securities business of DSC Securities Joint Stock Company Securities Business ... - Head office",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620162139&dID=169873"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search6",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Audit Report / Information 2024 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/audit-report-information/2025/46750687/"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://owa.hnx.vn/ftp/cims/2023/3_W5/000000012422909_2._230330__DSC__BCTC_Signed__nen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Địa chỉ trụ sở chính: Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội Giấy Chứng",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/240321_DSC_Tai_lieu_hop_DHDCD_Final_7308a20963.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Ngày 06/09/2023, Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam đã cấp Giấy chứng nhận Thành viên lưu ký sửa đổi",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/161462"
+     },
+     {
+      "type": "text_result",
+      "domain": "doanhnhan.baophapluat.vn",
+      "ref_id": "turn0search8",
+      "snippet": "## Tổng số tiền phạt lên tới 712,5 triệu đồng, xuất phát từ nhiều hành vi vi phạm trong hoạt động chứng khoán và quản",
+      "title": "Vướng sai phạm trong hoạt động chứng khoán và quản trị doanh nghiệp, Công ty Chứng khoán DSC (DSC) bị phạt hơn 700 triệu đồng",
+      "url": "https://doanhnhan.baophapluat.vn/vuong-sai-pham-trong-hoat-dong-chung-khoan-va-quan-tri-doanh-nghiep-cong-ty-chung-khoan-dsc-dsc-bi-phat-hon-700-trieu-dong-86533.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuongtruong.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Thanh tra Ủy ban chứng khoán Nhà nước (UBCKNN) vừa ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty",
+      "title": "Loạt vi phạm, thiếu sót tại Công ty cổ phần chứng khoán DSC",
+      "url": "https://thuongtruong.com.vn/print/loat-vi-pham-thieu-sot-tai-cong-ty-co-phan-chung-khoan-dsc-148063.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Giấy phép điều chỉnh có hiệu lực kể từ ngày ký. ... Số hiệu văn bản UBCKNN cấp Quyết định sửa đổi Quyết định chấp",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620152047"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search11",
+      "snippet": "Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHEKD do Ủy ban Chứng khoán Nhà nước cấp lần đầu ngày 18/12/2006",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Annual Report 2024 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/annual-report/2025/46747492/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn0search16",
+      "snippet": "của ... định chỉ ... Chứng khoán; Giấy phép hoạt động công ... chứng khoán số ... ban ... đồng cổ ... 01/2024/NQ-ĐHĐCĐ/DSC",
+      "title": "CÔNG TY \nCỔ PHẦN \nCHỨNG \nKHOÁN \nDSC\nDigitally sign",
+      "url": "https://cafef1.mediacdn.vn/download/220925/dsc-ban-cao-bach-chao-ban-them-co-phieu-ra-cong-chung-phan-2-3-4-2.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-2f78fbbe-41ef-464c-bac1-79c21cdb4f84",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-2f78fbbe-41ef-464c-bac1-79c21cdb4f84",
+    "type": "web_search",
+    "query": "site.dsc.com.vn mạo danh lừa đảo cảnh báo ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn mạo danh lừa đảo cảnh báo",
+      "site.ssc.gov.vn DSC 712,5 2025 xử phạt"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vpcp.dichvucong.gov.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Tra cứu, nộp phạt quyết định xử phạt vi phạm hành chính trong lĩnh vực giao thông đường bộ: ... Thuộc thẩm quyền của thanh",
+      "title": "Cổng Dịch vụ công Quốc gia",
+      "url": "https://vpcp.dichvucong.gov.vn/p/home/dvc-thanh-toan-vi-pham-giao-thong.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dichvucong.bocongan.gov.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Bước 1: Truy cập Cổng Dịch vụ công Quốc gia (https://dichvucong.gov.vn) => chọn menu tại góc trên cùng bên phải Cổng dịch vụ => chọn",
+      "title": "CỔNG DỊCH VỤ CÔNG TRỰC TUYẾN",
+      "url": "https://dichvucong.bocongan.gov.vn/bocongan/bothutuc/tthc?matt=26612"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bocongan.gov.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Khoản 1 Điều 4 Luật BVDLCN quy định rõ quyền của chủ thể dữ liệu cá nhân là: Được biết về hoạt động xử lý",
+      "title": "Từ hôm nay, Luật Bảo vệ dữ liệu cá nhân chính thức có hiệu lực thi hành",
+      "url": "https://www.bocongan.gov.vn/bai-viet/luat-bao-ve-du-lieu-ca-nhan-chinh-thuc-co-hieu-luc-thi-hanh-tu-ngay-01-01-2026-1767186124"
+     },
+     {
+      "type": "text_result",
+      "domain": "stockbiz.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa ban hành Quyết định số 240/QĐ - XPHC về việc xử phạt vi phạm hành chính đối",
+      "title": "DSC: Bị xử phạt gần 700 triệu đồng do nhiều lỗi vi phạm trong hoạt động chứng khoán · Stockbiz",
+      "url": "https://stockbiz.vn/tin-tuc/dsc-bi-xu-phat-gan-700-trieu-dong-do-nhieu-loi-vi-pham-trong-hoat-dong-chung-khoan/35329083"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "# Cảnh báo lừa đảo, giả mạo thông tin BSC ... Hiện nay, BSC đã ghi nhận sự xuất hiện của một số địa chỉ",
+      "title": "Cảnh báo lừa đảo, giả mạo thông tin BSC",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/64016-canh-bao-lua-dao-gia-mao-thong-tin-bsc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "# [SSI KHUYẾN CÁO] CẢNH GIÁC VỚI HÌNH THỨC LỪA ĐẢO, GIẢ MẠO QUA ZALO ... * Tự xưng là nhân viên Chăm sóc khách",
+      "title": "[SSI KHUYẾN CÁO] CẢNH GIÁC VỚI HÌNH THỨC LỪA ĐẢO, GIẢ MẠO QUA ZALO",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/ssi-khuyen-cao-canh-giac-voi-hinh-thuc-lua-dao-gia-mao-qua-zalo"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "* Quy định giao dịch đối với sàn UPCOM ... Giao dịch trên website DSC TRADING ... * Hướng dẫn cài đặt cảnh báo theo",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "congthuong.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Vấn đề lừa đảo đã trở thành vấn nạn và đã được các công ty chứng khoán, Ủy ban Chứng khoán Nhà nước lên tiếng",
+      "title": "Những chiêu thức \"lùa gà\" trên thị trường chứng khoán",
+      "url": "https://congthuong.vn/nhung-chieu-thuc-lua-ga-tren-thi-truong-chung-khoan-246278.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "bnews.vn",
+      "ref_id": "turn1search8",
+      "snippet": "* 13:27' - 06/10/2025 ... BNEWS Bnews hướng dẫn tra cứu phạt nguội trên website của Cục Cảnh sát giao thông, người dân tiến hành",
+      "title": "Hướng dẫn tra cứu phạt nguội trên website Cục Cảnh sát giao thông",
+      "url": "https://bnews.vn/huong-dan-tra-cuu-phat-nguoi-tren-website-cuc-canh-sat-giao-thong/390365.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "mst.gov.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Gần đây, hàng loạt thủ đoạn lừa đảo tinh vi đang bùng phát, từ các cuộc gọi không lời kích thích sự tò mò, deepfake",
+      "title": "lừa đảo trực tuyến: Tin tức, Video, hình ảnh lừa đảo trực tuyến",
+      "url": "https://mst.gov.vn/lua-dao-truc-tuyen.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "baobacninhtv.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Thứ 4: 07:33 ngày 23/04/2025 Cục Cảnh sát giao thông khuyến cáo người dân cần chủ động tra cứu phạt nguội trước khi đi xử",
+      "title": "Khuyến cáo tra cứu thông tin phạt nguội trên trang web của Cục Cảnh sát giao thông",
+      "url": "https://baobacninhtv.vn/bg2/baobacgiang.vn/khuyen-cao-tra-cuu-thong-tin-phat-nguoi-tren-trang-web-cua-cuc-canh-sat-giao-thong-postid416656.bbg"
+     },
+     {
+      "type": "text_result",
+      "domain": "pulse.peeklab.dev",
+      "ref_id": "turn1search11",
+      "snippet": "# Cảnh báo lừa đảo tuần này ... Từ 29/10/2026 đến 05/11/2026 · Cập nhật lúc 18:22 05/11/2026 ... ### Gọi điện mạo danh ...",
+      "title": "Cảnh báo lừa đảo tuần này · PULSE",
+      "url": "https://pulse.peeklab.dev/canh-bao-lua-dao"
+     },
+     {
+      "type": "text_result",
+      "domain": "vksdaklak.gov.vn",
+      "ref_id": "turn1search12",
+      "snippet": "GÓC CẢNH BÁO ... Các chiêu trò lừa đảo mạo danh nhằm chiếm đoạt tài sản vẫn liên tục diễn ra và tăng cao, ...",
+      "title": "VIỆN KIỂM SÁT NHÂN DÂN TỐI CAO",
+      "url": "https://vksdaklak.gov.vn/uploads/vksdlk/van-ban/2025/10/Diem%20tin%20CDS%20Thang%2011.F.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search13",
+      "snippet": "<td>hành chính được sửa đổi, bổ sung theo Nghị định số 68/2025/NĐ-CP ngày 18/3/2025 của Chính phủ;<br><br>b) Bảo đảm quy định đầy đủ, bao quát",
+      "title": "11\n\n<table id=\"e1\">\n<tr>\n<th>ĐIỀU, KHOẢN</th>\n<th>",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620162092&dID=169820&filename=19.12.2025+-+Bang+tong+hop+y+kien+TSMH.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieu.antoanthongtin.gov.vn",
+      "ref_id": "turn1search14",
+      "snippet": "CẢNH BÁO HÌNH THỨC LỪA ĐẢO MỚI ... Khi cá nhân, doanh nghiệp chưa kịp phản hồi, kẻ mạo danh sẽ tiếp tục gửi mail",
+      "title": "CẢNH BÁO HÌNH THỨC LỪA ĐẢO MỚI",
+      "url": "https://dulieu.antoanthongtin.gov.vn/tapchiantoanthongtin/93c86150-3374-42ea-b24d-751a4c3bb508/so1.2024_duc.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "- Nhanh chóng trình báo cơ quan Công an nơi gần nhất khi phát hiện thủ đoạn mạo danh, lừa đảo chiếm đoạt tài sản",
+      "title": "công ty, kiểm tra kỹ các đường link trang web trước khi truy cập. Nên tư vấn thêm ý kiến của người thân có nhiều kinh nghiệm trước khi làm các thủ tục vay.",
+      "url": "https://www.aseansc.com.vn/wp-content/uploads/2023/07/Cam-nang-nhan-dien-va-phong-chong-lua-dao-truc-tuyen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cds.soctrang.gov.vn",
+      "ref_id": "turn1search16",
+      "snippet": "- Banner image text: “Welcome to VietNam” ... - Article title: “Cảnh báo thủ đoạn lừa đảo ‘Giúp lấy lại tiền lừa đảo’.” ... -",
+      "title": "<visual_element id=\"e1\">",
+      "url": "https://cds.soctrang.gov.vn/uploads/filedinhkem/administrator_HDSD_VNeID.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dienvadoisong.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Poster cảnh báo nền xanh của EVNSPC: tiêu đề “CẢNH GIÁC CUỘC GỌI GIẢ MẠO NHÂN VIÊN ĐIỆN LỰC”; ba ô cảnh báo gồm “THÔNG",
+      "title": "TU VẤN TIÊU DÙNG",
+      "url": "https://dienvadoisong.vn/userfile/User/khoind/files/2025-DIEN-THANG-3-WEB-20250623103452105.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 278",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Chưa có cơ sở từ các nguồn mình kiểm tra để kết luận Công ty CP Chứng khoán DSC là “lừa đảo”.** Tuy nhiên, cần phân biệt **DSC thật**, **sai phạm của công ty** và **người mạo danh DSC**:\n\n- **DSC là công ty chứng khoán có giấy phép**, số 29/UBCK-GPHĐKD cấp ngày 18/12/2006, được VSDC ghi nhận là thành viên lưu ký số 024. Đây không phải một sàn vô danh. [Thông tin VSDC](https://vsdc.vn/vi/md/8229)\n- **Có giấy phép không có nghĩa là không có sai phạm.** Kết luận thanh tra ngày 8/8/2025 của UBCKNN đã ghi nhận những vi phạm, thiếu sót tại DSC. Những nội dung này không tự động đồng nghĩa với kết luận lừa đảo. [Kết luận thanh tra UBCKNN](https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042)\n- **Đã có cảnh báo về đối tượng mạo danh DSC** qua mạng xã hội để kêu gọi đầu tư, tham gia khóa học nhằm trục lợi. [Báo Công Thương](https://congthuong.vn/nhung-chieu-thuc-lua-ga-tren-thi-truong-chung-khoan-246278.html)\n\n**Nếu người đang liên hệ cam kết lãi chắc chắn, yêu cầu chuyển tiền vào tài khoản cá nhân hoặc nộp thêm “thuế/phí mở khóa” mới được rút tiền, bạn nên dừng chuyển tiền để xác minh.** Đừng cung cấp mật khẩu hay OTP.\n\nBạn đang hỏi về **công ty DSC nói chung**, hay một **ứng dụng/nhóm Zalo/người môi giới cụ thể**? Bạn có thể gửi đường link hoặc ảnh chụp đã che thông tin cá nhân để mình kiểm tra sát hơn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51727,
+    "cached_input_tokens": 17152,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 588,
+    "reasoning_output_tokens": 12
+   }
+  }
+ ],
+ "thread_id": "01a1b019-fd5a-73f1-b041-a1d0234096d6",
+ "error": ""
+}

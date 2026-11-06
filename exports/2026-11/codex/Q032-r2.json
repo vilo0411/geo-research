@@ -1,0 +1,403 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q032-r2",
+ "prompt_id": "Q032",
+ "run": 2,
+ "question": "Người nước ngoài mở tài khoản chứng khoán ở Việt Nam thế nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:57:01",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 45.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b013-5dcb-79f3-b80a-f56f9c5e70eb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d8025100-5b28-4daf-b54a-f6ee665ac0f2",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d8025100-5b28-4daf-b54a-f6ee665ac0f2",
+    "type": "web_search",
+    "query": "site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản",
+      "site.ssi.com.vn nhà đầu tư nước ngoài mở tài khoản chứng khoán gián tiếp 2025 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Để mở tài khoản giao dịch chứng khoán tại VNDIRECT, Nhà đầu tư nước ngoài (NĐTNN) (bao gồm cả cá nhân và tổ chức) cần",
+      "title": "Hướng dẫn đăng ký mã số giao dịch chứng khoán cho nhà đầu tư nước ngoài tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50930665003289-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C4%83ng-k%C3%BD-m%C3%A3-s%E1%BB%91-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-n%C6%B0%E1%BB%9Bc-ngo%C3%A0i-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Nhà đầu tư nước ngoài (cả cá nhân và tổ chức) cần đăng ký mã số giao dịch chứng khoán (MSGD) với Tổng công ty",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Cấp mã số giao dịch",
+      "url": "https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg"
+     },
+     {
+      "type": "text_result",
+      "domain": "nvs.vn",
+      "ref_id": "turn0search12",
+      "snippet": "ĐỐI VỚI KHÁCH HÀNG CÁ NHÂN NƯỚC NGOÀI | Dưới đây là Mẫu hồ sơ mở tài khoản giao dịch chứng khoán cho Cá nhân",
+      "title": "Hướng dẫn mở tài khoản Giao dịch Chứng khoán",
+      "url": "https://nvs.vn/wp-content/uploads/2024/06/Customers_Ovs.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# Mở tài khoản cho khách hàng cá nhân nước ngoài cư trú tại Việt Nam ... • Giấy tờ cư trú tại Việt Nam:",
+      "title": "Mở tài khoản cho khách hàng cá nhân nước ngoài cư trú tại Việt Nam | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mtk-ndt-nn-cu-tru/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Trả lời: Tài liệu chứng minh thông tin nhận diện nhà đầu tư TVLK phải cung cấp khi lập hồ sơ điều chỉnh thông tin",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/fa"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Khách hàng nước ngoài phải được Trung tâm Lưu ký Chứng khoán Việt Nam (TTLKCKVN) cấp Mã số Giao dịch Chứng khoán để giao dịch",
+      "title": "HƯỚNG DẪN MỞ TÀI KHOẢN KHÁCH HÀNG NƯỚC NGOÀI",
+      "url": "https://www.vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn0search13",
+      "snippet": "tổ chức, cá nhân sở hữu chứng khoán được VSDC ghi nhận để xác định, theo ... d) Đối với tổ chức, cá nhân nước",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://vbma.org.vn/storage/legal-documents/April2025/Q%C4%90%2030.Q%C4%90-H%C4%90TV.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Nhà đầu tư (NĐT) chỉ có thể mở 1 tài khoản tại 01 công ty chứng khoán và được phép mở tài khoản ở nhiều",
+      "title": "Quy định chung",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-chung"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vsd.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Hội thảo \"Trao đổi, thảo luận về dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán\" Áp dụng các biện",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://www.vsd.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "# Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước ... * Đối với tài khoản đăng ký hoàn",
+      "title": "Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/4413910748697-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-m%E1%BB%9F-t%C3%A0i-kho%E1%BA%A3n-tr%E1%BB%B1c-tuy%E1%BA%BFn-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-c%C3%A1-nh%C3%A2n-trong-n%C6%B0%E1%BB%9Bc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbs.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Mã truy cập (Account ID): là số tài khoản lưu ký chứng khoán của khách hàng. ... - Với nhà đầu tư nước ngoài là:",
+      "title": "Câu hỏi thường gặp",
+      "url": "https://www.vcbs.com.vn/cau-hoi-thuong-gap"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Quý khách hàng là cá nhân có Quốc tịch nước ngoài trước khi đầu tư chứng khoán tại Việt Nam cần hoàn thiện đủ 03",
+      "title": "Khách hàng cá nhân nước ngoài",
+      "url": "https://www.hsc.com.vn/vi/khach-hang-ca-nhan-nuoc-ngoai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vnsc.vn",
+      "ref_id": "turn0search14",
+      "snippet": "PHIẾU ĐĂNG KÝ MỞ TÀI KHOẢN NHÀ ĐẦU TƯ GIAO DỊCH CHỨNG CHỈ QUỸ ... (*) Chỉ dành cho NĐT nước ngoài (**) Chỉ dành",
+      "title": "PHIẾU ĐĂNG KÝ MỞ TÀI KHOẢN NHÀ ĐẦU TƯ GIAO DỊCH CHỨNG CHỈ QUỸ",
+      "url": "https://www.vnsc.vn/wp-content/uploads/2023/02/3.-Phieu-dang-ky-tai-khoan-giao-dich-chung-chi-quy.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước ... * Hướng dẫn đăng ký mã số giao",
+      "title": "MỞ TÀI KHOẢN & QUẢN LÝ TÀI KHOẢN – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/categories/360000151594-M%E1%BB%9E-T%C3%80I-KHO%E1%BA%A2N-QU%E1%BA%A2N-L%C3%9D-T%C3%80I-KHO%E1%BA%A2N"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "# Tôi là người nước ngoài và muốn mở tài khoản giao dịch chứng khoán thì cần làm những thủ tục gì? ... Đối với",
+      "title": "Tôi là người nước ngoài và muốn mở tài khoản giao dịch chứng khoán thì cần làm những thủ tục gì? | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/toi-la-nguoi-nuoc-ngoai-va-muon-mo-tai-khoan-giao-dich-chung-khoan-thi-can-lam-nhung-thu-tuc-gi"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn0search15",
+      "snippet": "c) Trường hợp người sở hữu trái phiếu trước đây đã đăng ký quốc tịch nước ngoài trên Danh sách người sở hữu mà tổ",
+      "title": "19\n\na) Trường hợp tổ chức phát hành gửi văn bản xá",
+      "url": "https://vbma.org.vn/storage/legal-documents/January2026/Q%C4%90%2027.Q%C4%90-H%C4%90TV_compressed_compressed_compressed1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "kisvn.vn",
+      "ref_id": "turn0search16",
+      "snippet": "o Website: https://www.ssi.com.vn/ ... - Mở một (01) tài khoản vốn đầu tư gián tiếp bằng đồng Việt Nam tại ngân hàng được phép cung",
+      "title": "o Website: https://www.ssi.com.vn/",
+      "url": "https://kisvn.vn/wp-content/uploads/2020/07/20200525_20200525-APH-Quy-che-ban-dau-gia-co-phan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Nhà đầu tư tổ chức nước ngoài cần đăng ký mã số giao dịch chứng khoán (MSGD/Tradingcode) với VSDC thông qua thành viên lưu ký",
+      "title": "Nhà đầu tư tổ chức nước ngoài cần đăng ký mã số giao dịch chứng khoán (MSGD/Tradingcode) với VSDC thông qua thành viên lưu ký trước khi thực hiện đầu tư trên thị trường chứng khoán Việt Nam theo quy định pháp luật.",
+      "url": "https://www.shs.com.vn/Sites/QuoteVN/SiteRoot/documents/2025/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20%C4%91%C4%83ng%20k%C3%BD%20v%C3%A0%20n%E1%BB%99p%20ti%E1%BB%81n%20mua%20c%E1%BB%95%20phi%E1%BA%BFu_final_scan.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-e7600924-5d22-4bed-b117-24ffd21c9505",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-e7600924-5d22-4bed-b117-24ffd21c9505",
+    "type": "web_search",
+    "query": "site.sbv.gov.vn Thông tư 03/2025/TT-NHNN người nước ngoài cư trú tài khoản đầu tư gián tiếp ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.sbv.gov.vn Thông tư 03/2025/TT-NHNN người nước ngoài cư trú tài khoản đầu tư gián tiếp",
+      "site.chinhphu.vn 03/2025/TT-NHNN tài khoản đầu tư gián tiếp cư trú"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vanban.chinhphu.vn",
+      "ref_id": "turn1search0",
+      "snippet": "#### Thông tư số 03/2025/TT-NHNN của Ngân hàng Nhà nước Việt Nam: Quy định về mở và sử dụng tài khoản bằng đồng Việt Nam",
+      "title": "Thông tư số 03/2025/TT-NHNN của Ngân hàng Nhà nước Việt Nam: Quy định về mở và sử dụng tài khoản bằng đồng Việt Nam để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=213677&orggroupid=4&pageid=27160"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbao.chinhphu.vn",
+      "ref_id": "turn1search12",
+      "snippet": "CÔNG BÁO/Số 1349 + 1350/Ngày 19-9-2025 ... ngoài là người không cư trú để thực hiện hoạt động đầu tư gián tiếp tại Việt Nam",
+      "title": "Người ký: CỔNG THÔNG TIN ĐIỆN TỬ CHÍNH PHỦ",
+      "url": "https://congbao.chinhphu.vn/tai-ve-van-ban-so-25-2025-tt-nhnn-46158-58872"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Số: 03 /2025/TT-NHNN Hà Nội, ngày 29 tháng 4 năm 2025 ... và sử dụng tài khoản bằng đồng Việt Nam để thực hiện hoạt",
+      "title": "NGÂN HÀNG NHÀ NƯỚC VIỆT NAM                             CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://vbma.org.vn/storage/Th%C3%B4ng%20t%C6%B0%20M%E1%BB%9AI/2025/Th%C3%B4ng%20t%C6%B0%2003.2025.TT-NHNN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search1",
+      "snippet": "*Lưu ý: Việc mở và sử dụng tài khoản đầu tư gián tiếp của nhà đầu tư nước ngoài (bao gồm tổ chức thành lập",
+      "title": "Thông tư 03/2025/TT-NHNN mở tài khoản bằng đồng Việt Nam thực hiện đầu tư gián tiếp nước ngoài mới nhất",
+      "url": "https://thuvienphapluat.vn/van-ban/Tien-te-Ngan-hang/Thong-tu-03-2025-TT-NHNN-mo-tai-khoan-bang-dong-Viet-Nam-thuc-hien-dau-tu-gian-tiep-nuoc-ngoai-tai-Viet-Nam-626733.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search2",
+      "snippet": "# Thông tư 03/2025/TT-NHNN mở tài khoản bằng đồng Việt Nam thực hiện đầu tư gián tiếp nước ngoài ... Đối với hồ sơ mở",
+      "title": "Thông tư 03/2025/TT-NHNN mở tài khoản bằng đồng Việt Nam thực hiện đầu tư gián tiếp nước ngoài",
+      "url": "https://thuvienphapluat.vn/van-ban/Dau-tu/Circular-03-2025-TT-NHNN-opening-VND-denominated-accounts-conducting-foreign-indirect-investment-in-Viet-Nam-657769.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbao.chinhphu.vn",
+      "ref_id": "turn1search3",
+      "snippet": "# Thông tư số 03/2025/TT-NHNN quy định về mở và sử dụng tài khoản bằng đồng Việt Nam để thực hiện hoạt động đầu tư",
+      "title": "Thông tư số 03/2025/TT-NHNN quy định về mở và sử dụng tài khoản bằng đồng Việt Nam để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam.",
+      "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-03-2025-tt-nhnn-44887/56328.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Phần thu: a) Thu từ bán ngoại tệ cho ngân hàng được phép; b) Thu từ chuyển nhượng vốn góp, cổ phần, bán chứng khoán",
+      "title": "Thông tư 03/2025/TT-NHNN mở tài khoản bằng đồng Việt Nam thực hiện đầu tư gián tiếp nước ngoài mới nhất",
+      "url": "https://thuvienphapluat.vn/van-ban/Tien-te-Ngan-hang/Thong-tu-03-2025-TT-NHNN-mo-tai-khoan-bang-dong-Viet-Nam-thuc-hien-dau-tu-gian-tiep-nuoc-ngoai-tai-Viet-Nam-626733.aspx?tab=2"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search5",
+      "snippet": "- Các giao dịch thu, chi liên quan đến hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam của nhà đầu tư nước",
+      "title": "Toàn văn Thông tư 03/2025/TT-NHNN quy định mở và sử dụng tài khoản đồng Việt Nam để đầu tư gián tiếp nước ngoài?",
+      "url": "https://thuvienphapluat.vn/viec-lam/tai-chinh-ngan-hang/toan-van-thong-tu-03-2025-tt-nhnn-quy-dinh-mo-va-su-dung-tai-khoan-dong-viet-nam-de-dau-tu-gian-tiep-nuoc-ngoai-27573.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.freshdesk.com",
+      "ref_id": "turn1search6",
+      "snippet": "Khoản 3, khoản 4 Điều 11 Thông tư số 03/2025/TT-NHNN quy định về mở và sử dụng tài khoản bằng đồng Việt Nam để thực",
+      "title": "Thông tư 38/2026/TT-NHNN ngày 31/07/2026 Quy định về quản lý ngoại hối đối với hoạt động đầu tư nước ngoài tại Việt Nam : Văn bản pháp luật",
+      "url": "https://vbpl.freshdesk.com/support/solutions/articles/16000239666-th%C3%B4ng-t%C6%B0-38-2026-tt-nhnn-ng%C3%A0y-31-07-2026-quy-%C4%91%E1%BB%8Bnh-v%E1%BB%81-qu%E1%BA%A3n-l%C3%BD-ngo%E1%BA%A1i-h%E1%BB%91i-%C4%91%E1%BB%91i-v%E1%BB%9Bi-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-%C4%91%E1%BA%A7u-t%C6%B0-n%C6%B0%E1%BB%9Bc-"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Việc mở và sử dụng tài khoản thanh toán của nhà đầu tư nước ngoài là người không cư trú để thực hiện hoạt động",
+      "title": "Thông tư 25/2025/TT-NHNN sửa đổi Thông tư 17/2024/TT-NHNN quy định việc mở và sử dụng tài khoản thanh toán tại tổ chức cung ứng dịch vụ thanh toán do Thống đốc Ngân hàng Nhà nước Việt Nam ban hành",
+      "url": "https://dulieuphapluat.vn/van-ban/tai-chinh-ngan-hang-van-ban/thong-tu-252025tt-nhnn-sua-doi-thong-tu-172024tt-nhnn-quy-dinh-viec-mo-va-su-dung-tai-khoan-thanh-toan-tai-to-chuc-cung-ung-dich-vu-thanh-toan-do-thong-doc-ngan-hang-nha-nuoc-viet-nam-ban-hanh-1238857.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cms.baochinhphu.vn",
+      "ref_id": "turn1search8",
+      "snippet": "## (Chinhphu.vn) - Nhà đầu tư nước ngoài cư trú tại Việt Nam, có tài khoản thanh toán bằng đồng Việt Nam (VND) mở tại",
+      "title": "Nhà đầu tư nước ngoài cư trú tại Việt Nam, góp vốn theo hình thức nào?",
+      "url": "https://cms.baochinhphu.vn/nha-dau-tu-nuoc-ngoai-cu-tru-tai-viet-nam-gop-von-theo-hinh-thuc-nao-10226072215215679.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "hethongphapluat.com",
+      "ref_id": "turn1search9",
+      "snippet": "Việc mở và sử dụng tài khoản thanh toán của nhà đầu tư nước ngoài là người không cư trú để thực hiện hoạt động",
+      "title": "Circular no. 25/2025/tt-nhnn dated august 31, 2025 on amendments to circular no. 17/2024/tt-nhnn on opening and use of payment accounts at payment service providers",
+      "url": "https://hethongphapluat.com/circular-no-25-2025-tt-nhnn-dated-august-31-2025-on-amendments-to-circular-no-17-2024-tt-nhnn-on-opening-and-use-of-payment-accounts-at-payment-service-providers.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "hethongphapluat.com",
+      "ref_id": "turn1search10",
+      "snippet": "Các giao dịch thu, chi liên quan đến hoạt động đầu tư gián tiếp nước ngoài tại Việt Nam của nhà đầu tư nước ngoài",
+      "title": "Thông tư 03/2025/tt-nhnn quy định về mở và sử dụng tài khoản bằng đồng việt nam để thực hiện hoạt động đầu tư gián tiếp nước ngoài tại việt nam do thống đốc ngân hàng nhà nước việt nam ban hành",
+      "url": "https://hethongphapluat.com/thong-tu-03-2025-tt-nhnn-quy-dinh-ve-mo-va-su-dung-tai-khoan-bang-dong-viet-nam-de-thuc-hien-hoat-dong-dau-tu-gian-tiep-nuoc-ngoai-tai-viet-nam-do-thong-doc-ngan-hang-nha-nuoc-viet-nam-ban-hanh.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "quochoi.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Ngân hàng Nhà nước Việt Nam đã ban hành Thông tư 03/2025/TT-NHNN về mở và sử dụng tài khoản bằng đồng Việt Nam để thực",
+      "title": "Cổng thông tin điện tử Quốc hội",
+      "url": "https://quochoi.vn/pages/tim-kiem.aspx?ItemID=94393"
+     },
+     {
+      "type": "text_result",
+      "domain": "mof.gov.vn",
+      "ref_id": "turn1search14",
+      "snippet": "(iii) Danh mục tài liệu nhận diện nhà đầu tư theo Mẫu số 42 Phụ lục ban hành kèm theo Nghị định số 155/2020/NĐ-CP. ...",
+      "title": "BAO CAO THUONG NIEN 2025_CT.cdr",
+      "url": "https://mof.gov.vn/api/mediafile/media-article/712a4214-9189-4554-a274-9ea982345c9c/a263b3cf-0145-4c6a-9e1a-26a145fee9cd.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbv.gov.vn",
+      "ref_id": "turn1search15",
+      "snippet": "03/2025/TT-NHNN quy định về mở và sử dụng tài khoản VNĐ để thực hiện hoạt động đầu tư gián tiếp ... Thông tư 03/2025/TT-NHNN có",
+      "title": "NGÂN HÀNG NHÀ NƯỚC",
+      "url": "https://sbv.gov.vn/documents/20117/0/CV%2B7590.pdf/b1a6c838-c436-0a07-c8af-561fe38fea70?t=1756977217192"
+     },
+     {
+      "type": "text_result",
+      "domain": "assets.kpmg.com",
+      "ref_id": "turn1search16",
+      "snippet": "Ngày 29 tháng 4 năm 2025, Ngân Hàng Nhà Nước Việt Nam đã ban hành Thông tư số 03/2025/TT-NHNN về việc mở và sử dụng",
+      "title": "Bản tin Pháp lý Tháng 5 năm 2025",
+      "url": "https://assets.kpmg.com/content/dam/kpmg/vn/pdf/2025/05/monthly-legal-update-may-2025-vi.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "s-vnba-cdn.aicms.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Thay thế Phụ lục 01, Phụ lục 02, Phụ lục 03, Phụ lục 04 ban hành kèm theo Thông tư số 10/2022/TT-NHNN bằng Phụ lục",
+      "title": "KM_C754e-20260110132555",
+      "url": "https://s-vnba-cdn.aicms.vn/vnba-media/26/1/26/thong-tu-so-78-2025-tt-nhnn_69772e8af3b2d.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit18",
+      "snippet": "Trường hợp, khi có yêu cầu của Bộ Thông tin và Truyền thông, Bộ Công an hoặc cơ quan có thẩm quyền theo quy định",
+      "title": "07 điều mà người sử dụng mạng xã hội từ 25/12/2024 cần phải biết.",
+      "url": "https://www.reddit.com/r/VietNamNation/comments/1h07zfr"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 258",
+      "title": "HƯỚNG DẪN MỞ TÀI KHOẢN KHÁCH HÀNG NƯỚC NGOÀI",
+      "url": "https://www.vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Người nước ngoài có thể mở tài khoản chứng khoán tại Việt Nam.** Nếu là **cá nhân**, bạn thường thực hiện theo các bước sau:\n\n### 1. Chuẩn bị hồ sơ và chọn công ty chứng khoán\nHồ sơ cơ bản gồm:\n- Hộ chiếu còn hiệu lực; bản sao công chứng/chứng thực hoặc hợp pháp hóa theo yêu cầu.\n- Hợp đồng mở tài khoản.\n- Giấy đăng ký mã số giao dịch chứng khoán và giấy ủy quyền cho công ty chứng khoán làm thủ tục.\n- Giấy tờ cư trú, thông tin liên hệ và thông tin ngân hàng theo từng đơn vị.\n\nBạn nên xin bộ hồ sơ trước khi công chứng vì yêu cầu cụ thể có thể khác nhau. [Hướng dẫn của Vietcap](https://www.vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai)\n\n### 2. Đăng ký mã số giao dịch chứng khoán — Trading Code\nNhà đầu tư nước ngoài phải có mã này do **VSDC** cấp trước khi đầu tư. Công ty chứng khoán/thành viên lưu ký sẽ hỗ trợ đăng ký. Nếu đã được cấp mã trước đây, hãy cung cấp lại thay vì đăng ký mới. [VSDC](https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg), [TCBS](https://help.tcbs.com.vn/mtk-ndt-nn-cu-tru/)\n\n### 3. Mở hoặc xác nhận tài khoản ngân hàng phù hợp\nĐây là điểm cần phân biệt:\n- **Người không cư trú:** sử dụng **tài khoản đầu tư gián tiếp bằng VND** tại ngân hàng được phép.\n- **Người cư trú:** các khoản thu, chi đầu tư gián tiếp thực hiện qua **tài khoản thanh toán bằng VND**.\n\nKhông phải mọi người nước ngoài đều bắt buộc mở cùng một loại tài khoản. Hãy để ngân hàng xác định tình trạng cư trú theo quy định ngoại hối và giấy tờ của bạn. [Thông tư 03/2025/TT-NHNN](https://vanban.chinhphu.vn/?classid=1&docid=213677&orggroupid=4&pageid=27160), [nội dung quy định](https://vbma.org.vn/storage/Th%C3%B4ng%20t%C6%B0%20M%E1%BB%9AI/2025/Th%C3%B4ng%20t%C6%B0%2003.2025.TT-NHNN.pdf)\n\n### 4. Hoàn tất xác minh, nộp tiền và giao dịch\nKhả năng mở trực tuyến tùy công ty; có nơi cho khai báo online nhưng vẫn yêu cầu gửi hộ chiếu đã chứng thực để hoàn tất thủ tục. [Ví dụ tại TCBS](https://help.tcbs.com.vn/mtk-ndt-nn-cu-tru/)\n\n**Bạn đang sống tại Việt Nam hay ở nước ngoài, và đã có tài khoản ngân hàng tại Việt Nam chưa?** Hai thông tin này sẽ giúp xác định đúng hồ sơ cần chuẩn bị."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51662,
+    "cached_input_tokens": 23552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 879,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b013-5dcb-79f3-b80a-f56f9c5e70eb",
+ "error": ""
+}

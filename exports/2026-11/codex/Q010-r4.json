@@ -1,0 +1,574 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q010-r4",
+ "prompt_id": "Q010",
+ "run": 4,
+ "question": "Công ty chứng khoán nào phí giao dịch thấp nhất hiện nay?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:40:41",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 42.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b004-6a45-77c3-8ef3-66c59281679a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-50ae996d-4c2c-4d26-ad49-80cbd3b9f663",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-50ae996d-4c2c-4d26-ad49-80cbd3b9f663",
+    "type": "web_search",
+    "query": "chứng khoán phí giao dịch 0% DNSE TCBS 2026 biểu phí ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "chứng khoán phí giao dịch 0% DNSE TCBS 2026 biểu phí",
+      "phí giao dịch chứng khoán VPS SSI MBS 2026 biểu phí"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu phí dịch vụ môi giới chứng khoán tại MBS ... Lệnh đặt qua kênh App MBBank: Phí giao dịch và phí chăm sóc áp",
+      "title": "Biểu phí giao dịch - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Để tham khảo các thông tin về biểu phí và chính sách các sản phẩm dịch vụ của VPS, Quý khách vui lòng tham khảo:",
+      "title": "Tôi có thể tham khảo thông tin các biểu phí, chính sách của VPS ở đâu? | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/toi-co-tham-khao-thong-tin-cac-bieu-phi-chinh-sach-cua-vps-o-dau"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search2",
+      "snippet": "Tính đến 22/10/2026, DNSE và Shinhan thu 0% phí giao dịch cổ phiếu không ghi thời hạn, KBSV, ACBS và VPS có gói 0 đồng",
+      "title": "Công ty chứng khoán miễn phí giao dịch 2026 và điều kiện",
+      "url": "https://reviewchungkhoan.com/cong-ty-chung-khoan-mien-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "# Biểu phí dịch vụ DNSE Biểu phí giao dịch Cơ sở Biểu phí giao dịch Phái sinh Biểu phí giao dịch Trái phiếu và",
+      "title": "Biểu phí dịch vụ DNSE | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse"
+     },
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "BIỂU PHÍ GIAO DỊCH CHỨNG KHOÁN PHÁI SINH *(Áp dụng từ ngày 21/11/2024)* ... <td rowspan=\"6\"><strong>Hợp đồng tương lai<br>Chỉ số VN30</strong></td> ... <td>Đối với TKGDPS",
+      "title": "BIỂU PHÍ GIAO DỊCH CHỨNG KHOÁN PHÁI SINH",
+      "url": "https://images.vps.com.vn/2024/files/bieu-phi-giao-dich-chung-khoan-phai-sinh-6f61.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Biểu phí dịch vụ môi giới Chứng chỉ Quỹ, Trái phiếu doanh nghiệp, Trái phiếu chính phủ ... Chuyển khoản để thanh toán giao dịch",
+      "title": "Biểu phí khác - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-khac/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tpbs.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Biểu phí giao dịch áp dụng từ 26.03.2026: Xem tại đây",
+      "title": "Biểu phí giao dịch",
+      "url": "https://tpbs.com.vn/vi/san-pham-dich-vu/dich-vu-chung-khoan/bieu-phi-giao-dich"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search6",
+      "snippet": "SSI | Trong 3 tháng miễn phí; 3–12 tháng 20.000 đồng; trên 12 tháng 50.000 đồng/bản/loại (đã gồm VAT) | 50.000 đồng/bản (đã gồm VAT)",
+      "title": "Sao kê tài khoản chứng khoán, xác nhận số dư: phí 16 CTCK 2026",
+      "url": "https://reviewchungkhoan.com/sao-ke-tai-khoan-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search7",
+      "snippet": "## Phí lưu ký VPS, TCBS, SSI, VNDirect, VCBS, VPBankS và 17 CTCK khác ... MBS | 0,3 | Cao hơn ... Cập nhật 24/10/2026,",
+      "title": "Phí lưu ký chứng khoán 2026: cách tính và mức của 23 CTCK",
+      "url": "https://reviewchungkhoan.com/phi-luu-ky-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Giao dịch trái phiếu thuộc chương trình iBond, iConnect (áp dụng từ ngày 20/05/2026) ... Lưu ý: Trong trường hợp có thỏa thuận khác giữa",
+      "title": "Biểu phí giao dịch trái phiếu | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search9",
+      "snippet": "So sánh SSI và VPS bằng số liệu 10/2026: phí cổ phiếu, lãi margin, danh mục margin, phí phái sinh, app, nạp rút, xử phạt,",
+      "title": "SSI hay VPS? So sánh phí, lãi margin, phái sinh, app 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Phí giao dịch, lãi margin, ưu đãi khách mới, ứng dụng và cách mở tài khoản của SSI, TCBS (Techcombank Securities), VPS, MBS và DNSE.",
+      "title": "So sánh 5 công ty chứng khoán 2026: SSI, TCBS, VPS, MBS, DNSE",
+      "url": "https://dautuvn.vn/chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoanvps.org",
+      "ref_id": "turn0search11",
+      "snippet": "Hiện nay, biểu phí giao dịch chứng khoán VPS được áp dụng theo chính sách mới nhất bắt đầu từ ngày 16/03/2026 với mức phí",
+      "title": "Phí Giao Dịch Chứng Khoán VPS: Biểu Phí, Cách Tính & Mẹo Tối Ưu",
+      "url": "https://chungkhoanvps.org/phi-giao-dich/phi-giao-dich-chung-khoan-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "b) Quản lý số dư tiền và chứng khoán của Khách hàng tách biệt với tài sản của DNSE, và không sử dụng tiền và",
+      "title": "DNSE\n\nCông ty Cổ phần Chứng khoán DNSE  \n024.710 8",
+      "url": "https://cdn.dnse.com.vn/dnse-assets/CRM/Dieu_khoan_Dieu_kien_DNSE_04082023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Sao lưu chứng từ trong 15 ngày kể từ ngày giao dịch ... Tin nhắn SMS gửi KH (TB số dư, KQKL, thông tin quyền,",
+      "title": "BIỂU PHÍ DỊCH VỤ CHỨNG KHOÁN TẠI MBS",
+      "url": "https://mbs.com.vn/Upload/MBS/T%C3%B4i%20quan%20t%C3%A2m/Bi%E1%BB%83u%20ph%C3%AD%20DVCK%20Update.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.abs.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Đi cùng với đó là biên lợi nhuận toàn ngành trong mảng môi giới cũng tiếp tục sụt giảm, đạt 16,8%, thấp hơn so với",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.abs.vn/wp-content/uploads/2025/04/Nganh-Chung-khoan_20250416.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Tất cả các khách hàng phi định chế đăng ký mở mới tài khoản giao dịch chứng khoán (TKGDCK) hoặc phát sinh giao dịch trở",
+      "title": "Ng©n hµng Ngo¹i th­ng ViÖt Nam",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/chi-tiet-chinh-sach-uu-dai-0-dong-phi-nam-2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Động thái giảm lãi cho vay và phí giao dịch của các CTCK... ... ** Trong đó phải kể đến Công ty chứng khoán VPS",
+      "title": "Ngành Chứng khoán",
+      "url": "https://www.mbs.com.vn/media/xdnhyus5/mbs-talk_full_29-09-2021.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-9c53aa84-2c83-4f3f-a0ab-e2a6b78a5d5f",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-9c53aa84-2c83-4f3f-a0ab-e2a6b78a5d5f",
+    "type": "web_search",
+    "query": "site.shinhansec.com.vn phí giao dịch 0% 2026 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.shinhansec.com.vn phí giao dịch 0% 2026",
+      "site.tcbs.com.vn 0,03% phí giao dịch cổ phiếu",
+      "site.pinetree.vn biểu phí 0.03%"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "– Phí giao dịch cổ phiếu/ chứng chỉ quỹ niêm yết/ Chứng quyền đối với Khách hàng có iWealth Partner: tùy theo thỏa thuận giữa",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Công ty TNHH Chứng Khoán Shinhan Việt Nam (“SSV”) trân trọng thông báo biểu giá dịch vụ giao dịch như sau: Ngày hiệu lực: 10/09/2026",
+      "title": "Phí dịch vụ",
+      "url": "https://shinhansec.com.vn/vi/ho-tro-khach-hang/phi-giao-dich.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Khách hàng cần hoàn tất đăng ký/kết nối và duy trì duy nhất tài khoản Ngân hàng Shinhan trong vòng 3 tháng kể từ tháng",
+      "title": "Trang Khuyến mãi - Sự kiện | Phi mã thắng lợi với chương trình “Chọn Shinhan, Trọn Đời Không Phí” - Phiên bản năm 2026",
+      "url": "https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "- Ưu đãi: 0% phí giao dịch trọn đời (Không bao gồm phí giao dịch trả SGDCK) ... - Lưu ý: Trường hợp Khách hàng",
+      "title": "THÔNG TIN CHI TIẾT",
+      "url": "https://shinhansec.com.vn/uploads/Marketing/Ch%C6%B0%C6%A1ng%20tr%C3%ACnh%20Tr%E1%BB%8Dn%20%C4%91%E1%BB%9Di%20kh%C3%B4ng%20ph%C3%AD/%C4%90i%E1%BB%81u%20kho%E1%BA%A3n%20ch%C6%B0%C6%A1ng%20tr%C3%ACnh/Thong-tin-chi-tiet-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Biểu phí dịch vụ chứng khoán tại Pinetree từ ngày 21/10/2026: Tại đây ... Biểu phí áp dụng cho tiểu khoản PineFolio từ ngày 22/03/2023:",
+      "title": "Chính sách phí - Pinetree Securities",
+      "url": "https://pinetree.vn/post/dich-vu/chinh-sach-phi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Miễn phí giao dịch cổ phiếu cơ sở, phái sinh, chứng quyền và Chứng chỉ Quỹ niêm yết (chỉ thu 0.03% để thanh toán cho",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn1search13",
+      "snippet": "Phí giao dịch mà quý vị nói 0,03%, thật ra không phải phí mà TCBS thu mà bản chất đây là thuế, phí mà chúng",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Tiền giới thiệu tính năng Cổ phiếu (Stock): Phần chênh lệch của phí giao dịch cổ phiếu của KH và 0.03% (bao gồm phí trả",
+      "title": "CHÍNH SÁCH CHƯƠNG TRÌNH ĐỐI TÁC GIỚI THIỆU KHÁCH",
+      "url": "https://www.tcbs.com.vn/chinh-sach-danh-cho-iwealth-partner"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search15",
+      "snippet": "(Biểu phí do VCB ban hành, Pinetree không thụ hưởng bất kỳ khoản phí nào từ dịch vụ này) ... 0.03% / số tiền",
+      "title": "BIỂU PHÍ  \nNgân hàng TMCP Ngoại thương Việt Nam (V",
+      "url": "https://pinetree.vn/wp-content/uploads/2019/11/PINETREE_Bieu-phi-ngan-hang-VCB.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search5",
+      "snippet": "* Đối tác nhận gì: theo điều khoản (sửa 27/10/2025), thù lao của đối tác với cổ phiếu và margin tính trên phần chênh giữa",
+      "title": "Chứng khoán Pinetree có tốt không? Đánh giá Pinetree",
+      "url": "https://reviewchungkhoan.com/ctck/pinetree/"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search16",
+      "snippet": "| | Giao dic̣ h ký quỹ (*) | Giao dịch chưń g khoań phaí sinh | | 12%/năm | | 1.2 1 | |",
+      "title": "BIỂU GIÁ DỊCH VỤ",
+      "url": "https://shinhansec.com.vn/uploads/notification/Service_fees_V_01_04_2026_-update_Phai_sinh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search6",
+      "snippet": "VCBS | Mở mới 0% phí VCBS 6 tháng Gói chủ động, khách mở mới hoặc giao dịch trở lại sau 1 năm; chưa gồm",
+      "title": "Ưu đãi đang chạy của các công ty chứng khoán | Review Chứng Khoán",
+      "url": "https://reviewchungkhoan.com/ctck/uu-dai/"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhan.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "#### Biểu phí dịch vụ khách hàng cá nhân",
+      "title": "Biểu phí, lệ phí | Ngân hàng Shinhan",
+      "url": "https://shinhan.com.vn/vi/support/bieu-phi-le-phi.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search8",
+      "snippet": "* Shinhan: “0% phí giao dịch trọn đời” cho khách cá nhân trong nước mở tài khoản mới (từ 01/01/2026 không còn áp cho khách",
+      "title": "Công ty chứng khoán miễn phí giao dịch 2026 và điều kiện",
+      "url": "https://reviewchungkhoan.com/cong-ty-chung-khoan-mien-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "* Điều kiện: đăng ký/kết nối và duy trì duy nhất tài khoản thanh toán tại Ngân hàng Shinhan trong thời hạn quy định theo",
+      "title": "Investment knowledge | Phí giao dịch chứng khoán 2025: Bảng phí, cách tính, cập nhật mới & ưu đãi nổi bật từ Chứng khoán Shinhan Việt Nam (SSV)",
+      "url": "https://shinhansec.com.vn/en/investment-knowledge/36/phi-giao-dich-chung-khoan-2025-bang-phi-cach-tinh-cap-nhat-moi-uu-dai-noi-bat-tu-chung-khoan-shinhan-viet-nam-ssv.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Lưu ý: Đối với nhà đầu tư nước ngoài, Quý khách vui lòng thực hiện đăng ký thông tin theo đường dẫn tại đây trên",
+      "title": "Các câu hỏi thường gặp",
+      "url": "https://shinhansec.com.vn/vi/ho-tro-khach-hang/cau-hoi-thuong-gap.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "ĐẶT LỆNH CỔ PHIẾU ... https://invest.tcbs.com.vn Tên đăng nhập: Sốđiện thoại/",
+      "title": "HƯỚNG DẪN GIAO DỊCH CỔ PHIẾU",
+      "url": "https://www.tcbs.com.vn/documents/10181/320637/Huong%2Bdan%2Bgiao%2Bdich%2Bco%2Bphieu_iStock.pdf/0ce37a37-8dec-4acc-8615-302665574a9a"
+     },
+     {
+      "type": "text_result",
+      "domain": "baodautu.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Từ ngày 8/4/2024, Chứng khoán Shinhan Việt Nam (SSV) đã triển khai chính sách “0% phí giao dịch trọn đời” với thông điệp “Chọn Shinhan,",
+      "title": "Đầu tư thông minh bắt đầu từ 0% phí giao dịch trọn đời cùng Chứng khoán Shinhan",
+      "url": "https://baodautu.vn/dau-tu-thong-minh-bat-dau-tu-0-phi-giao-dich-tron-doi-cung-chung-khoan-shinhan-d396348.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit18",
+      "snippet": "Vì bác không là đối tượng, phân khúc của tcbs ấy, tcbs không có đội môi giới/sale/phục vụ bác như các bên khác, bù lại",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit19",
+      "snippet": "Không chỉ có phí giao dịch cực kỳ cạnh tranh mà công nghệ Robot cố vấn đầu tư được tích hợp vào TCinvest TCBS cũng",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit20",
+      "snippet": "Phí giao dịch chứng khoán là loại phí mà nhà đầu tư phải trả khi mua bán cổ phiếu hoặc các sản phẩm tài chính",
+      "title": "Phi giao dich chung khoan",
+      "url": "https://www.reddit.com/r/u_baokis/comments/16t8crj"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 6",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-13b5aae1-b032-422a-b233-7559dac5d462",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-13b5aae1-b032-422a-b233-7559dac5d462",
+    "type": "web_search",
+    "query": "site.dnse.com.vn \"0,027%\" \"phí\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dnse.com.vn \"0,027%\" \"phí\"",
+      "site.dnse.com.vn \"phí giao dịch\" \"tiền mặt\" \"0%\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn2search12",
+      "snippet": "Hỗ trợ nhà đầu tư Tránh nguy cơ mất vốn lớn khi tài sản giảm giá mạnh, hoặc bỏ lỡ cơ hội có lời khi",
+      "title": "GIAO DỊCH CƠ SỞ",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.jbsv.com.vn",
+      "ref_id": "turn2search13",
+      "snippet": "JB Securities Vietnam BIỂU PHÍ DỊCH VỤ CHỨNG KHOÁN TẠI JBSV ... <td>0,027% - 0,15% giá trị giao dịch/<br>0,027% - 0,15% of transaction value</td> ...",
+      "title": "biểu phí jbsv",
+      "url": "https://api.jbsv.com.vn/files/media/base/999f323a415cccc39eba96321d7345f5a888ed8d/Attached%20files/Bie%CC%82%CC%89u%20Phi%CC%81%20JBSV%2020241001.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.fpts.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "- Mức phí trên đã bao gồm phí giao dịch trả cho các Sở giao dịch chứng khoán (0,027% với cổ phiếu, chứng chỉ quỹ",
+      "title": "Giao dịch chứng khoán cơ sở",
+      "url": "https://www.fpts.com.vn/ho-tro-khach-hang/dich-vu-tai-chinh/bieu-phi-dich-vu/giao-dich-chung-khoan-co-so/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search1",
+      "snippet": "Mặt cần biết: từ 09/2023 đến 08/2026, UBCKNN và cơ quan thanh tra chứng khoán ra 4 quyết định xử phạt DNSE, tổng 1.145 triệu",
+      "title": "DNSE có uy tín không? Đánh giá Chứng khoán DNSE",
+      "url": "https://reviewchungkhoan.com/ctck/dnse/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search2",
+      "snippet": "Với người tự đặt lệnh, số liệu công khai đến 28/10/2026 cho thấy DNSE tốn ít hơn SSI ở ba khoản: phí cổ phiếu (mua",
+      "title": "DNSE hay SSI? So sánh phí 0%, margin, phái sinh, app 2026",
+      "url": "https://reviewchungkhoan.com/dnse-hay-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn2search3",
+      "snippet": "## Trả lời nhanh: có nên mở tài khoản DNSE? DNSE phù hợp với người mới muốn tự giao dịch với chi phí thấp. ...",
+      "title": "Đánh giá DNSE 2026: phí 0%, margin 12,5%, mở qua VNeID",
+      "url": "https://dautuvn.vn/chung-khoan/dnse/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search4",
+      "snippet": "Tính đến ngày 22/10/2026, phí giao dịch cổ phiếu online thấp nhất là 0,03% giá trị giao dịch ở FPTS, TCBS và Pinetree (đã gồm",
+      "title": "So sánh phí giao dịch chứng khoán 2026: công ty nào rẻ nhất?",
+      "url": "https://reviewchungkhoan.com/so-sanh-phi-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search5",
+      "snippet": "Cổ phiếu chịu 0% khi tự giao dịch bằng tiền mặt, 0,045% khi giao dịch ký quỹ, 0,12% mặc định với khách có tư vấn;",
+      "title": "Cách mở tài khoản chứng khoán DNSE online trên Entrade X 2026",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-dnse/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search6",
+      "snippet": "Trên hết, tận dụng thế mạnh của mình là tự chủ về công nghệ và tối ưu về năng suất lao động, FPTS luôn đưa",
+      "title": "Hành trình phát triển bền vững của FPTS",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/hanh-trinh-phat-trien-ben-vung-cua-fpts-34084463"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search7",
+      "snippet": "#### Hơn 3.000 cửa hàng Thế giới Di động sẽ hoạt động như cây ATM: Khách hàng nộp, rút, chuyển tiền với phí giao dịch",
+      "title": "Hơn 3.000 cửa hàng Thế giới Di động sẽ hoạt động như cây ATM: Khách hàng nộp, rút, chuyển tiền với phí giao dịch 0 đồng",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/hon-3000-cua-hang-the-gioi-di-dong-se-hoat-dong-nhu-cay-atm-khach-hang-nop-rut-chuyen-tien-voi-phi-giao-dich-0-dong-34025378"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search8",
+      "snippet": "- Đối tượng tham gia: Tất cả khách hàng thực hiện kết nối tài khoản thanh toán VietinBank với tiểu khoản .20 của CTS trên",
+      "title": "“Ưu đãi kép” từ VietinBank Securities",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/uu-dai-kep-tu-vietinbank-securities-33761164"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search9",
+      "snippet": "DNSE thu 0% khi giao dịch bằng tiền mặt nhưng chưa gồm phí Sở; gói KB Zero Fee của KBSV (miễn phí 90 ngày, chương",
+      "title": "Phí mua bán cổ phiếu gồm những gì? Cách tính phí và thuế",
+      "url": "https://reviewchungkhoan.com/phi-mua-ban-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn2search10",
+      "snippet": "* Phí chuyển chứng khoán (0.3đ/01 CK) ... Giá hòa vốn được tính từ giá khớp lệnh mua + phí mua tính trên giá mua",
+      "title": "Câu hỏi thường gặp (FAQ) | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-ky-quy-theo-deal/cau-hoi-thuong-gap-faq"
+     },
+     {
+      "type": "text_result",
+      "domain": "saco.dnse.com.vn",
+      "ref_id": "turn2search11",
+      "snippet": "Duy chỉ có mức phí giao dịch 0.03% của Sở giao dịch chứng khoán và 0% từ công ty chứng khoán đang sử dụng dịch",
+      "title": "Trở thành Bạn Đồng Hành đầu tư cùng DNSE",
+      "url": "https://saco.dnse.com.vn/lam-chu-su-nghiep/mien-phi-giao-dich-chung-khoan-chia-khoa-vang-cua-nha-dau-tu?fromTab=kien-thuc"
+     },
+     {
+      "type": "text_result",
+      "domain": "liobank.vn",
+      "ref_id": "turn2search14",
+      "snippet": "QUY ĐỊNH BIỂU PHÍ, HẠN MỨC GIAO DỊCH THẺ, TÀI KHOẢN LIOBANK TGĐ ... | Rút tiền từ Số Dư có khả dụng | 0%",
+      "title": "QUY ĐỊNH BIỂU PHÍ, HẠN MỨC GIAO DỊCH THẺ, TÀI KHOẢN LIOBANK           TGĐ",
+      "url": "https://liobank.vn/doc/Bieu-phi-The-04122023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 6",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse.md"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Nếu bạn hỏi phí mua bán cổ phiếu tại Việt Nam, DNSE và Shinhan thuộc nhóm thấp nhất về phần phí công ty thu: 0%, nhưng vẫn phải trả phí Sở giao dịch.** Không nên hiểu “0%” là hoàn toàn không mất phí.\n\nTheo thông tin kiểm tra ngày **06/11/2026**:\n\n| Công ty | Mức phí và điều kiện đáng chú ý |\n|---|---|\n| **DNSE** | Công bố **0% phí giao dịch bằng tiền mặt**, chưa bao gồm phí Sở. Cần kiểm tra đúng nhóm tài khoản, đặc biệt nếu có tư vấn hoặc dùng margin. [Nguồn DNSE](https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf) |\n| **Shinhan (SSV)** | **0% phí công ty thu trọn đời** cho khách cá nhân mở mới, với điều kiện liên kết và duy trì **Shinhan Bank làm tài khoản thanh toán duy nhất** trong thời hạn quy định; chưa gồm phí Sở. [Điều kiện ưu đãi](https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html) |\n| **TCBS** | **0,03% giá trị mỗi giao dịch** với khách không có iWealth Partner; đây là mức thu hộ phí Sở theo công bố của TCBS. Có iWealth Partner thì phí có thể cao hơn. [Biểu phí TCBS](https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226) |\n\n**Chốt lại:** nếu tự mua bán bằng tiền có sẵn, hãy so **DNSE với TCBS** trước; nếu sẵn dùng ngân hàng Shinhan, cân nhắc thêm **SSV**. Chưa đủ cơ sở để khẳng định một công ty rẻ nhất cho *mọi* loại tài khoản.\n\nVí dụ, mức **0,03%** tương đương **30.000 đồng cho một lệnh 100 triệu đồng**. Nếu dùng margin, cần so cả lãi vay — không chỉ phí mua bán."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 68326,
+    "cached_input_tokens": 20096,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 801,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b004-6a45-77c3-8ef3-66c59281679a",
+ "error": ""
+}

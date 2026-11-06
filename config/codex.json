@@ -1,0 +1,8 @@
+{
+  "_note": "model: set to the model closest to the chatgpt.com default you see (list: codex models in ~/.codex/models_cache.json). Empty = Codex built-in default.",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "",
+  "workers": 3,
+  "timeout_sec": 300,
+  "codex_home": "~/.codex"
+}

@@ -1,0 +1,231 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q029-r3",
+ "prompt_id": "Q029",
+ "run": 3,
+ "question": "Mở tài khoản chứng khoán online cần giấy tờ gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:02",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 18.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b012-7725-70a2-a0c3-2fa7a15e061f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-67d73a6b-878f-47ab-a78a-c6dd5cca07cb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-67d73a6b-878f-47ab-a78a-c6dd5cca07cb",
+    "type": "web_search",
+    "query": "site.ssi.com.vn mở tài khoản trực tuyến căn cước VNeID giấy tờ ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn mở tài khoản trực tuyến căn cước VNeID giấy tờ",
+      "site.vndirect.com.vn mở tài khoản online cần căn cước giấy tờ"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "# Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước ... Quý khách vui lòng sử dụng thông tin",
+      "title": "Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/4413910748697-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-m%E1%BB%9F-t%C3%A0i-kho%E1%BA%A3n-tr%E1%BB%B1c-tuy%E1%BA%BFn-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-c%C3%A1-nh%C3%A2n-trong-n%C6%B0%E1%BB%9Bc?sort_by=votes"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Giấy tờ cần chuẩn bị khi mở tài khoản tại VNDIRECT: CCCD/Thẻ căn cước còn hiệu lực. ... * Khách hàng là cá nhân trong",
+      "title": "FAQ - Mở Tài Khoản – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# MỞ TÀI KHOẢN CHỨNG KHOÁN SSI LIÊN KẾT XÁC THỰC VNEID ... Nhờ tiên phong triển khai liên kết định danh VNeID này từ",
+      "title": "MỞ TÀI KHOẢN CHỨNG KHOÁN SSI LIÊN KẾT XÁC THỰC VNEID",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/huong-dan-tai-ung-dung-ssi-iboard-pro-va-xac-thuc-tai-khoan-tai-ssi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "## SSI - NHÀ CUNG CẤP GIẢI PHÁP TÀI CHÍNH TỐT NHẤT CHO NHÀ ĐẦU TƯ ... Mở tài khoản trực tuyến e-KYC theo đường",
+      "title": "Mở tài khoản chứng khoán tại SSI",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/gioi-thieu-mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Hệ thống DSTOCK ra đời mang sứ mệnh cung cấp đầy đủ thông tin về sức khỏe cổ phiếu, tiện ích và giải pháp giao",
+      "title": "Mở tài khoản chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/mo-tai-khoan-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Nhà đầu tư có 3 hình thức để nộp tiền vào tài khoản chứng khoán của VNDIRECT: ... Để thực hiện rút, chuyển tiền từ",
+      "title": "Hướng dẫn giao dịch - Chi tiết các bước giao dịch (VNDIRECT)",
+      "url": "https://www.vndirect.com.vn/huong-dan-bieu-mau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "BẢN KHUYẾN NGHỊ KHI MỞ TÀI KHOẢN TRỰC TUYẾN TẠI SSI ... - Điện thoại di động trùng khớp với số điện thoại đăng ký",
+      "title": "Print",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/MTK/khuyennghi.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "##### Để mở tài khoản giao dịch chứng khoán tại SSI, tôi cần chuẩn bị hồ sơ gì? ... * Bản sao Giấy phép thành",
+      "title": "Hỏi và đáp",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/hoi-va-dap"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Quý khách có thể mở tài khoản trực tuyến trên Website SSI (https://ssi.com.vn/khach-hang-ca-nhan/mo-tai-khoan), tải ứng dụng SSI iBoard Pro (https://onelink.to/ukxf3g) hoặc mở trực tiếp tại",
+      "title": "Dịch vụ giao dịch FAQ",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu-giao-dich-faq"
+     },
+     {
+      "type": "text_result",
+      "domain": "mydgo.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Mở tài khoản VNDIRECT Chào mừng bạn đến với nền tảng đầu tư và giao dịch chứng khoán của VNDIRECT. Quy trình mở tài khoản",
+      "title": "My DGO",
+      "url": "https://mydgo.vndirect.com.vn/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* Danh mục hồ sơ mở tài khoản cho tổ chức trong nước tại VNDIRECT",
+      "title": "MỞ TÀI KHOẢN – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/sections/38655107167769-M%E1%BB%9E-T%C3%80I-KHO%E1%BA%A2N"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* MỞ TÀI KHOẢN & QUẢN LÝ TÀI KHOẢN Hướng dẫn mở tài khoản và tìm hiểu các thông tin cơ bản để quản lý",
+      "title": "TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "HƯỚNG DẪN MỞ TÀI KHOẢN TRỰC TUYẾN ... Hệ thống sẽ tự động trích xuất thông tin trên CMND/CCCD của Quý khách.",
+      "title": "huongdanmotaikhoantructuyen",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/MTK/huongdanmotaikhoantructuyen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "* Chứng thư số: Chứng thư số là một dạng chứng thư điện tử do tổ chức cung cấp dịch vụ chứng thực chữ ký",
+      "title": "Quản lý tài khoản trên SSI iBoard web",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/quan-ly-tai-khoan-ib-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN SSI HƯỚNG DẪN MỞ TÀI KHOẢN TRỰC TUYẾN",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Accopening/SSI_VHTT_H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20m%E1%BB%9F%20t%C3%A0i%20kho%E1%BA%A3n_VI_KH%281%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Lưu ý: Mẫu Giấy đăng ký mua Trái Phiếu này có thể thay đổi theo thông báo của Tổ Chức Phát Hành tại từng thời",
+      "title": "Lưu ý: Mẫu Giấy đăng ký mua Trái Phiếu này có thể thay đổi theo thông báo của Tổ Chức Phát Hành tại từng thời điểm",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/Mau-dang-ky-dat-mua-TP-VND-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Tải về Giấy đăng ký mua chứng quyền có bảo đảm theo mẫu của VNDIRECT, sau đó in, điền ... Nhà đầu tư được nhận",
+      "title": "HƯỚNG DẪN THỦ TỤC ĐĂNG KÝ MUA CHỨNG QUYỀN CÓ ĐẢM BẢO",
+      "url": "https://support.vndirect.com.vn/hc/vi/article_attachments/51329316779417"
+     },
+     {
+      "type": "text_result",
+      "domain": "phunu.hochiminhcity.gov.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Câu 17: Hạn sử dụng của tài khoản đinh danh điện tử là bao nhiêu? ... Câu 18: Các loại giấy tờ mà tôi cung",
+      "title": "TÀI LIỆU TUYÊN TRUYỀN VỀ ĐỀ ÁN 06 CỦA CHÍNH PHỦ",
+      "url": "https://phunu.hochiminhcity.gov.vn/img/Upload/web2b/Album/ContentDucument/2022-6/tai-lieu-tuyen-truyen-de-an-06_86202218351.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "Rồi làm sao tao lấy tiền của bọn tư bản gửi về xây dựng đất nước đây ... Tài khoản mày sẽ bị khóa cả",
+      "title": "tài khoản ngân hàng sau 1.1.25",
+      "url": "https://www.reddit.com/r/TroChuyenLinhTinh/comments/1hd3775"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search19",
+      "snippet": "* \"VNeID to Become Sole Platform for Public Service Access in Vietnam by July 2024: Key Implications\". netviet.com.vn. ... \"Có tài khoản định danh điện",
+      "title": "VNeID",
+      "url": "https://en.wikipedia.org/wiki/VNeID"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn là **cá nhân Việt Nam**, mở tài khoản chứng khoán online thường chỉ cần chuẩn bị:\n\n- **Bản gốc thẻ căn cước/CCCD gắn chip còn hiệu lực** để xác minh danh tính. Xem yêu cầu tại [SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/gioi-thieu-mo-tai-khoan).\n- **Điện thoại có camera**, số điện thoại nhận OTP và email. Bạn sẽ thực hiện xác minh khuôn mặt, kiểm tra thông tin và xác nhận hồ sơ theo hướng dẫn của công ty chứng khoán. Tham khảo [hướng dẫn VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/4413910748697).\n- Nên chuẩn bị **số tài khoản ngân hàng chính chủ** để đăng ký nhận tiền khi rút.\n\n**Có cần giấy tờ công chứng không?** Với quy trình mở online hoàn toàn bằng eKYC, thường không cần nộp hồ sơ giấy; yêu cầu cụ thể tùy công ty. [VNDIRECT](https://www.vndirect.com.vn/mo-tai-khoan-chung-khoan/) có hỗ trợ hình thức này.\n\nChỉ đăng ký trên ứng dụng hoặc website chính thức và không đưa mã OTP cho người khác."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22045,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 353,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b012-7725-70a2-a0c3-2fa7a15e061f",
+ "error": ""
+}

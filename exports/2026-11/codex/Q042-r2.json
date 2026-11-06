@@ -1,0 +1,247 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q042-r2",
+ "prompt_id": "Q042",
+ "run": 2,
+ "question": "Có sản phẩm tiết kiệm sinh lời nào ở công ty chứng khoán không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:01:33",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 35.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b017-84f7-7463-924e-752078a9ab63"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0689dcc1-a777-4a19-9d17-5a7b05414459",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0689dcc1-a777-4a19-9d17-5a7b05414459",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn iSave không phải tiền gửi tiết kiệm ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn iSave không phải tiền gửi tiết kiệm",
+      "site.vndirect.com.vn Dcash sản phẩm tích lũy tiền",
+      "site.ssi.com.vn sản phẩm tiền nhàn rỗi sinh lời"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Tại App VNDIRECT DGO: Quý khách vui lòng chọn icon sản phẩm dịch vụ tại góc phải màn hình, sau đó chọn DCash Grow",
+      "title": "SẢN PHẨM DCASH GROW – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50133506762905-S%E1%BA%A2N-PH%E1%BA%A8M-DCASH-GROW"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Sản phẩm phù hợp với toàn bộ Quý khách cá nhân trong nước đã mở tài khoản tại VNDIRECT, đặc biệt là nhà đầu tư",
+      "title": "FAQ - DCASH GROW – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW"
+     },
+     {
+      "type": "text_result",
+      "domain": "24hmoney.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Két vàng iSave là một kênh gửi tiền tiết kiệm không kỳ hạn của Công ty chứng khoán Ngân hàng Techcombank (Techcom Securities). ... Cụ",
+      "title": "10 câu hỏi về két vàng iSave",
+      "url": "https://24hmoney.vn/news/10-cau-hoi-ve-ket-vang-isave-c30a1664010.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sacombank.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Nhằm mang đến giải pháp quản lý dòng tiền thông minh cho cả khách hàng cá nhân và doanh nghiệp, Ngân hàng TMCP Sài Gòn",
+      "title": "Tối ưu tài khoản thanh toán với sản phẩm Sinh Lời Tài Lộc của SACOMBANK",
+      "url": "https://www.sacombank.com.vn/trang-chu/tin-tuc/tin-sacombank/2026/toi-uu-tai-khoan-thanh-toan-voi-san-pham-sinh-loi-tai-loc-cua-sacombank.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Đây không phải là sản phẩm tiền gửi tiết kiệm tại ngân hàng. ... iBond là sản phẩm trái phiếu của những doanh nghiệp hàng",
+      "title": "Sản phẩm TCBS - Giải pháp đầu tư tài chính toàn diện",
+      "url": "https://www.tcbs.com.vn/ca-nhan/san-pham/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "TCBS vay Số tiền cho vay có liên quan (T0) cho đến (và không bao gồm) ngày Khách ... Các mức lãi suất này sẽ",
+      "title": "THỎA THUẬN CHO VAY ISAVE",
+      "url": "https://www.tcbs.com.vn/isave/isave-tnc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "VNDIRECT cung cấp các giải pháp đầu tư tích sản theo mô hình Tháp thịnh vượng HWG, giúp mọi Nhà đầu tư có thể xây",
+      "title": "Giải pháp tích sản - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/giai-phap-tich-san/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "> DCASH ADVISORY là gói dịch vụ được thiết kế dành cho các nhà đầu tư có nhu cầu tìm kiếm các cơ hội đầu",
+      "title": "Tư vấn Đầu tư thị trường tiền tệ - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/tu-van-dau-tu-thi-truong-tien-te/"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungsi.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Bạn chỉ cần có tiền tạm thời để ở tài khoản, bất kể là dự phòng để thanh khoán các khoản chi định kỳ trong",
+      "title": "Két vàng ISAVE TCBS: cách tối ưu lãi suất (cập nhật 2023)",
+      "url": "https://chungsi.vn/toi-uu-lai-suat-va-thanh-khoan-bang-ket-vang-isave-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Nhà đầu tư có 3 hình thức để nộp tiền vào tài khoản chứng khoán của VNDIRECT: ... Giấy đăng ký sản phẩm giao dịch",
+      "title": "Hướng dẫn giao dịch - Chi tiết các bước giao dịch (VNDIRECT)",
+      "url": "https://www.vndirect.com.vn/huong-dan-bieu-mau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Với Tích Sản Hưu Trí, bạn hoàn toàn có thể thiết lập tài khoản riêng với mục đích tiết kiệm đầu tư, qua đó chủ",
+      "title": "Tích sản hưu trí - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/san-pham/tich-san-huu-tri/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Nếu Quý khách kết nối tài khoản TCBS và Techcombank/Vietinbank, khi đặt lệnh mua cổ phiếu, hệ thống sẽ cắt tiền theo thứ tự sau:",
+      "title": "Nội dung \"Cắt tiền ngân hàng để thực hiện nghĩa vụ thanh toán CK\" là gì? | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/ufaq/noi-dung-cat-tien-ngan-hang-de-thuc-hien-nghia-vu-thanh-toan-ck-la-gi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mydgo.vndirect.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "VNDIRECT cung cấp dải sản phẩm đa dạng, phục vụ từng nhu cầu đầu tư của Quý khách.",
+      "title": "My DGO",
+      "url": "https://mydgo.vndirect.com.vn/tra-cuu-san-pham"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Năm 2020 chúng tôi tiếp tục mở rộng quan hệ tín dụng với các tổ chức tín dụng Việt Nam và nước ngoài, giúp cho",
+      "title": "MÔ HÌNH HOẠT ĐỘNG KINH DOANH — SẢN PHẨM DỊCH VỤ",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/VNDIRECT.BCTN2020.2705.TiengViet.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "- Chịu trách nhiệm quản lý nguồn vốn của công ty phục vụ cho hoạt động kinh doanh của công ty bao gồm: nguồn vốn",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/20231120-Chung-quyen.VPB_.VND_.M.CA_.T.2023.3-Ban-cao-bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search15",
+      "snippet": "- Đọc tin tức thị trường trong nước và thế giới hàng ngày ... Tạo ra trục sản phẩm trong nền tảng giao dịch của",
+      "title": "BẢN CÁO BẠCH NIÊM YẾT TRÁI PHIẾU",
+      "url": "https://owa.hnx.vn/ftp/cims/2023/7_W4/000000012800306_1._Ban_cao_bach_VND122014_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Số tiền cho vay: Việc Khách Hàng gửi đề nghị vay ký quỹ sẽ căn cứ vào thời gian đặt lệnh mua chứng khoán ký",
+      "title": "Điều 4. Nguyên tắc cho vay và giải ngân, nguyên tắc rút tiền/chứng khoán",
+      "url": "https://help.tcbs.com.vn/wp-content/uploads/2025/11/MB11-QT_TKDT-TCBS_TC_tich_hop_Vi_1224-1.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-67994ee6-bc61-4623-937b-d504ef774b98",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-67994ee6-bc61-4623-937b-d504ef774b98",
+    "type": "web_search",
+    "query": "https://www.tcbs.com.vn/isave/isave-tnc",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.tcbs.com.vn/isave/isave-tnc"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "ref_id": "turn1view0",
+      "title": "Internal Error"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 81",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/xl7AvPYu3sZdohcJf0vEVCu4PvrjNSCr4OLj3O72HaNluZt5aCk23X3TiLgosmXelM7W6KZFrbihXmW3i10In3wvvDC00cLrP2ouKKRBzbk",
+      "title": "FAQ - DCASH GROW – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Có bạn nhé**, nhưng cần phân biệt **sản phẩm sinh lời tại công ty chứng khoán không đồng nghĩa với tiền gửi tiết kiệm ngân hàng**.\n\nVí dụ bạn có thể tham khảo:\n\n| Sản phẩm | Đặc điểm |\n|---|---|\n| **DCash Grow – VNDIRECT** | Trang chính thức đang công bố lãi thực nhận sau thuế **5%/năm**, áp dụng từ 16/03/2026; nộp tối thiểu **5 triệu đồng/lần**. Có thể rút về tài khoản chứng khoán 24/7, trừ thời gian xử lý cuối ngày; chuyển tiếp về ngân hàng tuân theo quy định riêng. [Chi tiết](https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW) |\n| **iSave – TCBS** | Sản phẩm cho tiền nhàn rỗi sinh lời; điều khoản được thiết kế dưới dạng **khách hàng cho TCBS vay**, không nên hiểu là sổ tiết kiệm ngân hàng. Cần kiểm tra mức lãi và điều kiện hiện hành trước khi tham gia. [Thông tin sản phẩm TCBS](https://www.tcbs.com.vn/ca-nhan/san-pham/) · [Điều khoản iSave](https://www.tcbs.com.vn/isave/isave-tnc) |\n\n**Trước khi chọn, bạn nên kiểm tra:**\n- Tiền thực chất được cho ai vay hoặc đầu tư vào đâu; ai có nghĩa vụ hoàn trả?\n- Lợi suất công bố đã trừ thuế, phí chưa và có thể thay đổi không?\n- Rút trước hạn có giảm lãi không; mất bao lâu tiền mới về ngân hàng?\n- Đừng mặc định mức độ bảo vệ vốn giống tiền gửi tiết kiệm chỉ vì sản phẩm được gọi là “tích lũy”.\n\nBạn định để khoảng **bao nhiêu tiền**, trong **bao lâu**, và có cần rút bất kỳ lúc nào không?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 36681,
+    "cached_input_tokens": 29184,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 590,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b017-84f7-7463-924e-752078a9ab63",
+ "error": ""
+}

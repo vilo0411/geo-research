@@ -1,0 +1,43 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q030-r1",
+ "prompt_id": "Q030",
+ "run": 1,
+ "question": "Mở tài khoản chứng khoán mất bao lâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:04",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 9.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b012-7fa2-7293-89c8-5d905ea6ab3c"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_0",
+    "type": "agent_message",
+    "text": "Thông thường tại Việt Nam, **mở tài khoản chứng khoán online chỉ mất khoảng 5–15 phút** để điền thông tin, chụp giấy tờ và xác thực khuôn mặt. Sau đó, tài khoản có thể được duyệt trong ngày hoặc mất **1–2 ngày làm việc**, tùy công ty và hồ sơ.\n\nNếu mở trực tiếp tại quầy, thường mất khoảng **15–30 phút**, chưa tính thời gian chờ.\n\nBạn định mở ở công ty chứng khoán nào? Mình có thể kiểm tra thời gian cụ thể."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 9047,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 123,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b012-7fa2-7293-89c8-5d905ea6ab3c",
+ "error": ""
+}

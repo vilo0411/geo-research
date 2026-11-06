@@ -1,0 +1,175 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q026-r2",
+ "prompt_id": "Q026",
+ "run": 2,
+ "question": "Bán cổ phiếu phải chịu thuế và phí gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:54:38",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 26.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-2e3d-7a33-9310-fb9d896c89f6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-754d5b5a-b0ff-43df-a1d8-ee082b6268b5",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-754d5b5a-b0ff-43df-a1d8-ee082b6268b5",
+    "type": "web_search",
+    "query": "site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá bán ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá bán",
+      "site.hsx.vn phí giao dịch môi giới cổ phiếu 0,45% nhà đầu tư"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search0",
+      "snippet": "## (Chinhphu.vn) - Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán được quy định tại Nghị định 253/2026/NĐ-CP của",
+      "title": "Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán",
+      "url": "https://xaydungchinhsach.chinhphu.vn/thue-thu-nhap-ca-nhan-doi-voi-thu-nhap-tu-chuyen-nhuong-chung-khoan-119260703164200344.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.freshdesk.com",
+      "ref_id": "turn0search1",
+      "snippet": "Thu nhập tính thuế đối với thu nhập từ đầu tư vốn, chuyển nhượng vốn, chuyển nhượng bất động sản, trúng thưởng, tiền bản quyền,",
+      "title": "Công văn 03/VBHN-VPQH ngày 16/09/2024 Hợp nhất Luật Thuế thu nhập cá nhân : Văn bản pháp luật",
+      "url": "https://vbpl.freshdesk.com/support/solutions/articles/16000205386-c%C3%B4ng-v%C4%83n-03-vbhn-vpqh-ng%C3%A0y-16-09-2024-h%E1%BB%A3p-nh%E1%BA%A5t-lu%E1%BA%ADt-thu%E1%BA%BF-thu-nh%E1%BA%ADp-c%C3%A1-nh%C3%A2n"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Thuế TNCN từ chuyển nhượng chứng khoán (thuế suất 0,1% trên giá trị chuyển nhượng) cho mỗi giao dịch. ... Nghĩa vụ nộp thuế",
+      "title": "Thông báo thực hiện khấu trừ thuế thu nhập cá nhân đối với cổ phiếu thưởng và cổ phiếu phát hành theo Chương trình lựa chọn cho người lao động (ESOP) - Vietcap",
+      "url": "https://www.vietcap.com.vn/tin-tuc/thong-bao-thuc-hien-khau-tru-thue-thu-nhap-ca-nhan-doi-voi-co-phieu-thuong-va-co-phieu-phat-hanh-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-esop"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "* Đối tượng khách hàng: Khách hàng chủ động giao dịch – Không có Chuyên viên Môi giới quản lý Tài khoản. ... * Các",
+      "title": "Biểu phí giao dịch - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.attachments5.freshdesk.com",
+      "ref_id": "turn0search12",
+      "snippet": "0,1% trên giá chuyển nhượng trước khi thanh toán tiền cho cá nhân, số thuế khấu trừ ... bảng phân bổ của công ty gửi",
+      "title": "Văn bản pháp luật - TS24corp",
+      "url": "https://vbpl.attachments5.freshdesk.com/data/helpdesk/attachments/production/16103561383/original/53415_CTHN_TTHT_2022_CucthuethanhphoHaNoi_Vv_Thu_tuc_xac_nhan_thuc_hien_nghia_vu_thue_voi_ngan_sach_nha_nuoc_va_khau_tru_thue_doi_voi_thu_nhap_tu_chuyen_nhuong.pdf?Expires=1781639546&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA&Signature=AKfBWz4lp75ZQl0uHv1HAlEJT4NY-eg8HTLCx~XU7kIdxogd4UfhYaZWM96DIjnOAuE624lY1-iOcux28aZZ-HHu6WfjvnzfPUvFincgoISB1~73bKW6eHhGJKEFIc9OmQFJWUdy0FUd2jYLuayYaFaGRHfpJULBOaIekSfaYVIn4-AN33ymll7Q3wbNNQTv66PqiLmsbt7S~Ay0slas0mU~-GjLg3vBOGYK2GlXEQ0mxLvWB6SG9mlC4ePRCeaFYGDnMvTZfVkcyb3R6bvGOvctA3L~7ml96BQUhZoPW10x6rk6aQUVcTCn~dh1uRFHfJEBbkP88-zf95ghzAx6Ng__&response-content-disposition=attachment&response-content-type=application%2Fpdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.freshdesk.com",
+      "ref_id": "turn0search4",
+      "snippet": "đ.1.2) Công ty quản lý quỹ nơi cá nhân ủy thác quản lý danh mục đầu tư chứng khoán có trách nhiệm khấu trừ thuế",
+      "title": "Công văn 02/VBHN-BTC ngày 04/01/2024 Hợp nhất Thông tư hướng dẫn thực hiện Luật Thuế thu nhập cá nhân Luật Thuế thu nhập cá nhân sửa đổi và Nghị định : Văn bản pháp luật",
+      "url": "https://vbpl.freshdesk.com/support/solutions/articles/16000179095-c%C3%B4ng-v%C4%83n-02-vbhn-btc-ng%C3%A0y-04-01-2024-h%E1%BB%A3p-nh%E1%BA%A5t-th%C3%B4ng-t%C6%B0-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-th%E1%BB%B1c-hi%E1%BB%87n-lu%E1%BA%ADt-thu%E1%BA%BF-thu-nh%E1%BA%ADp-c%C3%A1-nh%C3%A2n"
+     },
+     {
+      "type": "text_result",
+      "domain": "gonnapass.com",
+      "ref_id": "turn0search13",
+      "snippet": "+ Đối với chứng khoán không thuộc trường hợp nêu trên, giá chuyển nhượng là giá ghi trên hợp đồng chuyển nhượng hoặc giá thực",
+      "title": "Chuyªn ®Ò 9",
+      "url": "https://gonnapass.com/wp-content/uploads/2020/05/CD3-Thue-2020.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "lexdata.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Cá nhân (cư trú hoặc không cư trú) | Thuế thu nhập cá nhân từ chuyển nhượng chứng khoán: 0,1% × giá chuyển nhượng, theo",
+      "title": "Thủ tục chuyển nhượng cổ phần công ty cổ phần | LexData",
+      "url": "https://lexdata.vn/blog/thu-tuc-chuyen-nhuong-co-phan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.andylaw.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Cá nhân chuyển nhượng cổ phần, kể cả cổ phần công ty chưa niêm yết, nộp thuế thu nhập cá nhân theo mức chuyển nhượng",
+      "title": "Chuyển nhượng cổ phần: 3 TRƯỜNG HỢP Bị Hạn Chế, Thủ Tục",
+      "url": "https://www.andylaw.vn/chuyen-nhuong-co-phan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Theo Thông tư quy định, đối tượng áp dụng là tổ chức cung cấp dịch vụ trong lĩnh vực chứng khoán bao gồm: Các tổ",
+      "title": "Giá dịch vụ môi giới mua, bán cổ phiếu tối đa 0,45% giá trị giao dịch",
+      "url": "https://baochinhphu.vn/gia-dich-vu-moi-gioi-mua-ban-co-phieu-toi-da-045-gia-tri-giao-dich-102304526.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vpbanks.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Chính sách thuế đối với thu nhập từ chuyển nhượng HĐTL trên thị trường CKPS Thuế TNCN = Giá chuyển nhượng từng lần * 0,1%,",
+      "title": "Quy định về HĐTL chỉ số VN30 | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vpbanks.com.vn/phai-sinh/quy-dinh-giao-dich-phai-sinh/quy-dinh-ve-hdtl-chi-so-vn30"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search9",
+      "snippet": "- Cá nhân không cư trú: thuế thu nhập cá nhân phải nộp bằng tổng số tiền mà cá nhân không cư trú nhận được",
+      "title": "Hướng dẫn về việc thực hiện Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán (EN)",
+      "url": "https://www.phs.vn/tin-tuc/huong-dan-ve-viec-thuc-hien-thue-thu-nhap-ca-nhan-doi-voi-thu-nhap-tu-chuyen-nhuong-chung-khoan-%28en%29/6066690"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Khi chuyển nhượng, cá nhân vẫn phải nộp thuế TNCN từ chuyển nhượng chứng khoán (thuế suất 0,1% trên giá chuyển nhượng) cho mỗi lần",
+      "title": "Thông báo Quy định Thuế TNCN đối với cổ phiếu thưởng và cổ phiếu ESOP",
+      "url": "https://www.hsc.com.vn/vi/truyen-thong/thong-bao-quy-dinh-thue-tncn-doi-voi-co-phieu-thuong-va-co-phieu-esop"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn là **nhà đầu tư cá nhân bán cổ phiếu trên sàn Việt Nam**, thường có hai khoản chính:\n\n| Khoản | Cách tính |\n|---|---|\n| **Thuế thu nhập cá nhân** | **0,1% × tổng giá trị bán**, kể cả bán lỗ; không tính trên phần lợi nhuận. [Nguồn Chính phủ](https://xaydungchinhsach.chinhphu.vn/thue-thu-nhap-ca-nhan-doi-voi-thu-nhap-tu-chuyen-nhuong-chung-khoan-119260703164200344.htm) |\n| **Phí giao dịch/môi giới** | Theo biểu phí của công ty chứng khoán và gói dịch vụ bạn dùng. [Ví dụ biểu phí MBS](https://www.mbs.com.vn/bieu-phi-giao-dich/) |\n\n**Ví dụ:** Bán cổ phiếu được **100 triệu đồng**, giả sử phí giao dịch **0,15%**:\n- Thuế: **100.000 đồng**.\n- Phí giao dịch: **150.000 đồng**.\n- Còn nhận: **99.750.000 đồng**, chưa tính các khoản khác nếu có.\n\n**Lưu ý:** Cổ phiếu thưởng, ESOP có thể phát sinh thêm thuế ngoài mức 0,1% khi bán, tùy nguồn gốc cổ phiếu. [Thông báo HSC](https://www.hsc.com.vn/vi/truyen-thong/thong-bao-quy-dinh-thue-tncn-doi-voi-co-phieu-thuong-va-co-phieu-esop)\n\nBạn đang dùng công ty chứng khoán nào để mình xem mức phí cụ thể?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22097,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 441,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-2e3d-7a33-9310-fb9d896c89f6",
+ "error": ""
+}

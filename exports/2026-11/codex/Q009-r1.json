@@ -1,0 +1,241 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q009-r1",
+ "prompt_id": "Q009",
+ "run": 1,
+ "question": "Nên mở tài khoản chứng khoán ở công ty nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:32:26",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 27.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1affc-de8d-7711-9971-13dba848d97e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-a40116f5-9cdd-4b24-95c8-493e9d10abbd",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-a40116f5-9cdd-4b24-95c8-493e9d10abbd",
+    "type": "web_search",
+    "query": "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026",
+      "site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở",
+      "site.tcbs.com.vn phí giao dịch cổ phiếu zero fee",
+      "site.hsc.com.vn biểu phí giao dịch chứng khoán trực tuyến"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Phí giao dịch chứng khoán cơ sở tại VNDIRECT phụ thuộc vào gói tài khoản Quý khách đăng ký: ... Ngoài phí giao dịch chứng",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Bi%E1%BB%83u-ph%C3%AD-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-c%C6%A1-s%E1%BB%9F"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "1 | Giao dịch cơ sở và giao dịch chứng quyền không do VNDIRECT phát hành* | Phí bậc thang từ 0,15%/GTGD ... 3 |",
+      "title": "Biểu phí dịch vụ giao dịch chứng khoán tại VNDIRECT - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "#### Zero Fee – Miễn phí giao dịch Miễn phí giao dịch cổ phiếu cơ sở, phái sinh, chứng quyền và Chứng chỉ Quỹ niêm",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "a Tại sao TCBS thông báo miễn phí giao dịch cổ phiếu nhưng vẫn thu phí 0.03%? TCBS miễn phí giao dịch cổ phiếu (phần",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search12",
+      "snippet": "Đối với TCBS hiện nay khi giao dịch với chúng tôi phí giao dịch là zero. ... Mỗi khách hàng đều có một mức giá",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "https://tcbs.com.vn ... Liên kết tài khoản ngân hàng Techcombank để chuyển tiền tức thì không mất phí. ... Điểm mạnh lớn nhất của TCBS là",
+      "title": "Review TCBS Securities: Có nên mở tài khoản TCBS không? (2026) | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-tcbs-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Giao dịch chứng khoán ... * BIỂU PHÍ ... * Biểu giá dịch vụ giao dịch trái phiếu riêng lẻ đăng ký giao dịch",
+      "title": "Dịch vụ chứng khoán khách hàng cá nhân",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.24hmoney.vn",
+      "ref_id": "turn0search13",
+      "snippet": "TCBS tiếp tục theo đuổi chiến lược \"zero-fee\" với chính sách miễn phí giao dịch toàn bộ sản phẩm cổ phiếu, phái sinh, chứng quyền",
+      "title": "TCBS | BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://cdn.24hmoney.vn/upload/file/2026-1/2026-03-28/no-name-1774639451.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Quý khách vui lòng truy cập tại link sau https://trade.vndirect.com.vn/chung-khoan/lo-le-hose ... - Đối với cổ phiếu niêm yết sàn HSX/HNX: Là giá đóng cửa (giá",
+      "title": "Nguyên tắc giao dịch – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/38641828396953-Nguy%C3%AAn-t%E1%BA%AFc-giao-d%E1%BB%8Bch"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Giao dịch trực tuyến qua internet, ứng dụng di động: Có / Không ... Giao dịch qua tổng đài điện thoại SSI Contact Center với",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Accopening/SSI_VHTT_H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20m%E1%BB%9F%20t%C3%A0i%20kho%E1%BA%A3n_VI_KH%281%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Chính sách Zero Fee từ 2023 miễn phí giao dịch cổ phiếu, phái sinh, chứng quyền và chứng chỉ quỹ, chỉ thu 0,03% nộp Sở.",
+      "title": "Đánh giá TCBS 2026: phí 0%, Margin 789, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "DWEALTH DMA VNVALUE | Minimum investment amount: 20,000,000 VND | Free registration fee PFee for portfolio management: 1.5% / year",
+      "title": "Biểu phí dịch vụ - Các dịch vụ của VNDIRECTCông ty cổ phần chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/en/service-fee-schedule/"
+     },
+     {
+      "type": "text_result",
+      "domain": "alexgroup.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Cụ thể, TCBS áp dụng chính sách \"Zero-Fee\", miễn phí hoàn toàn dịch vụ môi giới đối với các giao dịch cổ phiếu, chứng chỉ",
+      "title": "Tại sao nên mở tài khoản giao dịch chứng khoán với TechcomSecurities?",
+      "url": "https://alexgroup.vn/tai-sao-nen-mo-tai-khoan-giao-dich-chung-khoan-voi-techcomsecurities"
+     },
+     {
+      "type": "text_result",
+      "domain": "hoidap.edu.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Hướng dẫn cách đọc Bảng giá chứng khoán cơ sở tại VNDIRECT; Hướng dẫn xác nhận lệnh trên Bảng giá ; Hướng dẫn giao dịch",
+      "title": "BẢNG GIÁ GIAO DỊCH TRỰC TUYẾN VNDIRECT - VNDIRECT Support Center",
+      "url": "https://hoidap.edu.vn/detail/bang-gia-giao-dich-truc-tuyen-vndirect-vndirect-support-center"
+     },
+     {
+      "type": "text_result",
+      "domain": "mobiv2.fireant.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Đặt lệnh Cổ phiếu qua Techcombank Mobile Banking App, gọi tắt là TCBM: TCBS cung cấp hành trình giao dịch tiện lợi, bắt đầu với",
+      "title": "62\n\nTCBS | BÁO CÁO THƯỜNG NIÊN 2025  \nCHƯƠNG 03: B",
+      "url": "https://mobiv2.fireant.vn/News/NewsAttachedFile/1867216"
+     },
+     {
+      "type": "text_result",
+      "domain": "casin.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Phí giao dịch chứng khoán bên TCBS là bao nhiêu chính là tổng các khoản phí môi giới, thuế và phí lưu ký mà khách",
+      "title": "Phí giao dịch chứng khoán bên TCBS là bao nhiêu: Thông tin, Biểu phí, Ưu đãi và Cách tối ưu",
+      "url": "https://casin.vn/hoc/chung-khoan-co-ban/phi-giao-dich-chung-khoan-ben-tcbs-la-bao-nhieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "ĐẶT LỆNH CỔ PHIẾU",
+      "title": "HƯỚNG DẪN GIAO DỊCH CỔ PHIẾU",
+      "url": "https://www.tcbs.com.vn/documents/10181/320637/Huong%2Bdan%2Bgiao%2Bdich%2Bco%2Bphieu_iStock.pdf/0ce37a37-8dec-4acc-8615-302665574a9a"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Khách hàng đồng ý và chấp nhận việc Công ty chứng khoán được tự động trích nợ TKGD của Khách hàng để thanh toán phí",
+      "title": "1.7. “Hệ thống của Công ty chứng khoán” là hệ thống giao dịch điện tử mà Công ty chứng khoán triển khai sử dụng tại từng thời điểm, bao gồm nhưng không giới hạn trong internet, điện thoại, fax, email.",
+      "url": "https://help.tcbs.com.vn/wp-content/uploads/2023/03/MB11-QT.TKDT-TCBS-TC-tich-hop_Vi-N-Clean-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "Vì bác không là đối tượng, phân khúc của tcbs ấy, tcbs không có đội môi giới/sale/phục vụ bác như các bên khác, bù lại",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit19",
+      "snippet": "Không chỉ có phí giao dịch cực kỳ cạnh tranh mà công nghệ Robot cố vấn đầu tư được tích hợp vào TCinvest TCBS cũng",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit20",
+      "snippet": "Cty có dịch vụ nền tảng tốt (ví dụ như bảng giá của VNDirect, quy trình rút tiền đơn giản, app điện thoại thân thiện",
+      "title": "Khảo sát nhanh nhu cầu đầu tư chứng khoán",
+      "url": "https://www.reddit.com/r/vozforums/comments/1dtescc"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Nếu bạn mới bắt đầu đầu tư cổ phiếu tại Việt Nam, mình nghiêng về TCBS nếu tự giao dịch; SSI nếu muốn có người tư vấn hỗ trợ.** Không có công ty nào tốt nhất cho mọi nhu cầu.\n\n| Nhu cầu | Lựa chọn đáng cân nhắc | Lý do |\n|---|---|---|\n| **Tự mua bán, ưu tiên phí thấp** | **TCBS** | Miễn phần phí môi giới cổ phiếu, nhưng vẫn thu hộ phí Sở **0,03% giá trị giao dịch** — “zero fee” không có nghĩa là hoàn toàn không mất phí. [Biểu phí TCBS](https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226) |\n| **Muốn có chuyên viên tư vấn** | **SSI** | Có lựa chọn dịch vụ giao dịch chủ động hoặc có chuyên viên tư vấn, với biểu phí riêng. Nên hỏi rõ phí và phạm vi hỗ trợ trước khi đăng ký. [Dịch vụ SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu) |\n| **Muốn lựa chọn giữa tự giao dịch và môi giới chăm sóc** | **VNDIRECT** | Có gói DTA và DBA cho hai nhu cầu này; phí phụ thuộc gói tài khoản nên cần xác nhận đúng gói khi mở. [Thông tin VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/14623187438873) |\n\n**Nếu là mình chọn cho người mới:** bắt đầu bằng tài khoản tự giao dịch, dùng tiền nhàn rỗi và **chưa dùng margin — tức vay tiền mua chứng khoán**. Đừng chọn chỉ vì quà mở tài khoản hoặc lời hứa “phím hàng”.\n\nTrước khi nạp nhiều tiền, nên thử khoản nhỏ để kiểm tra đặt lệnh, nạp/rút và hỗ trợ khách hàng. Phí thấp quan trọng, nhưng trải nghiệm phù hợp cũng quan trọng không kém.\n\n**Bạn dự định đầu tư khoảng bao nhiêu, và muốn mua giữ dài hạn hay mua bán thường xuyên?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 26395,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 566,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1affc-de8d-7711-9971-13dba848d97e",
+ "error": ""
+}

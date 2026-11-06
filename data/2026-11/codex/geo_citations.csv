@@ -1,0 +1,558 @@
+﻿month,prompt_id,group,run,url,domain,source_type,page_type,entity,is_brand
+2026-11,Q001,1_kien_thuc,1,https://phs.vn/san-pham-dich-vu/huong-dan-giao-dich/62,phs.vn,doi_thu_ctck,san_pham,Phú Hưng,0
+2026-11,Q001,1_kien_thuc,2,https://help.tcbs.com.vn/ufaq/so-tien-toi-thieu-de-dau-tu-vao-co-phieu-la-bao-nhieu-3,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q001,1_kien_thuc,3,https://phs.vn/san-pham-dich-vu/huong-dan-giao-dich/62,phs.vn,doi_thu_ctck,san_pham,Phú Hưng,0
+2026-11,Q002,1_kien_thuc,1,https://investor.gov/introduction-investing,investor.gov,co_quan_nuoc_ngoai,khac,,0
+2026-11,Q002,1_kien_thuc,1,https://investor.gov/introduction-investing/getting-started/asset-allocation,investor.gov,co_quan_nuoc_ngoai,khac,,0
+2026-11,Q002,1_kien_thuc,2,https://syndication.finra.org/content/financial-tips-new-investors,syndication.finra.org,khac,khac,,0
+2026-11,Q002,1_kien_thuc,2,https://investor.gov/introduction-investing/getting-started/asset-allocation,investor.gov,co_quan_nuoc_ngoai,khac,,0
+2026-11,Q002,1_kien_thuc,2,https://investor.gov/introduction-investing/getting-started/understanding-fees,investor.gov,co_quan_nuoc_ngoai,bieu_phi,,0
+2026-11,Q002,1_kien_thuc,3,https://vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/tai-sao-toi-ban-co-phieu-ngay-hom-nay-ma-chua-rut-duoc-tien-ngay-lap-tuc,vps.com.vn,doi_thu_ctck,lien_he,VPS,0
+2026-11,Q002,1_kien_thuc,3,https://ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin,ssi.com.vn,doi_thu_ctck,margin,SSI,0
+2026-11,Q003,1_kien_thuc,1,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q003,1_kien_thuc,2,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q003,1_kien_thuc,3,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q004,1_kien_thuc,1,https://boardnew.hnx.vn/vi-vn/phai-sinh.html,boardnew.hnx.vn,co_quan_nha_nuoc,san_pham,,0
+2026-11,Q004,1_kien_thuc,1,https://support.vndirect.com.vn/hc/vi/articles/14609738392473-HƯỚNG-DẪN-GIAO-DỊCH-PHÁI-SINH,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q004,1_kien_thuc,1,https://vdsc.com.vn/data/download-attached-files/dich-vu-giao-dich-ky-quy--tich-hop-683282.pdf,vdsc.com.vn,doi_thu_ctck,margin,Rồng Việt,0
+2026-11,Q004,1_kien_thuc,2,https://web02.hnx.vn/vi-vn/thuat-ngu.html,web02.hnx.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q004,1_kien_thuc,2,https://vsdc.vn/vi/thong-tin-ky-quy,vsdc.vn,co_quan_nha_nuoc,margin,,0
+2026-11,Q004,1_kien_thuc,2,https://vdsc.com.vn/data/download-attached-files/dich-vu-giao-dich-ky-quy--tich-hop-683282.pdf,vdsc.com.vn,doi_thu_ctck,margin,Rồng Việt,0
+2026-11,Q004,1_kien_thuc,3,https://cms.hnx.vn/vi-vn/huong-dan/chi-tiet-thu-tuc-36-65.html,cms.hnx.vn,co_quan_nha_nuoc,blog,,0
+2026-11,Q004,1_kien_thuc,3,https://support.vndirect.com.vn/hc/vi/articles/13179589291673,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q004,1_kien_thuc,3,https://baochinhphu.vn/so-sanh-giua-giao-dich-chung-khoan-phai-sinh-va-giao-dich-co-phieu-102226163.htm,baochinhphu.vn,bao_chi,san_pham,,0
+2026-11,Q005,1_kien_thuc,1,https://vndirect.com.vn/margin-la-gi-va-luu-y-khi-su-dung-danh-cho-nha-dau-tu-f0,vndirect.com.vn,doi_thu_ctck,margin,VNDIRECT,0
+2026-11,Q005,1_kien_thuc,1,https://ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin,ssi.com.vn,doi_thu_ctck,margin,SSI,0
+2026-11,Q005,1_kien_thuc,1,https://bsc.com.vn/tin-tuc/tin-chi-tiet/95800-giao-dich-ky-quy-margin-la-gi,bsc.com.vn,doi_thu_ctck,margin,BSC,0
+2026-11,Q005,1_kien_thuc,2,https://ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin,ssi.com.vn,doi_thu_ctck,margin,SSI,0
+2026-11,Q005,1_kien_thuc,2,https://support.vndirect.com.vn/hc/vi/articles/40279362847257-FAQ-Giao-D%E1%BB%8Bch-K%C3%BD-Qu%E1%BB%B9-Margin-t%E1%BA%A1i-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,margin,VNDIRECT,0
+2026-11,Q005,1_kien_thuc,3,https://ssi.com.vn/khach-hang-ca-nhan/giao-dich-ky-quy,ssi.com.vn,doi_thu_ctck,margin,SSI,0
+2026-11,Q005,1_kien_thuc,3,https://help.tcbs.com.vn/hoi-nhanh-dap-hay/co-phieu/dich-vu-margin?Display_FAQ=36126,help.tcbs.com.vn,doi_thu_ctck,margin,TCBS,0
+2026-11,Q006,1_kien_thuc,1,https://vsdc.vn/vi/ad/152750,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q006,1_kien_thuc,1,https://support.vndirect.com.vn/hc/vi/articles/9816355920153-Chu-k%E1%BB%B3-thanh-to%C3%A1n-ch%E1%BB%A9ng-kho%C3%A1n,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q006,1_kien_thuc,2,https://vsdc.vn/vi/ad/152750,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q006,1_kien_thuc,3,https://vsdc.vn/vi/ad/152750,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q006,1_kien_thuc,3,https://support.vndirect.com.vn/hc/vi/articles/9816355920153-Chu-k%E1%BB%B3-thanh-to%C3%A1n-ch%E1%BB%A9ng-kho%C3%A1n,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q007,1_kien_thuc,1,https://vndirect.com.vn/chung-chi-quy,vndirect.com.vn,doi_thu_ctck,san_pham,VNDIRECT,0
+2026-11,Q007,1_kien_thuc,2,https://dragoncapitalprod.blob.core.windows.net/cms1public/DCDS-202601-VN.pdf,dragoncapitalprod.blob.core.windows.net,khac,khac,,0
+2026-11,Q007,1_kien_thuc,2,https://vinacapital.com/wp-content/uploads/2022/07/20220615-vlbf-ban-cao-bach-sua-doi-bo-sung-2022-signed.pdf,vinacapital.com,quy_dau_tu,khac,,0
+2026-11,Q007,1_kien_thuc,3,https://investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds,investor.gov,co_quan_nuoc_ngoai,san_pham,,0
+2026-11,Q007,1_kien_thuc,3,https://investor.gov/introduction-investing/getting-started/asset-allocation,investor.gov,co_quan_nuoc_ngoai,khac,,0
+2026-11,Q008,1_kien_thuc,1,https://xaydungchinhsach.chinhphu.vn/nong-bo-tai-chinh-khuyen-cao-cac-chu-the-tham-gia-thi-truong-trai-phieu-doanh-nghiep-119221114165946867.htm,xaydungchinhsach.chinhphu.vn,co_quan_nha_nuoc,san_pham,,0
+2026-11,Q008,1_kien_thuc,1,https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-luu-y-nha-dau-tu-5-van-de-khi-mua-trai-phieu-doanh-nghiep-11922090617013811.htm,xaydungchinhsach.chinhphu.vn,co_quan_nha_nuoc,san_pham,,0
+2026-11,Q008,1_kien_thuc,2,https://cbonds.hnx.vn/to-chuc-phat-hanh/danh-sach-trai-phieu,cbonds.hnx.vn,co_quan_nha_nuoc,san_pham,,0
+2026-11,Q008,1_kien_thuc,2,https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm,xaydungchinhsach.chinhphu.vn,co_quan_nha_nuoc,san_pham,,0
+2026-11,Q008,1_kien_thuc,3,https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm,xaydungchinhsach.chinhphu.vn,co_quan_nha_nuoc,san_pham,,0
+2026-11,Q008,1_kien_thuc,3,https://baochinhphu.vn/bo-tai-chinh-khuyen-nghi-cac-nha-dau-tu-can-luu-y-khi-tham-gia-thi-truong-trai-phieu-doanh-nghiep-102264389.htm,baochinhphu.vn,bao_chi,san_pham,,0
+2026-11,Q009,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q009,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q009,2_chon_ctck,1,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q009,2_chon_ctck,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q009,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q009,2_chon_ctck,2,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q009,2_chon_ctck,3,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q009,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q009,2_chon_ctck,3,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q009,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q009,2_chon_ctck,4,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q009,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q009,2_chon_ctck,5,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q009,2_chon_ctck,5,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q010,2_chon_ctck,1,https://reviewchungkhoan.com/so-sanh-phi-giao-dich-chung-khoan,reviewchungkhoan.com,toplist,bieu_phi,,0
+2026-11,Q010,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q010,2_chon_ctck,1,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q010,2_chon_ctck,2,https://reviewchungkhoan.com/cong-ty-chung-khoan-mien-phi-giao-dich,reviewchungkhoan.com,toplist,bieu_phi,,0
+2026-11,Q010,2_chon_ctck,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q010,2_chon_ctck,2,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q010,2_chon_ctck,3,https://dautuvn.vn/chung-khoan/dnse,dautuvn.vn,blog_kien_thuc,khac,,0
+2026-11,Q010,2_chon_ctck,3,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q010,2_chon_ctck,3,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q010,2_chon_ctck,4,https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf,cdn.dnse.com.vn,doi_thu_ctck,san_pham,DNSE,0
+2026-11,Q010,2_chon_ctck,4,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q010,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q010,2_chon_ctck,5,https://hdsd.dnse.com.vn/die-u-khoa-n-di-ch-vu-dnse/dieu-khoan-chuong-trinh-dnse-pro-club/dieu-khoan-chuong-trinh-tang-chung-chi-quy/cau-hoi-thuong-gap,hdsd.dnse.com.vn,doi_thu_ctck,san_pham,DNSE,0
+2026-11,Q010,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q010,2_chon_ctck,5,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q011,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q011,2_chon_ctck,1,https://support.vndirect.com.vn/hc/vi/articles/8197453152537-C%C3%A1c-n%E1%BB%81n-t%E1%BA%A3ng-giao-d%E1%BB%8Bch-t%E1%BA%A1i-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q011,2_chon_ctck,2,https://ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/trai-nghiem-ngay-ung-dung-moi-ra-mat-ssi-iboard-pro,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q011,2_chon_ctck,2,https://support.vndirect.com.vn/hc/vi/articles/38688580603673-D%E1%BB%8Bch-v%E1%BB%A5-ch%E1%BB%A9ng-kho%C3%A1n-VNDSTOCK,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,3,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q011,2_chon_ctck,3,https://ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/trai-nghiem-ngay-ung-dung-moi-ra-mat-ssi-iboard-pro,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q011,2_chon_ctck,3,https://support.vndirect.com.vn/hc/vi/articles/8197453152537-C%C3%A1c-n%E1%BB%81n-t%E1%BA%A3ng-giao-d%E1%BB%8Bch-t%E1%BA%A1i-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q011,2_chon_ctck,4,https://support.vndirect.com.vn/hc/vi/articles/8197453152537-Các-nền-tảng-giao-dịch-tại-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,4,https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Biểu-phí-giao-dịch-chứng-khoán-cơ-sở,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q011,2_chon_ctck,5,https://support.vndirect.com.vn/hc/vi/articles/8197453152537-Các-nền-tảng-giao-dịch-tại-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,5,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q011,2_chon_ctck,5,https://dautu.vndirect.com.vn/dstock,dautu.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q012,2_chon_ctck,1,https://thoibaotaichinhvietnam.vn/thi-phan-moi-gioi-quy-iii-vps-giu-ngoi-dau-ssi-va-tcbs-bam-sat-204889.html,thoibaotaichinhvietnam.vn,bao_chi,khac,,0
+2026-11,Q012,2_chon_ctck,2,https://taichinhcongnghe.vn/bai-viet/infographic-cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-eb763b,taichinhcongnghe.vn,khac,blog,,0
+2026-11,Q012,2_chon_ctck,2,https://tuoitre.vn/cong-ty-chung-khoan-lao-vao-cuoc-dua-luot-song-tren-san-kiem-dam-hon-27-000-ti-dong-20250626153437825.htm,tuoitre.vn,bao_chi,khac,,0
+2026-11,Q012,2_chon_ctck,3,https://baomoi.com/cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-c55514836.epi,baomoi.com,bao_chi,khac,,0
+2026-11,Q012,2_chon_ctck,3,https://vietnamreport.net/ACBS-tiep-tuc-duoc-vinh-danh-Top-10-Cong-ty-Chung-khoan-uy-tin-nam-2026-12546-1007.html,vietnamreport.net,xep_hang,khac,,0
+2026-11,Q012,2_chon_ctck,4,https://cafef.vn/du-lieu/hose-2991396/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.chn,cafef.vn,bao_chi,khac,,0
+2026-11,Q012,2_chon_ctck,4,https://baomoi.com/cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-c55514836.epi,baomoi.com,bao_chi,khac,,0
+2026-11,Q012,2_chon_ctck,5,https://web.stockbiz.vn/News/2026/10/5/1911404/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.aspx,web.stockbiz.vn,du_lieu_tai_chinh,blog,,0
+2026-11,Q013,2_chon_ctck,1,https://kisvn.vn/san-pham-margin,kisvn.vn,doi_thu_ctck,margin,KIS,0
+2026-11,Q013,2_chon_ctck,1,https://dnse.com.vn/san-pham/margin,dnse.com.vn,doi_thu_ctck,margin,DNSE,0
+2026-11,Q013,2_chon_ctck,1,https://kbbestie.kbsec.com.vn/,kbbestie.kbsec.com.vn,doi_thu_ctck,trang_chu,KBSV,0
+2026-11,Q013,2_chon_ctck,2,https://tcbs.com.vn/ca-nhan/uu-dai/margin-789,tcbs.com.vn,doi_thu_ctck,margin,TCBS,0
+2026-11,Q013,2_chon_ctck,2,https://vndirect.com.vn/bieu-phi-lai-margin,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q013,2_chon_ctck,2,https://vndirect.com.vn/tin_vndirect/cap-nhat-bieu-lai-suat-san-pham-t10,vndirect.com.vn,doi_thu_ctck,san_pham,VNDIRECT,0
+2026-11,Q013,2_chon_ctck,2,https://kafi.vn/,kafi.vn,doi_thu_ctck,trang_chu,Kafi,0
+2026-11,Q013,2_chon_ctck,2,https://vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai,vps.com.vn,doi_thu_ctck,margin,VPS,0
+2026-11,Q013,2_chon_ctck,3,https://dnse.com.vn/san-pham/margin,dnse.com.vn,doi_thu_ctck,margin,DNSE,0
+2026-11,Q013,2_chon_ctck,3,https://tcbs.com.vn/ca-nhan/uu-dai/margin-789,tcbs.com.vn,doi_thu_ctck,margin,TCBS,0
+2026-11,Q013,2_chon_ctck,3,https://vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai,vps.com.vn,doi_thu_ctck,margin,VPS,0
+2026-11,Q013,2_chon_ctck,3,https://vndirect.com.vn/bieu-phi-lai-margin,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q013,2_chon_ctck,4,https://dnse.com.vn/san-pham/margin,dnse.com.vn,doi_thu_ctck,margin,DNSE,0
+2026-11,Q013,2_chon_ctck,4,https://m.tinnhanhchungkhoan.vn/chung-khoan-an-binh-abs-huong-ung-xu-huong-ha-lai-suat-trien-khai-margin-69-plus-post396689.html,m.tinnhanhchungkhoan.vn,bao_chi,margin,,0
+2026-11,Q013,2_chon_ctck,4,https://tcbs.com.vn/tin-tuc/thong-bao-tu-tcbs/tcbs-thong-bao-ve-viec-thuc-hien-chinh-sach-uu-dai-mo-tai-khoan-kep-tcb-tcbs,tcbs.com.vn,doi_thu_ctck,mo_tai_khoan,TCBS,0
+2026-11,Q013,2_chon_ctck,4,https://kisvn.vn/en/san-pham-dich-vu/dich-vu-ho-tro-tai-chinh/san-pham-margin-k-11299,kisvn.vn,doi_thu_ctck,margin,KIS,0
+2026-11,Q013,2_chon_ctck,5,https://abs.vn/chuong-trinh-margin-6-9-plus,abs.vn,doi_thu_ctck,margin,An Bình,0
+2026-11,Q013,2_chon_ctck,5,https://dnse.com.vn/san-pham/margin,dnse.com.vn,doi_thu_ctck,margin,DNSE,0
+2026-11,Q013,2_chon_ctck,5,https://kisvn.vn/san-pham-margin,kisvn.vn,doi_thu_ctck,margin,KIS,0
+2026-11,Q014,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q014,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q014,2_chon_ctck,2,https://tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q014,2_chon_ctck,2,https://tcbs.com.vn/ve-chung-toi/iwealth-partner,tcbs.com.vn,doi_thu_ctck,gioi_thieu,TCBS,0
+2026-11,Q014,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q014,2_chon_ctck,3,https://tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q014,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q014,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q014,2_chon_ctck,4,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q014,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q015,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/nen-tang-giao-dich/nen-tang-mobile-trading/iboard-app,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q015,2_chon_ctck,1,https://tcbs.com.vn/documents/10181/757092/TCBS-Report-19-Aug-25-VN_byHSC.pdf,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q015,2_chon_ctck,1,https://vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/toi-co-the-giao-dich-co-phieu-tai-vps-qua-nen-tang-nao,vps.com.vn,doi_thu_ctck,lien_he,VPS,0
+2026-11,Q015,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/giao-dich-chung-khoan-iboard-pro,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q015,2_chon_ctck,2,https://help.tcbs.com.vn/ban-co-biet/su-dung-tinh-nang-tcinvest,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q015,2_chon_ctck,2,https://support.vndirect.com.vn/hc/vi/articles/8197453152537-Các-nền-tảng-giao-dịch-tại-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q015,2_chon_ctck,3,https://help.tcbs.com.vn/ban-co-biet/su-dung-tinh-nang-tcinvest,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q015,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/giao-dich-chung-khoan-iboard-app,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q015,2_chon_ctck,3,https://support.vndirect.com.vn/hc/vi/articles/7932326413721-FAQs-v%E1%BB%81-DSTOCK-APP,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q015,2_chon_ctck,4,https://help.tcbs.com.vn/lam-chu-giao-dien-tcinvest,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q015,2_chon_ctck,4,https://help.tcbs.com.vn/ban-co-biet/su-dung-tinh-nang-tcinvest,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q015,2_chon_ctck,4,https://support.vndirect.com.vn/hc/vi/articles/8197453152537-Các-nền-tảng-giao-dịch-tại-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q015,2_chon_ctck,4,https://ssi.com.vn/tin-tuc/tin-tuc-chung/ssi-thong-bao-dung-he-thong-giao-dich-truc-tuyen-iboard-lite-tu-ngay-01012025,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q015,2_chon_ctck,5,https://help.tcbs.com.vn/ban-co-biet/su-dung-tinh-nang-tcinvest,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q015,2_chon_ctck,5,https://support.vndirect.com.vn/hc/vi/articles/8197453152537,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q016,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q016,2_chon_ctck,1,https://pinetree.vn/wp-content/uploads/2026/11/PT_Schedules-of-fees_Dich-vu-chung-khoan_02112026.pdf,pinetree.vn,doi_thu_ctck,bieu_phi,Pinetree,0
+2026-11,Q016,2_chon_ctck,1,https://reviewchungkhoan.com/ctck/dnse,reviewchungkhoan.com,toplist,khac,,0
+2026-11,Q016,2_chon_ctck,1,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q016,2_chon_ctck,1,https://kisvn.vn/hoc-dau-tu/thue-ban-co-phieu,kisvn.vn,doi_thu_ctck,khac,KIS,0
+2026-11,Q016,2_chon_ctck,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q016,2_chon_ctck,2,https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf,cdn.dnse.com.vn,doi_thu_ctck,san_pham,DNSE,0
+2026-11,Q016,2_chon_ctck,2,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so,hdsd.dnse.com.vn,doi_thu_ctck,bieu_phi,DNSE,0
+2026-11,Q016,2_chon_ctck,2,https://pinetree.vn/wp-content/uploads/2026/11/PT_Schedules-of-fees_Dich-vu-chung-khoan_02112026.pdf,pinetree.vn,doi_thu_ctck,bieu_phi,Pinetree,0
+2026-11,Q016,2_chon_ctck,2,https://vpbanks.com.vn/trung-tam-kien-thuc/phi-giao-dich-chung-khoan,vpbanks.com.vn,doi_thu_ctck,bieu_phi,VPBankS,0
+2026-11,Q016,2_chon_ctck,3,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q016,2_chon_ctck,3,https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf,cdn.dnse.com.vn,doi_thu_ctck,san_pham,DNSE,0
+2026-11,Q016,2_chon_ctck,3,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so,hdsd.dnse.com.vn,doi_thu_ctck,bieu_phi,DNSE,0
+2026-11,Q016,2_chon_ctck,3,https://pinetree.vn/wp-content/uploads/2026/11/PT_Schedules-of-fees_Dich-vu-chung-khoan_02112026.pdf,pinetree.vn,doi_thu_ctck,bieu_phi,Pinetree,0
+2026-11,Q016,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q016,2_chon_ctck,4,https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf,cdn.dnse.com.vn,doi_thu_ctck,san_pham,DNSE,0
+2026-11,Q016,2_chon_ctck,4,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so,hdsd.dnse.com.vn,doi_thu_ctck,bieu_phi,DNSE,0
+2026-11,Q016,2_chon_ctck,4,https://pinetree.vn/wp-content/uploads/2026/11/PT_Schedules-of-fees_Dich-vu-chung-khoan_02112026.pdf,pinetree.vn,doi_thu_ctck,bieu_phi,Pinetree,0
+2026-11,Q016,2_chon_ctck,4,https://shinhansec.com.vn/uploads/Marketing/FAQ%20Promotion/FAQ-cap-nhat-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.pdf,shinhansec.com.vn,doi_thu_ctck,khac,Shinhan,0
+2026-11,Q016,2_chon_ctck,4,https://khoitaohanhtrinhdautu.kbsec.com.vn/,khoitaohanhtrinhdautu.kbsec.com.vn,doi_thu_ctck,trang_chu,KBSV,0
+2026-11,Q016,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q016,2_chon_ctck,5,https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf,cdn.dnse.com.vn,doi_thu_ctck,san_pham,DNSE,0
+2026-11,Q016,2_chon_ctck,5,https://shinhansec.com.vn/vi/ho-tro-khach-hang/chuong-trinh-uu-dai/136/phi-ma-thang-loi-voi-chuong-trinh-chon-shinhan-tron-doi-khong-phi-phien-ban-nam-2026.html,shinhansec.com.vn,doi_thu_ctck,lien_he,Shinhan,0
+2026-11,Q016,2_chon_ctck,5,https://pinetree.vn/post/dich-vu/chinh-sach-phi,pinetree.vn,doi_thu_ctck,khac,Pinetree,0
+2026-11,Q016,2_chon_ctck,5,https://sotay.aisec.com.vn/,sotay.aisec.com.vn,blog_kien_thuc,trang_chu,,0
+2026-11,Q017,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q017,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu-giao-dich/giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q017,2_chon_ctck,1,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q017,2_chon_ctck,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q017,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q017,2_chon_ctck,2,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q017,2_chon_ctck,3,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q017,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q017,2_chon_ctck,3,https://ssi.com.vn/mang-luoi,ssi.com.vn,doi_thu_ctck,lien_he,SSI,0
+2026-11,Q017,2_chon_ctck,3,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q017,2_chon_ctck,3,https://vndirect.com.vn/mang-luoi-chi-nhanh,vndirect.com.vn,doi_thu_ctck,lien_he,VNDIRECT,0
+2026-11,Q017,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q017,2_chon_ctck,4,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q017,2_chon_ctck,4,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q017,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q017,2_chon_ctck,5,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q017,2_chon_ctck,5,https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Biểu-phí-giao-dịch-chứng-khoán-cơ-sở,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q018,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu-giao-dich-faq,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q018,2_chon_ctck,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q018,2_chon_ctck,1,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q018,2_chon_ctck,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q018,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q018,2_chon_ctck,2,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q018,2_chon_ctck,3,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q018,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q018,2_chon_ctck,3,https://support.vndirect.com.vn/hc/vi/articles/14623187438873,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q018,2_chon_ctck,4,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q018,2_chon_ctck,4,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu-giao-dich/giao-dich-co-chuyen-vien-tu-van,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q018,2_chon_ctck,4,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q018,2_chon_ctck,5,https://ssi.com.vn/tin-tuc/tin-tuc-chung/thong-bao-dieu-chinh-hoat-dong-phuc-vu-giao-dich-truc-tiep-tai-quay-cua-ssi,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q018,2_chon_ctck,5,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q018,2_chon_ctck,5,https://register.hsc.com.vn/,register.hsc.com.vn,doi_thu_ctck,trang_chu,HSC,0
+2026-11,Q019,2_chon_ctck,1,https://hsc.com.vn/vi/khach-hang,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q019,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/gioi-thieu-mo-tai-khoan,ssi.com.vn,doi_thu_ctck,mo_tai_khoan,SSI,0
+2026-11,Q019,2_chon_ctck,1,https://vietcap.com.vn/dich-vu,vietcap.com.vn,doi_thu_ctck,khac,Vietcap,0
+2026-11,Q019,2_chon_ctck,1,https://vndirect.com.vn/san-pham-ca-nhan/dich-vu-dau-tu/quan-ly-tai-san-dau-tu/tu-van-giao-dich-chung-khoan,vndirect.com.vn,doi_thu_ctck,san_pham,VNDIRECT,0
+2026-11,Q019,2_chon_ctck,2,https://hsc.com.vn/vi/khach-hang,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q019,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q019,2_chon_ctck,2,https://vietcap.com.vn/dich-vu,vietcap.com.vn,doi_thu_ctck,khac,Vietcap,0
+2026-11,Q019,2_chon_ctck,2,https://mbs.com.vn/tu-van,mbs.com.vn,doi_thu_ctck,khac,MBS,0
+2026-11,Q019,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q019,2_chon_ctck,3,https://hsc.com.vn/vi/khach-hang,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q019,2_chon_ctck,3,https://vndirect.com.vn/dcare-dich-vu-chuyen-gia,vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q019,2_chon_ctck,4,https://hsc.com.vn/vi/khach-hang,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q019,2_chon_ctck,4,https://ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q019,2_chon_ctck,4,https://vndirect.com.vn/dcare-dich-vu-chuyen-gia,vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q019,2_chon_ctck,5,https://ssi.com.vn/khach-hang-ca-nhan/phan-tich-va-tu-van-dau-tu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q019,2_chon_ctck,5,https://hsc.com.vn/vi/khach-hang,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q019,2_chon_ctck,5,https://vietcap.com.vn/tu-van-khach-hang-ca-nhan,vietcap.com.vn,doi_thu_ctck,khac,Vietcap,0
+2026-11,Q019,2_chon_ctck,5,https://vndirect.com.vn/dcare-dich-vu-chuyen-gia,vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q020,2_chon_ctck,1,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q020,2_chon_ctck,1,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q020,2_chon_ctck,2,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q020,2_chon_ctck,2,https://thoibaotaichinhvietnam.vn/chung-khoan-ssi-uoc-dat-4-510-ty-dong-loi-nhuan-truoc-thue-sau-9-thang-205688.html,thoibaotaichinhvietnam.vn,bao_chi,khac,,0
+2026-11,Q020,2_chon_ctck,2,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-tai-chinh,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q020,2_chon_ctck,3,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q020,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q020,2_chon_ctck,3,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q020,2_chon_ctck,4,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q020,2_chon_ctck,4,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q020,2_chon_ctck,5,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q020,2_chon_ctck,5,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q021,3_phi_margin,1,https://flaw.vn/thue-chuyen-nhuong-chung-khoan-0-1-moi-lan-ban-cho-ca-nhan,flaw.vn,khac,khac,,0
+2026-11,Q021,3_phi_margin,1,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q021,3_phi_margin,1,https://shinhansec.com.vn/vi/ho-tro-khach-hang/phi-giao-dich.html,shinhansec.com.vn,doi_thu_ctck,bieu_phi,Shinhan,0
+2026-11,Q021,3_phi_margin,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan?Display_FAQ=33226,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q021,3_phi_margin,2,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q021,3_phi_margin,2,https://ssi.com.vn/upload/files/IR/20240905_SSI_Ban_cao_bach_chao_ban_CP_ra_cong_chung_Ban_cong_bo.pdf,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q021,3_phi_margin,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q021,3_phi_margin,3,https://hsc.com.vn/vi/dat-lenh,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q022,3_phi_margin,1,https://reviewchungkhoan.com/lai-suat-margin,reviewchungkhoan.com,toplist,margin,,0
+2026-11,Q022,3_phi_margin,1,https://ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q022,3_phi_margin,1,https://tcbs.com.vn/ca-nhan/uu-dai/gom-co-ve-nha,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q022,3_phi_margin,1,https://hsc.com.vn/vi/lai-suat-giao-dich-ky-quy,hsc.com.vn,doi_thu_ctck,margin,HSC,0
+2026-11,Q022,3_phi_margin,2,https://ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q022,3_phi_margin,2,https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo,tienphong.vn,bao_chi,margin,,0
+2026-11,Q022,3_phi_margin,2,https://vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai,vps.com.vn,doi_thu_ctck,margin,VPS,0
+2026-11,Q022,3_phi_margin,2,https://hsc.com.vn/vi/lai-suat-giao-dich-ky-quy,hsc.com.vn,doi_thu_ctck,margin,HSC,0
+2026-11,Q022,3_phi_margin,2,https://tcbs.com.vn/ca-nhan/uu-dai/gom-co-ve-nha,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q022,3_phi_margin,2,https://mbs.com.vn/uu-dai-lai-suat-7-5-doc-quyen-danh-rieng-cho-khach-hang-mo-moi-su-dung-dich-vu-giao-dich-chu-dong,mbs.com.vn,doi_thu_ctck,khac,MBS,0
+2026-11,Q022,3_phi_margin,3,https://ssi.com.vn/tin-tuc/tin-tuc-chung/dieu-chinh-goi-nhap-cuoc-voi-lai-suat-799-danh-cho-khach-hang-moi-va-kich-hoat-tro-lai,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q022,3_phi_margin,3,https://images.vps.com.vn/2026/files/cs-gdkq-022026-website-b8d1.pdf,images.vps.com.vn,doi_thu_ctck,khac,VPS,0
+2026-11,Q022,3_phi_margin,3,https://hsc.com.vn/vi/lai-suat-giao-dich-ky-quy,hsc.com.vn,doi_thu_ctck,margin,HSC,0
+2026-11,Q022,3_phi_margin,3,https://support.vndirect.com.vn/hc/vi/articles/360002244373-MARGIN-GIAO-D%E1%BB%8ACH-K%C3%9D-QU%E1%BB%B8-VNDIRECT,support.vndirect.com.vn,doi_thu_ctck,margin,VNDIRECT,0
+2026-11,Q022,3_phi_margin,3,https://vietcap.com.vn/tin-tuc/thong-bao-thay-doi-lai-suat-tu-ngay-01-09-2026,vietcap.com.vn,doi_thu_ctck,blog,Vietcap,0
+2026-11,Q022,3_phi_margin,3,https://vietcap.com.vn/san-pham-tai-chinh/huong-dan-chung-khoan-co-so/v89-goi-vay-uu-dai-8-9-nam,vietcap.com.vn,doi_thu_ctck,san_pham,Vietcap,0
+2026-11,Q022,3_phi_margin,3,https://tcbs.com.vn/ca-nhan/uu-dai/mo-khoa-uu-dai-margin,tcbs.com.vn,doi_thu_ctck,margin,TCBS,0
+2026-11,Q022,3_phi_margin,3,https://reviewchungkhoan.com/ctck/tcbs,reviewchungkhoan.com,toplist,khac,,0
+2026-11,Q023,3_phi_margin,1,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q023,3_phi_margin,2,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q023,3_phi_margin,3,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q024,3_phi_margin,1,https://thuonggiaonline.vn/lai-suat-margin-leo-thang-cuoc-choi-chung-khoan-khong-con-de-tho-post569011.amp,thuonggiaonline.vn,bao_chi,margin,,0
+2026-11,Q024,3_phi_margin,1,https://dsc.com.vn/kien-thuc/daytrading-la-gi,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q024,3_phi_margin,2,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q024,3_phi_margin,2,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q024,3_phi_margin,3,https://dsc.com.vn/kien-thuc/daytrading-la-gi,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q024,3_phi_margin,3,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q025,3_phi_margin,1,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q025,3_phi_margin,2,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q025,3_phi_margin,3,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q026,3_phi_margin,1,https://hsc.com.vn/fees-and-charges/underlying-market.html,hsc.com.vn,doi_thu_ctck,bieu_phi,HSC,0
+2026-11,Q026,3_phi_margin,1,https://bsc.com.vn/phi-giao-dich-qua-san,bsc.com.vn,doi_thu_ctck,bieu_phi,BSC,0
+2026-11,Q026,3_phi_margin,1,https://phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26,phs.vn,doi_thu_ctck,bieu_phi,Phú Hưng,0
+2026-11,Q026,3_phi_margin,2,https://xaydungchinhsach.chinhphu.vn/thue-thu-nhap-ca-nhan-doi-voi-thu-nhap-tu-chuyen-nhuong-chung-khoan-119260703164200344.htm,xaydungchinhsach.chinhphu.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q026,3_phi_margin,2,https://mbs.com.vn/bieu-phi-giao-dich,mbs.com.vn,doi_thu_ctck,bieu_phi,MBS,0
+2026-11,Q026,3_phi_margin,2,https://hsc.com.vn/vi/truyen-thong/thong-bao-quy-dinh-thue-tncn-doi-voi-co-phieu-thuong-va-co-phieu-esop,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q026,3_phi_margin,3,https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/09/tt-111.pdf,datafiles.chinhphu.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q026,3_phi_margin,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q026,3_phi_margin,3,https://phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26,phs.vn,doi_thu_ctck,bieu_phi,Phú Hưng,0
+2026-11,Q026,3_phi_margin,3,https://vietcap.com.vn/tin-tuc/thong-bao-thuc-hien-khau-tru-thue-thu-nhap-ca-nhan-doi-voi-co-phieu-thuong-va-co-phieu-phat-hanh-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-esop,vietcap.com.vn,doi_thu_ctck,blog,Vietcap,0
+2026-11,Q027,3_phi_margin,1,https://vdsc.com.vn/en/individual/fee-schedule/custody-services-z4,vdsc.com.vn,doi_thu_ctck,bieu_phi,Rồng Việt,0
+2026-11,Q027,3_phi_margin,1,https://vtgs.vn/luu-ky,vtgs.vn,doi_thu_ctck,khac,,0
+2026-11,Q027,3_phi_margin,1,https://vfs.com.vn/luu-ky-chung-khoan-la-gi,vfs.com.vn,doi_thu_ctck,khac,VFS,0
+2026-11,Q027,3_phi_margin,2,https://vdsc.com.vn/ca-nhan/bieu-phi/dich-vu-luu-ky-z4,vdsc.com.vn,doi_thu_ctck,bieu_phi,Rồng Việt,0
+2026-11,Q027,3_phi_margin,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-luu-ky,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q028,3_phi_margin,1,https://tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q028,3_phi_margin,1,https://hdsd.vpbanks.com.vn/phai-sinh/bieu-phi-dich-vu-giao-dich-phai-sinh,hdsd.vpbanks.com.vn,doi_thu_ctck,bieu_phi,VPBankS,0
+2026-11,Q028,3_phi_margin,1,https://mbs.com.vn/bieu-phi-giao-dich-chung-khoan-phai-sinh,mbs.com.vn,doi_thu_ctck,bieu_phi,MBS,0
+2026-11,Q028,3_phi_margin,2,https://tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q028,3_phi_margin,2,https://hdsd.vpbanks.com.vn/phai-sinh/bieu-phi-dich-vu-giao-dich-phai-sinh,hdsd.vpbanks.com.vn,doi_thu_ctck,bieu_phi,VPBankS,0
+2026-11,Q028,3_phi_margin,2,https://fpts.com.vn/ho-tro-khach-hang/dich-vu-tai-chinh/bieu-phi-dich-vu/giao-dich-chung-khoan-phai-sinh,fpts.com.vn,doi_thu_ctck,bieu_phi,FPTS,0
+2026-11,Q028,3_phi_margin,3,https://tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q028,3_phi_margin,3,https://hsc.com.vn/vi/thong-bao-dieu-chinh-phi-giao-dich-phai-sinh,hsc.com.vn,doi_thu_ctck,bieu_phi,HSC,0
+2026-11,Q028,3_phi_margin,3,https://aisec.com.vn/service-tariff,aisec.com.vn,blog_kien_thuc,khac,,0
+2026-11,Q029,4_mo_tai_khoan,1,https://ssi.com.vn/khach-hang-ca-nhan/gioi-thieu-mo-tai-khoan,ssi.com.vn,doi_thu_ctck,mo_tai_khoan,SSI,0
+2026-11,Q029,4_mo_tai_khoan,1,https://support.vndirect.com.vn/hc/vi/articles/4413910748697,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q029,4_mo_tai_khoan,2,https://ssi.com.vn/khach-hang-ca-nhan/gioi-thieu-mo-tai-khoan,ssi.com.vn,doi_thu_ctck,mo_tai_khoan,SSI,0
+2026-11,Q029,4_mo_tai_khoan,2,https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q029,4_mo_tai_khoan,2,https://support.vndirect.com.vn/hc/vi/articles/4413910748697,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q029,4_mo_tai_khoan,2,https://ssi.com.vn/tin-tuc/tin-tuc-chung/huong-dan-tai-ung-dung-ssi-iboard-pro-va-xac-thuc-tai-khoan-tai-ssi,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q029,4_mo_tai_khoan,3,https://ssi.com.vn/khach-hang-ca-nhan/gioi-thieu-mo-tai-khoan,ssi.com.vn,doi_thu_ctck,mo_tai_khoan,SSI,0
+2026-11,Q029,4_mo_tai_khoan,3,https://support.vndirect.com.vn/hc/vi/articles/4413910748697,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q029,4_mo_tai_khoan,3,https://vndirect.com.vn/mo-tai-khoan-chung-khoan,vndirect.com.vn,doi_thu_ctck,mo_tai_khoan,VNDIRECT,0
+2026-11,Q030,4_mo_tai_khoan,2,https://tcbs.com.vn/mo-tai-khoan-giao-dich-chung-khoan/khi-mo-tai-khoan-sau-bao-lau-toi-co-the-giao-dich-uoc,tcbs.com.vn,doi_thu_ctck,mo_tai_khoan,TCBS,0
+2026-11,Q030,4_mo_tai_khoan,3,https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q031,4_mo_tai_khoan,1,https://dsc.com.vn/en/kien-thuc/cach-mo-tai-khoan-chung-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q031,4_mo_tai_khoan,2,https://vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi,vfs.com.vn,doi_thu_ctck,mo_tai_khoan,VFS,0
+2026-11,Q031,4_mo_tai_khoan,3,https://acbs.com.vn/blog/huong-dan-mo-tai-khoan-chung-khoan,acbs.com.vn,doi_thu_ctck,mo_tai_khoan,ACBS,0
+2026-11,Q032,4_mo_tai_khoan,1,https://vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai,vietcap.com.vn,doi_thu_ctck,blog,Vietcap,0
+2026-11,Q032,4_mo_tai_khoan,1,https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q032,4_mo_tai_khoan,1,https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep,acb.com.vn,ngan_hang_fintech,khac,,0
+2026-11,Q032,4_mo_tai_khoan,1,https://vbma.org.vn/storage/Th%C3%B4ng%20t%C6%B0%20M%E1%BB%9AI/2025/Th%C3%B4ng%20t%C6%B0%2003.2025.TT-NHNN.pdf,vbma.org.vn,hiep_hoi,khac,,0
+2026-11,Q032,4_mo_tai_khoan,2,https://vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai,vietcap.com.vn,doi_thu_ctck,blog,Vietcap,0
+2026-11,Q032,4_mo_tai_khoan,2,https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q032,4_mo_tai_khoan,2,https://help.tcbs.com.vn/mtk-ndt-nn-cu-tru,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q032,4_mo_tai_khoan,2,https://vanban.chinhphu.vn/?classid=1&docid=213677&orggroupid=4&pageid=27160,vanban.chinhphu.vn,co_quan_nha_nuoc,trang_chu,,0
+2026-11,Q032,4_mo_tai_khoan,2,https://vbma.org.vn/storage/Th%C3%B4ng%20t%C6%B0%20M%E1%BB%9AI/2025/Th%C3%B4ng%20t%C6%B0%2003.2025.TT-NHNN.pdf,vbma.org.vn,hiep_hoi,khac,,0
+2026-11,Q032,4_mo_tai_khoan,3,https://vietcap.com.vn/huong-dan-chung/tk-nuoc-ngoai,vietcap.com.vn,doi_thu_ctck,blog,Vietcap,0
+2026-11,Q032,4_mo_tai_khoan,3,https://vsdc.vn/vi/sd/MSqRltWUSpjFAgAn7Vkqdg,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q032,4_mo_tai_khoan,3,https://congbao.chinhphu.vn/van-ban/thong-tu-so-03-2025-tt-nhnn-44887/56328.htm,congbao.chinhphu.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q032,4_mo_tai_khoan,3,https://help.tcbs.com.vn/mtk-ndt-nn-cu-tru,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q032,4_mo_tai_khoan,3,https://help.tcbs.com.vn/mtk_ko_cu_tru,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q032,4_mo_tai_khoan,3,https://tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-cho-khnn,tcbs.com.vn,doi_thu_ctck,mo_tai_khoan,TCBS,0
+2026-11,Q033,4_mo_tai_khoan,1,https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162142843,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q033,4_mo_tai_khoan,2,https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162142843,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q033,4_mo_tai_khoan,3,https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162142843,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q034,4_mo_tai_khoan,1,https://dsc.com.vn/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,1,https://dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,1,https://dsc.com.vn/dich-vu/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,2,https://dsc.com.vn/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,2,https://dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,2,https://dsc.com.vn/dich-vu/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,3,https://dsc.com.vn/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,3,https://dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q034,4_mo_tai_khoan,3,https://dsc.com.vn/dich-vu/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q035,4_mo_tai_khoan,1,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-khac,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q035,4_mo_tai_khoan,1,https://vndirect.com.vn/mo-tai-khoan-chung-khoan,vndirect.com.vn,doi_thu_ctck,mo_tai_khoan,VNDIRECT,0
+2026-11,Q035,4_mo_tai_khoan,1,https://vndirect.com.vn/bieu-phi-tai-khoan-da,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q035,4_mo_tai_khoan,2,https://ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-dich-vu-khac,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q035,4_mo_tai_khoan,2,https://vndirect.com.vn/mo-tai-khoan-chung-khoan,vndirect.com.vn,doi_thu_ctck,mo_tai_khoan,VNDIRECT,0
+2026-11,Q035,4_mo_tai_khoan,2,https://vndirect.com.vn/bieu-phi-tai-khoan-da,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q035,4_mo_tai_khoan,3,https://ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-dich-vu-khac,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q036,4_mo_tai_khoan,1,https://mbs.com.vn/muon-mo-tai-khoan-chung-khoan-online-thi-lam-the-nao,mbs.com.vn,doi_thu_ctck,mo_tai_khoan,MBS,0
+2026-11,Q036,4_mo_tai_khoan,2,https://mbs.com.vn/huong-dan,mbs.com.vn,doi_thu_ctck,blog,MBS,0
+2026-11,Q036,4_mo_tai_khoan,2,https://help.tcbs.com.vn/mo-tai-khoan-truc-tuyen-cho-khach-hang-ca-nhan-trong-nuoc,help.tcbs.com.vn,doi_thu_ctck,mo_tai_khoan,TCBS,0
+2026-11,Q036,4_mo_tai_khoan,3,https://mbs.com.vn/muon-mo-tai-khoan-chung-khoan-online-thi-lam-the-nao,mbs.com.vn,doi_thu_ctck,mo_tai_khoan,MBS,0
+2026-11,Q037,5_san_pham,1,https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx,dautu.dragoncapital.com.vn,quy_dau_tu,mo_tai_khoan,,0
+2026-11,Q037,5_san_pham,1,https://vinacapital.com/vi,vinacapital.com,quy_dau_tu,khac,,0
+2026-11,Q037,5_san_pham,1,https://ssi.com.vn/khach-hang-ca-nhan/san-pham/chung-chi-quy,ssi.com.vn,doi_thu_ctck,san_pham,SSI,0
+2026-11,Q037,5_san_pham,1,https://wm.vinacapital.com/vi/investment-education,wm.vinacapital.com,quy_dau_tu,khac,,0
+2026-11,Q037,5_san_pham,2,https://vcbf.com/quy-mo/cach-thuc-dau-tu-vao-quy-mo-1/cach-thuc-dau-tu,vcbf.com,quy_dau_tu,khac,,0
+2026-11,Q037,5_san_pham,2,https://wm.vinacapital.com/vi/distribution-agents,wm.vinacapital.com,quy_dau_tu,khac,,0
+2026-11,Q037,5_san_pham,3,https://wm.vinacapital.com/vi/investment-education/using-vinacapital-mio-app,wm.vinacapital.com,quy_dau_tu,khac,,0
+2026-11,Q037,5_san_pham,3,https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx,dautu.dragoncapital.com.vn,quy_dau_tu,mo_tai_khoan,,0
+2026-11,Q037,5_san_pham,3,https://vinacapital.com/vi,vinacapital.com,quy_dau_tu,khac,,0
+2026-11,Q037,5_san_pham,3,https://baochinhphu.vn/vinacapital-canh-bao-lua-dao-mao-danh-de-keu-goi-dau-tu-102260115115951044.htm,baochinhphu.vn,bao_chi,khac,,0
+2026-11,Q038,5_san_pham,1,https://tcbs.com.vn/ca-nhan/san-pham,tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q038,5_san_pham,1,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q038,5_san_pham,1,https://cbonds.hnx.vn/,cbonds.hnx.vn,co_quan_nha_nuoc,trang_chu,,0
+2026-11,Q038,5_san_pham,2,https://help.tcbs.com.vn/trai-phieu-ibond,help.tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q038,5_san_pham,2,https://vndirect.com.vn/trai-phieu,vndirect.com.vn,doi_thu_ctck,san_pham,VNDIRECT,0
+2026-11,Q038,5_san_pham,3,https://tcbs.com.vn/ca-nhan/trai-phieu-ibond?openArticle=showArticle,tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q038,5_san_pham,3,https://cbonds.hnx.vn/,cbonds.hnx.vn,co_quan_nha_nuoc,trang_chu,,0
+2026-11,Q038,5_san_pham,3,https://hnx.vn/vi-vn/hoi-dap.html,hnx.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q039,5_san_pham,1,https://tcbs.com.vn/ca-nhan/san-pham/dau-tu-dinh-ky,tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q039,5_san_pham,1,https://fpts.com.vn/ho-tro-khach-hang/giao-dich-chung-khoan/huong-dan-giao-dich-co-phieu/dat-lenh-giao-dich/dat-lenh-giao-dich-lo-le,fpts.com.vn,doi_thu_ctck,lien_he,FPTS,0
+2026-11,Q039,5_san_pham,2,https://help.tcbs.com.vn/hoi-nhanh-dap-hay/co-phieu/nguyen-tac-giao-dich,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q039,5_san_pham,2,https://tcbs.com.vn/ca-nhan/san-pham/dau-tu-dinh-ky,tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q039,5_san_pham,3,https://fpts.com.vn/san-pham-dich-vu/giao-dich-chung-khoan/giao-dich-chung-khoan/giao-dich-co-phieu,fpts.com.vn,doi_thu_ctck,san_pham,FPTS,0
+2026-11,Q039,5_san_pham,3,https://tcbs.com.vn/ca-nhan/san-pham/dau-tu-dinh-ky,tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q039,5_san_pham,3,https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx,dautu.dragoncapital.com.vn,quy_dau_tu,mo_tai_khoan,,0
+2026-11,Q039,5_san_pham,3,https://ssi.com.vn/tin-tuc/tin-tuc-chung/ssi-iboard-bo-sung-quy-dragon-capital-mo-rong-lua-chon-dau-tu-cho-nha-dau-tu,ssi.com.vn,doi_thu_ctck,blog,SSI,0
+2026-11,Q040,5_san_pham,1,https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf,images.vps.com.vn,doi_thu_ctck,bieu_phi,VPS,0
+2026-11,Q040,5_san_pham,1,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q040,5_san_pham,1,https://hsc.com.vn/vi/tai-khoan,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q040,5_san_pham,2,https://vps.com.vn/ca-nhan/san-pham-dich-vu/phai-sinh,vps.com.vn,doi_thu_ctck,san_pham,VPS,0
+2026-11,Q040,5_san_pham,2,https://ssi.com.vn/khach-hang-ca-nhan/giao-dich-chung-khoan-phai-sinh,ssi.com.vn,doi_thu_ctck,san_pham,SSI,0
+2026-11,Q040,5_san_pham,2,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q040,5_san_pham,3,https://vps.com.vn/ca-nhan/san-pham-dich-vu/phai-sinh,vps.com.vn,doi_thu_ctck,san_pham,VPS,0
+2026-11,Q040,5_san_pham,3,https://ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/huong-dan-giao-dich-phai-sinh,ssi.com.vn,doi_thu_ctck,san_pham,SSI,0
+2026-11,Q040,5_san_pham,3,https://ssi.com.vn/khach-hang-ca-nhan/dich-vu-giao-dich-faq,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q040,5_san_pham,3,https://vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect,vndirect.com.vn,doi_thu_ctck,bieu_phi,VNDIRECT,0
+2026-11,Q041,5_san_pham,1,https://support.vndirect.com.vn/hc/vi/articles/360003090733-Chứng-quyền-bảo-đảm-CW,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q041,5_san_pham,1,https://vietcap.com.vn/huong-dan-chung/mobile-dang-ky-mua-chung-quyen-co-dam-bao,vietcap.com.vn,doi_thu_ctck,mo_tai_khoan,Vietcap,0
+2026-11,Q041,5_san_pham,1,https://cw.phs.vn/faq,cw.phs.vn,doi_thu_ctck,khac,Phú Hưng,0
+2026-11,Q041,5_san_pham,2,https://support.vndirect.com.vn/hc/vi/articles/360003090733-Chứng-quyền-bảo-đảm-CW,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q041,5_san_pham,2,https://hsc.com.vn/vi/huong-dan-giao-dich-chung-quyen,hsc.com.vn,doi_thu_ctck,san_pham,HSC,0
+2026-11,Q041,5_san_pham,3,https://ssi.com.vn/khach-hang-ca-nhan/huong-dan-giao-dich-chung-quyen-co-bao-dam,ssi.com.vn,doi_thu_ctck,san_pham,SSI,0
+2026-11,Q041,5_san_pham,3,https://vietcap.com.vn/huong-dan-chung/mobile-dang-ky-mua-chung-quyen-co-dam-bao,vietcap.com.vn,doi_thu_ctck,mo_tai_khoan,Vietcap,0
+2026-11,Q041,5_san_pham,3,https://cw.phs.vn/faq,cw.phs.vn,doi_thu_ctck,khac,Phú Hưng,0
+2026-11,Q042,5_san_pham,1,https://tcbs.com.vn/isave/isave-tnc,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q042,5_san_pham,1,https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q042,5_san_pham,1,https://vndirect.com.vn/en/individual-customer/asset-portfolio/defense-assets/dfund,vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q042,5_san_pham,2,https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q042,5_san_pham,2,https://tcbs.com.vn/ca-nhan/san-pham,tcbs.com.vn,doi_thu_ctck,san_pham,TCBS,0
+2026-11,Q042,5_san_pham,2,https://tcbs.com.vn/isave/isave-tnc,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q042,5_san_pham,3,https://tcbs.com.vn/isave/isave-tnc,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q043,5_san_pham,1,https://vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan,vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q043,5_san_pham,1,https://ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-tai-chinh?tab=bieu-gia-dich-vu-ung-truoc-tien-ban,ssi.com.vn,doi_thu_ctck,bieu_phi,SSI,0
+2026-11,Q043,5_san_pham,2,https://hsc.com.vn/vi/ung-truoc-tien-ban-chung-khoan,hsc.com.vn,doi_thu_ctck,khac,HSC,0
+2026-11,Q043,5_san_pham,2,https://one.hsc.com.vn/sp/blogs/ung-truoc-tien-ban-chung-khoan,one.hsc.com.vn,doi_thu_ctck,blog,HSC,0
+2026-11,Q043,5_san_pham,3,https://support.vndirect.com.vn/hc/vi/articles/360002261634-Ứng-trước-tiền-bán,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q043,5_san_pham,3,https://vndirect.com.vn/tin_vndirect/thong-bao-dieu-chinh-lai-suat-ung-truoc-tien-ban-tu-thang-04-2026,vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q044,5_san_pham,1,https://dnse.com.vn/,dnse.com.vn,doi_thu_ctck,trang_chu,DNSE,0
+2026-11,Q044,5_san_pham,1,https://tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q044,5_san_pham,1,https://tcbs.com.vn/ca-nhan/he-thong,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q044,5_san_pham,1,https://mbs.com.vn/en/stocks,mbs.com.vn,doi_thu_ctck,khac,MBS,0
+2026-11,Q044,5_san_pham,1,https://support.vndirect.com.vn/hc/vi/articles/43227712395801,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q044,5_san_pham,2,https://tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q044,5_san_pham,2,https://dnse.com.vn/,dnse.com.vn,doi_thu_ctck,trang_chu,DNSE,0
+2026-11,Q044,5_san_pham,2,https://support.vndirect.com.vn/hc/vi/articles/43227712395801-Hướng-dẫn-sử-dụng-tính-năng-trợ-lý-thông-tin,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q044,5_san_pham,2,https://pinetree.vn/alphatrading/userguide/docs/new/home,pinetree.vn,doi_thu_ctck,khac,Pinetree,0
+2026-11,Q044,5_san_pham,3,https://cdn.dnse.com.vn/dnse-assets/CBTT/DSE%20-%20BCTN%202025.pdf,cdn.dnse.com.vn,doi_thu_ctck,khac,DNSE,0
+2026-11,Q044,5_san_pham,3,https://tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q044,5_san_pham,3,https://support.vndirect.com.vn/hc/vi/articles/54907972931353-Hướng-dẫn-đăng-ký-DSIP-tại-MYDGO,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q045,6_xac_minh,1,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q045,6_xac_minh,1,https://dsc.com.vn/thong-tin-co-phieu,dsc.com.vn,chinh_chu,khac,Chứng khoán DSC,1
+2026-11,Q045,6_xac_minh,1,https://dnse.com.vn/senses/tin-tuc/chung-khoan-dsc-bi-xu-phat-vi-cong-bo-thong-tin-khong-dung-thoi-han-35192229,dnse.com.vn,doi_thu_ctck,blog,DNSE,0
+2026-11,Q045,6_xac_minh,2,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q045,6_xac_minh,2,https://thoibaotaichinhvietnam.vn/chung-khoan-dsc-bi-xu-phat-gan-700-trieu-dong-do-nhieu-loi-vi-pham-trong-hoat-dong-chung-khoan-183085.html,thoibaotaichinhvietnam.vn,bao_chi,khac,,0
+2026-11,Q045,6_xac_minh,3,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q045,6_xac_minh,3,https://baodautu.vn/chung-khoan-dsc-bi-phat-den-700-trieu-dong-vi-vi-pham-hang-loat-quy-dinh-d383820.html,baodautu.vn,bao_chi,khac,,0
+2026-11,Q045,6_xac_minh,3,https://cafef.vn/chung-khoan-dsc-bi-xu-phat-vi-cong-bo-thong-tin-khong-dung-thoi-han-188260212133555009.chn,cafef.vn,bao_chi,khac,,0
+2026-11,Q045,6_xac_minh,4,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q045,6_xac_minh,4,https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&dDocName=APPSSCGOVVN1620157793&dID=164042,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q045,6_xac_minh,5,https://static2.vietstock.vn/vietstock/2026/4/17/m88_20260417_dsc_bc_baocaotaichinh_quy_11776413286225wnh95kk1.pdf,static2.vietstock.vn,bao_chi,khac,,0
+2026-11,Q045,6_xac_minh,5,https://thoibaotaichinhvietnam.vn/xu-phat-vi-pham-hanh-chinh-doi-voi-cong-ty-chung-khoan-dsc-156203.html,thoibaotaichinhvietnam.vn,bao_chi,khac,,0
+2026-11,Q045,6_xac_minh,5,https://cafef.vn/chung-khoan-dsc-bi-xu-phat-vi-cong-bo-thong-tin-khong-dung-thoi-han-188260212133555009.chn,cafef.vn,bao_chi,khac,,0
+2026-11,Q046,6_xac_minh,1,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,1,https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620159005,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,1,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q046,6_xac_minh,2,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,2,https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,2,https://congthuong.vn/nhung-chieu-thuc-lua-ga-tren-thi-truong-chung-khoan-246278.html,congthuong.vn,bao_chi,khac,,0
+2026-11,Q046,6_xac_minh,3,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,3,https://doanhnhan.baophapluat.vn/vuong-sai-pham-trong-hoat-dong-chung-khoan-va-quan-tri-doanh-nghiep-cong-ty-chung-khoan-dsc-dsc-bi-phat-hon-700-trieu-dong-86533.html,doanhnhan.baophapluat.vn,khac,khac,,0
+2026-11,Q046,6_xac_minh,3,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q046,6_xac_minh,4,https://staticfile.hsx.vn/Uploads/UploadDocuments/2425740/20251222%20-%20DSC%20-%20Quyet%20dinh%20thay%20doi%20niem%20yet.pdf,staticfile.hsx.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,4,https://fica.dantri.com.vn/chung-khoan/mao-danh-cong-ty-chung-khoan-de-lua-dao-20221223115529149.htm,fica.dantri.com.vn,bao_chi,khac,,0
+2026-11,Q046,6_xac_minh,4,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q046,6_xac_minh,5,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q046,6_xac_minh,5,https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620159005,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q047,6_xac_minh,1,https://dsc.com.vn/tin-tuc/dsc-dai-hoi-2026,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q047,6_xac_minh,1,https://fireant.vn/ma-chung-khoan/DSC/co-dong,fireant.vn,du_lieu_tai_chinh,khac,,0
+2026-11,Q047,6_xac_minh,2,https://dnse.com.vn/senses/tin-tuc/chu-tich-9x-cua-cong-ty-chung-khoan-vua-uoc-chap-thuan-niem-yet-tren-hose-la-ai-33902620,dnse.com.vn,doi_thu_ctck,blog,DNSE,0
+2026-11,Q047,6_xac_minh,2,https://nmquan.vn/data/ma/DSC/co-dong,nmquan.vn,blog_kien_thuc,khac,,0
+2026-11,Q047,6_xac_minh,2,https://fireant.vn/ma-chung-khoan/DSC/co-dong,fireant.vn,du_lieu_tai_chinh,khac,,0
+2026-11,Q047,6_xac_minh,3,https://dsc.com.vn/tin-tuc/dsc-dai-hoi-2026,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q047,6_xac_minh,3,https://fireant.vn/ma-chung-khoan/DSC/co-dong,fireant.vn,du_lieu_tai_chinh,khac,,0
+2026-11,Q047,6_xac_minh,3,https://dsc.com.vn/gioi-thieu,dsc.com.vn,chinh_chu,gioi_thieu,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,1,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,1,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,1,https://play.google.com/store/apps/details?hl=vi&id=com.dsctrading,play.google.com,app_store,khac,,0
+2026-11,Q048,6_xac_minh,1,https://dsc.com.vn/huong-dan/huong-dan-tai-app-dsc-trading-ios-va-android,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,2,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,2,https://apps.apple.com/vn/app/dsc-trading/id1555379533,apps.apple.com,app_store,khac,,0
+2026-11,Q048,6_xac_minh,2,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,3,https://apps.apple.com/vn/app/dsc-trading/id1555379533,apps.apple.com,app_store,khac,,0
+2026-11,Q048,6_xac_minh,3,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-cong-cu-no,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,3,https://dsc.com.vn/huong-dan/huong-dan-tai-app-dsc-trading-ios-va-android,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,4,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,4,https://apps.apple.com/vn/app/dsc-trading/id1555379533,apps.apple.com,app_store,khac,,0
+2026-11,Q048,6_xac_minh,4,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,5,https://play.google.com/store/apps/details?hl=vi&id=com.dsctrading,play.google.com,app_store,khac,,0
+2026-11,Q048,6_xac_minh,5,https://apps.apple.com/vn/app/dsc-trading/id1555379533,apps.apple.com,app_store,khac,,0
+2026-11,Q048,6_xac_minh,5,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q048,6_xac_minh,5,https://dsc.com.vn/huong-dan/huong-dan-tai-app-dsc-trading-ios-va-android,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q049,6_xac_minh,1,https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q049,6_xac_minh,1,https://vsdc.vn/vi/ad/194372,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q049,6_xac_minh,2,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q049,6_xac_minh,3,https://extgw.dsc.com.vn/eback/uploads/240321_DSC_Tai_lieu_hop_DHDCD_Final_7308a20963.pdf,extgw.dsc.com.vn,chinh_chu,khac,Chứng khoán DSC,1
+2026-11,Q049,6_xac_minh,3,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q049,6_xac_minh,3,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q050,6_xac_minh,1,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q050,6_xac_minh,2,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q050,6_xac_minh,3,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,1,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,1,https://dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,1,https://elearn.dsc.com.vn/huong-dan,elearn.dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,1,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,2,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,2,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,2,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,3,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,3,https://dsc.com.vn/dich-vu/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,3,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,4,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,4,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,4,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,4,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,5,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,5,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q051,6_xac_minh,5,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,1,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q052,6_xac_minh,1,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,1,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,2,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q052,6_xac_minh,2,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,2,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,3,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,3,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,4,https://dsc.com.vn/bieu-phi,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,4,https://dsc.com.vn/tin-tuc/dsc-dai-hoi-2026,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,4,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,5,https://vsdc.vn/vi/md/8229,vsdc.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q052,6_xac_minh,5,https://dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet,dsc.com.vn,chinh_chu,bieu_phi,Chứng khoán DSC,1
+2026-11,Q052,6_xac_minh,5,https://dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy,dsc.com.vn,chinh_chu,margin,Chứng khoán DSC,1
+2026-11,Q053,7_van_hanh,1,https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf,extgw.dsc.com.vn,chinh_chu,khac,Chứng khoán DSC,1
+2026-11,Q053,7_van_hanh,1,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q053,7_van_hanh,2,https://dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q053,7_van_hanh,2,https://dsc.com.vn/huong-dan/nop-tien,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q053,7_van_hanh,3,https://dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q053,7_van_hanh,3,https://dsc.com.vn/huong-dan/nop-tien,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q054,7_van_hanh,1,https://dsc.com.vn/huong-dan/huong-dan-chuyen-tien-tren-app-dsc-trading,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q054,7_van_hanh,1,https://dsc.com.vn/huong-dan/rut-tien,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q054,7_van_hanh,2,https://dsc.com.vn/huong-dan/rut-tien,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q054,7_van_hanh,3,https://dsc.com.vn/huong-dan/rut-tien,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q054,7_van_hanh,3,https://dsc.com.vn/huong-dan/huong-dan-chuyen-tien-tren-app-dsc-trading,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q055,7_van_hanh,1,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q055,7_van_hanh,1,https://dsc.com.vn/lien-he,dsc.com.vn,chinh_chu,lien_he,Chứng khoán DSC,1
+2026-11,Q055,7_van_hanh,2,https://dsc.com.vn/huong-dan,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q055,7_van_hanh,2,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q055,7_van_hanh,3,https://dsc.com.vn/lien-he,dsc.com.vn,chinh_chu,lien_he,Chứng khoán DSC,1
+2026-11,Q056,7_van_hanh,1,https://dsc.com.vn/quan-he-co-dong/thong-tin-lien-he,dsc.com.vn,chinh_chu,gioi_thieu,Chứng khoán DSC,1
+2026-11,Q056,7_van_hanh,2,https://dsc.com.vn/quan-he-co-dong/thong-tin-lien-he,dsc.com.vn,chinh_chu,gioi_thieu,Chứng khoán DSC,1
+2026-11,Q056,7_van_hanh,3,https://dsc.com.vn/lien-he,dsc.com.vn,chinh_chu,lien_he,Chứng khoán DSC,1
+2026-11,Q057,7_van_hanh,1,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q057,7_van_hanh,1,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q057,7_van_hanh,1,https://support.vndirect.com.vn/hc/vi/articles/360002241873-Quy-định-giao-dịch-tại-sàn-HNX,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q057,7_van_hanh,1,https://ssi.com.vn/en/individual-customer/transaction-regulation-on-upcom,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q057,7_van_hanh,2,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q057,7_van_hanh,2,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hnx,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q057,7_van_hanh,2,https://upcom.hnx.vn/vi-vn/hoi-dap.html,upcom.hnx.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q057,7_van_hanh,3,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q057,7_van_hanh,3,https://support.vndirect.com.vn/hc/vi/articles/360002241873-Quy-định-giao-dịch-tại-sàn-HNX,support.vndirect.com.vn,doi_thu_ctck,khac,VNDIRECT,0
+2026-11,Q057,7_van_hanh,3,https://ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-upcom,ssi.com.vn,doi_thu_ctck,khac,SSI,0
+2026-11,Q058,7_van_hanh,1,https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen,help.tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q058,7_van_hanh,1,https://vsdportal.navisoft.com.vn/vi/fa,vsdportal.navisoft.com.vn,khac,khac,,0
+2026-11,Q058,7_van_hanh,2,https://tcbs.com.vn/ca-nhan/krx,tcbs.com.vn,doi_thu_ctck,khac,TCBS,0
+2026-11,Q058,7_van_hanh,2,https://aseansc.com.vn/huong-dan-ho-tro/huong-dan-chuyen-khoan-chung-khoan,aseansc.com.vn,doi_thu_ctck,lien_he,ASEAN Securities,0
+2026-11,Q058,7_van_hanh,2,https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan,help.tcbs.com.vn,doi_thu_ctck,bieu_phi,TCBS,0
+2026-11,Q058,7_van_hanh,3,https://vsdportal.navisoft.com.vn/vi/fa,vsdportal.navisoft.com.vn,khac,khac,,0
+2026-11,Q058,7_van_hanh,3,https://tcsc.vn/vi/support,tcsc.vn,doi_thu_ctck,khac,,0
+2026-11,Q059,7_van_hanh,1,https://ssc.gov.vn/,ssc.gov.vn,co_quan_nha_nuoc,trang_chu,,0
+2026-11,Q059,7_van_hanh,1,https://ssc.gov.vn/webcenter/portal/ssc/pages_r/l/chitit?dDocName=APPSSCGOVVN1620164519,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q059,7_van_hanh,2,https://mof.gov.vn/btcvn/co-cau-to-chuc/uy-ban-chung-khoan-nha-nuoc,mof.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q059,7_van_hanh,2,https://mof.gov.vn/bo-tai-chinh/thong-bao-chi-dao-dieu-hanh/uy-ban-chung-khoan-nha-nuoc-thong-bao-tuyen-dung,mof.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q059,7_van_hanh,2,https://vanban.org/van-ban/luat-chung-khoan-2019-54-2019-qh14,vanban.org,phap_ly,khac,,0
+2026-11,Q059,7_van_hanh,3,https://ssc.gov.vn/webcenter/portal/ubck,ssc.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q059,7_van_hanh,3,https://mof.gov.vn/btcvn/co-cau-to-chuc/uy-ban-chung-khoan-nha-nuoc,mof.gov.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q059,7_van_hanh,3,https://congbao.chinhphu.vn/tai-ve-van-ban-so-24-vbhn-vpqh-44452-55459?format=pdf,congbao.chinhphu.vn,co_quan_nha_nuoc,khac,,0
+2026-11,Q060,7_van_hanh,1,https://trading.dsc.com.vn/,trading.dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,1,https://dsc.com.vn/huong-dan/huong-dan-lay-lai-mat-khau-dang-nhap-tren-web,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,1,https://dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,1,https://dsc.com.vn/,dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,2,https://trading.dsc.com.vn/,trading.dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,2,https://dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,2,https://dsc.com.vn/huong-dan/tra-soat-tien,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,3,https://trading.dsc.com.vn/,trading.dsc.com.vn,chinh_chu,trang_chu,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,3,https://dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web,dsc.com.vn,chinh_chu,blog,Chứng khoán DSC,1
+2026-11,Q060,7_van_hanh,3,https://dsc.com.vn/dich-vu/mo-tai-khoan,dsc.com.vn,chinh_chu,mo_tai_khoan,Chứng khoán DSC,1

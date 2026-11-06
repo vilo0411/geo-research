@@ -1,0 +1,340 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q059-r1",
+ "prompt_id": "Q059",
+ "run": 1,
+ "question": "Khiếu nại công ty chứng khoán ở đâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:11:28",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 31.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b020-96b7-72d3-acd3-f37ed49c4ad9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-c22cffbd-9f69-4f62-821a-4cc7877559e0",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-c22cffbd-9f69-4f62-821a-4cc7877559e0",
+    "type": "web_search",
+    "query": "site.ubcknn.gov.vn tiếp nhận phản ánh kiến nghị khiếu nại công ty chứng khoán ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ubcknn.gov.vn tiếp nhận phản ánh kiến nghị khiếu nại công ty chứng khoán",
+      "site.hnx.vn nhà đầu tư khiếu nại công ty chứng khoán UBCKNN"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search0",
+      "snippet": "### UBCKNN cảnh báo về việc giả mạo thông tin Công ty TNHH quản lý quỹ đầu tư chứng khoán Vietcombank ... ### HOSE dự",
+      "title": "Nhà đầu tư - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/m/nhadautu"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbao.cdnchinhphu.vn",
+      "ref_id": "turn0search12",
+      "snippet": "chỉ | 2.5 Yêu cầu người đến khiếu nại, tố cáo, kiến nghị, phản ánh nêu None | , số căn cước hoặc giấy chứng",
+      "title": "Ký bởi: CÔNG BÁO NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://congbao.cdnchinhphu.vn/180507251028987904/2026/3/30/469115-1774605500_v1_1774865110_signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search1",
+      "snippet": "3 | API | Công ty cổ phần Đầu tư Châu á - Thái Bình Dương | 10/09/2026 | - Chứng khoán thuộc diện bị",
+      "title": "Danh sách chứng khoán",
+      "url": "https://www.hnx.vn/vi-vn/co-phieu-etfs/chung-khoan-ny-khong-ky-quy.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Phương thức phân phốiChào bán cổ phiếu ra công chúng thông qua đấu giá.- Tổ chức thực hiện bán đấu giá: Sở Giao dịch chứng",
+      "title": "ỦY BAN CHỨNG KHOÁN NHÀ NƯỚC CẤP GIẤY CHỨNG NHẬN ĐĂNG",
+      "url": "https://owa.hnx.vn/ftp/PORTALNEW/HEADER_IMAGES/20250908/2.%20Ban%20cao%20bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search2",
+      "snippet": "3 | APS | Công ty Cổ phần Chứng khoán Châu Á - Thái Bình Dương | Kiểm soát ... 1 | 19/10/2026 08:55 |",
+      "title": "Danh sách chứng khoán",
+      "url": "https://www.hnx.vn/vi-vn/co-phieu-etfs/chung-khoan-ny-thong-tin.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mof.gov.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Theo báo cáo kết quả triển khai Chương trình thực hiện các chỉ tiêu Đề án 06 giai đoạn 2026-2030 của Bộ Tài chính, UBCKNN",
+      "title": "Cổng thông tin điện tử Bộ Tài Chính",
+      "url": "https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/hoat-dong-quan-ly/uy-ban-chung-khoan-nha-nuoc-day-nhanh-so-hoa-nganh-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "cms.hnx.vn",
+      "ref_id": "turn0search4",
+      "snippet": "4 | 10/09/2026 14:59 | BCF | Quyết định về việc chấp thuận thay đổi đăng ký niêm yết cổ phiếu của Công ty cổ",
+      "title": "Thông tin công bố",
+      "url": "https://cms.hnx.vn/vi-vn/thong-tin-cong-bo-ny-hnx.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "- Kiểm soát chặt chẽ việc ban hành thủ tục hành chính (TTHC), nâng cao hiệu quả công tác phối hợp giữa các đơn vị",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620164497"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search6",
+      "snippet": "### UBCKNN cấp Giấy chứng nhận đăng ký chào bán thêm cổ phiếu ra công chúng của Công ty cổ phần Nước Thủ Dầu Một",
+      "title": "Hoạt động phát hành - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/m/tintc-skin/hotngphthnh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* > Danh sách chứng khoán ... * Danh sách cảnh báo NĐT ... STT | Mã CK | Tên tổ chức phát hành |",
+      "title": "Danh sách chứng khoán",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chung-khoan-uc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Công ty cổphần Đầu tựvà Xây dựng Vina2 có quyền khiếu nại hoặc khởi kiện hành chính đối với Quyết định này theo quy định",
+      "title": "ỦYBAN CHÚNG KHOÁN NHÀNƯỚC",
+      "url": "https://static2.vietstock.vn/vietstock/2024/2/23/92ms71__1__quyet_dinh_xu_phat_vi_pham_hanh_chinh_cua_ubck_nn.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbtd.hnx.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* [Input] APS - Công ty Cổ phần Chứng khoán Châu Á - Thái Bình Dương * [Input] ATS - Công ty cổ phần Tập",
+      "title": "Danh sách chứng khoán",
+      "url": "https://cbtd.hnx.vn/vi-vn/cophieu-etfs/chung-khoan-ny.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Từ ngày 08/3/2024, Ủy ban Chứng khoán Nhà nước (UBCKNN) sẽ vận hành Hệ thống công bố thông tin (CBTT) một đầu mối áp dụng",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620142296"
+     },
+     {
+      "type": "text_result",
+      "domain": "shn.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "- UBCKNN : Ủy ban Chứng khoán Nhà nước - HNX : Sở giao dịch chứng khoán Hà Nội ... - CIMS : Hệ thống",
+      "title": "CHƯƠNG I: QUY ĐỊNH CHUNG",
+      "url": "https://shn.com.vn/wp-content/uploads/2020/08/2020.09.08-Quy-che-cong-bo-thong-tin.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hnx.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* > Danh sách chứng khoán ... * Danh sách cảnh báo NĐT ... STT | Mã CK | Tên tổ chức phát hành |",
+      "title": "Danh sách chứng khoán",
+      "url": "https://hnx.vn/vi-vn/co-phieu-etfs/chung-khoan-uc-moi.html"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-e393c8fe-1411-4ac4-96fd-935e27a03b15",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-e393c8fe-1411-4ac4-96fd-935e27a03b15",
+    "type": "web_search",
+    "query": "site.ssc.gov.vn \"164\" \"Trần Quang Khải\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssc.gov.vn \"164\" \"Trần Quang Khải\"",
+      "site.ssc.gov.vn \"tranh chấp\" \"trọng tài\" \"Tòa án\"",
+      "site.ssc.gov.vn \"tiếp công dân\" \"đơn\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Ủy ban Chứng khoán Nhà nước, Số 164 Trần Quang Khải, Phường Hoàn Kiếm, Thành phố Hà Nội. ... - Có tối thiểu 10 khách",
+      "title": "2\n\nb) Địa điểm triển khai:  \nỦy ban Chứng khoán Nh",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620164764&dID=173100&filename=CV+166+SMS_CDS_GuiCongTy_BaoGia_ThueDV2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "chinhphu.vn",
+      "ref_id": "turn1search0",
+      "snippet": "#### Quyết định số 401/TTG của Thủ tướng Chính phủ: QĐ. chuyển giao trụ sở Bộ Thuỷ Lợi cũ tại 164 Trần Quang Khải Hà",
+      "title": "Quyết định số 401/TTG của Thủ tướng Chính phủ: QĐ. chuyển giao trụ sở Bộ Thuỷ Lợi cũ tại 164 Trần Quang Khải Hà Nội cho UB Chứng khoán Nhà nuớc.",
+      "url": "https://chinhphu.vn/default.aspx?docid=3643&pageid=27160"
+     },
+     {
+      "type": "text_result",
+      "domain": "dichvucong.gov.vn",
+      "ref_id": "turn1search1",
+      "snippet": "+ Trường hợp khiếu nại, tố cáo thuộc thẩm quyền giải quyết của cơ quan, tổ chức, đơn vị mình và đủ điều kiện thụ",
+      "title": "Cổng Dịch vụ công Quốc gia",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.001909"
+     },
+     {
+      "type": "text_result",
+      "domain": "vanban.binhthuan.gov.vn",
+      "ref_id": "turn1search13",
+      "snippet": "STT 144 | Tên đường Từ Văn Tư | Từ Nguyễn Hội | Đến Trần Hưng Đạo | Hệ số 2,00 ... STT 161 |",
+      "title": "Số: 6/2023/QĐ-UBND",
+      "url": "https://vanban.binhthuan.gov.vn/thongtin/filedinhkem/download?maSo=a5ebe7beffc6c72b30009363e92175cb.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bocongan.gov.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Tại buổi tiếp, Thứ trưởng Lê Quốc Hùng đã lắng nghe các công dân trình bày những nội dung đơn thư khiếu nại, tố cáo,",
+      "title": "Lãnh đạo Bộ Công an tiếp công dân định kỳ tháng 9/2026",
+      "url": "https://www.bocongan.gov.vn/bai-viet/lanh-dao-bo-cong-an-tiep-cong-dan-dinh-ky-thang-9-2026-1789447171"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search14",
+      "snippet": "- Địa chỉ: số 164 Trần Quang Khải, Hoàn Kiếm, Hà Nội; ... - Email: hotrofms@ssc.gov.vn;",
+      "title": "Yeu cau he thong CNTT ctyck",
+      "url": "https://ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=D%E1%BB%B1+th%E1%BA%A3o+Quy+ch%E1%BA%BF+FMS&allowInterrupt=1&dDocName=APPSSCGOVVN162092943&dID=84747&filename=QuyChe_FMS_DuThao_28112014_Trinh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search3",
+      "snippet": "### Quyết định 245/QĐ-UBCK ban hành Quy chế sử sử dụng hệ thống công bố thông tin của Ủy ban Chứng khoán Nhà nước ...",
+      "title": "Home",
+      "url": "https://ssc.gov.vn/webcenter/portal/cbttsupport/pages_home"
+     },
+     {
+      "type": "text_result",
+      "domain": "dichvucong.gov.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Theo quy định tại điều 24 Luật tiếp công dân thì: Ban tiếp công dân ở trung ương, Ban tiếp công dân cấp tỉnh, Ban",
+      "title": "Cổng Dịch vụ công Quốc gia",
+      "url": "https://dichvucong.gov.vn/p/home/dvc-chi-tiet-cau-hoi.html?id=17502&row_limit=1"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Invitation to provide quotations for the independent audit severvices for the Overall IT system project serving the management and supervision functions of the SSC Public",
+      "title": "Detail",
+      "url": "https://ssc.gov.vn/webcenter/portal/ssc/pages_r/l/chitit?dDocName=APPSSCGOVVN1620164519"
+     },
+     {
+      "type": "text_result",
+      "domain": "baophapluat.vn",
+      "ref_id": "turn1search6",
+      "snippet": "(PLO) - Lãnh đạo Tổng Công ty Vật tư Nông nghiệp bất ngờ từ chối cung cấp thông tin, tài liệu về quy trình, thủ",
+      "title": "Thông tin bán đấu giá nhà 164 Trần Quang Khải bị phong tỏa | Báo Pháp Luật Việt Nam",
+      "url": "https://baophapluat.vn/thong-tin-ban-dau-gia-nha-164-tran-quang-khai-bi-phong-toa-post195324.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.energytransitionpartnership.org",
+      "ref_id": "turn1search15",
+      "snippet": "Vụ Pháp chế, Bộ Tài Chính tư vấn pháp lý và tham gia soạn thảo các văn bản pháp lý liên quan đến chính sách",
+      "title": "BÁO CÁO TỔNG QUAN:",
+      "url": "https://www.energytransitionpartnership.org/wp-content/uploads/2026/03/20231219_Stock-take-Report-and-Stakeholder-Mapping-final_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www2.en.baochinhphu.vn",
+      "ref_id": "turn1search7",
+      "snippet": "## (Chinhphu.vn) – Công tác xử lý đơn của công dân được Trụ sở Tiếp công dân Trung ương thực hiện hiệu quả, theo hướng",
+      "title": "Nâng cao hiệu quả xử lý khiếu nại, tố cáo của công dân",
+      "url": "https://www2.en.baochinhphu.vn/nang-cao-hieu-qua-xu-ly-khieu-nai-to-cao-cua-cong-dan-102260924120131289.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "binhphuoc.gov.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Nguyễn Thế Vinh | 58B/59/01 58B/92/07B | 1.0 0.3 | 1.2 0.3 | 250 | 12 21 | NR. ... Trần Quang Khải | 58B/59/01",
+      "title": "TỔNG CÔNG TY",
+      "url": "https://binhphuoc.gov.vn/vi/sct/khuyen-cong-tv-ptcn/ke-hoach-cung-cap-dien-nam-2024-tren-dia-ban-tinh-binh-phuoc-180.html?download=1&id=7"
+     },
+     {
+      "type": "text_result",
+      "domain": "cms.baochinhphu.vn",
+      "ref_id": "turn1search8",
+      "snippet": "## (Chinhphu.vn) - Trong 5 tháng đầu năm 2026, số lượt tiếp công dân và khối lượng công tác tiếp nhận, xử lý đơn thư",
+      "title": "Số lượt tiếp công dân, khối lượng xử lý đơn, thư tăng mạnh",
+      "url": "https://cms.baochinhphu.vn/so-luot-tiep-cong-dan-khoi-luong-xu-ly-don-thu-tang-manh-102260618105730743.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnba.org.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Việc giải quyết tranh chấp thông qua Tòa án và thi hành án dân sự còn gặp nhiều khó khăn, kéo dài thời gian xử",
+      "title": "Kỹ năng giải quyết tranh chấp trong lĩnh vực tài chính ngân hàng ngoài tòa án",
+      "url": "https://vnba.org.vn/vi/vnba/study/ky-nang-giai-quyet-tranh-chap-trong-linh-vuc-tai-chinh-ngan-hang-ngoai-toa-an-267.htm"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "Ở Việt Nam, **cơ quan quản lý để phản ánh sai phạm của công ty chứng khoán là Ủy ban Chứng khoán Nhà nước (UBCKNN)**. Tuy nhiên, nơi gửi phù hợp còn tùy việc bạn muốn giải quyết:\n\n### 1. Khiếu nại trực tiếp công ty chứng khoán\nGửi văn bản đến **bộ phận giải quyết khiếu nại/ban giám đốc công ty**, qua kênh chính thức. Nêu rõ sự việc, yêu cầu xử lý và đề nghị trả lời bằng văn bản; giữ lại bằng chứng đã gửi.\n\n### 2. Phản ánh dấu hiệu vi phạm đến UBCKNN\nNếu công ty không giải quyết thỏa đáng hoặc có dấu hiệu vi phạm quy định chứng khoán, bạn có thể gửi **đơn phản ánh, kiến nghị hoặc tố cáo tùy nội dung** tới:\n\n**Ủy ban Chứng khoán Nhà nước — 164 Trần Quang Khải, phường Hoàn Kiếm, Hà Nội.** Có thể gửi qua bưu điện; nếu đến trực tiếp, nên kiểm tra lịch tiếp công dân trên [website UBCKNN](https://ssc.gov.vn). [Nguồn xác nhận địa chỉ](https://ssc.gov.vn/webcenter/portal/ssc/pages_r/l/chitit?dDocName=APPSSCGOVVN1620164519).\n\n### 3. Nếu muốn đòi tiền, bồi thường hoặc nghi bị lừa đảo\n- **Tranh chấp hợp đồng, yêu cầu bồi thường:** có thể cần giải quyết tại **Tòa án hoặc trọng tài nếu có thỏa thuận phù hợp**; phản ánh đến cơ quan quản lý không thay thế việc giải quyết tranh chấp.\n- **Có dấu hiệu lừa đảo, chiếm đoạt tiền, giả mạo giao dịch:** trình báo **cơ quan công an**, không cần chờ công ty xử lý xong.\n\n**Hồ sơ nên có:** hợp đồng mở tài khoản, sao kê tiền/chứng khoán, lịch sử lệnh, ảnh chụp lỗi, email/tin nhắn và các lần khiếu nại trước đó.\n\nBạn đang khiếu nại **công ty nào, về vấn đề gì** — không rút được tiền, tự ý đặt lệnh, phí/margin hay lỗi hệ thống?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39174,
+    "cached_input_tokens": 27648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 659,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b020-96b7-72d3-acd3-f37ed49c4ad9",
+ "error": ""
+}

@@ -1,0 +1,160 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q020-r1",
+ "prompt_id": "Q020",
+ "run": 1,
+ "question": "Chứng khoán DSC hay SSI tốt hơn?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:50:28",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 34.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00d-5fe5-7e11-afdf-fd9e376cf592"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-21a6a139-142a-453e-bc0a-972d85bf9afd",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-21a6a139-142a-453e-bc0a-972d85bf9afd",
+    "type": "web_search",
+    "query": "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 SSI ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 SSI",
+      "site.dsc.com.vn biểu phí giao dịch chứng khoán lãi suất margin DSC"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu lãi suất giao dịch ký quỹ và ứng trước tiền bán ... Phí giao dịch chứng khoán niêm yết, Upcom | Cổ phiếu, chứng",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "(Qua nhân viên SSI) ... * Giá dịch vụ giao dịch trả Sở Giao dịch Chứng khoán Hà Nội (HNX), Trung tâm Lưu ký Chứng",
+      "title": "Biểu giá dịch vụ giao dịch chủ động",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Lưu ý: Để đảm bảo thanh toán khoản vay, tài khoản giao dịch chứng khoán có đủ tiền trước 16h30 của ngày thanh toán (không",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy?_ccrz_cb=e108f53d77df"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Margin transaction interest rates and sales advances ... Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Số TT | Loại Dịch vụ | Mức giá ... - Cổ phiếu của công ty đại chúng chưa niêm yết, đăng ký giao dịch",
+      "title": "Biểu giá dịch vụ áp dụng cho tkgd chứng khoán cơ sở",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-luu-ky"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "1 | Giao dịch chứng khoản ký quỹ (margin) | 13.9%/năm ... * Biểu lãi được áp dụng cho tới khi có thông báo điều",
+      "title": "Biểu lãi suất dịch vụ tài chính",
+      "url": "https://fhsc.com.vn/bieu-lai-suat-dich-vu-tai-chinh"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-800c931a-fd93-4001-aa56-0180ab4f717d",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-800c931a-fd93-4001-aa56-0180ab4f717d",
+    "type": "web_search",
+    "query": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 135",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 244",
+      "title": "Biểu giá dịch vụ giao dịch chủ động",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Nếu bạn hỏi để mở tài khoản giao dịch: DSC lợi hơn về phí tự giao dịch; SSI đáng cân nhắc nếu bạn cần hệ sinh thái dịch vụ đa dạng.** Không có bên nào tốt hơn ở mọi tiêu chí.\n\n| Tiêu chí | DSC | SSI |\n|---|---|---|\n| **Phí tự giao dịch** | **0,1%** với tài khoản do khối Tư vấn số quản lý | **0,15%** khi đặt lệnh online thuộc dịch vụ giao dịch chủ động |\n| **Có môi giới** | Phí công bố **0,15–0,3%**, tùy giá trị giao dịch/ngày | Cần xem đúng biểu phí dịch vụ có chuyên viên tư vấn |\n| **Nhu cầu phù hợp** | Tự chọn cổ phiếu, ưu tiên tiết kiệm phí | Muốn dùng thêm dịch vụ phân tích, tư vấn, nhiều loại sản phẩm |\n\nNguồn: [Biểu phí DSC](https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet), [biểu phí và dịch vụ SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong). Mức thực tế có thể khác theo gói và ưu đãi của tài khoản.\n\n**Ví dụ:** Mua 100 triệu rồi bán 100 triệu, phí giao dịch theo hai mức trên là **200.000đ tại DSC**, **300.000đ tại SSI**, chưa tính thuế và các khoản khác.\n\n**Mình sẽ chọn:**\n- **DSC** nếu tự đầu tư, không cần môi giới và ưu tiên phí.\n- **SSI** nếu muốn tìm hiểu, sử dụng nhiều dịch vụ hơn; nhưng nên trải nghiệm ứng dụng và người tư vấn trước.\n- **Nếu dùng margin:** phải so thêm lãi suất sau ưu đãi, danh mục cho vay và điều kiện xử lý tài sản, không chỉ phí mua bán.\n\nBạn đang muốn **chọn nơi mở tài khoản**, hay **so cổ phiếu DSC với SSI để đầu tư**? Hai câu này cần đánh giá khác nhau."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 35949,
+    "cached_input_tokens": 26880,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 644,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00d-5fe5-7e11-afdf-fd9e376cf592",
+ "error": ""
+}

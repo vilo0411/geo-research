@@ -1,0 +1,200 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q037-r2",
+ "prompt_id": "Q037",
+ "run": 2,
+ "question": "Mua chứng chỉ quỹ ở đâu uy tín?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:59:00",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 28.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b015-2cd4-7710-80cf-efd03f47c71f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5de703dd-de8c-4267-b835-a33e0ffd5ef5",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5de703dd-de8c-4267-b835-a33e0ffd5ef5",
+    "type": "web_search",
+    "query": "site.vsd.vn chứng chỉ quỹ mở đại lý phân phối nhà đầu tư ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn chứng chỉ quỹ mở đại lý phân phối nhà đầu tư",
+      "site.vcbf.com mua chứng chỉ quỹ VCBF đại lý phân phối",
+      "site.vinawealth.vn mua chứng chỉ quỹ VinaCapital MiO"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search12",
+      "snippet": "Tất cả các Điểm Nhận Lệnh bất kỳ được đề cập trong hướng dẫn về giao dịch Chứng Chỉ Quỹ ở các phần tiếp sau",
+      "title": "tại một Đại Lý Phân Phối ở bất kỳ Điểm Nhận Lệnh nào của Đại Lý Phân Phối đó.",
+      "url": "https://www.vcbf.com/images/2025/bcf_tbf_final_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search13",
+      "snippet": "Đại Lý Phân Phối không được chiết khấu, giảm giá giao dịch chứng chỉ quỹ dưới bất kỳ hình thức nào; không được tặng quà,",
+      "title": "6. Đại Lý Phân Phối không được chiết khấu, giảm giá giao dịch chứng chỉ quỹ dưới bất kỳ hình thức nào; không được tặng quà, sử dụng lợi ích vật chất hay tài chính dưới mọi hình thức để mời chào, dụ dỗ nhà đầu tư mua Chứng Chỉ Quỹ; không được yêu cầu, đòi hỏi hoặc tiếp nhận dưới danh nghĩa cá nhân hoặc danh nghĩa tổ chức, từ Công Ty Quản Lý Quỹ bất kỳ khoản thù lao, lợi nhuận, lợi ích nào để mời chào nhà đầu tư mua Chứng Chỉ Quỹ, ngoài các mức phí đã được công bố tại Bản Cáo Bạch và tại các hợp đồng phân phối ký với Công Ty Quản Lý Quỹ.",
+      "url": "https://www.vcbf.com/images/2021/210415_dieu_le_quy_vcbf-fif.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search0",
+      "snippet": "Đặt lệnh mua và Chuyển tiền thanh toán số tiền mua Chứng Chỉ Quỹ tới tài khoản của Quỹ mở tại Ngân Hàng Giám Sát.",
+      "title": "Cách Thức Đầu Tư Vào Quỹ Mở Hiệu Quả | VCBF",
+      "url": "https://www.vcbf.com/quy-mo/cach-thuc-dau-tu-vao-quy-mo-1/cach-thuc-dau-tu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search14",
+      "snippet": "Đại Lý Phân Phối không được tổng hợp, bù trừ lệnh giao dịch, không được trực tiếp nhận tiền và thanh toán giao dịch Chứng",
+      "title": "3. Có quy trình nghiệp vụ phân phối Chứng Chỉ Quỹ, bao gồm cả quy trình, thủ tục nhận biết, cập nhật thông tin, biện pháp xác minh thông tin về nhà đầu tư và người được hưởng lợi, quy tắc đạo đức nghề nghiệp áp dụng đối với nhân viên phân phối Chứng Chỉ Quỹ, quy định nội bộ nhằm ngăn ngừa hành vi sau thời điểm nhận lệnh, ngăn ngừa hành vi đầu cơ lợi dụng chênh lệch thời gian, lợi dụng việc định giá sai đơn vị quỹ theo thông lệ quốc tế.",
+      "url": "https://www.vcbf.com/images/2022/220415_dieu_le_quy_vcbf-mgf_1_.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcombank.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Mua chứng chỉ quỹ lần đầu: Khách hàng thực hiện điền vào Đơn Đăng ký, cung cấp giấy tờ tùy thân (có bản chính",
+      "title": "Quỹ mở - VCBF",
+      "url": "https://www.vietcombank.com.vn/KHCN/SPDV/Dau-tu/Quy-mo"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search2",
+      "snippet": "Trường hợp CHƯA CÓ tài khoản giao dịch chứng chỉ quỹ mở VCBF tại Đại lý Phân phối VCBF: ... Mọi thanh toán mua chứng",
+      "title": "Kênh Đầu Tư Quỹ Mở Hiệu Quả | VCBF",
+      "url": "https://www.vcbf.com/quy-mo/cac-quy-mo/quy-mo-hoan-toan-moi-1/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search15",
+      "snippet": "Bước 1: Nhà đầu tư (NĐT) thực hiện đăng ký mở tài khoản giao dịch đơn vị quỹ mở VCBF tại Đại lý phân phối",
+      "title": "Microsoft PowerPoint - QUY TRÌNH ÐANG KÝ MUA CH?NG CH? QU? VCBF-FIF",
+      "url": "https://www.vcbf.com/images/2019/quy-trinh-dang_ky-mua-chung-chi-quy-vcbf-fif.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "wm.vinacapital.com",
+      "ref_id": "turn0search3",
+      "snippet": "Thông qua các đại lý phân phối – bao gồm công ty chứng khoán và nền tảng fintech hàng đầu – Quý Nhà đầu tư",
+      "title": "Đại Lý Phân Phối",
+      "url": "https://wm.vinacapital.com/vi/distribution-agents/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vinacapital.com",
+      "ref_id": "turn0search16",
+      "snippet": "Nhà đầu tư mua Chứng chỉ Quỹ những lần tiếp theo cần điền đầy đủ vào phiếu Lệnh Mua được đính kèm theo Đơn Đăng",
+      "title": "PHỤ LỤC 01: QUY TRÌNH VÀ CÁC HƯỚNG DẪN GIAO DỊCH CHỨNG CHỈ QUỸ",
+      "url": "https://vinacapital.com/wp-content/uploads/2025/04/20241001_VDEF-Ban-cao-bach-sua-doi-bo-sung-10.2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn0search4",
+      "snippet": "Công ty TNHH Quản lý Quỹ Đầu tư Chứng khoán Vietcombank Tài liệu Đại hội NĐT thường niên Quỹ VCBF-AIF, VCBF-BCF, VCBF-FIF, VCBF-MGF và VCBF-TBF",
+      "title": "Tài Liệu Đhnđt 2026 Các Quỹ Mở Vcbf - vn | PDF",
+      "url": "https://www.scribd.com/document/1023382012/Tai-Li%E1%BB%87u-%C4%90hn%C4%91t-2026-Cac-Qu%E1%BB%B9-M%E1%BB%9F-Vcbf-vn"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbf.com",
+      "ref_id": "turn0search5",
+      "snippet": "Tiền của nhà đầu tư sẽ không phải do VCBF hay bất kỳ đại lý phân phối nào giữ mà phải được cất giữ tại",
+      "title": "Các Câu Hỏi Thường Gặp Về Đầu Tư Quỹ Mở | VCBF",
+      "url": "https://www.vcbf.com/quy-mo/hoi-dap/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search6",
+      "snippet": "Bạn mua chứng chỉ quỹ mở qua một đại lý phân phối mà công ty quản lý quỹ đã công bố: chính công ty quản",
+      "title": "Mua chứng chỉ quỹ ở đâu? So sánh app, CTCK, ngân hàng 2026",
+      "url": "https://reviewchungkhoan.com/mua-chung-chi-quy-o-dau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.momo.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Khách hàng đang sở hữu chứng chỉ quỹ VCBF-MGF, VCBF-FIF, VCBF-TBF, VCBF-BCF hoàn toàn có thể tiếp tục nắm giữ và giao dịch trực tiếp",
+      "title": "Hướng dẫn giao dịch đối với khách hàng đang sở hữu chứng chỉ quỹ VCBF-MGF, VCBF-FIF, VCBF-TBF, VCBF-BCF tại Chứng Chỉ Quỹ trên MoMo",
+      "url": "https://www.momo.vn/tin-tuc/thong-bao/huong-dan-giao-dich-doi-voi-khach-hang-dang-so-8769"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Quỹ sẽ sử dụng phương pháp tiếp cận từ dưới lên tức là từ phân tích các chỉ số cơ bản của công ty để",
+      "title": "Quỹ VCBF-BCF",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/quan-ly-quy/quy-vcbf-bcf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search9",
+      "snippet": "- Tổ chức đăng ký chứng khoán, công ty đại chúng đăng ký chứng khoán theo thỏa thuận với Tổng công ty Lưu ký và",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/is"
+     },
+     {
+      "type": "text_result",
+      "domain": "trading.vcbf.com",
+      "ref_id": "turn0search17",
+      "snippet": "Mọi thanh toán mua đơn vị quỹ thực hiện bằng đồng Việt Nam và nhà đầu tư thanh toán tiền mua đơn vị quỹ bằng",
+      "title": "Microsoft Word - HU?NG D?N CHUY?N TI?N QU? M? VCBF.20210802",
+      "url": "https://trading.vcbf.com/sso/cachchuyentien"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn muốn mua **chứng chỉ quỹ mở tại Việt Nam**, mình ưu tiên hai cách sau:\n\n| Nơi mua | Phù hợp với ai |\n|---|---|\n| **Trực tiếp tại công ty quản lý quỹ** | Người mới, muốn giao dịch và được hỗ trợ trực tiếp từ đơn vị quản lý |\n| **Đại lý phân phối được quỹ công bố chính thức** | Muốn xem, mua nhiều quỹ trên cùng một nền tảng |\n\n**Hai lựa chọn cụ thể để bạn tham khảo:**\n- **VCBF:** mua qua website giao dịch hoặc **VCBF Mobile**. Hướng dẫn chính thức có thông tin mở tài khoản và chuyển tiền vào tài khoản của quỹ tại ngân hàng giám sát. [Hướng dẫn VCBF](https://www.vcbf.com/quy-mo/cach-thuc-dau-tu-vao-quy-mo-1/cach-thuc-dau-tu/)\n- **VinaCapital:** mua qua **VinaCapital MiO** hoặc các đại lý trong danh sách do VinaCapital công bố. [Danh sách kênh phân phối](https://wm.vinacapital.com/vi/distribution-agents/)\n\n**Trước khi chuyển tiền, kiểm tra 4 điểm:**\n1. Vào website chính thức của công ty quản lý quỹ để lấy đường dẫn tải ứng dụng và xác minh đại lý.\n2. Chuyển tiền đúng tài khoản theo hướng dẫn chính thức; **không chuyển vào tài khoản cá nhân của người tư vấn**.\n3. Đọc phí mua/bán, thời gian nhận tiền khi bán và danh mục quỹ đầu tư.\n4. Không tin cam kết “lãi chắc chắn”: **nơi mua uy tín không có nghĩa là quỹ không thể thua lỗ**.\n\nNếu mới bắt đầu và chỉ định mua một bên, **mua trực tiếp tại công ty quản lý quỹ là cách đơn giản để kiểm tra thông tin và nhận hỗ trợ**.\n\nBạn dự định đầu tư khoảng bao nhiêu mỗi tháng, và có thể để tiền trong bao lâu?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22220,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 526,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b015-2cd4-7710-80cf-efd03f47c71f",
+ "error": ""
+}

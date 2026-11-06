@@ -1,0 +1,148 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q033-r3",
+ "prompt_id": "Q033",
+ "run": 3,
+ "question": "Có thể mở nhiều tài khoản chứng khoán ở nhiều công ty không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:57:47",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 15.8,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b014-125f-79d3-97f4-03162a10a388"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-dca2aa09-990b-4734-81e8-0a531d6d4b4c",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-dca2aa09-990b-4734-81e8-0a531d6d4b4c",
+    "type": "web_search",
+    "query": "Thông tư 120 2020 nhà đầu tư được mở nhiều tài khoản giao dịch chứng khoán mỗi công ty chứng khoán một tài khoản",
+    "action": {
+     "type": "search",
+     "query": "Thông tư 120 2020 nhà đầu tư được mở nhiều tài khoản giao dịch chứng khoán mỗi công ty chứng khoán một tài khoản"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Theo quy định tại khoản 2 Điều 6 Thông tư 120/2020/TT-BTC ngày 31/12/2020 của Bộ Tài chính quy định giao dịch cổ phiếu niêm yết,",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162142843"
+     },
+     {
+      "type": "text_result",
+      "domain": "vanban.org",
+      "ref_id": "turn0search1",
+      "snippet": "Nhà đầu tư chỉ được mở 01 tài khoản ký quỹ bù trừ tại thành viên bù trừ tương ứng với mỗi tài khoản giao",
+      "title": "Thông tư 120/2020/TT-BTC: Quy định giao dịch cổ phiếu niêm yết, đăng ký giao dịch và chứng chỉ quỹ, trái phiếu doanh nghiệp, chứng quyền có bảo đảm niêm yết trên hệ thống giao dịch chứng khoán (sửa đổi 2026)",
+      "url": "https://vanban.org/van-ban/thong-tu-120-2020-tt-btc-giao-dich-co-phieu-niem-yet-dang-ky-giao-dich-chung-chi"
+     },
+     {
+      "type": "text_result",
+      "domain": "files.thuvienphapluat.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Nhà đầu tư phải mở tài khoản giao dịch chứng khoán tại công ty chứng khoán là thành viên giao dịch để thực hiện giao",
+      "title": "Thong tu 120.doc",
+      "url": "https://files.thuvienphapluat.vn/Attachments/Thong-tu-120-2020-giao-dich-chung-khoan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "lawplayer.com",
+      "ref_id": "turn0search2",
+      "snippet": "Nhà đầu tư chỉ được đặt lệnh bán đối với chứng khoán được phép giao dịch đã có sẵn trên tài khoản lưu ký của",
+      "title": "Thông tư 120/2020/TT-BTC: Quy định giao dịch cổ phiếu niêm yết, đăng ký giao dịch và chứng chỉ quỹ, trái phiếu doanh nghiệp, chứng quyền có bảo đảm niêm yết trên hệ thống giao dịch chứng khoán — Toàn văn, cập nhật 2026 | LawPlayer",
+      "url": "https://lawplayer.com/vn/act/vn-vbpl-146448"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Công ty chứng khoán được mở tài khoản giao dịch chứng khoán theo nguyên tắc sau: a) Công ty chứng khoán có nghiệp vụ tự",
+      "title": "Thông tư 120/2020/TT-BTC giao dịch cổ phiếu niêm yết đăng ký giao dịch chứng khoán chứng chỉ quỹ mới nhất",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Thong-tu-120-2020-TT-BTC-giao-dich-co-phieu-niem-yet-dang-ky-giao-dich-chung-khoan-chung-chi-quy-451134.aspx?anchor=dieu_4"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Nhà đầu tư chỉ được đặt lệnh bán đối với chứng khoán được phép giao dịch đã có sẵn trên tài khoản lưu ký của",
+      "title": "Thông tư 120/2020/TT-BTC giao dịch cổ phiếu niêm yết đăng ký giao dịch chứng khoán chứng chỉ quỹ",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Circular-120-2020-TT-BTC-trading-of-listed-and-registered-shares-on-securities-trading-systems-464506.aspx?tab=1%3Ftab%3D7"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbaocdn.chinhphu.vn",
+      "ref_id": "turn0search13",
+      "snippet": "tắc tại mỗi công ty chứng khoán nhà đầu tư chỉ được mở 01 tài khoản giao dịch ... tương ứng với mỗi tài khoản",
+      "title": "Ký bởi: CÔNG BÁO NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://congbaocdn.chinhphu.vn/180507251028987904/2026/5/29/469538-1779683486_v1_1780016834_signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Theo quy định tại khoản 4 Điều 6 Thông tư 120/2020/TT-BTC ngày 31/12/2020 của Bộ Tài chính quy định giao dịch cổ phiếu niêm yết,",
+      "title": "Hỏi - Đáp pháp luật || Hỏi-đáp GDCK: Công ty QLQ đầu tư chứng khoán được mở bao nhiêu tài khoản giao dịch chứng khoán tại mỗi CTCK? (30/11/2021)",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162142844"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search6",
+      "snippet": "a) Nhà đầu tư mở tài khoản giao dịch chứng khoán tại công ty chứng khoán là thành viên giao dịch để thực hiện giao",
+      "title": "Quy định về tài khoản giao dịch chứng khoán mới nhất",
+      "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tu-van-phap-luat/33525/quy-dinh-ve-tai-khoan-giao-dich-chung-khoan?rel=tin_tuc_chitietvb"
+     },
+     {
+      "type": "text_result",
+      "domain": "onehousing.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Khoản 2 Điều 6 Thông tư 120/2020/TT-BTC quy định nhà đầu tư chỉ được mở một tài khoản giao dịch tài chính tại mỗi công",
+      "title": "Trường hợp nào nhà đầu tư được mở nhiều tài khoản giao dịch tại một công ty chứng khoán? | OneHousing",
+      "url": "https://onehousing.vn/blog/truong-hop-nao-nha-dau-tu-duoc-mo-nhieu-tai-khoan-giao-dich-tai-mot-cong-ty-chung-khoan-n17t"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Có. Bạn được mở tài khoản chứng khoán tại nhiều công ty khác nhau ở Việt Nam**, không phải đóng tài khoản cũ khi mở thêm ở công ty mới.\n\nNguyên tắc chung: **mỗi công ty chứng khoán chỉ được mở 01 tài khoản giao dịch**, trừ các trường hợp đặc biệt theo quy định. Căn cứ khoản 2 Điều 6 Thông tư 120/2020/TT-BTC, được [Ủy ban Chứng khoán Nhà nước giải đáp tại đây](https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162142843).\n\nVí dụ: Bạn có thể đồng thời có một tài khoản tại SSI, một tại VPS và một tại TCBS, đều đứng tên mình."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21912,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 234,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b014-125f-79d3-97f4-03162a10a388",
+ "error": ""
+}

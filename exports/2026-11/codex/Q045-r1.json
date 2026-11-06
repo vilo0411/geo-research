@@ -1,0 +1,386 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q045-r1",
+ "prompt_id": "Q045",
+ "run": 1,
+ "question": "Chứng khoán DSC có uy tín không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:03:05",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 38.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b018-ed66-7470-8b6a-8e64f23e412a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-b23483f3-6362-4556-9959-4724cf26f243",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-b23483f3-6362-4556-9959-4724cf26f243",
+    "type": "web_search",
+    "query": "DSC công ty chứng khoán DSC giấy phép HOSE 2025 2026 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "DSC công ty chứng khoán DSC giấy phép HOSE 2025 2026",
+      "chứng khoán DSC xử phạt 2025 2026 ủy ban chứng khoán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Cho giai đoạn từ ngày 22/11/2025 ... Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPHĐKD",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/17/20260417___dsc___cbtt_nq__bbh_dhdcd_2026__vi_en_.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "### DSC Công ty cổ phần Chứng khoán DSC #### HOSE ... DSC: Thị trường chứng khoán đi ngang \"không thiếu\" cơ hội đầu tư",
+      "title": "Thông tin cổ phiếu",
+      "url": "https://www.dsc.com.vn/thong-tin-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Tên tổ chức phát hành *(đầy đủ)*: CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... Giấy chứng nhận đăng ký doanh nghiệp mã số doanh",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/KHAC/VN/DSC_DIEULE_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://www.dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (DSC - Upcom) được thành lập vào Tháng 12/2006, Hội sở chính tại số 80 Dịch Vọng Hậu,",
+      "title": "DSC: Công ty Cổ phần Chứng khoán DSC (HOSE)",
+      "url": "https://cafef.vn/du-lieu/hose/dsc-cong-ty-co-phan-chung-khoan-dsc.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Cổ phiếu được giao dịch ký quỹ theo Thông báo ngày 01-10-2026 của HSX Công ty Cổ phần Chứng khoán DSC (DSC - Upcom) được",
+      "title": "DSC: Tải về tài liệu BCTC - Công ty Cổ phần Chứng khoán DSC",
+      "url": "https://cafef.vn/du-lieu/hose/dsc-tai-lieu.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Giấy phép hoạt động số: 29/UBCK-GPHĐKD, cấp bởi Ủy ban chứng khoán Nhà nước, cấp lần đầu ngày 18/12/2006 và các lần sửa đổi, điều",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/20250613_DSC_CBTT_Tai_lieu_lay_y_kien_CD_bang_VB_lan_01_nam_2025_WEB_trang_3dffe0cd61.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Áp dụng từ ngày 08/09/2026 ... 3 | AGR | HOSE | Công ty Cổ phần Chứng khoán AGRIBANK | 40% ... 5 | BAF",
+      "title": "Danh mục chứng khoán giao dịch ký quỹ DSC - Tỷ lệ cho vay ưu đãi, thủ tục nhanh chóng",
+      "url": "https://www.dsc.com.vn/dich-vu/danh-muc-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search5",
+      "snippet": "# Công ty Cổ phần Chứng khoán DSC (HOSE) Cổ phiếu được giao dịch ký quỹ theo Thông báo 1994/TB-SGDHCM ngày 02/10/2026 của HSX ...",
+      "url": "https://cafef.vn/du-lieu/DuLieu.aspx?cat_id=1009&san=hose&symbol=DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "stockbiz.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Chứng khoán DSC bị xử phạt 55 triệu đồng do có hành vi công bố thông tin không đúng thời hạn theo quy định pháp",
+      "title": "DSC: Chứng khoán DSC bị xử phạt vì công bố thông tin không đúng thời hạn · Stockbiz",
+      "url": "https://stockbiz.vn/tin-tuc/dsc-chung-khoan-dsc-bi-xu-phat-vi-cong-bo-thong-tin-khong-dung-thoi-han/38403486"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search7",
+      "snippet": "### 024 - Công ty cổ phần Chứng khoán DSC ... Giấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty chứng",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search8",
+      "snippet": "DSC: Nhận được thông báo về việc giao dịch chứng khoán thay đổi đăng ký niêm yết của HOSE Share Issue/Capital Change · Vietnamese |",
+      "title": "Công ty Cổ phần Chứng khoán DSC 2026 filings — annual reports & disclosures | FinancialFilings",
+      "url": "https://financialfilings.com/companies/cong-ty-co-phan-chung-khoan-dsc/2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search15",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... khoán Nhà nước cấp lần đầu ngày 18/12/2006 và các Giấy phép điều chỉnh liên quan. ...",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://rs.nguoiquansat.vn/news/DSC/20250325/DSC_20250325_644e8ef7-93ca-411b-ac31-1460caf616c4-50441955.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search9",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... 5 | 30/08/2024 17:18 | Công văn số 60/2024/RSM-CV ngày 29/08/2024 Của Công ty TNHH Kiểm Toán",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-uc-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* DSC: Giấy chứng nhận đăng ký địa điểm kinh doanh Vùng thay đổi lần thứ 2 và GXN thay đổi nội dung hoạt động",
+      "title": "DSC:Công ty Cổ phần Chứng khoán DSC (HOSE)",
+      "url": "https://cafef.vn/du-lieu/dsc/thong-tin-chung.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "trading.vietcap.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa ban hành quyết định xử phạt vi phạm hành chính đối với Công ty CP Chứng khoán",
+      "title": "DSC: Chứng khoán DSC bị phạt, triển vọng thu nhập quý 4 ra sao? - Chi tiết bài viết | Vietcap AI News",
+      "url": "https://trading.vietcap.com.vn/ai-news/post-detail/dsc-chung-khoan-dsc-bi-phat-trien-vong-thu-nhap-quy-4-ra-sao"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-bddd6507-6cb6-4dc9-9dae-29aefdf7be4d",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-bddd6507-6cb6-4dc9-9dae-29aefdf7be4d",
+    "type": "web_search",
+    "query": "site.ssc.gov.vn \"DSC\" \"712,5\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssc.gov.vn \"DSC\" \"712,5\"",
+      "site.dsc.com.vn \"90/QĐ-XPHC\"",
+      "site.ssc.gov.vn \"DSC\" \"2026\" \"55\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "CTCP Chứng khoán DSC (Chứng khoán DSC, MCK: DSC, sàn HoSE) vừa thông báo nhận được Quyết định số 90/QĐ-XPHC về việc xử phạt hành",
+      "title": "Chứng khoán DSC bị xử phạt vì công bố thông tin không đúng thời hạn",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/chung-khoan-dsc-bi-xu-phat-vi-cong-bo-thong-tin-khong-dung-thoi-han-35192229"
+     },
+     {
+      "type": "text_result",
+      "domain": "apdsc.net",
+      "ref_id": "turn1search1",
+      "snippet": "# AP DSC SA SGT Notification 2026 Out, 2111 Teacher Posts, Apply Online before 30 Nov 2026",
+      "title": "AP DSC SA SGT Notification 2026 Out, 2111 Teacher Posts, Apply Online Before 30 Nov 2026 - APDSC.NET Latest Jobs News Website [Govt, Private, Software, Job Mela Jobs Adda",
+      "url": "https://apdsc.net/ap-dsc-sa-sgt-notification-2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bundesnetzagentur.de",
+      "ref_id": "turn1search12",
+      "snippet": "The 2025 and 2026 budgets did not provide for any further posts for the DSC.",
+      "title": "Activity report 2025 of the Digital Services Coordinator in accordance with section 17 DDG and Article 55 of Regulation (EU) 2065/2022",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/DSC/3_Aktuell/Downloads/Taetigkeitsberichte/DSC_Bericht2025_EN.pdf?__blob=publicationFile&v=3"
+     },
+     {
+      "type": "text_result",
+      "domain": "uplc.up.gov.in",
+      "ref_id": "turn1search13",
+      "snippet": "DM Office DSC Progress Summary- 10-01-2026 45 | Kushinagar | 55 | | 55 | 0 | 55 | 0 | 55 | 55 |",
+      "title": "DM Office DSC Progress Summary- 10-01-2026 S. No | District Name | No of DSC Forms Received | Date of receiving forms | Forms Processed | Rejected Forms | Video Link Generated | No of Video Pending at District level | DSC Download | No of DSC Issued | Balance DSC (Kept in UPLC) | Remark",
+      "url": "https://uplc.up.gov.in/eoffice/Content/writereaddata/E_OfficeFiles/EOfficeUploadedReport_202601141412458851DM%20office%20DSC%20report%2010%20Jan%202026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hoankiem.hanoi.gov.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Không có dụng cụ thu gom, chứa đựng rác thải, chất thải bảo đảm vệ sinh 8.000.000 QĐ 90/QĐ-XPHC ... 9 CÔNG TY TNHH DỊCH",
+      "title": "Danh sách các cơ sở bị xử lý vi phạm hành chính về an toàn thực phẩm trên địa bàn phường Hoàn Kiếm",
+      "url": "https://hoankiem.hanoi.gov.vn/an-toan-thuc-pham/danh-sach-cac-co-so-bi-xu-ly-vi-pham-hanh-chinh-ve-an-toan-thuc-pham-tren-dia-ban-phuong-hoan-kiem-281226020411292765.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "static3.luatvietnam.vn",
+      "ref_id": "turn1search14",
+      "snippet": "xử phạt vi phạm hành chính (số 90/QĐ-XPHC ngày 05/5/2023) bằng hình thức:",
+      "title": "TÒA ÁN NHÂN DÂN",
+      "url": "https://static3.luatvietnam.vn/uploaded/LawJudgs/docs/2023/08/20/ban-an-36-2023-hs-st-210810.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dav.gov.vn",
+      "ref_id": "turn1search15",
+      "snippet": "PharmNgày 12/02/2018 Cục trưởng Cục Quản lý Dược đã ban hành Quyết định số 90/QĐ – XPHC xử phạt vi phạm hành chính Công ty",
+      "title": "Tin xử phạt vi phạm hành chính Công ty cổ phần Dược phẩm OPVNgày 05/12/2017 Cục trưởng Cục Quản lý Dược đã ban hành Quyết định số 554/QĐ–XPHC xử phạt vi phạm hành chính Công ty cổ phần Dược phẩm OPV, địa chỉ: số 27 đường 3A, Khu công nghiệp Biên Hòa II, tỉnh Đồng Nai.Tổng mức phạt tiền là 70 triệu đồng, về hành vi: Sản xuất thuốc viên nén",
+      "url": "https://dav.gov.vn/upload/attach/1632018_xpvphc_thang2.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vimda.moh.gov.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Số: D4.2026-DSC/BKQPL ... 15-45, 1-15-50, 1-15-55, 1-15-60, 1-15-65,",
+      "title": "CÔNG TY CỔPHẦN ĐẦU TƯ DSC VIỆT NAM",
+      "url": "https://vimda.moh.gov.vn/documents/10182/82412482/upload_00002702_1776999572159.pdf?fileId=82417850&version=1.0"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Căn cứ các quy định trên, trường hợp của ông Trần Quang Phương chưa đăng ký thuế với cơ quan thuế quá thời hạn 90",
+      "title": "Thủ tục trả giấy phép kinh doanh",
+      "url": "https://baochinhphu.vn/thu-tuc-tra-giay-phep-kinh-doanh-102260203084908017.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "opus.bibliothek.uni-augsburg.de",
+      "ref_id": "turn1search17",
+      "snippet": "sowie einer deutlich höheren Aufheizrate von 40 K/min bei den DSC-Messungen zur ... T<sub>x,Preform</sub> = 694,3 ± 0,2 °C und der Kristallisationspeak mit T<sub>Peak,Preform</sub> =",
+      "title": "UNI\nUniversität Augsburg\nUniversitätsbibliothekOPE",
+      "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/122762/Dittmann_Diss.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bongjobs.com",
+      "ref_id": "turn1search4",
+      "snippet": "# AP DSC 2026 Notification Out for 2,721 Teacher Posts: SA, SGT, PGT, TGT Vacancy, Exam Date, Apply Online",
+      "title": "AP DSC 2026 Notification Out for 2,721 Teacher Posts: SA, SGT, PGT, TGT Vacancy, Exam Date, Apply Online",
+      "url": "https://www.bongjobs.com/2026/10/ap-dsc-notification-2026.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "sotc.langson.gov.vn",
+      "ref_id": "turn1search5",
+      "snippet": "14 | Quyết định xử phạt vi phạm hành chính đối với Công ty TNHH Kim Phúc Hà (dự án Kho, bãi tập kết, sang",
+      "title": "Thông báo",
+      "url": "https://sotc.langson.gov.vn/thong-bao"
+     },
+     {
+      "type": "text_result",
+      "domain": "vilawist.com",
+      "ref_id": "turn1search6",
+      "snippet": "Căn cứ Nghị định số 22/2026/NĐ-CP ngày 16 tháng 01 năm 2026 của Chính phủ quy định chi tiết thi hành một số điều và",
+      "title": "Thông tư 36/2026/TT-BKHCN về danh mục sản phẩm… · Vilawist",
+      "url": "https://vilawist.com/van-ban/36-2026-tt-bkhcn"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn1search7",
+      "snippet": "VN-Index từ 26/06 đến 30/07 giảm 6,8%. ... 01/07 | Quyết định xử phạt thuế 5577/QĐ-XPHC, công bố 02/07 | 7.000",
+      "title": "Định giá cổ phiếu NRC Quý 4/2026: Phải thu 92% tài sản | HODL.VN",
+      "url": "https://www.hodl.vn/phan-tich-co-phieu-nrc-2026q4"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Theo quan điểm của DSC, số liệu kinh tế - xã hội tháng 8/2026 tiếp tục cho thấy nền kinh tế duy trì đà tăng",
+      "title": "Báo cáo vĩ mô tháng 8/2026: Duy trì sự ổn định",
+      "url": "https://dsc.com.vn/en/bao-cao-phan-tich/bao-cao-vi-mo-thang-8-2026-duy-tri-su-on-dinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "fliphtml5.com",
+      "ref_id": "turn1search9",
+      "snippet": "3,1% #73,1% #76,3% #759,4% #712,5% #70,0% 28,1% #220,3% #34,7% #6100,075,050,025,00,02020(n-49)2021(n-66)2022(n=73)2023(n-62)2024(n=64)100,075,050,025,00,0Promoter (n=48)NPS Recommend Score Distributi",
+      "title": "FA DWS VALUES 2025_FULL CHAPTER_ONLINE - Flipbook by ruang orbit | FlipHTML5",
+      "url": "https://fliphtml5.com/vinig/qqut/FA_DWS_VALUES_2025_FULL_CHAPTER_ONLINE/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sites.google.com",
+      "ref_id": "turn1search10",
+      "snippet": "R E C E S O | 3:35 - 3:55 p.m. ... CONFERENCIAS DE CONSEJERÍA BÍBLICA | DIOS SANA EL CORAZÓN | DSC 2026",
+      "title": "DSC 2026 - Programa",
+      "url": "https://sites.google.com/view/dsc2025/programa"
+     },
+     {
+      "type": "text_result",
+      "domain": "tunghia.quangngai.gov.vn",
+      "ref_id": "turn1search11",
+      "title": "ỦY BAN NHÂN DÂN - QĐ 06 XPHC ông Bui Van Anh.pdf",
+      "url": "https://tunghia.quangngai.gov.vn/3rdparty/pdfjs/web/viewer.html?file=%2Fupload%2F2006780%2F20260520%2FQ%C4%90+06+XPHC+%C3%B4ng+Bui+Van+Anh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn1academia18",
+      "snippet": "Date: Fri May 22 09:00:31 2026 The Discrete Source Classifier (DSC) provides probabilistic classifications of sources in Gaia Data Release 4 (GDR4) based on empirically-trained",
+      "title": "Performance analysis of extragalactic classifications in Gaia Data Release 4",
+      "url": "https://arxiv.org/abs/2605.23388"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 258",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**DSC là công ty chứng khoán có pháp lý rõ ràng, có thể cân nhắc mở tài khoản; nhưng không nên hiểu là “an toàn tuyệt đối” hay cứ nghe tư vấn là có lãi.**\n\nCó hai mặt bạn nên biết:\n\n- **Về tính hợp pháp:** DSC có giấy phép hoạt động chứng khoán số 29/UBCK-GPHĐKD, cấp lần đầu ngày 18/12/2006. Công ty được VSDC ghi nhận là thành viên lưu ký mã **024**, và cổ phiếu DSC đang niêm yết trên HOSE. Đây là cơ sở xác minh doanh nghiệp, không chỉ là lời quảng cáo. [Thông tin tại VSDC](https://vsdc.vn/vi/md/8229), [thông tin cổ phiếu DSC](https://www.dsc.com.vn/thong-tin-co-phieu).\n\n- **Về tuân thủ:** DSC từng bị xử phạt. Tháng 2/2026, công ty được đưa tin bị phạt **55 triệu đồng vì công bố thông tin không đúng thời hạn**. Đây là điểm trừ cần lưu ý, nhưng riêng vi phạm này không đủ để kết luận công ty lừa đảo hoặc mất khả năng thanh toán. [Thông tin về quyết định xử phạt](https://www.dnse.com.vn/senses/tin-tuc/chung-khoan-dsc-bi-xu-phat-vi-cong-bo-thong-tin-khong-dung-thoi-han-35192229).\n\n**Nếu định mở tài khoản**, bạn nên:\n1. Truy cập từ website chính thức **dsc.com.vn**, không cài ứng dụng qua đường dẫn người lạ gửi.\n2. Kiểm tra biểu phí, lãi vay margin và điều kiện bán giải chấp.\n3. Thử nạp/rút khoản nhỏ trước; không chuyển tiền vào tài khoản cá nhân của người tự xưng là môi giới.\n4. Không giao mật khẩu, OTP hoặc tin lời cam kết lợi nhuận.\n\n**Kết luận:** Có cơ sở để xem DSC là một công ty chứng khoán hoạt động chính thức, nhưng tôi chưa đủ căn cứ để đánh giá chất lượng dịch vụ hay sức khỏe tài chính hiện tại là vượt trội.\n\nBạn đang muốn **mở tài khoản tại DSC**, **mua cổ phiếu DSC**, hay có người mời tham gia một nhóm đầu tư mang tên DSC?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51207,
+    "cached_input_tokens": 33280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 686,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b018-ed66-7470-8b6a-8e64f23e412a",
+ "error": ""
+}

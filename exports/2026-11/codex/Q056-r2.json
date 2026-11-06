@@ -1,0 +1,211 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q056-r2",
+ "prompt_id": "Q056",
+ "run": 2,
+ "question": "Hotline và địa chỉ Chứng khoán DSC",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:10:21",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 35.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01f-95bc-7e20-9ffc-ea96ac493ebf"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-65b86551-0f43-47cf-91f0-ec206449268a",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-65b86551-0f43-47cf-91f0-ec206449268a",
+    "type": "web_search",
+    "query": "site.dsc.com.vn liên hệ hotline địa chỉ chứng khoán DSC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn liên hệ hotline địa chỉ chứng khoán DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Liên hệ ... DSC - Đồng hành cùng Thành Công! ... info@dsc.com.vn",
+      "title": "Thông tin liên hệ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/lien-he"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "## Thông tin liên hệ/Phòng quan hệ nhà đầu tư ... Địa chỉ: ... info@dsc.com.vn ... CÂU HỎI CỦA NHÀ ĐẦU TƯ ... info@dsc.com.vn",
+      "url": "https://www.dsc.com.vn/quan-he-co-dong/thong-tin-lien-he"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Số: 1404/2026/CBTT-DSC ... - Sở Giao dịch chứng khoán Việt Nam/Vietnam Stock Exchange ... Địa chỉ: Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu,",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/15/20260414___dsc___cbtt_bao_cao_tien_do_su_dung_von_1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "- Sở Giao dịch chứng khoán Việt Nam/Vietnam Stock Exchange ... Địa chỉ: **Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường Cầu Giấy,",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://stream.vnx.vn/VNX/cims/2026/4_W3/000000016167820_20260417__DSC__CBTT_NQ_BBH_DHDCD_2026_VI.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Số: 2003 /2026/CBTT-DSC ... - Sở Giao dịch chứng khoán Việt Nam/Vietnam Stock Exchange ... Địa chỉ : Tầng 2, Thành Công Building, 80 Dịch",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/3/20/20260320___dsc___cbtt_nq_thong_qua_tl_hop_dhdcd_thuong_nien_2026_vi_en.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "info@dsc.com.vn",
+      "title": "Thông tin liên hệ - Chứng khoán DSC",
+      "url": "https://dsc.com.vn/en/lien-he"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc-medical.vn",
+      "ref_id": "turn0search3",
+      "snippet": "### CÔNG TY CỔ PHẦN ĐẦU TƯ DSC VIỆT NAM ... Trụ sở chính: Số 15, Lô 1G, Trung Yên 11, Trung Hoà, Cầu Giấy,",
+      "title": "Liên hệ | DSC Việt Nam",
+      "url": "https://dsc-medical.vn/trang/lien-he"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search15",
+      "snippet": "SOCIALIST REPUBLIC OF VIETNAM ... **Mã Chứng khoán:** DSC **Mã Thành viên:** 024 ... **Địa chỉ:** Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu,",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/3/18/m88_20260318_20260318___dsc___cbtt_bctn_nam_2025_en17738305490718gsoxl7e.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search16",
+      "snippet": "**Địa chỉ**: Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường Cầu Giấy, Thành phố Hà Nội **Điện thoại liên hệ**: +84 243 880",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/data/HOSE/2025/KHAC/VN/DSC_DIEULE_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Nhà đầu tư sẽ nhận được hỗ trợ và tư vấn miễn phí trong suốt quá trình đầu tư bởi đội ngũ chuyên gia của",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "- Sở Giao dịch chứng khoán Việt Nam/Vietnam Stock Exchange ... Địa chỉ: Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường Dịch Vọng",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Địa chỉ: ... Giấy phép thành lập và hoạt động kinh doanh công ty chứng khoán số 29/UBCK-GPHĐKD ngày 18/12/2006 do Ủy ban Chứng khoán",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://www.dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc-medical.com",
+      "ref_id": "turn0search7",
+      "snippet": "Thành lập vào năm 2016, DSC Việt Nam tự hào là nhà phân phối độc quyền các sản phẩm vật tư tiêu hao của một",
+      "title": "DSC Việt Nam",
+      "url": "https://dsc-medical.com/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc-medical.com",
+      "ref_id": "turn0search9",
+      "snippet": "Thành lập vào năm 2016, DSC Việt Nam tự hào là nhà phân phối độc quyền các sản phẩm vật tư tiêu hao của một",
+      "title": "DSC Việt Nam",
+      "url": "https://www.dsc-medical.com/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search10",
+      "snippet": "DSC ... CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... 3 | 27/09/2024 13:31 | Công bố thông tin Quyết định số 550/QĐ-SGDHCM ngày 24/09/2024",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-uc-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc-medical.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Thành lập vào năm 2016, DSC Việt Nam tự hào là nhà phân phối độc quyền các sản phẩm vật tư tiêu hao của một",
+      "title": "DSC Việt Nam",
+      "url": "https://www.dsc-medical.vn/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Công ty Cổ phần Chứng khoán DSC**\n\n- **Điện thoại liên hệ:** [024 3880 3456](tel:02438803456)\n- **Địa chỉ hội sở:** Tầng 2, Thành Công Building, số 80 Dịch Vọng Hậu, phường Cầu Giấy, TP. Hà Nội.\n- **Email:** info@dsc.com.vn\n\nNguồn: [Thông tin liên hệ chính thức của DSC](https://www.dsc.com.vn/quan-he-co-dong/thong-tin-lien-he)."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21837,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 170,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01f-95bc-7e20-9ffc-ea96ac493ebf",
+ "error": ""
+}

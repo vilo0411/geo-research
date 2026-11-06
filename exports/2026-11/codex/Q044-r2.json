@@ -1,0 +1,462 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q044-r2",
+ "prompt_id": "Q044",
+ "run": 2,
+ "question": "Công ty chứng khoán nào có robot/AI gợi ý đầu tư?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:02:33",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 52.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b018-6d1a-7871-a0d5-5a0b38fb21c2"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-1235e787-f081-4b04-9785-e3e5c8d61674",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-1235e787-f081-4b04-9785-e3e5c8d61674",
+    "type": "web_search",
+    "query": "công ty chứng khoán AI robot khuyến nghị đầu tư TCBS TCInvest ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "công ty chứng khoán AI robot khuyến nghị đầu tư TCBS TCInvest",
+      "chứng khoán DNSE Ensa AI trợ lý",
+      "chứng khoán VPS robo advisor AI",
+      "chứng khoán Pinetree AI đầu tư"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "ENSA - Trợ lý đầu tư AI Mang đến trải nghiệm đầu tư cá nhân hóa với sự đồng hành 24/7, hỗ trợ thông tin",
+      "title": "Chứng khoán DNSE - Miễn phí giao dịch trọn đời",
+      "url": "https://www.dnse.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Võ đài phái sinh: Cuộc thi dành riêng cho sản phẩm giao dịch phái sinh tại DNSE, chi tiết thể lệ chương trình tại đây",
+      "title": "Trang chủ | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/giao-dien-entrade-x/giao-dien-web-entradex/trang-chu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Với tinh thần “Khách hàng là trọng tâm” và tận dụng thế mạnh dữ liệu và công nghệ tiên tiến, TCBS đã giới thiệu",
+      "title": "TECHCOMSECURITIES",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Với tầm nhìn đến năm 2030 trở thành “Nhạc trưởng dòng chảy vốn tại Việt Nam”, TCBS tiếp tục đầu tư vào con người, công",
+      "title": "Về Techcom Securities (TCBS) – Công ty Cổ phần Chứng khoán Kỹ Thương",
+      "url": "https://www.tcbs.com.vn/ve-chung-toi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "a Tôi muốn đóng tài khoản tại công ty chứng khoán khác để chuyển sang giao dịch tại TCBS, nhưng có một số quyền (cổ",
+      "title": "Quản lý tài khoản | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/hoi-nhanh-dap-hay/tai-khoan-dau-tu-iwealth/quan-ly-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Với ý tưởng giao dịch chứng khoán dễ dàng chỉ từ một cổ phiếu, DNSE là công ty chứng khoán đầu tiên triển khai sản",
+      "title": "1",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2024/03/BCTN-23.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Tải tài liệu IPO - DNSE ... giá trị vốn hoá ... Năng lực đột phá đến từ sức mạnh công nghệ ... ENSA -",
+      "title": "Cơ hội đầu tư vào công ty Chứng khoán Công nghệ số 1 Việt Nam",
+      "url": "https://www.dnse.com.vn/ipo"
+     },
+     {
+      "type": "text_result",
+      "domain": "trial.mof.gov.vn",
+      "ref_id": "turn0search14",
+      "snippet": "VPS | Cố vấn giao dịch chứng khoán, ... Dịch vụ Robo-Advisor trong quản lý tài sản ở Việt Nam còn đang ở mức ...",
+      "title": "Dương Ngân Hà",
+      "url": "https://trial.mof.gov.vn/webcenter/ShowProperty?nodeId=%2FUCM12%2FMOFUCM279870%2F%2FidcPrimaryFile&revision=latestreleased&rid=1"
+     },
+     {
+      "type": "text_result",
+      "domain": "stockbiz.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Trước nay nhiều nhà đầu tư phải hỏi môi giới để xuất ra báo cáo, thì bây giờ chúng tôi xây dựng nền tảng chat",
+      "title": "Chủ tịch chứng khoán DNSE: 'Khi đặt ra một kế hoạch, chúng ta thường rất tham vọng' · Stockbiz",
+      "url": "https://stockbiz.vn/tin-tuc/chu-tich-chung-khoan-dnse-khi-dat-ra-mot-ke-hoach-chung-ta-thuong-rat-tham-vong/23270089"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search6",
+      "snippet": "* Tại quầy: Phòng Dịch vụ khách hàng ở tầng 20 tòa ROX Tower, 54A Nguyễn Chí Thanh, Hà Nội; giờ làm việc 8h30–18h00 từ",
+      "title": "Chứng khoán Pinetree có tốt không? Đánh giá Pinetree",
+      "url": "https://reviewchungkhoan.com/ctck/pinetree/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Bước vào năm thứ 2 triển khai chính sách Zero fee, giá trị giao dịch chứng khoán qua TCBS đạt hơn 1,4 triệu tỷ đồng,",
+      "title": "MẢNG DỊCH VỤ CHỨNG KHOÁN",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-24/155706_000000014665875_VI_BaoCaoThuongNien_2024.pdf_TCBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rochung.vn",
+      "ref_id": "turn0search7",
+      "snippet": "### Mở tài khoản chứng khoán tại VPS Nếu bạn đang cần mở tài khoản để bắt đầu, có thể nhập mã giới thiệu bên",
+      "title": "Rổ Chứng — Robot chứng khoán AI, lãi khoe lỗ cũng khoe",
+      "url": "https://rochung.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "flaw.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Về robo-advisor: pháp luật chứng khoán Việt Nam không có chế độ cấp phép riêng cho tư vấn tự động và cũng không cấm công",
+      "title": "Tư vấn đầu tư chứng khoán số (wealthtech) có vốn FDI: điều kiện | FLAT Law Firm",
+      "url": "https://flaw.vn/tu-van-dau-tu-chung-khoan-so-wealthtech-von-fdi-dieu-kien/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Màn Home là màn hình tổng quan của ứng dụng Pinetree, giúp khách hàng theo dõi nhanh tài sản, thị trường, danh mục đầu tư,",
+      "title": "Màn hình Trang chủ | AlphaTrading",
+      "url": "https://pinetree.vn/alphatrading/userguide/docs/new/home/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Đồng thời, tháng 4/2026, TCBS lập kỷ lục với khoản vay hợp vốn 488 triệu USD - mức cao nhất từng được ghi nhận đối",
+      "title": "TECHCOMSECURITIES",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/04/260402_Press-Release_1Q2026_VN_FINAL.docx.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search10",
+      "snippet": "3 | VCK | VN000000VCK5 | Cổ phiếu Công ty cổ phần Chứng khoán VPS | Cổ phiếu | HOSE | Trụ sở chính |",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/id/5002"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnbiznews.com",
+      "ref_id": "turn0search11",
+      "snippet": "Các chuyên gia chỉ ra rằng từ Robo Advisor đến dữ liệu sâu, AI đang định hình lại ngành chứng khoán Việt Nam. ... Ứng",
+      "title": "Dùng AI \"chơi\" chứng khoán, ai cũng thành chuyên gia: Giới | VNBizNews",
+      "url": "https://vnbiznews.com/dung-ai-choi-chung-khoan-ai-cung-thanh-chuyen-gia-gioi-phan-tich-canh-bao-mot-dieu-pid1989517332"
+     },
+     {
+      "type": "text_result",
+      "domain": "static.tcbs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Không chỉ mạnh về sản phẩm tài chính đa dạng, TCBS còn là một công ty Fintech điển hình, tập hợp một lực lượng nhân",
+      "title": "Techcom Securities",
+      "url": "https://static.tcbs.com.vn/oneclick/TCF.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube18",
+      "snippet": "Tuy nhiên, với đặc thù của lĩnh vực chứng khoán, tất cả những sáng tạo, ứng dụng mới trong kinh doanh đều phải đảm bảo",
+      "title": "CẤM SỬ DỤNG ROBOT ĐẶT LỆNH - Ứng dụng công nghệ và trí tuệ nhân tạo (AI) trong đầu tư - YouTube",
+      "url": "https://www.youtube.com/watch?v=Oldg9IE9Mno"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube19",
+      "snippet": "By: Chứng khoán CAT (26300 followers) ... Transfer VPS ID: BPZZ - CHU ANH TUAN",
+      "title": "- YouTube",
+      "url": "https://www.youtube.com/watch?v=3tEgQP3YDjg"
+     },
+     {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn0academia20",
+      "snippet": "We assess the ability of GPT -- a large language model -- to serve as a financial robo-advisor for the masses, by using a financial",
+      "title": "GPT has become financially literate: Insights from financial literacy tests of GPT and a preliminary test of how people use it as a source of advice",
+      "url": "https://arxiv.org/abs/2309.00649"
+     },
+     {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn0academia21",
+      "snippet": "This online-vignette study investigates the impact of certification and verification as measures for quality assurance of AI on trust and use of a robo-advisor.",
+      "title": "Formal verification for robo-advisors: Irrelevant for subjective end-user trust, yet decisive for investment behavior?",
+      "url": "https://arxiv.org/abs/2509.08540"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit22",
+      "snippet": "Tôi khách hàng vip bên mấy cty chứng khoán khác mà sang đây không lập nổi cái tk. Gọi CSKH k ai nhấc máy. ...",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn0academia23",
+      "snippet": "Title: PreFER: Interactive Robo-Advisor with Scoring Mechanism",
+      "title": "PreFER: Interactive Robo-Advisor with Scoring Mechanism",
+      "url": "https://arxiv.org/abs/2610.03406"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search24",
+      "snippet": "* Chủ tịch Chứng khoán Kỹ thương và tham vọng Top 3 thị phần môi giới, Oct 2015 ... Minh also successfully built many technological",
+      "title": "Nguyen Xuan Minh",
+      "url": "https://en.wikipedia.org/wiki/Nguyen_Xuan_Minh"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search25",
+      "snippet": "A robo-advisor provides digital financial advice that is personalised based on mathematical rules or algorithms. ... U.S. regulators continued to apply existing investment-adviser and robo-adviser",
+      "title": "Robo-advisor",
+      "url": "https://en.wikipedia.org/wiki/Robo-advisor"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit26",
+      "snippet": "TCInvest là một nền tảng phục vụ nhu cầu đầu tư chứng khoán được phát triển bởi Công ty CP Chứng khoán Kỹ Thương (Techcom",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-8175e67e-7ec5-46aa-9adc-11bd6f63d921",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-8175e67e-7ec5-46aa-9adc-11bd6f63d921",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn DARWIN AI khuyến nghị ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn DARWIN AI khuyến nghị",
+      "site.vpbank s NEO AI chứng khoán",
+      "site.vpbs.com.vn AI",
+      "site.pinetree.vn \"PineFolio\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search0",
+      "snippet": "## Tại sao nên đầu tư PineFolio của Pinetree ? ... KH đăng nhập tài khoản tại trade.pinetree.vn hoặc app Alphatrading",
+      "title": "PineFolio - Pinetree Securities",
+      "url": "https://pinetree.vn/san-pham-va-dich-vu-2/pinefolio/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Lưu ý: Thông tin nhận định không mang khuyến nghị mua/bán, không mang hàm ý khen hay chê đánh giá cụ thể 1 công ty/",
+      "title": "Hướng dẫn sử dụng tính năng trợ lý thông tin – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/43227712395801-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-t%C3%ADnh-n%C4%83ng-tr%E1%BB%A3-l%C3%BD-th%C3%B4ng-tin"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Currently, PineFolio product is deploying completely online on Pinetree’s transaction channels (app and web), including and not limited to the steps of creating a portfolio",
+      "title": "PineFolio - Pinetree Securities",
+      "url": "https://pinetree.vn/en/product-and-services/pinefolio/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Quý khách hàng có thể trải nghiệm sản phẩm PineFolio tại nền tảng web giao dịch trade.pinetree.vn/#/home/pinefolio hoặc app giao dịch Alpha trading.",
+      "title": "Thông báo: Ra mắt sản phẩm đầu tư theo chủ đề PineFolio - Pinetree Securities",
+      "url": "https://pinetree.vn/post/20230322/thong-bao-ra-mat-san-pham-dau-tu-theo-chu-de-pinefolio/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "E-broker là các khuyến nghị do Môi giới trực tuyến tuyển chọn cổ phiếu và đưa ra khuyến nghị dựa trên nhận định thị trường",
+      "title": "Cổ phiếu khuyến nghị - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/dich-vu-chung-khoan/san-pham-dich-vu/co-phieu-khuyen-nghi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search5",
+      "snippet": "From Mar 22, 2023, Pinetree launched new product PineFolio for “Long Term Growth Opportunities”, “Reasonable Asset Allocation” and “Appropriate investment capital”. Please log in and",
+      "title": "Annoucement: On launched new product PineFolio - Pinetree Securities",
+      "url": "https://pinetree.vn/en/post/20230322/annoucement-on-launched-new-product-pinefolio/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search12",
+      "snippet": "CÁCH 1 – TRA CỨU THEO SET: Khách hàng đăng nhập trade.pinetree.vn chọn PineFolio, chọn Danh Mục.",
+      "title": "HƯỚNG DẪN GIAO DỊCH SẢN PHẨM PINEFOLIO",
+      "url": "https://pinetree.vn/wp-content/uploads/2023/03/Final-_Huong-dan-PineFolio-web-trading-Tieng-Viet.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Tháng 3/2023, Pinetree cho ra mắt sản phẩm đầu tư theo chủ đề PineFolio với hai danh mục “Up Vietnam” và “Live green – Eat",
+      "title": "Chiến lược số hóa khác biệt “Không có chi nhánh, không có môi giới, chỉ có nền tảng số” tiếp tục giúp Pinetree chiếm được cảm tình của các nhà đầu tư. Pinetree tiếp tục tập trung cải tiến sản phẩm, nền tảng số và hệ thống ứng dụng giao dịch hiện đại để nâng cao trải nghiệm đầu tư cho khách hàng. Tháng 3/2023, Pinetree cho ra mắt sản phẩm đầu tư theo chủ đề PineFolio với hai danh mục “Up Vietnam” và “Live green – Eat clean” được nghiên cứu và thiết kế kĩ lưỡng bởi đội ngũ chuyên gia của Công ty. Với số vốn ban đầu thấp, khách hàng không chỉ có cơ hội gia tăng tài sản bằng việc chủ động lựa chọn nhiều mức đầu tư phù hợp với mục tiêu và tình hình tài chính, mà còn giảm thiểu rủi ro của việc đầu tư vào một doanh nghiệp đơn lẻ thông qua danh mục đa dạng.",
+      "url": "https://static2.vietstock.vn/data/OTC/2023/BCTN/VN/HFT_Baocaothuongnien_2023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Dữ Liệu VNDIRECT là dữ liệu do VNDIRECT sở hữu hoặc được quyền sử dụng, phát triển, phân phối, cung cấp qua VNDIRECT MCP, bao",
+      "title": "ĐIỀU KHOẢN VÀ ĐIỀU KIỆN SỬ DỤNG VNDIRECT MCP - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/dieu-khoan-va-dieu-kien-su-dung-vndirect-mcp/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search7",
+      "snippet": "## Pinetree launches PineFolio – Thematic investing portfolio",
+      "title": "Pinetree launches PineFolio – Thematic investing portfolio | Pinetree",
+      "url": "https://pinetree.vn/en/post/20230323/pinefolio-thematic-investing-portfolio/"
+     },
+     {
+      "type": "text_result",
+      "domain": "linktr.ee",
+      "ref_id": "turn1search8",
+      "snippet": "pinefolio has been a member of Linktree for 2 years and joined in April 2024.",
+      "title": "pinefolio | Linktree",
+      "url": "https://linktr.ee/pinefolio"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Tháng 3 – 2023, Pinetree bắt đầu giới thiệu tới các nhà đầu tư một sản phẩm mới có tên là Pinefolio – Đầu tư",
+      "title": "PINEFOLIO – ĐẦU TƯ CỔ PHIẾU THEO CHỦ ĐỀ",
+      "url": "https://pinetree.vn/wp-content/uploads/2024/04/Pinefolio-Research-Report_1Q2024_20240402.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn1search9",
+      "snippet": "* VPBank NEO 8.3.1 mang đến nhiều cải tiến giúp Quý khách giao dịch thuận tiện hơn, nhận ưu đãi tốt hơn và an tâm",
+      "title": "‎VPBank NEO App - App Store",
+      "url": "https://apps.apple.com/vn/app/vpbank-neo/id1209349510?platform=vision"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Tích hợp đa dạng tiện ích tài chính và phi tài chính, VPBank NEO mang đến trải nghiệm giao dịch đơn giản, bảo mật tối",
+      "url": "https://www.vpbank.com.vn/ca-nhan/vpbank-neo"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Song song với phát triển các giải pháp GenAI nội bộ, VPBank cũng thử nghiệm các ... thi và lợi ích, từ đó đưa ra",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2024",
+      "url": "https://www.vpbank.com.vn/-/media/09454ad2ea954a798607ec986763fb30.ashx"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Đẩy mạnh số hóa và tự động hóa tiếp tục là định hướng xuyên suốt, với trọng tâm là tái thiết kế quy trình theo",
+      "title": "Đổi mới kiểm soát rủi ro",
+      "url": "https://static2.vietstock.vn/vietstock/2026/3/30/20260330___vpb___bao_cao_thuong_nien_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Tháng 03/2023: Pinetree ra mắt sản phẩm danh mục đầu tư PineFolio nhằm đa dạng hóa cơ hội đầu tư với khách hàng",
+      "title": "2. QUÁ TRÌNH HÌNH THÀNH VÀ PHÁT TRIỂN",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/7/m88_20260407_pt_annual_report_2025_vn___signed1775558715427wzrdxswk.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vpbanks.com.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Web Trading NEO Invest là nền tảng giao dịch và đầu tư chính thức của Công ty Cổ phần Chứng khoán VPBank. Truy cập tại",
+      "title": "Hướng dẫn sử dụng Web NEO Invest | Web NEO Invest | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vpbanks.com.vn/web-neo-invest/huong-dan-su-dung-web-neo-invest"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Có. Ở Việt Nam, một số công ty chứng khoán đã có robot/AI hỗ trợ đầu tư**, nhưng cần phân biệt giữa **gợi ý danh mục**, **trợ lý hỏi–đáp** và **AI tổng hợp tin tức**:\n\n| Công ty | Công cụ | Hỗ trợ gì? |\n|---|---|---|\n| **TCBS – Chứng khoán Kỹ Thương** | **“Mập thông thái”, Robo Advisor** trên TCInvest | TCBS giới thiệu “Mập thông thái” để tư vấn danh mục cá nhân hóa dựa trên AI và dữ liệu thị trường; đồng thời có cố vấn tài chính tự động Robo Advisor. [Nguồn TCBS](https://www.tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf) |\n| **DNSE** | **Ensa** trên Entrade X | Trợ lý AI hỗ trợ hỏi–đáp, phân tích chỉ số, thông tin thị trường và đánh giá danh mục. DNSE còn có Trading Ideas để tham khảo ý tưởng đầu tư. [Nguồn DNSE](https://www.dnse.com.vn/) |\n| **VNDIRECT** | **Trợ lý thông tin AI** | Tóm tắt tin tức, đánh giá tích cực/tiêu cực và chấm điểm cổ phiếu theo tin tức. **VNDIRECT lưu ý đây không phải khuyến nghị mua/bán.** [Hướng dẫn VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/43227712395801-Hướng-dẫn-sử-dụng-tính-năng-trợ-lý-thông-tin) |\n| **Pinetree** | **Bản tin AI** trên AlphaTrading | Đánh giá nhanh thị trường hoặc cổ phiếu dựa trên tin tức và xu hướng cảm xúc; thiên về hỗ trợ thông tin hơn là robot tư vấn danh mục. [Hướng dẫn Pinetree](https://pinetree.vn/alphatrading/userguide/docs/new/home/) |\n\n**Nếu mục tiêu của bạn là “robot gợi ý đầu tư”, TCBS và DNSE là hai bên đáng tìm hiểu trước** theo các chức năng trên. Nếu chủ yếu muốn AI đọc tin, lọc thông tin thì xem thêm VNDIRECT và Pinetree.\n\nLưu ý: **AI gợi ý không đồng nghĩa tự động mua/bán hay bảo đảm có lãi**. Trước khi dùng, hãy kiểm tra phí, điều kiện truy cập và cơ sở của khuyến nghị.\n\nBạn muốn robot **gợi ý mã và điểm mua/bán ngắn hạn**, hay **xây danh mục đầu tư dài hạn**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 56831,
+    "cached_input_tokens": 25344,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 803,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b018-6d1a-7871-a0d5-5a0b38fb21c2",
+ "error": ""
+}

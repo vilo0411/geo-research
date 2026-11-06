@@ -1,0 +1,226 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q051-r2",
+ "prompt_id": "Q051",
+ "run": 2,
+ "question": "Ưu nhược điểm khi giao dịch ở Chứng khoán DSC",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:06:55",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 31.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01c-6f5e-7d20-81d8-fb9752357c4e"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-2698fecd-e7fb-4df9-bb7b-9ec394315ef9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-2698fecd-e7fb-4df9-bb7b-9ec394315ef9",
+    "type": "web_search",
+    "query": "site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí margin ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí margin",
+      "site.dsc.com.vn DSC chứng khoán giới thiệu cổ đông"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu phí giao dịch chứng khoán niêm yết, Upcom ... Phí giao dịch chuyển quyền sở hữu chứng khoán ngoài hệ thống giao dịch của",
+      "url": "https://dsc.com.vn/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Margin transaction interest rates and sales advances ... Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Cổ phiếu Công ty cổ phần Chứng khoán DSC ... + Thông qua việc thực hiện hoạt động cung cấp dịch vụ bù trừ, thanh",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad1/202150"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://www.dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Lưu ý: Để đảm bảo thanh toán khoản vay, tài khoản giao dịch chứng khoán có đủ tiền trước 16h30 của ngày thanh toán (không",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vnvalue.tech",
+      "ref_id": "turn0search5",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC Việt Nam Chứng khoán Dịch vụ tài chính HOSE CK ... * Chưa có khoảng bất định: ước",
+      "title": "DSC — Giá trị nội tại hiệu chỉnh so với giá đóng cửa",
+      "url": "https://www.vnvalue.tech/vi/co-phieu/DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "1 | Margin interest in term | According to DSC announcement from time to time",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/en/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.jbsv.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "JB Securities Vietnam BIỂU PHÍ DỊCH VỤ CHỨNG KHOÁN TẠI JBSV ... <td>Mở tài khoản giao dịch ký quỹ/ Open a margin trading account</td> ...",
+      "title": "biểu phí jbsv",
+      "url": "https://api.jbsv.com.vn/files/media/base/999f323a415cccc39eba96321d7345f5a888ed8d/Attached%20files/Bie%CC%82%CC%89u%20Phi%CC%81%20JBSV%2020241001.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Đánh giá chi tiết Chứng khoán DSC năm 2026: phí giao dịch, lãi suất margin, giao diện ứng dụng, chất lượng hỗ trợ và hướng",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Cầu Giấy, Hà Nội ... info@dsc.com.vn",
+      "title": "DSC thông báo điều chỉnh biểu phí giao dịch chứng khoán niêm yết",
+      "url": "https://www.dsc.com.vn/tin-tuc/bieu-phi-dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search9",
+      "snippet": "### 024 - Công ty cổ phần Chứng khoán DSC ... Giấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty chứng",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "phantichcoban.turtletrading.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Dư nợ cho khách vay mua cổ phiếu — nguồn thu chính của công ty chứng khoán. ... Doanh nghiệp DSC là doanh nghiệp chất",
+      "title": "DSC — CTCP Chứng khoán DSC | Phân Tích Cơ Bản",
+      "url": "https://phantichcoban.turtletrading.vn/ticker/DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "DSC định vị là công ty chứng khoán có mức phí cạnh tranh cùng hệ thống giao dịch ổn định. ... Tại DSC, với mức",
+      "title": "So sánh DSC và VPS: Chọn phí thấp hay hệ sinh thái môi giới? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/dsc-vs-vps/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5ca2d9ef-678b-4643-b79a-50bd52f6db7b",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5ca2d9ef-678b-4643-b79a-50bd52f6db7b",
+    "type": "web_search",
+    "query": "https://dsc.com.vn/bieu-phi",
+    "action": {
+     "type": "open_page",
+     "url": "https://dsc.com.vn/bieu-phi"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 132",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/lW4cXkxwskSwVZ1KqK4aSzE2bQSM3JeAp4QrdvRMhp3MCM_0vrCGjoXgGMEfqn5SFnAyI7rvM8XGhuAP682AoQ",
+      "title": "dsc.com.vn",
+      "url": "https://dsc.com.vn/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 128",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Ov5NFHwdA6M4A7OjaiTIaU-m1BOuBVN_M2_RpqwZHm_2JK591P4fxnbsvRfPGdf3C2tnNRPKC0nY1dNi2QTQvA",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view2",
+      "snippet": "Total lines: 248",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/QDdCwKMj9Ng6-YTVCNNcg8ijDqD2fFy3TERM2M0zmOfsvDbyyTRhGaxKjIaENOPgH7uVqW1tBXCIwjQoHx9P_Q",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://www.dsc.com.vn/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**DSC đáng cân nhắc nếu bạn tự giao dịch và được áp dụng phí 0,1%; nhưng không nên mặc định mọi tài khoản DSC đều có mức phí này.** Điểm cần xem kỹ nhất là loại tài khoản, chi phí margin và trải nghiệm thực tế.\n\n### Ưu điểm\n- **Phí rõ ràng cho người tự giao dịch:** tài khoản do **khối Tư vấn số** quản lý có phí **0,1% giá trị giao dịch**. Ví dụ, mua 100 triệu đồng mất 100.000 đồng phí môi giới. [Biểu phí DSC](https://dsc.com.vn/bieu-phi)\n- **Có ứng dụng, giao dịch trên web và báo cáo phân tích:** thuận tiện theo dõi thị trường, tham khảo doanh nghiệp và đặt lệnh. Tuy nhiên, có báo cáo không đồng nghĩa khuyến nghị luôn đúng. [Dịch vụ DSC](https://www.dsc.com.vn/)\n- **Chính sách margin được công khai:** thời hạn vay 90 ngày, có cơ chế tự động gia hạn và không thu phí gia hạn theo chính sách đang đăng tải. [Chính sách margin](https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy)\n\n### Nhược điểm / điểm cần lưu ý\n- **Tài khoản có môi giới có thể tốn phí hơn đáng kể:** biểu phí từ **0,15–0,3%**, tùy giá trị giao dịch/ngày. Với giao dịch dưới 100 triệu đồng/ngày, mức niêm yết là 0,3% — gấp ba mức của khối Tư vấn số. Cần xác nhận mức áp dụng riêng trước khi mở. [Biểu phí DSC](https://dsc.com.vn/bieu-phi)\n- **Có các phí phụ:** SMS gia tăng 11.000 đồng/tháng; chuyển chứng khoán sang công ty khác tối thiểu 50.000 đồng/mã/lần, tối đa 300.000 đồng; đóng tài khoản 50.000 đồng. [Biểu phí DSC](https://dsc.com.vn/bieu-phi)\n- **Không nên đánh giá margin chỉ qua lãi suất quảng cáo:** lãi trong hạn thay đổi theo từng thời kỳ; lãi quá hạn bằng 150% lãi trong hạn. Cũng cần hỏi rõ danh mục cho vay, tỷ lệ vay, điều kiện gọi bổ sung ký quỹ và bán giải chấp. Đây là rủi ro chung của margin, không riêng DSC. [Chính sách margin](https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy)\n- **Chất lượng ứng dụng và môi giới cần tự kiểm chứng:** mình chưa có đủ bằng chứng độc lập để kết luận DSC ổn định hơn hay tư vấn tốt hơn các công ty khác.\n\n**Kết luận:** Nếu bạn mua cổ phiếu bằng tiền sẵn có, tự quyết định đầu tư, DSC có thể phù hợp với gói phí 0,1%. Nếu giao dịch nhiều hoặc dùng margin, hãy yêu cầu xác nhận **phí thực tế + lãi vay sau ưu đãi**, rồi thử với số tiền nhỏ trước khi chuyển toàn bộ tài sản."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39700,
+    "cached_input_tokens": 23552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 847,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01c-6f5e-7d20-81d8-fb9752357c4e",
+ "error": ""
+}

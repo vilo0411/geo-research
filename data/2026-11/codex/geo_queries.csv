@@ -1,0 +1,745 @@
+﻿month,prompt_id,group,run,query
+2026-11,Q001,1_kien_thuc,1,site.hsx.vn lô lẻ 1 99 cổ phiếu lô chẵn 100
+2026-11,Q001,1_kien_thuc,1,site.tcbs.com.vn bảng giá phí giao dịch cổ phiếu 2026
+2026-11,Q001,1_kien_thuc,2,site.hsx.vn lô lẻ 1 99 cổ phiếu lô chẵn 100
+2026-11,Q001,1_kien_thuc,2,site.tcbs.com.vn chứng khoán lô lẻ tối thiểu 1 cổ phiếu
+2026-11,Q001,1_kien_thuc,3,site.hsx.vn lô lẻ 1 99 cổ phiếu lô chẵn 100
+2026-11,Q001,1_kien_thuc,3,site.tcbs.com.vn phí giao dịch cổ phiếu thuế bán 0.1%
+2026-11,Q002,1_kien_thuc,1,site.investor.gov introduction investing diversification emergency fund risk
+2026-11,Q002,1_kien_thuc,1,site.hsx.vn nhà đầu tư lô chẵn 100 cổ phiếu
+2026-11,Q002,1_kien_thuc,2,site.investor.gov introduction investing diversification emergency fund fees
+2026-11,Q002,1_kien_thuc,2,site.hsx.vn nhà đầu tư rủi ro đầu tư cổ phiếu
+2026-11,Q002,1_kien_thuc,3,site.hsx.vn nhà đầu tư mới lô chẵn 100 cổ phiếu
+2026-11,Q002,1_kien_thuc,3,site.vsd.vn thanh toán T+2 cổ phiếu nhà đầu tư
+2026-11,Q002,1_kien_thuc,3,site.ssc.gov.vn nhà đầu tư chứng khoán cảnh báo margin
+2026-11,Q003,1_kien_thuc,1,site.hsx.vn lô lẻ 1 99 cổ phiếu lô chẵn 100
+2026-11,Q003,1_kien_thuc,1,site.vsd.vn thanh toán T+2 cổ phiếu
+2026-11,Q003,1_kien_thuc,2,site.hsx.vn lô lẻ 1 99 cổ phiếu lô chẵn 100
+2026-11,Q003,1_kien_thuc,2,"site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1%"
+2026-11,Q003,1_kien_thuc,3,site.hsx.vn lô lẻ 1 99 cổ phiếu giao dịch 100 cổ phiếu
+2026-11,Q003,1_kien_thuc,3,site.hnx.vn nhà đầu tư cổ phiếu rủi ro đa dạng hóa
+2026-11,Q004,1_kien_thuc,1,site.hnx.vn chứng khoán phái sinh hợp đồng tương lai rủi ro ký quỹ
+2026-11,Q004,1_kien_thuc,1,site.vsd.vn phái sinh ký quỹ lãi lỗ hàng ngày
+2026-11,Q004,1_kien_thuc,2,site.hnx.vn chứng khoán phái sinh hợp đồng tương lai ký quỹ rủi ro nhà đầu tư
+2026-11,Q004,1_kien_thuc,2,site.vsd.vn phái sinh ký quỹ lãi lỗ hàng ngày hợp đồng tương lai
+2026-11,Q004,1_kien_thuc,3,site.hnx.vn hợp đồng tương lai VN30 ký quỹ rủi ro nhà đầu tư chứng khoán phái sinh
+2026-11,Q005,1_kien_thuc,1,site.vndirect.com.vn margin là gì call margin force sell
+2026-11,Q005,1_kien_thuc,2,site.hsx.vn giao dịch ký quỹ rủi ro margin
+2026-11,Q005,1_kien_thuc,2,site.vndirect.com.vn margin call force sell giao dịch ký quỹ
+2026-11,Q005,1_kien_thuc,3,site.tcbs.com.vn margin là gì call margin force sell
+2026-11,Q005,1_kien_thuc,3,site.ssi.com.vn giao dịch ký quỹ rủi ro call margin
+2026-11,Q006,1_kien_thuc,1,site.vsd.vn T+2 11h30 13h00 thanh toán chứng khoán
+2026-11,Q006,1_kien_thuc,2,site.vsd.vn T+2 13h thanh toán chứng khoán ngày giao dịch
+2026-11,Q006,1_kien_thuc,3,site.vsd.vn T+2 thanh toán chứng khoán 11h30
+2026-11,Q007,1_kien_thuc,1,site.vndirect.com.vn chứng chỉ quỹ quỹ mở rủi ro phí quản lý
+2026-11,Q007,1_kien_thuc,1,site.ssc.gov.vn nhà đầu tư đa dạng hóa cổ phiếu rủi ro
+2026-11,Q007,1_kien_thuc,2,site.vinafund.com quỹ mở rủi ro phí quản lý đầu tư dài hạn
+2026-11,Q007,1_kien_thuc,2,site.dragoncapital.com.vn quỹ mở cổ phiếu đa dạng hóa rủi ro phí
+2026-11,Q007,1_kien_thuc,3,site.investor.gov mutual funds fees diversification stocks investing
+2026-11,Q008,1_kien_thuc,1,site.mof.gov.vn trái phiếu doanh nghiệp không phải tiền gửi tiết kiệm rủi ro nhà đầu tư
+2026-11,Q008,1_kien_thuc,1,site.chinhphu.vn trái phiếu doanh nghiệp bảo lãnh phát hành không bảo lãnh thanh toán
+2026-11,Q008,1_kien_thuc,2,site.chinhphu.vn trái phiếu doanh nghiệp nhà đầu tư tự chịu trách nhiệm không bảo lãnh
+2026-11,Q008,1_kien_thuc,2,site.hnx.vn trái phiếu doanh nghiệp rủi ro nhà đầu tư thanh toán
+2026-11,Q008,1_kien_thuc,3,site.chinhphu.vn trái phiếu doanh nghiệp không phải tiền gửi ngân hàng rủi ro nhà đầu tư
+2026-11,Q008,1_kien_thuc,3,site.mof.gov.vn trái phiếu doanh nghiệp nhà đầu tư rủi ro tài sản bảo đảm
+2026-11,Q009,2_chon_ctck,1,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026
+2026-11,Q009,2_chon_ctck,1,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q009,2_chon_ctck,1,site.tcbs.com.vn phí giao dịch cổ phiếu zero fee
+2026-11,Q009,2_chon_ctck,1,site.hsc.com.vn biểu phí giao dịch chứng khoán trực tuyến
+2026-11,Q009,2_chon_ctck,2,site.tcbs.com.vn phí giao dịch cổ phiếu TCBS 2026
+2026-11,Q009,2_chon_ctck,2,site.ssi.com.vn biểu phí giao dịch chứng khoán tài khoản online
+2026-11,Q009,2_chon_ctck,2,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q009,2_chon_ctck,2,site.hsx.vn thị phần môi giới quý 3 2026
+2026-11,Q009,2_chon_ctck,3,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở tài khoản
+2026-11,Q009,2_chon_ctck,3,site.ssi.com.vn phí giao dịch trực tuyến chứng khoán biểu phí
+2026-11,Q009,2_chon_ctck,3,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03%
+2026-11,Q009,2_chon_ctck,4,site.tcbs.com.vn biểu phí giao dịch cổ phiếu TCBS 2026
+2026-11,Q009,2_chon_ctck,4,site.ssi.com.vn biểu phí giao dịch chứng khoán online
+2026-11,Q009,2_chon_ctck,4,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q009,2_chon_ctck,4,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong
+2026-11,Q009,2_chon_ctck,5,site.vps.com.vn phí giao dịch chứng khoán tài khoản 2026
+2026-11,Q009,2_chon_ctck,5,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến
+2026-11,Q009,2_chon_ctck,5,site.tcbs.com.vn phí giao dịch cổ phiếu 0 tài khoản chứng khoán
+2026-11,Q009,2_chon_ctck,5,site.vndirect.com.vn biểu phí giao dịch chứng khoán
+2026-11,Q010,2_chon_ctck,1,phí giao dịch chứng khoán 0% Pinetree DNSE TCBS phí giao dịch 2026
+2026-11,Q010,2_chon_ctck,1,site.fpts.com.vn phí giao dịch 0.03% 2026
+2026-11,Q010,2_chon_ctck,1,"site.dnse.com.vn ""0,027%"" ""0,045%"""
+2026-11,Q010,2_chon_ctck,1,site.shinhansec.com.vn miễn phí giao dịch 2026
+2026-11,Q010,2_chon_ctck,1,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse.md
+2026-11,Q010,2_chon_ctck,1,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so.md
+2026-11,Q010,2_chon_ctck,1,https://539770798-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJ0-9Tzhtqir6mnYmqv%2Fuploads%2FlcD1rW5s2A2vBLt7C9GB%2FBieu%20phi%20DV_2026.03.png?alt=media&token=dcfba3a8-e854-4167-a6d7-d659ac3541c7
+2026-11,Q010,2_chon_ctck,2,công ty chứng khoán phí giao dịch 0% VPS TCBS DNSE phí giao dịch 2026 biểu phí
+2026-11,Q010,2_chon_ctck,2,site.tcbs.com.vn biểu phí giao dịch cổ phiếu 2026
+2026-11,Q010,2_chon_ctck,2,site.dnse.com.vn biểu phí giao dịch chứng khoán 0.03%
+2026-11,Q010,2_chon_ctck,2,"site.dnse.com.vn ""0,027%"" ""0,045%"""
+2026-11,Q010,2_chon_ctck,2,"site.shinhansec.com.vn ""2026"" ""trọn đời"""
+2026-11,Q010,2_chon_ctck,2,"site.fpts.com.vn ""0,03%"" ""chủ động"""
+2026-11,Q010,2_chon_ctck,2,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse.md
+2026-11,Q010,2_chon_ctck,2,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so.md
+2026-11,Q010,2_chon_ctck,2,https://539770798-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJ0-9Tzhtqir6mnYmqv%2Fuploads%2FlcD1rW5s2A2vBLt7C9GB%2FBieu%20phi%20DV_2026.03.png?alt=media&token=dcfba3a8-e854-4167-a6d7-d659ac3541c7
+2026-11,Q010,2_chon_ctck,3,phí giao dịch chứng khoán 0% TCBS LPBS Pinetree biểu phí 2026
+2026-11,Q010,2_chon_ctck,3,"site.dnse.com.vn ""0,027%"" ""0%"" phí 2026"
+2026-11,Q010,2_chon_ctck,3,"site.shinhansec.com.vn ""trọn đời"" ""phí"" 2026"
+2026-11,Q010,2_chon_ctck,3,"site.dnse.com.vn ""biểu phí"" ""2026"" ""tiền mặt"""
+2026-11,Q010,2_chon_ctck,3,https://hdsd.dnse.com.vn
+2026-11,Q010,2_chon_ctck,4,chứng khoán phí giao dịch 0% DNSE TCBS 2026 biểu phí
+2026-11,Q010,2_chon_ctck,4,phí giao dịch chứng khoán VPS SSI MBS 2026 biểu phí
+2026-11,Q010,2_chon_ctck,4,site.shinhansec.com.vn phí giao dịch 0% 2026
+2026-11,Q010,2_chon_ctck,4,"site.tcbs.com.vn 0,03% phí giao dịch cổ phiếu"
+2026-11,Q010,2_chon_ctck,4,site.pinetree.vn biểu phí 0.03%
+2026-11,Q010,2_chon_ctck,4,"site.dnse.com.vn ""0,027%"" ""phí"""
+2026-11,Q010,2_chon_ctck,4,"site.dnse.com.vn ""phí giao dịch"" ""tiền mặt"" ""0%"""
+2026-11,Q010,2_chon_ctck,5,phí giao dịch chứng khoán 0% TCBS 2026
+2026-11,Q010,2_chon_ctck,5,DNSE phí giao dịch cổ phiếu 0% 2026
+2026-11,Q010,2_chon_ctck,5,VPS biểu phí giao dịch cổ phiếu 2026 0.1%
+2026-11,Q010,2_chon_ctck,5,"site.dnse.com.vn ""biểu phí"" ""0,018"""
+2026-11,Q010,2_chon_ctck,5,"site.dnse.com.vn ""2026.03"""
+2026-11,Q010,2_chon_ctck,5,"site.shinhansec.com.vn ""2026"" ""trọn đời"" ""phí"""
+2026-11,Q010,2_chon_ctck,5,"site.pinetree.vn ""0,03%"" ""phí"""
+2026-11,Q010,2_chon_ctck,5,"site:hdsd.dnse.com.vn ""Biểu phí"" ""cơ sở"""
+2026-11,Q011,2_chon_ctck,1,site.tcbs.com.vn phí giao dịch cổ phiếu TCInvest 2026
+2026-11,Q011,2_chon_ctck,1,site.ssi.com.vn iBoard phí giao dịch trực tuyến
+2026-11,Q011,2_chon_ctck,1,site.vndirect.com.vn DBOARD phí giao dịch chứng khoán
+2026-11,Q011,2_chon_ctck,2,site.tcbs.com.vn TCInvest phí giao dịch cổ phiếu 2026
+2026-11,Q011,2_chon_ctck,2,site.ssi.com.vn iBoard phí giao dịch chứng khoán
+2026-11,Q011,2_chon_ctck,2,site.vndirect.com.vn DStock phí giao dịch chứng khoán
+2026-11,Q011,2_chon_ctck,2,"site.ssi.com.vn ""iBoard Pro"" ""ứng dụng"""
+2026-11,Q011,2_chon_ctck,3,site.tcbs.com.vn TCInvest phí giao dịch cổ phiếu 2026
+2026-11,Q011,2_chon_ctck,3,site.ssi.com.vn iBoard phí giao dịch chứng khoán online
+2026-11,Q011,2_chon_ctck,3,site.vndirect.com.vn DBOARD phí giao dịch chứng khoán
+2026-11,Q011,2_chon_ctck,3,"site.ssi.com.vn ""iBoard Pro"" ""ứng dụng"""
+2026-11,Q011,2_chon_ctck,4,site.tcbs.com.vn TCInvest phí giao dịch cổ phiếu 2026
+2026-11,Q011,2_chon_ctck,4,site.vndirect.com.vn DBOARD tài khoản chứng khoán phí giao dịch
+2026-11,Q011,2_chon_ctck,4,site.ssi.com.vn iBoard phí giao dịch trực tuyến
+2026-11,Q011,2_chon_ctck,5,site.tcbs.com.vn TCInvest phí giao dịch cổ phiếu 2026
+2026-11,Q011,2_chon_ctck,5,site.vndirect.com.vn DStock phí giao dịch chứng khoán tài khoản
+2026-11,Q011,2_chon_ctck,5,site.ssi.com.vn iBoard phí giao dịch chứng khoán trực tuyến
+2026-11,Q012,2_chon_ctck,1,site.hsx.vn thị phần môi giới quý 3 2026 chứng khoán
+2026-11,Q012,2_chon_ctck,1,site.hnx.vn công ty chứng khoán thị phần môi giới quý III 2026
+2026-11,Q012,2_chon_ctck,1,https://thoibaotaichinhvietnam.vn/thi-phan-moi-gioi-quy-iii-vps-giu-ngoi-dau-ssi-va-tcbs-bam-sat-204889.html
+2026-11,Q012,2_chon_ctck,2,site.hsx.vn thị phần môi giới quý 3 2026 công ty chứng khoán
+2026-11,Q012,2_chon_ctck,2,công ty chứng khoán uy tín 2025 Vietnam Report top 10 SSI HSC VCI
+2026-11,Q012,2_chon_ctck,2,"site.vietnamreport.net.vn ""chứng khoán"" ""2026"" ""Top 10"""
+2026-11,Q012,2_chon_ctck,2,https://thuonghieuvaphapluat.vn/vietnam-report-cong-bo-top-10-cong-ty-chung-khoan-va-top-5-cong-ty-tai-chinh-uy-tin-d82458.html
+2026-11,Q012,2_chon_ctck,3,site.hsx.vn thị phần môi giới quý 3 2026 chứng khoán SSI VPS TCBS
+2026-11,Q012,2_chon_ctck,3,công ty chứng khoán uy tín 2026 Vietnam Report top 10
+2026-11,Q012,2_chon_ctck,3,"site.vietnamreport.net ""Top 10 Công ty Chứng khoán uy tín năm 2026"""
+2026-11,Q012,2_chon_ctck,4,HOSE thị phần môi giới quý 3 2026 VPS SSI TCBS HSC Vietcap
+2026-11,Q012,2_chon_ctck,4,công ty chứng khoán uy tín 2026 Vietnam Report top 10
+2026-11,Q012,2_chon_ctck,4,"site.vietnamreport.net ""Top 10"" ""chứng khoán"" ""2026"" ""SSI"""
+2026-11,Q012,2_chon_ctck,5,site.hsx.vn thị phần môi giới quý 3 2026 công ty chứng khoán
+2026-11,Q012,2_chon_ctck,5,site.hnx.vn thị phần môi giới quý III 2026 chứng khoán
+2026-11,Q013,2_chon_ctck,1,lãi suất margin chứng khoán 2026 5.9% 6.8% VPS TCBS
+2026-11,Q013,2_chon_ctck,1,site.masvn.com lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,1,site.dnse.com.vn lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,1,"site.kisvn.vn ""5.5"" ""2026"" margin"
+2026-11,Q013,2_chon_ctck,1,"site.kbsec.com.vn ""Bestie"" ""7.5"""
+2026-11,Q013,2_chon_ctck,1,"site.masvn.com ""margin"" ""31/12/2026"""
+2026-11,Q013,2_chon_ctck,1,"site.vps.com.vn ""8,8%"" ""90"" ""2026"""
+2026-11,Q013,2_chon_ctck,2,site.vps.com.vn lãi suất margin 2026 ưu đãi
+2026-11,Q013,2_chon_ctck,2,site.vndirect.com.vn lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,2,site.masvn.com lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,2,site.tcbs.com.vn lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,2,"site.tcbs.com.vn ""7.89"" ""2026"""
+2026-11,Q013,2_chon_ctck,2,"site.dnse.com.vn ""margin"" ""2026"" ""5.99"""
+2026-11,Q013,2_chon_ctck,2,site.kafi.vn margin 2026 lãi suất
+2026-11,Q013,2_chon_ctck,2,"site.vndirect.com.vn ""T10"" ""16%"""
+2026-11,Q013,2_chon_ctck,2,"site.dnse.com.vn/tin-tuc/ ""Danh mục Margin 5.99 Plus tháng 11/2026"""
+2026-11,Q013,2_chon_ctck,3,site.vps.com.vn lãi suất margin 2026 ưu đãi
+2026-11,Q013,2_chon_ctck,3,site.tcbs.com.vn lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,3,site.dnse.com.vn margin lãi suất 2026
+2026-11,Q013,2_chon_ctck,3,site.vndirect.com.vn lãi suất margin 2026 ưu đãi
+2026-11,Q013,2_chon_ctck,3,"site.tcbs.com.vn ""7.89"" ""2026"""
+2026-11,Q013,2_chon_ctck,3,"site.vps.com.vn ""8,7%"" ""2026"" margin"
+2026-11,Q013,2_chon_ctck,3,https://www.tcbs.com.vn/ca-nhan/uu-dai/margin-789/
+2026-11,Q013,2_chon_ctck,4,lãi suất margin chứng khoán TCBS VPS SSI HSC ưu đãi 2026 tháng 11
+2026-11,Q013,2_chon_ctck,4,site.dnse.com.vn margin lãi suất 2026
+2026-11,Q013,2_chon_ctck,4,site.pinetree.vn lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,4,"site.abs.vn ""6,9%"" ""2026"" ""20/12"""
+2026-11,Q013,2_chon_ctck,4,"site.tcbs.com.vn ""7.69"" ""2026"""
+2026-11,Q013,2_chon_ctck,4,"site.kisvn.vn ""10,4"" ""2026"""
+2026-11,Q013,2_chon_ctck,4,"site.ssi.com.vn ""7,99%"" ""2026"""
+2026-11,Q013,2_chon_ctck,5,lãi suất margin thấp chứng khoán TCBS VPS SSI DNSE 2026 ưu đãi
+2026-11,Q013,2_chon_ctck,5,site.tcbs.com.vn lãi suất margin 2026
+2026-11,Q013,2_chon_ctck,5,site.dnse.com.vn margin lãi suất 2026
+2026-11,Q013,2_chon_ctck,5,"site.tcbs.com.vn ""7.69%"" ""2026"""
+2026-11,Q013,2_chon_ctck,5,"site.abs.vn ""6,9%"" ""2026"" ""Plus"""
+2026-11,Q013,2_chon_ctck,5,"site.ssi.com.vn ""7,99%"" ""2026"""
+2026-11,Q013,2_chon_ctck,5,"site.kisvn.vn ""5,5%"" ""K5"""
+2026-11,Q014,2_chon_ctck,1,site.tcbs.com.vn phí giao dịch cổ phiếu 2026 iWealth miễn phí
+2026-11,Q014,2_chon_ctck,1,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q014,2_chon_ctck,1,site.ssi.com.vn biểu phí giao dịch trực tuyến cổ phiếu 2026
+2026-11,Q014,2_chon_ctck,1,site.vndirect.com.vn biểu phí giao dịch DGO 0.1%
+2026-11,Q014,2_chon_ctck,2,site.tcbs.com.vn phí giao dịch cổ phiếu TCBS 2026 iWealth
+2026-11,Q014,2_chon_ctck,2,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q014,2_chon_ctck,2,site.ssi.com.vn biểu phí giao dịch trực tuyến cổ phiếu tài khoản 2026
+2026-11,Q014,2_chon_ctck,2,site.dnse.com.vn phí giao dịch chứng khoán cơ sở 0.1%
+2026-11,Q014,2_chon_ctck,2,"site.tcbs.com.vn ""biểu phí"" ""0.03%"""
+2026-11,Q014,2_chon_ctck,2,"site.dnse.com.vn ""Biểu phí giao dịch Cơ sở"""
+2026-11,Q014,2_chon_ctck,3,site.tcbs.com.vn phí giao dịch cổ phiếu 2026
+2026-11,Q014,2_chon_ctck,3,site.vps.com.vn phí giao dịch chứng khoán cơ sở biểu phí
+2026-11,Q014,2_chon_ctck,3,site.ssi.com.vn biểu phí giao dịch trực tuyến cổ phiếu
+2026-11,Q014,2_chon_ctck,3,site.dnse.com.vn phí giao dịch chứng khoán 0.1%
+2026-11,Q014,2_chon_ctck,3,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong
+2026-11,Q014,2_chon_ctck,4,site.tcbs.com.vn phí giao dịch cổ phiếu tài khoản chứng khoán 2026
+2026-11,Q014,2_chon_ctck,4,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q014,2_chon_ctck,4,site.ssi.com.vn biểu phí giao dịch trực tuyến chứng khoán
+2026-11,Q014,2_chon_ctck,4,site.dnse.com.vn phí giao dịch chứng khoán cơ sở
+2026-11,Q014,2_chon_ctck,4,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong
+2026-11,Q014,2_chon_ctck,5,site.tcbs.com.vn phí giao dịch cổ phiếu 2026 tài khoản chứng khoán
+2026-11,Q014,2_chon_ctck,5,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q014,2_chon_ctck,5,site.ssi.com.vn biểu phí giao dịch trực tuyến cổ phiếu SSI
+2026-11,Q015,2_chon_ctck,1,site.tcbs.com.vn TCInvest ứng dụng giao dịch
+2026-11,Q015,2_chon_ctck,1,site.ssi.com.vn iBoard Pro ứng dụng
+2026-11,Q015,2_chon_ctck,1,site.vps.com.vn SmartOne ứng dụng
+2026-11,Q015,2_chon_ctck,2,site.tcbs.com.vn TCInvest ứng dụng giao dịch giao diện
+2026-11,Q015,2_chon_ctck,2,site.ssi.com.vn iBoard Pro ứng dụng giao dịch
+2026-11,Q015,2_chon_ctck,2,site.vndirect.com.vn DGO app giao dịch
+2026-11,Q015,2_chon_ctck,3,TCBS TCInvest ứng dụng giao dịch tính năng giao diện
+2026-11,Q015,2_chon_ctck,3,SSI iBoard ứng dụng giao dịch chứng khoán
+2026-11,Q015,2_chon_ctck,3,VNDIRECT DStock app giao dịch chứng khoán
+2026-11,Q015,2_chon_ctck,4,site.tcbs.com.vn TCInvest ứng dụng giao dịch chứng khoán giao diện
+2026-11,Q015,2_chon_ctck,4,site.vndirect.com.vn DGO app giao dịch chứng khoán
+2026-11,Q015,2_chon_ctck,4,site.ssi.com.vn iBoard ứng dụng giao dịch chứng khoán
+2026-11,Q015,2_chon_ctck,4,"site.tcbs.com.vn ""TCInvest"" ""giao diện"""
+2026-11,Q015,2_chon_ctck,4,"site.tcbs.com.vn ""TCInvest"" ""Techcombank"" ""chuyển tiền"""
+2026-11,Q015,2_chon_ctck,5,site.tcbs.com.vn TCInvest giao diện app đầu tư
+2026-11,Q015,2_chon_ctck,5,site.vndirect.com.vn DGO ứng dụng đầu tư
+2026-11,Q015,2_chon_ctck,5,site.ssi.com.vn iBoard Pro ứng dụng chứng khoán
+2026-11,Q016,2_chon_ctck,1,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03% 2026 miễn phí
+2026-11,Q016,2_chon_ctck,1,site.pinetree.vn miễn phí giao dịch trọn đời phí
+2026-11,Q016,2_chon_ctck,1,site.dnse.com.vn biểu phí giao dịch chứng khoán 2026
+2026-11,Q016,2_chon_ctck,1,site.vps.com.vn miễn phí giao dịch 2026
+2026-11,Q016,2_chon_ctck,1,"site.shinhansec.com.vn ""2026"" ""Trọn Đời Không Phí"""
+2026-11,Q016,2_chon_ctck,1,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so
+2026-11,Q016,2_chon_ctck,1,"site.dnse.com.vn ""0,045%"" ""0%"" ""phí"""
+2026-11,Q016,2_chon_ctck,1,"site.dnse.com.vn ""0,1%"" ""thuế"""
+2026-11,Q016,2_chon_ctck,2,site.tcbs.com.vn phí giao dịch cổ phiếu miễn phí 2026
+2026-11,Q016,2_chon_ctck,2,site.dnse.com.vn phí giao dịch cổ phiếu 0 phí
+2026-11,Q016,2_chon_ctck,2,site.pinetree.vn biểu phí giao dịch chứng khoán miễn phí
+2026-11,Q016,2_chon_ctck,2,site.vpbs.com.vn miễn phí giao dịch chứng khoán biểu phí
+2026-11,Q016,2_chon_ctck,2,site.vpbanks.com.vn biểu phí 0.03% 0% giao dịch
+2026-11,Q016,2_chon_ctck,2,"site.dnse.com.vn ""0,027%"" ""0,045%"""
+2026-11,Q016,2_chon_ctck,2,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse.md
+2026-11,Q016,2_chon_ctck,2,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so.md
+2026-11,Q016,2_chon_ctck,2,https://539770798-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJ0-9Tzhtqir6mnYmqv%2Fuploads%2FlcD1rW5s2A2vBLt7C9GB%2FBieu%20phi%20DV_2026.03.png?alt=media&token=dcfba3a8-e854-4167-a6d7-d659ac3541c7
+2026-11,Q016,2_chon_ctck,3,site.tcbs.com.vn miễn phí giao dịch cổ phiếu 2026
+2026-11,Q016,2_chon_ctck,3,site.dnse.com.vn phí giao dịch 0 đồng cổ phiếu
+2026-11,Q016,2_chon_ctck,3,site.pinetree.vn biểu phí giao dịch chứng khoán miễn phí
+2026-11,Q016,2_chon_ctck,3,site.vps.com.vn miễn phí giao dịch chứng khoán 2026
+2026-11,Q016,2_chon_ctck,3,"site.vps.com.vn ""01/04/2026"" ""phí"""
+2026-11,Q016,2_chon_ctck,3,"site.kbsec.com.vn ""2027"" ""Zero"""
+2026-11,Q016,2_chon_ctck,3,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse.md
+2026-11,Q016,2_chon_ctck,3,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so.md
+2026-11,Q016,2_chon_ctck,3,https://539770798-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJ0-9Tzhtqir6mnYmqv%2Fuploads%2FlcD1rW5s2A2vBLt7C9GB%2FBieu%20phi%20DV_2026.03.png?alt=media&token=dcfba3a8-e854-4167-a6d7-d659ac3541c7
+2026-11,Q016,2_chon_ctck,4,site.tcbs.com.vn biểu phí giao dịch cổ phiếu miễn phí 2026
+2026-11,Q016,2_chon_ctck,4,site.dnse.com.vn phí giao dịch chứng khoán 0 phí
+2026-11,Q016,2_chon_ctck,4,site.pinetree.vn biểu phí giao dịch miễn phí
+2026-11,Q016,2_chon_ctck,4,site.vnsc.vn phí giao dịch chứng khoán miễn phí
+2026-11,Q016,2_chon_ctck,4,site.kbsec.com.vn Zero fee 2026 2027 90 ngày
+2026-11,Q016,2_chon_ctck,4,site.vps.com.vn miễn phí giao dịch 01/04/2026 3 tháng
+2026-11,Q016,2_chon_ctck,4,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so
+2026-11,Q016,2_chon_ctck,4,https://539770798-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MJ0-9Tzhtqir6mnYmqv%2Fuploads%2FlcD1rW5s2A2vBLt7C9GB%2FBieu%20phi%20DV_2026.03.png?alt=media&token=dcfba3a8-e854-4167-a6d7-d659ac3541c7
+2026-11,Q016,2_chon_ctck,5,site.tcbs.com.vn phí giao dịch cổ phiếu 0 phí 2026
+2026-11,Q016,2_chon_ctck,5,site.pinetree.vn biểu phí giao dịch chứng khoán miễn phí
+2026-11,Q016,2_chon_ctck,5,site.dnse.com.vn phí giao dịch 0 phí chứng khoán
+2026-11,Q016,2_chon_ctck,5,site.aisec.com.vn miễn phí giao dịch chứng khoán
+2026-11,Q016,2_chon_ctck,5,"site.aisec.com.vn ""0,03%"""
+2026-11,Q016,2_chon_ctck,5,"site.vpbs.com.vn ""miễn phí"" ""giao dịch"" ""2026"""
+2026-11,Q016,2_chon_ctck,5,"site.aisec.com.vn ""biểu phí"""
+2026-11,Q016,2_chon_ctck,5,https://hdsd.dnse.com.vn/san-pham-dich-vu/bieu-phi-dich-vu-dnse/bieu-phi-giao-dich-co-so
+2026-11,Q016,2_chon_ctck,5,"site.dnse.com.vn ""0,027%"" ""0,045%"""
+2026-11,Q016,2_chon_ctck,5,"site.dnse.com.vn ""miễn phí giao dịch"" ""tiền mặt"" 2026"
+2026-11,Q016,2_chon_ctck,5,"site.shinhansec.com.vn ""0%"" ""2026"" ""duy nhất"""
+2026-11,Q017,2_chon_ctck,1,site.ssi.com.vn phí giao dịch chứng khoán online biểu phí mở tài khoản Hà Nội
+2026-11,Q017,2_chon_ctck,1,site.vps.com.vn biểu phí giao dịch chứng khoán khách hàng cá nhân
+2026-11,Q017,2_chon_ctck,1,site.vndirect.com.vn biểu phí giao dịch chứng khoán DGO Hà Nội
+2026-11,Q017,2_chon_ctck,1,site.tcbs.com.vn phí giao dịch chứng khoán 0.03%
+2026-11,Q017,2_chon_ctck,2,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến khách hàng cá nhân 2026
+2026-11,Q017,2_chon_ctck,2,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở khách hàng
+2026-11,Q017,2_chon_ctck,2,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q017,2_chon_ctck,2,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03%
+2026-11,Q017,2_chon_ctck,3,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 mở tài khoản chi nhánh Hà Nội
+2026-11,Q017,2_chon_ctck,3,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở DGO Hà Nội
+2026-11,Q017,2_chon_ctck,3,site.tcbs.com.vn phí giao dịch cổ phiếu TCInvest zero fee
+2026-11,Q017,2_chon_ctck,3,site.ssi.com.vn mạng lưới chi nhánh Hà Nội tư vấn đầu tư SSI
+2026-11,Q017,2_chon_ctck,3,site.vndirect.com.vn liên hệ Hà Nội trụ sở 1 Nguyễn Thượng Hiền
+2026-11,Q017,2_chon_ctck,4,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q017,2_chon_ctck,4,site.ssi.com.vn biểu phí giao dịch chứng khoán khách hàng cá nhân
+2026-11,Q017,2_chon_ctck,4,site.tcbs.com.vn phí giao dịch cổ phiếu 2026
+2026-11,Q017,2_chon_ctck,4,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q017,2_chon_ctck,4,"site.ssi.com.vn ""Biểu giá dịch vụ giao dịch chủ động"" ""0,15"""
+2026-11,Q017,2_chon_ctck,4,"site.ssi.com.vn ""Hà Nội"" ""Ngô Quyền"" ""Láng Hạ"""
+2026-11,Q017,2_chon_ctck,4,"site.vndirect.com.vn ""DTA"" ""0,1%"""
+2026-11,Q017,2_chon_ctck,5,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở 2026 địa chỉ Hà Nội
+2026-11,Q017,2_chon_ctck,5,site.ssi.com.vn phí giao dịch chứng khoán online Hà Nội
+2026-11,Q017,2_chon_ctck,5,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03%
+2026-11,Q017,2_chon_ctck,5,site.vietcap.com.vn biểu phí giao dịch chứng khoán cá nhân
+2026-11,Q018,2_chon_ctck,1,site.ssi.com.vn mở tài khoản chứng khoán phí giao dịch trực tuyến SSI
+2026-11,Q018,2_chon_ctck,1,site.hsc.com.vn phí giao dịch chứng khoán tài khoản HSC
+2026-11,Q018,2_chon_ctck,1,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q018,2_chon_ctck,1,site.tcbs.com.vn phí giao dịch chứng khoán cơ sở
+2026-11,Q018,2_chon_ctck,2,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026
+2026-11,Q018,2_chon_ctck,2,site.hsc.com.vn biểu phí giao dịch chứng khoán tài khoản trực tuyến
+2026-11,Q018,2_chon_ctck,2,site.vndirect.com.vn biểu phí giao dịch DGO 0.1% chứng khoán
+2026-11,Q018,2_chon_ctck,2,site.tcbs.com.vn phí giao dịch cổ phiếu 2026
+2026-11,Q018,2_chon_ctck,2,"site.hsc.com.vn ""biểu phí"" ""0,15%"""
+2026-11,Q018,2_chon_ctck,2,"site.ssi.com.vn ""giao dịch chủ động"" ""0,15%"""
+2026-11,Q018,2_chon_ctck,3,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q018,2_chon_ctck,3,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến
+2026-11,Q018,2_chon_ctck,3,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03%
+2026-11,Q018,2_chon_ctck,3,site.hsx.vn thị phần môi giới quý 3 2026
+2026-11,Q018,2_chon_ctck,4,site.ssi.com.vn biểu phí giao dịch chứng khoán cơ sở khách hàng cá nhân online
+2026-11,Q018,2_chon_ctck,4,site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở
+2026-11,Q018,2_chon_ctck,4,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03% tài khoản
+2026-11,Q018,2_chon_ctck,4,site.hsc.com.vn mạng lưới phòng giao dịch Hồ Chí Minh mở tài khoản
+2026-11,Q018,2_chon_ctck,5,site.hsx.vn thị phần môi giới quý 3 2026 VPS SSI TCBS HSC
+2026-11,Q018,2_chon_ctck,5,site.ssi.com.vn biểu phí giao dịch chứng khoán tài khoản online
+2026-11,Q018,2_chon_ctck,5,site.tcbs.com.vn phí giao dịch cổ phiếu zero fee
+2026-11,Q018,2_chon_ctck,5,site.hsc.com.vn biểu phí giao dịch chứng khoán
+2026-11,Q018,2_chon_ctck,5,site.hsc.com.vn biểu phí giao dịch cổ phiếu online 0.1%
+2026-11,Q018,2_chon_ctck,5,site.ssi.com.vn mạng lưới chi nhánh thành phố Hồ Chí Minh mở tài khoản trực tuyến
+2026-11,Q019,2_chon_ctck,1,site.ssi.com.vn khách hàng cá nhân môi giới tư vấn đầu tư
+2026-11,Q019,2_chon_ctck,1,site.hsc.com.vn khách hàng cá nhân tư vấn đầu tư môi giới
+2026-11,Q019,2_chon_ctck,1,site.vndirect.com.vn tư vấn đầu tư khách hàng cá nhân
+2026-11,Q019,2_chon_ctck,1,site.vietcap.com.vn khách hàng cá nhân tư vấn đầu tư
+2026-11,Q019,2_chon_ctck,2,site.ssi.com.vn tư vấn đầu tư khách hàng cá nhân môi giới báo cáo phân tích
+2026-11,Q019,2_chon_ctck,2,site.hsc.com.vn khách hàng cá nhân tư vấn đầu tư môi giới
+2026-11,Q019,2_chon_ctck,2,site.vietcap.com.vn khách hàng cá nhân tư vấn đầu tư
+2026-11,Q019,2_chon_ctck,2,site.mbs.com.vn tư vấn đầu tư khách hàng cá nhân
+2026-11,Q019,2_chon_ctck,3,site.ssi.com.vn khách hàng cá nhân môi giới tư vấn đầu tư báo cáo phân tích
+2026-11,Q019,2_chon_ctck,3,site.hsc.com.vn khách hàng cá nhân môi giới tư vấn đầu tư
+2026-11,Q019,2_chon_ctck,3,site.vndirect.com.vn tư vấn đầu tư khách hàng cá nhân môi giới
+2026-11,Q019,2_chon_ctck,4,site.ssi.com.vn tư vấn đầu tư môi giới báo cáo phân tích khách hàng cá nhân
+2026-11,Q019,2_chon_ctck,4,site.hsc.com.vn khách hàng cá nhân tư vấn đầu tư môi giới
+2026-11,Q019,2_chon_ctck,4,site.vndirect.com.vn tư vấn đầu tư khách hàng cá nhân môi giới
+2026-11,Q019,2_chon_ctck,4,site.vcsc.com.vn Vietcap tư vấn khách hàng cá nhân môi giới
+2026-11,Q019,2_chon_ctck,5,site.ssi.com.vn tư vấn đầu tư môi giới khách hàng cá nhân báo cáo phân tích
+2026-11,Q019,2_chon_ctck,5,site.hsc.com.vn khách hàng cá nhân môi giới tư vấn đầu tư
+2026-11,Q019,2_chon_ctck,5,site.vndirect.com.vn tư vấn đầu tư khách hàng cá nhân môi giới
+2026-11,Q019,2_chon_ctck,5,site.vcsc.com.vn Vietcap khách hàng cá nhân tư vấn đầu tư
+2026-11,Q020,2_chon_ctck,1,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 SSI
+2026-11,Q020,2_chon_ctck,1,site.dsc.com.vn biểu phí giao dịch chứng khoán lãi suất margin DSC
+2026-11,Q020,2_chon_ctck,1,https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet
+2026-11,Q020,2_chon_ctck,2,DSC biểu phí giao dịch chứng khoán lãi suất margin 2026 SSI biểu phí
+2026-11,Q020,2_chon_ctck,2,SSI DSC thị phần môi giới HOSE quý 3 2026
+2026-11,Q020,2_chon_ctck,2,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-chung-khoan
+2026-11,Q020,2_chon_ctck,2,"site.ssi.com.vn ""0,15%"" ""2025"" ""biểu"" ""online"""
+2026-11,Q020,2_chon_ctck,3,site.ssi.com.vn biểu phí giao dịch chứng khoán tài khoản online phí 2026
+2026-11,Q020,2_chon_ctck,3,site.dsc.com.vn biểu phí giao dịch chứng khoán lãi suất margin
+2026-11,Q020,2_chon_ctck,3,https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu
+2026-11,Q020,2_chon_ctck,4,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 2026 lãi suất margin
+2026-11,Q020,2_chon_ctck,4,site.dsc.com.vn biểu phí giao dịch chứng khoán lãi suất margin 2026
+2026-11,Q020,2_chon_ctck,5,site.ssi.com.vn biểu phí giao dịch chứng khoán SSI phí online 2026 margin
+2026-11,Q020,2_chon_ctck,5,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin
+2026-11,Q020,2_chon_ctck,5,https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong
+2026-11,Q021,3_phi_margin,1,site.tcbs.com.vn biểu phí giao dịch chứng khoán phí 0.03% 2026
+2026-11,Q021,3_phi_margin,1,site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 0.25% thuế bán 0.1%
+2026-11,Q021,3_phi_margin,1,site.ssi.com.vn thuế thu nhập cá nhân bán chứng khoán 0.1% giá trị
+2026-11,Q021,3_phi_margin,1,site.shs.com.vn phí giao dịch trực tuyến 0.15%
+2026-11,Q021,3_phi_margin,2,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q021,3_phi_margin,2,"site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 0,15%"
+2026-11,Q021,3_phi_margin,2,site.tcbs.com.vn phí giao dịch cổ phiếu 0.03% thuế bán 0.1%
+2026-11,Q021,3_phi_margin,2,"site.ssi.com.vn thuế bán chứng khoán 0,1% giá trị"
+2026-11,Q021,3_phi_margin,3,"site.ssi.com.vn biểu phí giao dịch cổ phiếu trực tuyến 0,15%"
+2026-11,Q021,3_phi_margin,3,site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026
+2026-11,Q021,3_phi_margin,3,site.hsc.com.vn thuế bán cổ phiếu 0.1% phí giao dịch
+2026-11,Q022,3_phi_margin,1,lãi suất margin 2026 SSI VPS VNDIRECT HSC TCBS
+2026-11,Q022,3_phi_margin,1,site.tcbs.com.vn lãi suất margin 2026
+2026-11,Q022,3_phi_margin,1,site.ssi.com.vn lãi suất cho vay ký quỹ 2026
+2026-11,Q022,3_phi_margin,1,"site.vps.com.vn 2026 ""14%"" ""8,8%"""
+2026-11,Q022,3_phi_margin,1,"site.hsc.com.vn ""lãi suất"" ""14%"""
+2026-11,Q022,3_phi_margin,1,"site.vndirect.com.vn ""0,037%"""
+2026-11,Q022,3_phi_margin,1,"site.tcbs.com.vn ""12%"" ""13.5%"" margin"
+2026-11,Q022,3_phi_margin,2,lãi suất margin 2026 SSI HSC TCBS VPS VNDIRECT
+2026-11,Q022,3_phi_margin,2,site.tcbs.com.vn lãi suất margin 2026
+2026-11,Q022,3_phi_margin,2,site.ssi.com.vn lãi suất cho vay ký quỹ 2026
+2026-11,Q022,3_phi_margin,2,"site.vps.com.vn ""2026"" ""14%"" ""lãi"""
+2026-11,Q022,3_phi_margin,2,"site.hsc.com.vn ""lãi suất"" ""14%"""
+2026-11,Q022,3_phi_margin,2,"site.vietcap.com.vn ""2026"" ""13,5%"""
+2026-11,Q022,3_phi_margin,2,"site.tcbs.com.vn ""12%"" ""13.5%"" margin"
+2026-11,Q022,3_phi_margin,2,"site.vndirect.com.vn ""2026"" ""13,5%"" ""T10"""
+2026-11,Q022,3_phi_margin,2,"site.mbs.com.vn ""2026"" ""lãi suất"" ""13.5"""
+2026-11,Q022,3_phi_margin,2,"site.bsc.com.vn ""2026"" ""7,5%"" ""90"" margin"
+2026-11,Q022,3_phi_margin,3,lãi suất margin 2026 SSI HSC TCBS VPS
+2026-11,Q022,3_phi_margin,3,lãi suất cho vay ký quỹ 2026 MBS VNDIRECT Vietcap
+2026-11,Q022,3_phi_margin,3,site.ssi.com.vn lãi suất 13.5 2026 ký quỹ
+2026-11,Q022,3_phi_margin,3,"site.tcbs.com.vn 2026 lãi suất margin 13,5"
+2026-11,Q022,3_phi_margin,3,site.vps.com.vn 2026 lãi suất 14% ký quỹ
+2026-11,Q022,3_phi_margin,3,site.hsc.com.vn 2026 lãi suất ký quỹ 13
+2026-11,Q022,3_phi_margin,3,"site.tcbs.com.vn ""26/01/2026"" ""12%"""
+2026-11,Q022,3_phi_margin,3,"site.mbs.com.vn ""13/07/2026"" lãi"
+2026-11,Q022,3_phi_margin,3,"site.hsc.com.vn ""14%/năm"""
+2026-11,Q022,3_phi_margin,3,"site.vps.com.vn ""14%/năm"""
+2026-11,Q023,3_phi_margin,1,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí giao dịch
+2026-11,Q023,3_phi_margin,1,https://dsc.com.vn/bieu-phi
+2026-11,Q023,3_phi_margin,2,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí giao dịch
+2026-11,Q023,3_phi_margin,2,https://dsc.com.vn/bieu-phi
+2026-11,Q023,3_phi_margin,3,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí giao dịch
+2026-11,Q023,3_phi_margin,3,https://dsc.com.vn/bieu-phi
+2026-11,Q024,3_phi_margin,1,site.dsc.com.vn lãi suất margin DSC 2026 13.5
+2026-11,Q024,3_phi_margin,1,"site.dsc.com.vn ""lãi suất"" ""margin"" ""13"""
+2026-11,Q024,3_phi_margin,1,"site.dsc.com.vn ""lãi suất"" ""margin"" ""2026"""
+2026-11,Q024,3_phi_margin,1,"site.dsc.com.vn ""biểu phí"" ""margin"""
+2026-11,Q024,3_phi_margin,1,https://www.dsc.com.vn/bieu-phi
+2026-11,Q024,3_phi_margin,1,"site.dsc.com.vn ""Lãi suất"" ""0,0"""
+2026-11,Q024,3_phi_margin,1,"DSC ""margin"" ""13,5%"""
+2026-11,Q024,3_phi_margin,1,"DSC ""Biểu lãi suất"""
+2026-11,Q024,3_phi_margin,2,site.dsc.com.vn lãi suất margin DSC 2026
+2026-11,Q024,3_phi_margin,2,"site.dsc.com.vn ""lãi suất"" ""margin"" ""13"""
+2026-11,Q024,3_phi_margin,2,"site.dsc.com.vn ""lãi suất"" ""Biểu phí"""
+2026-11,Q024,3_phi_margin,2,https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet
+2026-11,Q024,3_phi_margin,2,"site.dsc.com.vn/bieu-phi/ ""lãi"" ""năm"""
+2026-11,Q024,3_phi_margin,2,https://www.dsc.com.vn/bieu-phi/bieu-lai-suat-giao-dich-ky-quy-va-ung-truoc-tien-ban
+2026-11,Q024,3_phi_margin,3,site.dsc.com.vn lãi suất margin DSC 2026
+2026-11,Q024,3_phi_margin,3,"site.dsc.com.vn ""lãi suất"" ""margin"" ""13"""
+2026-11,Q024,3_phi_margin,3,"site.dsc.com.vn ""biểu phí"" ""ký quỹ"""
+2026-11,Q024,3_phi_margin,3,"site.dsc.com.vn ""lãi suất"" ""0.0"""
+2026-11,Q024,3_phi_margin,3,https://dsc.com.vn/bieu-phi
+2026-11,Q024,3_phi_margin,3,"site.dsc.com.vn ""Lãi suất"" ""13,5"""
+2026-11,Q024,3_phi_margin,3,"site.dsc.com.vn ""Lãi suất"" ""12%"""
+2026-11,Q024,3_phi_margin,3,"DSC ""lãi suất giao dịch ký quỹ"" ""năm"""
+2026-11,Q025,3_phi_margin,1,site.dsc.com.vn miễn phí giao dịch chứng khoán DSC phí giao dịch
+2026-11,Q025,3_phi_margin,1,https://www.dsc.com.vn/bieu-phi
+2026-11,Q025,3_phi_margin,2,site.dsc.com.vn biểu phí giao dịch chứng khoán miễn phí DSC
+2026-11,Q025,3_phi_margin,2,https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet
+2026-11,Q025,3_phi_margin,3,site.dsc.com.vn miễn phí giao dịch biểu phí chứng khoán DSC
+2026-11,Q025,3_phi_margin,3,https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet
+2026-11,Q026,3_phi_margin,1,"site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá chuyển nhượng"
+2026-11,Q026,3_phi_margin,1,site.hsc.com.vn phí bán cổ phiếu thuế 0.1% phí giao dịch
+2026-11,Q026,3_phi_margin,2,"site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá bán"
+2026-11,Q026,3_phi_margin,2,"site.hsx.vn phí giao dịch môi giới cổ phiếu 0,45% nhà đầu tư"
+2026-11,Q026,3_phi_margin,3,"site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá chuyển nhượng"
+2026-11,Q026,3_phi_margin,3,site.ssi.com.vn phí giao dịch cổ phiếu phí bán thuế 0.1%
+2026-11,Q027,3_phi_margin,1,"phí lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026 VSDC"
+2026-11,Q027,3_phi_margin,2,"VSDC phí lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026"
+2026-11,Q027,3_phi_margin,3,"VSDC giá dịch vụ lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026"
+2026-11,Q028,3_phi_margin,1,phí giao dịch phái sinh chứng khoán 0 đồng 2026 VPS DNSE
+2026-11,Q028,3_phi_margin,1,biểu phí giao dịch phái sinh chứng khoán HSC MBS 2026
+2026-11,Q028,3_phi_margin,1,site.tcbs.com.vn phái sinh miễn phí giao dịch
+2026-11,Q028,3_phi_margin,1,site.vpbank s.com.vn biểu phí phái sinh
+2026-11,Q028,3_phi_margin,1,"site.vpbanks.com.vn phái sinh ""0"" ""phí"""
+2026-11,Q028,3_phi_margin,1,site.fpts.com.vn phái sinh miễn phí giao dịch 2026
+2026-11,Q028,3_phi_margin,2,phí giao dịch phái sinh 0 đồng DNSE VPS TCBS Pinetree 2026
+2026-11,Q028,3_phi_margin,2,site.tcbs.com.vn phái sinh miễn phí giao dịch biểu phí
+2026-11,Q028,3_phi_margin,2,site.fpts.com.vn phí phái sinh miễn phí
+2026-11,Q028,3_phi_margin,2,site.vpbank s.com.vn biểu phí phái sinh 0
+2026-11,Q028,3_phi_margin,3,phí giao dịch phái sinh DNSE 0 đồng 2026 phí HSC VPS MBS
+2026-11,Q028,3_phi_margin,3,phí giao dịch phái sinh 2026 miễn phí giao dịch chứng khoán công ty
+2026-11,Q028,3_phi_margin,3,site.tcbs.com.vn phái sinh biểu phí miễn phí 2026 2700 2550
+2026-11,Q028,3_phi_margin,3,site.pinetree.vn phái sinh biểu phí miễn phí
+2026-11,Q028,3_phi_margin,3,"site.dnse.com.vn ""1.000"" ""01/05/2026"""
+2026-11,Q029,4_mo_tai_khoan,1,site.ssi.com.vn mở tài khoản trực tuyến CCCD giấy tờ
+2026-11,Q029,4_mo_tai_khoan,1,site.vndirect.com.vn mở tài khoản online căn cước giấy tờ
+2026-11,Q029,4_mo_tai_khoan,2,site.ssi.com.vn mở tài khoản online CCCD gắn chip VNeID giấy tờ
+2026-11,Q029,4_mo_tai_khoan,2,site.vndirect.com.vn mở tài khoản chứng khoán online giấy tờ CCCD
+2026-11,Q029,4_mo_tai_khoan,3,site.ssi.com.vn mở tài khoản trực tuyến căn cước VNeID giấy tờ
+2026-11,Q029,4_mo_tai_khoan,3,site.vndirect.com.vn mở tài khoản online cần căn cước giấy tờ
+2026-11,Q030,4_mo_tai_khoan,2,site.vndirect.com.vn mở tài khoản chứng khoán bao lâu eKYC
+2026-11,Q030,4_mo_tai_khoan,2,site.tcbs.com.vn mở tài khoản chứng khoán 24h
+2026-11,Q030,4_mo_tai_khoan,3,site.vndirect.com.vn mở tài khoản chứng khoán bao lâu eKYC
+2026-11,Q030,4_mo_tai_khoan,3,site.ssi.com.vn mở tài khoản trực tuyến 5 phút kích hoạt
+2026-11,Q030,4_mo_tai_khoan,3,https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n
+2026-11,Q031,4_mo_tai_khoan,1,site.thuvienphapluat.vn Điều 143 Nghị định 155 tài khoản giao dịch chứng khoán đủ 15 tuổi chưa đủ 18 tuổi
+2026-11,Q031,4_mo_tai_khoan,1,"""tài khoản"" ""chứng khoán"" ""chưa đủ 18"" ""15"" ""Thông tư 120"""
+2026-11,Q031,4_mo_tai_khoan,1,"site.ssi.com.vn ""18 tuổi"" ""15"""
+2026-11,Q031,4_mo_tai_khoan,1,"site.dsc.com.vn ""18"" ""15"" ""tài khoản"""
+2026-11,Q031,4_mo_tai_khoan,1,"site.ssc.gov.vn ""chưa thành niên"" ""tài khoản"""
+2026-11,Q031,4_mo_tai_khoan,2,Thông tư 120 2020 Điều 6 người chưa đủ 18 tuổi tài khoản giao dịch chứng khoán 15 tuổi
+2026-11,Q031,4_mo_tai_khoan,2,"site.ssi.com.vn ""15 tuổi"" ""tài khoản"""
+2026-11,Q031,4_mo_tai_khoan,2,"site.vndirect.com.vn ""chưa đủ 18"""
+2026-11,Q031,4_mo_tai_khoan,2,"""120/2020/TT-BTC"" ""15 tuổi"""
+2026-11,Q031,4_mo_tai_khoan,2,https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi
+2026-11,Q031,4_mo_tai_khoan,3,Thông tư 120/2020 Điều 5 đủ 15 tuổi chưa đủ 18 tài khoản giao dịch chứng khoán người đại diện pháp luật
+2026-11,Q031,4_mo_tai_khoan,3,"""120/2020/TT-BTC"" ""15 tuổi"""
+2026-11,Q031,4_mo_tai_khoan,3,"site.ssi.com.vn ""18 tuổi"" ""15"""
+2026-11,Q031,4_mo_tai_khoan,3,"site.vndirect.com.vn ""18 tuổi"" ""15"""
+2026-11,Q032,4_mo_tai_khoan,1,site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản lưu ký
+2026-11,Q032,4_mo_tai_khoan,1,site.ssi.com.vn nhà đầu tư nước ngoài mở tài khoản chứng khoán cá nhân tài khoản vốn đầu tư gián tiếp 2025
+2026-11,Q032,4_mo_tai_khoan,1,https://acb.com.vn/tai-khoan-thanh-toan/tai-khoan-dau-tu-gian-tiep
+2026-11,Q032,4_mo_tai_khoan,1,"site.sbv.gov.vn ""03/2025/TT-NHNN"" ""cư trú"""
+2026-11,Q032,4_mo_tai_khoan,1,"site.chinhphu.vn ""03/2025/TT-NHNN"" ""cư trú"""
+2026-11,Q032,4_mo_tai_khoan,2,site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản
+2026-11,Q032,4_mo_tai_khoan,2,site.ssi.com.vn nhà đầu tư nước ngoài mở tài khoản chứng khoán gián tiếp 2025 2026
+2026-11,Q032,4_mo_tai_khoan,2,site.sbv.gov.vn Thông tư 03/2025/TT-NHNN người nước ngoài cư trú tài khoản đầu tư gián tiếp
+2026-11,Q032,4_mo_tai_khoan,2,site.chinhphu.vn 03/2025/TT-NHNN tài khoản đầu tư gián tiếp cư trú
+2026-11,Q032,4_mo_tai_khoan,3,site.vsd.vn nhà đầu tư nước ngoài cá nhân mã số giao dịch chứng khoán tài khoản
+2026-11,Q032,4_mo_tai_khoan,3,site.vcbs.com.vn nhà đầu tư nước ngoài mở tài khoản đầu tư gián tiếp 2025
+2026-11,Q032,4_mo_tai_khoan,3,site.sbv.gov.vn Thông tư 03/2025 tài khoản đầu tư gián tiếp người nước ngoài cư trú
+2026-11,Q032,4_mo_tai_khoan,3,"site.help.tcbs.com.vn ""nước ngoài"" ""cư trú"" ""tài khoản"""
+2026-11,Q033,4_mo_tai_khoan,1,Thông tư 120 2020 Điều 6 nhà đầu tư mở nhiều tài khoản giao dịch chứng khoán mỗi công ty chứng khoán một tài khoản
+2026-11,Q033,4_mo_tai_khoan,2,Thông tư 120/2020/TT-BTC nhà đầu tư được mở nhiều tài khoản giao dịch chứng khoán mỗi công ty chứng khoán một tài khoản
+2026-11,Q033,4_mo_tai_khoan,3,Thông tư 120 2020 nhà đầu tư được mở nhiều tài khoản giao dịch chứng khoán mỗi công ty chứng khoán một tài khoản
+2026-11,Q034,4_mo_tai_khoan,1,site.dsc.com.vn mở tài khoản online DSC eKYC
+2026-11,Q034,4_mo_tai_khoan,1,https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan
+2026-11,Q034,4_mo_tai_khoan,2,site.dsc.com.vn mở tài khoản chứng khoán online eKYC DSC
+2026-11,Q034,4_mo_tai_khoan,2,https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan
+2026-11,Q034,4_mo_tai_khoan,3,site.dsc.com.vn mở tài khoản online DSC eKYC
+2026-11,Q034,4_mo_tai_khoan,3,https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan
+2026-11,Q035,4_mo_tai_khoan,1,site.vndirect.com.vn mở tài khoản chứng khoán miễn phí phí lưu ký
+2026-11,Q035,4_mo_tai_khoan,1,site.ssi.com.vn mở tài khoản chứng khoán có mất phí không
+2026-11,Q035,4_mo_tai_khoan,2,site.vndirect.com.vn mở tài khoản chứng khoán miễn phí phí lưu ký
+2026-11,Q035,4_mo_tai_khoan,2,site.ssi.com.vn mở tài khoản chứng khoán miễn phí
+2026-11,Q035,4_mo_tai_khoan,3,site.ssi.com.vn mở tài khoản chứng khoán miễn phí
+2026-11,Q035,4_mo_tai_khoan,3,site.vndirect.com.vn mở tài khoản chứng khoán có mất phí không
+2026-11,Q036,4_mo_tai_khoan,1,site.techcombank.com mở tài khoản chứng khoán TCBS Techcombank Mobile
+2026-11,Q036,4_mo_tai_khoan,1,site.mbbank.com.vn mở tài khoản chứng khoán app MBBank MBS
+2026-11,Q036,4_mo_tai_khoan,2,site.techcombank.com mở tài khoản chứng khoán TCBS trên Techcombank Mobile
+2026-11,Q036,4_mo_tai_khoan,2,site.mbbank.com.vn mở tài khoản chứng khoán app MBBank MBS
+2026-11,Q036,4_mo_tai_khoan,3,site.techcombank.com mở tài khoản chứng khoán TCBS Techcombank Mobile
+2026-11,Q036,4_mo_tai_khoan,3,site.mbbank.com.vn mở tài khoản chứng khoán app MBBank MBS
+2026-11,Q037,5_san_pham,1,site.vina capital.com mua chứng chỉ quỹ VinaCapital MiO
+2026-11,Q037,5_san_pham,1,site.dragoncapital.com.vn mua chứng chỉ quỹ DragonX
+2026-11,Q037,5_san_pham,1,site.ssi.com.vn SSIAM mua chứng chỉ quỹ đại lý phân phối
+2026-11,Q037,5_san_pham,2,site.vsd.vn chứng chỉ quỹ mở đại lý phân phối nhà đầu tư
+2026-11,Q037,5_san_pham,2,site.vcbf.com mua chứng chỉ quỹ VCBF đại lý phân phối
+2026-11,Q037,5_san_pham,2,site.vinawealth.vn mua chứng chỉ quỹ VinaCapital MiO
+2026-11,Q037,5_san_pham,3,site.ssc.gov.vn chứng chỉ quỹ nhà đầu tư đại lý phân phối quỹ mở
+2026-11,Q037,5_san_pham,3,site.vinaCapital.com đầu tư quỹ mở MiO VinaCapital
+2026-11,Q037,5_san_pham,3,site.dragoncapital.com.vn mua chứng chỉ quỹ DragonX
+2026-11,Q037,5_san_pham,3,site.fmarket.vn giấy phép ủy ban chứng khoán phân phối chứng chỉ quỹ
+2026-11,Q038,5_san_pham,1,site.vcbs.com.vn trái phiếu khách hàng cá nhân phân phối
+2026-11,Q038,5_san_pham,1,site.tcbs.com.vn trái phiếu rủi ro không bảo lãnh thanh toán
+2026-11,Q038,5_san_pham,1,site.ssi.com.vn trái phiếu khách hàng cá nhân
+2026-11,Q038,5_san_pham,2,site.vndirect.com.vn trái phiếu khách hàng cá nhân
+2026-11,Q038,5_san_pham,2,site.tcbs.com.vn trái phiếu iBond rủi ro
+2026-11,Q038,5_san_pham,2,site.ssi.com.vn trái phiếu khách hàng cá nhân
+2026-11,Q038,5_san_pham,2,https://help.tcbs.com.vn/trai-phieu-ibond/
+2026-11,Q038,5_san_pham,3,site.tcbs.com.vn trái phiếu iBond rủi ro nhà đầu tư chuyên nghiệp
+2026-11,Q038,5_san_pham,3,site.ssi.com.vn trái phiếu doanh nghiệp nhà đầu tư rủi ro
+2026-11,Q038,5_san_pham,3,site.hnx.vn trái phiếu doanh nghiệp riêng lẻ nhà đầu tư chuyên nghiệp
+2026-11,Q039,5_san_pham,1,site.tcbs.com.vn đầu tư định kỳ cổ phiếu TCInvest tích sản cổ phiếu
+2026-11,Q039,5_san_pham,1,site.dnse.com.vn tích sản cổ phiếu định kỳ hàng tháng
+2026-11,Q039,5_san_pham,1,site.fpts.com.vn cổ phiếu lô lẻ 1 99
+2026-11,Q039,5_san_pham,2,site.tcbs.com.vn đầu tư định kỳ cổ phiếu TCInvest
+2026-11,Q039,5_san_pham,2,site.fpts.com.vn đầu tư định kỳ cổ phiếu hàng tháng
+2026-11,Q039,5_san_pham,2,site.finhay.com.vn đầu tư định kỳ cổ phiếu chứng chỉ quỹ
+2026-11,Q039,5_san_pham,3,site.tcbs.com.vn đầu tư định kỳ cổ phiếu
+2026-11,Q039,5_san_pham,3,site.fpts.com.vn đầu tư định kỳ cổ phiếu
+2026-11,Q039,5_san_pham,3,site.dragoncapital.com.vn đầu tư định kỳ iSave quỹ cổ phiếu
+2026-11,Q040,5_san_pham,1,site.vps.com.vn phí giao dịch phái sinh 2026
+2026-11,Q040,5_san_pham,1,site.vndirect.com.vn phí giao dịch phái sinh
+2026-11,Q040,5_san_pham,1,site.hsc.com.vn phí giao dịch phái sinh
+2026-11,Q040,5_san_pham,1,site.ssi.com.vn biểu phí phái sinh
+2026-11,Q040,5_san_pham,1,"site.vps.com.vn ""phái sinh"" ""2.000"" ""phí"""
+2026-11,Q040,5_san_pham,1,"site.ssi.com.vn ""phái sinh"" ""2.000"" ""500"" biểu"
+2026-11,Q040,5_san_pham,1,"site.hsc.com.vn ""phái sinh"" ""phí giao dịch"" ""2026"""
+2026-11,Q040,5_san_pham,1,https://images.vps.com.vn/2024/files/vps-bieu-phi-giao-dich-chung-khoan-phai-sinh-b7bd.pdf
+2026-11,Q040,5_san_pham,2,site.vps.com.vn phí giao dịch phái sinh 2026
+2026-11,Q040,5_san_pham,2,site.vndirect.com.vn biểu phí giao dịch phái sinh
+2026-11,Q040,5_san_pham,2,site.ssi.com.vn phí giao dịch chứng khoán phái sinh
+2026-11,Q040,5_san_pham,2,site.hsc.com.vn phí giao dịch phái sinh
+2026-11,Q040,5_san_pham,2,"site.ssi.com.vn ""phái sinh"" ""2.000"" ""2025"" ""chủ động"""
+2026-11,Q040,5_san_pham,3,site.vndirect.com.vn phái sinh biểu phí giao dịch 2026
+2026-11,Q040,5_san_pham,3,site.vps.com.vn phái sinh phí giao dịch tài khoản
+2026-11,Q040,5_san_pham,3,site.ssi.com.vn phái sinh phí giao dịch ký quỹ
+2026-11,Q040,5_san_pham,3,site.hsc.com.vn phái sinh biểu phí giao dịch
+2026-11,Q041,5_san_pham,1,site.hsx.vn chứng quyền có bảo đảm mua tài khoản chứng khoán
+2026-11,Q041,5_san_pham,1,site.ssi.com.vn chứng quyền có bảo đảm mua bán tài khoản chứng khoán
+2026-11,Q041,5_san_pham,2,site.hsx.vn chứng quyền có bảo đảm mua tài khoản chứng khoán
+2026-11,Q041,5_san_pham,2,site.ssi.com.vn chứng quyền có bảo đảm mua bán tài khoản chứng khoán
+2026-11,Q041,5_san_pham,3,site.hsx.vn chứng quyền có bảo đảm mua bán tài khoản chứng khoán
+2026-11,Q041,5_san_pham,3,site.ssi.com.vn chứng quyền có bảo đảm mua bán tài khoản
+2026-11,Q042,5_san_pham,1,site.tcbs.com.vn iSave không phải tiền gửi tiết kiệm
+2026-11,Q042,5_san_pham,1,site.vndirect.com.vn Dcash sản phẩm tiền gửi
+2026-11,Q042,5_san_pham,1,site.ssi.com.vn sản phẩm quản lý tiền nhàn rỗi
+2026-11,Q042,5_san_pham,2,site.tcbs.com.vn iSave không phải tiền gửi tiết kiệm
+2026-11,Q042,5_san_pham,2,site.vndirect.com.vn Dcash sản phẩm tích lũy tiền
+2026-11,Q042,5_san_pham,2,site.ssi.com.vn sản phẩm tiền nhàn rỗi sinh lời
+2026-11,Q042,5_san_pham,2,https://www.tcbs.com.vn/isave/isave-tnc
+2026-11,Q042,5_san_pham,3,site.tcbs.com.vn iSave sinh lời tiền nhàn rỗi
+2026-11,Q042,5_san_pham,3,site.vndirect.com.vn sản phẩm tiền nhàn rỗi sinh lời chứng khoán
+2026-11,Q042,5_san_pham,3,site.ssi.com.vn tiền nhàn rỗi S-Pay
+2026-11,Q042,5_san_pham,3,site.vps.com.vn SmartOne sinh lời tự động tiền nhàn rỗi
+2026-11,Q043,5_san_pham,1,"site.vndirect.com.vn ứng trước tiền bán phí 0,03%"
+2026-11,Q043,5_san_pham,1,site.ssi.com.vn ứng trước tiền bán phí 2026
+2026-11,Q043,5_san_pham,1,https://www.ssi.com.vn/khach-hang-ca-nhan/ung-truoc-tien-ban
+2026-11,Q043,5_san_pham,2,"site.ssi.com.vn ứng trước tiền bán phí 0,03%"
+2026-11,Q043,5_san_pham,2,site.vps.com.vn ứng trước tiền bán phí
+2026-11,Q043,5_san_pham,2,site.hsc.com.vn ứng trước tiền bán T+2 phí
+2026-11,Q043,5_san_pham,2,"site.ssi.com.vn ""ứng trước"" ""0,0389"""
+2026-11,Q043,5_san_pham,2,"site.hsc.com.vn ""ứng trước"" ""0,04%"""
+2026-11,Q043,5_san_pham,2,"site.ssi.com.vn ""ứng trước"" ""50.000"""
+2026-11,Q043,5_san_pham,3,"site.ssi.com.vn phí ứng trước tiền bán 0, chứng khoán"
+2026-11,Q043,5_san_pham,3,site.vndirect.com.vn ứng trước tiền bán phí 2026
+2026-11,Q044,5_san_pham,1,công ty chứng khoán AI robot gợi ý đầu tư TCBS TCInvest
+2026-11,Q044,5_san_pham,1,công ty chứng khoán trợ lý AI đầu tư VNDIRECT VPS SSI robo
+2026-11,Q044,5_san_pham,1,"site.dnse.com.vn ""AI"" ""Ensa"""
+2026-11,Q044,5_san_pham,1,"site.mbs.com.vn ""Stock"" ""AI"""
+2026-11,Q044,5_san_pham,1,"site.vpbanksec.com.vn ""Nami"""
+2026-11,Q044,5_san_pham,1,"site.tcbs.com.vn ""TCWealth"" ""robo"""
+2026-11,Q044,5_san_pham,2,công ty chứng khoán AI robot khuyến nghị đầu tư TCBS TCInvest
+2026-11,Q044,5_san_pham,2,chứng khoán DNSE Ensa AI trợ lý
+2026-11,Q044,5_san_pham,2,chứng khoán VPS robo advisor AI
+2026-11,Q044,5_san_pham,2,chứng khoán Pinetree AI đầu tư
+2026-11,Q044,5_san_pham,2,site.vndirect.com.vn DARWIN AI khuyến nghị
+2026-11,Q044,5_san_pham,2,site.vpbank s NEO AI chứng khoán
+2026-11,Q044,5_san_pham,2,site.vpbs.com.vn AI
+2026-11,Q044,5_san_pham,2,"site.pinetree.vn ""PineFolio"""
+2026-11,Q044,5_san_pham,3,công ty chứng khoán robot AI gợi ý đầu tư TCBS TCInvest iWealth
+2026-11,Q044,5_san_pham,3,công ty chứng khoán AI tư vấn đầu tư Finhay VNSC Pinetree HSC robot
+2026-11,Q044,5_san_pham,3,"site.vps.com.vn ""WeBot"""
+2026-11,Q044,5_san_pham,3,"site.dnse.com.vn ""AI"" ""Ensa"""
+2026-11,Q044,5_san_pham,3,"site.entrade.com.vn ""AI"" ""Ensa"""
+2026-11,Q044,5_san_pham,3,"site.mbs.com.vn ""Stock"" ""AI"" ""Visafe"""
+2026-11,Q044,5_san_pham,3,"site.vpbankS.com.vn ""Nami"""
+2026-11,Q044,5_san_pham,3,"site.bsc.com.vn ""i-Invest"" ""robot"""
+2026-11,Q044,5_san_pham,3,"site.aisec.com.vn ""AI"" ""khuyến nghị"""
+2026-11,Q044,5_san_pham,3,"site.vndirect.com.vn ""DGO"" ""khuyến nghị"""
+2026-11,Q045,6_xac_minh,1,DSC công ty chứng khoán DSC giấy phép HOSE 2025 2026
+2026-11,Q045,6_xac_minh,1,chứng khoán DSC xử phạt 2025 2026 ủy ban chứng khoán
+2026-11,Q045,6_xac_minh,1,"site.ssc.gov.vn ""DSC"" ""712,5"""
+2026-11,Q045,6_xac_minh,1,"site.dsc.com.vn ""90/QĐ-XPHC"""
+2026-11,Q045,6_xac_minh,1,"site.ssc.gov.vn ""DSC"" ""2026"" ""55"""
+2026-11,Q045,6_xac_minh,2,DSC chứng khoán giấy phép Ủy ban chứng khoán DSC HOSE 2025 2026
+2026-11,Q045,6_xac_minh,2,DSC chứng khoán xử phạt 2025 2026
+2026-11,Q045,6_xac_minh,3,DSC chứng khoán giấy phép Ủy ban chứng khoán DSC 2025 2026
+2026-11,Q045,6_xac_minh,3,DSC chứng khoán xử phạt 2025 2026
+2026-11,Q045,6_xac_minh,3,"site.ssc.gov.vn ""DSC"" ""712,5"""
+2026-11,Q045,6_xac_minh,3,"site.ssc.gov.vn ""DSC"" ""90/QĐ-XPHC"""
+2026-11,Q045,6_xac_minh,4,DSC chứng khoán 2026 giấy phép Ủy ban chứng khoán xử phạt DSC
+2026-11,Q045,6_xac_minh,4,DSC chứng khoán báo cáo tài chính 2025 kiểm toán
+2026-11,Q045,6_xac_minh,5,DSC chứng khoán giấy phép 2025 2026 Ủy ban chứng khoán xử phạt
+2026-11,Q045,6_xac_minh,5,DSC chứng khoán báo cáo tài chính 2025 kiểm toán HOSE
+2026-11,Q045,6_xac_minh,5,site.dsc.com.vn giấy phép 29 DSC
+2026-11,Q045,6_xac_minh,5,"""chứng khoán DSC"" ""xử phạt"""
+2026-11,Q045,6_xac_minh,5,"site.dsc.com.vn ""2025"" ""an toàn tài chính"""
+2026-11,Q046,6_xac_minh,1,DSC chứng khoán Ủy ban chứng khoán giấy phép DSC giả mạo lừa đảo
+2026-11,Q046,6_xac_minh,1,site.dsc.com.vn cảnh báo giả mạo lừa đảo
+2026-11,Q046,6_xac_minh,2,DSC chứng khoán giấy phép Ủy ban chứng khoán lừa đảo giả mạo DSC
+2026-11,Q046,6_xac_minh,2,site.dsc.com.vn mạo danh lừa đảo cảnh báo
+2026-11,Q046,6_xac_minh,2,"site.ssc.gov.vn DSC 712,5 2025 xử phạt"
+2026-11,Q046,6_xac_minh,3,DSC chứng khoán giấy phép Ủy ban chứng khoán lừa đảo giả mạo DSC
+2026-11,Q046,6_xac_minh,3,site.dsc.com.vn giả mạo lừa đảo cảnh báo
+2026-11,Q046,6_xac_minh,3,"site.ssc.gov.vn DSC 712,5 2025 xử phạt"
+2026-11,Q046,6_xac_minh,4,site.dsc.com.vn cảnh báo giả mạo DSC lừa đảo
+2026-11,Q046,6_xac_minh,4,site.hsx.vn DSC Công ty cổ phần chứng khoán DSC niêm yết
+2026-11,Q046,6_xac_minh,4,site.ssc.gov.vn chứng khoán DSC giấy phép
+2026-11,Q046,6_xac_minh,4,"site.dsc.com.vn ""giả mạo"""
+2026-11,Q046,6_xac_minh,4,"site.dsc.com.vn ""lừa đảo"""
+2026-11,Q046,6_xac_minh,5,DSC chứng khoán giấy phép Ủy ban chứng khoán cảnh báo giả mạo DSC
+2026-11,Q046,6_xac_minh,5,site.dsc.com.vn cảnh báo giả mạo lừa đảo
+2026-11,Q047,6_xac_minh,1,DSC chứng khoán cổ đông Nguyễn Đức Anh Thành Công sở hữu 2026
+2026-11,Q047,6_xac_minh,1,site.dsc.com.vn DSC Thành Công hệ sinh thái
+2026-11,Q047,6_xac_minh,1,DSC Thành Công Nguyễn Đức Anh NTP 2026 cổ đông
+2026-11,Q047,6_xac_minh,2,DSC chứng khoán cổ đông lớn Nguyễn Đức Anh Thành Công sở hữu 2026
+2026-11,Q047,6_xac_minh,2,DSC chứng khoán hệ sinh thái Thành Công Nguyễn Đức Anh NTP
+2026-11,Q047,6_xac_minh,2,site.dsc.com.vn Thành Công chứng khoán DSC
+2026-11,Q047,6_xac_minh,3,chứng khoán DSC cổ đông lớn Nguyễn Đức Anh Thành Công sở hữu 2026
+2026-11,Q047,6_xac_minh,3,DSC chứng khoán hệ sinh thái Thành Công NTP 2026
+2026-11,Q047,6_xac_minh,3,site.dsc.com.vn Thành Công DSC
+2026-11,Q048,6_xac_minh,1,DSC app chứng khoán DSC app store phí giao dịch iWealth
+2026-11,Q048,6_xac_minh,1,DSC chứng khoán ứng dụng DSC Trading Google Play
+2026-11,Q048,6_xac_minh,2,DSC chứng khoán app DSC Trading phí giao dịch ứng dụng
+2026-11,Q048,6_xac_minh,2,DSC chứng khoán ứng dụng App Store Google Play đánh giá
+2026-11,Q048,6_xac_minh,3,app DSC chứng khoán DSC Trading app phí giao dịch
+2026-11,Q048,6_xac_minh,3,DSC chứng khoán ứng dụng App Store DSC Trading
+2026-11,Q048,6_xac_minh,3,https://apps.apple.com/vn/app/dsc-trading/id1555379533
+2026-11,Q048,6_xac_minh,4,app DSC chứng khoán DSC app store D-Invest đánh giá phí
+2026-11,Q048,6_xac_minh,4,"site.dsc.com.vn biểu phí giao dịch chứng khoán DSC 0,1%"
+2026-11,Q048,6_xac_minh,4,site.dsc.com.vn Smart OTP DSC Trading bảo mật
+2026-11,Q048,6_xac_minh,5,DSC chứng khoán app DSC Trading phí giao dịch ứng dụng
+2026-11,Q048,6_xac_minh,5,DSC Trading app Google Play App Store
+2026-11,Q048,6_xac_minh,5,https://apps.apple.com/vn/app/dsc-trading/id1555379533
+2026-11,Q049,6_xac_minh,1,site.dsc.com.vn giấy phép Ủy ban chứng khoán 095 DSC
+2026-11,Q049,6_xac_minh,2,site.dsc.com.vn giấy phép thành lập hoạt động Ủy ban chứng khoán DSC 2025
+2026-11,Q049,6_xac_minh,2,site.ssc.gov.vn DSC chứng khoán giấy phép 2026
+2026-11,Q049,6_xac_minh,3,site.dsc.com.vn giấy phép Ủy ban Chứng khoán 135 DSC
+2026-11,Q049,6_xac_minh,3,site.ssc.gov.vn DSC chứng khoán giấy phép
+2026-11,Q050,6_xac_minh,1,Chứng khoán DSC website chính thức
+2026-11,Q050,6_xac_minh,2,Chứng khoán DSC website chính thức
+2026-11,Q050,6_xac_minh,3,Chứng khoán DSC website chính thức
+2026-11,Q051,6_xac_minh,1,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí margin
+2026-11,Q051,6_xac_minh,1,site.dsc.com.vn DSC tài khoản chứng khoán ứng dụng
+2026-11,Q051,6_xac_minh,1,https://dsc.com.vn/bieu-phi
+2026-11,Q051,6_xac_minh,2,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC phí margin
+2026-11,Q051,6_xac_minh,2,site.dsc.com.vn DSC chứng khoán giới thiệu cổ đông
+2026-11,Q051,6_xac_minh,2,https://dsc.com.vn/bieu-phi
+2026-11,Q051,6_xac_minh,3,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC margin lãi suất
+2026-11,Q051,6_xac_minh,3,site.dsc.com.vn DSC Smart app giao dịch chứng khoán
+2026-11,Q051,6_xac_minh,4,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC margin
+2026-11,Q051,6_xac_minh,4,site.dsc.com.vn DSC chứng khoán cổ đông TC Group ứng dụng
+2026-11,Q051,6_xac_minh,4,site.dsc.com.vn DSC Trading ứng dụng iOS Android báo cáo phân tích
+2026-11,Q051,6_xac_minh,5,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC margin 2026
+2026-11,Q051,6_xac_minh,5,site.dsc.com.vn DSC ứng dụng giao dịch chứng khoán biểu phí
+2026-11,Q051,6_xac_minh,5,https://dsc.com.vn/bieu-phi
+2026-11,Q052,6_xac_minh,1,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin
+2026-11,Q052,6_xac_minh,1,DSC chứng khoán 2026 xử phạt giấy phép
+2026-11,Q052,6_xac_minh,2,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin 2026
+2026-11,Q052,6_xac_minh,2,site.dsc.com.vn DSC tài khoản chứng khoán giấy phép cổ đông
+2026-11,Q052,6_xac_minh,3,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin 2026
+2026-11,Q052,6_xac_minh,3,site.dsc.com.vn DSC báo cáo tài chính quý 3 2026 chứng khoán
+2026-11,Q052,6_xac_minh,4,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin 2026
+2026-11,Q052,6_xac_minh,4,site.dsc.com.vn DSC 2025 báo cáo tài chính kiểm toán công ty chứng khoán
+2026-11,Q052,6_xac_minh,5,site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin
+2026-11,Q052,6_xac_minh,5,site.dsc.com.vn DSC giấy phép Ủy ban chứng khoán tài khoản chứng khoán
+2026-11,Q053,7_van_hanh,1,site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu DSC
+2026-11,Q053,7_van_hanh,1,https://dsc.com.vn/huong-dan
+2026-11,Q053,7_van_hanh,2,site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu
+2026-11,Q053,7_van_hanh,2,https://dsc.com.vn/huong-dan/nop-tien
+2026-11,Q053,7_van_hanh,2,"site.dsc.com.vn ""nộp tiền"" ""phút"""
+2026-11,Q053,7_van_hanh,2,"site.dsc.com.vn ""nộp tiền"" ""24/7"""
+2026-11,Q053,7_van_hanh,2,"site.dsc.com.vn ""nộp tiền"" ""16h"""
+2026-11,Q053,7_van_hanh,2,https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose
+2026-11,Q053,7_van_hanh,3,site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu
+2026-11,Q053,7_van_hanh,3,https://dsc.com.vn/huong-dan/nop-tien
+2026-11,Q053,7_van_hanh,3,"site.dsc.com.vn ""nộp tiền"" ""phút"""
+2026-11,Q053,7_van_hanh,3,"site.dsc.com.vn ""nộp tiền"" ""24/7"""
+2026-11,Q053,7_van_hanh,3,https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose
+2026-11,Q054,7_van_hanh,1,site.dsc.com.vn hướng dẫn rút tiền tài khoản chứng khoán DSC chuyển tiền
+2026-11,Q054,7_van_hanh,1,https://www.dsc.com.vn/huong-dan/rut-tien
+2026-11,Q054,7_van_hanh,1,"site.dsc.com.vn/huong-dan/rut-tien ""Bước 4"""
+2026-11,Q054,7_van_hanh,1,"site.dsc.com.vn ""Chuyển tiền"" ""App"" ""OTP"" ""Bước 1"""
+2026-11,Q054,7_van_hanh,2,site.dsc.com.vn hướng dẫn rút tiền tài khoản chứng khoán DSC
+2026-11,Q054,7_van_hanh,2,https://www.dsc.com.vn/huong-dan/huong-dan-chuyen-tien-tren-app-dsc-trading
+2026-11,Q054,7_van_hanh,3,site.dsc.com.vn hướng dẫn rút tiền tài khoản chứng khoán DSC chuyển tiền
+2026-11,Q054,7_van_hanh,3,https://www.dsc.com.vn/huong-dan/rut-tien
+2026-11,Q054,7_van_hanh,3,"site.dsc.com.vn ""rút tiền"" ""Bước 4"""
+2026-11,Q054,7_van_hanh,3,"site.dsc.com.vn ""Chuyển tiền trên App"" ""Bước"""
+2026-11,Q055,7_van_hanh,1,site.dsc.com.vn liên hệ hotline DSC chứng khoán đặt lệnh 1900
+2026-11,Q055,7_van_hanh,1,site.dsc.com.vn lỗi đặt lệnh iDSC hỗ trợ
+2026-11,Q055,7_van_hanh,2,site.dsc.com.vn hotline đặt lệnh DSC chứng khoán app lỗi
+2026-11,Q055,7_van_hanh,3,site.dsc.com.vn liên hệ hotline DSC chứng khoán đặt lệnh 2026
+2026-11,Q056,7_van_hanh,1,site.dsc.com.vn liên hệ hotline địa chỉ chứng khoán DSC
+2026-11,Q056,7_van_hanh,2,site.dsc.com.vn liên hệ hotline địa chỉ chứng khoán DSC
+2026-11,Q056,7_van_hanh,3,site.dsc.com.vn liên hệ hotline địa chỉ chứng khoán DSC
+2026-11,Q057,7_van_hanh,1,site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45
+2026-11,Q057,7_van_hanh,1,site.hnx.vn thời gian giao dịch cổ phiếu 14h45 15h UPCoM
+2026-11,Q057,7_van_hanh,1,site.ssi.com.vn quy định giao dịch UPCOM 15h00
+2026-11,Q057,7_van_hanh,1,site.support.vndirect.com.vn UPCOM 15h00
+2026-11,Q057,7_van_hanh,2,site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45
+2026-11,Q057,7_van_hanh,2,site.hnx.vn thời gian giao dịch cổ phiếu 9h 11h30 13h 15h
+2026-11,Q057,7_van_hanh,3,site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45
+2026-11,Q057,7_van_hanh,3,site.hnx.vn thời gian giao dịch cổ phiếu 14h45 15h UPCoM
+2026-11,Q057,7_van_hanh,3,https://support.vndirect.com.vn/hc/vi/articles/360002241873
+2026-11,Q058,7_van_hanh,1,site.vsd.vn chuyển khoản chứng khoán nhà đầu tư thành viên lưu ký khác
+2026-11,Q058,7_van_hanh,1,site.tcbs.com.vn chuyển chứng khoán sang công ty chứng khoán khác
+2026-11,Q058,7_van_hanh,1,site.ssi.com.vn chuyển khoản chứng khoán khác công ty cùng chủ sở hữu
+2026-11,Q058,7_van_hanh,1,https://help.tcbs.com.vn/chuyen-khoan-chung-khoan-truc-tuyen/
+2026-11,Q058,7_van_hanh,2,site.vsd.vn chuyển khoản chứng khoán nhà đầu tư thành viên lưu ký khác cùng chủ sở hữu
+2026-11,Q058,7_van_hanh,2,site.tcbs.com.vn chuyển chứng khoán công ty chứng khoán khác phí chuyển khoản
+2026-11,Q058,7_van_hanh,2,site.ssi.com.vn chuyển khoản chứng khoán công ty khác hồ sơ
+2026-11,Q058,7_van_hanh,2,"site.help.tcbs.com.vn ""Chuyển khoản chứng khoán sang"""
+2026-11,Q058,7_van_hanh,3,site.vsd.vn chuyển khoản chứng khoán khác thành viên lưu ký nhà đầu tư
+2026-11,Q058,7_van_hanh,3,site.tcbs.com.vn chuyển chứng khoán công ty chứng khoán khác chuyển khoản tất toán
+2026-11,Q058,7_van_hanh,3,"site.help.tcbs.com.vn ""Hướng dẫn chuyển khoản chứng khoán từ công ty khác"""
+2026-11,Q058,7_van_hanh,3,site.ssi.com.vn chuyển khoản chứng khoán khác công ty hồ sơ
+2026-11,Q059,7_van_hanh,1,site.ubcknn.gov.vn tiếp nhận phản ánh kiến nghị khiếu nại công ty chứng khoán
+2026-11,Q059,7_van_hanh,1,site.hnx.vn nhà đầu tư khiếu nại công ty chứng khoán UBCKNN
+2026-11,Q059,7_van_hanh,1,"site.ssc.gov.vn ""164"" ""Trần Quang Khải"""
+2026-11,Q059,7_van_hanh,1,"site.ssc.gov.vn ""tranh chấp"" ""trọng tài"" ""Tòa án"""
+2026-11,Q059,7_van_hanh,1,"site.ssc.gov.vn ""tiếp công dân"" ""đơn"""
+2026-11,Q059,7_van_hanh,2,site.ssc.gov.vn phản ánh kiến nghị khiếu nại công ty chứng khoán Ủy ban Chứng khoán Nhà nước
+2026-11,Q059,7_van_hanh,2,site.hnx.vn site.hsx.vn tranh chấp công ty chứng khoán khách hàng khiếu nại
+2026-11,Q059,7_van_hanh,2,Luật chứng khoán 2019 Điều 133 tranh chấp thương lượng trọng tài tòa án
+2026-11,Q059,7_van_hanh,2,"site.ssc.gov.vn ""164"" ""Trần Quang Khải"" liên hệ"
+2026-11,Q059,7_van_hanh,3,site.ssc.gov.vn phản ánh kiến nghị khiếu nại công ty chứng khoán Ủy ban Chứng khoán Nhà nước
+2026-11,Q059,7_van_hanh,3,site.ssc.gov.vn tiếp công dân địa chỉ 164 Trần Quang Khải khiếu nại chứng khoán
+2026-11,Q059,7_van_hanh,3,"site.chinhphu.vn ""chứng khoán"" ""Tranh chấp"" ""trọng tài"" ""tòa án"""
+2026-11,Q059,7_van_hanh,3,"site.ssc.gov.vn ""164"" ""2026"" ""Trần Quang Khải"""
+2026-11,Q060,7_van_hanh,1,site.dsc.com.vn quên mật khẩu tài khoản chứng khoán DSC
+2026-11,Q060,7_van_hanh,1,"site.dsc.com.vn ""Hướng dẫn lấy lại mật khẩu"""
+2026-11,Q060,7_van_hanh,2,site.dsc.com.vn quên mật khẩu tài khoản chứng khoán DSC
+2026-11,Q060,7_van_hanh,2,"site.dsc.com.vn ""Hướng dẫn lấy lại mật khẩu"""
+2026-11,Q060,7_van_hanh,2,site.dsc.com.vn hotline 1900 email chăm sóc khách hàng
+2026-11,Q060,7_van_hanh,3,site.dsc.com.vn quên mật khẩu tài khoản DSC iInvest

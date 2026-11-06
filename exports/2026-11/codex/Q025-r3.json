@@ -1,0 +1,238 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q025-r3",
+ "prompt_id": "Q025",
+ "run": 3,
+ "question": "Chứng khoán DSC có miễn phí giao dịch không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:54:21",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.9,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b010-ecd6-7380-86df-3ff6ae3181a0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-80cd47a7-29c1-4db8-a5cc-9860216ccb49",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-80cd47a7-29c1-4db8-a5cc-9860216ccb49",
+    "type": "web_search",
+    "query": "site.dsc.com.vn miễn phí giao dịch biểu phí chứng khoán DSC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn miễn phí giao dịch biểu phí chứng khoán DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Biểu phí giao dịch chứng khoán niêm yết, Upcom ... Phí giao dịch chuyển quyền sở hữu chứng khoán ngoài hệ thống giao dịch",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1 transfer/1 stock code",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Khi có nhu cầu chuyển tiền từ tài khoản chứng khoán ra tài khoản ngân hàng, Khách hàng thực hiện theo 1 trong các Phương",
+      "title": "Hướng dẫn rút tiền 24/7 tại DSC - Chứng khoán DSC",
+      "url": "https://dsc.com.vn/huong-dan/rut-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Nhà đầu tư sẽ nhận được hỗ trợ và tư vấn miễn phí trong suốt quá trình đầu tư bởi đội ngũ chuyên gia của",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.csc.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Biểu phí dịch vụ chứng khoán ... I | Mở tài khoản giao dịch | Miễn phí | ... 1 | Giao dịch cổ phiếu",
+      "title": "Capital Securities",
+      "url": "https://www.csc.vn/vi/bieu-phi-dich-vu/bieu-phi-dich-vu-213-28638.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search5",
+      "snippet": "3.2 | Tổng giá trị giao dịch ≤ 300 triệu VNĐ/ngày | 0,25% ... 12.4 | Chuyển quyền sở hữu chứng khoán do chia, tách,",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aisec.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "## Biểu phí giao dịch chứng khoán Cơ sở ... 2 | Giao dịch cổ phiếu niêm yết, chứng chỉ quỹ | | Chính sách",
+      "title": "Biểu phí dịch vụ",
+      "url": "https://www.aisec.com.vn/service-tariff"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Nhà đầu tư sẽ nhận được hỗ trợ và tư vấn miễn phí trong suốt quá trình đầu tư bởi đội ngũ chuyên gia của",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://www.dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Đánh giá chi tiết Chứng khoán DSC năm 2026: phí giao dịch, lãi suất margin, giao diện ứng dụng, chất lượng hỗ trợ và hướng",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Cầu Giấy, Hà Nội ... info@dsc.com.vn",
+      "title": "DSC thông báo điều chỉnh biểu phí giao dịch chứng khoán niêm yết",
+      "url": "https://www.dsc.com.vn/tin-tuc/bieu-phi-dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.csc.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Biểu phí dịch vụ chứng khoán ... I | Mở tài khoản giao dịch | Miễn phí | ... Tối thiểu 20.000 VND/lần ứng |",
+      "title": "Capital Securities",
+      "url": "https://www.csc.vn/vi/bieu-phi-dich-vu-chung-khoan-213/bieu-phi-dich-vu-213-28584.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "eves.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Biểu phí Dịch vụ Chứng khoán áp dụng đối với chứng khoán niêm yết/đăng ký giao dịch. ... Phí chuyển quyền sở hữu chứng khoán",
+      "title": "Biểu phí dịch vụ",
+      "url": "https://eves.com.vn/san-pham-dich-vu/bieu-phi/bieu-phi-dich-vu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Stt 1 | Dịch vụ Mở tài khoản | Mức phí Miễn phí --- | --- | --- Stt 2 | Dịch vụ Đóng tài",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://www.aseansc.com.vn/policy/Bieu-phi-dich-vu-aseansc.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Chính sách ưu đãi với khách hàng khu vực Miền Trung – Tây Nguyên được hưởng lãi suất vay margin 10%/năm và phí giao dịch",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sisi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Stay Hungry for Success — www.sisi.com.vn ... Công ty Cổ phần Chứng khoán SmartInvest (AAS) ban hành biểu phí dịch vụ tài chính như sau:",
+      "title": "SMART INVEST Securities Services",
+      "url": "https://www.sisi.com.vn/Content/Archive/FileAttact/Bieu%20phi%20DVTC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "file.fpts.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước cấp lần đầu ngày 18/12/2006",
+      "title": "Báo cáo thường niên DSC 2024",
+      "url": "https://file.fpts.com.vn/FileStore2/File/2025/03/25/20250325_20250325_-_DSC_-_CBTT_Bao_cao_thuong_nien_nam_2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mobi.fireant.vn",
+      "ref_id": "turn0search16",
+      "snippet": "giao dịch nộp tiền vào tài khoản chứng khoán của khách hàng tại DSC được rút ngắn ... Với định hướng chung của thị trường",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://mobi.fireant.vn/News/NewsAttachedFile/1774029"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-89d567f0-d1d3-467e-a825-41ba92235beb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-89d567f0-d1d3-467e-a825-41ba92235beb",
+    "type": "web_search",
+    "query": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 135",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ny5O4yRn8aBoLzwcRglsKM7oZ_1bd0kyn0HdMIq0bNYgfbUfnngLi4d4RyXaE1g7UMV3NTuMnwBzuhDbs5PbvA",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Không. DSC hiện không miễn phí giao dịch theo biểu phí công bố** (áp dụng từ 20/08/2025). Với cổ phiếu, chứng chỉ quỹ và chứng quyền:\n\n- **Tài khoản do khối Tư vấn số quản lý:** phí **0,1%** giá trị giao dịch.\n- **Tài khoản do Môi giới quản lý:** phí **0,15–0,3%**, tùy giá trị giao dịch trong ngày.\n\nVí dụ: giao dịch mua **100 triệu đồng** với mức phí 0,1% thì mất **100.000 đồng phí giao dịch**. [Biểu phí chính thức của DSC](https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet)\n\nNếu bạn được giới thiệu gói “miễn phí”, nên kiểm tra điều kiện và thời hạn ưu đãi riêng của tài khoản."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 37529,
+    "cached_input_tokens": 29184,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 306,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b010-ecd6-7380-86df-3ff6ae3181a0",
+ "error": ""
+}

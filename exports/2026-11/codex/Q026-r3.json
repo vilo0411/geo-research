@@ -1,0 +1,207 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q026-r3",
+ "prompt_id": "Q026",
+ "run": 3,
+ "question": "Bán cổ phiếu phải chịu thuế và phí gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:54:47",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-5224-7d32-9cd0-32f0cd75f053"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-55591064-142c-4d34-a6ab-90c749391ac2",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-55591064-142c-4d34-a6ab-90c749391ac2",
+    "type": "web_search",
+    "query": "site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá chuyển nhượng ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn thuế thu nhập cá nhân chuyển nhượng chứng khoán 0,1% giá chuyển nhượng",
+      "site.ssi.com.vn phí giao dịch cổ phiếu phí bán thuế 0.1%"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "datafiles.chinhphu.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Thuế thu nhập cá nhân đối với thu nhập từ chuyển nhượng chứng khoán của cá nhân cư trú được xác định bằng thu nhập",
+      "title": "14\n\na) Thu nhập tính thuế từ chuyển nhượng vốn đượ",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/duthaovbpl/2025/Thang7/dt-luat-thue-tncn.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "datafiles.chinhphu.vn",
+      "ref_id": "turn0search13",
+      "snippet": "d.1.1) Công ty chứng khoán, ngân hàng thương mại nơi cá nhân mở tài khoản lưu ký chứng khoán có trách nhiệm khấu trừ thuế",
+      "title": "Mọi trường hợp chuyển nhượng chứng khoán đều phải khấu trừ thuế theo thuế suất 0,1% trên giá chuyển nhượng trước khi thanh toán cho người chuyển nhượng. Cụ thể việc khấu trừ thuế được thực hiện như sau:",
+      "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/09/tt-111.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Thuế TNCN từ chuyển nhượng chứng khoán (thuế suất 0,1% trên giá trị chuyển nhượng) cho mỗi giao dịch. ... Nghĩa vụ nộp thuế",
+      "title": "Thông báo thực hiện khấu trừ thuế thu nhập cá nhân đối với cổ phiếu thưởng và cổ phiếu phát hành theo Chương trình lựa chọn cho người lao động (ESOP) - Vietcap",
+      "url": "https://www.vietcap.com.vn/tin-tuc/thong-bao-thuc-hien-khau-tru-thue-thu-nhap-ca-nhan-doi-voi-co-phieu-thuong-va-co-phieu-phat-hanh-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-esop"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Chính sách thuế đối với thu nhập từ chuyển nhượng HĐTL trên thị trường CKPS Thuế TNCN = Giá chuyển nhượng từng lần * 0,1%,",
+      "title": "Quy Định Về HĐTL Chỉ số VN30/VN100",
+      "url": "https://www.phs.vn/san-pham-dich-vu/quy-dinh-ve-hdtl-chi-so-vn-30-vn-100/170"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsi.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Phí chuyển khoản phát sinh để thực hiện thanh toán bán chứng khoán | 0,5 VNĐ/ 1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán",
+      "title": "Biểu phí giao dịch từ 02/03/2026",
+      "url": "https://sbsi.vn/vi-vn/san-pham-dich-vu/bai-viet/khach-hang-ca-nhan/bieu-phi-dich-vu-khcn/A14"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "1.&nbsp;Giao dịch cổ phiếu (CP), chứng chỉ quỹ (CCQ), ETF, chứng quyền có bảo đảm (CW) a) Khách hàng giao ... Tổng giá trị giao",
+      "title": "Biểu giá dịch vụ áp dụng cho tkgd chứng khoán cơ sở",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san"
+     },
+     {
+      "type": "text_result",
+      "domain": "bqlkkt.gialai.gov.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Khấu trừ thuế là việc tổ chức, cá nhân trả thu nhập phải tính trừ số thuế phải nộp của cá nhân trước khi trả",
+      "title": "Hỏi đáp - Tài chính - Thuế",
+      "url": "https://bqlkkt.gialai.gov.vn/vi/faq/Tai-chinh-Thue/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tusach.fph.gov.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Thuế thu nhập cá nhân phải nộp = Giá chuyển nhượng chứng khoán từng lần × Thuế suất 0,1% ... d.1) Căn cứ để xác",
+      "title": "Cá nhân chuyển nhượng chứng khoán nộp thuế theo thuế suất 0,1% trên giá chuyển nhượng chứng khoán từng lần.",
+      "url": "https://tusach.fph.gov.vn/upload/data/news/21-01-20/1579543198_noi-dung.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.andylaw.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Cá nhân chuyển nhượng cổ phần, kể cả cổ phần công ty chưa niêm yết, nộp thuế thu nhập cá nhân theo mức chuyển nhượng",
+      "title": "Chuyển nhượng cổ phần: 3 TRƯỜNG HỢP Bị Hạn Chế, Thủ Tục",
+      "url": "https://www.andylaw.vn/chuyen-nhuong-co-phan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "gonnapass.com",
+      "ref_id": "turn0search15",
+      "snippet": "+ Đối với chứng khoán không thuộc trường hợp nêu trên, giá chuyển nhượng là giá ghi trên hợp đồng chuyển nhượng hoặc giá thực",
+      "title": "Chuyªn ®Ò 9",
+      "url": "https://gonnapass.com/wp-content/uploads/2020/05/CD3-Thue-2020.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Cổ phiếu, chứng chỉ quỹ, chứng quyền | Áp dụng mức phí ưu đãi từ 0,1 % (*) ... Lưu ý: Giá Dịch vụ Giao",
+      "title": "Thị trường cơ sở - HSC",
+      "url": "https://hsc.com.vn/fees-and-charges/underlying-market.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "masanconsumer.com",
+      "ref_id": "turn0search16",
+      "snippet": "Công ty Cổ phần Hàng tiêu dùng Masan sẽ thu thuế thu nhập cá nhân và thuế thu nhập doanh nghiệp (đối với cổ đông",
+      "title": "số tiền tương đương với số cổ phiếu được mua phát sinh từ nhận chuyển nhượng quyền mua thì Công ty sẽ xử lý tương tự như khi cổ đông thực hiện quyền mua ở mục II.2 trên.",
+      "url": "https://masanconsumer.com/wp-content/uploads/2025/02/4.-MCH_Huong-dan-thuc-hien-quyen-mua-CP_17Feb2025_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ftp2.ssi.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Screenshot of a dark-themed SSI trading/account page titled “Lịch sử lãi lỗ” with filters and a transaction table on the left, and an explanation panel",
+      "title": "PowerPoint Presentation",
+      "url": "https://ftp2.ssi.com.vn/Customers/GDDT/Document/SSI_VHTT_HDSD_Giao_di%E1%BB%87n_v%C3%A0_T%C3%ADnh_n%C4%83ng_%20m%E1%BB%9Bi_tr%C3%AAn_%20iBoard_Web.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search7",
+      "snippet": "1.1 | Phí giao dịch cổ phiếu, chứng chỉ quỹ, chứng quyền niêm yết trực tiếp tại quầy hoặc qua nhân viên quản lý tài",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở",
+      "url": "https://www.phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26"
+     },
+     {
+      "type": "text_result",
+      "domain": "lexdata.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Khác với thuế chuyển nhượng vốn góp, thuế TNCN từ chuyển nhượng chứng khoán bằng 0,1% × giá chuyển nhượng, theo từng lần (khoản 1",
+      "title": "Thuế chuyển nhượng vốn góp: 20%, 2% hay 0,1%? | LexData",
+      "url": "https://lexdata.vn/blog/thue-chuyen-nhuong-von-gop/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Công ty phát hành thêm theo tỷ lệ 10:2, giá 12.000 đồng. ... Phát hành cho cổ đông hiện hữu với giá thấp hơn giá",
+      "title": "Quyền mua cổ phiếu mới: tiền phải nộp và pha loãng | HODL.VN",
+      "url": "https://www.hodl.vn/bai-hoc/quyen-mua-co-phieu-moi"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsi.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Từ ngày 02/03/2026, Công ty cổ phần chứng khoán Stnaley Brothers áp dụng Biểu phí giao dịch sản phẩm dịch vụ áp dụng với Cổ",
+      "title": "SBSI_ Biểu phí giao dịch sản phẩm dịch vụ áp dụng với Cổ phiếu, Chứng chỉ quỹ, chứng quyền có đảm bảo và Trái phiếu doanh nghiệp phát hành riêng lẻ",
+      "url": "https://sbsi.vn/vi-vn/ve-sbsi/chi-tiet-bai-viet/quan-he-co-dong/cong-bo-thong-tin/E21/116622"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn là **nhà đầu tư cá nhân bán cổ phiếu trên sàn Việt Nam**, thường có các khoản sau:\n\n| Khoản | Cách tính |\n|---|---|\n| **Thuế thu nhập cá nhân** | **0,1% × tổng giá trị bán**, dù bán lãi hay lỗ; không tính riêng trên lợi nhuận. Công ty chứng khoán thường khấu trừ khi thanh toán. |\n| **Phí giao dịch bán** | Tổng giá trị bán × mức phí của tài khoản, tùy công ty chứng khoán và gói dịch vụ. |\n| **Khoản khác nếu phát sinh** | Phí ứng trước tiền bán nếu muốn dùng tiền sớm; lãi vay margin nếu có vay. |\n\nTham khảo: [quy định khấu trừ thuế](https://datafiles.chinhphu.vn/cpp/files/vbpq/2013/09/tt-111.pdf), [biểu phí SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san), [phí ứng tiền bán PHS](https://www.phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26).\n\n**Ví dụ:** Bán được **100 triệu đồng**, giả sử phí giao dịch **0,15%**:\n- Thuế: **100.000 đồng**.\n- Phí giao dịch: **150.000 đồng**.\n- Còn lại: **99.750.000 đồng**, chưa trừ dư nợ và các khoản khác nếu có.\n\n**Lưu ý:** Nếu bán cổ phiếu nhận từ cổ tức hoặc cổ phiếu thưởng, có thể phát sinh thêm thuế đối với khoản thu nhập đó, ngoài thuế bán 0,1%. [Thông tin từ Vietcap](https://www.vietcap.com.vn/tin-tuc/thong-bao-thuc-hien-khau-tru-thue-thu-nhap-ca-nhan-doi-voi-co-phieu-thuong-va-co-phieu-phat-hanh-theo-chuong-trinh-lua-chon-cho-nguoi-lao-dong-esop).\n\nBạn đang giao dịch ở công ty chứng khoán nào?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21950,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 587,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-5224-7d32-9cd0-32f0cd75f053",
+ "error": ""
+}

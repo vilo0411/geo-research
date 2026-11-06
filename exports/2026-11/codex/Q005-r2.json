@@ -1,0 +1,230 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q005-r2",
+ "prompt_id": "Q005",
+ "run": 2,
+ "question": "Margin trong chứng khoán là gì? Có rủi ro gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:37:05",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 30.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b001-1ca1-7772-af5f-9485ba659612"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-1ef11d85-a4ef-4c36-a583-f7c80cbba66a",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-1ef11d85-a4ef-4c36-a583-f7c80cbba66a",
+    "type": "web_search",
+    "query": "site.hsx.vn giao dịch ký quỹ rủi ro margin ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.hsx.vn giao dịch ký quỹ rủi ro margin",
+      "site.vndirect.com.vn margin call force sell giao dịch ký quỹ"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "# FAQ: Giao Dịch Ký Quỹ (Margin) tại VNDIRECT ... * Rủi ro margin call: Nếu tỷ lệ tài sản đảm bảo (Rtt) thấp hơn",
+      "title": "FAQ: Giao Dịch Ký Quỹ (Margin) tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/40279362847257-FAQ-Giao-D%E1%BB%8Bch-K%C3%BD-Qu%E1%BB%B9-Margin-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Danh sách chứng khoán được giao dịch ký quỹ tại VNDIRECT (Cập nhật ngày 03/11/2026)",
+      "title": "Danh mục giao dịch ký quỹ tại VNDIRECT - Cập nhật",
+      "url": "https://www.vndirect.com.vn/dich-vu-chung-khoan/san-pham-dich-vu/margin/danh-muc-ky-quy/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "3 | Ngưỡng cảnh báo (Margin call) | 80% ≤ Rtt < 85% | KH sẽ nhận được Lệnh gọi ký quỹ theo hình thức",
+      "url": "https://www.dsc.com.vn/dich-vu/trang-thai-va-cac-nguong-kiem-soat-khi-giao-dich-ky-quy?_ccrz_cb=8657eba82ad1"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Đảm bảo an toàn tài khoản khi sử dụng dịch vụ ký quỹ (Margin), tối ưu danh mục hợp lý và tăng tính hiệu quả",
+      "title": "Hướng dẫn sử dụng tính năng Smart Sell – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/41558500293913-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-t%C3%ADnh-n%C4%83ng-Smart-Sell"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Để thay đổi hạn mức giao dịch ký quỹ (Margin), Quý khách vui lòng truy cập vào website Bảng giá https://trade.vndirect.com.vn và làm theo các",
+      "title": "Hướng dẫn thay đổi hạn mức Giao dịch ký quỹ (Margin) – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/41551356176537-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-thay-%C4%91%E1%BB%95i-h%E1%BA%A1n-m%E1%BB%A9c-Giao-d%E1%BB%8Bch-k%C3%BD-qu%E1%BB%B9-Margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* MARGIN - GIAO DỊCH KÝ QUỸ VNDIRECT ... * Hướng dẫn sử dụng tính năng Smart Sell",
+      "title": "GIAO DỊCH KÝ QUỸ (MARGIN) – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/sections/38919071317145-GIAO-D%E1%BB%8ACH-K%C3%9D-QU%E1%BB%B8-MARGIN"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Hợp đồng giao dịch ký quỹ tối thiểu phải bao gồm nội dung về tài sản bảo đảm cho giao dịch ký quỹ, thời hạn",
+      "title": "Điều 9. Giao dịch ký quỹ",
+      "url": "https://staticfile.hsx.vn/Uploads/LocalFiles/d7f582e40a2c43528c8476092dd1f6ad/20210119_Thong%20tu%20120.2020%20TT-BTC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search13",
+      "snippet": "Tôi đang sử dụng Dịch vụ Giao dịch Ký quỹ, nay tài khoản của tôi có ... Tôi nhận dc SMS về forced sell tài",
+      "title": "DỊCH VỤ\nGIAO DỊCH KÝ QUỸ HSC\nGiải pháp vốn linh ho",
+      "url": "https://storage.googleapis.com/hsc-cweb/margin-lending/02-hsc-new-margin-model-qa.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search14",
+      "snippet": "STT 1 | NGƯỠNG Ngưỡng ký quỹ ban đầu (IMR) | TỈ LỆ KÝ QUỸ TÀI KHOẢN (MR) MR >= 100% | TRẠNG THÁI TÀI",
+      "title": "PowerPoint Presentation",
+      "url": "https://storage.googleapis.com/hsc-cweb/margin-lending/01-new-margin-model-gioi-thieu-san-pham.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search15",
+      "snippet": "C DỊCH VỤ 29 ... Hỗ trợ Khách hàng chủ động theo dõi và xử lý khi Tài khoản có trạng thái Buộc bán (Force",
+      "title": "C DỊCH VỤ                                                                 29",
+      "url": "https://storage.googleapis.com/hsc-cweb/services-file/huong-dan-su-dung-hsc-one-web.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "### VNDIRECT là công ty duy nhất cung cấp công cụ hỗ trợ Khách hàng chủ động quản lý hạn mức Margin trên thị trường.",
+      "title": "QUẢN LÝ HẠN MỨC MARGIN",
+      "url": "https://www.vndirect.com.vn/Ban-da-biet-cach-quan-ly-han-muc-margin-hieu-qua-chua/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "LƯU Ý VỀ VIỆC CALL MARGIN (CẢNH BÁO) & FORCE SELL (BÁN XỬ LÝ) TỰ ĐỘNG ... * Bất cứ thời điểm nào trong Phiên",
+      "title": "Call Margin - Force Sell | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-ky-quy-theo-deal/call-margin-force-sell"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "CTCK có quyền chủ động bán chứng khoán để thu hồi nợ margin (force sell) trong các trường hợp sau: ... Margin call là cảnh",
+      "title": "Margin là gì? Khi nào nhà đầu tư nên sử dụng margin?",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Hướng dẫn rút tiền, chuyển tiền từ tài khoản giao dịch tại VNDIRECT ... Giấy đăng ký sản phẩm giao dịch ký quỹ DMargin",
+      "title": "Hướng dẫn giao dịch - Chi tiết các bước giao dịch (VNDIRECT)",
+      "url": "https://www.vndirect.com.vn/huong-dan-bieu-mau/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Trang hỗ trợ ghi ba mốc cho giao dịch ký quỹ, mô tả chung cho các gói DMargin, T10 và T15: ... Về trả nợ,",
+      "title": "Khi nào bị call margin VNDIRECT: Rtt 90% và 85% | HODL.VN",
+      "url": "https://www.hodl.vn/khi-nao-bi-call-margin-vndirect"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "SP Giao dịch Chứng khoán Phái sinh # Call Margin - Force Sell PS ... Khi Deal đang mở chạm tỷ lệ này, KH sẽ",
+      "title": "Call Margin - Force Sell PS | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/san-pham-dich-vu/sp-giao-dich-chung-khoan-phai-sinh/call-margin-force-sell-ps"
+     },
+     {
+      "type": "text_result",
+      "domain": "ainvest.aisec.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "<tr><td><b>Sức mua tối thiểu</b></td><td>= Tài sản ròng - Tổng giá trị ký quỹ - Tổng giá trị ký quỹ của lệnh mua chờ khớp (Giá",
+      "title": "Hướng dẫn sử dụng Giao dịch trực tuyến",
+      "url": "https://ainvest.aisec.com.vn/Templates/Huong_dan_giao_dich_truc_tuyen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ftp2.ssi.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "**Tài sản đảm bảo khác:** Giá trị quyền nhận cổ tức bằng tiền đã được chốt trên TK Ký quỹ hoặc giá trị thị trường",
+      "title": "SSI_WT_Huong-dan-su-dung-chi-tiet_v3.4.20120820",
+      "url": "https://ftp2.ssi.com.vn/Customers/GDDT/Documents/vi/web-trading/SSI_WT_Huong-dan-su-dung-chi-tiet_v3.4.20120820.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.youtube.com",
+      "ref_id": "turn0youtube18",
+      "snippet": "# Vòng Xoáy Margin-Call & Force-Sell | Thị Trường Chứng Khoán Sẽ Tạo Đáy Nếu Có Tín Hiệu Này! ... Vòng Xoáy Margin-Call & Force-Sell",
+      "title": "Vòng Xoáy Margin-Call & Force-Sell | Thị Trường Chứng Khoán Sẽ Tạo Đáy Nếu Có Tín Hiệu Này! - YouTube",
+      "url": "https://www.youtube.com/watch?v=EfZzO8ZJCQE"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search19",
+      "snippet": "Therefore, the additional margin requirement is set at 3¢, and the investor has to post at least 14¢ (obtained from the sale) + 3¢ =",
+      "title": "Margin (finance)",
+      "url": "https://en.wikipedia.org/wiki/Margin_%28finance%29"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Margin (giao dịch ký quỹ) là vay tiền từ công ty chứng khoán để mua thêm cổ phiếu**, dùng tiền và chứng khoán trong tài khoản làm tài sản bảo đảm. Bạn phải trả lãi cho khoản vay. [Giải thích của SSI](https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/margin-la-gi-khi-nao-nha-dau-tu-can-dung-den-margin)\n\n### Ví dụ dễ hiểu\nBạn có **100 triệu**, vay thêm **100 triệu** để mua **200 triệu cổ phiếu**:\n\n| Giá cổ phiếu | Giá trị cổ phiếu | Vốn còn lại sau khi trả 100 triệu tiền vay |\n|---|---:|---:|\n| Tăng 10% | 220 triệu | 120 triệu → **lãi 20%** |\n| Giảm 10% | 180 triệu | 80 triệu → **lỗ 20%** |\n\n*Ví dụ chưa tính lãi vay, thuế và phí.* Margin vì vậy **khuếch đại cả lãi lẫn lỗ**.\n\n### Có những rủi ro gì?\n- **Lỗ nhanh hơn:** Cổ phiếu giảm nhẹ cũng có thể làm vốn tự có giảm mạnh.\n- **Tốn lãi vay:** Dù cổ phiếu đi ngang hay giảm, khoản vay vẫn phát sinh lãi.\n- **Call margin — yêu cầu bổ sung bảo đảm:** Khi tỷ lệ an toàn xuống dưới ngưỡng quy định, bạn có thể phải nộp thêm tiền/tài sản hoặc bán bớt cổ phiếu.\n- **Force sell — bán giải chấp:** Công ty chứng khoán có thể bán tài sản để thu hồi nợ theo điều kiện đã thỏa thuận, khiến bạn phải bán ngay lúc giá thấp. Ngưỡng và thời hạn xử lý tùy công ty, sản phẩm và hợp đồng. [FAQ của VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/40279362847257-FAQ-Giao-D%E1%BB%8Bch-K%C3%BD-Qu%E1%BB%B9-Margin-t%E1%BA%A1i-VNDIRECT)\n- **Không bán được khi cần:** Nếu cổ phiếu giảm sàn và thiếu người mua, lệnh bán có thể không khớp; khoản lỗ tiếp tục tăng và tiền bán cuối cùng có thể không đủ trả nợ.\n\n**Tóm lại:** Margin là **đầu tư bằng tiền vay**, không phải tiền được cấp thêm miễn phí. Nếu mới bắt đầu, nên hiểu rõ lãi vay, ngưỡng call margin và điều kiện bán giải chấp trước khi sử dụng."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22102,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 639,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b001-1ca1-7772-af5f-9485ba659612",
+ "error": ""
+}

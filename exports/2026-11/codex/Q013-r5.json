@@ -1,0 +1,440 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q013-r5",
+ "prompt_id": "Q013",
+ "run": 5,
+ "question": "Công ty chứng khoán nào cho vay margin lãi suất thấp?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:43:55",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 38.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b007-5ec2-7d31-9b7c-dae6606096c7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-3e7a152d-9601-448c-ba74-b345061577e6",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-3e7a152d-9601-448c-ba74-b345061577e6",
+    "type": "web_search",
+    "query": "lãi suất margin thấp chứng khoán TCBS VPS SSI DNSE 2026 ưu đãi ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "lãi suất margin thấp chứng khoán TCBS VPS SSI DNSE 2026 ưu đãi",
+      "site.tcbs.com.vn lãi suất margin 2026",
+      "site.dnse.com.vn margin lãi suất 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Nhằm phù hợp với diễn biến chung của mặt bằng lãi suất trên thị trường, DNSE xin thông báo điều chỉnh chính sách sản phẩm",
+      "title": "Thông báo điều chỉnh chính sách sản phẩm Giao dịch ký quỹ 9.99",
+      "url": "https://www.dnse.com.vn/tin-tuc/thong-bao-dieu-chinh-chinh-sach-san-pham-giao-dich-ky-quy-9-99"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search1",
+      "snippet": "SSI | Hoàn lãi 30 ngày SSI Margin 0.0: đăng ký trên iBoard Pro, dư nợ tối đa 50 triệu/ngày, khách không dư nợ margin",
+      "title": "Ưu đãi đang chạy của các công ty chứng khoán | Review Chứng Khoán",
+      "url": "https://reviewchungkhoan.com/ctck/uu-dai/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Nhập thông tin theo nhu cầu đầu tư của bạn và DNSE sẽ tìm giải pháp tốt nhất nhé! ... Không cần vội vã lướt",
+      "title": "Hệ sinh thái gói vay Margin X",
+      "url": "https://www.dnse.com.vn/san-pham/margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Ưu đãi lãi suất margin · Từ 01/10/2026 ... Khi dư nợ gốc vay ký quỹ bình quân tháng liền trước đạt từ 2 tỷ",
+      "title": "Mở khóa ưu đãi margin: Giảm lãi tới 1.5%/năm | TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-khoa-uu-dai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "congtychungkhoan.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Với Thị phần cơ sở, Thị phần phái sinh, Vốn CSH, App rating: giá trị càng cao điểm càng cao. ... Tiêu chí | TCBS",
+      "title": "So sánh Chứng khoán TCBS và Chứng khoán DNSE | Congtychungkhoan.vn",
+      "url": "https://congtychungkhoan.vn/so-sanh-cong-ty-chung-khoan?a=chung-khoan-tcbs&b=chung-khoan-dnse"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "SSI trân trọng thông báo triển khai Gói Nhập Cuộc với lãi suất ưu đãi hấp dẫn dành riêng cho Khách hàng mở mới và",
+      "title": "RA MẮT GÓI NHẬP CUỘC VỚI LÃI SUẤT 9% DÀNH CHO KHÁCH HÀNG DÙNG MARGIN LẦN ĐẦU",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/ra-mat-goi-nhap-cuoc-voi-lai-suat-9-danh-cho-khach-hang-dung-margin-lan-dau"
+     },
+     {
+      "type": "text_result",
+      "domain": "khautu.github.io",
+      "ref_id": "turn0search6",
+      "snippet": "📈 Xu Hướng Lịch Sử Cấp Margin Của Cổ Phiếu Qua Các Kỳ (3 Kỳ Gần Nhất) TLCV Bình Quân & Độ Mở Danh Mục",
+      "title": "Hệ Thống Giám Sát & Phân Tích Danh Mục Ký Quỹ CTCK Toàn Thị Trường",
+      "url": "https://khautu.github.io/margin-risk-dashboard/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vwealth.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Lãi vay ký quỹ | 13,5%/năm là mức chuẩn; gói dành cho khách dùng ký quỹ lần đầu ở mức 9%/năm trong 90 ngày, hạn",
+      "title": "Chọn công ty chứng khoán nào 2026: SSI, VPS, VNDirect, TCBS – VWEALTH",
+      "url": "https://vwealth.vn/chon-cong-ty-chung-khoan-nao-2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "broker.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "So sánh đa tiêu chí: Biểu phí giao dịch, lãi suất Margin, độ mượt của app và chính sách hỗ trợ tư vấn 1-1. ...",
+      "title": "So Sánh Các Công Ty Chứng Khoán Tại Việt Nam (Mới Nhất 2026) - Broker.com.vn",
+      "url": "https://broker.com.vn/so-sanh-cong-ty-chung-khoan.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "# Miễn phí giao dịch và ưu đãi margin khi mở tài khoản chứng khoán tại TCBS 23/03/2026 ... Bài viết dưới đây cung cấp",
+      "title": "Miễn phí giao dịch và ưu đãi margin khi mở tài khoản chứng khoán TCBS",
+      "url": "https://www.tcbs.com.vn/thong-tin/co-phieu/mien-phi-giao-dich-uu-dai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Trading fees, margin rates, new-customer promotions, apps and account opening at SSI, TCBS (Techcombank Securities), VPS, MBS and DNSE. ... As of September 2026, TCBS",
+      "title": "Vietnam Stock Brokers 2026: SSI, TCBS, VPS, MBS, DNSE",
+      "url": "https://dautuvn.vn/en/brokers/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search11",
+      "snippet": "So sánh SSI và TCBS bằng số liệu 10/2026: phí cổ phiếu, lãi margin theo mã, danh mục margin, API đặt lệnh, phí phái sinh,",
+      "title": "SSI hay TCBS? So sánh phí, lãi margin, API, phái sinh 2026",
+      "url": "https://reviewchungkhoan.com/ssi-hay-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search12",
+      "snippet": "TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không? ... Còn margin, nếu mà quý",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Riêng quý 1/2025, doanh thu từ lãi hoạt động margin đạt gần 718 tỷ đồng, tăng 28% so với cùng kỳ 2024. ... - **Thiết",
+      "title": "Báo cáo Phân tích doanh nghiệp",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/VIE_TCBS_Bc_Phan_tich_lan_dau_0725.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "BÁO CÁO THƯỜNG NIÊN 2025 ... với điểm nổi bật: Hiển thị lãi vay margin ngay ... Tra cứu \"Chính sách dành cho bạn\" có",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/VIE_TCBS-BAO-CAO-THUONG-NIEN-2025-3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "khoán tại VCBS, áp dụng từ ngày 25/05/2026 cho tới khi có thông báo tiếp theo: ... Phí giao dịch HĐTL chỉ số ... 4,000",
+      "title": "CHÍNH SÁCH LÃI SUẤT ƯU ĐÃI DÀNH CHO KHÁCH HÀNG KHI MỞ MỚI TÀI",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/margin-8-kh-mo-moi-thong-thuong-tai-vcbs-25052026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Mảng Dịch vụ chứng khoán của TCBS đã ghi nhận những kết quả tích cực trong năm 2024, với doanh thu đạt 3.214 tỷ đồng,",
+      "title": "MẢNG DỊCH VỤ CHỨNG KHOÁN",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-24/155706_000000014665875_VI_BaoCaoThuongNien_2024.pdf_TCBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit17",
+      "snippet": "[Tuesday July 12 2022] [+1 votes] ... TCBS là một trong những thành phần của hệ sinh thái Techcombank; top 4 ngân hàng hàng đầu",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "[Tuesday October 20 2026] [+9 votes] ... Ae cho mình xin review về quy trình pv cũng như văn hoá của bên này nhé, đồng",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-f35b9884-3971-465f-a91d-8748137f135d",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-f35b9884-3971-465f-a91d-8748137f135d",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn \"7.69%\" \"2026\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn \"7.69%\" \"2026\"",
+      "site.abs.vn \"6,9%\" \"2026\" \"Plus\"",
+      "site.ssi.com.vn \"7,99%\" \"2026\"",
+      "site.kisvn.vn \"5,5%\" \"K5\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "kisvn.vn",
+      "ref_id": "turn1search0",
+      "snippet": "# CHỨNG KHOÁN KIS RA MẮT SẢN PHẨM MARGIN K LÃI SUẤT CHỈ 5.5% ... ⇒ Sử dụng Margin K+ (K5) giúp tiết kiệm ~68.000",
+      "title": "CHỨNG KHOÁN KIS RA MẮT SẢN PHẨM MARGIN K LÃI SUẤT CHỈ 5.5%",
+      "url": "https://kisvn.vn/san-pham-margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.abs.vn",
+      "ref_id": "turn1search1",
+      "snippet": "* 19/08/2026 # Chương trình Margin 6,9% Plus: Lãi vay hời – Bứt tốc sinh lời ... – Quý khách hàng có thể xem thêm",
+      "title": "ABS | Margin 6.9 Plus: Lãi vay hời, bứt tốc sinh lời",
+      "url": "https://www.abs.vn/chuong-trinh-margin-6-9-plus/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn1search2",
+      "snippet": "Ưu đãi vượt trội từ TCBS: ... * Vay margin ưu đãi: Vay ưu đãi Margin chỉ 7.69%/năm tối đa 500 triệu, trong 180 ngày",
+      "title": "Nhận đặc quyền ưu đãi khi mở Bộ đôi Tài khoản Techcombank và Chứng khoán TCBS | Techcombank",
+      "url": "https://techcombank.com/thong-tin/thong-bao/ra-mat-tinh-nang-mo-bo-doi-tai-khoan-thanh-toan-techcombank-va-tai-khoan-chung-khoan-tcbs"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search3",
+      "snippet": "ABS: Chương trình Margin 6,9% Plus (19/08/2026)abs.vn",
+      "title": "Mở tài khoản Chứng khoán An Bình (ABS) trên ABS Invest 2026",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-abs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsc.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "APR 13, 2026 – APR 17, 2026 ... VBB 7.69%, VPB 3.48%, BVB 2.38%, VAB 1.46%, OCB 1.29%, HDB 0.19%, TCB 0.00%, TPB -0.31%, NAB",
+      "title": "APR 13, 2026 – APR 17, 2026",
+      "url": "https://sbsc.com.vn/wp-content/uploads/2026/04/Market-weekly-report-13.04.2026-17.04.2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search4",
+      "snippet": "ABS | 14%/năm (Margin Classic) | A-Margin 6,9% Plus: 6,9%/năm cho phần dư nợ đến 1 tỷ, phần vượt 14%, khách mới hoặc không có",
+      "title": "Lãi suất margin các công ty chứng khoán 2026: bảng so sánh",
+      "url": "https://reviewchungkhoan.com/lai-suat-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search5",
+      "snippet": "Chúng tôi không tìm thấy quyết định xử phạt nào của UBCKNN với KIS từ sau 04/09/2025 đến 23/10/2026 (rà mục Thanh tra, giám sát",
+      "title": "Chứng khoán KIS có lừa đảo không? Đánh giá KIS Việt Nam",
+      "url": "https://reviewchungkhoan.com/ctck/kis/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Lãi margin chuẩn 13,5%/năm; khách mới có gói Nhập cuộc 7,99–9%/năm trong 90 ngày đầu, hạn mức 3 tỷ. ... SSI thành lập tháng 12/1999,",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "14/07/2026 | 21,000 | 1.5 (7.69%) | 400 | 8.39 | 0 | 0 | 19,500 | 22,400 | 16,600",
+      "title": "Dữ liệu lịch sử - BSC",
+      "url": "https://www.bsc.com.vn/du-lieu-lich-su/?mck=BCA"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.eastmoney.com",
+      "ref_id": "turn1search8",
+      "snippet": "深圳2026年上半年全社会用电量同比增长7.69%",
+      "title": "深圳2026年上半年全社会用电量同比增长7.69% _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202607083798783864.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.fireant.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Sức ép này đã phản ánh vào thị trường tín dụng bất động sản.Số liệu đến tháng 6-2026 cho thấy, lãi suất ưu đãi vay",
+      "title": "Lãi suất cao, nợ vay lớn: Doanh nghiệp bất động sản chịu sức ép \"kép\"",
+      "url": "https://web.fireant.vn/bai-viet/lai-suat-cao-no-vay-lon-doanh-nghiep-bat-dong-san-chiu-suc-ep-kep/41738216"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.newsis.com",
+      "ref_id": "turn1search10",
+      "snippet": "# [2026수능]대구 3교시 결시율 7.69%…1939명 응시 안해",
+      "title": "[2026수능]대구 3교시 결시율 7.69%…1939명 응시 안해 :: 공감언론 뉴시스 ::",
+      "url": "https://www.newsis.com/view/NISX20251113_0003401791"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.vietstock.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Nguồn: Các ngân hàng, SSI Research ... Mã CP OCB | Khuyến nghị TRUNG LẬP | Giá mục tiêu 1Y 14.300 | Tăng giá 13",
+      "title": "SSI - TRUNG TÂM PHÂN TÍCH & TƯ VẤN ĐẦU TƯ",
+      "url": "https://finance.vietstock.vn/downloadedoc/18029"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.previ-direct.com",
+      "ref_id": "turn1search14",
+      "snippet": "FR0010158048 FR0010174144 | Dorval Drivers Europe R C BDL Rempart C | Dorval Asset Management BDL Capital Management | 4 3 | 8.78% 20.23% |",
+      "title": "UC-loi-PACTE-00333-Q9-ARMADA VIE 3171-2026-06-22.pdf",
+      "url": "https://www.previ-direct.com/widget/web/eclient-finorion/perf-uc-armada-vie-q9-%3Bjsessionid%3D52B9789C6E0FFF252982A948FCA5EF83.40368tc4?_portletperfuc_WAR_portletperfuc_nomPrd=ARMADA+VIE+3171&_portletperfuc_WAR_portletperfuc_userId=0&p_p_cacheability=cacheLevelPage&p_p_id=portletperfuc_WAR_portletperfuc&p_p_lifecycle=2&p_p_mode=view&p_p_state=maximized&p_r_p_564233524_action=exportTableauUc&p_r_p_564233524_cdPrd=Q9&p_r_p_564233524_cdPtn=00333"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.psacard.com",
+      "ref_id": "turn1search11",
+      "snippet": "| | 9/11/2026 10:22:41 AM | 111T | 0.346 | 9.000 | 7.69% | 1 | | 13 | OTHER SET PUBLISHED: roboo11",
+      "title": "John Petruska Revision History at PSA Set Registry",
+      "url": "https://www.psacard.com/psasetregistry/basketball/player-sets/michael-jordan-basic-fleer-set/setrevisions/712476"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.icra.in",
+      "ref_id": "turn1search15",
+      "snippet": "June 23, 2026 ... Instrument^ None | | | | Previous rated amount (Rs. crore) | | | Current rated amount (Rs. crore) | |",
+      "title": "June 23, 2026",
+      "url": "https://www.icra.in/Rating/GetRationalReportFilePdf?Id=143768"
+     },
+     {
+      "type": "text_result",
+      "domain": "attijaricib.com",
+      "ref_id": "turn1search16",
+      "snippet": "HPS, Managem et LafargeHolcim Maroc sont les valeurs les plus actives de cette séance, représentant ainsi 29% du total des échanges. ... | 2026 |",
+      "title": "CASABLANCA CLOSING",
+      "url": "https://attijaricib.com/sites/default/files/2026-03/Casablanca%20Closing%20du%2026%20mars%202026.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0921704c-9171-4203-9740-f8057de8f930",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0921704c-9171-4203-9740-f8057de8f930",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "kisvn.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 184",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/RwomMr8en38-hSWPQLZ2oWVF6LB1D2YTb7cfHDBSwJhngtmobg3cvf5hFSlaHQ4N9w8CJTNmJtN2NlX3muCkniXZA6npfpI_9pnMKBV8rCE-JD1Ebn8lMFuax_r6GFw6gKBL3OpsLYOQtenK4JU7X71dFs1HhpTot2YzFsfwG5kF3U4rbLT1DOl9Fc6Dh2OA",
+      "title": "CHỨNG KHOÁN KIS RA MẮT SẢN PHẨM MARGIN K LÃI SUẤT CHỈ 5.5%",
+      "url": "https://kisvn.vn/san-pham-margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.abs.vn",
+      "ref_id": "turn2view1",
+      "snippet": "Total lines: 142",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/cY3k6sPl7e2s9NBu_Dnif7IQXWEQen8Vz64yvZxY-anR_-HAEEunL4gWy_zAF9EIS_2DQbbV-s27pxPuDQ-pjV7RhGT8wovPAOEVmteMrYWexCFnFj5dBAsEoxa3TfKZ",
+      "title": "ABS | Margin 6.9 Plus: Lãi vay hời, bứt tốc sinh lời",
+      "url": "https://www.abs.vn/chuong-trinh-margin-6-9-plus/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn2view2",
+      "snippet": "Total lines: 404",
+      "title": "Nhận đặc quyền ưu đãi khi mở Bộ đôi Tài khoản Techcombank và Chứng khoán TCBS | Techcombank",
+      "url": "https://techcombank.com/thong-tin/thong-bao/ra-mat-tinh-nang-mo-bo-doi-tai-khoan-thanh-toan-techcombank-va-tai-khoan-chung-khoan-tcbs"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Bạn có thể xem trước ABS, DNSE và KIS** — đây là một số bên đang công bố gói margin lãi thấp. Tuy nhiên, cần so **thời gian ưu đãi**, không chỉ mức lãi quảng cáo.\n\nThông tin tra cứu ngày **06/11/2026**, lãi suất dưới đây tính theo năm:\n\n| Công ty | Lãi suất ưu đãi | Điều kiện đáng chú ý |\n|---|---:|---|\n| **ABS – Chứng khoán An Bình** | **6,9%** | Áp dụng phần dư nợ bình quân tháng đến **1 tỷ đồng**, phần vượt là 14%. Ưu đãi bằng **hoàn lãi tháng sau**; dành cho khách mới, khách không dùng margin 6 tháng và một số nhóm khác. Chương trình đến **20/12/2026**, có thể hết hạn mức sớm. [Nguồn ABS](https://www.abs.vn/chuong-trinh-margin-6-9-plus/) |\n| **DNSE – Rocket X** | **5,99% hoặc 9,99%** | Chỉ trong **30 ngày đầu**, tùy danh mục cổ phiếu của gói; lãi thông thường công bố là **12,5%**. Không phải mã nào cũng được vay mức 5,99%. [Nguồn DNSE](https://www.dnse.com.vn/san-pham/margin) |\n| **KIS – Margin K5** | **5,5%** | Chỉ **5 ngày đầu**, sau đó **11%**. Có thêm K10: 7,8% trong 10 ngày và K15: 8,7% trong 15 ngày; cần đăng ký gói. [Nguồn KIS](https://kisvn.vn/san-pham-margin) |\n\n**Chọn nhanh theo nhu cầu:**\n- Vay vài ngày: xem **KIS K5**.\n- Vay khoảng một tháng: kiểm tra mã bạn mua có thuộc gói **DNSE 5,99%** không.\n- Vay lâu hơn, dư nợ dưới 1 tỷ: **ABS đáng đối chiếu**, nhưng lưu ý ngày kết thúc chương trình và cơ chế hoàn lãi.\n\nTrước khi chọn, hãy xác nhận **lãi sau ưu đãi, phí giao dịch, tỷ lệ cho vay và ngưỡng gọi bổ sung tài sản/bán giải chấp**. Lãi thấp không làm giảm rủi ro thua lỗ do đòn bẩy.\n\n**Bạn dự định vay bao nhiêu, giữ bao lâu và mua mã nào?** Mình có thể giúp so chi phí sát hơn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 84044,
+    "cached_input_tokens": 58752,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 804,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b007-5ec2-7d31-9b7c-dae6606096c7",
+ "error": ""
+}

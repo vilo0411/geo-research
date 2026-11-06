@@ -1,0 +1,376 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q042-r3",
+ "prompt_id": "Q042",
+ "run": 3,
+ "question": "Có sản phẩm tiết kiệm sinh lời nào ở công ty chứng khoán không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:01:34",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 32.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b017-8a10-7652-916d-1d590781ed79"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-4f6b4cad-f1be-44a8-b515-34674df0c17a",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-4f6b4cad-f1be-44a8-b515-34674df0c17a",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn iSave sinh lời tiền nhàn rỗi ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn iSave sinh lời tiền nhàn rỗi",
+      "site.vndirect.com.vn sản phẩm tiền nhàn rỗi sinh lời chứng khoán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "> Các tài sản chứng khoán phái sinh tại Việt Nam bao gồm: Hợp đồng tương lai, Chứng quyền có bảo đảm… ## CÁC SẢN",
+      "title": "Tài sản phái sinh - Phân tán rủi ro và bảo vệ lợi nhuậnVNDIRECT",
+      "url": "https://www.vndirect.com.vn/san-pham-ca-nhan/danh-muc-tai-san/tai-san-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Két vàng iSave phù hợp cho nguồn tiền nhàn rỗi đang chờ để giao dịch ... Tiền để trong iSave sẽ được tối ưu hoá",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN KỸ THƯƠNG",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/Update%2B06.05%2BChung%2Bkhoan%2BTCBS%2B2022%2BViet.pdf/43ff4dbc-2b12-44ca-83c7-6788705a6690"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "TCBS vay Số tiền cho vay có liên quan (T0) cho đến (và không bao gồm) ngày Khách ... Các mức lãi suất này sẽ",
+      "title": "THỎA THUẬN CHO VAY ISAVE",
+      "url": "https://www.tcbs.com.vn/isave/isave-tnc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Dịch vụ về giao dịch chứng khoán là các dịch vụ/công việc do VNDIRECT cung cấp để phục vụ cho hoạt động mua, bán và",
+      "title": "CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "thanh khoản thấp.- Rủi ro khác: theo nhận diện trong từng thời kỳ, ứng với đặc thù hoạt động của VNDIRECT.b) Bộ phận Sản phẩm",
+      "title": "Ủy ban Chứng khoán Nhà nước cấp Giấy chứng nhận chào bán chứng quyền chỉ có",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/Ban-cao-bach-Chung-quyen.MSN_.VND_.M.CA_.T.2025.1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "24hmoney.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Có rất nhiều khách hàng có tài khoản tại Ngân hàng Techcombank liên kết với tài khoản chứng khoán TCBS không gửi được iSAVE bởi",
+      "title": "10 câu hỏi về két vàng iSave",
+      "url": "https://24hmoney.vn/news/10-cau-hoi-ve-ket-vang-isave-c30a1664010.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungsi.vn",
+      "ref_id": "turn0search3",
+      "snippet": "ISAVE PRO là một sản phẩm mới xuất hiện tiếp theo sau Isave plus trên ứng dụng của công ty chứng khoán Techcom (TCBS). ...",
+      "title": "Tất tật về ISAVE PRO tối ưu lãi suất cho bạn - Chứng Sĩ .vn",
+      "url": "https://chungsi.vn/isave-pro-la-gi-toi-uu-tien-lai-thanh-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "viettimes.vn",
+      "ref_id": "turn0search4",
+      "snippet": "# Hút tiền như ‘Két vàng sinh lời’ của TCBS ... VietTimes – Khách hàng tham gia chương trình ‘iSave – Két vàng sinh lợi’",
+      "title": "Hút tiền như ‘Két vàng sinh lời’ của TCBS, Techcombank 'lách' trần lãi suất?",
+      "url": "https://viettimes.vn/hut-tien-nhu-ket-vang-sinh-loi-cua-tcbs-post164947.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "leox.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Em có một câu hỏi là với số tiền nhàn rỗi khi chưa có cơ hội thì mình nên để ở đâu sẽ tận dụng",
+      "title": "Tận dụng tiền nhàn rỗi chờ cơ hội đầu tư | leox.vn",
+      "url": "https://leox.vn/tan-dung-tien-nhan-roi-cho-co-hoi-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Năm 2023, trong bối cảnh lãi suất tại các nền kinh tế lớn duy trì ở mức cao để kiềm chế lạm phát, Ngân hàng",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2023 | GIEO HẠT TƯƠNG LAI",
+      "url": "https://www.vndirect.com.vn/cmsupload/beta/VNDIRECT-BCTN-2023-F-da-nen.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Nhà đầu tư tiết kiệm một số tiền hàng tháng để mua tích lũy một cổ phiếu giá trị, giúp nhà đầu tư chọn được",
+      "title": "Single Stock Saving - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/san-pham/single-stock-saving/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Nhà đầu tư bận rộn: Tối ưu hóa khoản tiền nhàn rỗi một cách tự động mà không cần thường xuyên theo dõi thị",
+      "title": "Hướng dẫn đăng ký, sử dụng DSIP – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/54862348765593-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C4%83ng-k%C3%BD-s%E1%BB%AD-d%E1%BB%A5ng-DSIP"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Không chỉ cung cấp sản phẩm và dịch vụ, VNDIRECT hướng tới nâng cao trí tuệ đầu tư, giúp khách hàng hiểu rõ mục tiêu",
+      "title": "VNDIRECT | Your Investment Home",
+      "url": "https://www.vndirect.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.otofun.net.vn",
+      "ref_id": "turn0search9",
+      "snippet": "# [Funland] Lãi suất gửi tiết kiệm NH nào đang cao nhất ạ ... doclaptaichinh.vn ... Nên giờ TCBS lách bằng cách đẻ ra công",
+      "title": "[Funland] - Lãi suất gửi tiết kiệm NH nào đang cao nhất ạ | Page 87 | Mạng xã hội OTOFUN",
+      "url": "https://www.otofun.net.vn/threads/lai-suat-gui-tiet-kiem-nh-nao-dang-cao-nhat-a.1691516/page-87"
+     },
+     {
+      "type": "text_result",
+      "domain": "iwp.tcbs.pro.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Ưu điểm khi mở tài khoản chứng khoán Techcombank - Chứng khoán TCBS: ... - Tiền đầu tư cổ phiếu khi khách hàng chưa mua",
+      "title": "TCBS Mở tài khoản chứng khoán Techcombank tại Hải Phòng",
+      "url": "https://iwp.tcbs.pro.vn/2022/04/tcbs-mo-tai-khoan-chung-khoan_16.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "mydgo.vndirect.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "VNDIRECT cung cấp dải sản phẩm đa dạng, phục vụ từng nhu cầu đầu tư của Quý khách.",
+      "title": "My DGO",
+      "url": "https://mydgo.vndirect.com.vn/tra-cuu-san-pham"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Văn hóa số và mô hình Agile được kiến tạo trong tư duy làm việc của toàn thể đội ngũ TCBS. ... Hướng đến năm",
+      "title": "Chương I:  \nTỔNG QUAN VỀ TCBS\n\n1 THÔNG ĐIỆP CỦA CH",
+      "url": "https://static2.vietstock.vn/data/KHAC/2022/BCTN/VN/TCBS_Baocaothuongnien_2022.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-09796c53-1aa6-4ea1-b84c-e7b537b670b1",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-09796c53-1aa6-4ea1-b84c-e7b537b670b1",
+    "type": "web_search",
+    "query": "site.ssi.com.vn tiền nhàn rỗi S-Pay ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn tiền nhàn rỗi S-Pay",
+      "site.vps.com.vn SmartOne sinh lời tự động tiền nhàn rỗi"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "smartone.vps.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Giao dịch trực tuyến: là việc KH thực hiện các lệnh giao dịch chứng khoán, giao dịch tiền và các giao dịch khác có liên",
+      "title": "VPS SmartOne – Nền tảng quản lý tài chính toàn diện",
+      "url": "https://smartone.vps.com.vn/vi-VN/Home/ClauseInfo"
+     },
+     {
+      "type": "text_result",
+      "domain": "vpsdata.s3.ap-southeast-1.amazonaws.com",
+      "ref_id": "turn1search12",
+      "snippet": "Website: Vps.com.vn | Tel: 1900 6457 ... Nếu tài khoản chứng khoán phái sinh của NĐT lãi ròng: Nhà đầu tư sẽ nhận được đầy",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN VPS",
+      "url": "https://vpsdata.s3.ap-southeast-1.amazonaws.com/smartone/web/Templates/huong_dan_giao_dich_chung_khoan_phai_sinh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "* Website VPS SmartOne: https://smartoneweb.vps.com.vn/ ... * Giao dịch trực tiếp tại các Quầy giao dịch của VPS",
+      "title": "Tôi có thể giao dịch cổ phiếu tại VPS qua nền tảng nào? | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/ca-nhan/ho-tro/cau-hoi-thuong-gap/toi-co-the-giao-dich-co-phieu-tai-vps-qua-nen-tang-nao"
+     },
+     {
+      "type": "text_result",
+      "domain": "smartone.vps.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "- Truy cập vào hệ thống Home Trade: https://smartone.vps.com.vn ... - Lệnh bị từ chối tại VPS: Lệnh bị từ chối ngay tại hệ thống",
+      "title": "VPS SmartOne – Nền tảng quản lý tài chính toàn diện",
+      "url": "https://smartone.vps.com.vn/vi-VN/Home/BriefUserGuide"
+     },
+     {
+      "type": "text_result",
+      "domain": "ru.scribd.com",
+      "ref_id": "turn1search3",
+      "snippet": "Tôi nộp tiền sau 17h để thanh toán nợ thì có được thu nợ ngay không? ... MONEY MARKET (MM) - TỐI ƯU DÒNG VỐN",
+      "title": "Hướng Dẫn Mở Và Sử Dụng Tài Khoản Vps-Phiên Bản App (Smartone) | PDF",
+      "url": "https://ru.scribd.com/document/637075335/Untitled"
+     },
+     {
+      "type": "text_result",
+      "domain": "casin.vn",
+      "ref_id": "turn1search4",
+      "snippet": "VPS SmartOne có hỗ trợ nộp tiền nhanh không? ... Phí giao dịch dao động từ 0% đến 0.15% tùy vào chính sách của từng",
+      "title": "VPS SmartOne: Thông tin, Tính năng, Lợi ích và Hướng dẫn sử dụng",
+      "url": "https://casin.vn/hoc/chung-khoan-co-ban/vps-smartone/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dovustock.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Mở tài khoản trên app điện thoại bằng eKYC tại VPS Đăng ký mở tài khoản chứng khoán tại VPS, gắn id nhân viên quản",
+      "title": "Hướng dẫn | dovustock.vn",
+      "url": "https://dovustock.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search6",
+      "snippet": "Kiểu giả mạo này không riêng VPS: ngày 29/09/2026, Công an TP Hà Nội cảnh báo website, app giả công ty chứng khoán có đường",
+      "title": "VPS có uy tín không? Đánh giá Chứng khoán VPS",
+      "url": "https://reviewchungkhoan.com/ctck/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Ảnh chụp giao diện VPS nền tối của mục Tiện ích, gồm hai khung chính: bên trái là “Tạo yêu cầu chuyển tiền”, bên phải",
+      "title": "VII TIỆN ÍCH",
+      "url": "https://images.vps.com.vn/2025/files/huong-dan-trai-nghiem-vps-smartone-web-983c.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "VPS SmartOne là bao nhiêu? ... giao dịch nạp tiền và thời gian xử lý giao dịch của VPS ... ketoangiaodich@vps.com.vn để được hỗ trợ.",
+      "title": "Câu hỏi thường gặp",
+      "url": "https://www.vps.com.vn/Sites/QuoteVN/SiteRoot/Nhung_cau_hoi_thuong_gap.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "motaikhoanchungkhoanvps.com",
+      "ref_id": "turn1search7",
+      "snippet": "Bạn có thể thiết lập mức giá tự động bán khi cổ phiếu chạm ngưỡng cắt lỗ hoặc tự động chốt lời khi đạt kỳ",
+      "title": "CÂU HỎI THƯỜNG GẶP (FAQ) - Mở tài khoản chứng khoán VPS",
+      "url": "https://motaikhoanchungkhoanvps.com/cau-hoi-thuong-gap/"
+     },
+     {
+      "type": "text_result",
+      "domain": "smartone.vps.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Để xác nhận quyền truy cập cho thiết bị mới, Quý khách vui lòng sử dụng thiết bị gốc (thiết bị cài đặt Smart OTP)",
+      "title": "VPS SmartOne – Nền tảng quản lý tài chính toàn diện",
+      "url": "https://smartone.vps.com.vn/vi-VN/Account/Login"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search9",
+      "snippet": "Nạp tiền VPS bằng cách chuyển khoản nhanh từ app ngân hàng tới số tài khoản ghép đầu số với số tài khoản chứng khoán",
+      "title": "Nạp tiền VPS và rút tiền VPS: số tài khoản, phí, thời gian",
+      "url": "https://reviewchungkhoan.com/nap-rut-tien-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "taikhoanvps.net",
+      "ref_id": "turn1search10",
+      "snippet": "Hãy đọc ngay bài viết dưới đây để có câu trả lời chính xác nhé! ... Cách rút tiền từ tài khoản chứng khoán VPS",
+      "title": "Cách rút tiền từ tài khoản VPS về ngân hàng đơn giản nhất",
+      "url": "https://taikhoanvps.net/cach-rut-tien-tu-vps-ve-ngan-hang/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vps.com.vn",
+      "ref_id": "turn1search11",
+      "snippet": "* VPS SmartOne - The leading stock investment application in Vietnam: download and access the application at the link: https://bit.ly/VPSSmartOne or scan the QR code",
+      "title": "Which platform can I trade stocks at VPS? | VPS - VPS Securities",
+      "url": "https://vps.com.vn/en/retail-sales/support/frequently-asked-questions/which-platform-can-i-trade-stocks-at-vps"
+     },
+     {
+      "type": "text_result",
+      "domain": "mobiv2.fireant.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Nền tảng của VPS là một nền tảng thống nhất tạo ra đòn bẩy hoạt động, giúp củng cố hiệu quả chi phí và thúc",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://mobiv2.fireant.vn/News/NewsAttachedFile/1861004"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit16",
+      "snippet": "Bạn có thể giao dịch tiền, thanh toán hóa đơn, mua bảo hiểm,... ... Hãy cùng Tienaogiatot đánh giá các tính năng nổi bật của",
+      "title": "Smartone VPS: Đánh giá và hướng dẫn sử dụng phần mềm trading VPS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vurovk"
+     },
+     {
+      "type": "text_result",
+      "ref_id": "turn1view0",
+      "title": "Internal Error"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Có bạn nhé**, nhưng cần phân biệt **sản phẩm sinh lời ở công ty chứng khoán không nhất thiết là tiền gửi tiết kiệm ngân hàng**.\n\nBạn thường gặp những dạng sau:\n\n| Dạng sản phẩm | Cách sinh lời | Điều cần lưu ý |\n|---|---|---|\n| **Sinh lời trên tiền nhàn rỗi** | Theo thỏa thuận cho vay/hợp tác với bên cung cấp | Xem ai nhận tiền, điều kiện rút và khả năng hoàn trả |\n| **Quỹ trái phiếu, quỹ thị trường tiền tệ** | Mua chứng chỉ quỹ để hưởng kết quả đầu tư | Giá trị có thể giảm; không mặc định bảo toàn vốn |\n| **Trái phiếu** | Nhận lãi theo điều khoản phát hành | Có rủi ro tổ chức phát hành không trả được nợ; bán trước hạn có thể khó hoặc lỗ |\n\n**Ví dụ:** TCBS có tài liệu về **iSave**, với điều khoản mang tên “Thỏa thuận cho vay iSave” — tức cần hiểu theo bản chất hợp đồng cho vay, không chỉ theo tên gọi giống tiết kiệm. Lãi suất và tình trạng cung cấp cần kiểm tra trực tiếp tại thời điểm tham gia. [Điều khoản iSave của TCBS](https://www.tcbs.com.vn/isave/isave-tnc)\n\nTrước khi chuyển tiền, bạn nên kiểm tra **bên nào có nghĩa vụ trả gốc, lợi suất sau thuế/phí, thời gian rút và mức hưởng khi rút sớm**. Đừng hiểu “lãi tính hằng ngày” là “an toàn như tiết kiệm”.\n\nBạn định để khoảng **bao nhiêu tiền**, trong **bao lâu**, và có cần **rút bất cứ lúc nào** không?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39514,
+    "cached_input_tokens": 20352,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 537,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b017-8a10-7652-916d-1d590781ed79",
+ "error": ""
+}

@@ -1,0 +1,603 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q044-r3",
+ "prompt_id": "Q044",
+ "run": 3,
+ "question": "Công ty chứng khoán nào có robot/AI gợi ý đầu tư?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:02:37",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 44.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b018-7c7d-7c71-b4a2-49a1dc6b9365"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-eeb64206-7878-4ab9-bbda-85bbb6a2bad9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-eeb64206-7878-4ab9-bbda-85bbb6a2bad9",
+    "type": "web_search",
+    "query": "công ty chứng khoán robot AI gợi ý đầu tư TCBS TCInvest iWealth ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "công ty chứng khoán robot AI gợi ý đầu tư TCBS TCInvest iWealth",
+      "công ty chứng khoán AI tư vấn đầu tư Finhay VNSC Pinetree HSC robot"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "nssc.gov.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Sau 5 năm phát triển, Finhay đã mở rộng danh mục sản phẩm, cung cấp các giải pháp tài chính toàn diện như giao dịch",
+      "title": "Finhay - Nền tảng đầu tư tài chính thông minh tại Việt Nam | NSSC",
+      "url": "https://nssc.gov.vn/case-studies/finhay-nen-tang-dau-tu-tai-chinh-thong-minh-tai-viet-nam"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Với tầm nhìn đến năm 2030 trở thành “Nhạc trưởng dòng chảy vốn tại Việt Nam”, TCBS tiếp tục đầu tư vào con người, công",
+      "title": "Về Techcom Securities (TCBS) – Công ty Cổ phần Chứng khoán Kỹ Thương",
+      "url": "https://www.tcbs.com.vn/ve-chung-toi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Nền tảng VNSC by Finhay ra đời ... Tháng 11: Mua lại và chính thức trở thành Chủ quản của Công ty Chứng khoán Vina;",
+      "title": "Về Finhay - Chủ quản của Finhay Securities (FHSC)",
+      "url": "https://fhsc.com.vn/ve-finhay"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Với tinh thần “Khách hàng là trọng tâm” và tận dụng thế mạnh dữ liệu và công nghệ tiên tiến, TCBS đã giới thiệu",
+      "title": "TECHCOMSECURITIES",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Sự thay đổi này không chỉ là sự đồng nhất về tên gọi mà còn khẳng định cam kết mang đến một nền tảng đầu",
+      "title": "Finhay Securities",
+      "url": "https://fhsc.com.vn/ve-fhsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.finhay.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Trả lời cho thắc mắc này: Tính đến năm 2026, Finhay MCP (thuộc Công ty Cổ phần Chứng khoán Finhay - FHSC) với kỹ năng",
+      "title": "MCP nào hỗ trợ đặt lệnh mua bán chứng khoán qua AI?",
+      "url": "https://www.finhay.com.vn/mcp-nao-ho-tro-dat-lenh-mua-ban-chung-khoan-qua-ai"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search5",
+      "snippet": "* Triển khai chính sách Zero Fee không giới hạn thời gian, đưa thị phần mối giới chứng khoán của công ty vào Top 4.",
+      "title": "Công ty Cổ phần Chứng khoán Kỹ Thương - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-ky-thuong/annual-report/2026/45010406/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.finhay.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Finhay is licensed to operate by the Hanoi Department of Science and Technology on July 15 (2020), and granted a trading membership certificate (Code. 065)",
+      "title": "Công ty - Finhay chủ quản công ty chứng khoán Vina (VNSC)",
+      "url": "https://www.finhay.com.vn/en/finhay-story"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnambiz.vn",
+      "ref_id": "turn0search7",
+      "snippet": "# Phía sau công ty chứng khoán có vốn hóa lớn nhất thị trường: Không cần dùng môi giới, Gen AI len sâu vào toàn",
+      "title": "Phía sau công ty chứng khoán có vốn hóa lớn nhất thị trường: Không cần dùng môi giới, Gen AI len sâu vào toàn bộ tổ chức",
+      "url": "https://vietnambiz.vn/phia-sau-cong-ty-chung-khoan-co-von-hoa-lon-nhat-thi-truong-khong-can-dung-moi-gioi-gen-ai-len-sau-vao-toan-bo-to-chuc-2026106135038677.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tvs.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Là một trong các doanh nghiệp thuộc danh mục đầu tư của TVS, Finhay chính thức công bố việc đổi tên Công ty Cổ phần",
+      "title": "Finhay công bố tên thương mại Công ty Cổ phần Chứng khoán Finhay  | TVS",
+      "url": "https://www.tvs.vn/vi/tin-tuc/finhay-cong-bo-ten-thuong-mai-cong-ty-co-phan-chung-khoan-finhay"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Bước vào năm thứ 2 triển khai chính sách Zero fee, giá trị giao dịch chứng khoán qua TCBS đạt hơn 1,4 triệu tỷ đồng,",
+      "title": "MẢNG DỊCH VỤ CHỨNG KHOÁN",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-24/155706_000000014665875_VI_BaoCaoThuongNien_2024.pdf_TCBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Quỹ ETF Techcom Capital VNX50 (FUETCC50) mang đến cơ hội đầu tư vào 50 doanh nghiệp niêm yết hàng đầu trên thị trường chứng khoán",
+      "title": "Techcom Securities (TCBS) - Công ty Cổ phần Chứng khoán Kỹ Thương",
+      "url": "https://www.tcbs.com.vn/ca-nhan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "funan.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Giữa năm 2022, Finhay mua lại Công ty Chứng khoán Vina (VNSC), đánh dấu mốc fintech đầu tiên sở hữu công ty chứng khoán. ...",
+      "title": "Nhà sáng lập Finhay: Quỹ đầu tư cần đại lý phân phối chuyên nghiệp để tập trung làm tốt công việc chính | CÔNG TY CỔ PHẦN CHỨNG KHOÁN FUNAN (FNS)",
+      "url": "https://funan.com.vn/vi/nha-sang-lap-finhay-quy-dau-tu-can-dai-ly-phan-phoi-chuyen-nghiep-de-tap-trung-lam-tot-cong-viec-chinh.1208162"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search14",
+      "snippet": "Trong năm, TCBS đã đưa vào vận hành thành công hơn 1.350 dự án công nghệ, chứng minh năng lực vận hành mạnh mẽ, tốc",
+      "title": "DẤU ẤN WEALTHTECH NĂM 2025",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/vie-tcb-annual-report-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Ba cột nội dung trong các khung nét đứt màu đỏ, tím, xanh lá, mỗi cột là một dòng thời gian phát triển của một",
+      "title": "I. TỔNG QUAN – CÁC DẤU MỐC QUAN TRỌNG",
+      "url": "https://www.aseansc.com.vn/wp-content/uploads/2025/12/BAO-CAO-SO-SANH-TCBS-VPBANKS-VPS-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Chứng chỉ quỹ TCFF | Chị Hoa đặt lệnh và có nhập mã giới thiệu của iWP Nam khi mua thành công CCQ TCFF số",
+      "title": "iWealth Partner - Techcom Securities - TCBS",
+      "url": "https://www.tcbs.com.vn/ve-chung-toi/iwealth-partner/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search16",
+      "snippet": "Các công ty con – Công ty Cổ phần Chứng khoán Kỹ Thương – TCBS ... Với chiến lược công nghệ tài chính Wealthtech, áp",
+      "title": "MỤC LỤC\nMỤC LỤC\nCHÚNG TÔI LÀ AI\b\n4\nTẦM NHÌN CỦA TE",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bao-cao-thuong-nien-nam-2024-04042025-vie.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Pinetree là thành viên của Hanwha Investment & Securities – một trong những công ty chứng khoán ... đầu tư tài chính để phát triển",
+      "title": "CÔNG TY\nCӘ PHҪN\nCHӬNG \nKHOÁN \nPINETRE\nE\nDigitally",
+      "url": "https://pinetree.vn/wp-content/uploads/2026/04/PT_Annual-Report_2025-VN-signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "Ae cho mình xin review về quy trình pv cũng như văn hoá của bên này nhé, đồng chí nào biết về team sàn, blockchain",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search19",
+      "snippet": "Techcom Securities (TCBS) is the leading wealthtech company and is the largest securities company in Vietnam in terms of profit and brand value. ... *",
+      "title": "Nguyen Xuan Minh",
+      "url": "https://en.wikipedia.org/wiki/Nguyen_Xuan_Minh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit20",
+      "snippet": "TCInvest là một nền tảng phục vụ nhu cầu đầu tư chứng khoán được phát triển bởi Công ty CP Chứng khoán Kỹ Thương (Techcom",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit21",
+      "snippet": "Như tiêu đề, em muốn tìm hiểu về kênh đầu tư là chứng chỉ quỹ vì em tự nhận là k đủ giỏi để tự",
+      "title": "Các bác nghĩ sao về đầu tư chứng chỉ quỹ",
+      "url": "https://www.reddit.com/r/vozforums/comments/1m84ly7/c%C3%A1c_b%C3%A1c_ngh%C4%A9_sao_v%E1%BB%81_%C4%91%E1%BA%A7u_t%C6%B0_ch%E1%BB%A9ng_ch%E1%BB%89_qu%E1%BB%B9/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit22",
+      "snippet": "Theo đó, người chơi có thể kiếm được nhiều loại phí hoa hồng từ việc phát sinh trong các đơn hàng hay các giao dịch",
+      "title": "Đọc báo mỗi ngày - Robot AI: Đa cấp lừa đảo thời 4.0",
+      "url": "https://www.reddit.com/r/u_vaytienonlineaz/comments/qep4pt"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-847fbda0-68f1-4ead-92ef-c97efe03fae5",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-847fbda0-68f1-4ead-92ef-c97efe03fae5",
+    "type": "web_search",
+    "query": "site.vps.com.vn \"WeBot\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vps.com.vn \"WeBot\"",
+      "site.dnse.com.vn \"AI\" \"Ensa\"",
+      "site.entrade.com.vn \"AI\" \"Ensa\"",
+      "site.mbs.com.vn \"Stock\" \"AI\" \"Visafe\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "ENSA - Trợ lý đầu tư AI ... hello@dnse.com.vn",
+      "title": "Chứng khoán DNSE - Miễn phí giao dịch trọn đời",
+      "url": "https://www.dnse.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "LỆNH AI VÀ ENSA ... Lệnh AI là tính năng mới của DNSE cho phép khách hàng đặt lệnh cơ sở áp dụng công nghệ",
+      "title": "Hoạt động phát triển sản phẩm",
+      "url": "https://cdn.dnse.com.vn/dnse-assets/CBTT/20260323%20-%20DSE%20-%20B%C3%A1o%20c%C3%A1o%20th%C6%B0%E1%BB%9Dng%20ni%C3%AAn%202025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Left side: a red-and-white 3D promotional scene with a cartoon AI assistant standing on a circular platform in front of large “ENSA” letters and the",
+      "title": "TRỢ LÝ CHỨNG KHOÁN AI",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2025/05/Product-book.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Khi nhà đầu tư hỏi “So sánh hai mã cổ phiếu VIC và VHM?”, Ensa Pro sẽ phân tích cả 2 mã từ các góc",
+      "title": "Hoạt động phát triển sản phẩm",
+      "url": "https://cdn.dnse.com.vn/dnse-assets/CBTT/DSE%20-%20BCTN%202025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Promotional image showing three smartphone screens on a red stage with the DNSE logo and the Vietnamese slogan “BẮT NHỊP THỊ TRƯỜNG NHANH CHÓNG cùng",
+      "title": "Product Development operations",
+      "url": "https://cdn.dnse.com.vn/dnse-assets/CBTT/20260323%20-%20DSE%20-%20Annual%20Report%202025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Ensa: trợ lý môi giới ảo AI chat của DNSE, hướng dẫn tại đây",
+      "title": "Trang chủ | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/giao-dien-entrade-x/giao-dien-web-entradex/trang-chu"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn1search16",
+      "snippet": "DNSE tập trung phát triển các công cụ hỗ trợ giao dịch thông minh như lệnh AI, hệ thống Trading Ideas với các khuyến nghị",
+      "title": "DNSE  \nBẢN CÁO BẠCH CHÀO BÁN THÊM CỔ PHIẾU RA CÔNG",
+      "url": "https://cafef1.mediacdn.vn/download/231225/dse-ban-cao-bach-chao-ban-them-co-phieu-ra-cong-chung-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Webtrading: https://entradex.dnse.com.vn ... * ENSA AI Chat",
+      "title": "Hướng dẫn sử dụng Entrade X | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "ENSA - Trợ lý đầu tư AI đầu tiên trên thị trường ... hello@dnse.com.vn",
+      "title": "Cơ hội đầu tư vào công ty Chứng khoán Công nghệ số 1 Việt Nam",
+      "url": "https://www.dnse.com.vn/ipo"
+     },
+     {
+      "type": "text_result",
+      "domain": "webot.zendesk.com",
+      "ref_id": "turn1search4",
+      "snippet": "* * # Webot Help Center",
+      "title": "Webot Help Center",
+      "url": "https://webot.zendesk.com/hc/en-us"
+     },
+     {
+      "type": "text_result",
+      "domain": "banggia.dnse.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "ENSA Trợ lý AI nói gì?",
+      "title": "Bảng giá chứng khoán DNSE",
+      "url": "https://banggia.dnse.com.vn/v2/niem-yet/vay-uu-dai?symbol=SDX"
+     },
+     {
+      "type": "text_result",
+      "domain": "vn.linkedin.com",
+      "ref_id": "turn1search6",
+      "snippet": "Xem DNSE Securities đã tuyển dụng ai cho vai trò này Không còn chấp nhận đơn đăng ký ... * AI Broker (ENSA): Trợ lý",
+      "title": "Broker tại DNSE Securities — Ho Chi Minh City, Vietnam | Việc làm LinkedIn",
+      "url": "https://vn.linkedin.com/jobs/view/broker-at-dnse-securities-4380079709"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.dnse.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Công ty tập trung đơn giản hóa trải nghiệm khách hàng và phát triển công nghệ hiện đại như lệnh AI, Trading Ideas, bot AI",
+      "title": "<table id=\"e1\">",
+      "url": "https://cdn.dnse.com.vn/dnse-news/2025/02/Cac-To-trinh-HDQT-To-trinh-BKS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "upside.pandobit.com",
+      "ref_id": "turn1search7",
+      "snippet": "# Innovation culture drives growth for DNSE ... The company is also developing the AI assistant Ensa, the Senses data system and AI connectivity via",
+      "title": "Innovation culture drives growth for DNSE · Upside",
+      "url": "https://upside.pandobit.com/en/news/2026/11/innovation-culture-drives-growth-for-dnse-1202577/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ir.dnse.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "DNSE is also a pioneer in bringing AI into investment products. The virtual securities assistant Ensa, built as a chatbot, helps users analyze market data,",
+      "title": "DNSE at 18 – When technology redefines the investing experience.",
+      "url": "https://ir.dnse.com.vn/en/post/dnse-at-18---when-technology-redefines-the-investing-experience-644.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "ir.dnse.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Chính vì thế, DNSE có thể tạo ra những sản phẩm mà trước đây thị trường chưa có – như Lệnh AI, Trợ lý ảo",
+      "title": "DNSE - Không chỉ là môi giới, mà là người tiên phong định hình lại cách người Việt đầu tư",
+      "url": "https://ir.dnse.com.vn/vi/post/dnse-khong-chi-la-moi-gioi--ma-la-nguoi-tien-phong-dinh-hinh-lai-cach-nguoi-viet-dau-tu-646.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.itjobs.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "# DNSE ... Your focus will be on leveraging cutting-edge AI technologies, including Large Language Models (LLMs), Autonomous Agents, and Retrieval-Augmented Generation (RAG), to build",
+      "title": "Senior AI/NLP Engineer ở DNSE - ITJobs.com.vn",
+      "url": "https://www.itjobs.com.vn/vi/job/85078/senior-ai-nlp-engineer"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search11",
+      "snippet": "DNSE duy trì thị phần tài khoản mở mới 20%, số lượng \"active users\" năm 2025 gấp đôi năm trước ... Trợ lý ảo Ensa",
+      "title": "DNSE duy trì thị phần tài khoản mở mới 20%, số lượng \"active users\" năm 2025 gấp đôi năm trước",
+      "url": "https://www.phs.vn/tin-tuc/dnse-duy-tri-thi-phan-tai-khoan-mo-moi-20percent-so-luong-andquotactive-usersandquot-nam-2025-gap-doi-nam-truoc/6363723"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-6ca9f3b7-c7cb-436d-b26e-d199e35e1776",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-6ca9f3b7-c7cb-436d-b26e-d199e35e1776",
+    "type": "web_search",
+    "query": "site.vpbankS.com.vn \"Nami\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vpbankS.com.vn \"Nami\"",
+      "site.bsc.com.vn \"i-Invest\" \"robot\"",
+      "site.aisec.com.vn \"AI\" \"khuyến nghị\"",
+      "site.vndirect.com.vn \"DGO\" \"khuyến nghị\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "My DGO hỗ trợ Khách hàng có thể quản lý/theo dõi tổng quan các thông tin liên quan đến tài khoản giao dịch mở tại",
+      "title": "Hướng dẫn sử dụng My DGO trên VNDGO App – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/40294110598425-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng-My-DGO-tr%C3%AAn-VNDGO-App"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn2search1",
+      "snippet": "Theo đánh giá từ hệ thống An toàn thông tin, đây là dấu hiệu cho thấy các đối tượng xấu đang chuẩn bị hoặc triển",
+      "title": "Cảnh báo giả mạo thương hiệu VNDIRECT, bảo vệ tài khoản nhà đầu tư - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/canh-bao-gia-mao-thuong-hieu-vndirect-bao-ve-tai-khoan-nha-dau-tu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn2search2",
+      "snippet": "Sau sản phẩm robot tư vấn đầu tư i-Broker, BSC tiếp tục khẳng định sự chuyển mình mạnh mẽ trong cuộc cách mạng công nghiệp",
+      "title": "Giải mã những tính năng vượt trội của sản phẩm quản lý đầu tư BSC i-Invest",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/684563-giai-ma-nhung-tinh-nang-vuot-troi-cua-san-pham-quan-ly-dau-tu-bsc-i-invest/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn2search12",
+      "snippet": "<th>Giảm giá đến 10% khi thanh toán bằng thẻ VPBank</th> ... <th>Nhà Hàng Nami</th>",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.vpbank.com.vn/-/media/vpbank-latest/1retail/promotion/for-cardholder/2025/cc-thang-12/mua-le-hoi-2026/TNC-THANG-01-AM-THUC-update31122025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn2search3",
+      "snippet": "Với mong muốn mang đến cho Khách hàng một trải nghiệm đầu tư riêng biệt ” theo cách của bạn”, MY DGO – Nền tảng",
+      "title": "𝗠𝗬 𝗗𝗚𝗢 - NỀN TẢNG QUẢN LÝ TÀI SẢN CÁ NHÂN HIỆU QUẢ DÀNH CHO MỌI NHÀ ĐẦU TƯVNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/%F0%9D%97%A0%F0%9D%97%AC-%F0%9D%97%97%F0%9D%97%9A%F0%9D%97%A2-nen-tang-quan-ly-tai-san-ca-nhan-hieu-qua-danh-cho-moi-nha-dau-tu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn2search4",
+      "snippet": "Image: đầu tư vào robot hay con người ... Trên thị trường hiện nay, sản phẩm đầu tư tự động BSC I-invest hiện đang được",
+      "title": "Đầu tư tự động là gì, có nên đầu tư tự động hay không?",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/663499-dau-tu-tu-dong-la-gi-co-nen-dau-tu-tu-dong-hay-khong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.morihamada.com",
+      "ref_id": "turn2search13",
+      "snippet": "i-Broker and i-Invest developed by BIDV Securities Joint Stock Company (“BSC”); ... Investment Robot Adviser – IRA developed by Tan Viet Securities Incorporation",
+      "title": "Fintech\nFourth Edition\nContributing Editors: Richa",
+      "url": "https://www.morihamada.com/system/files/publications/publications/pdf/Global%20Legal%20Insights%20-%20Fintech%202022%20-%20Vietnam%20Chapter.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tinnhanhchungkhoan.vn",
+      "ref_id": "turn2search5",
+      "snippet": "Theo đó, ngay đầu tháng 1/2019, BSC giới thiệu với cộng đồng nhà đầu tư robot mang tên i-Broker. ... Ba tháng sau đó, vào",
+      "title": "Robot dọa…“đuổi việc” nhân viên môi giới? | Tin nhanh chứng khoán",
+      "url": "https://www.tinnhanhchungkhoan.vn/robot-doaduoi-viec-nhan-vien-moi-gioi-post228728.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn2search6",
+      "snippet": "# Hướng dẫn đăng ký DSIP tại MYDGO ... (Nếu Quý khách mới làm quen với DSIP, hãy bắt đầu bằng việc khám phá các",
+      "title": "Hướng dẫn đăng ký DSIP tại MYDGO – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/54907972931353-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%C4%83ng-k%C3%BD-DSIP-t%E1%BA%A1i-MYDGO"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn2search7",
+      "snippet": "Đầu tháng 7/2019, Công ty chứng khoán Ngân hàng Đầu tư và Phát triển Việt Nam (BSC) ra mắt thị trường sản phẩm iBroker phái",
+      "title": "BSC liên tục ra mắt sản phẩm mới, đem sự thịnh vượng đến với mọi khách hàng",
+      "url": "https://www.bsc.com.vn/tin-tuc/tin-chi-tiet/684599-bsc-lien-tuc-ra-mat-san-pham-moi-dem-su-thinh-vuong-den-voi-moi-khach-hang/"
+     },
+     {
+      "type": "text_result",
+      "domain": "adr.com.vn",
+      "ref_id": "turn2search14",
+      "snippet": "PHẦN 2: CÁC KHUYẾN NGHỊ CHUNG VỀ VIỆC SỬ DỤNG AI TRONG TRỌNG TÀI ... Các bên và trọng tài viên được khuyến khích chủ",
+      "title": "PHẦN 2: CÁC KHUYẾN NGHỊ CHUNG VỀ VIỆC SỬ DỤNG AI TRONG TRỌNG TÀI",
+      "url": "https://adr.com.vn/upload/files/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20CIArb%20v%E1%BB%81%20vi%E1%BB%87c%20s%E1%BB%AD%20d%E1%BB%A5ng%20AI%20trong%20tr%E1%BB%8Dng%20t%C3%A0i%20%28VIE%29%281%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vpbank.com.vn",
+      "ref_id": "turn2search15",
+      "snippet": "<td>Tea Lounge và La Plage<br><br>Nami/ The Blue<br><br>Ngon Phố Hội</td> ... <td>Nhà hàng 1946<br><br>Bow Thái<br><br>Kasa Sushi<br><br>Nhà hàng Satine - Hotel de l'Opera Hanoi<br><br>Nhà hàng Le Bis",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.vpbank.com.vn/privatebanking/media/secure/landing-page/2026/03/19/2026-The-le-CT-Phong-vi-thuong-luu---up-web-3-q6gpO.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vn.beincrypto.com",
+      "ref_id": "turn2search8",
+      "snippet": "Chung Năm thành lập 2017 Trang web nami.exchange Facebook facebook.com/nami.trade.official Redit reddit.com/r/NAMIcoin Telegram t.me/NamiGlobal Medium t.me/namitradevn Steemit facebook.com/namifutures",
+      "title": "Nami Exchange — Khối lượng giao dịch, Cặp giao dịch và Thông tin - BeInCrypto Việt Nam",
+      "url": "https://vn.beincrypto.com/exchanges/nami_exchange/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search9",
+      "snippet": "Dữ liệu tra ngày 23/10/2026 để đối chiếu, không phải danh sách khuyến nghị. ... VNDirect (vndirect.com.vn) | VNDIRECT DGO | VNDIRECT | VNDIRECT SECURITIES",
+      "title": "App chứng khoán lừa đảo: 4 bước kiểm tra trước khi nạp tiền",
+      "url": "https://reviewchungkhoan.com/app-chung-khoan-lua-dao/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sotay.aisec.com.vn",
+      "ref_id": "turn2search10",
+      "snippet": "AIS khuyến nghị Quý Khách nên tham khảo đến cuối tài liệu để nắm bắt thông tin một cách toàn diện. ... Nhận khuyến nghị",
+      "title": "AIS - Sổ tay Nhà đầu tư",
+      "url": "https://sotay.aisec.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn2search11",
+      "snippet": "VNDIRECT DGO hoạt động theo mô hình tháp tài sản, Tài chính an sinh là phải lấy thu nhập hàng tháng chuẩn bị cho kế",
+      "title": "Kỷ luật đầu tư dài hạn với két điện tử VNDIRECT DGO - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/ky-luat-dau-tu-dai-han-voi-ket-dien-tu-vndirect-dgo/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.24hmoney.vn",
+      "ref_id": "turn2search16",
+      "snippet": "Circular illustration showing a robot assistant with “HI!” ... BSC i-Broker được tích hợp trên nền tảng giao dịch trực tuyến webtrading và ứng dụng",
+      "title": "Tiên phong  \nCHUYỂN ĐỔI SỐ\n\nNắm bắt xu thế công ng",
+      "url": "https://cdn.24hmoney.vn/medialib/Crawler/2023/2023-04/2023-04-05/54931_thuong-nien-2022.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ips.org.vn",
+      "ref_id": "turn2search17",
+      "snippet": "Tóm tắt các vấn đề và khuyến nghị về nhân lực AI ... <td>Xây dựng và thực hiện các chương trình đào tạo, bồi dưỡng",
+      "title": "Bảng 6. Tóm tắt các vấn đề và khuyến nghị về nhân lực AI",
+      "url": "https://ips.org.vn/uploads/Product/Da%CC%81nh-gia%CC%81-nhanh-U%CC%9B%CC%81ng-du%CC%A3ng-AI-trong-CQNN-Vie%CC%A3%CC%82t-Nam_Online-Publishing.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "Có. **Ở Việt Nam, bạn có thể tham khảo các công ty dưới đây**, nhưng nên phân biệt AI phân tích cổ phiếu với công cụ tự động phân bổ danh mục:\n\n| Công ty | Robot/AI hoặc công cụ | Hỗ trợ gì? |\n|---|---|---|\n| **DNSE** | **Ensa / Ensa Pro** | Hỏi đáp bằng tiếng Việt, phân tích và so sánh cổ phiếu, đánh giá danh mục. Ensa Pro có thể đưa ra gợi ý mua/cân nhắc/không nên mua kèm lý do từ dữ liệu cơ bản, kỹ thuật, tin tức và tín hiệu AI. [Nguồn DNSE](https://cdn.dnse.com.vn/dnse-assets/CBTT/DSE%20-%20BCTN%202025.pdf) |\n| **TCBS** | **Mập thông thái trên TCInvest** | Trợ lý AI hỗ trợ tư vấn danh mục đầu tư, cá nhân hóa theo dữ liệu khách hàng và thị trường. [Nguồn TCBS](https://www.tcbs.com.vn/wp-content/uploads/2025/10/20251007_Press-Release_3Q25_VIE_v1-1.pdf) |\n| **VNDIRECT** | **My DGO / DSIP** | Khuyến nghị danh mục theo nhu cầu và khả năng đầu tư; hỗ trợ mua định kỳ tự động. Đây thiên về **lập kế hoạch và đầu tư có hệ thống**, không đồng nghĩa với chatbot AI chọn cổ phiếu. [Nguồn VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/54907972931353-Hướng-dẫn-đăng-ký-DSIP-tại-MYDGO) |\n\n**Nếu bạn muốn AI trả lời kiểu “mã này có nên mua không?”**, Ensa Pro của DNSE là lựa chọn có mô tả chức năng khá sát nhu cầu. Nếu muốn tư vấn danh mục và quản lý tài sản, có thể tìm hiểu thêm TCBS.\n\nLưu ý: **gợi ý AI không phải cam kết sinh lời**, và có AI không có nghĩa là tự động mua bán. Trước khi dùng, nên kiểm tra phí, điều kiện truy cập và cách công cụ kiểm soát rủi ro.\n\nBạn muốn robot **gợi ý cổ phiếu mua/bán ngắn hạn**, hay **lập danh mục đầu tư dài hạn**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 81341,
+    "cached_input_tokens": 40704,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 776,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b018-7c7d-7c71-b4a2-49a1dc6b9365",
+ "error": ""
+}

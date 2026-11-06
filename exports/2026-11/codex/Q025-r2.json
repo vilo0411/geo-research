@@ -1,0 +1,246 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q025-r2",
+ "prompt_id": "Q025",
+ "run": 2,
+ "question": "Chứng khoán DSC có miễn phí giao dịch không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:53:56",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 24.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b010-8d09-7a50-808c-1a92e2ff40cd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d2f6bbc4-8eed-434a-b686-efa8cc8607ed",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d2f6bbc4-8eed-434a-b686-efa8cc8607ed",
+    "type": "web_search",
+    "query": "site.dsc.com.vn biểu phí giao dịch chứng khoán miễn phí DSC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn biểu phí giao dịch chứng khoán miễn phí DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Biểu phí giao dịch chứng khoán niêm yết, Upcom ... Phí giao dịch chuyển quyền sở hữu chứng khoán ngoài hệ thống giao dịch",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1 transfer/1 stock code",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "3.2 | Tổng giá trị giao dịch ≤ 300 triệu VNĐ/ngày | 0,25% ... 9 | Chuyển chứng khoán từ TCSC sang công ty chứng",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Khi có nhu cầu chuyển tiền từ tài khoản chứng khoán ra tài khoản ngân hàng, Khách hàng thực hiện theo 1 trong các Phương",
+      "title": "Hướng dẫn rút tiền 24/7 tại DSC - Chứng khoán DSC",
+      "url": "https://dsc.com.vn/huong-dan/rut-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "DSC - Đồng hành cùng Thành Công! ... info@dsc.com.vn",
+      "title": "DSC thông báo điều chỉnh biểu phí giao dịch chứng khoán niêm yết",
+      "url": "https://www.dsc.com.vn/tin-tuc/bieu-phi-dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "DSC - Đồng hành cùng Thành Công!",
+      "title": "DSC thông báo điều chỉnh biểu phí giao dịch chứng khoán và lãi suất vay (Áp dụng cho Khách hàng khu vực Miền Trung, Tây Nguyên)",
+      "url": "https://www.dsc.com.vn/tin-tuc/dsc-thong-bao-dieu-chinh-bieu-phi-giao-dich-chung-khoan-va-lai-suat-vay-ap-dung-cho-khach-hang-khu-vuc-mien-trung-tay-nguyen"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dvsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "## Vì lợi ích của cổ đông và khách hàng Biểu phí giao dịch chứng khoán niêm yết ... Email : info@dvsc.com.vn",
+      "title": "Công ty Chứng khoán Đại Việt | dvsc.com.vn",
+      "url": "https://www.dvsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "test-home.tmg-technologies.com",
+      "ref_id": "turn0search7",
+      "snippet": "Biểu phí giao dịch chứng khoán niêm yết, Upcom ... Phí giao dịch chuyển nhượng cổ phiếu chưa niêm yết do DSC thực hiện quản",
+      "title": "Biểu phí | Chứng Khoán HVS",
+      "url": "https://test-home.tmg-technologies.com/vi/bieu-phi/2"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Cả hai sàn đều hỗ trợ mở tài khoản online miễn phí 100% qua eKYC. ... Trong khi đó, DSC tính trên cơ sở 365",
+      "title": "So sánh DSC và VPS: Chọn phí thấp hay hệ sinh thái môi giới? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/dsc-vs-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Đánh giá chi tiết Chứng khoán DSC năm 2026: phí giao dịch, lãi suất margin, giao diện ứng dụng, chất lượng hỗ trợ và hướng",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "bmsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "# Biểu phí ... CHUYỂN QUYỀN SỞ HỮU CHỨNG KHOÁN KHÔNG QUA HỆ THỐNG GIAO DỊCH CỦA SGDCK | MỨC PHÍ ... Chuyển quyền sở",
+      "title": "Biểu phí",
+      "url": "https://bmsc.com.vn/dich-vu-chung-khoan/Bieu-phi.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "## Biểu giá dịch vụ lưu ký ... - Cổ phiếu của công ty đại chúng chưa niêm yết, chưa đăng ký giao dịch tại",
+      "title": "Biểu giá dịch vụ lưu ký",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-luu-ky"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kbsec.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "BIỂU PHÍ ... | | | | Phí xin cấp mã số giao dịch cho Khách hàng nước | | Miễn phí | | |",
+      "title": "BIỂU PHÍ DỊCH VỤ",
+      "url": "https://www.kbsec.com.vn/pic/general/files/KBSV_Bieu%20phi%20giao%20dich%282%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sisi.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Stay Hungry for Success — www.sisi.com.vn ... Công ty Cổ phần Chứng khoán SmartInvest (AAS) ban hành biểu phí dịch vụ tài chính như sau:",
+      "title": "SMART INVEST Securities Services",
+      "url": "https://www.sisi.com.vn/Content/Archive/FileAttact/Bieu%20phi%20DVTC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sisi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "www.sisi.com.vn<table> ... <td>Chuyển quyền sở hữu chứng khoán do chia, tách, sáp nhập, hợp nhất, góp vốn bằng cổ phiếu thành lập doanh nghiệp theo",
+      "title": "SMART INVEST",
+      "url": "https://www.sisi.com.vn/Content/Archive/FileAttact/Bieu_phi_giao_dich.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "file.fpts.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước cấp lần đầu ngày 18/12/2006",
+      "title": "Báo cáo thường niên DSC 2024",
+      "url": "https://file.fpts.com.vn/FileStore2/File/2025/03/25/20250325_20250325_-_DSC_-_CBTT_Bao_cao_thuong_nien_nam_2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Chính sách ưu đãi với các khách hàng do Tư vấn số quản lý với phí giao dịch cố định 0.1%. ... Với định hướng",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kbsec.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "BIỂU PHÍ ... | STT None | | Giao dịch bán cổ phiếu lô lẻ cho KBSV | DỊCH VỤ None | | 10% tổng",
+      "title": "BIỂU PHÍ DỊCH VỤ",
+      "url": "https://www.kbsec.com.vn/pic/general/files/Bi%E1%BB%83u%20ph%C3%AD%20d%E1%BB%8Bch%20v%E1%BB%A5%20ch%E1%BB%A9ng%20kho%C3%A1n.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-4a91c46e-023b-43a4-815d-6929b7b46480",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-4a91c46e-023b-43a4-815d-6929b7b46480",
+    "type": "web_search",
+    "query": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 135",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/bqK-OajsvhRkr6DB-EQ23wxKMWPISIoQeINiugtRt5mhq5RhsQvnA6zgOOfd1oiegSYSWR1VCwVDEKMztrTfIA",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Không. DSC hiện không miễn phí giao dịch theo biểu phí tiêu chuẩn** đối với cổ phiếu, chứng chỉ quỹ và chứng quyền:\n\n- **Tài khoản do khối Tư vấn số quản lý:** phí **0,1% giá trị giao dịch**.\n- **Tài khoản do môi giới quản lý:** phí **0,15%–0,3%**, tùy tổng giá trị giao dịch trong ngày.\n\nĐây là biểu phí DSC công bố áp dụng từ **20/08/2025**. [Xem biểu phí chính thức](https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet).\n\nVí dụ: giao dịch mua **100 triệu đồng** với mức phí 0,1% thì phí là **100.000 đồng**. Nếu tài khoản của bạn có ưu đãi riêng, mức thực thu có thể khác biểu phí tiêu chuẩn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 37429,
+    "cached_input_tokens": 29056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 307,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b010-8d09-7a50-808c-1a92e2ff40cd",
+ "error": ""
+}

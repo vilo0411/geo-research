@@ -1,0 +1,473 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q013-r2",
+ "prompt_id": "Q013",
+ "run": 2,
+ "question": "Công ty chứng khoán nào cho vay margin lãi suất thấp?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:43:13",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 41.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b006-bca1-7531-88e4-fcef3050c173"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-2254c227-f2cf-40e4-b7cd-5b3472e3dec2",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-2254c227-f2cf-40e4-b7cd-5b3472e3dec2",
+    "type": "web_search",
+    "query": "site.vps.com.vn lãi suất margin 2026 ưu đãi ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vps.com.vn lãi suất margin 2026 ưu đãi",
+      "site.vndirect.com.vn lãi suất margin 2026",
+      "site.masvn.com lãi suất margin 2026",
+      "site.tcbs.com.vn lãi suất margin 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "# Biểu phí lãi margin ... 3 | T15 | Từ 0.0186%ngày (tương đương 6.8%/năm) | Xem chi tiết ... Mọi thông tin chi tiết",
+      "title": "Biểu phí lãi margin - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-lai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Tin tức VNDIRECT 27/03/2026 216 VNDIRECT trân trọng thông báo đến Quý khách về việc điều chỉnh mức Lãi suất Giao dịch ký quỹ D-Margin,",
+      "title": "THÔNG BÁO: ĐIỀU CHỈNH LÃI SUẤT GIAO DỊCH KÝ QUỸ D-MARGIN (từ tháng 04/2026) - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/thong-bao-dieu-chinh-lai-suat-giao-dich-ky-quy-d-margin-tu-thang-04-2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm ... Đồng hành cùng bạn đón sóng tài lộc đầu",
+      "title": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Ưu đãi lãi suất margin · Từ 01/10/2026 ... Khi dư nợ gốc vay ký quỹ bình quân tháng liền trước đạt từ 2 tỷ",
+      "title": "Mở khóa ưu đãi margin: Giảm lãi tới 1.5%/năm | TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-khoa-uu-dai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "* Sản phẩm T15: Sản phẩm giao dịch ký quỹ ưu đãi lãi suất trong kỳ hạn ngắn, dành cho khách hàng ưa thích giao",
+      "title": "FAQ: Giao Dịch Ký Quỹ (Margin) tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/40279362847257-FAQ-Giao-D%E1%BB%8Bch-K%C3%BD-Qu%E1%BB%B9-Margin-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "# Margin Interest Rate Schedule ... 3 | T15 | From 0.0186%/day (equivalent to 6.8%/year) | View details ... For further information and assistance, please",
+      "title": "Margin Interest Rate Schedule - Công ty cổ phần chứng khoán VNDIRECTCông ty cổ phần chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/en/margin-interest-rate-schedule/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tienphong.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Ngân hàng Nhà nước vừa yêu cầu các tổ chức tín dụng giảm tối thiểu 0,5 điểm phần trăm/năm lãi suất tiền gửi niêm yết",
+      "title": "Lãi suất hạ nhiệt, công ty chứng khoán cho vay margin thế nào?",
+      "url": "https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuoitre.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Khảo sát cho thấy mặt bằng lãi suất margin cũng đã lên cao hơn so với đầu năm 2026. Chứng khoán VNDirect áp dụng mức",
+      "title": "Lãi margin lên 14% gây thiệt hại cho nhà đầu tư - Tuổi Trẻ Online",
+      "url": "https://tuoitre.vn/lai-margin-len-14-gay-thiet-hai-cho-nha-dau-tu-20260319142020591.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "masvn.com",
+      "ref_id": "turn0search12",
+      "snippet": "• Ưu đãi lãi suất margin 6.99 – Lãi suất siêu hời, Đầu tư thêm lời. ... • Tổng dư nợ tài trợ giao dịch",
+      "title": "TnC_Margin 6.99_2026",
+      "url": "https://masvn.com/api/attachment/file/1769581598550-TnC_Margin6.99_20264.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search8",
+      "snippet": "## Cách tính lãi margin: công thức và ví dụ trên VPS, MBS, SSI, VNDirect ... Nhập dư nợ, lãi suất và số ngày vào",
+      "title": "Lãi suất margin các công ty chứng khoán 2026: bảng so sánh",
+      "url": "https://reviewchungkhoan.com/lai-suat-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoannq.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Với mong muốn hỗ trợ tối đa nhà đầu tư tiếp cận nhanh chóng các nguồn vốn hấp dẫn để nắm bắt cơ hội đầu",
+      "title": "CHÍNH SÁCH ƯU ĐÃI DÀNH CHO CÁC TÀI KHOẢN VAY MARGIN - VPS",
+      "url": "https://chungkhoannq.vn/thong-bao-vps/chinh-sach-uu-dai-danh-cho-cac-tai-khoan-vay-margin---vps-n2209.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Mọi con số trích từ biểu phí trên website chính thức, có link nguồn ở cuối trang. ... Công ty chứng khoán của Techcombank (sở",
+      "title": "Đánh giá TCBS 2026: phí 0%, Margin 789, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search13",
+      "snippet": "TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không? ... Còn margin, nếu mà quý",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "aas.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "15/07/2026 ... Bài viết dưới đây tổng hợp lãi suất vay margin của các công ty chứng khoán lớn tại Việt Nam dựa trên thông",
+      "title": "Lãi suất vay margin của các công ty chứng khoán hiện nay",
+      "url": "https://aas.com.vn/lai-suat-vay-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "STT | Mã CK | Tên CK | Lãi suất ... 161 | TDM | Cổ phiếu Công ty cổ phần Nước Thủ Dầu Một",
+      "title": "DANH MỤC LÃI SUẤT THEO MÃ DỊCH VỤ MARGIN",
+      "url": "https://mbs.com.vn/media/ktnddrp3/danh-sach-ls-theo-ma-dv-margin_26-04-2024-gui-kh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Riêng quý 1/2025, doanh thu từ lãi hoạt động margin đạt gần 718 tỷ đồng, tăng 28% so với cùng kỳ 2024. ... - **Thiết",
+      "title": "Báo cáo Phân tích doanh nghiệp",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/VIE_TCBS_Bc_Phan_tich_lan_dau_0725.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "BÁO CÁO THƯỜNG NIÊN 2025 ... với điểm nổi bật: Hiển thị lãi vay margin ngay ... Tra cứu \"Chính sách dành cho bạn\" có",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/VIE_TCBS-BAO-CAO-THUONG-NIEN-2025-3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit17",
+      "snippet": "[Tuesday July 12 2022] [+1 votes] ... TCBS là một trong những thành phần của hệ sinh thái Techcombank; top 4 ngân hàng hàng đầu",
+      "title": "TCinvest là gì? Tìm hiểu tất tần tật về TCinvest TCBS",
+      "url": "https://www.reddit.com/r/u_Unfair-Election3328/comments/vwztjh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "[Tuesday October 20 2026] [+9 votes] ... Ae cho mình xin review về quy trình pv cũng như văn hoá của bên này nhé, đồng",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0ea37132-38cc-4828-9372-c59749b84532",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0ea37132-38cc-4828-9372-c59749b84532",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn \"7.89\" \"2026\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn \"7.89\" \"2026\"",
+      "site.dnse.com.vn \"margin\" \"2026\" \"5.99\"",
+      "site.kafi.vn margin 2026 lãi suất",
+      "site.vndirect.com.vn \"T10\" \"16%\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "VNDIRECT trân trọng thông báo về việc điều chỉnh lãi suất áp dụng đối với sản phẩm Giao dịch ký quỹ T10 như sau: ...",
+      "title": "CẬP NHẬT BIỂU LÃI SUẤT SẢN PHẨM T10 - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/tin_vndirect/cap-nhat-bieu-lai-suat-san-pham-t10/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Nếu bạn là khách hàng có ngày giải ngân ký quỹ đầu tiên tại TCBS từ 01/01/2026, tiểu khoản giao dịch ký quỹ của bạn",
+      "title": "Margin 789 - Ưu đãi margin cho Khách hàng giải ngân lần đầu",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/margin-789/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "# Danh mục Margin 5.99 Plus tháng 7/2026",
+      "title": "Danh mục Margin 5.99 Plus tháng 7/2026",
+      "url": "https://www.dnse.com.vn/tin-tuc/danh-muc-margin-5-99-plus-thang-7-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "kafi.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Margin Cashback Chỉ từ 8%/năm Gói vay dành cho Khách hàng giao dịch tần suất cao với cơ chế hoàn lãi hấp dẫn, giúp tối",
+      "title": "Công ty Cổ phần Chứng khoán Kafi",
+      "url": "https://kafi.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "kafi.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Thời gian triển khai: từ 00 giờ ngày 01/04/2026 đến 23 giờ 59 phút ngày 30/06/2026. ... Không có nhân viên môi giới/đối tác của",
+      "title": "PHỤ LỤC: THỂ LỆ CHƯƠNG TRÌNH",
+      "url": "https://kafi.vn/tnc/TnC_Margin_69.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search4",
+      "snippet": "Lãi suất margin tiêu chuẩn của Kafi là 13%/năm (kiểm chứng ngày 28/10/2026). ... Margin Plus 12%/năm khi không yêu cầu tỷ trọng danh mục",
+      "title": "Danh mục margin Kafi 2026: 209 mã, lãi 13%/năm",
+      "url": "https://reviewchungkhoan.com/margin/ctck/kafi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "### Danh mục Margin 5.99 Plus tháng 11/2026",
+      "title": "Tin DNSE | Báo cáo phân tích chứng khoán",
+      "url": "https://www.dnse.com.vn/tin-tuc/trang/phan-tich-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Anh Nam đăng ký trở thành iWealth Partner (iWP) tại TCBS, anh giới thiệu Khách hàng Hoa mở tài khoản TCBS từ 03/03/2026 và gán",
+      "title": "iWealth Partner - Techcom Securities - TCBS",
+      "url": "https://www.tcbs.com.vn/ve-chung-toi/iwealth-partner/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search7",
+      "snippet": "Mặt còn lại: dưới tên Globalmind Capital (cùng pháp nhân với Kafi hiện nay), công ty từng bị UBCKNN đặt vào tình trạng kiểm soát",
+      "title": "Kafi có uy tín không? Đánh giá Chứng khoán Kafi",
+      "url": "https://reviewchungkhoan.com/ctck/kafi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "* Sản phẩm T10: Sản phẩm giao dịch cho dân giao dịch nhà nghề muốn tận dụng đòn bẩy để tối ưu lợi nhuận nhanh",
+      "title": "FAQ: Giao Dịch Ký Quỹ (Margin) tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/40279362847257-FAQ-Giao-D%E1%BB%8Bch-K%C3%BD-Qu%E1%BB%B9-Margin-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnexpress.net",
+      "ref_id": "turn1search9",
+      "snippet": "Thứ ba, 1/7/2025, 16:00 (GMT+7) ## Chứng khoán Kafi ưu đãi lãi margin từ 6,5% một năm ... Chứng khoán Kafi miễn 100% phí giao",
+      "title": "Chứng khoán Kafi ưu đãi lãi margin từ 6,5% một năm - Báo VnExpress Kinh doanh",
+      "url": "https://vnexpress.net/chung-khoan-kafi-uu-dai-lai-margin-tu-6-5-mot-nam-4908791.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Năm 2025, TCBS đã ghi nhận một cột mốc ấn ... hàng, như lãi suất 7.89%/năm áp dụng với ... chép trong năm 2026 đạt",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/VIE_TCBS-BAO-CAO-THUONG-NIEN-2025-3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static.tcbs.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Hotline: 1800 588 826; cskh@tcbs.com.vn ... Chỉ số N VN30F1M | gày đáo hạn Số ngày còn 16/04/2026 14 | lại Đóng cửa 1,853.20 |",
+      "title": "Techcom Securities",
+      "url": "https://static.tcbs.com.vn/oneclick/20260402_FuturesReport.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dantri.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Cùng mức lãi suất margin cạnh tranh, từ ngày 1/4 đến hết 30/6, khách hàng mới mở tài khoản giao dịch chứng khoán sẽ được",
+      "title": "Kafi áp dụng lãi suất margin 7%, miễn phí giao dịch trên ứng dụng | Báo Dân trí",
+      "url": "https://dantri.com.vn/kinh-doanh/kafi-ap-dung-lai-suat-margin-7-mien-phi-giao-dich-tren-ung-dung-20240402093517678.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "digital.kafi.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Về Kafi ... Hiệu lực từ ngày 01/04 - 30/06/2026 ... Hiệu lực từ ngày 01/04 - 30/06/2026 ... Kafi là công ty chứng khoán",
+      "title": "Đầu tư không giới hạn. Kích hoạt lợi thế vàng!",
+      "url": "https://digital.kafi.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "assets.stablebonds.in",
+      "ref_id": "turn1search15",
+      "snippet": "<td>Thursday, 1 January, 2026</td> ... <td>7.89</td>",
+      "title": "<table id=\"e1\">",
+      "url": "https://assets.stablebonds.in/bonds-assets/IM_iifl_finance_4thaugust.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn02.wigroup.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Lợi suất cho vay margin của các ctkck hầu hết đều giảm trong Q1 2024 trung bình 11,22%/năm, điều này có thể lý giải bởi",
+      "title": "Áp lực giảm lãi suất margin rất lớn, công ty có lợi suất thấp nhất chỉ 8,5%",
+      "url": "https://cdn02.wigroup.vn/wiresearch/report/1719928604433_BCCTCK_2024.05.22%281%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "digitalfactsheet.icicipruamc.com",
+      "ref_id": "turn1search17",
+      "snippet": "Scheme Name NIFTY 50 Equal Weight TRI (Benchmark) Nifty 50 TRI 2 (Additional Benchmark) | 7.89 -0.28 | 17.15 11.18 | - - | ---",
+      "title": "1. factsheet for passive funds_April 2026.cdr",
+      "url": "https://digitalfactsheet.icicipruamc.com/passive/pdf/passive-fund-factsheet-april-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "arxiv.org",
+      "ref_id": "turn1academia18",
+      "snippet": "Date: Tue Oct 27 21:09:32 2026 ... We find that the source galaxy exhibits a strong rotation, lies confidently along the star-forming main sequence, and",
+      "title": "The Carousel Lens III: Joint lens convergence and source kinematic modeling",
+      "url": "https://arxiv.org/abs/2610.37971"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-b04e01d7-c65d-4f64-b980-afd2ee5bbc71",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-b04e01d7-c65d-4f64-b980-afd2ee5bbc71",
+    "type": "web_search",
+    "query": "site.dnse.com.vn/tin-tuc/ \"Danh mục Margin 5.99 Plus tháng 11/2026\"",
+    "action": {
+     "type": "search",
+     "query": "site.dnse.com.vn/tin-tuc/ \"Danh mục Margin 5.99 Plus tháng 11/2026\""
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "# Danh mục Margin 5.99 Plus tháng 11/2026 ... 🎯 Kết quả kinh doanh khởi sắc: Trong quý 3/2026, HT1 ghi nhận doanh thu thuần",
+      "title": "Danh mục Margin 5.99 Plus tháng 11/2026",
+      "url": "https://www.dnse.com.vn/tin-tuc/danh-muc-margin-5-99-plus-thang-11-2026-2"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search1",
+      "snippet": "### Danh mục Margin 5.99 Plus tháng 11/2026 ... ### BVH – Hưởng lợi từ môi trường lãi suất cao và vị thế dẫn đầu",
+      "title": "Tin DNSE | Báo cáo phân tích chứng khoán",
+      "url": "https://www.dnse.com.vn/tin-tuc/trang/phan-tich-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search2",
+      "snippet": "### Danh mục Margin 5.99 Plus tháng 11/2026 ... ### BVH – Hưởng lợi từ môi trường lãi suất cao và vị thế dẫn đầu",
+      "title": "Thị trường | Báo cáo phân tích chứng khoán",
+      "url": "https://www.dnse.com.vn/nhan-dinh-thi-truong/trang/phan-tich-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search3",
+      "snippet": "# Danh mục Margin 5.99 Plus tháng 11/2025 ... * Động lực tăng trưởng chính của VCG đến từ: ... – Mảng xây lắp tiếp",
+      "title": "Danh mục Margin 5.99 Plus tháng 11/2025",
+      "url": "https://www.dnse.com.vn/tin-tuc/danh-muc-margin-5-99-plus-thang-11-2025"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 383",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/LRMHugMOl5k132NfBcgCnV1MylyBlQSAp9V3kZ7S78gLXcM2glWLIK065S-IGdZMhDpeIPJMepz7Iq118HS7k9xpKo0pcfZu2OVQC-y3gXaeOg7dT1CnxRG2-RryObvY",
+      "title": "Margin 789 - Ưu đãi margin cho Khách hàng giải ngân lần đầu",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/margin-789/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Bạn nên xem TCBS, VNDIRECT và Kafi trước**, nhưng cần phân biệt **lãi ưu đãi ngắn hạn** với lãi áp dụng lâu dài. Theo thông tin công khai kiểm tra ngày **06/11/2026**:\n\n| Công ty | Lãi suất đáng chú ý | Điều kiện/lưu ý |\n|---|---:|---|\n| **TCBS** | **7,89%/năm** – Margin 789 | Dành cho khách giải ngân margin lần đầu từ 01/01/2026, ưu đãi 180 ngày. [Chi tiết](https://www.tcbs.com.vn/ca-nhan/uu-dai/margin-789/) |\n| **VNDIRECT** | **T15 từ 6,8%/năm**; T10 từ **0% trong 10 ngày đầu** | Là gói ngắn hạn, có điều kiện. Riêng T10, từ ngày 11 áp dụng **16%/năm** từ 15/09/2026. [Biểu lãi](https://www.vndirect.com.vn/bieu-phi-lai-margin/), [cập nhật T10](https://www.vndirect.com.vn/tin_vndirect/cap-nhat-bieu-lai-suat-san-pham-t10/) |\n| **Kafi** | Margin Cashback thực thu **từ 8%/năm trong 90 ngày** | Dành cho khách giao dịch tần suất cao, mức thấp phụ thuộc cơ chế hoàn lãi. [Thông tin Kafi](https://kafi.vn/) |\n| **VPS** | Gói “Ưu Đãi Phát Tài” **8,8%/năm** | Công bố cho khách mở tài khoản từ 14/01/2026, hạn mức tới 5 tỷ đồng; cần xác nhận còn được đăng ký và thời hạn hưởng ưu đãi. [Chi tiết](https://www.vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai) |\n\n**Chọn nhanh:**\n- **Vay vài tháng, chưa từng dùng margin TCBS:** đáng kiểm tra gói **7,89%** trước.\n- **Vay rất ngắn ngày:** so sánh **T10/T15 của VNDIRECT**, đặc biệt chi phí nếu giữ quá hạn ưu đãi.\n- **Giao dịch nhiều:** xem Kafi, nhưng cộng cả **phí giao dịch để đạt điều kiện hoàn lãi**.\n\nĐừng chỉ nhìn con số quảng cáo: hãy hỏi lãi sau ưu đãi, mã cổ phiếu được vay, hạn mức và ngưỡng bán giải chấp. Lãi thấp không loại bỏ rủi ro margin.\n\n**Bạn dự định vay khoảng bao nhiêu, giữ bao lâu và mua mã nào?** Mình có thể giúp so chi phí sát nhu cầu hơn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 80784,
+    "cached_input_tokens": 49408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 894,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b006-bca1-7531-88e4-fcef3050c173",
+ "error": ""
+}

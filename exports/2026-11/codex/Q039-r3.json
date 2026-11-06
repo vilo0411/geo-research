@@ -1,0 +1,184 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q039-r3",
+ "prompt_id": "Q039",
+ "run": 3,
+ "question": "Đầu tư định kỳ cổ phiếu hàng tháng ở đâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:00:08",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 30.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b016-37a9-7a70-947c-1119614a2147"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-6ab8837d-54a0-4bbd-88b9-eff86c20bf24",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-6ab8837d-54a0-4bbd-88b9-eff86c20bf24",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn đầu tư định kỳ cổ phiếu ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn đầu tư định kỳ cổ phiếu",
+      "site.fpts.com.vn đầu tư định kỳ cổ phiếu",
+      "site.dragoncapital.com.vn đầu tư định kỳ iSave quỹ cổ phiếu"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dragoncapitalprod.blob.core.windows.net",
+      "ref_id": "turn0search12",
+      "snippet": "Đầu tư vào bất kỳ ngày giao dịch của quỹ, khớp lệnh hàng tuần/hàng tháng ... Ảnh chụp màn hình ứng dụng ở bước 03:",
+      "title": "Sổ đầu tư (VIET) UPDATED 250214",
+      "url": "https://dragoncapitalprod.blob.core.windows.net/cms1public/S%E1%BB%95%20%C4%91%E1%BA%A7u%20t%C6%B0%20%28VIET%29%20UPDATED%20250214.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Chứng chỉ quỹ (CCQ) là sản phẩm đầu tư – bạn góp tiền vào một quỹ chung, công ty quản lý quỹ chuyên nghiệp đầu",
+      "title": "Đầu tư định kỳ chứng chỉ quỹ từ 10.000đ | TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/san-pham/dau-tu-dinh-ky/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "DCDEQuỹ đầu tư cổ phiếu tập trung cổ tức DC | Quỹ cổ phiếu | 24.035,77 ₫ | ▼ 1,23% | 30/10/2026 ... Bảng trên",
+      "title": "Bảng giá chứng chỉ quỹ Dragon Capital hôm nay | NAV 8 quỹ",
+      "url": "https://dautu.dragoncapital.com.vn/bang-gia-chung-chi-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "DragonX là ứng dụng đầu tư chứng chỉ quỹ chính thức của Dragon Capital Việt Nam (DCVFM) — công ty quản lý quỹ với hơn",
+      "title": "Mở tài khoản chứng chỉ quỹ online trên DragonX: 3 bước, eKYC trong 5 phút - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Đây là khác biệt căn bản so với quỹ mở, vốn được mua qua công ty quản lý quỹ hoặc ứng dụng phân phối theo",
+      "title": "Cách mua và đầu tư quỹ ETF tại Việt Nam: mở tài khoản, đặt lệnh, chi phí - Dragon Capital",
+      "url": "https://dautu.dragoncapital.com.vn/kien-thuc/cach-mua-chung-chi-quy-etf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.dragoncapital.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "DragonX là ứng dụng đầu tư quỹ mở chính thức của Dragon Capital — mở tài khoản, đặt lệnh và theo dõi cả năm quỹ",
+      "title": "Đầu tư Quỹ mở cùng công ty Quản lý Quỹ hàng đầu - Dragon Capital Việt Nam",
+      "url": "https://dautu.dragoncapital.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dragoncapitalprod.blob.core.windows.net",
+      "ref_id": "turn0search13",
+      "snippet": "☐ Đầu tư định kỳ / Vf-iSAVING investment ... Tôi/chúng tôi đã được cung cấp tất cả các tài liệu cấu thành của các Quỹ",
+      "title": "PHIẾU ĐĂNG KÝ BÁN CHỨNG CHỈ QUỸ MỞ_242204",
+      "url": "https://dragoncapitalprod.blob.core.windows.net/cms1public/PHIEU-DANG-KY-BAN-CHUNG-CHI-QUY-MO_240603.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "# SSI iBoard bổ sung quỹ Dragon Capital, mở rộng lựa chọn đầu tư cho nhà đầu tư ... Nhà đầu tư được tiếp cận",
+      "title": "SSI iBoard bổ sung quỹ Dragon Capital, mở rộng lựa chọn đầu tư cho nhà đầu tư",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/ssi-iboard-bo-sung-quy-dragon-capital-mo-rong-lua-chon-dau-tu-cho-nha-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "dragonxstraccproduction.blob.core.windows.net",
+      "ref_id": "turn0search14",
+      "snippet": "Số tiền iSaving không cần cố định, lệnh mua ... định kỳ để tối ưu lợi nhuận từ khoản đầu tư. ... cskh@dragoncapital.com ... Cộng",
+      "title": "ĐẦU TƯ ĐỊNH KỲ",
+      "url": "https://dragonxstraccproduction.blob.core.windows.net/product-images/dragon-capital-isaving-v2.pdf?se=2026-02-12T16%3A59%3A59Z&sig=XuoaA28z8QHibLuH6uivzNbwB0LSXDoQGrc7s2Y0Yjk%3D&sp=r&spr=https&sr=b&st=2024-12-18T08%3A17%3A33Z&sv=2022-11-02"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.nhandan.vn",
+      "ref_id": "turn0search15",
+      "snippet": "- Ưu đãi nghỉ dưỡng và du lịch độc quyền: Khám phá thế giới theo cách riêng của bạn với các chương trình giảm giá",
+      "title": "Nhân Dân — QUẢNG CÁO — 18/8/2025 — 6",
+      "url": "https://cdn.nhandan.vn/files/b3498ce031da26891e03fbe2713b0d6a7007d2f85d1c11f5015d5feb030aff886afc97b3ee59846a53fa2041ac4a7838/nhandan-18082025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Chương trình Đầu tư định kỳ iSAVING ............................................................................................... ... Phương pháp xác định Giá trị tài sản ròng của Quỹ ..............",
+      "title": "MỤC LỤC\n\nI. NHỮNG NGƯỜI CHỊU TRÁCH NHIỆM CHÍNH ĐỐI",
+      "url": "https://www.mbs.com.vn/files/uploads/2026/03/DCDS_Ban-cao-bach_24032026-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Công ty Cổ phần Quản lý Quỹ Đầu tư Dragon Capital Việt Nam ... <td>80% giá trị thanh lý của cổ phiếu (giá trị cổ",
+      "title": "Công ty Cổ phần Quản lý Quỹ Đầu tư Dragon Capital Việt Nam",
+      "url": "https://static2.vietstock.vn/data/OTC/2023/BCTLVKD/VN/T12/QuyDauTuVN_BaocaoTylevonkhadung_T12_2023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.fpts.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "* Cổ phiếu là loại chứng khoán xác nhận quyền và lợi ích hợp pháp của người sở hữu đối với một phần vốn cổ",
+      "title": "Giao dịch cổ phiếu",
+      "url": "https://www.fpts.com.vn/san-pham-dich-vu/giao-dich-chung-khoan/giao-dich-chung-khoan/giao-dich-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "iPO là tính năng trên TCInvest giúp nhà đầu tư theo dõi thông tin các đợt chào bán cổ phiếu lần đầu ra công chúng,",
+      "title": "iPO TCBS: Đăng ký mua cổ phiếu IPO trên TCInvest",
+      "url": "https://www.tcbs.com.vn/ca-nhan/san-pham/ipo/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Nếu bạn muốn **đều đặn trích tiền mỗi tháng để đầu tư cổ phiếu tại Việt Nam**, có 2 cách:\n\n### 1. Tự mua cổ phiếu mỗi tháng\nMở tài khoản tại công ty chứng khoán, chuyển tiền vào rồi mua mã bạn chọn theo lịch hàng tháng. Ví dụ, FPTS có ứng dụng EzTrade để giao dịch cổ phiếu. **Mua định kỳ không đồng nghĩa ứng dụng sẽ tự động mua giúp bạn**—cần kiểm tra tính năng cụ thể. [Thông tin FPTS](https://www.fpts.com.vn/san-pham-dich-vu/giao-dich-chung-khoan/giao-dich-chung-khoan/giao-dich-co-phieu/)\n\n### 2. Đầu tư định kỳ vào **quỹ cổ phiếu**\nBạn mua chứng chỉ quỹ, còn việc chọn cổ phiếu do đơn vị quản lý quỹ thực hiện. Một số nơi có tính năng định kỳ:\n\n| Nền tảng | Tính năng |\n|---|---|\n| **TCInvest — TCBS** | Đăng ký mua quỹ mở tự động theo tuần, tháng hoặc quý; mức tối thiểu tùy quỹ. |\n| **DragonX — Dragon Capital** | iSaving hỗ trợ đầu tư định kỳ; có các quỹ cổ phiếu như DCDS, DCDE. |\n| **SSI iBoard** | eSIP đặt lệnh quỹ định kỳ theo số tiền và tần suất thiết lập. |\n\nNguồn: [TCBS](https://www.tcbs.com.vn/ca-nhan/san-pham/dau-tu-dinh-ky/), [DragonX](https://dautu.dragoncapital.com.vn/kien-thuc/huong-dan-mo-tai-khoan-dau-tu-dragonx), [SSI](https://www.ssi.com.vn/tin-tuc/tin-tuc-chung/ssi-iboard-bo-sung-quy-dragon-capital-mo-rong-lua-chon-dau-tu-cho-nha-dau-tu).\n\n**Nếu mới bắt đầu và không muốn tự chọn mã**, bạn có thể tìm hiểu quỹ cổ phiếu định kỳ trước. So sánh phí quản lý, phí bán lại và danh mục quỹ; đầu tư đều hàng tháng **vẫn có thể lỗ**, không bảo đảm lợi nhuận.\n\nBạn dự định đầu tư **bao nhiêu mỗi tháng**, và muốn **tự chọn cổ phiếu hay mua tự động qua quỹ**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 31523,
+    "cached_input_tokens": 15232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 668,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b016-37a9-7a70-947c-1119614a2147",
+ "error": ""
+}

@@ -1,0 +1,237 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q034-r3",
+ "prompt_id": "Q034",
+ "run": 3,
+ "question": "Cách mở tài khoản chứng khoán Chứng khoán DSC online",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:58:03",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b014-4fba-7e51-a866-cd0743ced8c0"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-62b3226c-7894-498d-9039-19d8ea41a9b0",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-62b3226c-7894-498d-9039-19d8ea41a9b0",
+    "type": "web_search",
+    "query": "site.dsc.com.vn mở tài khoản online DSC eKYC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn mở tài khoản online DSC eKYC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Đăng ký mở tài khoản thành công Xác thực eKYC và ký hợp đồng điện tử ... Ví dụ: Dsc@2023",
+      "title": "Đăng ký mở tài khoản chứng khoán online tại DSC",
+      "url": "https://www.dsc.com.vn/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "QUYỀN LỢI KHÁCH HÀNG NHẬN ĐƯỢC KHI MỞ TÀI KHOẢN CHỨNG KHOÁN TẠI DSC ... info@dsc.com.vn",
+      "title": "Dịch vụ mở tài khoản - DSC",
+      "url": "https://dsc.com.vn/dich-vu/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* # Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... Image: Ký hợp đồng điện tử mở tài khoản chứng khoán online",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Cách 2: Trực tiếp mở tài khoản Dịch vụ Tư vấn số trên DSC eLearn Quý khách truy cập trang web elearn.dsc.com.vn",
+      "title": "Hướng dẫn đăng ký tài khoản đào tạo DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "* Chỉ dùng ứng dụng chính chủ: Tải App DSC Trading từ App Store, CH Play hoặc website dsc.com.vn. ... * Mở tài khoản eKYC",
+      "title": "Cách mở tài khoản chứng khoán online 3 phút cho người mới",
+      "url": "https://dsc.com.vn/en/kien-thuc/cach-mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Hướng dẫn mở tiểu khoản Margin online ... Sau đó, nhấn “Đăng ký” để mở tài khoản ký quỹ tại DSC.",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-mo-tieu-khoan-margin-online"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Bước 1: Quý khách vui lòng truy cập website: https://trading.dsc.com.vn/, sau đó chọn mục “Đăng nhập” tại góc phải màn hình. ... * ****** bao",
+      "title": "Hướng dẫn đăng nhập DSC Trading Web - Chứng khoán DSC",
+      "url": "https://dsc.com.vn/huong-dan/huong-dan-dang-nhap-tren-dsc-trading-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Hướng dẫn mở tiểu khoản Margin online ... * Quy định giao",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... Image: Ký hợp đồng điện tử mở tài khoản chứng khoán online DSC",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/en/huong-dan/thay-doi-tu-van-quan-ly-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Hướng dẫn mở tiểu khoản Margin online ... * Quy định giao",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Image: Ký hợp đồng điện tử mở tài khoản chứng khoán online DSC Ký hợp đồng điện tử mở tài khoản chứng khoán online DSC",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/en/huong-dan/huong-dan-cap-nhat-thong-tin-can-cuoc-cong-dan-gan-chip-tren-dsc-webtrading"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "* Hướng dẫn mở tài khoản chứng khoán eKYC tại DSC",
+      "title": "Hướng dẫn giao dịch qua điện thoại",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-giao-dich-qua-dien-thoai"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "thể hiện vai trò của DSC trên thị trường vốn trong quan hệ với các định chế tài chính, ... VSDC (Vietnam Securities Depository and",
+      "title": "CÔNG TY \nCỔ PHẦN \nCHỨNG \nKHOÁN \nDSC\nDigitally sign",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_ver_2_5_d0001c5c3c.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Tính năng mở tài khoản eKYC (định danh khách hàng điện tử) kết hợp e-Signature (Chữ ký điện tử) tiếp tục được đánh giá là",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/240321_DSC_Tai_lieu_hop_DHDCD_Final_7308a20963.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Tại website: ekyc-corp.msb.com.vn/IBSEkyc/register ... Main cover page with a large bold title “MỞ TÀI KHOẢN ONLINE CHO KHDN”, an orange rounded label “Hướng dẫn sử",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.msb.com.vn/msb-website/2026/04/Huong-dan-mo-TK-online-cho-DN-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Tại website: ekyc-corp.msb.com.vn/IBSEkyc/register ... Main cover page with large title “MỞ TÀI KHOẢN ONLINE CHO KHDN”, a highlighted label “Hướng dẫn sử dụng”, the website",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.msb.com.vn/documents/20121/595178/H%C6%B0%E1%BB%9Bng%2Bd%E1%BA%ABn%2Bm%E1%BB%9F%2BTK%2Bonline%2Bcho%2BDN%2B2025.pdf/87d1b380-fd5a-8352-c590-e1d734a52615?t=1738915258150"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "HƯỚNG DẪN MỞ TÀI KHOẢN TRỰC TUYẾN EKYC",
+      "title": "HƯỚNG DẪN MỞ TÀI KHOẢN",
+      "url": "https://www.aseansc.com.vn/help/huong-dan-mo-tai-khoan-ekyc.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-33115f1e-e454-4f37-a3fa-9b6dad273f8e",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-33115f1e-e454-4f37-a3fa-9b6dad273f8e",
+    "type": "web_search",
+    "query": "https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 480",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/3anrBUHOlCj5qIaEG1B0dF9bJ2fyLRrceYaqWHRbSWnWBYCi_eVnQEAeSva2trRMIIaCLWqYEJH3LDRPjrz3BA",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "Bạn có thể **mở tài khoản chứng khoán DSC online** qua ứng dụng **DSC Trading** hoặc bắt đầu tại [trang đăng ký chính thức của DSC](https://www.dsc.com.vn/mo-tai-khoan).\n\n### Chuẩn bị\n- CCCD/căn cước còn hiệu lực.\n- Số điện thoại nhận OTP và email đang sử dụng.\n- Điện thoại có camera, kết nối Internet ổn định.\n\n### Các bước trên ứng dụng\n1. **Tải DSC Trading** từ App Store hoặc CH Play, mở ứng dụng và chọn **“Đăng ký ngay”**.\n2. **Nhập thông tin:** họ tên có dấu, số CCCD, email, số điện thoại và tạo mật khẩu.\n3. **Xác thực bảo mật và nhập OTP** gửi về điện thoại.\n4. **Chọn số tài khoản**, nhập mã môi giới nếu có, rồi chọn **“Mở tài khoản”**.\n5. **Đăng nhập** bằng số tài khoản vừa được cấp và mật khẩu đã tạo; chọn **“Kích hoạt tài khoản”**.\n6. **Hoàn tất eKYC và ký hợp đồng điện tử** theo hướng dẫn trên màn hình. Đừng dừng ở thông báo cấp số tài khoản — bạn cần hoàn tất kích hoạt để giao dịch.\n\nXem hình minh họa tại [hướng dẫn mở tài khoản chính thức của DSC](https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan).\n\n**Lưu ý:** Không cung cấp OTP, mật khẩu cho người khác. Nếu gặp lỗi đăng ký hoặc xác thực, liên hệ DSC qua **024 3880 3456**, được công bố trên [website DSC](https://dsc.com.vn/dich-vu/mo-tai-khoan)."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 40474,
+    "cached_input_tokens": 27520,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 484,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b014-4fba-7e51-a866-cd0743ced8c0",
+ "error": ""
+}

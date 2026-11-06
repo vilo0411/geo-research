@@ -1,0 +1,249 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q048-r3",
+ "prompt_id": "Q048",
+ "run": 3,
+ "question": "Đánh giá app Chứng khoán DSC",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:05:40",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 29.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01b-48ec-78a0-aa3a-174548d3f3b9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-21c445f0-ff77-44fb-9b3c-3601578843c5",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-21c445f0-ff77-44fb-9b3c-3601578843c5",
+    "type": "web_search",
+    "query": "app DSC chứng khoán DSC Trading app phí giao dịch ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "app DSC chứng khoán DSC Trading app phí giao dịch",
+      "DSC chứng khoán ứng dụng App Store DSC Trading"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "DSC chỉ cung cấp dịch vụ giao dịch trực tuyến trên mobile qua ứng dụng DSC Trading, quý khách tải ứng dụng từ Google Play",
+      "title": "Hướng dẫn tải app DSC Trading iOS và Android",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-tai-app-dsc-trading-ios-va-android"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Tìm kiếm và lựa chọn: Trên kho ứng dụng CH Play (Android) hoặc App Store (iPhone), bạn có thể tìm thấy ứng dụng của",
+      "title": "Cách chơi chứng khoán trên điện thoại cho người mới",
+      "url": "https://www.dsc.com.vn/kien-thuc/dau-tu-chung-khoan-tren-dien-thoai-huong-dan-chi-tiet"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Quét mã QR để tải ngay ứng dụng DSC Trading trên điện thoại ... Nhà đầu tư sẽ nhận được hỗ trợ và tư vấn",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "* Hướng dẫn thiết lập cấu hình chung ... Giao dịch trên app DSC TRADING ... * Hướng dẫn chuyển khoản chứng khoán nội bộ",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn0search4",
+      "snippet": "Ứng dụng dành cho nhà đầu tư Chứng khoán, với mục tiêu trở thành nền tảng giao dịch chứng khoán cơ sở thông minh với",
+      "title": "‎DSC Trading App - App Store",
+      "url": "https://apps.apple.com/vn/app/dsc-trading/id1555379533?platform=watch"
+     },
+     {
+      "type": "text_result",
+      "domain": "phantichchungkhoan.net",
+      "ref_id": "turn0search5",
+      "snippet": "DSC chỉ cung cấp dịch vụ giao dịch trực tuyến trên mobile qua ứng dụng DSC Trading, quý khách tải ứng dụng từ Google Play",
+      "title": "Hướng dẫn sử dụng app chứng khoán DSC Trading | P1 - Phân Tích Chứng Khoán",
+      "url": "https://phantichchungkhoan.net/huong-dan-su-dung-app-chung-khoan-dsc-trading-p1/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Nhà đầu tư sẽ nhận được hỗ trợ và tư vấn miễn phí trong suốt quá trình đầu tư bởi đội ngũ chuyên gia của",
+      "title": "Dịch vụ mở tài khoản - DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn0search7",
+      "snippet": "Ứng dụng dành cho nhà đầu tư Chứng khoán, với mục tiêu trở thành nền tảng giao dịch chứng khoán cơ sở thông minh với",
+      "title": "‎DSC Trading App - App Store",
+      "url": "https://apps.apple.com/vn/app/dsc-trading/id1555379533?platform=vision"
+     },
+     {
+      "type": "text_result",
+      "domain": "appagg.com",
+      "ref_id": "turn0search8",
+      "snippet": "AppAgg › Ứng dụng của Chứng khoán DSC (Sắp xếp theo: ▼ Cập nhật) ... Trang AppAgg này tổng hợp thông tin về ứng dụng",
+      "title": "Chứng khoán DSC | Tất cả ứng dụng của nhà phát triển này (Sắp xếp theo: ▼ Cập nhật) - AppAgg",
+      "url": "https://appagg.com/developer/chung-khoan-dsc/?hl=vi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Phí giao dịch chứng khoán niêm yết, Upcom | Cổ phiếu, chứng chỉ quỹ, chứng quyền có đảm bảo | (i) Với Khách hàng có",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-cong-cu-no"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Đánh giá chi tiết Chứng khoán DSC năm 2026: phí giao dịch, lãi suất margin, giao diện ứng dụng, chất lượng hỗ trợ và hướng",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Bạn nên chọn công ty có giấy phép của Ủy ban Chứng khoán Nhà nước (UBCKNN), mức phí giao dịch phù hợp và có người",
+      "title": "Cách mở tài khoản chứng khoán online 3 phút cho người mới",
+      "url": "https://dsc.com.vn/en/kien-thuc/cach-mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "*DSC Demo: A virtual trading platform designed to help new investors familiarize themselves with the stock market. ... - Tháng 4/2024, với việc nâng cấp",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Với định hướng nâng cao chất lượng dịch vụ, năm 2023 DSC đã tập trung cải thiện nhiều tính năng, giao diện (app/web trading) thân",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/240321_DSC_Tai_lieu_hop_DHDCD_Final_7308a20963.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search14",
+      "snippet": "giao dịch, tư vấn của DSC cơ bản đã hoàn chỉnh với các công cụ phân tích, đầu tư, theo ... Trading, Mobile App, Wetrade.",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://cmsv5.fiingroup.vn/medialib/Crawler/2024/2024-02/2024-02-07/150927_CTN_FINAL_signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search15",
+      "snippet": "- E-broking sử dụng hai kênh tư vấn miễn phí cho KH: mục tiêu chuyển dịch từ đối tượng theo dõi các nền tảng mạng",
+      "title": "- E-broking sử dụng hai kênh tư vấn miễn phí cho KH: mục tiêu chuyển dịch từ đối tượng theo dõi các nền tảng mạng xã hội và công nghệ thành khách hàng của DSC",
+      "url": "https://rs.nguoiquansat.vn/ReportFile/DSC/2022/Baocaothuongniennam2022.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit16",
+      "snippet": "Chả là trong đây có anh em nào đang đầu tư chứng khoán có thể giới thiệu cho e vài công ty chứng khoán miễn",
+      "title": "Cần tìm công ty chứng khoán miễn phí giao dịch",
+      "url": "https://www.reddit.com/r/vozforums/comments/1rvz0jy/c%E1%BA%A7n_t%C3%ACm_c%C3%B4ng_ty_ch%E1%BB%A9ng_kho%C3%A1n_mi%E1%BB%85n_ph%C3%AD_giao_d%E1%BB%8Bch/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-951f803d-89ac-4d8c-98c3-54f248fe4c45",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-951f803d-89ac-4d8c-98c3-54f248fe4c45",
+    "type": "web_search",
+    "query": "https://apps.apple.com/vn/app/dsc-trading/id1555379533",
+    "action": {
+     "type": "open_page",
+     "url": "https://apps.apple.com/vn/app/dsc-trading/id1555379533"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "apps.apple.com",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 525",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/EmpzBSyHpvxfr0VxPgLI0A2pPUAYl4AC21alX0D_uXo4wvccFiTTfUtZWGYtWdvUSHOuNeCWpGeaCOo1CcaGj5F0ORNvPt_t2TTLQBolPJx6LPxcfaEDu0DDF3BFp_PYCq-evS6J8mP_EWgtSMtxgy2P2KWNEcTedTQ881jGNPhRPutwa15TLxyf-SdgiZmWK1uCeho3kbIKxq2r5LG5qg",
+      "title": "‎DSC Trading App - App Store",
+      "url": "https://apps.apple.com/vn/app/dsc-trading/id1555379533"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 136",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/Lp9qC7BHKS1MOyNSkV8ZJ5oXdPhx-nfqxp33vvuOu_abt0aNcP4uH3wTpdEH2NYsWcG24CQnzRKLd_5ejEBfcQ",
+      "title": "www.dsc.com.vn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-cong-cu-no"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**DSC Trading đáng cân nhắc cho nhu cầu mua bán cổ phiếu và theo dõi danh mục cơ bản; nhưng chưa đủ cơ sở để khẳng định app vượt trội về tốc độ, độ ổn định.** Mình đánh giá dựa trên thông tin công khai, chưa trực tiếp giao dịch trên app.\n\n### Điểm tốt\n- **Có các chức năng thiết yếu:** mở tài khoản eKYC, đặt lệnh, quản lý sổ lệnh, theo dõi danh mục và lãi/lỗ, xem thông tin thị trường. Đây là các tính năng nhà phát triển công bố trên [App Store](https://apps.apple.com/vn/app/dsc-trading/id1555379533).\n- **Phản hồi iPhone nhìn chung tích cực:** trang App Store được kiểm tra hiển thị **4,6/5 với 573 lượt đánh giá**. Tuy nhiên, điểm sao không chứng minh hệ thống luôn ổn định khi thị trường biến động mạnh. [Nguồn](https://apps.apple.com/vn/app/dsc-trading/id1555379533)\n\n### Điểm cần cân nhắc\n- **Phí phụ thuộc loại tài khoản, không phải cứ dùng app là cùng mức phí.** Biểu phí DSC công bố áp dụng từ 20/08/2025:\n  \n  | Loại tài khoản | Phí giao dịch cổ phiếu |\n  |---|---:|\n  | Khối Tư vấn số quản lý | **0,1%** |\n  | Môi giới quản lý | **0,15–0,3%**, tùy giá trị giao dịch/ngày |\n\n  Ví dụ, một lệnh 100 triệu đồng có phí 100.000 đồng ở mức 0,1%; đây chỉ là phí giao dịch, chưa tính các khoản khác. Nên xác nhận mức thực tế trước khi mở tài khoản. [Biểu phí DSC](https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-cong-cu-no)\n- **Giao diện có thể không hợp mọi người:** có phản hồi trên App Store cho rằng màu chữ xanh khó nhìn, gây mỏi mắt. Đây là ý kiến cá nhân, không phải kết luận chung. [Nguồn](https://apps.apple.com/vn/app/dsc-trading/id1555379533)\n- **Chưa kiểm chứng được** độ trễ đặt lệnh giờ cao điểm, tỷ lệ lỗi đăng nhập và tốc độ xử lý sự cố; không nên chỉ dựa vào quảng cáo “nhanh, mượt”.\n\n### Có nên dùng?\n**Có thể thử nếu bạn đầu tư cơ bản và được áp mức phí phù hợp.** Nếu giao dịch thường xuyên hoặc dùng margin, hãy kiểm tra thêm lãi vay, điều kiện ưu đãi và hỗ trợ khi lỗi lệnh — những yếu tố này quan trọng hơn giao diện đẹp.\n\nCách thử thực tế: bắt đầu với số tiền nhỏ, kiểm tra nạp/rút, đặt–sửa–hủy lệnh và đối chiếu phí. Chỉ tải app qua liên kết trên [website chính thức DSC](https://www.dsc.com.vn/huong-dan/huong-dan-tai-app-dsc-trading-ios-va-android)."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 43477,
+    "cached_input_tokens": 21888,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 815,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01b-48ec-78a0-aa3a-174548d3f3b9",
+ "error": ""
+}

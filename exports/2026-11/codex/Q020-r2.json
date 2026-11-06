@@ -1,0 +1,367 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q020-r2",
+ "prompt_id": "Q020",
+ "run": 2,
+ "question": "Chứng khoán DSC hay SSI tốt hơn?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:50:40",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 38.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00d-8f98-7490-b69d-68a9bc16a3f9"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7362fda5-3ee0-4d71-acc4-202dfc6ef2d8",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7362fda5-3ee0-4d71-acc4-202dfc6ef2d8",
+    "type": "web_search",
+    "query": "DSC biểu phí giao dịch chứng khoán lãi suất margin 2026 SSI biểu phí ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "DSC biểu phí giao dịch chứng khoán lãi suất margin 2026 SSI biểu phí",
+      "SSI DSC thị phần môi giới HOSE quý 3 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu lãi suất giao dịch ký quỹ và ứng trước tiền bán ... Phí giao dịch chuyển quyền sở hữu chứng khoán ngoài hệ thống",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Giao dịch ký quỹ | Lãi suất: 13.5%/năm (360 ngày) Giá duy trì dịch vụ: Miễn phí Ngoài biểu giá dịch vụ trên, Công ty",
+      "title": "Biểu giá dịch vụ tài chính",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-tai-chinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Margin transaction interest rates and sales advances ... Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Bài viết này hôm nay của DSC sẽ phân tích chi tiết các khoản phí bắt buộc và so sánh trực quan bảng giá giữa",
+      "title": "Phí giao dịch chứng khoán: Bảng phí chi tiết và cách tính",
+      "url": "https://dsc.com.vn/kien-thuc/phi-giao-dich-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Lưu ý: Để đảm bảo thanh toán khoản vay, tài khoản giao dịch chứng khoán có đủ tiền trước 16h30 của ngày thanh toán (không",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy?_ccrz_cb=e108f53d77df"
+     },
+     {
+      "type": "text_result",
+      "domain": "thoibaotaichinhvietnam.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Trong quý III/2026, SSI tiếp tục nằm trong nhóm công ty chứng khoán có thị phần môi giới lớn trên Sở Giao dịch Chứng khoán",
+      "title": "Chứng khoán SSI ước đạt 4.510 tỷ đồng lợi nhuận trước thuế sau 9 tháng | Thời báo Tài chính Việt Nam",
+      "url": "https://thoibaotaichinhvietnam.vn/chung-khoan-ssi-uoc-dat-4-510-ty-dong-loi-nhuan-truoc-thue-sau-9-thang-205688.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "# Biểu lãi suất dịch vụ tài chính ... 1 | Giao dịch chứng khoản ký quỹ (margin) | 13.9%/năm 2 | Dịch vụ ứng",
+      "title": "Biểu lãi suất dịch vụ tài chính",
+      "url": "https://fhsc.com.vn/bieu-lai-suat-dich-vu-tai-chinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Kênh tự đặt lệnh online thu 0,15% giá trị giao dịch, cố định không theo bậc, theo biểu giá hiệu lực 10/10/2025. ... Lãi suất",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tungatc.vn",
+      "ref_id": "turn0search8",
+      "snippet": "SSI là mã cổ phiếu của Công ty Cổ phần Chứng khoán SSI, niêm yết trên HOSE. ... ## SSI Q3/2026: Lợi nhuận chịu áp",
+      "title": "Cổ phiếu SSI: vốn tăng, lợi nhuận có theo kịp? — Tùng ATC",
+      "url": "https://tungatc.vn/ma/ssi"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Nếu bạn đã có tài khoản tại TCBS hay SSI và muốn mở thêm tài khoản thứ hai để sử dụng margin với lãi suất",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "uptrend.vn",
+      "ref_id": "turn0search10",
+      "snippet": "HSC ước chi phí vốn quý 2 của SSI khoảng 6,6%, lãi cho vay 11,3%, chênh 4,7 điểm. ... Khoảng 86% là chứng chỉ tiền",
+      "title": "Cổ phiếu SSI hôm nay: giá, cổ tức 2026, phân tích có nên mua | Uptrend",
+      "url": "https://uptrend.vn/co-phieu/ssi/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-68990097-97dc-4e9c-8b65-0ca10d213911",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-68990097-97dc-4e9c-8b65-0ca10d213911",
+    "type": "web_search",
+    "query": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-chung-khoan",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-chung-khoan"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "ref_id": "turn1view0",
+      "title": "Internal Error"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view1",
+      "snippet": "Total lines: 135",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/nxSa9HKZbwyXU2jL3tjqe1QewzVtiOn5I8nnHMpFz5M51KVMVrRRDRC1_3RJilogdfmwMc-RjA9KHaQla4CdkQ",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-128dcb64-5647-4afe-aea2-48fe0486eda5",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-128dcb64-5647-4afe-aea2-48fe0486eda5",
+    "type": "web_search",
+    "query": "site.ssi.com.vn \"0,15%\" \"2025\" \"biểu\" \"online\"",
+    "action": {
+     "type": "search",
+     "query": "site.ssi.com.vn \"0,15%\" \"2025\" \"biểu\" \"online\""
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn2search12",
+      "snippet": "Khách Hàng mở mới tài khoản chứng khoán SSI trong thời gian từ ngày 16/07/2025 đến hết ngày ... Đặt lệnh qua kênh Online: 0,15%",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://www.ssi.com.vn/upload/files/News/SSI-The-le-uu-dai-JumpStart.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ocbs.com.vn",
+      "ref_id": "turn2search13",
+      "snippet": "BIỂU GIÁ DỊCH VỤ (Ban hành kèm theo Quyết định số 77/2025/QĐ-OCBS ngày 30 tháng 09 năm 2025) ... Tổng giá trị giao dịch/ngày/tài khoản",
+      "title": "BIỂU GIÁ DỊCH VỤ",
+      "url": "https://ocbs.com.vn/upload/files/Bieu-gia-ngay-01102025%282%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "images.vps.com.vn",
+      "ref_id": "turn2search14",
+      "snippet": "(Áp dụng từ ngày 01/07/2025) ... BIỂU PHÍ GIAO DỊCH ... <th>Kênh Online</th> ... <td style=\"text-align:center;\">0,15%</td>",
+      "title": "BIỂU PHÍ CHỨNG KHOÁN NIÊM YẾT",
+      "url": "https://images.vps.com.vn/2025/files/bieu-phi-chung-khoan-niem-yet-be26.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ocbs.com.vn",
+      "ref_id": "turn2search15",
+      "snippet": "BIỂU GIÁ DỊCH VỤ (Ban hành kèm theo Quyết định số 44/2025/QĐ-OCBS ngày 14 tháng 07 năm 2025) ... <th>Đặt lệnh qua kênh Online</th> ...",
+      "title": "Microsoft Word - Bieu gia ban hanh kem theo quy dinh 01072025 (002)",
+      "url": "https://ocbs.com.vn/wp-content/uploads/2025/07/Bieu_gia_giao_dich_ap_dung_ngay_14072025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pbsv.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "Biểu phí Dịch vụ áp dụng từ ngày 01/07/2025. ... Giao dịch trực tuyến (online) | | 0,15 ... 6 | Chuyển quyền sở hữu",
+      "title": "Biểu phí Dịch vụ",
+      "url": "https://pbsv.com.vn/bieu-phi-dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "ocbs.com.vn",
+      "ref_id": "turn2search16",
+      "snippet": "BIỂU GIÁ DỊCH VỤ (Ban hành kèm theo Quyết định số 77/2025/QĐ-OCBS ngày 30 tháng 09 năm 2025) ... <th>Đặt lệnh qua kênh Online</th> ...",
+      "title": "Microsoft Word - 1. Bieu gia ban hanh 22092025 - final",
+      "url": "https://ocbs.com.vn/upload/files/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20Giao%20d%E1%BB%8Bch/Bieu-gia-ngay-01102025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn2search1",
+      "snippet": "Kênh tự đặt lệnh online thu 0,15% giá trị giao dịch, cố định không theo bậc, theo biểu giá hiệu lực 10/10/2025. ... SSI –",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "goctaisan.com",
+      "ref_id": "turn2search2",
+      "snippet": "SSI (đặt lệnh online) | Dưới 100 triệu ₫ | 0,25% | 10/10/2025 ... KIS | Từ 1 tỷ ₫/ngày | 0,15% | 30/07/2025 ...",
+      "title": "Mua định kỳ cổ phiếu Việt Nam 2026: xây quỹ tích lũy theo tháng",
+      "url": "https://goctaisan.com/mua-dinh-ky-co-phieu-viet-nam-2026-xay-quy-tich-luy-theo-thang/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn2search3",
+      "snippet": "Phí giao dịch cổ phiếu online | 0,15% cố định, kênh tự đặt lệnh, từ 10/10/2025 [2] | 0,20% khách mới: miễn phí 3 tháng",
+      "title": "So sánh 5 công ty chứng khoán 2026: SSI, TCBS, VPS, MBS, DNSE",
+      "url": "https://dautuvn.vn/chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search4",
+      "snippet": "CTCK | Phí giao dịch chứng quyền | Ghi chú | Hiệu lực biểu phí ... SSI | 0,15% khi đặt lệnh online | Đã",
+      "title": "Chứng quyền là gì? Cách mua chứng quyền 2026: phí, đáo hạn",
+      "url": "https://reviewchungkhoan.com/cach-mua-chung-quyen/"
+     },
+     {
+      "type": "text_result",
+      "domain": "goctaisan.com",
+      "ref_id": "turn2search5",
+      "snippet": "SSI niêm yết mở tài khoản miễn phí trong biểu giá dịch vụ khác hiệu lực 27/03/2026; phí thật nằm ở dịch vụ đi kèm:",
+      "title": "Mở tài khoản chứng khoán cho người mới 2026: phí và sai lầm",
+      "url": "https://goctaisan.com/mo-tai-khoan-chung-khoan-cho-nguoi-moi-2026/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn2search6",
+      "snippet": "VPSVPS | 0,20%khách mới miễn phí 3 tháng, rồi 0,15% | 13,5%/năm | 8,8%/năm · 90 ngày · hạn mức 5 tỷ | 12,61% (#1)",
+      "title": "dautuvn.vn: So sánh sàn chứng khoán, crypto Việt Nam",
+      "url": "https://dautuvn.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search7",
+      "snippet": "Ví dụ SSI thu 0,15% khi đặt online và 0,25–0,35% khi đặt qua nhân viên (biểu giá 10/10/2025).",
+      "title": "Phí mua bán cổ phiếu gồm những gì? Cách tính phí và thuế",
+      "url": "https://reviewchungkhoan.com/phi-mua-ban-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "note8.vn",
+      "ref_id": "turn2search8",
+      "snippet": "Ngoài ra, phí giao dịch phái sinh chỉ từ 5.000 đồng/hợp đồng, tạo lợi thế cho các nhà đầu tư thường xuyên giao dịch khối",
+      "title": "TOP 12 công ty chứng khoán có phí giao dịch thấp nhất 2025",
+      "url": "https://note8.vn/top-12-cong-ty-chung-khoan-co-phi-giao-dich-thap-nhat-2025-6684"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.studocu.vn",
+      "ref_id": "turn2search9",
+      "snippet": "(Áp dụng từ ngày 01/07/2025) ... BIỂU PHÍ GIAO DỊCH Loại chứng khoán Kênh Online Các kênh khác (Căn cứ theo Tổng giá trị giao",
+      "title": "Biểu Phí Chứng Khoán Niêm Yết CB2A: Chi Tiết và Quy Định - Studocu",
+      "url": "https://www.studocu.vn/vn/document/truong-dai-hoc-ngoai-thuong/investment/bieu-phi-chung-khoan-niem-yet-cb2a-chi-tiet-va-quy-dinh/161165861?origin=related-document"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoantcbs.vn",
+      "ref_id": "turn2search10",
+      "snippet": "Dưới đây là bảng tổng hợp phí giao dịch trung bình của một số công ty chứng khoán phổ biến tại Việt Nam (2025): ...",
+      "title": "So sánh phí giao dịch các công ty chứng khoán mới nhất",
+      "url": "https://chungkhoantcbs.vn/so-sanh-phi-giao-dich-cac-cong-ty-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn2search11",
+      "snippet": "09:51 10/06/2025 ... Theo biểu lãi suất huy động tại quầy do MB công bố cho khách hàng cá nhân lĩnh lãi cuối kỳ, lãi",
+      "title": "Gửi trên 1 tỷ đồng, nhà băng hiếm hoi trả lãi suất 6,1%/năm",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/gui-tren-1-ty-ong-nha-bang-hiem-hoi-tra-lai-suat-61nam-35069776"
+     },
+     {
+      "type": "text_result",
+      "domain": "baonamdinh.vn",
+      "ref_id": "turn2search17",
+      "snippet": "Đến hết tháng 1-2024, mặt bằng lãi suất tiền gửi và cho vay tiếp tục có xu hướng giảm; lãi suất tiền gửi và cho",
+      "title": "Nam Định — Kinh tế - Xã hội — NGÀY 27-3-2024 — 2",
+      "url": "https://baonamdinh.vn/file/e7837c02816d130b0181a995d7ad7e96/upload/xdata/202403/20240326211738bao_nam_dinh_5800ok.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Nếu bạn hỏi để mở tài khoản: DSC đáng cân nhắc khi ưu tiên phí thấp; SSI đáng cân nhắc khi ưu tiên công ty có thị phần môi giới lớn.** Không có bên nào tốt hơn cho mọi nhu cầu.\n\n- **DSC:** phí giao dịch **0,1%** với tài khoản do **khối Tư vấn số** quản lý. Nhưng tài khoản do môi giới quản lý có biểu phí **0,15–0,3%**, tùy giá trị giao dịch/ngày. Vì vậy, cần hỏi rõ loại tài khoản trước khi mở. [Biểu phí DSC](https://www.dsc.com.vn/bieu-phi/bieu-phi-giao-dich-chung-khoan-niem-yet)\n- **SSI:** thị phần môi giới HOSE quý III/2026 đạt **11,09%**, thuộc nhóm lớn. Tuy nhiên, thị phần lớn không tự động đồng nghĩa ứng dụng tốt hơn hay tư vấn sinh lời hơn. [Thông tin thị phần SSI](https://thoibaotaichinhvietnam.vn/chung-khoan-ssi-uoc-dat-4-510-ty-dong-loi-nhuan-truoc-thue-sau-9-thang-205688.html)\n- **Nếu dùng margin:** hãy so lãi suất thực áp dụng, thời hạn ưu đãi và điều kiện xử lý tài sản. SSI công bố lãi suất thông thường **13,5%/năm**, còn mức bạn được hưởng có thể theo chính sách riêng. [Biểu giá SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-tai-chinh)\n\n**Mình nghiêng DSC nếu bạn tự giao dịch và được áp dụng phí 0,1%; còn nếu cần môi giới hỗ trợ, hãy so chất lượng người phụ trách và phí thực tế, đừng chỉ chọn theo thương hiệu.**\n\nBạn đang muốn **mở tài khoản giao dịch**, hay so sánh **cổ phiếu DSC và SSI để mua**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 53364,
+    "cached_input_tokens": 39424,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 653,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00d-8f98-7490-b69d-68a9bc16a3f9",
+ "error": ""
+}

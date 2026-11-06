@@ -1,0 +1,347 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q058-r2",
+ "prompt_id": "Q058",
+ "run": 2,
+ "question": "Chuyển chứng khoán từ công ty này sang công ty khác thế nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:11:07",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 54.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b020-45bd-7e73-a936-e6ec421f8081"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5b2077b6-c741-4b49-a23b-6bcab2dca43b",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5b2077b6-c741-4b49-a23b-6bcab2dca43b",
+    "type": "web_search",
+    "query": "site.vsd.vn chuyển khoản chứng khoán nhà đầu tư thành viên lưu ký khác cùng chủ sở hữu ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vsd.vn chuyển khoản chứng khoán nhà đầu tư thành viên lưu ký khác cùng chủ sở hữu",
+      "site.tcbs.com.vn chuyển chứng khoán công ty chứng khoán khác phí chuyển khoản"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "2 | Chuyển khoản chứng khoán từ TCBS sang công ty chứng khoán khác (bao gồm cả chuyển khoản tất toán tài khoản) | 1",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdportal.navisoft.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Trả lời: Mỗi thành viên của VSD được mở một tài khoản lưu ký chứng khoán tại VSD và không được mở tài khoản lưu",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdportal.navisoft.com.vn/vi/fa"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "#### Chính sách CK phái sinh với HĐTL chỉ số cổ phiếu ... #### Tính năng đọc vị giao dịch của Cá Mập ... ####",
+      "title": "Giao dịch chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vibonline.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Chuyển khoản chứng khoán đã lưu ký (chuyển khoản chứng khoán hoặc chuyển khoản chứng khoán và quyền) của nhà đầu tư từ tài khoản",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://vibonline.com.vn/wp-content/uploads/2026/02/2.-Thong-tu.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search3",
+      "snippet": "9 | Chuyển chứng khoán từ TCSC sang công ty chứng khoán khác theo yêu cầu của khách hàng (áp dụng cả cho trường hợp",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Kể từ ngày chứng khoán ký gửi có hiệu lực lưu ký tại VSD, Sổ/Giấy chứng nhận sở hữu chứng khoán của nhà đầu tư",
+      "title": "Quyết định 26/QĐ-VSD Quy chế hoạt động lưu ký chứng khoán",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-26-QD-VSD-Quy-che-hoat-dong-luu-ky-chung-khoan-108502.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienchungkhoan.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Phí này áp dụng khi chuyển chứng khoán từ TCBS sang công ty chứng khoán khác, bao gồm cả chuyển khoản tất toán tài khoản.",
+      "title": "Phí giao dịch chứng khoán TCBS: Tất cả những gì bạn cần biết",
+      "url": "https://thuvienchungkhoan.com.vn/phi-giao-dich-chung-khoan-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "bankcredit.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Techcom Securities không hề thu bất kì loại phí mở tài khoản chứng khoán Techcombank nào của bạn. ... * Phí chuyển chứng khoán từ",
+      "title": "Cách Mở Tài Khoản Chứng Khoán Techcombank (TCBS) Online",
+      "url": "https://bankcredit.vn/cach-mo-tai-khoan-chung-khoan-techcombank/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Yêu cầu chuyển khoản chứng khoán theo Mẫu 22/LK Quy chế hoạt động lưu ký chứng khoán do Tổng Giám đốc VSD ban hành (03",
+      "title": "Quyết định 196/QĐ-VSD năm 2017 về quy chế hoạt động đăng ký và chuyển quyền sở hữu chứng khoán do Trung tâm Lưu ký Chứng khoán Việt Nam ban hành",
+      "url": "https://dulieuphapluat.vn/van-ban/linh-vuc-khac-van-ban/quyet-dinh-196qd-vsd-nam-2017-ve-quy-che-hoat-dong-dang-ky-va-chuyen-quyen-so-huu-chung-khoan-do-trung-tam-luu-ky-chung-khoan-viet-nam-ban-hanh-94491.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Thông tin về chứng khoán sở hữu của nhà đầu tư được VSD ghi nhận trên hệ thống của VSD căn cứ vào sổ đăng",
+      "title": "Quyết định 114/QĐ-VSD 2021 Quy chế lưu ký chứng khoán Trung tâm Lưu ký Chứng khoán Việt Nam",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-114-QD-VSD-2021-Quy-che-luu-ky-chung-khoan-Trung-tam-Luu-ky-Chung-khoan-Viet-Nam-487913.aspx?anchor=dieu_7"
+     },
+     {
+      "type": "text_result",
+      "domain": "vplsdms.vn",
+      "ref_id": "turn0search13",
+      "snippet": "hoặc theo văn bản thỏa thuận, hợp đồng chuyển giao tài khoản giữa thành viên lưu ký bị thu hồi Giấy ... khoản 1 Điều",
+      "title": "CHÍNH PHỦ \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM \n___",
+      "url": "https://vplsdms.vn/upload/post/ND_155_2020_ND_CP.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.moneytap.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Image: Một số cách nạp tiền vào tài khoản chứng khoán Techcombank đơn giản, dễ thực hiện.Một số cách nạp tiền vào tài khoản chứng",
+      "title": "Hướng Dẫn Mở Tài Khoản Chứng Khoán Techcombank (TCBS) 2025 - Vay tiền online 24/24 chỉ bằng CCCD hạn mức tín dụng lên tới 50 triệu đồng",
+      "url": "https://www.moneytap.vn/mo-tai-khoan-chung-khoan-techcombank/"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search10",
+      "snippet": "TVLK căn cứ vào Xác nhận gửi chứng khoán lưu ký của VSD tại Danh sách người sở hữu chứng khoán đề nghị lưu ký",
+      "title": "Quyết định 04/QĐ-VSD 2020 Quy chế hoạt động lưu ký chứng khoán",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-04-QD-VSD-2020-Quy-che-hoat-dong-luu-ky-chung-khoan-433863.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Áp dụng trong trường hợp Khách hàng không đóng tài khoản, chỉ chuyển khoản chứng khoán sang tài khoản chứng khoán của Khách hàng mở",
+      "title": "Biểu phí khác - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-khac/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-550e40dd-e0e0-4c9b-9f07-7b0712f283fe",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-550e40dd-e0e0-4c9b-9f07-7b0712f283fe",
+    "type": "web_search",
+    "query": "site.ssi.com.vn chuyển khoản chứng khoán công ty khác hồ sơ ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn chuyển khoản chứng khoán công ty khác hồ sơ",
+      "site.help.tcbs.com.vn \"Chuyển khoản chứng khoán sang\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Bước 3: Chuyển sang các tab Hồ sơ công ty, Cổ đông, Vốn và cổ tức, Tin tức, Lịch sự kiện, Tài chính để xem",
+      "title": "Giao dịch chứng khoán",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/giao-dich-chung-khoan-ib-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "8 | Chứng quyền | Trường hợp giá sàn của chứng quyền nhỏ hơn hoặc bằng 0, giá sàn hiển thị sẽ là 10 đồng",
+      "title": "KRX - Nền tảng giao dịch chứng khoán hiện đại tại TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/krx/"
+     },
+     {
+      "type": "text_result",
+      "domain": "guide.ssi.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Truy vấn thông tin số lượng chứng khoán có thể chuyển nhượng của tài khoản ... Tạo giao dịch chuyển chứng khoán có trong danh",
+      "title": "Danh sách các API | Tiếng Việt | FastConnect API",
+      "url": "https://guide.ssi.com.vn/ssi-products/tieng-viet/fastconnect-trading/danh-sach-cac-api"
+     },
+     {
+      "type": "text_result",
+      "domain": "mcp.ssi.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "`marketdata_list_stock_statistics` | Lấy thống kê chỉ số tài chính cổ phiếu — P/E, P/B, ROE, ROA, biến động giá (bắt buộc ít nhất một trong",
+      "title": "Hướng dẫn công cụ (tools)",
+      "url": "https://mcp.ssi.com.vn/docs/huong-dan-tool/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "# Công ty cổ phần chứng khoán SSI ... * Dịch vụ thị trường vốn ... * Quản lý thanh khoản ... CỔNG THÔNG TIN",
+      "title": "Công ty cổ phần chứng khoán SSI",
+      "url": "https://www.ssi.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "#### Kiểm tra PCOD và SID tại TCBS #### Quy định giao dịch chứng khoán tại HSX ... #### Chính sách CK phái sinh với",
+      "title": "Giao dịch chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Giao dịch (Tổng giá trị giao dịch/ngày/tài khoản, bao gồm phí trả Sở giao dịch Chứng ... (không bao gồm trường hợp thoái phần vốn",
+      "title": "BIỂU GIÁ DỊCH VỤ",
+      "url": "https://shinhansec.com.vn/uploads/notification/Service_fees_V_01_04_2026_-update_Phai_sinh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "có thể nhận lệnh từ khách hàng tổ chức với ... thuận, lô lẻ, chuyển khoản chứng khoán ... tính toán lãi suất margin được",
+      "title": "BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/VIE_TCBS-BAO-CAO-THUONG-NIEN-2025-3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.acbs.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "7.2 Lịch sử chuyển khoản chứng khoán ... Thanh bộ lọc gồm các trường: “Từ ngày” = 01/10/2024, “Đến ngày” = 03/10/2024, “Tiểu khoản chuyển”",
+      "title": "7.2 Lịch sử chuyển khoản chứng khoán",
+      "url": "https://cdn.acbs.com.vn/assets/pdf/HDSD_WEB_ACBS_SMART.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn1search6",
+      "snippet": "9 | Chuyển chứng khoán từ TCSC sang công ty chứng khoán khác theo yêu cầu của khách hàng (áp dụng cả cho trường hợp",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.acbs.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Ảnh chụp màn hình điện thoại giao diện tối của chức năng “Chuyển khoản CK” với tab “Lịch sử”; có các trường “Tài khoản chuyển”",
+      "title": "ACBS — HƯỚNG DẪN SỬ DỤNG",
+      "url": "https://cdn.acbs.com.vn/assets/pdf/HDSD_APP_ACBS_SMART.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn1search16",
+      "snippet": " Tiền mặt: Số tiền mặt thực có của tiểu khoản Ví dụ: Khách hàng có 5 triệu đồng tiền mặt trong tài khoản ký",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN ASEAN",
+      "url": "https://www.aseansc.com.vn/wp-content/uploads/2025/06/5.1.-Huong-dan-giao-dich-ky-quy_PTSP.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ocbs.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "**BIỂU GIÁ PHONG TỎA CHỨNG KHOÁN TẠI OCBS** ... <td>Chuyển khoản chứng khoán sang thành viên lưu ký khác, chuyển khoản tất toán tài sản</td>",
+      "title": "Microsoft Word - 1. Bieu gia ban hanh 22092025 - final",
+      "url": "https://ocbs.com.vn/upload/files/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20Giao%20d%E1%BB%8Bch/Bieu-gia-ngay-01102025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Nhà đầu tư (NĐT) chỉ có thể mở 1 tài khoản tại 01 công ty chứng khoán và được phép mở tài khoản ở nhiều",
+      "title": "Quy định chung",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-chung"
+     },
+     {
+      "type": "text_result",
+      "domain": "kinhtechungkhoan.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Để đảm bảo quá trình chuyển đổi diễn ra suôn sẻ, TCBS lưu ý khách hàng về một số mốc thời gian quan trọng: Ngừng",
+      "title": "TCBS, SSI nâng cấp hệ thống phục vụ chuyển đổi sang hệ thống giao dịch KRX",
+      "url": "https://kinhtechungkhoan.vn/tcbs-ssi-nang-cap-he-thong-phuc-vu-chuyen-doi-sang-he-thong-giao-dich-krx-1375694.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbtd.hnx.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Hồ sơ thành viên 003 - Công ty Cổ phần Chứng khoán SSI ... * [Input] 011 - Công ty Cổ phần Chứng khoán Thành",
+      "title": "Thành viên",
+      "url": "https://cbtd.hnx.vn/vi-vn/phai-sinh/chi-tiet-thanh-vien-003.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Quý khách vui lòng sử dụng số điện thoại đã đăng ký giao dịch để liên hệ tổng đài yêu cầu hỗ trợ chuyển khoản",
+      "title": "Hướng dẫn chuyển khoản chứng khoán - ASEAN Securities",
+      "url": "https://www.aseansc.com.vn/huong-dan-ho-tro/huong-dan-chuyen-khoan-chung-khoan/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Chuyển được bạn nhé, không cần bán rồi mua lại**, nếu chuyển giữa hai tài khoản **cùng đứng tên bạn**. Thủ tục này gọi là **chuyển khoản chứng khoán sang công ty chứng khoán khác**.\n\n### Cách thực hiện\n1. **Mở tài khoản tại công ty muốn chuyển đến**, bảo đảm thông tin họ tên, CCCD khớp với tài khoản cũ.\n2. **Lấy thông tin tài khoản nhận** từ công ty mới: số tài khoản lưu ký và mã định danh nhà đầu tư nếu được yêu cầu. Chẳng hạn, TCBS yêu cầu thông tin PCOD khi chuyển/nhận chứng khoán. [Hướng dẫn TCBS](https://www.tcbs.com.vn/ca-nhan/krx/)\n3. **Yêu cầu công ty đang giữ chứng khoán làm thủ tục chuyển đi**, ghi rõ mã chứng khoán, số lượng và tài khoản nhận. Có nơi yêu cầu làm tại quầy; cách nộp hồ sơ tùy công ty. [Hướng dẫn ASEAN Securities](https://www.aseansc.com.vn/huong-dan-ho-tro/huong-dan-chuyen-khoan-chung-khoan/)\n4. **Thanh toán phí chuyển và kiểm tra chứng khoán về tài khoản mới**. Phí tùy bên chuyển; ví dụ TCBS niêm yết phí chuyển đi là **1 đồng/chứng khoán**, nhận về miễn phí. [Biểu phí TCBS](https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/)\n\n**Trước khi gửi yêu cầu**, nên nhờ bên cũ kiểm tra chứng khoán đã thanh toán xong chưa, có đang cầm cố/phong tỏa hoặc bảo đảm khoản vay margin không; đồng thời xác nhận cách xử lý cổ tức, quyền mua đang chờ về.\n\nBạn muốn **giữ tài khoản cũ hay chuyển hết và đóng tài khoản** thì nói rõ ngay khi làm thủ tục. Nếu chuyển sang tài khoản **người khác đứng tên**, thủ tục sẽ khác.\n\n**Bạn đang muốn chuyển từ công ty nào sang công ty nào?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 38892,
+    "cached_input_tokens": 30592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 600,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b020-45bd-7e73-a936-e6ec421f8081",
+ "error": ""
+}

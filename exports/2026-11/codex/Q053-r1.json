@@ -1,0 +1,302 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q053-r1",
+ "prompt_id": "Q053",
+ "run": 1,
+ "question": "Nạp tiền vào tài khoản chứng khoán Chứng khoán DSC mất bao lâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:08:49",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 35.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01e-2a66-79c2-92c4-78fa6caf5c65"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-27218337-d7f3-46f5-84b2-3f14c521c297",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-27218337-d7f3-46f5-84b2-3f14c521c297",
+    "type": "web_search",
+    "query": "site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu DSC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- **DSC Elearn:** Nền tảng học trực tuyến cung cấp khóa học tài chính, chứng khoán từ cơ bản đến nâng cao. ... - Tháng",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Nộp tiền ... Ứng trước tiền bán ... * Quy định giao",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Tháng 8/2026, Việt Nam có gần 13,66 triệu tài khoản chứng khoán, trong đó hơn 13,58 triệu thuộc nhà đầu tư cá nhân trong nước",
+      "title": "Cách mở tài khoản chứng khoán online 3 phút cho người mới",
+      "url": "https://dsc.com.vn/en/kien-thuc/cach-mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Nộp tiền ... Ứng trước tiền bán ... * Quy định giao",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vdsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Image Làm sao để nộp tiền vào tài khoản chứng khoán? ... Image Làm sao để rút/ chuyển tiền từ tài khoản chứng khoán ra",
+      "title": "FAQs - Những câu hỏi thường gặp | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vdsc.com.vn/faqs-nhung-cau-hoi-thuong-gap"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Phí giao dịch chứng khoán niêm yết, Upcom | Cổ phiếu, chứng chỉ quỹ, chứng quyền có đảm bảo | (i) Với Khách hàng có",
+      "url": "https://dsc.com.vn/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "DSC xét duyệt trong ngày làm việc, thường trong vòng 1–3 giờ với hồ sơ nộp trước 15:00. ... Trong app DSC Trade, vào mục",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Mở tài khoản chứng khoán DSC có dễ không? ... Cách nộp tiền vào tài khoản? ... Nhận xét của khách hàng ... Cài đặt",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Theo quan điểm của DSC, số liệu kinh tế - xã hội tháng 9/2026 tiếp tục cho thấy nền kinh tế duy trì đà tăng",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://www.dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "QUYỀN LỢI KHÁCH HÀNG NHẬN ĐƯỢC KHI MỞ TÀI KHOẢN CHỨNG KHOÁN TẠI DSC Nhà đầu tư sẽ nhận được hỗ trợ và tư vấn",
+      "title": "Dịch vụ mở tài khoản - DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "d) Khách Hàng mặc nhiên chấp nhận và không hủy ngang việc cho phép DSC chủ động thực hiện nghiệp vụ ứng trước tiền bán",
+      "url": "https://dsc.com.vn/dieu-khoan-chung/ban-dieu-khoan-va-dieu-kien-mo-tai-khoan-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vdsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "*Đối với tài khoản mở bằng Hợp đồng giấy, Quý khách vui lòng liên hệ Rồng Việt để được hỗ trợ: ... * Tiền mặt:",
+      "title": "Yêu cầu sử dụng ký quỹ | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vdsc.com.vn/ky-quy/yeu-cau-su-dung-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "phantichchungkhoan.net",
+      "ref_id": "turn0search11",
+      "snippet": "Quý khách có thể nộp tiền vào tài khoản chứng khoán mở tại DSC theo hai cách như sau: ... Sau khi đăng ký và",
+      "title": "Hướng dẫn mở tài khoản chứng khoán DSC nhanh chóng và tiện lợi - Phân Tích Chứng Khoán",
+      "url": "https://phantichchungkhoan.net/huong-dan-mo-tai-khoan-chung-khoan-dsc-nhanh-chong-va-tien-loi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mobi.fireant.vn",
+      "ref_id": "turn0search13",
+      "snippet": "giao dịch nộp tiền vào tài khoản chứng khoán của khách hàng tại DSC được rút ngắn ... Với định hướng chung của thị trường",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://mobi.fireant.vn/News/NewsAttachedFile/1774029"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "- Nhập “Tên chủ tài khoản chứng khoán” (không dấu) vào mục “Tên khách hàng” ... Ảnh chụp màn hình ứng dụng di động “Nộp",
+      "title": "- Nhập “Tên chủ tài khoản chứng khoán” (không dấu) vào mục “Tên khách hàng”",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Huong-dan-nop-tien/VCB_H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%E1%BB%99p%20ti%E1%BB%81n%20Mobile%20Banking.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "acbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "bao gồm nhưng không giới hạn việc chào bán cho nhà đầu tư khác phù hợp với quy định của pháp luật. ... + Đối",
+      "title": "2\n\nbao gồm nhưng không giới hạn việc chào bán cho",
+      "url": "https://acbs.com.vn/Files/Domains/ACBS/WFL-1588/230602015215-1015-1015000013.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Cổ đông hiện hữu, cán bộ công nhân viên được chuyển nhượng quyền mua một lần cho các đối tượng khác trong thời gian đăng",
+      "title": "BÁN CÁO BẠCH",
+      "url": "https://www.ssi.com.vn/upload/file/a542e446-2705-48bc-9e7b-3cc20bcc57b6.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-9371ec3c-613f-4e2f-97e9-4bb2bd9f12c7",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-9371ec3c-613f-4e2f-97e9-4bb2bd9f12c7",
+    "type": "web_search",
+    "query": "https://dsc.com.vn/huong-dan",
+    "action": {
+     "type": "open_page",
+     "url": "https://dsc.com.vn/huong-dan"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 214",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/LJuFITnFwhj4YwQVYdeuN7YYN1XBILrjd9D4x6mwvhhOCHQRq8PgyuYlc5eHXyXAV8wd4z0xkx-QJWMZlLEKHA",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-69e7b7e8-cb33-45d5-a1a7-7ccee93407b4",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-69e7b7e8-cb33-45d5-a1a7-7ccee93407b4",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 480",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/ZRB9zFUSpy7oRwRhC-rK5t2jMwXGg7sMt3HIZgBVfoLpPhtyPfqYpI40q5fvm7duD2muoSf6mQZvS2pO-FSh1w",
+      "title": "Hướng dẫn nộp tiền chứng khoán tại DSC nhanh chóng, đơn giản",
+      "url": "https://dsc.com.vn/huong-dan/nop-tien"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-b94a0561-a4a6-4f86-937e-29c02ca71ec7",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-b94a0561-a4a6-4f86-937e-29c02ca71ec7",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn3view0",
+      "snippet": "Total lines: 480",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VQfRnYWCLSgV_kBBVo6KcAPnzl3aHqXJRHLGPFd-qgT3VR6iS0GPQLwLIc0XuBTUn70SD6O-HB-FD8EPrVm86w",
+      "title": "Hướng dẫn nộp tiền chứng khoán tại DSC nhanh chóng, đơn giản",
+      "url": "https://dsc.com.vn/huong-dan/nop-tien"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_4",
+    "type": "agent_message",
+    "text": "**Nạp tiền vào DSC qua kênh thu hộ định danh được xử lý theo thời gian thực (realtime)**, tức là thường được ghi nhận gần như ngay sau khi chuyển tiền thành công. Đây là cơ chế DSC công bố trong [tài liệu chính thức](https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf); không phải cam kết thời gian cho mọi cách chuyển khoản.\n\nNếu ngân hàng đã trừ tiền nhưng DSC chưa hiện số dư, bạn nên kiểm tra lại thông tin chuyển tiền, giữ biên lai và liên hệ DSC qua **(024) 3880 3456** để được kiểm tra. [Thông tin liên hệ DSC](https://dsc.com.vn/huong-dan)\n\nBạn chuyển qua ngân hàng nào và đã chờ bao lâu rồi?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 82261,
+    "cached_input_tokens": 62208,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 364,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01e-2a66-79c2-92c4-78fa6caf5c65",
+ "error": ""
+}

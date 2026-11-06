@@ -1,0 +1,321 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q031-r3",
+ "prompt_id": "Q031",
+ "run": 3,
+ "question": "Người dưới 18 tuổi có mở được tài khoản chứng khoán không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:40",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b013-0bc7-7bb0-b473-d5d1388ae077"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-f4457e23-dd75-4ed8-bf5d-03a75791aba3",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-f4457e23-dd75-4ed8-bf5d-03a75791aba3",
+    "type": "web_search",
+    "query": "Thông tư 120/2020 Điều 5 đủ 15 tuổi chưa đủ 18 tài khoản giao dịch chứng khoán người đại diện pháp luật",
+    "action": {
+     "type": "search",
+     "query": "Thông tư 120/2020 Điều 5 đủ 15 tuổi chưa đủ 18 tài khoản giao dịch chứng khoán người đại diện pháp luật"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search0",
+      "snippet": "## (Chinhphu.vn) - Nhà đầu tư cá nhân mở tài khoản giao dịch tại công ty chứng khoán bao gồm: Người từ đủ 15 tuổi",
+      "title": "Người từ 15 tuổi có thể được mở tài khoản chứng khoán",
+      "url": "https://baochinhphu.vn/nguoi-tu-15-tuoi-co-the-duoc-mo-tai-khoan-chung-khoan-102278121.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbaocdn.chinhphu.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Công dân Việt Nam từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị hạn chế ... hành vi dân sự theo quy định",
+      "title": "Microsoft Word - ML.doc",
+      "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2019/1/28144/25315-1-97-98.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "lawplayer.com",
+      "ref_id": "turn0search1",
+      "snippet": "Mẫu giấy đề nghị mở tài khoản thanh toán của cá nhân do ngân hàng, chi nhánh ngân hàng nước ngoài quy định nhưng phải",
+      "title": "Chương III — Mở và sử dụng tài khoản thanh toán tại ngân hàng và chi nhánh ngân hàng nước ngoài · Thông tư Hướng dẫn việc mở và… (Điều 11–Điều 15a) | LawPlayer",
+      "url": "https://lawplayer.com/vn/act/vn-vbpl-145735/section/chapter-3"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.moj.gov.vn",
+      "ref_id": "turn0search2",
+      "snippet": "b) Người chưa đủ 15 tuổi, người bị hạn chế hoặc mất năng lực hành vi dân sự theo quy định của pháp luật Việt",
+      "title": "Trung ương",
+      "url": "https://vbpl.moj.gov.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=168124"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Đối với tài khoản thanh toán của cá nhân, ngân hàng, chi nhánh ngân hàng nước ngoài được quy định và hướng dẫn khách hàng",
+      "title": "Văn bản hợp nhất 15/VBHN-NHNN 2020 hướng dẫn mở và sử dụng tài khoản thanh toán tại tổ chức thanh toán",
+      "url": "https://thuvienphapluat.vn/van-ban/Tien-te-Ngan-hang/Integrated-document-15-VBHN-NHNN-2020-opening-of-checking-accounts-at-payment-service-providers-464088.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search4",
+      "snippet": "- Người chưa đủ 15 tuổi, người bị hạn chế hoặc mất năng lực hành vi dân sự theo quy định của pháp luật Việt",
+      "title": "Độ tuổi mở tài khoản thanh toán tại ngân hàng từ ngày 01/7/2024",
+      "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/66479/do-tuoi-mo-tai-khoan-thanh-toan-tai-ngan-hang-tu-ngay-01-7-2024"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search5",
+      "snippet": "- Trường hợp người đại diện theo pháp luật là pháp nhân: Quyết định thành lập, giấy phép hoạt động, giấy chứng nhận đăng ký",
+      "title": "Consolidated document 15/VBHN-NHNN in 2020 consolidating Circular guiding the opening and use of payment accounts at payment service providers issued by the Governor of the State Bank of Vietnam",
+      "url": "https://dulieuphapluat.vn/van-ban/tai-chinh-ngan-hang-van-ban/consolidated-document-15vbhn-nhnn-in-2020-consolidating-circular-guiding-the-opening-and-use-of-payment-accounts-at-payment-service-providers-issued-by-the-governor-of-the-state-bank-of-vietnam-1014441.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "lawplayer.com",
+      "ref_id": "turn0search6",
+      "snippet": "Cá nhân mở tài khoản thanh toán tại ngân hàng, chi nhánh ngân hàng nước ngoài bao gồm: a) Người từ đủ 18 tuổi trở",
+      "title": "Chương III — Mở và sử dụng tài khoản thanh toán tại ngân hàng và chi nhánh ngân hàng nước ngoài · Thông tư Hướng dẫn việc mở và… (Điều 11–Điều 15) | LawPlayer",
+      "url": "https://lawplayer.com/vn/act/vn-vbpl-44187/section/chapter-3"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.moj.gov.vn",
+      "ref_id": "turn0search7",
+      "snippet": "c) Người chưa đủ 15 tuổi, người từ đủ 15 tuổi đến dưới 18 tuổi không thuộc đối tượng quy định tại điểm b khoản",
+      "title": "Thái Bình",
+      "url": "https://vbpl.moj.gov.vn/thaibinh/Pages/vbpq-toanvan.aspx?ItemID=44187&Keyword="
+     },
+     {
+      "type": "text_result",
+      "domain": "congbaocdn.chinhphu.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Điểm đ khoản 2 Điều 5 được sửa đổi, bổ sung như sau: ... “d) Thông tin đầy đủ, kịp thời về số dư, các",
+      "title": "Ký bởi: Cổng Thông tin điện tử Chính phủ",
+      "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2019/2/28584/26098-1-2019293-29402-2019-tt-nhnn.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.moj.gov.vn",
+      "ref_id": "turn0search8",
+      "snippet": "a) Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ theo quy định của pháp luật Việt Nam;",
+      "title": "Quảng Ngãi",
+      "url": "https://vbpl.moj.gov.vn/quangngai/Pages/vbpq-toanvan.aspx?ItemID=117004&Keyword="
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.moj.gov.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Tổ chức tài chính vi mô. ... Công dân Việt Nam từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị hạn chế năng",
+      "title": "Bộ Tài Chính",
+      "url": "https://vbpl.moj.gov.vn/botaichinh/Pages/vbpq-print.aspx?ItemID=133534"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbaocdn.chinhphu.vn",
+      "ref_id": "turn0search14",
+      "snippet": "nguyên tắc và điều kiện sử dụng tài khoản thanh toán trong trường hợp giao dịch ... 2.22 Việc sử dụng tài khoản thanh toán",
+      "title": "Microsoft Word - ML.doc",
+      "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/CongBao/2018/3/26027/21614-1-429-430.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-a67ba47d-e556-4df1-82b6-8dd479032c6f",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-a67ba47d-e556-4df1-82b6-8dd479032c6f",
+    "type": "web_search",
+    "query": "\"120/2020/TT-BTC\" \"15 tuổi\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "\"120/2020/TT-BTC\" \"15 tuổi\"",
+      "site.ssi.com.vn \"18 tuổi\" \"15\"",
+      "site.vndirect.com.vn \"18 tuổi\" \"15\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "agriseco.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Theo Thông tư 120/2020/TT-BTC và hướng dẫn của Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam quy định: ... * Người",
+      "title": "Agriseco - Học đầu tư",
+      "url": "https://agriseco.com.vn/Training/Lesson/A/4/vi-VN"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Để hỗ trợ các bạn sinh viên sở hữu thẻ nhanh chóng nhất, Ngân hàng TMCP Hàng Hải Việt Nam (MSB) sẽ linh hoạt xét",
+      "title": "Mở thẻ tín dụng cho sinh viên: Điều kiện và cách đăng ký",
+      "url": "https://www.msb.com.vn/ve-chung-toi/tin-tuc-va-su-kien/kien-thuc-xu-huong/mo-the-tin-dung-cho-sinh-vien-dieu-kien-va-cach-dang-ky/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.momo.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Căn cứ theo quy định pháp luật hiện hành và hướng dẫn của Ngân hàng Nhà nước Việt Nam, người dùng từ đủ 15 tuổi",
+      "title": "Tôi chưa đủ 18 tuổi, có thể đăng ký thanh toán qua MoMo bằng cách nào?",
+      "url": "https://www.momo.vn/hoi-dap/toi-chua-du-18-tuoi-co-the-dang-ky-thanh-toan-qua-momo-bang-cach-nao"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn1search3",
+      "snippet": "b) Sử dụng người chưa đủ 15 tuổi làm việc mà: giao kết hợp đồng lao động không bằng văn bản với người chưa đủ",
+      "title": "Chi tiết MỨC PHẠT, HÀNH VI vi phạm quy định sử dụng lao động chưa thành niên",
+      "url": "https://xaydungchinhsach.chinhphu.vn/chi-tiet-muc-phat-hanh-vi-vi-pham-quy-dinh-su-dung-lao-dong-chua-thanh-nien-119260717184200358.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "* Sản phẩm T15: Sản phẩm giao dịch ký quỹ ưu đãi lãi suất trong kỳ hạn ngắn, dành cho khách hàng ưa thích giao",
+      "title": "FAQ: Giao Dịch Ký Quỹ (Margin) tại VNDIRECT – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/40279362847257-FAQ-Giao-D%E1%BB%8Bch-K%C3%BD-Qu%E1%BB%B9-Margin-t%E1%BA%A1i-VNDIRECT"
+     },
+     {
+      "type": "text_result",
+      "domain": "acbs.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Thông tư 120/2020/TT-BTC và hướng dẫn của Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC) quy định về độ tuổi",
+      "title": "Hướng dẫn mở tài khoản chứng khoán: Miễn phí, nhanh và an toàn - ACBS - Nắm bắt cơ hội, đầu tư hiệu quả",
+      "url": "https://acbs.com.vn/blog/huong-dan-mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "pbgdpl.gov.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Đơn vị phải áp dụng các biện pháp bảo đảm an toàn, bảo mật dữ liệu khách hàng, tối thiểu bao gồm: Dữ liệu của",
+      "title": "Giới thiệu văn bản mới - All Items",
+      "url": "https://pbgdpl.gov.vn/noidung/tintuc/lists/gioithieuvanbanmoi/allitems.aspx?PageFirstRow=91&Paged=TRUE&View=%7B46F3C932-DF45-4172-B0DB-49BB9FE49DA8%7D&p_ID=4663"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.msb.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Mở sổ tiết kiệm cho con dưới 18 tuổi là một cách hiệu quả để các bậc phụ huynh xây dựng nền tảng tài chính",
+      "title": "Lợi ích khi mở sổ tiết kiệm cho con dưới 18 tuổi - MSB",
+      "url": "https://www.msb.com.vn/ve-chung-toi/tin-tuc-va-su-kien/kien-thuc-xu-huong/mo-so-tiet-kiem-cho-con-duoi-18-tuoi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Phương án phát hành trái phiếu riêng lẻ phải Ban hành: 03/02/2020 Hợp nhất: Đã biết Tình trạng: Đã biết Cập nhật: 31/03/2020 17 Văn",
+      "title": "Tra cứu phiếu thu thập thông tin dân cư",
+      "url": "https://thuvienphapluat.vn/page/tim-van-ban.aspx?keyword=phi%E1%BA%BFu+thu+th%E1%BA%ADp+th%C3%B4ng+tin+d%C3%A2n+c%C6%B0"
+     },
+     {
+      "type": "text_result",
+      "domain": "ai-hay.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Để mở tài khoản chứng khoán, người từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị mất hoặc hạn chế năng lực hành",
+      "title": "Ứng dụng chứng khoán nào cho người dưới 18 tuổi? | AI Hay - Hỏi ngay đáp hay",
+      "url": "https://ai-hay.vn/ung-dung-chung-khoan-nao-cho-nguoi-duoi-18-tuoi-pN1UmIzwuP8"
+     },
+     {
+      "type": "text_result",
+      "domain": "aigiaoduc.thuvienphapluat.vn",
+      "ref_id": "turn1search10",
+      "snippet": "> b) Người từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị mất hoặc hạn chế năng lực hành vi dân sự được",
+      "title": "Người chưa đủ 18 tuổi được sử dụng những loại thẻ ngân hàng nào? - Luật cho em",
+      "url": "https://aigiaoduc.thuvienphapluat.vn/nguoi-chua-du-18-tuoi-duoc-su-dung-nhung-loai-the-ngan-hang-nao-2550tt.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn1search11",
+      "snippet": "* Văn bản hợp nhất 15/VBHN-NHNN cho phép người từ đủ 15 đến chưa đủ 18 tuổi tự đứng tên mở tài khoản thanh toán,",
+      "title": "Cách mở tài khoản ngân hàng cho học sinh dưới 18 tuổi online 2026 | Techcombank",
+      "url": "https://techcombank.com/thong-tin/blog/mo-tai-khoan-ngan-hang-duoi-18-tuoi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.nso.gov.vn",
+      "ref_id": "turn1search12",
+      "snippet": "chung sống như vợ chồng lần đầu trước 15 tuổi, trước 18 tuổi so với tổng số phụ nữ từ 20-24 tuổi.",
+      "title": "chung sống như vợ chồng lần đầu trước 15 tuổi, trước 18 tuổi so với tổng số phụ nữ từ 20-24 tuổi.",
+      "url": "https://www.nso.gov.vn/wp-content/uploads/2019/11/Thong-tu-03-VSDGs.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pbgdpl.moj.gov.vn",
+      "ref_id": "turn1search13",
+      "snippet": "c) Sử dụng người từ đủ 15 tuổi đến dưới 18 tuổi làm thêm giờ, làm việc vào ban đêm, trừ một số nghề, công",
+      "title": "c) Sử dụng người từ đủ 15 tuổi đến dưới 18 tuổi làm thêm giờ, làm việc vào ban đêm, trừ một số nghề, công việc được pháp luật cho phép.",
+      "url": "https://pbgdpl.moj.gov.vn/qt/tintuc/Lists/ToGap/Attachments/343/To%20gap%2004.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "datafiles.nghean.gov.vn",
+      "ref_id": "turn1search14",
+      "snippet": "15 ... Cha đẻ, mẹ đẻ sống cô đơn, vợ hoặc chồng đủ tuổi theo quy định tại khoản 2 Điều 169 của Bộ luật",
+      "title": "15\n\na) Cha đẻ, mẹ đẻ; vợ hoặc chồng từ đủ 60 tuổi",
+      "url": "https://datafiles.nghean.gov.vn/nan-ubnd/2934/steeringdocument/bc_tra_loi_y_kien_cu_tri_2024120241106021838994_Signed.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Có, nhưng tùy độ tuổi và điều kiện của công ty chứng khoán tại Việt Nam:**\n\n- **Từ đủ 15 đến dưới 18 tuổi:** Có thể mở tài khoản khi không bị mất hoặc hạn chế năng lực hành vi dân sự và **có sự đồng ý bằng văn bản của người đại diện theo pháp luật** (thường là cha hoặc mẹ). [Hướng dẫn của ACBS](https://acbs.com.vn/blog/huong-dan-mo-tai-khoan-chung-khoan)\n- **Dưới 15 tuổi:** Không thể tự mở tài khoản; cần hỏi trực tiếp công ty chứng khoán về việc hỗ trợ thông qua người đại diện.\n\nBạn nên liên hệ trước với công ty muốn mở để được hướng dẫn giấy tờ và thủ tục dành cho người chưa thành niên, thay vì mặc định có thể đăng ký online như người đủ 18 tuổi.\n\n**Bạn hiện bao nhiêu tuổi và muốn mở ở công ty nào?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39382,
+    "cached_input_tokens": 27648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 347,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b013-0bc7-7bb0-b473-d5d1388ae077",
+ "error": ""
+}

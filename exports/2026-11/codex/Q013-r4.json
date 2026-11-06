@@ -1,0 +1,399 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q013-r4",
+ "prompt_id": "Q013",
+ "run": 4,
+ "question": "Công ty chứng khoán nào cho vay margin lãi suất thấp?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:43:31",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 37.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b007-02f1-7d62-b4e7-c82a414e93fd"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-3255bc0c-b8d8-45ed-a718-e413f519e711",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-3255bc0c-b8d8-45ed-a718-e413f519e711",
+    "type": "web_search",
+    "query": "lãi suất margin chứng khoán TCBS VPS SSI HSC ưu đãi 2026 tháng 11 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "lãi suất margin chứng khoán TCBS VPS SSI HSC ưu đãi 2026 tháng 11",
+      "site.dnse.com.vn margin lãi suất 2026",
+      "site.pinetree.vn lãi suất margin 2026"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Nhằm phù hợp với diễn biến chung của mặt bằng lãi suất trên thị trường, DNSE xin thông báo điều chỉnh chính sách sản phẩm",
+      "title": "Thông báo điều chỉnh chính sách sản phẩm Giao dịch ký quỹ 9.99",
+      "url": "https://www.dnse.com.vn/tin-tuc/thong-bao-dieu-chinh-chinh-sach-san-pham-giao-dich-ky-quy-9-99"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search1",
+      "snippet": "So sánh phí giao dịch và lãi margin của 23 công ty chứng khoán, kèm điều kiện và ưu đãi đang chạy Công ty chứng",
+      "title": "So sánh 23 công ty chứng khoán 2026: phí, margin, phái sinh",
+      "url": "https://reviewchungkhoan.com/ctck/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Ưu đãi lãi suất margin · Từ 01/10/2026 ... Khi dư nợ gốc vay ký quỹ bình quân tháng liền trước đạt từ 2 tỷ",
+      "title": "Mở khóa ưu đãi margin: Giảm lãi tới 1.5%/năm | TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-khoa-uu-dai-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "## Hệ sinh thái gói vay Margin X ... Nhập thông tin theo nhu cầu đầu tư của bạn và DNSE sẽ tìm giải pháp",
+      "title": "Hệ sinh thái gói vay Margin X",
+      "url": "https://www.dnse.com.vn/san-pham/margin"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search4",
+      "snippet": "Ưu đãi lãi margin đang chạy, xếp theo hạn gần nhất ... SSI | Hoàn lãi 30 ngày SSI Margin 0.0: đăng ký trên iBoard",
+      "title": "Ưu đãi đang chạy của các công ty chứng khoán | Review Chứng Khoán",
+      "url": "https://reviewchungkhoan.com/ctck/uu-dai/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* 8.8% trong 30 ngày kể từ thời điểm ghi nhận lãi suất theo gói ... Mở ứng dụng KH đăng nhập tài khoản tại",
+      "title": "Pinetree Securities Margin - Công ty chứng khoán Pinetree",
+      "url": "https://pinetree.vn/san-pham-va-dich-vu-2/pinetree-p-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Mức lãi suất theo quy định chính sách công bố của Pinetree tại từng thời kỳ. ... Sau 15h hàng ngày, hệ thống Pinetree sẽ",
+      "title": "Câu hỏi thường gặp - Pinetree Securities",
+      "url": "https://pinetree.vn/post/margin-offer/cau-hoi-thuong-gap/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search7",
+      "snippet": "Bảng lãi suất margin 23 công ty chứng khoán tháng 10/2026: lãi chuẩn, gói ưu đãi, lãi quá hạn, tiền lãi khi vay 100 triệu,",
+      "title": "Lãi suất margin các công ty chứng khoán 2026: bảng so sánh",
+      "url": "https://reviewchungkhoan.com/lai-suat-margin/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tienphong.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Lãi vay margin vẫn ở mức cao trong khi thanh khoản thị trường suy yếu, còn dư nợ cho vay ký quỹ lại tiếp tục",
+      "title": "Lãi suất hạ nhiệt, công ty chứng khoán cho vay margin thế nào?",
+      "url": "https://tienphong.vn/lai-suat-ha-nhiet-cong-ty-chung-khoan-cho-vay-margin-the-nao-post1887873.tpo"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Chương trình gồm hai gói: P-Margin Prime dành cho nhà đầu tư đang giao dịch margin tại Pinetree, với lãi suất chỉ từ 10,7%/năm cho",
+      "title": "Pinetree Privilege: đặc quyền lãi suất margin cho nhà đầu tư ưu tiên - Pinetree Securities",
+      "url": "https://pinetree.vn/post/20261103/pinetree-privilege-dac-quyen-lai-suat-margin-cho-nha-dau-tu-uu-tien/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "# VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm ... Đồng hành cùng bạn đón sóng tài lộc đầu",
+      "title": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search11",
+      "snippet": "* Bạn tự mở, vay ký quỹ và giữ khoản vay lâu: 11,5%/năm là lãi cơ bản cho khách thường, không kèm gói hay điều",
+      "title": "Chứng khoán Pinetree có tốt không? Đánh giá Pinetree",
+      "url": "https://reviewchungkhoan.com/ctck/pinetree/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search12",
+      "snippet": "(*) P-Margin không áp dụng đối với (i) nhóm Khách hàng áp dụng chính sách lãi suất vay ký quỹ riêng theo ... hàng của",
+      "title": "PINETREE SECURITIES CORPORATION",
+      "url": "https://pinetree.vn/wp-content/uploads/2026/06/PT_Schedules-of-fees_Dich-vu-tai-chinh_20260615_tang-han-muc-MR1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Báo cáo phân tích doanh nghiệp Các sản phẩm thuộc mảng cho vay ký quỹ tại một số CTCK lớn CTCK | Sản phẩm truyền",
+      "title": "BAO CAO PHAN TICH HCM",
+      "url": "https://www.shs.com.vn/Sites/QuoteVN/SiteRoot/reportattach/20250429_19854_BAO%20CAO%20PHAN%20TICH%20HCM%20-%2029%2004%202025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.nhandan.vn",
+      "ref_id": "turn0search14",
+      "snippet": "TÀI CHÍNH & TIỀN TỆ — 5/6/2025 — THỜI NAY 9 ... Ngoại trừ hai trường hợp của UEM và HTC, mỗi trường hợp ghi",
+      "title": "TÀI CHÍNH & TIỀN TỆ — 5/6/2025 — THỜI NAY 9",
+      "url": "https://cdn.nhandan.vn/files/5c7519843d3aca07ce0c70c2e881b7e1d0da2c95ebc122dbace4d3ba0a0a8a347284adb080bb769c14f63a74a7af2ed8cb49f1b7f70a36acd3d134e1a9913585/docbao-ndthoinay-05062025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Pinetree Securities ... <tr><td>Lãi suất liên NH</td><td>4.50%</td><td>-5</td><td>-360</td><td>Giá vàng thế giới biến động trái chiều trong phiên sáng nay sau khi giảm hơn 4% vào đêm",
+      "title": "BẢN TIN THỊ TRƯỜNG",
+      "url": "https://pinetree.vn/wp-content/uploads/2026/03/Market-brief_20032026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search16",
+      "snippet": "VN-Index có mức tăng trưởng thấp hơn đà ... phẩm margin phục vụ mọi nhu cầu vay của khách hàng. ... Với mục tiêu tối",
+      "title": "Người ký: CÔNG TY CỔ",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-18/20250318_20250317-DSE-Bao-cao-thuong-nien-2024-ban-TV-.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Hệ sinh thái margin được xây dựng theo hướng linh hoạt, minh bạch và lấy khách hàng làm trung tâm, đóng vai trò quan trọng",
+      "title": "Chương 4\n\nDNSE Báo cáo thường niên\n\n# Hoạt động sả",
+      "url": "https://static2.vietstock.vn/vietstock/2026/3/23/m88_20260323_20260323___dse___cbtt_bao_cao_thuong_nien_20251774263278945wn9cj37g.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-6e5f67db-45c3-463e-bc9b-9fee11a9235e",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-6e5f67db-45c3-463e-bc9b-9fee11a9235e",
+    "type": "web_search",
+    "query": "site.abs.vn \"6,9%\" \"2026\" \"20/12\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.abs.vn \"6,9%\" \"2026\" \"20/12\"",
+      "site.tcbs.com.vn \"7.69\" \"2026\"",
+      "site.kisvn.vn \"10,4\" \"2026\"",
+      "site.ssi.com.vn \"7,99%\" \"2026\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Chính sách vay ký quỹ 7.69%/năm đối với các Khách hàng mở tài khoản kép TCB-TCBS hoặc mở mới tài khoản tại một trong 2",
+      "title": "TCBS thông báo về việc thực hiện chính sách ưu đãi mở tài khoản kép TCB-TCBS - Techcom Securities - TCBS",
+      "url": "https://www.tcbs.com.vn/tin-tuc/thong-bao-tu-tcbs/tcbs-thong-bao-ve-viec-thuc-hien-chinh-sach-uu-dai-mo-tai-khoan-kep-tcb-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search1",
+      "snippet": "Gói ưu đãi A-Margin: 6,9%/năm cho phần dư nợ đến 1 tỷ, phần vượt 14% (16/08–20/12/2026, khách mới hoặc không dư nợ 6 tháng). ...",
+      "title": "Lãi suất margin ABS và danh mục 217 mã",
+      "url": "https://reviewchungkhoan.com/margin/ctck/abs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search2",
+      "snippet": "Phù hợp với Khách mới vay margin dưới 1 tỷ (6,9%/năm đến 20/12/2026)Lướt sóng T+2 bằng margin (A-Stock 0% lãi đến T+2) ... ABS: Chương",
+      "title": "Chứng khoán An Bình có tốt không? Đánh giá ABS",
+      "url": "https://reviewchungkhoan.com/ctck/abs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "m.tinnhanhchungkhoan.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Chính sách Margin 6.9% Plus được ABS triển khai trong thời điểm thị trường chứng khoán Việt Nam đứng trước một dấu mốc quan trọng",
+      "title": "Chứng khoán An Bình (ABS) hưởng ứng xu hướng hạ lãi suất, triển khai Margin 6.9% Plus | Tin nhanh chứng khoán",
+      "url": "https://m.tinnhanhchungkhoan.vn/chung-khoan-an-binh-abs-huong-ung-xu-huong-ha-lai-suat-trien-khai-margin-69-plus-post396689.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.testmenu.com",
+      "ref_id": "turn1search12",
+      "snippet": "Prices as of January 1, 2026 ... 7.69",
+      "title": "Prices as of January 1, 2026",
+      "url": "https://www.testmenu.com/meriter/TestDirectory/SiteFile?fileName=sidebar%5C2026+Client+Published+Fee+Schedule+-+Final.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kisvn.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Từ ngày 19/01/2026, Chứng khoán KIS mang đến sản phẩm Margin K, giải pháp vay ký quỹ ngắn hạn linh hoạt, giúp nhà đầu tư",
+      "title": "Automatic advance",
+      "url": "https://www.kisvn.vn/en/san-pham-dich-vu/dich-vu-ho-tro-tai-chinh/san-pham-margin-k-11299"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search5",
+      "snippet": "Mức KIS gọi là \"Margin tiêu chuẩn 10,4%/năm\" trong bảng so sánh của trang Margin K (đăng 22/01/2026); trang Giao dịch Margin ghi \"10.4%/năm (Áp",
+      "title": "Chứng khoán KIS có lừa đảo không? Đánh giá KIS Việt Nam",
+      "url": "https://reviewchungkhoan.com/ctck/kis/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsc.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "APR 13, 2026 – APR 17, 2026 ... VBB 7.69%, VPB 3.48%, BVB 2.38%, VAB 1.46%, OCB 1.29%, HDB 0.19%, TCB 0.00%, TPB -0.31%, NAB",
+      "title": "APR 13, 2026 – APR 17, 2026",
+      "url": "https://sbsc.com.vn/wp-content/uploads/2026/04/Market-weekly-report-13.04.2026-17.04.2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Lãi margin chuẩn 13,5%/năm; khách mới có gói Nhập cuộc 7,99–9%/năm trong 90 ngày đầu, hạn mức 3 tỷ. ... SSI thành lập tháng 12/1999,",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.equiruswealth.com",
+      "ref_id": "turn1search14",
+      "snippet": "<td>7.69</td> ... <td>Thursday, 1 January, 2026</td>",
+      "title": "<table id=\"e1\">",
+      "url": "https://cdn.equiruswealth.com/ecpl/uploads/2022/07/Edelweiss-Broking-Limited-Prospectus-dated-June-29-2022_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "stat.fi",
+      "ref_id": "turn1search7",
+      "snippet": "# Teollisuuden liikevaihto kasvoi 10,4 % vuoden 2026 toukokuussa",
+      "title": "Teollisuuden liikevaihto kasvoi 10,4 % vuoden 2026 toukokuussa | Tilastokeskus",
+      "url": "https://stat.fi/fi/julkaisu/cmg0g5hnb6j4007upupf2c1qh"
+     },
+     {
+      "type": "text_result",
+      "domain": "ckgvietnam.com",
+      "ref_id": "turn1search15",
+      "snippet": "<td>10,4</td> ... 2/4/2026 | 11",
+      "title": "Vietcap\n\nThống kê Danh mục khuyến nghị của Vietcap",
+      "url": "https://ckgvietnam.com/download.php?file=20260402dailyvn.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "openbds.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "02/11/2026 | 10.300 | 10.300 | -500 (-4,63%) | 10.600 | 10.800 | 10.150 | 1.253.100 | 13,0",
+      "title": "VOS: giá, biểu đồ, số liệu cổ phiếu | OpenBDS",
+      "url": "https://openbds.com.vn/co-phieu/VOS"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.fireant.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Sức ép này đã phản ánh vào thị trường tín dụng bất động sản.Số liệu đến tháng 6-2026 cho thấy, lãi suất ưu đãi vay",
+      "title": "Lãi suất cao, nợ vay lớn: Doanh nghiệp bất động sản chịu sức ép \"kép\"",
+      "url": "https://web.fireant.vn/bai-viet/lai-suat-cao-no-vay-lon-doanh-nghiep-bat-dong-san-chiu-suc-ep-kep/41738216"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.icicidirect.com",
+      "ref_id": "turn1search10",
+      "snippet": "# India Grid Trust 7.69% BUY SELL ... ##### 09-Sep-2026",
+      "title": "India Grid Trust 7.69% ine219x07249 Bonds - ICICI Direct",
+      "url": "https://www.icicidirect.com/fd-and-bonds/india-grid-trust-769-769/ine219x07249"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.eastmoney.com",
+      "ref_id": "turn1search11",
+      "snippet": "深圳2026年上半年全社会用电量同比增长7.69%",
+      "title": "深圳2026年上半年全社会用电量同比增长7.69% _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202607083798783864.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.vietstock.vn",
+      "ref_id": "turn1search16",
+      "snippet": "| Đơn vị: Nghìn tỷ đồng None | | | Q1 2026 None | | | | % kế hoạch | | YoY % None",
+      "title": "Vĩ mô \n  Update Report  \n \n \n \n \n \n \nVĩ mô Việt Na",
+      "url": "https://finance.vietstock.vn/downloadedoc/19780"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.vietstock.vn",
+      "ref_id": "turn1search17",
+      "snippet": "Nguồn: Các ngân hàng, SSI Research ... Mã CP OCB | Khuyến nghị TRUNG LẬP | Giá mục tiêu 1Y 14.300 | Tăng giá 13",
+      "title": "SSI - TRUNG TÂM PHÂN TÍCH & TƯ VẤN ĐẦU TƯ",
+      "url": "https://finance.vietstock.vn/downloadedoc/18029"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 113",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/4TkZ6RSKyOmGH7ahnvPV-RsYCcQbVAfDcKDUGhGxp_fvYmFusKR7sbamUScnlDzDGBGPPjpQZXxNbnfJZ4Lmhs5tqu6dMyHw-lU9Pfd9ZkSf8psUmUCWWpixCB7b6x8R",
+      "title": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/bai-viet/vps-ra-mat-goi-margin-uu-dai-phat-tai"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Bạn có thể xem trước ABS, TCBS và DNSE nếu ưu tiên lãi margin thấp.** Tuy nhiên, cần phân biệt **lãi ưu đãi có thời hạn** với lãi vay thông thường.\n\nTheo thông tin tra cứu ngày **06/11/2026**:\n\n| Công ty | Lãi suất tham khảo | Điều kiện đáng chú ý |\n|---|---:|---|\n| **DNSE** | **Từ 5,99%/năm** | Ưu đãi trong **30 ngày đầu**, chỉ áp dụng danh mục cổ phiếu giới hạn; không phải mức chung cho mọi khoản vay. [Chi tiết](https://www.dnse.com.vn/san-pham/margin) |\n| **ABS – An Bình** | **6,9%/năm** | Dư nợ bình quân hưởng ưu đãi tối đa **1 tỷ đồng**, dành cho khách mới hoặc quay lại giao dịch; chương trình đến **20/12/2026**. [Thông tin chương trình](https://m.tinnhanhchungkhoan.vn/chung-khoan-an-binh-abs-huong-ung-xu-huong-ha-lai-suat-trien-khai-margin-69-plus-post396689.html) |\n| **TCBS** | **7,69%/năm** | Gói tài khoản kép Techcombank–TCBS, cần đáp ứng điều kiện mở tài khoản và lịch sử vay; tối đa **500 triệu đồng/ngày** với khách thông thường, hưởng trong **180 ngày từ lần giải ngân đầu**. Chương trình đến 31/12/2026. [Điều kiện chính thức](https://www.tcbs.com.vn/tin-tuc/thong-bao-tu-tcbs/tcbs-thong-bao-ve-viec-thuc-hien-chinh-sach-uu-dai-mo-tai-khoan-kep-tcb-tcbs/) |\n| **KIS** | **10,4%/năm** | Mức margin tiêu chuẩn được KIS công bố trong bảng so sánh sản phẩm; đáng đối chiếu nếu bạn vay lâu, không muốn phụ thuộc ưu đãi ngắn hạn. [Nguồn KIS](https://www.kisvn.vn/en/san-pham-dich-vu/dich-vu-ho-tro-tai-chinh/san-pham-margin-k-11299) |\n\n**Cách chọn thực tế:** vay khoảng 3–6 tháng thì xem kỹ TCBS; vay dưới 1 tỷ và đủ điều kiện thì so thêm ABS; vay ngắn khoảng một tháng thì kiểm tra danh mục ưu đãi DNSE.\n\nTrước khi chọn, hãy yêu cầu xác nhận **lãi sau ưu đãi, phí giao dịch/gia hạn và tỷ lệ cho vay đúng mã cổ phiếu**. Lãi thấp không loại bỏ rủi ro bị yêu cầu bổ sung tiền hoặc bán giải chấp.\n\n**Bạn định vay bao nhiêu, trong bao lâu và mua mã nào?** Mình có thể giúp so chi phí sát hơn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51385,
+    "cached_input_tokens": 31744,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 869,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b007-02f1-7d62-b4e7-c82a414e93fd",
+ "error": ""
+}

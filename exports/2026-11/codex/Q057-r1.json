@@ -1,0 +1,378 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q057-r1",
+ "prompt_id": "Q057",
+ "run": 1,
+ "question": "Giờ giao dịch chứng khoán Việt Nam",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:10:33",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 27.9,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01f-c22e-7012-a061-8dbbf5fab9c7"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7b9681eb-2159-4f8c-b6f1-fa262b59e897",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7b9681eb-2159-4f8c-b6f1-fa262b59e897",
+    "type": "web_search",
+    "query": "site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.hsx.vn thời gian giao dịch 9h 11h30 13h 14h45",
+      "site.hnx.vn thời gian giao dịch cổ phiếu 14h45 15h UPCoM"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "# Quy định giao dịch tại HSX ... 14h30 - 14h45 | Khớp lệnh định kỳ đóng cửa | ATC, LO Không được sửa lệnh/hủy",
+      "title": "Quy định giao dịch tại HSX",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "# Quy định giao dịch tại sàn HSX ... Thời gian giao dịch SGDCK tổ chức giao dịch chứng khoán từ thứ Hai đến thứ",
+      "title": "Quy định giao dịch tại sàn HSX – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360002192174-Quy-%C4%91%E1%BB%8Bnh-giao-d%E1%BB%8Bch-t%E1%BA%A1i-s%C3%A0n-HSX"
+     },
+     {
+      "type": "text_result",
+      "domain": "vtgs.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Sàn None | Thời gian 09h - 09h15 | 09h15 - 11h30 | 11h30 - 13h | 13h - 14h30 | 14h30 - 14h45 |",
+      "title": "MỤC LỤC \n \nI. \nThời gian giao dịch ...............",
+      "url": "https://vtgs.vn/uploads/2025/5/Tai_lieu_huong_dan_Nha_dau_tu_GDCK_05_2025_f5c25d4f3d.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "# Hướng dẫn giao dịch chứng khoán sàn HSX ... – Biên độ dao động giá cổ phiếu, chứng chỉ quỹ đóng, chứng chỉ quỹ",
+      "title": "Hướng dẫn giao dịch chứng khoán sàn HSX",
+      "url": "https://www.vfs.com.vn/dich-vu-chung-khoan-khach-hang-ca-nhan/quy-dinh-giao-dich/huong-dan-giao-dich-chung-khoan-san-hsx"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Thời gian giao dịch chứng khoán niêm yết từ thứ Hai đến thứ Sáu hàng tuần, trừ các ngày nghỉ theo quy định của Bộ",
+      "title": "Quy định giao dịch tại sàn HNX – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360002241873-Quy-%C4%91%E1%BB%8Bnh-giao-d%E1%BB%8Bch-t%E1%BA%A1i-s%C3%A0n-HNX"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Quy định giao dịch của HSX ... Thời gian giao dịch từ thứ Hai đến thứ Sáu hằng tuần, trừ các ngày nghỉ theo quy",
+      "title": "1.1. Quy định giao dịch của HSX - HSC",
+      "url": "https://hsc.com.vn/transaction-regulations/hsx-trading-regulations.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "gtht.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "## Quy định giao dịch chứng khoán tại sàn HSX ... * Các buổi sáng từ thứ Hai đến thứ Sáu hàng tuần (Trừ ngày",
+      "title": "Quy định giao dịch chứng khoán tại sàn HSX - Chứng Khoán Guotai Haitong (Việt Nam)",
+      "url": "https://gtht.com.vn/support/huong-dan-giao-dich-chung-khoan-tai-san-hsx/"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Thời gian giao dịch chứng khoán niêm yết từ thứ hai đến thứ sáu hàng tuần, trừ các ngày nghỉ theo quy định của Bộ",
+      "title": "Thời gian giao dịch",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2372196/2.Thoi%20gian%20giao%20dich.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "apec.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "| 9h-9h15 | 9h15-11h30 | 11h30-13h | 13h-14h30 | 14h30-14h45 | 14h45-15h ... Thời gian giao dịch thỏa thuận cả 3 sàn: từ 9h-11h30 và",
+      "url": "https://apec.com.vn/ho-tro/quy-dinh-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "9h – 9h15 | 9h15 – 11h30 | 11h30 – 13h | 13h – 14h30 | 14h30 – 14h45 | 14h45 – 15h ... Lệnh",
+      "title": "Quy định giao dịch chung - BSC",
+      "url": "https://www.bsc.com.vn/quy-dinh-giao-dich-chung/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.upcom.hnx.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* Phiên chiều: 13h – 14h45; ... * Công cụ nợ của Chính phủ (gồm trái phiếu Chính phủ, tín phiếu Kho bạc, công trái",
+      "title": "Giao dịch TPCP",
+      "url": "https://www.upcom.hnx.vn/vi-vn/huong-dan/chi-tiet-thu-tuc-24-53.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ocbs.mid.vncdn.vn",
+      "ref_id": "turn0search9",
+      "snippet": "– Thực hiện theo phương thức khớp lệnh liên tục trong thời gian Từ 9h00 đến 11h30 và 13h00 đến 14h45 ... * Trong ngày",
+      "title": "Giao dịch UPCOM",
+      "url": "https://www.ocbs.mid.vncdn.vn/huong-dan-giao-dich/huong-dan-giao-dich/giao-dich-upcom/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vixs.vn",
+      "ref_id": "turn0search10",
+      "snippet": "# Quy định giao dịch HSX ... Phiên trong giờ (sáng) | Khớp lệnh liên tục | 9h15 – 11h30 | LO ... Khớp lệnh",
+      "title": "Quy định giao dịch HSX - Công ty CP Chứng khoán VIX",
+      "url": "https://vixs.vn/ho-tro/quy-dinh-giao-dich-hsx"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "HSX Trading Regulations ... Periodical Order Matching 9 | 11h15 – 11h30 | LO ... Periodical Order Matching 13 | 13h45 – 14h00 | LO",
+      "title": "1.1. HSX Trading Regulations - HSC",
+      "url": "https://hsc.com.vn/en/quy-dinh-giao-dich/11-quy-dinh-giao-dich-cua-hsx.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search14",
+      "snippet": "khai việc kéo dài thời gian giao dịch sang buổi chiều và ... Sau 3 tháng triển khai thí điểm từ ngày 05/03/2012, việc ...",
+      "title": "Sở Giao Dịch Chứng Khoán Thành Phố Hồ Chí Minh",
+      "url": "https://staticfile.hsx.vn/Uploads/Annual/6dfe6cf6-93b2-4871-966f-2bb9bb92c110/10dd075f-c751-46d2-b598-022850e517f6"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-95db462e-7efd-48f2-aa60-d95c931817e0",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-95db462e-7efd-48f2-aa60-d95c931817e0",
+    "type": "web_search",
+    "query": "site.ssi.com.vn quy định giao dịch UPCOM 15h00 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn quy định giao dịch UPCOM 15h00",
+      "site.support.vndirect.com.vn UPCOM 15h00"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "09h00 – 09h15 | Giao dịch định kỳ mở cửa | LO ... Đối với sàn UPCOM",
+      "title": "4. FAQ Giao dịch lô lẻ – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/46211568096665-4-FAQ-Giao-d%E1%BB%8Bch-l%C3%B4-l%E1%BA%BB"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Lệnh chờ được lưu giữ trong hệ thống giao dịch của SSI và sẽ chuyển vào hệ thống giao dịch các Sở khi bắt đầu",
+      "title": "Quy định giao dịch cổ phiếu",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "① Thời gian giao dịch: 9h00 - 14h45 (với sàn HOSE, HNX) hoặc 9h00 - 15h00 (với sàn UPCOM) ... Quý khách vui lòng truy",
+      "title": "Nguyên tắc giao dịch – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/38641828396953-Nguy%C3%AAn-t%E1%BA%AFc-giao-d%E1%BB%8Bch"
+     },
+     {
+      "type": "text_result",
+      "domain": "invest.vndirect.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "* Opening session (auction): 09h00-9h15 ... UPCOM | MORNING: FROM 09H00 TO 11H30",
+      "title": "Trading Guide",
+      "url": "https://invest.vndirect.com.vn/trading-guide/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Hướng dẫn giao dịch UPCOM tại Sở giao dịch chứng khoán Hà Nội ... Giao dịch thỏa thuận | 13h00 – 15h00 | ... Được",
+      "title": "Hướng dẫn giao dịch chứng khoán sàn UpCom",
+      "url": "https://www.vfs.com.vn/dich-vu-chung-khoan-khach-hang-ca-nhan/quy-dinh-giao-dich/huong-dan-giao-dich-chung-khoan-san-upcom"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "# Transaction Regulation on UPCOM ... Trading time is from Monday to Friday every week except for public holidays regulated by Vietnam’s Labor Code ...",
+      "title": "Transaction Regulation on UPCOM",
+      "url": "https://www.ssi.com.vn/en/individual-customer/transaction-regulation-on-upcom"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Thời gian | 9h00 – 9h15 | 14h30 – 14h45 | 9h00 – 11h30 13h00 – 14h45 | 14h45 – 15h00 | 9h15 – 11h30",
+      "title": "Cổ phiếu – Kiến thức cơ bản – Đầu tư cổ phiếu như thế nào? - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/kien-thuc-co-ban/co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "* Instructions for trading securities on UpCom ... Afternoon | 13:00 – 15:00 | Continuous order matching and Negotiation",
+      "title": "Instructions for trading securities on UpCom",
+      "url": "https://www.vfs.com.vn/en/securities-services-for-individual-customers/regulations-on-trading-floors/instructions-upcom"
+     },
+     {
+      "type": "text_result",
+      "domain": "vixs.vn",
+      "ref_id": "turn1search8",
+      "snippet": "# UPCOM trading regulations ... Afternoon session | Continuous auction | 13:00 – 15:00",
+      "title": "UPCOM trading regulations - VIX SECURITIES JOINT STOCK COMPANY",
+      "url": "https://vixs.vn/en/support/upcom-trading-regulations"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "- Biểu tượng hình răng cưa để cài đặt giao dịch: tắt xác nhận lệnh, Hotkeys, KL hay dùng, mã CK mặc định, lệnh ĐK",
+      "title": "Giao dịch chứng khoán",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/giao-dich-chung-khoan-ib-web"
+     },
+     {
+      "type": "text_result",
+      "domain": "vtgs.vn",
+      "ref_id": "turn1search10",
+      "snippet": "UPCOM | Phiên liên tục LO | Nghỉ trưa | Phiên liên tục LO ... Giao dịch thỏa thuận sau giờ | 14h45–15h00",
+      "title": "Hướng dẫn giao dịch - Chứng khoán VTG",
+      "url": "https://vtgs.vn/huong-dan-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbbs.com.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Quy định giao dịch trên sàn UPCoM ... * Các phiên giao dịch tại Sở GDCK Hà Nội sẽ được tổ chức từ 9h00 đến",
+      "title": "Hướng dẫn UPCOM - Công Ty Cổ Phần Chứng Khoán SBB",
+      "url": "https://sbbs.com.vn/faq/huong-dan-UPCoM"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vbse.vn",
+      "ref_id": "turn1search12",
+      "snippet": "<tr><td></td><td>Giao dịch thỏa thuận</td><td>Trong phiên: 9h00 – 11h3013h00 – 14h45Sau phiên: 14h45 – 15h00</td></tr> ... Đối với giao dịch tại Upcom",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.vbse.vn/wp-content/uploads/2025/09/2.Quy-dinh-giao-dich-chung-khoan-tai-HNX-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mbs.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "định riêng tại Luật Chứng khoán và Thông tư 96/2020/TT-BTC của Bộ Tài chính, các văn bản ... Lưu ý: Trên đây chỉ là trích",
+      "title": "QUY ĐỊNH GIAO DỊCH SÀN UPCOM",
+      "url": "https://mbs.com.vn/files/uploads/2025/07/Quy-dinh-giao-dich-chung-khoan-co-so-UPCOM.22.07.2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "image.vfs.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "HƯỚNG DẪN QUY ĐỊNH GIAO DỊCH SÀN HNX, UPCOM",
+      "title": "HƯỚNG DẪN QUY ĐỊNH GIAO DỊCH SÀN HNX, UPCOM",
+      "url": "https://image.vfs.com.vn/cmsupload/vfs-huong-dan-giao-dich-san-HNX-Upcom_update.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "hanelplastics.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "<th>UPCOM</th> ... <td>Khớp lệnh định kỳ 9h00’ đến 9h15’<br>Khớp lệnh liên tục 9h15’ đến 11h30’<br><br>Khớp lệnh liên tục 13h00’ đến 14h30’<br>Khớp lệnh định kỳ 14h30’",
+      "title": "HDGD_Final",
+      "url": "https://hanelplastics.com.vn/uploads/2016/12/huong-dan-giao-dich-co-phieu.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search16",
+      "snippet": "<th>UPCOM (SGDCK HN)</th> ... <td>Các loại cổ phiếu, trái phiếu đăng ký giao dịch tại sàn Upcom - SGDCK Hà Nội</td> ... <td colspan=\"3\" style=\"text-align:center\"><b>13h00'-15h00'</b>:",
+      "title": "HƯỚNG DẪN GIAO DỊCH",
+      "url": "https://www.phs.vn/data/document/vn/09-09-2016/trading_guides_vn-2016.09.12.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "bidv.com.vn",
+      "ref_id": "turn1search17",
+      "snippet": "www.online.ssiam.com.vn ... Ngày T-1 Trước 14h40 Thời hạn nhận lệnh cuối cùng từ ĐLPP | Ngày T Ngày giao dịch CCQ | Ngày T+1 Nhận",
+      "title": "PowerPoint Presentation",
+      "url": "https://bidv.com.vn/wps/wcm/connect/bdbbc69f-e50c-441e-9a85-e270bb3f5de1/B%C3%A1o%2Bc%C3%A1o%2BSSI-SCA%2Bth%C3%A1ng%2B06_2024.pdf?CACHEID=ROOTWORKSPACE-bdbbc69f-e50c-441e-9a85-e270bb3f5de1-p4xVRDp&MOD=AJPERES"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit18",
+      "snippet": "UPCOM viết tắt của Unlisted Public Company Market có nghĩa là thị trường giao dịch chứng khoán của công ty đại chúng chưa được niêm",
+      "title": "Sàn Upcom là gì? Những Kinh nghiệm và lợi ích khi tham gia sàn Upcom",
+      "url": "https://www.reddit.com/r/u_nhadatmoinet/comments/ecq5s1"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn1reddit19",
+      "snippet": "Trong bài viết tiếp theo của **Khoá học chứng khoán cơ bản miễn phí**, Tôi sẽ chia sẻ với các bạn về các loại lệnh",
+      "title": "Các loại lệnh chứng khoán Việt Nam: Ý nghĩa và cách sử dụng",
+      "url": "https://www.reddit.com/r/vninvestors/comments/1eqzkv7"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Giờ giao dịch cổ phiếu Việt Nam** từ **thứ Hai đến thứ Sáu**, trừ ngày lễ, Tết; theo giờ Việt Nam. **Nghỉ trưa: 11:30–13:00.** [Nguồn: SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich/quy-dinh-giao-dich-co-phieu)\n\n| Phiên giao dịch | HOSE | HNX | UPCoM |\n|---|---|---|---|\n| Mở cửa ATO | 09:00–09:15 | Không có | Không có |\n| Khớp lệnh liên tục sáng | 09:15–11:30 | 09:00–11:30 | 09:00–11:30 |\n| Khớp lệnh liên tục chiều | 13:00–14:30 | 13:00–14:30 | 13:00–15:00 |\n| Đóng cửa ATC | 14:30–14:45 | 14:30–14:45 | Không có |\n| Giao dịch sau giờ | Không có | 14:45–15:00 | Không có |\n\nNguồn: [HOSE – SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx), [HNX – VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/360002241873-Quy-định-giao-dịch-tại-sàn-HNX), [UPCoM – SSI](https://www.ssi.com.vn/en/individual-customer/transaction-regulation-on-upcom).\n\n**Lưu ý:** HOSE hết phiên khớp lệnh lúc **14:45**, nhưng giao dịch **thỏa thuận** vẫn tiếp tục đến **15:00**. [Nguồn: SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-giao-dich-tai-hsx)"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39560,
+    "cached_input_tokens": 27648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 604,
+    "reasoning_output_tokens": 12
+   }
+  }
+ ],
+ "thread_id": "01a1b01f-c22e-7012-a061-8dbbf5fab9c7",
+ "error": ""
+}

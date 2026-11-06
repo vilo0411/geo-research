@@ -1,0 +1,199 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q035-r1",
+ "prompt_id": "Q035",
+ "run": 1,
+ "question": "Mở tài khoản chứng khoán có mất phí không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:58:25",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 16.1,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b014-a559-71a0-860c-04131654fb4f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-957e58f7-87e7-47aa-8639-5bf1f771bcbb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-957e58f7-87e7-47aa-8639-5bf1f771bcbb",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn mở tài khoản chứng khoán miễn phí phí lưu ký ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn mở tài khoản chứng khoán miễn phí phí lưu ký",
+      "site.ssi.com.vn mở tài khoản chứng khoán có mất phí không"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Quý khách có thể mở tài khoản trực tuyến trên Website SSI (https://ssi.com.vn/khach-hang-ca-nhan/mo-tai-khoan), tải ứng dụng SSI iBoard Pro (https://onelink.to/ukxf3g) hoặc mở trực tiếp tại",
+      "title": "Dịch vụ giao dịch FAQ",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu-giao-dich-faq"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Đối với Khách hàng mà tiền gửi giao dịch chứng khoán của Khách hàng được gửi/quản lý trên tài khoản mở tại ngân hàng lưu",
+      "title": "CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Nhập mã OTP được gửi qua số điện thoại hoặc sử dụng chữ ký số để giao kết hợp đồng mở tài khoản. ... Mở",
+      "title": "FAQ - Mở Tài Khoản – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "### Miễn phí vận chuyển cho khách hàng tại tất cả tỉnh/ thành trên cả nước ### Lưu ý: Chương trình áp dụng cho tài",
+      "title": "HỒ SƠ MỞ TÀI KHOẢN CHỨNG KHOÁN",
+      "url": "https://www.vndirect.com.vn/huong-dan-van-chuyen-ho-so-ve-VNDIRECT/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "### Khi giao dịch chứng khoán tại VNDIRECT ... ###### Đầy đủ lựa chọn các gói giao dịch chủ động hay có hỗ trợ của",
+      "title": "Mở tài khoản chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/mo-tai-khoan-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "1 | Mở tài khoản | Miễn phí ... - Đối với giao dịch chứng chỉ tiền gửi: 300,000 đồng/lần/chứng từ ... 5 | Xác",
+      "title": "Biểu giá dịch vụ khác",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-khac"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "5.1 | Lưu ký chứng khoán | Miễn phí + Mức giá dịch vụ của VSDC (nếu có), không có tối đa ... 5.3 |",
+      "title": "Biểu phí tài khoản DTA - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-tai-khoan-da/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "VNDIRECT sẽ thu các khoản phí này (nếu phát sinh) cùng với Phí dịch vụ tương ứng theo Biểu phí của VNDIRECT. ... Khách hàng",
+      "title": "Biểu phí khác - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-khac/"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsi.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* Quý khách có thể đăng ký thông tin mở tài khoản trên website: http://sbsi.vn ... * Bản sao hợp lệ là bản sao được",
+      "title": "Mở tài khoản",
+      "url": "https://sbsi.vn/vi-vn/ho-tro/bai-viet/san-pham-dich-vu/mo-tai-khoan-ckcs/F31"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "1.1 Mở tài khoản giao dịch chứng khoán thông thường tại SSI Trong trường hợp NĐT chưa có tài khoản giao dịch chứng khoán thông",
+      "title": "Hướng dẫn giao dịch",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/huong-dan-giao-dich-chung-khoan-phat-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoan.accounts.vn",
+      "ref_id": "turn0search10",
+      "snippet": "### MỞ TÀI KHOẢN CHỨNG KHOÁN SSI ONLINE ... Sau 20 năm vận hành theo cơ chế thị trường, Công ty đã phát triển trở",
+      "title": "Đăng ký mở tài khoản Online trực tuyến chứng khoán SSI Miễn Phí",
+      "url": "https://chungkhoan.accounts.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search11",
+      "snippet": "Tiền chỉ phát sinh sau khi mở: phí lưu ký khi còn cổ phiếu, SMS nếu đăng ký, số đẹp ở VPS, MBS, phí đóng",
+      "title": "Mở tài khoản chứng khoán có mất phí không? Bảng phí 23 CTCK",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-co-mat-phi-khong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Đăng nhập website https://iboard.ssi.com.vn/ ... số tài khoản giao dịch chứng khoán tại SSI ... Nếu chưa có tài khoản, vui lòng ấn “Mở tài",
+      "title": "Hướng dẫn sử dụng",
+      "url": "https://ssi.com.vn/upload/files/News/HDSD-SSI-iBoard-Web.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.yuanta.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "STT 1 | Loại Dịch vụ Mở tài khoản | Mức phí áp dụng Miễn phí --- | --- | --- STT 2 | Loại",
+      "title": "BIỂU PHÍ DỊCH VỤ",
+      "url": "https://support.yuanta.com.vn/wp-content/uploads/2023/03/Bieu-phi-giao-dich-tu-01.12.2019.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "+ Người sở hữu chứng quyền có bảo đảm đã lưu ký làm thủ tục thanh toán tại các Thành viên lưu ký nơi mở",
+      "title": "+ Người sở hữu chứng quyền có bảo đảm đã lưu ký làm thủ tục thanh toán tại các Thành viên lưu ký nơi mở tài khoản lưu ký.",
+      "url": "https://static2.vietstock.vn/vietstock/2026/2/13/20260213___cmbb2519___cbtt_thong_bao_ngay_dang_ky_cuoi_cung.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "global.1qbank.com",
+      "ref_id": "turn0search15",
+      "snippet": "<tr><td>Mở tài khoản / Account open</td><td>Miễn phí / Free</td></tr> ... <tr><td>Chứng nhận tài khoản giao dịch, chứng nhận khác / Certificate of account(s), others</td><td>VND 77.000",
+      "title": "KEB Hana Bank",
+      "url": "https://global.1qbank.com/lounge/hanoi/et/common/download/Hanoi_Terms%20and%20conditions.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Thường là không mất phí mở tài khoản chứng khoán** tại Việt Nam. Ví dụ, [SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-khac) và [VNDIRECT](https://www.vndirect.com.vn/mo-tai-khoan-chung-khoan/) đều công bố miễn phí mở tài khoản.\n\nTuy nhiên, **miễn phí mở không có nghĩa là miễn mọi phí sử dụng**. Sau đó có thể phát sinh phí giao dịch, lưu ký hoặc dịch vụ khác tùy công ty và gói bạn đăng ký. [Biểu phí VNDIRECT](https://www.vndirect.com.vn/bieu-phi-tai-khoan-da/)\n\nBạn định mở ở công ty chứng khoán nào? Mình có thể kiểm tra các khoản phí cụ thể cho bạn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22242,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 259,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b014-a559-71a0-860c-04131654fb4f",
+ "error": ""
+}

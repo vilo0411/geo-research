@@ -1,0 +1,196 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q027-r1",
+ "prompt_id": "Q027",
+ "run": 1,
+ "question": "Phí lưu ký chứng khoán là bao nhiêu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:54:48",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 19.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-5775-7911-8916-2d2724f94a40"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-651e32f2-770a-4f44-ae2b-ef41898a58e9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-651e32f2-770a-4f44-ae2b-ef41898a58e9",
+    "type": "web_search",
+    "query": "phí lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026 VSDC",
+    "action": {
+     "type": "search",
+     "query": "phí lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026 VSDC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "4 | Lưu ký chứng khoán | 4.1 | Cổ phiếu, chứng chỉ quỹ, chứng quyền có bảo đảm | 0,27 đồng/chứng khoán/tháng ... 12.1",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search1",
+      "snippet": "# Phí lưu ký chứng khoán 2026: cách tính và mức của 23 CTCK ... Phí lưu ký chứng khoán là 0,27 đồng/cổ phiếu/tháng ở",
+      "title": "Phí lưu ký chứng khoán 2026: cách tính và mức của 23 CTCK",
+      "url": "https://reviewchungkhoan.com/phi-luu-ky-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "bmsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Đối với CP/CCQ/CW niêm yết | 0,27 đồng/cổ phiếu, CCQ, CW/tháng ... 6. ... Chuyển quyền sở hữu chứng khoán của công ty đại chúng",
+      "title": "Biểu phí",
+      "url": "https://bmsc.com.vn/dich-vu-chung-khoan/Bieu-phi.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vixs.vn",
+      "ref_id": "turn0search3",
+      "snippet": "(áp dụng từ ngày 13/07/2026 kèm theo Quyết định số 36/2026/VIX/QĐ-TGĐ) ... | – Cổ phiếu, chứng chỉ quỹ, chứng quyền có bảo đảm |",
+      "title": "Biểu phí dịch vụ - Công ty CP Chứng khoán VIX",
+      "url": "https://vixs.vn/ho-tro/bieu-phi-dich-vu-giao-dich-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "<td colspan=\"3\">- GTGD khớp lệnh trong ngày được tách biệt giữa cổ phiếu &amp; chứng chỉ quỹ với chứng quyền để tính mức phí theo",
+      "title": "BIỂU PHÍ CƠ SỞ",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/bieu-phi-co-so-172024-final-v1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "1 | Phí lưu ký Cổ phiếu (CP), chứng chỉ quỹ (CCQ), chứng quyền có bảo đảm (CW) | 0,27 đồng/CP,CCQ/tháng | | ... 4",
+      "title": "Biểu phí",
+      "url": "https://www.vfs.com.vn/dich-vu-chung-khoan-khach-hang-ca-nhan/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "aas.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "STT 3.1 | Loại giao dịch Cổ phiếu, chứng chỉ quỹ, chứng quyền có bảo đảm | Mức phí 0,27 đồng/CP, CCQ/tháng ... STT 4.1",
+      "title": "BIỂU PHÍ DỊCH VỤ",
+      "url": "https://aas.com.vn/Content/Archive/FileAttact/Bieu%20phi%20dich%20vu_01.08.2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vtgs.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Giá dịch vụ Lưu ký chứng khoán 3 | Cổ phiếu/chứng chỉ quỹ/chứng quyền | 0,3 đồng/cổ phiếu, CCQ, chứng quyền/tháng^{1} ... 6 | Chuyển",
+      "title": "Lưu ký - Chứng khoán VTG",
+      "url": "https://vtgs.vn/luu-ky/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vdsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Phí lưu ký (Phí lưu ký nộp cho VSDC, mức thu này được nộp toàn bộ cho VSDC) Cổ phiếu/Chứng chỉ quỹ/Chứng quyền có bảo",
+      "title": "CTCP Chứng khoán Rồng Việt - Kiến tạo tương lai thịnh vượng | Dịch vụ lưu ký",
+      "url": "https://www.vdsc.com.vn/en/individual/fee-schedule/custody-services-z4"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search7",
+      "snippet": "Phí lưu ký là khoản Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) thu để giữ cổ phiếu của bạn:",
+      "title": "Phí mua bán cổ phiếu gồm những gì? Cách tính phí và thuế",
+      "url": "https://reviewchungkhoan.com/phi-mua-ban-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search8",
+      "snippet": "Không. 17 trong 23 CTCK ghi rõ miễn phí mở tài khoản (riêng VCBS theo trang của Vietcombank), 6 công ty còn lại không có",
+      "title": "Mở tài khoản chứng khoán có mất phí không? Bảng phí 23 CTCK",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-co-mat-phi-khong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Theo quy định từ Bộ Tài chính áp dụng trong năm 2026, cách tính phí lưu ký chứng khoán được phân chia cực kỳ rõ",
+      "title": "Phí lưu ký chứng khoán là gì? Cách tính chuẩn 2026",
+      "url": "https://www.dsc.com.vn/kien-thuc/phi-luu-ky-chung-khoan-la-gi"
+     },
+     {
+      "type": "text_result",
+      "domain": "acbs.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Phí lưu ký chứng khoán là khoản phí mà nhà đầu tư phải trả để lưu giữ và xác nhận quyền sở hữu chứng khoán",
+      "title": "Cập nhật biểu phí lưu ký chứng khoán MỚI NHẤT 2026 - ACBS - Nắm bắt cơ hội, đầu tư hiệu quả",
+      "url": "https://acbs.com.vn/blog/phi-luu-ky-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "7 | Chuyển khoản chứng khoán | 0,3 đồng/cổ phiếu (tối thiểu 50.000 đồng/lần, tối đa 300.000 đồng/lần/mã chứng khoán) | – Mức phí này",
+      "title": "Lưu ký chứng khoán là gì? Thủ tục & Biểu phí MỚI NHẤT 2026",
+      "url": "https://www.vfs.com.vn/luu-ky-chung-khoan-la-gi"
+     },
+     {
+      "type": "text_result",
+      "domain": "sgicapital.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "- Giá dịch vụ lưu ký xử lý hồ sơ giám sát tại Ngày giao dịch chứng khoán (đối với đầu tư chứng khoán niêm",
+      "title": "- Giá dịch vụ Giám Sát: 0,02%/năm trên NAV, tối thiểu 5.000.000 VNĐ/tháng (chưa gồm VAT)",
+      "url": "https://sgicapital.com.vn/wp-content/uploads/2025/10/Ban-cao-bach-ngay-1-11-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Tiền nộp quỹ hỗ trợ thanh toán phản ánh các khoản tiền ký quỹ tại Tổng công ty Lưu ký và Bù trừ ... Theo",
+      "title": "Vietcombank Securities",
+      "url": "https://www.vcbs.com.vn/storage/upload/media/ar2024-vi.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Ở Việt Nam, **phí lưu ký cổ phiếu thường là 0,27 đồng/cổ phiếu/tháng**, cũng áp dụng cho chứng chỉ quỹ và chứng quyền có bảo đảm. Một số công ty thu **0,3 đồng/đơn vị/tháng**, nên mức thực tế tùy nơi bạn mở tài khoản. ([Rồng Việt](https://www.vdsc.com.vn/en/individual/fee-schedule/custody-services-z4), [VTG](https://vtgs.vn/luu-ky/))\n\nVí dụ giữ trọn tháng với mức 0,27 đồng:\n- **1.000 cổ phiếu:** 270 đồng/tháng.\n- **10.000 cổ phiếu:** 2.700 đồng/tháng.\n\nPhí tính theo **số lượng cổ phiếu, không theo giá trị danh mục**; nếu nắm giữ không đủ tháng, phí tính theo thời gian thực tế. ([VFS](https://www.vfs.com.vn/luu-ky-chung-khoan-la-gi))\n\nBạn đang dùng công ty chứng khoán nào để mình kiểm tra đúng mức phí?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22123,
+    "cached_input_tokens": 14592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 295,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-5775-7911-8916-2d2724f94a40",
+ "error": ""
+}

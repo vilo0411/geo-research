@@ -1,0 +1,368 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q047-r2",
+ "prompt_id": "Q047",
+ "run": 2,
+ "question": "Chứng khoán DSC là công ty của ai?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:04:56",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 25.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01a-9c7e-7ca3-a859-501d3c04c44b"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-79c5c51f-6d03-40bd-b2ee-01c4f48297ff",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-79c5c51f-6d03-40bd-b2ee-01c4f48297ff",
+    "type": "web_search",
+    "query": "DSC chứng khoán cổ đông lớn Nguyễn Đức Anh Thành Công sở hữu 2026",
+    "action": {
+     "type": "search",
+     "query": "DSC chứng khoán cổ đông lớn Nguyễn Đức Anh Thành Công sở hữu 2026"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "### 024 - Công ty cổ phần Chứng khoán DSC ... Ông Nguyễn Đức Anh - Chủ tịch HĐQT ... Giấy phép điều chỉnh Giấy",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/annual-report/2026/45016802/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Tên thành viên lưu ký: Công ty cổ phần Chứng khoán DSC. ... Trụ sở chính: Tầng 2 Thành Công Building, 80 Dịch Vọng Hậu,",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/194372"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vnvalue.tech",
+      "ref_id": "turn0search3",
+      "snippet": "Mọi cổ phiếu trong ngành, đánh dấu DSC: chênh lệch hiệu chỉnh so với giá đóng cửa theo chiều ngang, vốn hóa theo chiều dọc,",
+      "title": "DSC — Giá trị nội tại hiệu chỉnh so với giá đóng cửa",
+      "url": "https://www.vnvalue.tech/vi/co-phieu/DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Vốn điều lệ Vốn điều lệ Vốn cổ đông cam kết góp, lấy từ báo cáo tài chính gần nhất của công ty.Giá trị đầy",
+      "title": "Cổ phiếu DSC: giá 9.490, 52 tuần 8.810–16.650 | HODL.VN",
+      "url": "https://www.hodl.vn/stock/dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search5",
+      "snippet": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC ... Nguyễn Đức Anh - 2/1/1995 ... 3 | 27/09/2024 13:31 | Công bố thông tin Quyết định",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-uc-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search6",
+      "snippet": "* Thông tin chung ... CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC Trụ sở chính Tầng 2, Thành Công Building, 80 Dịch Vọng Hậu, Phường",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-ny-dsc.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "fireant.vn",
+      "ref_id": "turn0search7",
+      "snippet": "## Cổ đông lớn của DSC ... Nguyễn Đức Anh | Chủ tịch HĐQT | 65.360.046 | 23,47% | 30/06/2026 ... Nguyễn Thị Thu Hà",
+      "title": "DSC: Cổ đông lớn, cơ cấu sở hữu CTCP Chứng khoán DSC | FireAnt",
+      "url": "https://fireant.vn/ma-chung-khoan/DSC/co-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.iwinstock.com",
+      "ref_id": "turn0search8",
+      "snippet": "06/03/2026 | Bạch Quốc Vinh Thành viên HĐQT | Người nội bộ | Đăng ký | 1.500.000 (đăng ký) | — | 1.902.755 13/02/2026 |",
+      "title": "Cổ phiếu DSC - Công ty Cổ phần Chứng khoán DSC - iWinStock",
+      "url": "https://www.iwinstock.com/stock/DSC/"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.stockbiz.vn",
+      "ref_id": "turn0search9",
+      "snippet": "CTCP Chứng khoán DSC (DSC : HOSE) Tài chính : Công ty Chứng khoán ... Tên Vị trí Số cổ phần Tỷ lệ sở hữu",
+      "title": "DSC | Cổ đông lớn | Danh sách các cổ đông lớn, quan trọng của doanh nghiệp",
+      "url": "https://web.stockbiz.vn/Stocks/DSC/MajorHolders.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieu.nguoiquansat.vn",
+      "ref_id": "turn0search10",
+      "snippet": "# Cá nhân / Nguyễn Đức Anh ... 1 | Công ty Cổ phần Chứng khoán DSC | Chủ tịch HĐQT | ... ### CỔ",
+      "title": "Nguyễn Đức Anh - Chủ tịch HĐQT CTCP Chứng khoán DSC",
+      "url": "https://dulieu.nguoiquansat.vn/ca-nhan-nqs_6609/nguyen-duc-anh?companyCode=DSC"
+     },
+     {
+      "type": "text_result",
+      "domain": "nmquan.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Theo công bố gần nhất, CTCP Chứng khoán DSC (mã DSC) có 3 cổ đông lớn — tức nắm từ 5% vốn điều lệ trở",
+      "title": "Cổ đông lớn DSC — CTCP Chứng khoán DSC | nmquan.vn",
+      "url": "https://nmquan.vn/data/ma/DSC/co-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search12",
+      "snippet": "ÔNG NGUYỄN ĐỨC ANH ... công tại DSC từ những ngày đầu M&A và tái ... của ông, DSC đã có những bước tiến thần",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://rs.nguoiquansat.vn/news/DSC/20250325/DSC_20250325_644e8ef7-93ca-411b-ac31-1460caf616c4-50441955.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Số lượng, tỷ lệ sở hữu chứng khoán tại DSC: ... Ông Nguyễn Đức Anh giữ chức vụ Chủ tịch HĐQT từ năm 2021 đến",
+      "title": "Ban Lãnh Đạo.",
+      "url": "https://rs.nguoiquansat.vn/ReportFile/DSC/2022/Baocaothuongniennam2022.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Ngày 08/08/2025, Công ty nhận được Thông báo số 3626/TB-SGDHN về việc Sở Giao dịch Chứng khoán Hà Nội thông báo chính thức đưa cổ",
+      "title": "Công ty Cổ phần Địa ốc Sacom",
+      "url": "https://owa.hnx.vn/ftp/cims/2026/4_W3/000000016142512_CBTT_Bao_cao_thuong_nien_nam_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dangcongsan.vn",
+      "ref_id": "turn0search15",
+      "snippet": "25/4/2026 - 7/5/2026 ... chuyển đổi số quốc gia tiếp nhận các ý kiến ... tuệ nhân tạo (AI) và dữ liệu lớn vào chương",
+      "title": "BẢN TIN TUẦN 17/2026",
+      "url": "https://dangcongsan.vn/upload/2006988/20260511/BAN_TIN_KHCN_So_17-2026_6774f.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.nhandan.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Theo Phó Chủ tịch kiêm Tổng Thư ký Hội chủ rừng Việt Nam Nguyễn Bá Ngãi, do thiếu quy định về quyền sở hữu khiến",
+      "title": "Nhân Dân\n\n28/2/2026 5\n\nHÀNH TRÌNH NET ZERO\n\n# Khun",
+      "url": "https://cdn.nhandan.vn/files/597333fe0856f101aa663ac5212927995f6c478592365964dcca068855511e529084600b6e63ce8a4477b9e86eb165b1/nd-2026-2-28.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-0bbc08e5-42b4-4476-8087-d6fbf1802a67",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-0bbc08e5-42b4-4476-8087-d6fbf1802a67",
+    "type": "web_search",
+    "query": "DSC chứng khoán hệ sinh thái Thành Công Nguyễn Đức Anh NTP ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "DSC chứng khoán hệ sinh thái Thành Công Nguyễn Đức Anh NTP",
+      "site.dsc.com.vn Thành Công chứng khoán DSC"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search12",
+      "snippet": "## ÔNG NGUYỄN ĐỨC ANH ... Năm sinh: **1995** ... Dưới sự lãnh đạo sát sao của ông, DSC đã có những bước tiến thần",
+      "title": "Báo cáo thường niên DSC 2024",
+      "url": "https://static2.vietstock.vn/vietstock/2025/3/25/20250325_20250325___dsc___cbtt_bao_cao_thuong_nien_nam_2024.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Dịch vụ tư vấn đầu tư chứng khoán chuyên nghiệp được cung cấp bởi đội ngũ chuyên gia thuộc Trung tâm Phân tích và Môi",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Giấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty chứng khoán số 42/GPĐC-UBCK ngày 01/4/2026 do Ủy ban Chứng khoán Nhà",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Ngày 01/03, Sở Giao dịch Chứng khoán TPHCM (HOSE) đã nhận hồ sơ đăng ký niêm yết của CTCP Chứng khoán DSC (UPCoM: DSC). ...",
+      "title": "Chứng khoán DSC đã nộp hồ sơ niêm yết cổ phiếu lên HOSE",
+      "url": "https://www.phs.vn/tin-tuc/chung-khoan-dsc-da-nop-ho-so-niem-yet-co-phieu-len-hose/6152590"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (HOSE: DSC) được thành lập từ tháng 06/2006, hiện có trụ sở tại tầng 2, Thành Công Building,",
+      "title": "Chứng khoán DSC - Công ty chứng khoán uy tín, chuyên nghiệp",
+      "url": "https://www.dsc.com.vn/gioi-thieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Trong những ngày cuối tháng 10, ba cổ đông gồm ông Nguyễn Đức Anh (Chủ tịch) và doanh nghiệp liên quan là CTCP Đầu tư",
+      "title": "Chủ tịch Chứng khoán DSC và doanh nghiệp liên quan chuyển nhượng toàn bộ quyền mua cổ phiếu",
+      "url": "https://www.phs.vn/tin-tuc/chu-tich-chung-khoan-dsc-va-doanh-nghiep-lien-quan-chuyen-nhuong-toan-bo-quyen-mua-co-phieu/6342055"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Theo quan điểm của DSC, số liệu kinh tế - xã hội tháng 9/2026 tiếp tục cho thấy nền kinh tế duy trì đà tăng",
+      "title": "Chứng khoán DSC - Uy tín hàng đầu, đồng hành cùng nhà đầu tư",
+      "url": "https://www.dsc.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.funan.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Về mối liên hệ, ông Nguyễn Đức Anh là Chủ tịch HĐQT DSC, đồng thời là Chủ tịch HĐQT kiêm Tổng Giám đốc CTCP Đầu",
+      "title": "DSC: Cổ đông lớn nhất muốn nhượng 70 triệu quyền mua cp trong đợt chào bán cho cổ đông hiện hữu | CÔNG TY CỔ PHẦN CHỨNG KHOÁN FUNAN (FNS)",
+      "url": "https://www.funan.com.vn/vi/dsc-co-dong-lon-nhat-muon-nhuong-70-trieu-quyen-mua-cp-trong-dot-chao-ban-cho-co-dong-hien-huu.1080822"
+     },
+     {
+      "type": "text_result",
+      "domain": "nmquan.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Theo công bố gần nhất, CTCP Chứng khoán DSC (mã DSC) có 3 cổ đông lớn — tức nắm từ 5% vốn điều lệ trở",
+      "title": "Cổ đông lớn DSC — CTCP Chứng khoán DSC | nmquan.vn",
+      "url": "https://nmquan.vn/data/ma/DSC/co-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietnambusinessinsider.vn",
+      "ref_id": "turn1search8",
+      "snippet": "CTCP Đầu tư NTP và ông Nguyễn Đức Anh, chính là 2 cổ đông lớn nhất của Công ty chứng khoán DSC. ... Image: nguyen-duc-anh-chu-tich-chung-khoan-dsc-1697428946.jpg",
+      "title": "Công ty chứng khoán có vốn điều lệ hơn 2.000 tỷ đồng của vị Chủ tịch sinh năm 1995 muốn niêm yết trên HOSE",
+      "url": "https://www.vietnambusinessinsider.vn/cong-ty-chung-khoan-co-von-dieu-le-hon-2000-ty-dong-cua-vi-chu-tich-sinh-nam-1995-muon-niem-yet-tren-hose-a33524.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn1search9",
+      "snippet": "CTCP Chứng khoán DSC (mã DSC) vừa công bố Nghị quyết HĐQT thông qua việc chuyển giao dịch cổ phiếu DSC từ hệ thống giao",
+      "title": "Công ty chứng khoán của Chủ tịch 9x thế hệ F2 TC Group chốt ngày chào sàn HoSE",
+      "url": "https://cafef.vn/cong-ty-chung-khoan-cua-chu-tich-9x-the-he-f2-tc-group-chot-ngay-chao-san-hose-188241008110432955.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "fili.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Ngày 24/09, Sở Giao dịch Chứng khoán TPHCM (HOSE) đã chấp thuận niêm yết cổ phiếu cho CTCP Chứng khoán DSC (UPCoM: DSC), số lượng",
+      "title": "Công ty chứng khoán của Chủ tịch 9x được chấp thuận niêm yết trên HOSE | Fili",
+      "url": "https://fili.vn/2024/09/cong-ty-chung-khoan-cua-chu-tich-9x-duoc-chap-thuan-niem-yet-tren-hose-741-1231688.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Đến đầu năm 2018, cổ phiếu của công ty được chính thức giao dịch trên sàn UpCoM, mã chứng khoán DSC. ... Công ty CP",
+      "title": "Chủ tịch 9x của công ty chứng khoán vừa được chấp thuận niêm yết trên HoSE là ai?",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/chu-tich-9x-cua-cong-ty-chung-khoan-vua-uoc-chap-thuan-niem-yet-tren-hose-la-ai-33902620"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn1search13",
+      "snippet": "Thành công của DSC được tạo dựng từ niềm tin của khách hàng, cổ đông, đối tác và cộng đồng. ... CÔNG TY CỔ PHẦN",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://rs.nguoiquansat.vn/news/DSC/20250325/DSC_20250325_644e8ef7-93ca-411b-ac31-1460caf616c4-50441955.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Những quan điểm này không thể hiện quan điểm chung của Công ty Cổ phần Chứng khoán DSC và có thể thay đổi mà không",
+      "title": "HCM  \nCTCP Chứng khoán Thành phố Hồ Chí Minh  \nDSC",
+      "url": "https://rs.nguoiquansat.vn/bcpt/HCM/HCM_71_18154_58.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Tel: +84 243 880 3456 Fax: +84 243 783 2189 Website: www.dsc.com.vn ... Tài liệu Đại hội đồng cổ đông thường niên năm 2025 –",
+      "title": "CÔNG TY \nCỔ PHẦN \nCHỨNG \nKHOÁN \nDSC\nDigitally sign",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_ver_2_5_d0001c5c3c.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Bên chào giá phải ghi rõ các thông tin sau trên túi đựng hồ sơ chào giá:- Tên, địa chỉ, điện thoại của Bên chào",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/DSC_Ho_so_chao_hang_canh_tranh_goi_ra_soat_nang_cap_bao_mat_e6caa5c13a.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Chứng khoán DSC gắn với hệ sinh thái Tập đoàn Thành Công (TC Group)**, nổi tiếng trong lĩnh vực ô tô. Người giữ vai trò chủ chốt là **ông Nguyễn Đức Anh (sinh năm 1995), Chủ tịch HĐQT DSC**. [Nguồn](https://www.dnse.com.vn/senses/tin-tuc/chu-tich-9x-cua-cong-ty-chung-khoan-vua-uoc-chap-thuan-niem-yet-tren-hose-la-ai-33902620)\n\nVề sở hữu, DSC là **công ty cổ phần, không thuộc riêng một người**. Theo dữ liệu cổ đông cập nhật ngày **30/6/2026**:\n- **CTCP Đầu tư NTP:** khoảng **29,41% vốn**.\n- **Ông Nguyễn Đức Anh:** khoảng **23,47% vốn**.  \n[Nguồn cơ cấu cổ đông](https://nmquan.vn/data/ma/DSC/co-dong), [đối chiếu sở hữu ông Đức Anh](https://fireant.vn/ma-chung-khoan/DSC/co-dong).\n\nNói ngắn gọn: **DSC thường được biết đến là công ty chứng khoán trong hệ sinh thái Thành Công, với nhóm cổ đông chủ chốt là ông Nguyễn Đức Anh và Đầu tư NTP.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39085,
+    "cached_input_tokens": 29056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 408,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01a-9c7e-7ca3-a859-501d3c04c44b",
+ "error": ""
+}

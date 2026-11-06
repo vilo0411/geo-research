@@ -1,0 +1,215 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q012-r5",
+ "prompt_id": "Q012",
+ "run": 5,
+ "question": "Top công ty chứng khoán uy tín nhất Việt Nam",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:42:55",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 29.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b006-7486-7611-9d1e-5fb100b6c06f"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-cbc80cbe-ee9b-423a-8a18-b6c945971b81",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-cbc80cbe-ee9b-423a-8a18-b6c945971b81",
+    "type": "web_search",
+    "query": "site.hsx.vn thị phần môi giới quý 3 2026 công ty chứng khoán ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.hsx.vn thị phần môi giới quý 3 2026 công ty chứng khoán",
+      "site.hnx.vn thị phần môi giới quý III 2026 chứng khoán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search0",
+      "snippet": "Theo thị phần môi giới cổ phiếu trên HOSE quý 3/2026, ba công ty chứng khoán lớn nhất Việt Nam là VPS (11,54%), SSI (11,09%)",
+      "title": "Top 10 công ty chứng khoán lớn nhất Việt Nam quý 3/2026",
+      "url": "https://reviewchungkhoan.com/top-cong-ty-chung-khoan-lon-nhat/"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.stockbiz.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Image Sở Giao dịch chứng khoán TP.HCM công bố giá trị giao dịch môi giới của 10 công ty chứng khoán có thị phần lớn",
+      "title": "HOSE: Thị phần giá trị giao dịch môi giới Quý III năm 2026 | Tin từ cơ quan quản lý",
+      "url": "https://web.stockbiz.vn/News/2026/10/5/1911404/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "baodautu.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Bức tranh thị phần môi giới trên 3 sàn cũng có những thay đổi lớn trong quý III/2026 khi nhiều cái tên trong top 10",
+      "title": "Bức tranh ngành chứng khoán quý III/2026: Thanh khoản biến động, lợi nhuận phân hóa",
+      "url": "https://baodautu.vn/buc-tranh-nganh-chung-khoan-quy-iii2026-thanh-khoan-bien-dong-loi-nhuan-phan-hoa-d726866.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Sở Giao dịch chứng khoán TP.HCM công bố giá trị giao dịch môi giới của 10 công ty chứng khoán có thị phần lớn nhất",
+      "title": "HOSE: Thị phần giá trị giao dịch môi giới Quý III năm 2026",
+      "url": "https://cafef.vn/du-lieu/hose-2991396/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.hnx.vn",
+      "ref_id": "turn0search4",
+      "snippet": "2 | 08/10/2026 11:08 | Thị phần môi giới thị trường chứng khoán phái sinh trên HNX trong quý 3/2026 | ... 5 | 06/08/2026",
+      "title": "Thông tin công bố",
+      "url": "https://www.hsc.hnx.vn/vi-vn/phai-sinh/thong-tin-cong-bo.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "thoibaotaichinhvietnam.vn",
+      "ref_id": "turn0search5",
+      "snippet": "(TBTCO) - Khoảng cách giữa 3 công ty chứng khoán dẫn đầu tiếp tục thu hẹp trong quý III/2026, khi VPS đạt 11,54%, SSI 11,09%",
+      "title": "Thị phần môi giới quý III: VPS giữ ngôi đầu, SSI và TCBS bám sát | Thời báo Tài chính Việt Nam",
+      "url": "https://thoibaotaichinhvietnam.vn/thi-phan-moi-gioi-quy-iii-vps-giu-ngoi-dau-ssi-va-tcbs-bam-sat-204889.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "news.cvs.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Sở Giao dịch chứng khoán TP.HCM (HOSE) công bố giá trị giao dịch môi giới của 10 công ty chứng khoán có thị phần lớn",
+      "title": "TCBS tăng thị phần môi giới lên hơn 10% trong quý 3/2026",
+      "url": "https://news.cvs.vn/tcbs-tang-thi-phan-moi-gioi-len-hon-10-trong-quy-59691"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Theo số liệu thị phần môi giới quý III/2026 do Sở Giao dịch Chứng khoán TP.HCM và Sở Giao dịch Chứng khoán Hà Nội công",
+      "title": "VPS quý III/2026: Tích lũy nền tảng, kiến tạo tương lai | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/bai-viet/vps-quy-iii2026-tich-luy-nen-tang-kien-tao-tuong-lai"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Image: Biến động giá sau BCTC quý 3/2026 của 31 cổ phiếu chứng khoán, so với VN-Index và mức tăng giảm lợi nhuận ... Quý",
+      "title": "Kết quả kinh doanh chứng khoán Q3/2026: lãi giảm 51,7% | HODL.VN",
+      "url": "https://www.hodl.vn/ket-qua-kinh-doanh-chung-khoan-quy-3-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "* Môi giới chứng khoán: doanh thu đạt 152 tỷ đồng, giảm 70% so với cùng kỳ do thanh khoản thị trường sụt giảm và",
+      "title": "HSC công bố Lợi nhuận trước thuế quý 3.2026 đạt 371 tỷ đồng, lũy kế 9 tháng tương đương cùng kỳ",
+      "url": "https://www.hsc.com.vn/vi/hsc-cong-bo-loi-nhuan-truoc-thue-quy-3-2026-dat-371-ty-dong-luy-ke-9-thang-tuong-duong-cung-ky"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.fireant.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Khoảng cách giữa 3 công ty chứng khoán dẫn đầu tiếp tục thu hẹp trong quý III/2026, khi VPS đạt 11,54%, SSI 11,09% và TCBS",
+      "title": "Thị phần môi giới quý III: VPS giữ ngôi đầu, SSI và TCBS bám sát",
+      "url": "https://web.fireant.vn/bai-viet/thi-phan-moi-gioi-quy-iii-vps-giu-ngoi-dau-ssi-va-tcbs-bam-sat/42105945"
+     },
+     {
+      "type": "text_result",
+      "domain": "funan.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Sở Giao dịch Chứng khoán TP.HCM (HOSE) vừa công bố top 10 công ty chứng khoán có thị phần môi giới lớn nhất quý 3/2026.",
+      "title": "Môi giới HOSE quý 3: Thị phần VPS tiếp tục suy giảm | CÔNG TY CỔ PHẦN CHỨNG KHOÁN FUNAN (FNS)",
+      "url": "https://funan.com.vn/vi/moi-gioi-hose-quy-3-thi-phan-vps-tiep-tuc-suy-giam.1499076"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Bước sang Quý I/2026, TCBS tiếp tục giữ vững vị trí thứ hai với 9,46%²⁸ thị phần môi giới chứng khoán tại HNX, tăng 0,61",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://owa.hnx.vn/ftp/cims/2026/6_W3/000000016479584_BCB_TCX126011_compressed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "s3-storage.shs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Top 03 công ty chứng khoán dẫn đầu thị phần môi giới không có sự thay đổi so với năm 2024, gồm VPS, SSI và",
+      "title": "Trong hoạt động môi giới chứng khoán, các công ty chứng khoán tiếp tục cạnh tranh gay gắt về phí và thị phần. Nhóm 10 công ty chứng khoán dẫn đầu tiếp tục nắm giữ hơn 68% thị phần môi giới trên HOSE. Top 03 công ty chứng khoán dẫn đầu thị phần môi giới không có sự thay đổi so với năm 2024, gồm VPS, SSI và TCX. Tuy nhiên, khoảng cách thị phần giữa các công ty đang dần thu hẹp khi cuộc đua giảm phí giao dịch đã hạ nhiệt và các công ty chứng khoán ở phía sau đẩy mạnh nâng cấp nền tảng công nghệ, cải thiện chất lượng dịch vụ, ra mắt các sản phẩm mới, nâng cao trải nghiệm khách hàng. Dù vậy, đóng góp của hoạt động môi giới vào tổng lợi nhuận vẫn ở mức khiêm tốn. Trong bối cảnh cạnh tranh cao, môi giới ngày càng đóng vai trò là kênh mở rộng tệp khách hàng và tạo nền tảng cho các hoạt động có biên lợi nhuận cao hơn, đặc biệt là cho vay ký quỹ.",
+      "url": "https://s3-storage.shs.com.vn/shs-website/VI_SHS_Bao_cao_thuong_nien_2025_a81ee70886.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Cổ phiếu SSI được niêm yết trên sàn HNX từ năm 2006 và chuyển sang HoSE từ năm 2007. ... ** FTSE Russel nhiều khả",
+      "title": "Báo cáo tháng 03.25",
+      "url": "https://www.shs.com.vn/Sites/QuoteVN/SiteRoot/reportattach/20250307_1872_B%C3%A1o%20c%C3%A1o%20th%C3%A1ng%2003.25.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "finance.vietstock.vn",
+      "ref_id": "turn0search15",
+      "snippet": "<tr><td>Ngành nghề:</td><td>Môi giới chứng khoán</td></tr> ... Lợi nhuận tăng trong Quý 3 chủ yếu nhờ thanh khoản toàn thị trường trong Quý tăng mạnh, là",
+      "title": "MUA\n\nGiá mục tiêu 2026: 32.000 VND  \n% tăng giá: 3",
+      "url": "https://finance.vietstock.vn/downloadedoc/18154"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Thời gian dự kiến phát hành: Sau khi Ủy ban Chứng khoán Nhà nước chấp thuận/có thông báo bằng văn bản về việc nhận được",
+      "title": "NQ 92.2026.NQ HDQT trien khai phuong an phat hanh co phieu 2026.pdf",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2506488/20261021%20-%20VSC%20-%20NQ%2092.2026.NQ%20HDQT%20trien%20khai%20phuong%20an%20phat%20hanh%20co%20phieu%202026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "VNIndex tăng trưởng 12,1% so với cuối năm 2023, nhưng xu hướng chủ đạo là tích lũy với thanh khoản thấp trong kênh dao động",
+      "title": "GIỚI THIỆU CHUNG",
+      "url": "https://www.shs.com.vn/Sites/QuoteVN/SiteRoot/documents/2025/VI_SHS_BCNam_BCTN.2024.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Nếu bạn đang chọn nơi mở tài khoản, có thể bắt đầu so sánh SSI, VPS, TCBS, Vietcap và HSC.** Tuy nhiên, không nên coi thị phần lớn là bằng chứng công ty “uy tín nhất” hay đầu tư sẽ an toàn tuyệt đối.\n\n### Top 10 công ty chứng khoán đáng cân nhắc\nĐể có căn cứ khách quan, bảng dưới **xếp theo thị phần môi giới cổ phiếu và chứng chỉ quỹ trên HOSE quý III/2026**, không phải bảng chấm điểm uy tín:\n\n| Hạng | Công ty chứng khoán | Thị phần |\n|---|---|---:|\n| 1 | **VPS** | 11,54% |\n| 2 | **SSI** | 11,09% |\n| 3 | **TCBS – Chứng khoán Kỹ Thương** | 10,03% |\n| 4 | **Vietcap** | 7,80% |\n| 5 | **HSC – Chứng khoán TP.HCM** | 6,10% |\n| 6 | **MBS – Chứng khoán MB** | 4,84% |\n| 7 | **VNDirect** | 3,90% |\n| 8 | **KIS Việt Nam** | 3,72% |\n| 9 | **Mirae Asset Việt Nam** | 3,03% |\n| 10 | **VPBankS** | 2,81% |\n\nNguồn: [Công bố của HOSE được Stockbiz đăng lại ngày 05/10/2026](https://web.stockbiz.vn/News/2026/10/5/1911404/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.aspx).\n\n### Chọn thế nào cho phù hợp?\nTrước khi mở tài khoản, nên so sánh **5 yếu tố**:\n- **Minh bạch tài chính:** báo cáo kiểm toán, công bố thông tin và lịch sử xử lý vi phạm.\n- **Hệ thống giao dịch:** độ ổn định, bảo mật, cách xử lý khi có sự cố.\n- **Tổng chi phí:** phí mua/bán, ứng trước tiền bán và lãi vay margin — không chỉ nhìn quảng cáo “0 phí”.\n- **Hỗ trợ khách hàng:** phản hồi nhanh, giải thích rõ ràng, không thúc ép giao dịch.\n- **Nhu cầu của bạn:** tự đầu tư hay cần môi giới tư vấn, có dùng margin hay không.\n\n**Với người mới:** hãy trải nghiệm ứng dụng và dịch vụ hỗ trợ của 2–3 công ty trước, bắt đầu bằng số tiền nhỏ và chưa cần dùng margin.\n\nBạn ưu tiên **phí thấp, ứng dụng dễ dùng hay có người tư vấn**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 26171,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 680,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b006-7486-7611-9d1e-5fb100b6c06f",
+ "error": ""
+}

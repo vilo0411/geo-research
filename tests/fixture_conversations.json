@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Q023-r1",
+    "id": "conv-a",
+    "create_time": 1793500000,
+    "current_node": "n4",
+    "mapping": {
+      "root": {"id": "root", "message": null, "parent": null, "children": ["n1"]},
+      "n1": {"id": "n1", "parent": "root", "children": ["n2"],
+        "message": {"author": {"role": "user"}, "recipient": "all",
+          "content": {"content_type": "text", "parts": ["Phí giao dịch của Chứng khoán ABC là bao nhiêu?"]}, "metadata": {}}},
+      "n2": {"id": "n2", "parent": "n1", "children": ["n3"],
+        "message": {"author": {"role": "assistant"}, "recipient": "web.run",
+          "content": {"content_type": "code", "text": "{\"search_query\":[{\"q\":\"phí giao dịch Chứng khoán ABC 2026\"},{\"q\":\"biểu phí ABCS\"}]}"},
+          "metadata": {}}},
+      "n3": {"id": "n3", "parent": "n2", "children": ["n4"],
+        "message": {"author": {"role": "tool", "name": "web.run"}, "recipient": "all",
+          "content": {"content_type": "text", "parts": [""]},
+          "metadata": {"search_result_groups": [
+            {"domain": "abc-securities.example.vn", "entries": [{"url": "https://www.abc-securities.example.vn/bieu-phi?utm_source=chatgpt.com", "title": "Biểu phí"}]},
+            {"domain": "cafef.vn", "entries": [{"url": "https://cafef.vn/top-cong-ty-chung-khoan.chn", "title": "Top CTCK"}]},
+            {"domain": "ssi.com.vn", "entries": [{"url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi", "title": "SSI biểu phí"}]},
+            {"domain": "abc-securities.example.vn", "entries": [{"url": "https://abc-securities.example.vn/tin-tuc/thi-truong", "title": "Tin"}]}
+          ]}}},
+      "n4": {"id": "n4", "parent": "n3", "children": [],
+        "message": {"author": {"role": "assistant"}, "recipient": "all",
+          "content": {"content_type": "text", "parts": ["Chứng khoán ABC thu phí 0,15% citeturn0search0. So với SSI thì thấp hơn. Xem thêm [bài tổng hợp](https://cafef.vn/top-cong-ty-chung-khoan.chn?utm_source=chatgpt.com)."]},
+          "metadata": {"model_slug": "gpt-test", "content_references": [
+            {"matched_text": "citeturn0search0", "type": "grouped_webpages",
+             "items": [{"url": "https://abc-securities.example.vn/bieu-phi?utm_source=chatgpt.com", "title": "Biểu phí"}]},
+            {"type": "sources_footnote", "sources": [{"url": "https://cafef.vn/top-cong-ty-chung-khoan.chn?utm_source=chatgpt.com"}]}
+          ]}}}
+    }
+  },
+  {
+    "title": "Q009-r1",
+    "id": "conv-b",
+    "create_time": 1793500600,
+    "current_node": "m3",
+    "mapping": {
+      "root": {"id": "root", "message": null, "parent": null, "children": ["m1"]},
+      "m1": {"id": "m1", "parent": "root", "children": ["m2", "m3"],
+        "message": {"author": {"role": "user"}, "recipient": "all",
+          "content": {"content_type": "text", "parts": ["Nên mở tài khoản chứng khoán ở công ty nào?"]}, "metadata": {}}},
+      "m2": {"id": "m2", "parent": "m1", "children": [],
+        "message": {"author": {"role": "assistant"}, "recipient": "all",
+          "content": {"content_type": "text", "parts": ["Nhánh cũ đã bị regenerate: Chứng khoán ABC rất tốt."]}, "metadata": {}}},
+      "m3": {"id": "m3", "parent": "m1", "children": [],
+        "message": {"author": {"role": "assistant"}, "recipient": "all",
+          "content": {"content_type": "text", "parts": ["Bạn có thể cân nhắc SSI, VPS và TCBS. Nguồn: https://vps.com.vn/mo-tai-khoan"]},
+          "metadata": {"search_queries": [{"type": "search", "q": "nên mở tài khoản chứng khoán ở đâu"}],
+            "content_references": [{"type": "grouped_webpages", "items": [{"url": "https://www.vps.com.vn/mo-tai-khoan"}, {"url": "https://toplist.vn/top-list/cong-ty-chung-khoan"}]}]}}}
+    }
+  },
+  {
+    "title": "Hỏi linh tinh không phải đo",
+    "id": "conv-c",
+    "create_time": 1793500900,
+    "current_node": null,
+    "mapping": {}
+  }
+]

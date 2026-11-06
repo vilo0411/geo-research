@@ -1,0 +1,408 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q012-r4",
+ "prompt_id": "Q012",
+ "run": 4,
+ "question": "Top công ty chứng khoán uy tín nhất Việt Nam",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:42:40",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 33.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b006-38c0-75a3-8da6-baae259bb4b1"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-a2138bc3-5d25-44fc-af25-2ab5f859d4cc",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-a2138bc3-5d25-44fc-af25-2ab5f859d4cc",
+    "type": "web_search",
+    "query": "HOSE thị phần môi giới quý 3 2026 VPS SSI TCBS HSC Vietcap ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "HOSE thị phần môi giới quý 3 2026 VPS SSI TCBS HSC Vietcap",
+      "công ty chứng khoán uy tín 2026 Vietnam Report top 10"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "baodautu.vn",
+      "ref_id": "turn0search0",
+      "snippet": "VPS, SSI cùng hụt thị phần môi giới HoSE, TCBS lần đầu vượt 10% ... So với mức 12,61% trong quý II/2026, thị phần của",
+      "title": "VPS, SSI cùng hụt thị phần môi giới HoSE, TCBS lần đầu vượt 10%",
+      "url": "https://baodautu.vn/vps-ssi-cung-hut-thi-phan-moi-gioi-hose-tcbs-lan-dau-vuot-10-d714096.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search1",
+      "snippet": "Trong top 5 HOSE quý 3/2026, phí online khi tự giao dịch là TCBS 0,03%, Vietcap 0,1%, SSI 0,15% và VPS 0,2%; HSC chưa công",
+      "title": "Top 10 công ty chứng khoán lớn nhất Việt Nam quý 3/2026",
+      "url": "https://reviewchungkhoan.com/top-cong-ty-chung-khoan-lon-nhat/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search2",
+      "snippet": "HOSE: Thị phần giá trị giao dịch môi giới Quý III năm 2026 Sở Giao dịch chứng khoán TP.HCM công bố giá trị giao dịch",
+      "title": "HOSE: Thị phần giá trị giao dịch môi giới Quý III năm 2026",
+      "url": "https://cafef.vn/du-lieu/hose-2991396/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamreport.net",
+      "ref_id": "turn0search3",
+      "snippet": "Ngày 6/8/2026, Công ty TNHH Chứng khoán ACB (ACBS) được Vietnam Report và báo VietnamNet vinh danh là một trong 10 công ty chứng khoán",
+      "title": "ACBS tiếp tục được vinh danh Top 10 Công ty Chứng khoán uy tín năm 2026",
+      "url": "https://vietnamreport.net/ACBS-tiep-tuc-duoc-vinh-danh-Top-10-Cong-ty-Chung-khoan-uy-tin-nam-2026-12546-1007.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vts.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Sở Giao dịch Chứng khoán TP.HCM (HOSE) vừa công bố top 10 công ty chứng khoán có thị phần môi giới lớn nhất quý 3/2026.",
+      "title": "Việt Thành",
+      "url": "https://vts.com.vn/moi-gioi-hose-quy-3-thi-phan-vps-tiep-tuc-suy-giam.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "baomoi.com",
+      "ref_id": "turn0search5",
+      "snippet": "### Thị phần môi giới quý 3/2026 biến động tại cả HNX, UPCoM và HOSE khi nhiều công ty chứng khoán đổi thứ hạng, trong",
+      "title": "Xáo trộn bảng xếp hạng thị phần môi giới chứng khoán quý 3/2026 - Tạp chí Thương Gia",
+      "url": "https://baomoi.com/xao-tron-bang-xep-hang-thi-phan-moi-gioi-chung-khoan-quy-3-2026-c56234817.epi"
+     },
+     {
+      "type": "text_result",
+      "domain": "vn.investing.com",
+      "ref_id": "turn0search6",
+      "snippet": "Sở Giao dịch Chứng khoán TP.HCM (HOSE) vừa công bố top 10 công ty chứng khoán có thị phần môi giới lớn nhất quý 3/2026.",
+      "title": "Môi giới HOSE quý 3: Thị phần VPS tiếp tục suy giảm Theo Vietstock",
+      "url": "https://vn.investing.com/news/stock-market-news/moi-gioi-hose-quy-3-thi-phan-vps-tiep-tuc-suy-giam-2727293"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tinnhanhchungkhoan.vn",
+      "ref_id": "turn0search7",
+      "snippet": "# Thị phần môi giới HoSE quý III/2026: VPS vẫn dẫn đầu, TCBS lần đầu vượt mốc 10% ... Đáng chú ý, riêng trong tháng",
+      "title": "Thị phần môi giới HoSE quý III/2026: VPS vẫn dẫn đầu, TCBS lần đầu vượt mốc 10% | Tin nhanh chứng khoán",
+      "url": "https://www.tinnhanhchungkhoan.vn/thi-phan-moi-gioi-hose-quy-iii2026-vps-van-dan-dau-tcbs-lan-dau-vuot-moc-10-post398895.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamfinance.vn",
+      "ref_id": "turn0search8",
+      "snippet": "## (VNF) - FPT tiếp tục được Vietnam Report vinh danh tại hai bảng xếp hạng uy tín năm 2026 gồm Top 10 công ty",
+      "title": "FPT tiếp tục được Vietnam Report vinh danh tại hai bảng xếp hạng uy tín năm 2026",
+      "url": "https://vietnamfinance.vn/fpt-tiep-tuc-duoc-vietnam-report-vinh-danh-tai-hai-bang-xep-hang-uy-tin-nam-2026-d148808.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "funan.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Sở Giao dịch Chứng khoán TP.HCM (HOSE) vừa công bố top 10 công ty chứng khoán có thị phần môi giới lớn nhất quý 3/2026.",
+      "title": "Môi giới HOSE quý 3: Thị phần VPS tiếp tục suy giảm | CÔNG TY CỔ PHẦN CHỨNG KHOÁN FUNAN (FNS)",
+      "url": "https://funan.com.vn/vi/moi-gioi-hose-quy-3-thi-phan-vps-tiep-tuc-suy-giam.1499076"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietnamplus.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Công ty cổ phần Báo cáo Đánh giá Việt Nam công bố Bảng xếp hạng VIX50 - Top 50 Công ty Đại chúng uy tín",
+      "title": "Vietnam Report công bố Top 50 công ty đại chúng uy tín năm 2026 | Vietnam+ (VietnamPlus)",
+      "url": "https://www.vietnamplus.vn/cong-bo-top-50-cong-ty-dai-chung-uy-tin-va-hieu-qua-nam-2026-post1114096.amp"
+     },
+     {
+      "type": "text_result",
+      "domain": "taichinhcongnghe.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Ngày 30/6, Vietnam Report công bố danh sách Top 10 công ty chứng khoán uy tín năm 2026. ... Theo kết quả công bố, Công",
+      "title": "Infographic | Công bố Top 10 công ty chứng khoán uy tín năm 2026 — Tài chính Công nghệ",
+      "url": "https://taichinhcongnghe.vn/bai-viet/01KWED364BW1RK6CQAGQN6GYMW"
+     },
+     {
+      "type": "text_result",
+      "domain": "s3-storage.shs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "**Thị phần môi giới của VPS giai đoạn 2019-2025** ... - 2023: HOSE 19%, HNX 25%, UPCOM 27%, DERIVATIVES 58% ... | TCBS | 7,75",
+      "title": "GIOI THIEU CO HOI IPO VPS",
+      "url": "https://s3-storage.shs.com.vn/shs-website/Sites/QuoteVN/SiteRoot/reportattach/20251023_145047_IPO%20VPS..pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Biểu đồ đường theo quý từ Q1 19 đến Q3 24, với trục trái là thị phần của các công ty môi giới (3% đến",
+      "title": "[VN] VietnamStrategy2025 - VN version.pdf",
+      "url": "https://www.vietcap.com.vn/api/cms-api/uploads/froala/files/%5BVN%5D%20VietnamStrategy2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Biểu đồ tròn “... thị phần môi giới top đầu (TOP 1 thị phần môi giới HOSE Q3.25)” với các phần: ... - VIETCAP 6.4%",
+      "title": "1. MẢNG MÔI GIỚI - VPS VƯỢT TRỘI VỀ DOANH THU MÔI GIỚI, TUY NHIÊN THỊ PHẦN CÓ DẤU HIỆU CHỨNG LẠI",
+      "url": "https://www.aseansc.com.vn/wp-content/uploads/2025/12/BAO-CAO-SO-SANH-TCBS-VPBANKS-VPS-2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Trong Quý I/2026, top 5 thị phần môi giới trên TTCKPS gồm: VPS, DNSE, HSC, SSI, TCBS. ... Biểu đồ donut “Quý IV/2025” với các",
+      "title": "3. Thị trường Chứng khoán phái sinh Việt Nam",
+      "url": "https://owa.hnx.vn/ftp/PORTALNEW/HEADER_IMAGES/20260415/2026%2004%2015_Derivatives%20Market%20Highlight_QI%202026_FN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cms.apsc.vn",
+      "ref_id": "turn0search16",
+      "snippet": "| TCBS | N/A | 4.57% | 5.12% | 6.32% | 7.18% | 7.49% | 7.45% | 7.75% | ... Với chiến lược mở rộng",
+      "title": "Báo cáo ngành chứng khoán",
+      "url": "https://cms.apsc.vn/wp-content/uploads/2025/12/APSC-19122025-Securities-Sector-Report-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "s3-storage.shs.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "- HSC: 2023 5,4%; 2024 6,5%; 2025 không ghi số. ... - SSI: 2023 10,4%; 2024 9,0%; 2025 11,5%. ... - Vietcap: 2023 5,8%; 2024",
+      "title": "BAO CAO PHAN TICH VCB",
+      "url": "https://s3-storage.shs.com.vn/shs-website/BAO_CAO_PHAN_TICH_VCB_ac2e89f289.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "de.wikipedia.org",
+      "ref_id": "turn0search18",
+      "snippet": "| 6. ... 10. ... Neben der allgemeinen VNR500-Rangliste veröffentlicht Vietnam Report auch eine Liste der 500 umsatzstärksten privaten Unternehmen (nur mit Hauptsitz in Vietnam,",
+      "title": "Liste der größten Unternehmen in Vietnam",
+      "url": "https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Unternehmen_in_Vietnam"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search19",
+      "snippet": "10 Pham Van Bach, Cầu Giấy, Hanoi, Vietnam ... FPT has been listed on the Ho Chi Minh City Stock Exchange since 2006. ... By",
+      "title": "FPT Corporation",
+      "url": "https://en.wikipedia.org/wiki/FPT_Corporation"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search20",
+      "snippet": "6 | Vietcombank Money Incorporated | 75% | Money transfer ... 10 | Vietcombank Bonday Limited | 16% | Real estate ... As of 2025,",
+      "title": "Vietcombank",
+      "url": "https://en.wikipedia.org/wiki/Vietcombank"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit21",
+      "snippet": "Vì bác không là đối tượng, phân khúc của tcbs ấy, tcbs không có đội môi giới/sale/phục vụ bác như các bên khác, bù lại",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search22",
+      "snippet": "Tin nhanh chứng khoán (in Vietnamese). ... \"Vietnam Report công bố danh sách Top 10 Ngân hàng thương mại Việt Nam uy tín năm 2022\".",
+      "title": "Asia Commercial Bank",
+      "url": "https://en.wikipedia.org/wiki/Asia_Commercial_Bank"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search23",
+      "snippet": "Formation | December 27, 2020 ... This non-profit project was started by a group of Vietnamese computer security specialists, including Hieu Minh Ngo, a former",
+      "title": "Chống Lừa Đảo",
+      "url": "https://en.wikipedia.org/wiki/Ch%E1%BB%91ng_L%E1%BB%ABa_%C4%90%E1%BA%A3o"
+     },
+     {
+      "type": "text_result",
+      "domain": "en.wikipedia.org",
+      "ref_id": "turn0search24",
+      "snippet": "On November 24, 2021, Ngo Minh Hieu announced the foundation of ChongLuaDao Company, a social enterprise private limited company. ... Apart from being recognized as",
+      "title": "Hieu Minh Ngo",
+      "url": "https://en.wikipedia.org/wiki/Hieu_Minh_Ngo"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit25",
+      "snippet": "[Thursday January 08 2026] [+1 votes] ... Vietnam Report công bố Top 10 Công ty uy tín ngành Logistics năm 2025.",
+      "title": "Top 10 Công ty uy tín ngành Logistics Vietnam năm 2025",
+      "url": "https://www.reddit.com/r/vietnamtoday/comments/1q71ji8/top_10_c%C3%B4ng_ty_uy_t%C3%ADn_ng%C3%A0nh_logistics_vietnam_n%C4%83m/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit26",
+      "snippet": "chứ VPS nó ăn phí cao quá ... Tcb, dnse đừng add môi giới vào thì không tính phí. ... e dùng SSI thấy oke",
+      "title": "Cần tìm công ty chứng khoán miễn phí giao dịch",
+      "url": "https://www.reddit.com/r/vozforums/comments/1rvz0jy/c%E1%BA%A7n_t%C3%ACm_c%C3%B4ng_ty_ch%E1%BB%A9ng_kho%C3%A1n_mi%E1%BB%85n_ph%C3%AD_giao_d%E1%BB%8Bch/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-95e4ae60-ddc4-45a1-a2ff-1f802a2cdee0",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-95e4ae60-ddc4-45a1-a2ff-1f802a2cdee0",
+    "type": "web_search",
+    "query": "site.vietnamreport.net \"Top 10\" \"chứng khoán\" \"2026\" \"SSI\"",
+    "action": {
+     "type": "search",
+     "query": "site.vietnamreport.net \"Top 10\" \"chứng khoán\" \"2026\" \"SSI\""
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "baomoi.com",
+      "ref_id": "turn1search0",
+      "snippet": "### Ngày 30/6, Vietnam Report công bố danh sách Top 10 Công ty chứng khoán uy tín và Top 5 Công ty tài chính tiêu",
+      "title": "Công bố Top 10 Công ty Chứng khoán uy tín năm 2026 - Báo Kiểm Toán",
+      "url": "https://baomoi.com/cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-c55514836.epi"
+     },
+     {
+      "type": "text_result",
+      "domain": "taichinhcongnghe.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Ngày 30/6, Vietnam Report công bố danh sách Top 10 công ty chứng khoán uy tín năm 2026. ... Theo kết quả công bố, Công",
+      "title": "Infographic | Công bố Top 10 công ty chứng khoán uy tín năm 2026 — Tài chính Công nghệ",
+      "url": "https://taichinhcongnghe.vn/bai-viet/01KWED364BW1RK6CQAGQN6GYMW"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuoitre.vn",
+      "ref_id": "turn1search2",
+      "snippet": "Ngày 21-10-2025, TCX bước vào thị trường với vốn hóa 113.139 tỉ đồng, cao hơn 41% so với mức 80.130 tỉ đồng của SSI cùng",
+      "title": "Top 10 công ty chứng khoán đảo lộn sau một năm - Tuổi Trẻ Online",
+      "url": "https://tuoitre.vn/mot-nam-dao-lon-cua-top-10-cong-ty-chung-khoan-100260829080249243.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "nhadautu.srtc.org.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Ngày 30/6/2026, Vietnam Report công bố Top 10 & Top 5 Công ty uy tín ngành Tài chính năm 2026. Top 10 & Top 5",
+      "title": "Top 10 & Top 5 Công ty uy tín ngành Tài chính năm 2026 và kỳ vọng lớn từ nâng hạng thị trường",
+      "url": "https://nhadautu.srtc.org.vn/en/p/top-10-top-5-cong-ty-uy-tin-nganh-tai-chinh-nam-2026-va-ky-vong-lon-tu-nang-hang-thi-truong"
+     },
+     {
+      "type": "text_result",
+      "domain": "masvn.com",
+      "ref_id": "turn1search12",
+      "snippet": "• Như vậy, theo đánh giá của MSCI, Việt Nam còn nhiều hạn chế liên quan tới hệ thống thanh toán bù trừ, chưa phát",
+      "title": "Vietnam economic report",
+      "url": "https://masvn.com/api/attachment/file/1775638167021-CapNhatTienDoNangHangThiTruongChungKhoanT4.2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Công ty Cổ phần Chứng khoán SSI (SSI) tự hào được vinh danh tại hai hạng mục danh giá do Vietnam Report (VNR) phối hợp",
+      "title": "SSI VINH DỰ NHẬN CÚ ĐÚP GIẢI THƯỞNG UY TÍN TỪ VIETNAM REPORT NĂM 2025",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/ssi-vinh-du-nhan-cu-dup-giai-thuong-uy-tin-tu-vietnam-report-nam-2025"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssiam.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "<th>Tháng 01 năm 2026<br>Jan 2026</th> ... <td>Tỷ lệ nắm giữ chứng chỉ quỹ của 10 nhà đầu tư lớn nhất cuối kỳ<br>Top 10 investors' ownership",
+      "title": "<table id=\"e1\">",
+      "url": "https://ssiam.com.vn/upload/files/QuanLyQuy/20260205%20-%20FUESSV30%20-%20Bao%20cao%20hoat%20dong%20dau%20tu%20thang%2001_2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.abs.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Làn sóng IPO tiếp tục được đẩy mạnh trong thời gian tới nhờ: (i), FTSE Russell thông báo Việt Nam được nâng từ “thị trường",
+      "title": "PowerPoint Presentation",
+      "url": "https://www.abs.vn/wp-content/uploads/2025/12/ABS_BCCL_2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "trading.vietcap.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "# SSI: Cuộc đua môi giới quý II/2026: VPS mất gần 3 điểm % thị phần, VPBankS bất ngờ leo lên top 8 HoSE -",
+      "title": "SSI: Cuộc đua môi giới quý II/2026: VPS mất gần 3 điểm % thị phần, VPBankS bất ngờ leo lên top 8 HoSE - Chi tiết bài viết | Vietcap AI News",
+      "url": "https://trading.vietcap.com.vn/ai-news/post-detail/ssi-cuoc-dua-moi-gioi-quy-ii-2026-vps-mat-gan-3-diem-thi-phan-vpbanks-bat-ngo-leo-len-top-8-hose"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.stockbiz.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Ngày: 06/11/2026 Số trang: 17 Ngôn ngữ: Tiếng Việt Dạng tệp: Image Quy mô: 2.948 Kb ... Diễn biến kém tích cực của thị trường",
+      "title": "Báo cáo ngành Chứng khoán: Q3/2026 | Phân tích ngành",
+      "url": "https://web.stockbiz.vn/Reports/85441/ba-o-ca-o-nga-nh-chu-ng-khoa-n-q3-2026.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Công ty VIC | Vốn hóa điều chỉnh theo free float (tỷ USD) 15.15 | Tỷ trọng trong chỉ số (%) 25.28 | Ngành Bất",
+      "title": "April 2026\nTHỊ TRƯỜNG CHỨNG KHOÁN NÂNG HẠNG\nVị Thế",
+      "url": "https://rs.nguoiquansat.vn/bcpt/bcptcm/bcptcm_160_19690_59.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn1search16",
+      "snippet": "▪Mảng môi giới chứng khoán Q1/2026 ghi nhận sựtăng trưởng tương đối với ... SSI đang dẫn đầu lợi nhuận gộp môi giới, tuy ...",
+      "title": "Cập nhật Kết quả kinh doanh Quý 1 - 2026",
+      "url": "https://rs.nguoiquansat.vn/bcpt/bcptcm/bcptcm_185_20550_59.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**SSI, TCBS, VPS, Vietcap và HSC** là nhóm công ty chứng khoán bạn nên đưa vào danh sách cân nhắc. Tuy nhiên, cần phân biệt **uy tín**, **thị phần lớn** và **phù hợp với nhu cầu của bạn** — ba yếu tố này không hoàn toàn giống nhau.\n\n### Nhóm 10 công ty đáng cân nhắc\nĐể có thước đo rõ ràng, dưới đây là **top 10 theo thị phần môi giới HOSE quý III/2026**, không phải bảng xếp hạng mức độ an toàn:\n\n| Thứ hạng thị phần | Công ty | Thị phần |\n|---|---|---:|\n| 1 | **VPS** | 11,54% |\n| 2 | **SSI** | 11,09% |\n| 3 | **TCBS – Chứng khoán Kỹ Thương** | 10,03% |\n| 4 | **Vietcap** | 7,80% |\n| 5 | **HSC – Chứng khoán TP.HCM** | 6,10% |\n| 6 | **MBS – Chứng khoán MB** | 4,84% |\n| 7 | **VNDirect** | 3,90% |\n| 8 | **KIS Việt Nam** | 3,72% |\n| 9 | **Mirae Asset Việt Nam** | 3,03% |\n| 10 | **VPBankS** | 2,81% |\n\nNguồn: [Công bố thị phần HOSE quý III/2026 được CafeF đăng tải](https://cafef.vn/du-lieu/hose-2991396/hose-thi-phan-gia-tri-giao-dich-moi-gioi-quy-iii-nam-2026.chn).\n\n### Nếu ưu tiên “uy tín” thì chọn bên nào?\n**SSI là cái tên nên xem xét đầu tiên:** công ty đứng đầu bảng xếp hạng *Top 10 Công ty chứng khoán uy tín năm 2026* của Vietnam Report. Bảng này đánh giá dựa trên năng lực tài chính, uy tín truyền thông và khảo sát các bên liên quan. [Nguồn công bố](https://baomoi.com/cong-bo-top-10-cong-ty-chung-khoan-uy-tin-nam-2026-c55514836.epi)\n\n**Gợi ý thực tế:** hãy so sánh **SSI, TCBS và VPS** trước, rồi chọn theo:\n- **Tổng chi phí:** phí mua/bán và lãi margin nếu có vay.\n- **Ứng dụng:** dễ sử dụng, ổn định, bảo mật tốt.\n- **Hỗ trợ:** xử lý sự cố, nạp/rút tiền và chất lượng tư vấn.\n- **Minh bạch:** biểu phí, điều khoản và báo cáo tài chính rõ ràng.\n\n**Lưu ý:** công ty uy tín không bảo đảm đầu tư có lãi. Không chuyển tiền đầu tư vào tài khoản cá nhân của người tự xưng là môi giới.\n\nBạn định **đầu tư dài hạn hay giao dịch thường xuyên**? Mình có thể giúp thu hẹp còn 2–3 lựa chọn phù hợp."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 47394,
+    "cached_input_tokens": 24320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 827,
+    "reasoning_output_tokens": 7
+   }
+  }
+ ],
+ "thread_id": "01a1b006-38c0-75a3-8da6-baae259bb4b1",
+ "error": ""
+}

@@ -1,0 +1,330 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q031-r2",
+ "prompt_id": "Q031",
+ "run": 2,
+ "question": "Người dưới 18 tuổi có mở được tài khoản chứng khoán không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:29",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 32.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b012-dfec-7962-8460-b9b659abb6cb"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-f107b5c7-1bc6-4bc5-b942-8ad7f0153e72",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-f107b5c7-1bc6-4bc5-b942-8ad7f0153e72",
+    "type": "web_search",
+    "query": "Thông tư 120 2020 Điều 6 người chưa đủ 18 tuổi tài khoản giao dịch chứng khoán 15 tuổi",
+    "action": {
+     "type": "search",
+     "query": "Thông tư 120 2020 Điều 6 người chưa đủ 18 tuổi tài khoản giao dịch chứng khoán 15 tuổi"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vanban.org",
+      "ref_id": "turn0search0",
+      "snippet": "Trường hợp phát hiện có rủi ro, sai lệch hoặc có dấu hiệu bất thường giữa các thông tin nhận biết khách hàng với các",
+      "title": "Văn bản hợp nhất 15/VBHN-NHNN: Hướng dẫn việc mở và sử dụng tài khoản thanh toán tại tổ chức cung ứng dịch vụ thanh toán",
+      "url": "https://vanban.org/van-ban/van-ban-hop-nhat-15-vbhn-nhnn-2020-viec-mo-su-dung-tai-khoan-thanh-toan-to-chuc"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search1",
+      "snippet": "## (Chinhphu.vn) - Nhà đầu tư cá nhân mở tài khoản giao dịch tại công ty chứng khoán bao gồm: Người từ đủ 15 tuổi",
+      "title": "Người từ 15 tuổi có thể được mở tài khoản chứng khoán",
+      "url": "https://baochinhphu.vn/nguoi-tu-15-tuoi-co-the-duoc-mo-tai-khoan-chung-khoan-102278121.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "lawplayer.com",
+      "ref_id": "turn0search2",
+      "snippet": "Trường hợp nhà đầu tư mở tài khoản giao dịch, tài khoản ký quỹ bù trừ tại công ty chứng khoán và mở tài khoản",
+      "title": "Thông tư 120/2020/TT-BTC: Quy định giao dịch cổ phiếu niêm yết, đăng ký giao dịch và chứng chỉ quỹ, trái phiếu doanh nghiệp, chứng quyền có bảo đảm niêm yết trên hệ thống giao dịch chứng khoán — Toàn văn, cập nhật 2026 | LawPlayer",
+      "url": "https://lawplayer.com/vn/act/vn-vbpl-146448"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Đối với tài khoản thanh toán của cá nhân, ngân hàng, chi nhánh ngân hàng nước ngoài được quy định và hướng dẫn khách hàng",
+      "title": "Văn bản hợp nhất 15/VBHN-NHNN 2020 hướng dẫn mở và sử dụng tài khoản thanh toán tại tổ chức thanh toán",
+      "url": "https://thuvienphapluat.vn/van-ban/Tien-te-Ngan-hang/Integrated-document-15-VBHN-NHNN-2020-opening-of-checking-accounts-at-payment-service-providers-464088.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search4",
+      "snippet": "b) Người từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị mất hoặc hạn chế năng lực hành vi dân sự; ... Ngân",
+      "title": "Consolidated document 15/VBHN-NHNN in 2020 consolidating Circular guiding the opening and use of payment accounts at payment service providers issued by the Governor of the State Bank of Vietnam",
+      "url": "https://dulieuphapluat.vn/van-ban/tai-chinh-ngan-hang-van-ban/consolidated-document-15vbhn-nhnn-in-2020-consolidating-circular-guiding-the-opening-and-use-of-payment-accounts-at-payment-service-providers-issued-by-the-governor-of-the-state-bank-of-vietnam-1014441.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "lawplayer.com",
+      "ref_id": "turn0search5",
+      "snippet": "# Thông tư Hướng dẫn việc mở và sử dụng tài khoản thanh toán tại tổ chức cung ứng dịch vụ thanh toán Chương III",
+      "title": "Chương III — Mở và sử dụng tài khoản thanh toán tại ngân hàng và chi nhánh ngân hàng nước ngoài · Thông tư Hướng dẫn việc mở và… (Điều 11–Điều 15a) | LawPlayer",
+      "url": "https://lawplayer.com/vn/act/vn-vbpl-145735/section/chapter-3"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbpl.moj.gov.vn",
+      "ref_id": "turn0search6",
+      "snippet": "b) Người từ đủ 15 tuổi đến chưa đủ 18 tuổi không bị mất hoặc hạn chế năng lực hành vi dân sự; c) Người",
+      "title": "Quảng Ngãi",
+      "url": "https://vbpl.moj.gov.vn/quangngai/Pages/vbpq-toanvan.aspx?ItemID=117004&Keyword="
+     },
+     {
+      "type": "text_result",
+      "domain": "dulieuphapluat.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Tài khoản thanh toán của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài mở tại Sở Giao dịch Ngân hàng Nhà nước được",
+      "title": "Văn bản hợp nhất 15/VBHN-NHNN năm 2020 hợp nhất Thông tư hướng dẫn việc mở và sử dụng tài khoản thanh toán tại tổ chức cung ứng dịch vụ thanh toán do Thống đốc Ngân hàng Nhà nước Việt Nam ban hành",
+      "url": "https://dulieuphapluat.vn/van-ban/tai-chinh-ngan-hang-van-ban/van-ban-hop-nhat-15vbhn-nhnn-nam-2020-hop-nhat-thong-tu-huong-dan-viec-mo-va-su-dung-tai-khoan-thanh-toan-tai-to-chuc-cung-ung-dich-vu-thanh-toan-do-thong-doc-ngan-hang-nha-nuoc-viet-nam-ban-hanh-19414.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "congluatviet.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Thỏa thuận mở và sử dụng tài khoản thanh toán giữa ngân hàng, chi nhánh ngân hàng nước ngoài và khách hàng phải bao gồm",
+      "title": "Văn bản hợp nhất 15/VBHN-NHNN năm 2020 do Ngân hàng Nhà nước Việt Nam ban hành hợp nhất Thông tư hướng dẫn… | Cổng Luật Việt",
+      "url": "https://congluatviet.vn/van-ban/van-ban-hop-nhat-nam-2020-do-ngan-hang-nha-nuoc-viet-nam-ban-hanh-hop-15-vbhn-nhnn"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-78af6978-591b-4019-9f4b-7bb356785914",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-78af6978-591b-4019-9f4b-7bb356785914",
+    "type": "web_search",
+    "query": "site.ssi.com.vn \"15 tuổi\" \"tài khoản\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn \"15 tuổi\" \"tài khoản\"",
+      "site.vndirect.com.vn \"chưa đủ 18\" ",
+      "\"120/2020/TT-BTC\" \"15 tuổi\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.sacombank.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Sacombank chính thức triển khai tính năng mở tài khoản thanh toán dành cho khách hàng từ 15 tuổi ngay trên ứng dụng ngân hàng",
+      "title": "Khách hàng từ 15 tuổi đã có thể mở tài khoản trực tuyến qua Sacombank Pay",
+      "url": "https://www.sacombank.com.vn/trang-chu/tin-tuc/tin-sacombank/2025/khach-hang-tu-15-tuoi-da-co-the-mo-tai-khoan-truc-tuyen-qua-sacombank-pay.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.shb.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Ngân hàng TMCP Sài Gòn – Hà Nội (SHB) chính thức áp dụng mở tài khoản thanh toán dành cho khách hàng từ 15 tuổi",
+      "title": "Mở tài khoản SHB 100% online ngay từ tuổi 15 - Ngân hàng SHB",
+      "url": "https://www.shb.com.vn/mo-tai-khoan-shb-100-online-ngay-tu-tuoi-15/"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search2",
+      "snippet": "- Người từ đủ 15 tuổi trở lên không bị hạn chế hoặc mất năng lực hành vi dân sự theo quy định pháp luật",
+      "title": "Độ tuổi mở tài khoản thanh toán tại ngân hàng từ ngày 01/7/2024",
+      "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/66479/do-tuoi-mo-tai-khoan-thanh-toan-tai-ngan-hang-tu-ngay-01-7-2024"
+     },
+     {
+      "type": "text_result",
+      "domain": "ctk.angiang.gov.vn",
+      "ref_id": "turn1search12",
+      "snippet": "+ Thẻ ngân hàng là phương tiện thanh toán do tổ chức phát hành thẻ phát hành để thực hiện giao dịch thẻ theo các",
+      "title": "90\n\n**Công thức tính:**\n\nTỷ lệ người từ 15 tuổi tr",
+      "url": "https://ctk.angiang.gov.vn/Documents/TinTuc/Ngh%E1%BB%8B%20%C4%91%E1%BB%8Bnh-94-2022-N%C4%90-CP.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "agriseco.com.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Theo Thông tư 120/2020/TT-BTC và hướng dẫn của Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam quy định: ... * Người",
+      "title": "Agriseco - Học đầu tư",
+      "url": "https://agriseco.com.vn/Training/Lesson/A/4/vi-VN"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kasikornbank.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "activities.2.1.2 Tiền Gửi Không Kỳ Hạn / Current Deposit- Đối với Tài Khoản Thanh Toán: cá nhân là công dân Việt Nam hoặc người nước",
+      "title": "Ngân Hàng KASIKORN",
+      "url": "https://www.kasikornbank.com.vn/VN/Documents/HistoricalDeposit/VN_KBank%20Interest%20Announcement_No.09_2024_Signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "kienlongbank.com",
+      "ref_id": "turn1search4",
+      "snippet": "## Làm chủ tài chính số từ 15 tuổi cùng KienlongBank Plus ... Theo đó, khách hàng từ đủ 15 tuổi trở lên đã có",
+      "title": "Làm chủ tài chính số từ 15 tuổi cùng KienlongBank Plus - Ngân hàng TMCP Kiên Long",
+      "url": "https://kienlongbank.com/lam-chu-tai-chinh-so-tu-15-tuoi-cung-kienlongbank-plus"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "* Đối với người từ 15 đến dưới 18 tuổi: Theo Thông tư 120/2020/TT-BTC, cá nhân trong độ tuổi này được phép mở tài khoản",
+      "title": "Mở tài khoản chứng khoán cho người dưới 18 tuổi: Quy định & Thủ tục chi tiết",
+      "url": "https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.div.gov.vn",
+      "ref_id": "turn1search6",
+      "snippet": "NHNN vừa ban hành Thông tư 32/2016/TT-NHNN sửa đổi, bổ sung một số điều của Thông tư số 23/2014/TT-NHNN hướng dẫn việc mở và sử",
+      "title": "Người từ đủ 15 tuổi trở lên đều được mở tài khoản thanh toán",
+      "url": "https://www.div.gov.vn/nguoi-tu-du-15-tuoi-tro-len-deu-duoc-mo-tai-khoan-thanh-toan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbbank.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "### 15 tuổi mở tài khoản ngân hàng được không? ... Người 17 tuổi có thể tự mở tài khoản thanh toán nếu có giấy",
+      "title": "Bao nhiêu tuổi làm được thẻ ngân hàng? Quy định về độ tuổi mở thẻ",
+      "url": "https://www.mbbank.com.vn/tin-tuc/blog/bao-nhieu-tuoi-lam-duoc-the-ngan-hang"
+     },
+     {
+      "type": "text_result",
+      "domain": "vnexpress.net",
+      "ref_id": "turn1search8",
+      "snippet": "- Người chưa đủ 15 tuổi, người hạn chế năng lực hành vi dân sự, người mất năng lực hành vi dân sự theo quy",
+      "title": "15 tuổi có được mở tài khoản ngân hàng? - Báo VnExpress",
+      "url": "https://vnexpress.net/15-tuoi-co-duoc-mo-tai-khoan-ngan-hang-4567735.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn1search9",
+      "snippet": "Theo quy định trước đây tại khoản 3 Điều 11 Thông tư 17/2024/TT-NHNN, Việc mở tài khoản thanh toán bằng phương tiện điện tử không",
+      "title": "Người từ 15 đến 18 tuổi được mở tài khoản ngân hàng online từ 31/8/2025",
+      "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/94026/nguoi-tu-15-den-18-tuoi-duoc-mo-tai-khoan-ngan-hang-online-tu-31-8-2025"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search10",
+      "snippet": "Thông tư 120/2020/TT-BTC về giao dịch chứng khoán (ký 31/12/2020) không có điều khoản về tuổi mở tài khoản. Dự thảo của thông tư này",
+      "title": "Cách mở tài khoản chứng khoán online 2026: các bước và lưu ý",
+      "url": "https://reviewchungkhoan.com/mo-tai-khoan-chung-khoan-online/"
+     },
+     {
+      "type": "text_result",
+      "domain": "baomoi.com",
+      "ref_id": "turn1search11",
+      "snippet": "Sau khi tài khoản được mở, người từ 15 đến dưới 18 tuổi có thể sử dụng tài khoản để nhận tiền, chuyển khoản, thanh",
+      "title": "Người từ 15 đến dưới 18 tuổi có được mở tài khoản ngân hàng online không? - Báo Thời Báo Ngân Hàng",
+      "url": "https://baomoi.com/nguoi-tu-15-den-duoi-18-tuoi-co-duoc-mo-tai-khoan-ngan-hang-online-khong-c54202518.epi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ctbcbank.com",
+      "ref_id": "turn1search14",
+      "snippet": "“Các Khoản Nợ” có nghĩa là tất cả các khoản tiền, nghĩa vụ và khoản nợ hiện tại hoặc bất kỳ thời điểm nào sau",
+      "title": "General Terms and Conditions for  account opening 2017 - VieEng - smallfont",
+      "url": "https://www.ctbcbank.com/content/dam/twcbo/files/eform/vn/General_Terms_and_Conditions_for_account_opening_2017_03_Final.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "media.techcombank.com",
+      "ref_id": "turn1search15",
+      "snippet": "SO SÁNH CÁC GÓI TÀI KHOẢN TECHCOMBANK ... nhân từ 15 tuổi trở ... Phí quản lý tài khoản: áp dụng theo biểu phí ...",
+      "title": "SO SÁNH CÁC GÓI TÀI KHOẢN TECHCOMBANK",
+      "url": "https://media.techcombank.com/uploads/Chi_tiet_cac_loai_tai_khoan_Techcombank_5dce5e2f0e_48a1d2549e.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-a086998f-5ab8-40c4-98a3-709f91caed33",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-a086998f-5ab8-40c4-98a3-709f91caed33",
+    "type": "web_search",
+    "query": "https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn2view0",
+      "snippet": "Total lines: 276",
+      "title": "Mở tài khoản chứng khoán cho người dưới 18 tuổi: Quy định & Thủ tục chi tiết",
+      "url": "https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "**Có, nhưng tùy độ tuổi và điều kiện của công ty chứng khoán tại Việt Nam.**\n\n- **Từ đủ 15 đến dưới 18 tuổi:** có thể mở tài khoản tại công ty có hỗ trợ, thường cần **sự đồng ý bằng văn bản của người đại diện theo pháp luật** như cha, mẹ hoặc người giám hộ.\n- **Dưới 15 tuổi:** không thể tự mở và tự giao dịch; trường hợp có tài sản chứng khoán cần thực hiện thông qua người đại diện theo pháp luật. [Hướng dẫn của Chứng khoán VFS](https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi).\n\nHồ sơ thường gồm giấy tờ căn cước của bạn và người đại diện, giấy khai sinh hoặc giấy tờ chứng minh quan hệ đại diện, cùng văn bản đồng ý. Bạn nên liên hệ công ty trước khi đến vì thủ tục cho người dưới 18 tuổi có thể phải làm trực tiếp, không mở online như thông thường. [Hồ sơ và thủ tục tham khảo](https://www.vfs.com.vn/mo-tai-khoan-chung-khoan-cho-nguoi-duoi-18-tuoi).\n\nBạn bao nhiêu tuổi và định mở ở công ty chứng khoán nào?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 60135,
+    "cached_input_tokens": 35456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 481,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b012-dfec-7962-8460-b9b659abb6cb",
+ "error": ""
+}

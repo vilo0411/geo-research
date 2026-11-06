@@ -1,0 +1,159 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q008-r2",
+ "prompt_id": "Q008",
+ "run": 2,
+ "question": "Trái phiếu doanh nghiệp có an toàn không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:38:58",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 23.9,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b002-d690-7e33-b68b-3b964f1bac8a"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-8c533e4f-c7f9-48a7-8732-a7d26623f787",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-8c533e4f-c7f9-48a7-8732-a7d26623f787",
+    "type": "web_search",
+    "query": "site.chinhphu.vn trái phiếu doanh nghiệp nhà đầu tư tự chịu trách nhiệm không bảo lãnh ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.chinhphu.vn trái phiếu doanh nghiệp nhà đầu tư tự chịu trách nhiệm không bảo lãnh",
+      "site.hnx.vn trái phiếu doanh nghiệp rủi ro nhà đầu tư thanh toán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search0",
+      "snippet": "HNX là công ty con của Sở Giao dịch Chứng khoán Việt Nam (VNX), hoạt động theo mô hình công ty trách nhiệm hữu hạn",
+      "title": "Hỏi đáp",
+      "url": "https://www.hnx.vn/vi-vn/hoi-dap.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "cbonds.hnx.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Doanh nghiệp phát hành trái phiếu chịu trách nhiệm trước pháp luật, trước nhà đầu tư về tính chính xác, trung thực, đầy đủ,",
+      "title": "Danh sách trái phiếu - CBIS Portal",
+      "url": "https://cbonds.hnx.vn/to-chuc-phat-hanh/danh-sach-trai-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Doanh nghiệp phát hành trái phiếu theo nguyên tắc tự vay, tự trả, tự chịu trách nhiệm về hiệu quả sử dụng vốn và đảm",
+      "title": "Quy định mới về phát hành trái phiếu và trách nhiệm của doanh nghiệp",
+      "url": "https://baochinhphu.vn/quy-dinh-moi-ve-phat-hanh-trai-phieu-va-trach-nhiem-cua-doanh-nghiep-102260610102225292.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Theo đó, thực hiện chỉ đạo của Thủ tướng Chính phủ, Bộ Tài chính đã phối hợp với các Bộ, ngành, tham vấn, tiếp thu",
+      "title": "Cảnh báo rủi ro trên thị trường trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "xaydungchinhsach.chinhphu.vn",
+      "ref_id": "turn0search4",
+      "snippet": "d) Việc xác định nhà đầu tư chứng khoán chuyên nghiệp là cá nhân theo quy định tại điểm d khoản 1 Điều 11 Luật",
+      "title": "TOÀN VĂN Nghị định 65/2022/NĐ-CP về chào bán trái phiếu doanh nghiệp",
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-65-2022-nd-cp-sua-doi-bo-sung-mot-so-dieu-nghi-dinh-153-2020-nd-cp-quy-dinh-ve-chao-ban-giao-dich-trai-phieu-doanh-nghiep-rieng-le-tai-thi-truong-trong-nuoc-va-chao-ban-trai-phieu-doanh-nghiep-ra-thi-truong-quoc-te-11922091817354034.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Đối với trái phiếu doanh nghiệp riêng lẻ, để được mua, giao dịch trái phiếu doanh nghiệp riêng lẻ, nhà đầu tư cá nhân phải",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620167931"
+     },
+     {
+      "type": "text_result",
+      "domain": "vanban.org",
+      "ref_id": "turn0search6",
+      "snippet": "a) Đối với trái phiếu không chuyển đổi, không kèm chứng quyền riêng lẻ: đối tượng tham gia mua, giao dịch, chuyển nhượng trái phiếu",
+      "title": "Điều 9 Nghị định 200/2026/NĐ-CP: Nhà đầu tư tham gia mua, giao dịch, chuyển nhượng trái phiếu doanh nghiệp riêng lẻ",
+      "url": "https://vanban.org/van-ban/nghi-dinh-200-2026-nd-cp-chao-ban-giao-dich-trai-phieu-doanh-nghiep-rieng-le-thi/dieu-9"
+     },
+     {
+      "type": "text_result",
+      "domain": "mof.gov.vn",
+      "ref_id": "turn0search12",
+      "snippet": "<td>Thị trường niêm yết, giao dịch TPDN được tổ chức tại HNX và HOSE; trái phiếu niêm yết được giao dịch theo phương thức thỏa",
+      "title": "BAO CAO THUONG NIEN 2025_CT.cdr",
+      "url": "https://mof.gov.vn/api/mediafile/media-article/712a4214-9189-4554-a274-9ea982345c9c/a263b3cf-0145-4c6a-9e1a-26a145fee9cd.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "congluatviet.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Nhà nước không bảo đảm việc doanh nghiệp phát hành trái phiếu thanh toán đầy đủ, đúng hạn lãi, gốc trái phiếu khi đến hạn",
+      "title": "Nghị định số 200/2026/NĐ-CP Quy định về chào bán, giao dịch trái phiếu doanh nghiệp riêng lẻ tại thị trường… | Cổng Luật Việt",
+      "url": "https://congluatviet.vn/van-ban/nghi-dinh-quy-dinh-ve-chao-ban-giao-dich-trai-phieu-doanh-nghiep-200-2026-nd-cp"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsi.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Ngày 17 tháng 5 năm 2023, Bộ trưởng Bộ Tài chính ban hành Thông tư số 30/2023/TT-BTC hướng dẫn việc đăng ký, lưu ký, thực",
+      "title": "Hướng dẫn Nhà đầu tư tham gia giao dịch trái phiếu doanh nghiệp riêng lẻ tại Sở Giao dịch Chứng khoán Hà Nội",
+      "url": "https://sbsi.vn/vi-vn/ve-sbsi/chi-tiet-bai-viet/ve-sbsc/tin-sbsi/E6/115441"
+     },
+     {
+      "type": "text_result",
+      "domain": "portal.mof.gov.vn",
+      "ref_id": "turn0search13",
+      "snippet": "chứng khoán là thành viên giao dịch không đảm bảo nhà đầu tư thuộc đúng đối ... giao dịch trái phiếu doanh nghiệp riêng lẻ",
+      "title": "CHÍNH PHỦ \nCỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM \nĐộc",
+      "url": "https://portal.mof.gov.vn/webcenter/vbdt/backend/DT__ND_sua_doi_bs_tai_san_ma_hoa_05_5_2025__ban_sach_dang_web__20250513112516.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Trái phiếu doanh nghiệp không an toàn tuyệt đối: bạn có thể bị chậm trả lãi, gốc hoặc mất một phần, thậm chí toàn bộ vốn.** Đây là khoản bạn cho doanh nghiệp vay, không phải tiền gửi tiết kiệm. Nhà nước không bảo đảm doanh nghiệp trả nợ đúng hạn. [Nguồn: HNX](https://cbonds.hnx.vn/to-chuc-phat-hanh/danh-sach-trai-phieu)\n\nMức độ an toàn phụ thuộc vào:\n- **Khả năng trả nợ:** doanh nghiệp có dòng tiền thực để trả nợ hay phải vay mới trả nợ cũ?\n- **Điều khoản bảo vệ:** tài sản bảo đảm là gì, giá trị và khả năng xử lý ra sao? Có tài sản bảo đảm không đồng nghĩa chắc chắn thu hồi đủ tiền.\n- **Khả năng bán lại:** khi cần tiền trước hạn, bạn có thể không tìm được người mua hoặc phải bán lỗ.\n- **Bảo lãnh thực sự:** ngân hàng phân phối trái phiếu không có nghĩa ngân hàng bảo lãnh thanh toán; cần đọc cam kết cụ thể.\n\n**Trước khi mua**, hãy xem báo cáo tài chính kiểm toán, lịch sử trả nợ, mục đích sử dụng vốn và điều kiện mua lại trước hạn. Đừng quyết định chỉ vì lãi suất cao hoặc lời giới thiệu của người bán. [Khuyến cáo của Bộ Tài chính](https://xaydungchinhsach.chinhphu.vn/bo-tai-chinh-khuyen-cao-nha-dau-tu-ca-nhan-than-trong-khi-mua-trai-phieu-doanh-nghiep-119220820170041606.htm)\n\nNếu đây là **tiền dự phòng hoặc tiền sắp cần dùng**, không nên đặt vào trái phiếu doanh nghiệp.\n\nBạn đang cân nhắc trái phiếu của doanh nghiệp nào, lãi suất và kỳ hạn bao nhiêu?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22038,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 484,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b002-d690-7e33-b68b-3b964f1bac8a",
+ "error": ""
+}

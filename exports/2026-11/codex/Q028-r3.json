@@ -1,0 +1,388 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q028-r3",
+ "prompt_id": "Q028",
+ "run": 3,
+ "question": "Phí giao dịch phái sinh ở công ty chứng khoán nào rẻ nhất?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:55:23",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 41.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-de63-7b50-b678-639a18499c51"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5577a409-fec8-4bb5-93cf-6c1510edfdec",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5577a409-fec8-4bb5-93cf-6c1510edfdec",
+    "type": "web_search",
+    "query": "phí giao dịch phái sinh DNSE 0 đồng 2026 phí HSC VPS MBS ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "phí giao dịch phái sinh DNSE 0 đồng 2026 phí HSC VPS MBS",
+      "phí giao dịch phái sinh 2026 miễn phí giao dịch chứng khoán công ty"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu phí giao dịch chứng khoán phái sinh ... (Áp dụng từ ngày 30 tháng 03 năm 2026) ... 1.6 | Phí ứng tiền bán",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở",
+      "url": "https://www.phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aisec.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "| Phí Mở tài khoản chứng khoán | Miễn phí | ... | 6 tháng đầu sau khi mở tài khoản | Phí giao dịch",
+      "title": "Biểu phí dịch vụ",
+      "url": "https://www.aisec.com.vn/service-tariff"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Công ty Cổ phần Chứng khoán TP HCM (HSC) xin trân trọng thông báo đến Quý khách hàng về việc điều chỉnh phí giao dịch",
+      "title": "Thông báo Điều chỉnh phí giao dịch phái sinh",
+      "url": "https://www.hsc.com.vn/vi/thong-bao-dieu-chinh-phi-giao-dich-phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "acbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "ACBS cung cấp dịch vụ mở tài khoản chứng khoán cho NĐT là cá nhân trong nước, cá nhân nước ngoài, các tổ chức, quỹ",
+      "title": "Sản phẩm dịch vụ - ACBS - Nắm bắt cơ hội, đầu tư hiệu quả",
+      "url": "https://acbs.com.vn/kh-co-chuyen-vien-tu-van/san-pham-dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "* Miễn phí dịch vụ quản lý tài sản ký quỹ: 0,0024% giá trị lũy kế số dư tài sản ký quỹ, tối đa 1.600.000",
+      "title": "Ký quỹ Phái Sinh – DNSE “lo” phí!",
+      "url": "https://www.dnse.com.vn/hoc/ky-quy-phai-sinh-dnse-lo-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search5",
+      "snippet": "Phái sinh DNSE: phí 1.000 đồng/HĐ giảm dần còn 300, cọc 18,48% đã cộng phí Sở, VSDC và thuế, ngưỡng cảnh báo, xử lý, Cài",
+      "title": "Phái sinh DNSE 2026: phí, cọc 18,48%, cài lãi lỗ và giờ KRX",
+      "url": "https://reviewchungkhoan.com/phai-sinh-dnse/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vps.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm Đồng hành cùng bạn đón sóng tài lộc đầu năm mới,",
+      "title": "Phái Sinh | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://www.vps.com.vn/ca-nhan/san-pham-dich-vu/phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search7",
+      "snippet": "## Áp dụng kể từ ngày 27 tháng 07 năm 2026 ... 14 | Đăng ký / Xóa đăng ký giao dịch bảo đảm; Phong",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "* Hiệu lực từ ngày: 16/03/2026 ... – Bán cổ phiếu lẻ cho MBS: 0,45%/ Tổng giá trị chứng khoán lô lẻ thực hiện giao",
+      "title": "Biểu phí giao dịch - MBS",
+      "url": "https://www.mbs.com.vn/bieu-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "congtychungkhoan.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Tổng hợp biểu phí giao dịch của các công ty chứng khoán tại Việt Nam. ... [Button: Cơ sở][Button: Phái sinh] ... Công cụ tính",
+      "title": "Biểu phí giao dịch chứng khoán — Tổng hợp các CTCK | Congtychungkhoan.vn",
+      "url": "https://congtychungkhoan.vn/bieu-phi-giao-dich"
+     },
+     {
+      "type": "text_result",
+      "domain": "onehousing.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* Giá dịch vụ quản lý tài sản ký quỹ: 0,0024% giá trị lũy kế số dư tài sản ký quỹ/tài khoán/tháng (tối đa 1.600.000",
+      "title": "Biểu phí giao dịch chứng khoán phái sinh tại MBS quy định ra sao?",
+      "url": "https://onehousing.vn/blog/bieu-phi-giao-dich-chung-khoan-phai-sinh-tai-mbs-quy-dinh-ra-sao-n17t"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Phí giao dịch, lãi margin, ưu đãi khách mới, ứng dụng và cách mở tài khoản của SSI, TCBS (Techcombank Securities), VPS, MBS và DNSE.",
+      "title": "So sánh 5 công ty chứng khoán 2026: SSI, TCBS, VPS, MBS, DNSE",
+      "url": "https://dautuvn.vn/chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "api.vcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Khách hàng mở mới TKGDCK tại VCBS là các Khách hàng chưa từng có TKGDCK tại VCBS hoặc các Khách hàng đã đóng TKGDCK",
+      "title": "Ng©n hµng Ngo¹i th­ng ViÖt Nam",
+      "url": "https://api.vcbs.com.vn/storage/upload/media/1-the-le-chuong-trinh-mien-phi-gdck-phai-sinh-2023-28022023.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "jst.tnu.edu.vn",
+      "ref_id": "turn0search13",
+      "snippet": "+ Phí giao dịch chứng khoán phái sinh nộp ... Kết quả giao dịch chứng khoán phái | --- | --- + Phí khi nộp/rút",
+      "title": "TNU Journal of Science and Technology",
+      "url": "https://jst.tnu.edu.vn/jst/article/download/1317/pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Động thái giảm lãi cho vay và phí giao dịch của các CTCK... ... Năm 2019, lãi suất cho vay margin thường dao động trong",
+      "title": "Ngành Chứng khoán",
+      "url": "https://www.mbs.com.vn/media/xdnhyus5/mbs-talk_full_29-09-2021.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Mảng Dịch vụ chứng khoán của TCBS đã ghi nhận những kết quả tích cực trong năm 2024, với doanh thu đạt 3.214 tỷ đồng,",
+      "title": "MẢNG DỊCH VỤ CHỨNG KHOÁN",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-24/155706_000000014665875_VI_BaoCaoThuongNien_2024.pdf_TCBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "storage.googleapis.com",
+      "ref_id": "turn0search16",
+      "snippet": "tức, đề xuất nào liên quan đến Giao Dịch Chứng Khoán Phái Sinh từ bất kỳ ai, kể cả nhân viên và người có liên",
+      "title": "HĐMTK TCTN (mẫu 2 tỷ).cdr",
+      "url": "https://storage.googleapis.com/hsc-cweb/knowledge/3-hdmtk-tctn-10-10-2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.aseansc.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Tầng 4,5,6,7 Tòa nhà Số 3 Đặng Thái Thân, phường Phan Chu Trinh, ... Việc thay đổi nội dung, hình thức thu và mức thu",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN ASEAN",
+      "url": "https://www.aseansc.com.vn/policy/dieu-khoan-giao-dich-chung-khoan.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-6d5e2905-995b-4458-b8b5-acbbd501a6bd",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-6d5e2905-995b-4458-b8b5-acbbd501a6bd",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn phái sinh biểu phí miễn phí 2026 2700 2550 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn phái sinh biểu phí miễn phí 2026 2700 2550",
+      "site.pinetree.vn phái sinh biểu phí miễn phí",
+      "site.dnse.com.vn \"1.000\" \"01/05/2026\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search0",
+      "snippet": "Biểu phí dịch vụ chứng khoán tại Pinetree từ ngày 21/10/2026: Tại đây ... Biểu phí áp dụng cho sản phẩm phái sinh áp dụng",
+      "title": "Chính sách phí - Pinetree Securities",
+      "url": "https://pinetree.vn/post/dich-vu/chinh-sach-phi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search1",
+      "snippet": "Mirae Asset | Phái sinh 0đ phí Mirae Asset Tiểu khoản phái sinh mở mới 01/09–31/12/2026; vẫn thu phí Sở, VSDC | 0đ/HĐ | 31/12/2026",
+      "title": "Ưu đãi đang chạy của các công ty chứng khoán | Review Chứng Khoán",
+      "url": "https://reviewchungkhoan.com/ctck/uu-dai/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search2",
+      "snippet": "* Nạp, rút, đóng tài khoản: Pinetree không thu phí nạp, rút riêng; đóng tài khoản miễn phí nhưng cần giấy đề nghị nộp tại",
+      "title": "Chứng khoán Pinetree có tốt không? Đánh giá Pinetree",
+      "url": "https://reviewchungkhoan.com/ctck/pinetree/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search3",
+      "snippet": "Phí CTCK thu cho mỗi hợp đồng VN30F, mỗi lượt mở hoặc đóng, theo số hợp đồng khớp trong ngày. ... Bảng có 21 trong",
+      "title": "Phí giao dịch phái sinh 2026: bảng phí của 21 CTCK",
+      "url": "https://reviewchungkhoan.com/phi-giao-dich-phai-sinh/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.scribd.com",
+      "ref_id": "turn1search4",
+      "snippet": "công ty chứng khoán khác về Pinetree Miễn phí ... 1 Giao dịch tiền mặt: Nộp tiền vào Tài khoản giao dịch ... Áp dụng",
+      "title": "PT Schedules of Fees 27.01.2026 | PDF",
+      "url": "https://www.scribd.com/document/1012131357/PT-Schedules-of-Fees-27-01-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search12",
+      "snippet": "❖ Khách hàng đăng nhập vào Website giao dịch: trade.pinetree.vn, chọn mục “Phái Sinh” để xem bảng giá ... Bên trái là biểu đồ nến",
+      "title": "HƯỚNG DẪN ĐẶT LỆNH GIAO DỊCH CK PHÁI SINH TRÊN WEB TRADING",
+      "url": "https://pinetree.vn/wp-content/uploads/2024/07/PTSV_Huong-dan-Giao-dich-Phai-Sinh_VI_decrypt.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search5",
+      "snippet": "Ở TCBS, DNSE và Pinetree, khách gắn với đối tác giới thiệu chịu biểu phí cao hơn khách tự mở; Shinhan, ACBS và KB Bestie",
+      "title": "Công ty chứng khoán miễn phí giao dịch 2026 và điều kiện",
+      "url": "https://reviewchungkhoan.com/cong-ty-chung-khoan-mien-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "TCBS áp dụng chính sách phí cạnh tranh và nhiều ưu đãi, bao gồm: ... • Miễn phí giao dịch cổ phiếu, chứng quyền, chứng",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-cho-khnn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Chứng khoán Pinetree là công ty tiên phong với chính sách miễn phí giao dịch trọn đời cho mọi khách hàng. ... Nhiều công ty",
+      "title": "Tại sao nhà đầu tư nên chọn công ty chứng khoán miễn phí giao dịch trọn đời? - Pinetree Securities",
+      "url": "https://pinetree.vn/post/20250303/tai-sao-nen-chon-giao-dich-chung-khoan-mien-phi-tron-doi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn1search8",
+      "snippet": "## Biểu phí giao dịch miễn phí và lãi suất margin tại Pinetree Dưới đây là chi tiết biểu phí dịch vụ giao dịch trực",
+      "title": "Đánh giá công ty chứng khoán Pinetree: Miễn phí trọn đời có bẫy? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-pinetree-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search9",
+      "snippet": "Từ 01/05/2026, phí DNSE là 1.000 đồng mỗi hợp đồng mỗi chiều khi dưới 100 hợp đồng/ngày, giảm dần còn 300 đồng ở khối lượng",
+      "title": "Phái sinh DNSE 2026: phí, cọc 18,48%, cài lãi lỗ và giờ KRX",
+      "url": "https://reviewchungkhoan.com/phai-sinh-dnse/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search10",
+      "snippet": "Miễn phí mở tài khoản chọn số đẹp ... ### Khám phá thêm những quyền lợi đặc biệt khi giao dịch tại TCBS ... Miễn",
+      "title": "Ưu đãi giao dịch cổ phiếu tại TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn1search11",
+      "snippet": "Pinetree trân trọng thông báo Biểu phí Dịch vụ Chứng khoán áp dụng tại Pinetree từ ngày 23/04/2024 như sau: ... * Website: www.pinetree.vn",
+      "title": "Pinetree_ Cập nhật Biểu phí Dịch vụ chứng khoán có hiệu lực từ ngày 23/04/2024 - Pinetree Securities",
+      "url": "https://pinetree.vn/post/20240423/pinetree_-cap-nhat-bieu-phi-dich-vu-chung-khoan-co-hieu-luc-tu-ngay-24-04-2024/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "nộp thuế, phí, lệ phí và chi phí khác của TCBS. ... 6.1.1 Thanh toán lỗ vị thế: Khách hàng lỗ vị thế có nghĩa",
+      "title": "TCBS – Mẫu biểu Điều khoản và điều kiện về giao dịch chứng khoán phái sinh",
+      "url": "https://www.tcbs.com.vn/documents/392342/500603/TCBS-B%E1%BB%99%2B%C4%91i%E1%BB%81u%2Bkho%E1%BA%A3n%2Bv%C3%A0%2B%C4%91i%E1%BB%81u%2Bki%E1%BB%87n_08.2021.pdf/989dbe1e-6a21-4ec1-82b1-c5a6b21e5560"
+     },
+     {
+      "type": "text_result",
+      "domain": "cmsv5.fiingroup.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Kiên trì với chiến lược trên kết hợp với chính sách Zero Fee, thị phần môi giới chứng khoán (tại Sở giao dịch Chứng khoán",
+      "title": "MẢNG DỊCH VỤ CHỨNG KHOÁN",
+      "url": "https://cmsv5.fiingroup.vn/medialib/FG/2025/2025-03/2025-03-24/155706_000000014665875_VI_BaoCaoThuongNien_2024.pdf_TCBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mobiv2.fireant.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Cuối năm 2025, TCBS có các khoản vay tại các tổ chức tài chính quốc tế với tổng giá trị 330 triệu đô, chiếm 27%",
+      "title": "TCBS | BÁO CÁO THƯỜNG NIÊN 2025",
+      "url": "https://mobiv2.fireant.vn/News/NewsAttachedFile/1867216"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn1search16",
+      "snippet": "Các hợp đồng tương lai (HĐTL) niêm yết sau thời điểm 02/05/2025 sẽ được đánh mã theo quy định mới của HNX: Gồm 9 ký",
+      "title": "HƯỚNG DẪN GIAO DỊCH CHỨNG KHOÁN PHÁI SINH",
+      "url": "https://tcsc.vn/uploads/san-pham-dich-vu/giao-dich-chung-khoan-phai-sinh_krx_05.05.2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "gocolumbialions.com",
+      "ref_id": "turn1search17",
+      "snippet": "BY-GAME NKLIN, Miles | | | | | | | | | | | | | | | | | | | --- | ---",
+      "title": "LIVE STATS: GoColumbiaLions.com",
+      "url": "https://gocolumbialions.com/documents/download/2026/2/11/Games_23___24_-_Penn___Princeton.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Nếu bạn hỏi phái sinh VN30 tại Việt Nam, TCBS thuộc nhóm rẻ nhất về phí môi giới: 0 đồng/hợp đồng**, theo chính sách miễn phí giao dịch đang công bố. Tuy nhiên, **0 đồng phí môi giới không có nghĩa là tổng chi phí bằng 0**. [Chính sách TCBS](https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu/)\n\nMột số mức phí đáng so sánh, tra cứu ngày **06/11/2026**:\n\n| Công ty | Phí công ty chứng khoán thu | Điều kiện đáng chú ý |\n|---|---:|---|\n| **TCBS** | **0đ/HĐ** | Cần kiểm tra chính sách áp dụng cho tài khoản cụ thể |\n| **HSC** | **1.000đ/HĐ** | Miễn phí nếu giao dịch từ 15.000 HĐ/ngày |\n| **AIS** | **0đ cho 20 HĐ đầu/ngày** | Trong 3 tháng đầu; từ HĐ thứ 21 là 1.000đ. Từ tháng 4: 2.000đ nếu dưới 200 HĐ/ngày, 1.000đ nếu từ 200 HĐ/ngày |\n\nNguồn: [TCBS](https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu/), [HSC](https://www.hsc.com.vn/vi/thong-bao-dieu-chinh-phi-giao-dich-phai-sinh), [AIS](https://www.aisec.com.vn/service-tariff).\n\n**Khoản dễ bị bỏ sót:** với HĐTL chỉ số, ngoài phí môi giới còn có phí HNX **2.700đ/HĐ/lượt**, phí bù trừ VSDC **2.550đ/HĐ/lượt**, thuế và có thể có phí nộp/rút, quản lý tài sản ký quỹ. Vì vậy, ngay cả khi miễn phí môi giới, một lượt mở rồi đóng 1 HĐ vẫn có **10.500đ phí HNX + VSDC**, chưa tính thuế và phí khác. [Biểu phí AIS](https://www.aisec.com.vn/service-tariff)\n\n**Kết luận:** nếu chỉ xét phí môi giới, hãy xem **TCBS trước**; để biết nơi rẻ nhất về *tổng chi phí*, cần tính theo cách bạn giao dịch.\n\nBạn thường giao dịch khoảng **bao nhiêu hợp đồng/ngày**, và có giữ vị thế qua đêm không?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51545,
+    "cached_input_tokens": 23552,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 735,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-de63-7b50-b678-639a18499c51",
+ "error": ""
+}

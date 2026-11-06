@@ -1,0 +1,199 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q041-r1",
+ "prompt_id": "Q041",
+ "run": 1,
+ "question": "Mua chứng quyền ở đâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:01:10",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 18.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b017-2bb5-7bb0-b6e9-f1bb80c28fc6"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-26ec18ca-86d6-44c4-bb9e-3878641815d3",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-26ec18ca-86d6-44c4-bb9e-3878641815d3",
+    "type": "web_search",
+    "query": "site.hsx.vn chứng quyền có bảo đảm mua tài khoản chứng khoán ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.hsx.vn chứng quyền có bảo đảm mua tài khoản chứng khoán",
+      "site.ssi.com.vn chứng quyền có bảo đảm mua bán tài khoản chứng khoán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "– Sơ cấp: Đăng ký mua tại sàn giao dịch của VNDIRECT – CW niêm yết trên HSX: Mua/bán chứng quyền đã niêm yết trên",
+      "title": "Cách thức giao dịch Chứng quyền có bảo đảm - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/dich-vu-chung-khoan/san-pham-dich-vu/chung-quyen/cach-t-huc-giao-dich-chung-quyen-co-bao-dam/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "iBoard Web | - NĐT truy cập: https://iboard.ssi.com.vn/ipo/information | - NĐT đăng ký mua IPO chứng quyền online và các thủ tục sẽ được thực",
+      "title": "Hướng dẫn giao dịch chứng quyền có đảm bảo tại SSI",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/huong-dan-giao-dich-chung-quyen-co-bao-dam"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Công bố Báo cáo tài chính hợp nhất Quý 3 năm 2026 ... Công bố thông tin điều chỉnh chứng quyền có bảo đảm ...",
+      "title": "Công Bố Thông Tin",
+      "url": "https://www.ssi.com.vn/quan-he-nha-dau-tu/cong-bo-thong-tin"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tvsi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Chứng quyền có bảo đảm là chứng khoán có tài sản đảm bảo do công ty ... Có hai loại chứng quyền có bảo đảm:",
+      "title": "SỞ GIAO DỊCH CHỨNG KHOÁN THÀNH PHỐ HỒ CHÍ MINH",
+      "url": "https://www.tvsi.com.vn/TVSIDocument/Nhung-cau-hoi-thuong-gap-ve-san-pham-Chung-quyen-co-dam-bao.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search13",
+      "snippet": "- Tên chứng quyền, tên chứng khoán cơ sở, tổ chức phát hành chứng khoán cơ sở, loại chứng quyền (mua/bán), kiểu thực hiện (châu",
+      "title": "VI. CÁC THÔNG TIN VỀ CHỨNG QUYỀN CÓ BẢO ĐẢM",
+      "url": "https://ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=d%E1%BB%B1+th%E1%BA%A3o+th%C3%B4ng+t%C6%B0+v%E1%BB%81+ch%E1%BB%A9ng+quy%E1%BB%81n+c%C3%B3+b%E1%BA%A3o+%C4%91%E1%BA%A3m&allowInterrupt=1&dDocName=APPSSCGOVVN162141737&dID=102802&filename=TT107sd_03.1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Chứng khoán có cùng chứng khoán cơ sở của chứng quyền bao gồm chứng khoán thực có trên tài khoản tự doanh và chứng khoán",
+      "title": "3\n\nkhoán có cùng chứng khoán cơ sở của chứng quyền",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2428423/122.2025%20TT-BTC.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.24hmoney.vn",
+      "ref_id": "turn0search15",
+      "snippet": "CHÀO BÁN CHỨNG QUYỀN CÓ BẢO ĐẢM ... - **Bước 3:** Nhà đầu tư nộp Bộ hồ sơ Đăng ký MUA chứng quyền có bảo",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://cdn.24hmoney.vn/medialib/Crawler/2023/2023-08/2023-08-03/20230803_20230803-Chung-quyen-ACB.4M.SSI.C.EU.Cash-14-Ban-cao-bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Tôi có thể giao dịch Chứng quyền có bảo đảm (CW) bằng cách nào? ... * Sơ cấp: Đăng ký mua CW qua sàn giao",
+      "title": "Chứng quyền bảo đảm (CW) – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/360003090733-Ch%E1%BB%A9ng-quy%E1%BB%81n-b%E1%BA%A3o-%C4%91%E1%BA%A3m-CW"
+     },
+     {
+      "type": "text_result",
+      "domain": "shinhansec.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "3.1 Đối với đăng ký mua trực tuyến: Quý khách phải bảo đảm rằng tài khoản giao dịch chứng khoán cơ sở phải có đủ",
+      "title": "Hướng dẫn sử dụng dịch vụ",
+      "url": "https://shinhansec.com.vn/vi/ho-tro-khach-hang/huong-dan-su-dung-dich-vu/dang-ky-mua-chung-quyen-co-bao-dam.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "NĐT phải đảm bảo có đủ chứng khoán khi đặt lệnh bán và đủ tiền ký quỹ khi đặt lệnh mua theo quy định. ...",
+      "title": "Quy định chung",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/quy-dinh-chung"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Trên Ứng dụng Vietcap, Người dùng có thể Đăng ký mua Chứng quyền có đảm bảo do Vietcap phát hành bằng cách truy cập vào",
+      "title": "[Mobile] Đăng ký mua Chứng quyền có đảm bảo - Vietcap",
+      "url": "https://www.vietcap.com.vn/huong-dan-chung/mobile-dang-ky-mua-chung-quyen-co-dam-bao"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Tải về Giấy đăng ký mua chứng quyền có bảo đảm theo mẫu của VNDIRECT phía dưới bài viết này, sau đó in, điền",
+      "title": "Hướng dẫn mua chứng quyền có đảm bảo do VNDIRECT phát hành đợt 01.2026 – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/51329040204825-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-mua-ch%E1%BB%A9ng-quy%E1%BB%81n-c%C3%B3-%C4%91%E1%BA%A3m-b%E1%BA%A3o-do-VNDIRECT-ph%C3%A1t-h%C3%A0nh-%C4%91%E1%BB%A3t-01-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "cw.phs.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Là một loại chứng quyền/quyền chọn, chứng quyền có bảo đảm cho người nắm giữ quyền, nhưng không bắt buộc, mua một tài sản cơ",
+      "title": "FAQ - Câu Hỏi Thường Gặp Về Chứng Quyền Có Bảo Đảm - Phú Hưng Securities",
+      "url": "https://cw.phs.vn/faq"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "# Công ty cổ phần chứng khoán SSI ... * Báo cáo tài chính ... * Thông tin cổ phiếu SSI ... Ngày chốt quyền",
+      "title": "Quan hệ nhà đầu tư",
+      "url": "https://www.ssi.com.vn/quan-he-nha-dau-tu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search10",
+      "snippet": "- Đăng nhập tài khoản vào trang https://trade.phs.vn/OnlineTrading/ ... * Hướng dẫn đặt lệnh có điều kiện web-trading chứng khoán cơ sở ... * Hướng",
+      "title": "Trang hỏi đáp",
+      "url": "https://www.phs.vn/hoi-dap/huong-dan-su-dung-web-trading-chung-khoan-5"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienchungkhoan.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Tuy nhiên thì địa chỉ tra cứu thông tin đầy đủ và tổng quát nhất vẫn là website của Sở GDCK TP Hồ Chí Minh:",
+      "title": "Tổng hợp kiến thức về chứng quyền có bảo đảm - TVCK",
+      "url": "https://thuvienchungkhoan.vn/chung-quyen-co-bao-dam/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Bạn có thể mua **chứng quyền có bảo đảm (CW) ngay trên ứng dụng hoặc website của công ty chứng khoán**, qua tài khoản chứng khoán thông thường.\n\nCó 2 cách:\n- **Mua chứng quyền đã niêm yết trên HOSE:** Nạp tiền vào tài khoản, tìm mã chứng quyền rồi đặt lệnh tương tự mua cổ phiếu. [Hướng dẫn VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/360003090733-Chứng-quyền-bảo-đảm-CW)\n- **Đăng ký mua đợt phát hành mới:** Đăng ký tại công ty chứng khoán phát hành theo từng đợt chào bán, chẳng hạn qua ứng dụng Vietcap. [Hướng dẫn Vietcap](https://www.vietcap.com.vn/huong-dan-chung/mobile-dang-ky-mua-chung-quyen-co-dam-bao)\n\n**Lưu ý:** Chứng quyền có ngày đáo hạn và có thể mất toàn bộ số tiền đã mua; “có bảo đảm” không có nghĩa là bảo toàn vốn. [Thông tin rủi ro từ PHS](https://cw.phs.vn/faq)\n\nBạn đang dùng ứng dụng chứng khoán nào? Mình có thể chỉ cách tìm và đặt mua."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22131,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 351,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b017-2bb5-7bb0-b6e9-f1bb80c28fc6",
+ "error": ""
+}

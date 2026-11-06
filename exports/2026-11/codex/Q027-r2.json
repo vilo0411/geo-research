@@ -1,0 +1,100 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q027-r2",
+ "prompt_id": "Q027",
+ "run": 2,
+ "question": "Phí lưu ký chứng khoán là bao nhiêu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:55:04",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 18.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b011-9560-7d50-8c06-4f7e71def700"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-bf069228-72a1-4dd6-9ac8-75212506cc91",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-bf069228-72a1-4dd6-9ac8-75212506cc91",
+    "type": "web_search",
+    "query": "VSDC phí lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026",
+    "action": {
+     "type": "search",
+     "query": "VSDC phí lưu ký chứng khoán 0,27 đồng cổ phiếu tháng 2026"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "1 | Phí lưu ký Cổ phiếu (CP), chứng chỉ quỹ (CCQ), chứng quyền có bảo đảm (CW) | 0,27 đồng/CP,CCQ/tháng | | ... 3",
+      "title": "Biểu phí",
+      "url": "https://www.vfs.com.vn/dich-vu-chung-khoan-khach-hang-doanh-nghiep/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vdsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Dịch vụ lưu ký | CTCP Chứng khoán Rồng Việt - Kiến tạo tương lai thịnh vượng ... Cổ phiếu/Chứng chỉ quỹ/Chứng quyền có bảo",
+      "title": "CTCP Chứng khoán Rồng Việt - Kiến tạo tương lai thịnh vượng | Dịch vụ lưu ký",
+      "url": "https://www.vdsc.com.vn/ca-nhan/bieu-phi/dich-vu-luu-ky-z4"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search2",
+      "snippet": "4.1 | Cổ phiếu, chứng chỉ quỹ, chứng quyền có bảo đảm | 0,27 đồng/chứng khoán/tháng ... 7 | Lãi suất chậm thanh toán |",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "img.baovietfund.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "<td colspan=\"5\">A.III Giá dịch vụ lưu ký, chuyển khoản của VSDC (Giá dịch vụ của bên thứ 3)</td> ... <td>0,27 đồng/cổ phiếu, CCQ, CQ có",
+      "title": "Ủy ban Chứng khoán Nhà nước cấp giấy phép phát hành Chứng chỉ Quỹ cho các",
+      "url": "https://img.baovietfund.com.vn/resource/07112025/1762538699_bcbbvpf11.2025.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "Tại Việt Nam, **phí lưu ký cổ phiếu phổ biến là 0,27 đồng/cổ phiếu/tháng**. Mức này cũng áp dụng cho chứng chỉ quỹ và chứng quyền có bảo đảm. [Biểu phí Rồng Việt](https://www.vdsc.com.vn/ca-nhan/bieu-phi/dich-vu-luu-ky-z4)\n\nVí dụ, bạn giữ **10.000 cổ phiếu cả tháng** thì phí khoảng **2.700 đồng/tháng** — tính theo số lượng cổ phiếu, không phải giá trị danh mục.\n\nĐây là phí lưu giữ chứng khoán, **khác với phí giao dịch khi mua/bán**. Số tiền thực thu có thể tùy chính sách miễn, giảm của công ty chứng khoán.\n\nBạn đang dùng công ty chứng khoán nào để mình kiểm tra mức phí cụ thể?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 19280,
+    "cached_input_tokens": 8960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 242,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b011-9560-7d50-8c06-4f7e71def700",
+ "error": ""
+}

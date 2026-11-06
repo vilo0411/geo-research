@@ -1,0 +1,214 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q052-r1",
+ "prompt_id": "Q052",
+ "run": 1,
+ "question": "Có nên mở tài khoản ở Chứng khoán DSC không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:07:36",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 29.6,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01d-0e26-73c2-ac25-a342ea742672"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d4c3ab01-df81-4dad-9cbf-78d94914e6e1",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d4c3ab01-df81-4dad-9cbf-78d94914e6e1",
+    "type": "web_search",
+    "query": "site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn biểu phí giao dịch chứng khoán DSC lãi suất margin",
+      "DSC chứng khoán 2026 xử phạt giấy phép"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Biểu lãi suất giao dịch ký quỹ và ứng trước tiền bán ... Phí giao dịch chứng khoán niêm yết, Upcom | Cổ phiếu, chứng",
+      "url": "https://dsc.com.vn/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Lưu ý: Để đảm bảo thanh toán khoản vay, tài khoản giao dịch chứng khoán có đủ tiền trước 16h30 của ngày thanh toán (không",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Margin transaction interest rates and sales advances ... Transfer securities to other depository members, transfer to close account | 01 transaction | 0,3 đồng/1 stock/1",
+      "title": "Biểu phí giao dịch chứng khoán DSC - Mức phí cạnh tranh, ưu đãi hấp dẫn",
+      "url": "https://www.dsc.com.vn/en/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Giấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty chứng khoán số 42/GPĐC-UBCK ngày 01/4/2026 do Ủy ban Chứng khoán Nhà",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023)",
+      "title": "PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) STT | Chỉ tiêu | Chính sách --- | --- | --- PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 1 | Lãi suất margin trong hạn | Theo công bố của DSC từng thời kỳ PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 2 | Lãi suất quá hạn | 150% lãi suất trong hạn PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 3 | Số ngày một năm làm căn cứ tính lãi | 365 ngày PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 4 | Thời hạn khoản vay | 90 ngày PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 5 | Hạn mức vay giao dịch ký quỹ phổ thông | 5 tỷ VNĐ PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 6 | Tỷ lệ cho vay | Theo thông báo của DSC từng thời kỳ hoặc với từng mã chứng khoán PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 7 | Tỷ lệ ký quỹ ban đầu | 100% PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 8 | Tỷ lệ ký quỹ duy trì | 85% PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 9 | Tỷ lệ xử lý TSĐB | 80% PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 10 | Ngày giải ngân | T+0 PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 11 | Ngày bắt đầu tính lãi | T+1 PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 12 | Công thức số ngày tính lãi | Bằng Ngày trảnợgốc - Ngày bắt đầu tính lãi/Ngày trảnợgốc gần nhất đối với từng mã khế ước PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 13 | Các trường hợp xử lý tài sản bảo đảm: | PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 13_a | Tỷlệký quỹxuống dưới tỷlệký quỹduy trì 3 ngày làm việc liên tiếp nhưng vẫn đảm bảo lớn hơn tỷ lệ xử lý TSĐB | Bán tại ngày làm việc thứ4 kểtừngày KH nhận được Lệnh gọi yêu cầu ký quỹbổ sung lần đầu tiên PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 13_b | Tỷ lệ ký quỹ dưới tỷ lệ xử lý TSĐB | Bán vào ngày làm việc liền sau ngày tỷ lệ ký quỹ xuống dưới tỷ lệ xử lý TSĐB. PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 13_c | Nợ quá hạn | Bán vào ngày làm việc liền sau ngày hết hạn khoản vay (Trường hợp ngày hết hạn khoản vay rơi vào ngày nghỉthì ngày hết hạn được tính là ngày làm việc đầu tiên sau ngày hết hạn) PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 14 | Số lần được gia hạn tối đa | Gia hạn theo điều khoản tại hợp đồng nhưng tối đa 90 ngày/một lần hợp đồng. Nếu ngày đến hạn tiếp theo rơi vào ngày nghỉ thì sẽ là ngày làm việc tiếp theo. PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 15 | Nguyên tắc gia hạn | Khách hàng có đủ tiền mặt để thu lãi khoản vay sẽ gia hạn. PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 16 | Phí gia hạn | Không áp dụng PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 17 | Rút tiền/ Chuyển khoản tiền | Có thể rút/chuyển khoản tiền khi TKGDKQ hết dư nợ hoặc khi TKGDKQ có tiền mặt và sau khi rút/chuyển tiền tài khoản đảm bảo các điều kiện sau: + Tỷ lệ ký quỹ: Rtt > 100% + Sức mua: PP0 > 0 PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 18 | Mua chứng khoán khi hết hạn mức khung toàn dịch vụ tại DSC | Có thểmua khi TKGDKQ có tiền mặt và tỷlệký quỹ>100% hoặc theo quy định của DSC từng thời điểm. PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 19 | Mã CK bị loại khỏi DMKQ | (i) Được tính làm giá trị tài sản đảm đảo trong vòng 02 ngày kể từ ngày loại khỏi DMKQ theo đánh giá của DSC (trừtrường hợp ngoại lệtheo quyết định của DSC từng thời kỳ căn cứ trên tình hình thực tế). (ii) Đối với mã bịloại khỏi DMKQ theo quy định của Cơ quan chức năng, DSC sẽ xử lý trong 03 ngày làm việc (trừ trường hợp ngoại lệ theo quyết định của DSC từng thời kỳ căn cứ trên tình hình thực tế). PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 20 | Nguyên tắc thu lãi | (i) Nếu khoản nợ quá hạn ưu tiên thu gốc trước, lãi sau; (ii) Nếu khoản nợ trong hạn ưu tiên thu lãi trước, gốc sau. PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) 21 | Thời điểm thu nợ hàng ngày khi Khách hàng có tiền mặt | Thực hiện tựđộng tại một thời điểm sau giờgiao dịch hàng ngày khi tài khoản có tiền mặt (ngoại trừcác trường hợp Khách hàng đềnghịđược thu nợtrong giờgiao dịch). PHỤ LỤC: CHÍNH SÁCH GIAO DỊCH KÝ QUỸ ĐỐI VỚI KHÁCH HÀNG PHỔ THÔNG TẠI DSC (Ban hành kèm Quyết định số: 18/2023/QĐ-TGĐ/DSC ngày 03/04/2023) | |Lưu ý:",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/2023/04/20230403-Chinh-sach-margin.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "1 | Giao dịch chứng khoản ký quỹ (margin) | 13.9%/năm ... * Biểu lãi được áp dụng cho tới khi có thông báo điều",
+      "title": "Biểu lãi suất dịch vụ tài chính",
+      "url": "https://fhsc.com.vn/bieu-lai-suat-dich-vu-tai-chinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "1 | Margin interest in term | According to DSC announcement from time to time",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/en/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Chính sách ưu đãi với khách hàng khu vực Miền Trung – Tây Nguyên được hưởng lãi suất vay margin 10%/năm và phí giao dịch",
+      "title": "DSC SECURITIES",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_20ed6f691a.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Margin transaction interest rates and sales advances",
+      "title": "Lãi suất giao dịch ký quỹ và ứng trước tiền bán tại DSC",
+      "url": "https://www.dsc.com.vn/en/bieu-phi/bieu-lai-suat-giao-dich-ky-quy-va-ung-truoc-tien-ban"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "* Quy định giao dịch đối với sàn UPCOM ... * Cách xem bảng giá chứng khoán cho người mới bắt đầu ... * Hướng",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPĐKKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/20/20260417___dsc___bctc_q1_2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Đánh giá chi tiết Chứng khoán DSC năm 2026: phí giao dịch, lãi suất margin, giao diện ứng dụng, chất lượng hỗ trợ và hướng",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietnam.vn",
+      "ref_id": "turn0search9",
+      "snippet": "For example, DSC Securities Company announced that from March 2nd, the interest rate applied to regular customers for advance payment loans and margin trading loans",
+      "title": "Interest rates for securities margin loans have uniformly risen to 14% per year.",
+      "url": "https://www.vietnam.vn/en/lai-suat-cho-vay-margin-chung-khoan-dong-loat-len-14-nam"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Nếu bạn đang tìm kiếm một công ty chứng khoán giá rẻ để tối ưu nguồn vốn, việc đặt lên bàn cân so sánh dsc",
+      "title": "So sánh DSC và TCBS: Nên chọn mở tài khoản chứng khoán ở đâu? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/dsc-vs-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "casin.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Việc chuyển từ UPCoM sang HOSE sẽ giúp cổ phiếu DSC tiếp cận được các quỹ đầu tư lớn và gia tăng tính thanh khoản",
+      "title": "Cổ phiếu DSC: Thông tin, Đặc điểm, Chỉ số tài chính và Chiến lược đầu tư",
+      "url": "https://casin.vn/phan-tich/co-phieu/co-phieu-dsc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "DỊCH VỤ CHỨNG KHOÁN ... - Cho vay margin ... - Lãi bán chứng khoán - Cổ tức, tiền lãi phát sinh từ trái phiếu",
+      "title": "VDS  \nCTCP Chứng khoán Rồng Việt  \nDSC\n\nMÔ HÌNH KI",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/VDS_Q2_24_ecbbc18cda.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "rs.nguoiquansat.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Biểu đồ cột “Hoạt động cho vay Margin 2022”, trục tháng T1–T12 và thang giá trị đến 400.00; chú giải gồm “Gốc cho vay hoạt",
+      "title": "Phát triển mạng lưới",
+      "url": "https://rs.nguoiquansat.vn/ReportFile/DSC/2022/Baocaothuongniennam2022.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "congbao.cdnchinhphu.vn",
+      "ref_id": "turn0search17",
+      "snippet": "CÔNG BÁO/Số 01/Ngày 06-01-2026 34 ... Đối với trường hợp tại thời điểm kiểm tra, người điều khiển phương tiện không xuất trình được một,",
+      "title": "CÔNG BÁO/Số 01/Ngày 06-01-2026 34",
+      "url": "https://congbao.cdnchinhphu.vn/180507251028987904/2026/1/8/336signed-17678729023141607911083.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Có thể mở tài khoản DSC, nhưng mình nghiêng về “mở để trải nghiệm trước”, chưa nên chuyển toàn bộ tiền ngay.** Điều cần xem nhất là **biểu phí thực tế của tài khoản bạn**, không chỉ ưu đãi quảng cáo.\n\n### Những điểm đáng cân nhắc\n\n- **Về pháp lý:** DSC có tên trong hệ thống thành viên lưu ký của Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC). Đây là cơ sở xác minh đơn vị chính thức, nhưng không có nghĩa đầu tư qua DSC là không có rủi ro. [Thông tin VSDC](https://vsdc.vn/vi/md/8229)\n- **Phí khác nhau đáng kể theo loại tài khoản:** Biểu phí DSC đang công bố là **0,1%/giá trị giao dịch** với tài khoản do khối Tư vấn số quản lý; tài khoản do môi giới quản lý có mức **0,15–0,3%**, tùy giá trị giao dịch trong ngày. Ví dụ, một lệnh 100 triệu đồng ở mức 0,1% tốn 100.000 đồng phí giao dịch, chưa gồm thuế và chi phí khác nếu có. [Biểu phí DSC](https://dsc.com.vn/bieu-phi)\n- **Nếu dùng margin — vay tiền mua cổ phiếu:** Cần hỏi rõ lãi suất sau ưu đãi, điều kiện gia hạn và ngưỡng bán giải chấp. Chính sách DSC quy định khoản vay thông thường 90 ngày, lãi quá hạn bằng 150% lãi trong hạn; lãi trong hạn thay đổi theo từng thời kỳ. [Chính sách ký quỹ DSC](https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy)\n\n### Mình sẽ chọn thế nào?\n\n**Nên cân nhắc DSC** nếu bạn được xác nhận mức phí phù hợp, thấy ứng dụng dễ dùng và người hỗ trợ giải thích rõ ràng, không thúc ép giao dịch.\n\n**Chưa nên chọn làm tài khoản chính** nếu chỉ được thuyết phục bằng lời hứa “phím cổ phiếu”, lợi nhuận cao hoặc margin rẻ mà thiếu điều kiện bằng văn bản.\n\nCách thử thực tế: nạp khoản nhỏ, kiểm tra đặt lệnh, rút tiền và chất lượng hỗ trợ; nếu mới đầu tư thì chưa dùng margin. Mình chưa có đủ bằng chứng độc lập để khẳng định ứng dụng DSC ổn định hay tư vấn tốt hơn các bên khác.\n\n**Bạn định đầu tư khoảng bao nhiêu, mua giữ dài hạn hay giao dịch thường xuyên, và có dùng margin không?**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 26134,
+    "cached_input_tokens": 8960,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 698,
+    "reasoning_output_tokens": 15
+   }
+  }
+ ],
+ "thread_id": "01a1b01d-0e26-73c2-ac25-a342ea742672",
+ "error": ""
+}

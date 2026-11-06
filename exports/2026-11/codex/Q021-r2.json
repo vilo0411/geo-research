@@ -1,0 +1,336 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q021-r2",
+ "prompt_id": "Q021",
+ "run": 2,
+ "question": "Phí giao dịch chứng khoán hiện nay là bao nhiêu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:51:45",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 27.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00e-8a51-7a81-9036-5eda6cc79407"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-e49aee08-dff9-49fc-aab5-4a420b780125",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-e49aee08-dff9-49fc-aab5-4a420b780125",
+    "type": "web_search",
+    "query": "site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở 2026",
+      "site.ssi.com.vn biểu phí giao dịch chứng khoán trực tuyến 0,15%",
+      "site.tcbs.com.vn phí giao dịch cổ phiếu 0.03% thuế bán 0.1%"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "(Qua nhân viên SSI) ... Dưới 100 triệu đồng | 0.15% | 0.35% ... * Giá dịch vụ giao dịch trả Sở Giao dịch Chứng",
+      "title": "Biểu giá dịch vụ giao dịch chủ động",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "– Phí giao dịch cổ phiếu/ chứng chỉ quỹ niêm yết/ Chứng quyền đối với Khách hàng có iWealth Partner: tùy theo thỏa thuận giữa",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Biểu phí giao dịch chứng khoán cơ sở ... (Áp dụng từ ngày 30 tháng 03 năm 2026) ... 1.6 | Phí ứng tiền bán",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở",
+      "url": "https://www.phs.vn/san-pham-dich-vu/bieu-phi-giao-dich-chung-khoan-co-so-26"
+     },
+     {
+      "type": "text_result",
+      "domain": "vps.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm Đồng hành cùng bạn đón sóng tài lộc đầu năm mới,",
+      "title": "Cổ Phiếu | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://vps.com.vn/ca-nhan/san-pham-dich-vu/co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "ftp2.ssi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Biểu phí dịch vụ: Thị trường chứng khoán cơ sở ... Giá trị giao dịch/ ngày/ tài khoản Dưới 100 triệu | Đặt lệnh qua",
+      "title": "PowerPoint Presentation",
+      "url": "https://ftp2.ssi.com.vn/Customers/GDDT/Document/SSI_Goi_khach_hang_chu_dong_giao_d%E1%BB%8Bch.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search13",
+      "snippet": "Phí giao dịch mà quý vị nói 0,03%, thật ra không phải phí mà TCBS thu mà bản chất đây là thuế, phí mà chúng",
+      "title": "Câu hỏi: Hiện nay quá trình sử dụng TCBS rất tiện lợi, với mức phí giao dịch 0,03% là rất thấp trên thị trường. Tuy nhiên, lãi suất vay margin vẫn tương đối cao ~13% so với các bên khác (~10%). TCBS có cân nhắc giảm mức lãi suất vay margin này nhằm thu hút nhiều người dùng hơn không?",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/bien-ban-hop-dhdcd-thuong-nien-ngay-26042025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sbsi.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Công ty Cổ phần Chứng khoán Stanley Brothers (SBSI) trân trọng cảm ơn Quý khách hàng đã tin tưởng sử dụng dịch vụ và đồng",
+      "title": "Chính sách Ưu đãi phí giao dịch chứng khoán cho Khách hàng",
+      "url": "https://www.sbsi.vn/vi-vn/ve-sbsi/chi-tiet-bai-viet/ve-sbsc/tin-sbsi/E6/114763"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search5",
+      "snippet": "* Hà Nội, TP Hồ Chí Minh: hội sở số 88 Trần Thủ Độ và 2 phòng giao dịch ở Hà Nội, 1 chi nhánh",
+      "title": "VPS có uy tín không? Đánh giá Chứng khoán VPS",
+      "url": "https://reviewchungkhoan.com/ctck/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Miễn phí mở tài khoản chọn số đẹp 100% online ... Miễn phí giao dịch cổ phiếu cơ sở, phái sinh, chứng quyền và Chứng",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Là nền tảng đầu tư chứng khoán hàng đầu Việt Nam, TCBS đã phục vụ hơn 1.2 triệu khách hàng cá nhân với danh mục",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-cho-khnn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.csc.vn",
+      "ref_id": "turn0search8",
+      "snippet": "I | Mở tài khoản giao dịch | Miễn phí | ... 3 | Thuế thu nhập cá nhân | Theo quy định của Nhà",
+      "title": "Capital Securities",
+      "url": "https://www.csc.vn/blog/chung-khoan-niem-yet-170/bieu-phi-dich-vu-170-28641.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoanvps.org",
+      "ref_id": "turn0search9",
+      "snippet": "Hiện nay, biểu phí giao dịch chứng khoán VPS được áp dụng theo chính sách mới nhất bắt đầu từ ngày 16/03/2026 với mức phí",
+      "title": "Phí Giao Dịch Chứng Khoán VPS: Biểu Phí, Cách Tính & Mẹo Tối Ưu",
+      "url": "https://chungkhoanvps.org/phi-giao-dich/phi-giao-dich-chung-khoan-vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* Giao dịch cổ phiếu (CP), Chứng chỉ quỹ (CCQ), ETF, chứng quyền có bảo đảm (CW) ... STT | Tổng giá trị giao dịch/",
+      "title": "Phí giao dịch qua sàn - BSC",
+      "url": "https://www.bsc.com.vn/phi-giao-dich-qua-san/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieuchungkhoan.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Thực tế, biểu phí giao dịch cổ phiếu cơ sở trực tuyến (Online) tại SSI hiện đang được chia thành hai mức chuẩn là 0.15%",
+      "title": "Phí giao dịch tại SSI - Hoàng - Tư vấn viên tại chứng khoán SSI",
+      "url": "https://cophieuchungkhoan.com.vn/phi-giao-dich-tai-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Hoa hồng Cổ phiếu: Phần chênh lệch của phí giao dịch cổ phiếu của KH và 0.03% (bao gồm phí ... 0.8%/năm; thưởng thêm 0.2%/năm",
+      "title": "CHÍNH SÁCH CHƯƠNG TRÌNH ĐỐI TÁC GIỚI THIỆU KHÁCH HÀNG",
+      "url": "https://www.tcbs.com.vn/documents/10181/0/Chinh%2Bs%C3%A1ch%2BiWP%2B20231003.pdf/c166fc50-9619-4dd5-928d-309f964a84a6"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-552bb4c4-ae74-4938-99b2-a151fe2d5abe",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-552bb4c4-ae74-4938-99b2-a151fe2d5abe",
+    "type": "web_search",
+    "query": "site.ssi.com.vn thuế bán chứng khoán 0,1% giá trị",
+    "action": {
+     "type": "search",
+     "query": "site.ssi.com.vn thuế bán chứng khoán 0,1% giá trị"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.sisi.com.vn",
+      "ref_id": "turn1search12",
+      "snippet": "www.sisi.com.vn<table> ... <td>Chuyển quyền sở hữu chứng khoán do chia, tách, sáp nhập, hợp nhất, góp vốn bằng cổ phiếu thành lập doanh nghiệp theo",
+      "title": "SMART INVEST",
+      "url": "https://www.sisi.com.vn/Content/Archive/FileAttact/Bieu_phi_giao_dich.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "SSIBẢN CÁO BẠCH CHÀO BÁN THÊM CỔ PHIẾU RA CÔNG CHÚNG ... Thuế suất thuế TNDN áp dụng cho Công ty là 20% thu nhập",
+      "title": "ỦY BAN CHỨNG KHOÁN NHÀ NƯỚC CẤP GIẤY CHỨNG NHẬN ĐĂNG KÝ CHÀO BÁN CHỨNG KHOÁN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/20240905_SSI_Ban_cao_bach_chao_ban_CP_ra_cong_chung_Ban_cong_bo.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "(Qua nhân viên SSI) ... * Giá dịch vụ giao dịch trả Sở Giao dịch Chứng khoán Hà Nội (HNX), Trung tâm Lưu ký Chứng",
+      "title": "Biểu giá dịch vụ giao dịch chủ động",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "- Đối với giao dịch chứng chỉ tiền gửi: 300,000 đồng/lần/chứng từ ... 5 | Xác nhận nhà đầu tư chứng khoán chuyên nghiệp ...",
+      "title": "Biểu giá dịch vụ khác",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-khac"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Chủ tài khoản: Công ty Cổ phần Chứng Khoán SSI ... Đối với Nhà đầu tư trong nước: Thuế suất đối với thu nhập từ",
+      "title": "SSI_CBTT_GCN_BCB_va_tai_lieu_dinh_kem_Full.pdf",
+      "url": "https://www.ssi.com.vn/upload/files/IR/20210728_SSI_Ban_cao_bach_Chao_ban_co_phieu_ra_cong_chung_2021.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search2",
+      "snippet": "* Giá dịch vụ giao dịch trả Sở Giao dịch Chứng khoán Hà Nội (HNX), Tổng công ty lưu ký và bù trừ chứng khoán",
+      "title": "Biểu giá dịch vụ giao dịch có chuyên viên TVCK",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.sbsi.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Phí chuyển khoản phát sinh để thực hiện thanh toán bán chứng khoán | 0,5 VNĐ/ 1 chứng khoán/1 lần chuyển khoản/1 mã chứng khoán",
+      "title": "Biểu phí giao dịch từ 02/03/2026",
+      "url": "https://www.sbsi.vn/vi-vn/san-pham-dich-vu/bai-viet/khach-hang-ca-nhan/bieu-phi-dich-vu-khcn/A14"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn1search4",
+      "snippet": "Cổ phiếu, chứng chỉ quỹ, chứng quyền | Áp dụng mức phí ưu đãi từ 0,1 % (*) ... Lưu ý: Giá Dịch vụ Giao",
+      "title": "Thị trường cơ sở - HSC",
+      "url": "https://hsc.com.vn/fees-and-charges/underlying-market.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1search5",
+      "snippet": "Biểu lãi suất giao dịch ký quỹ và ứng trước tiền bán ... Phí giao dịch chứng khoán niêm yết, Upcom | Cổ phiếu, chứng",
+      "url": "https://dsc.com.vn/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "tuyendung.ssi.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Số TT | Loại Dịch vụ | Mức giá 1 | Mở tài khoản | Miễn phí ... 5 | Xác nhận nhà đầu tư",
+      "title": "Biểu giá dịch vụ áp dụng cho các Dịch vụ khác",
+      "url": "https://tuyendung.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-dich-vu-khac"
+     },
+     {
+      "type": "text_result",
+      "domain": "cophieuchungkhoan.com.vn",
+      "ref_id": "turn1search7",
+      "snippet": "Image: Các tính năng vượt trội của bảng giá chứng khoán trực tuyến SSI Nhà đầu tư dễ nhìn, đọc, hiểu và phân tích đầu",
+      "title": "Phí giao dịch tại SSI - Hoàng - Tư vấn viên tại chứng khoán SSI",
+      "url": "https://cophieuchungkhoan.com.vn/phi-giao-dich-tai-ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tamanchungkhoan.vn",
+      "ref_id": "turn1search8",
+      "snippet": "Mỗi lần mua hoặc bán cổ phiếu, nhà đầu tư phải trả 2 khoản riêng biệt: phí giao dịch (do công ty chứng khoán —",
+      "title": "Tính phí & thuế giao dịch chứng khoán | Tâm An Chứng Khoán",
+      "url": "https://tamanchungkhoan.vn/cong-cu/phi-thue-giao-dich"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search9",
+      "snippet": "# Biểu giá dịch vụ áp dụng cho tkgd chứng khoán cơ sở ... Tổng giá trị giao dịch/ngày/tài khoản | Mức giá Đặt lệnh",
+      "title": "Biểu giá dịch vụ áp dụng cho tkgd chứng khoán cơ sở",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-gia-dich-vu-ap-dung-cho-tkgd-chung-khoan-co-so-giao-dich-chung-khoan-qua-san"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.csc.vn",
+      "ref_id": "turn1search10",
+      "snippet": "ÁP DỤNG TẠI CÔNG TY CỔ PHẦN CHỨNG KHOÁN THỦ ĐÔ ... 1 | Giao dịch cổ phiếu niêm yết, CCQ, Chứng quyền có TSBĐ",
+      "title": "Capital Securities",
+      "url": "https://www.csc.vn/blog/chung-khoan-niem-yet-170/bieu-phi-dich-vu-170-28638.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "staticfile.hsx.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Do chứng quyền có bảo đảm được giao dịch tương tự như chứng khoán cơ sở nên khi chuyển nhượng chứng quyền có bảo đảm",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://staticfile.hsx.vn/Uploads/UploadDocuments/2467202/20260602%20-%20CW%20TCB.3M-3.SSI.2026-01%20-%20Prospectus.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "Nếu bạn hỏi về **giao dịch cổ phiếu tại Việt Nam**, phí không có một mức chung mà tùy công ty chứng khoán và gói tài khoản.\n\n**Một số mức tham khảo hiện nay:**\n\n| Công ty/gói giao dịch | Phí trên giá trị khớp lệnh, mỗi chiều mua hoặc bán |\n|---|---:|\n| TCBS – chính sách miễn phí phần TCBS thu | **0,03%** thu hộ Sở; tài khoản có đối tác tư vấn có thể áp dụng mức khác |\n| SSI – giao dịch chủ động, đặt lệnh online | **0,15%** |\n\nNguồn: [Biểu phí TCBS](https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226), [Biểu phí SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-giao-dich-chu-dong).\n\nNgoài phí giao dịch, **cá nhân khi bán còn chịu thuế TNCN bằng 0,1% giá trị bán**, kể cả khi bán lỗ; không phải 0,1% lợi nhuận. [Nguồn SSI](https://www.ssi.com.vn/upload/files/IR/20240905_SSI_Ban_cao_bach_chao_ban_CP_ra_cong_chung_Ban_cong_bo.pdf)\n\n**Ví dụ:** Với mức phí 0,15%, giao dịch 100 triệu đồng:\n- **Mua:** phí 150.000 đồng.\n- **Bán:** phí 150.000 đồng + thuế 100.000 đồng = **250.000 đồng**.\n\nCác khoản lưu ký, lãi vay margin hoặc ứng trước tiền bán, nếu có, tính riêng.\n\n**Bạn đang dùng công ty chứng khoán nào?** Mình có thể kiểm tra đúng mức phí cho bạn."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39179,
+    "cached_input_tokens": 26496,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 565,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b00e-8a51-7a81-9036-5eda6cc79407",
+ "error": ""
+}

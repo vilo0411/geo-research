@@ -1,0 +1,366 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q017-r4",
+ "prompt_id": "Q017",
+ "run": 4,
+ "question": "Mở tài khoản chứng khoán ở Hà Nội nên chọn công ty nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:48:19",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 36.9,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b00b-6b8f-7b62-ac6d-14c09b5ab327"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-3de7b0b3-d696-4e14-8242-5eac9ca67907",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-3de7b0b3-d696-4e14-8242-5eac9ca67907",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở 2026 ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn biểu phí giao dịch chứng khoán cơ sở 2026",
+      "site.ssi.com.vn biểu phí giao dịch chứng khoán khách hàng cá nhân",
+      "site.tcbs.com.vn phí giao dịch cổ phiếu 2026",
+      "site.vps.com.vn biểu phí giao dịch chứng khoán cơ sở"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Phí giao dịch chứng khoán cơ sở tại VNDIRECT phụ thuộc vào gói tài khoản Quý khách đăng ký: ... Ngoài phí giao dịch chứng",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Bi%E1%BB%83u-ph%C3%AD-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-c%C6%A1-s%E1%BB%9F"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Công ty Cổ phần Chứng khoán Kỹ Thương (TCBS) trân trọng thông báo đến Quý khách hàng biểu phí dịch vụ chứng khoán tại",
+      "title": "Biểu phí dịch vụ chứng khoán | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Giao dịch chứng khoán ... * BIỂU PHÍ ... * Biểu giá dịch vụ chuyển khoản qua ngân hàng",
+      "title": "Dịch vụ chứng khoán khách hàng cá nhân",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "1 | Giao dịch cơ sở và giao dịch chứng quyền không do VNDIRECT phát hành* | Phí bậc thang từ 0,15%/GTGD ... | *Biểu",
+      "title": "Biểu phí dịch vụ giao dịch chứng khoán tại VNDIRECT - VNDIRECTVNDIRECT",
+      "url": "https://www.vndirect.com.vn/bieu-phi-dich-vu-giao-dich-chung-khoan-tai-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vps.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "VPS ra mắt gói margin “Ưu Đãi Phát Tài” với lãi suất chỉ 8,8%/năm Đồng hành cùng bạn đón sóng tài lộc đầu năm mới,",
+      "title": "Cổ Phiếu | VPS - Công ty Cổ phần Chứng khoán VPS",
+      "url": "https://vps.com.vn/ca-nhan/san-pham-dich-vu/co-phieu"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "(Đã bao gồm VAT) | Thời điểm in tính từ ngày cần sao kê đến ngày yêu cầu sao kê theo lịch năm tài chính:",
+      "title": "Biểu giá dịch vụ khác",
+      "url": "https://www.ssi.com.vn/khach-hang-ca-nhan/bieu-phi/bieu-gia-dich-vu-khac"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "## Đặc quyền khi giao dịch cổ phiếu tại TCBS ... Miễn phí giao dịch cổ phiếu cơ sở, phái sinh, chứng quyền và Chứng",
+      "title": "Ưu đãi giao dịch cổ phiếu tại TCBS",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/uu-dai-giao-dich-co-phieu/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn0search7",
+      "snippet": "* Hà Nội, TP Hồ Chí Minh: hội sở số 88 Trần Thủ Độ và 2 phòng giao dịch ở Hà Nội, 1 chi nhánh",
+      "title": "VPS có uy tín không? Đánh giá Chứng khoán VPS",
+      "url": "https://reviewchungkhoan.com/ctck/vps/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Hướng dẫn giao dịch về cổ phiếu và chính sách, ưu đãi tại VNDIRECT ... * Biểu phí giao dịch chứng khoán cơ sở *",
+      "title": "CỔ PHIẾU – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/sections/38641206501273-C%E1%BB%94-PHI%E1%BA%BEU"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vfs.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "### Chứng khoán Cơ sở ... * Quy định giao dịch các sàn ... * Biểu phí ... ### Chứng khoán Cơ sở",
+      "title": "Trang chủ",
+      "url": "https://www.vfs.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hoidap.edu.vn",
+      "ref_id": "turn0search10",
+      "snippet": "(qua nhân viên SSI) 0.15% 0.35% 0.30% 0.25% Giá trị giao dịch/ ngày/ tài khoản Dưới 100 triệu Từ 100 triệu đến dưới 500 triệu",
+      "title": "PDF Gói Dịch Vụ Khách Hàng Chủ Động Giao Dịch - Ssi",
+      "url": "https://hoidap.edu.vn/detail/pdf-goi-dich-vu-khach-hang-chu-dong-giao-dich-ssi"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn0search11",
+      "snippet": "# Đánh giá TCBS 2026: phí, margin, mở tài khoản ... Công ty chứng khoán của Techcombank (sở hữu khoảng 80% sau IPO), mã TCX",
+      "title": "Đánh giá TCBS 2026: phí 0%, Margin 789, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "ĐẶT LỆNH CỔ PHIẾU ... Đặt lệnh cổ phiếu",
+      "title": "HƯỚNG DẪN GIAO DỊCH CỔ PHIẾU",
+      "url": "https://www.tcbs.com.vn/documents/10181/320637/Huong%2Bdan%2Bgiao%2Bdich%2Bco%2Bphieu_iStock.pdf/0ce37a37-8dec-4acc-8615-302665574a9a"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Với những dự báo tích cực về thị trường chứng khoán trong năm 2025, TCBS tiếp tục miễn phí giao dịch cổ phiếu, phái sinh,",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2026/03/3.-Ban-cao-bach.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Để sử dụng các dịch vụ của SSI qua Trung tâm dịch vụ khách hàng SSI Contact Center (CC), Quý khách thực hiện các bước",
+      "title": "Hướng dẫn sử dụng_1",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Giao-dich-dien-tu/Hu%CC%9Bo%CC%9B%CC%81ng%20da%CC%82%CC%83n%20su%CC%9B%CC%89%20du%CC%A3ng_VN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Khách hàng đồng ý và chấp nhận việc Công ty chứng khoán được tự động trích nợ TKGD của Khách hàng để thanh toán phí",
+      "title": "1.7. “Hệ thống của Công ty chứng khoán” là hệ thống giao dịch điện tử mà Công ty chứng khoán triển khai sử dụng tại từng thời điểm, bao gồm nhưng không giới hạn trong internet, điện thoại, fax, email.",
+      "url": "https://help.tcbs.com.vn/wp-content/uploads/2023/03/MB11-QT.TKDT-TCBS-TC-tich-hop_Vi-N-Clean-1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssi.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "SSI bao gồm: Mở tài khoản giao dịch chứng khoán. ... Khách hàng cá nhân trong nước đáp ứng đồng thời các điều kiện: ...",
+      "title": "THỂ LỆ CHƯƠNG TRÌNH",
+      "url": "https://ssi.com.vn/upload/files/KHCN/The-le-chuong-trinh-chao-tinh-minh.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Mật khẩu giao dịch xuất hiện trong mã PIN/mã CCPIN là chữ ký điện tử của Khách hàng (“Chữ ký điện tử”) và các Chứng",
+      "title": "Điều 6. Trách nhiệm bảo mật",
+      "url": "https://www.ssi.com.vn/upload/images/KHCN/WEBTRADING/Phi%E1%BA%BFu%20%C4%91%C4%83ng%20k%C3%BD%20c%C3%A1c%20d%E1%BB%8Bch%20v%E1%BB%A5%20giao%20d%E1%BB%8Bch%20%C4%91i%E1%BB%87n%20t%E1%BB%AD.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.reddit.com",
+      "ref_id": "turn0reddit18",
+      "snippet": "[Tuesday October 20 2026] [+9 votes] ... Vì bác không là đối tượng, phân khúc của tcbs ấy, tcbs không có đội môi giới/sale/phục vụ",
+      "title": "Review TCBS",
+      "url": "https://www.reddit.com/r/vozforums/comments/1xamly4/review_tcbs/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-de414df1-08b7-4599-89f6-ae38482cdc54",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-de414df1-08b7-4599-89f6-ae38482cdc54",
+    "type": "web_search",
+    "query": "site.ssi.com.vn \"Biểu giá dịch vụ giao dịch chủ động\" \"0,15\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssi.com.vn \"Biểu giá dịch vụ giao dịch chủ động\" \"0,15\"",
+      "site.ssi.com.vn \"Hà Nội\" \"Ngô Quyền\" \"Láng Hạ\"",
+      "site.vndirect.com.vn \"DTA\" \"0,1%\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn1search0",
+      "snippet": "* Gói tài khoản DTA: dành cho nhà đầu tư có kinh nghiệm giao dịch chứng khoán, có nhu cầu tìm kiếm các gói dịch",
+      "title": "Biểu phí giao dịch chứng khoán cơ sở – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14623187438873-Bi%E1%BB%83u-ph%C3%AD-giao-d%E1%BB%8Bch-ch%E1%BB%A9ng-kho%C3%A1n-c%C6%A1-s%E1%BB%9F"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn1search1",
+      "snippet": "- Khách Hàng đã có tài khoản chứng khoán tại SSI nhưng không phát sinh giao dịch trong khoảng thời gian từ 01/04/2025 đến 15/07/2025.",
+      "title": "RA MẮT COMBO ĐẶC QUYỀN “JUMPSTART”",
+      "url": "https://www.ssi.com.vn/tin-tuc/tin-tuc-su-kien-ssi/ra-mat-combo-dac-quyen-jumpstart"
+     },
+     {
+      "type": "text_result",
+      "domain": "taichinh.com",
+      "ref_id": "turn1search2",
+      "snippet": "HOSE VN000000DTA8 ... Đóng cửa phiên 14:45 05/11/2026 (10 giờ trước) - Nguồn: VNDirect ... 1 tháng từ 02/10/2026 | +1,8% | -0,7% | +2,5",
+      "title": "Giá cổ phiếu DTA - Đệ Tam - taichinh.com",
+      "url": "https://taichinh.com/chung-khoan/dta"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautuvn.vn",
+      "ref_id": "turn1search3",
+      "snippet": "* Đăng ký nhận báo cáo SSI Research qua email ... Kênh tự đặt lệnh online thu 0,15% giá trị giao dịch, cố định không",
+      "title": "Đánh giá SSI 2026: phí 0,15%, margin 13,5%, mở tài khoản",
+      "url": "https://dautuvn.vn/chung-khoan/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn1search4",
+      "snippet": "* 02/06/2022: SSI cho biết có người làm giả giấy chứng nhận đăng ký doanh nghiệp, lập website mạo danh và giả số tài khoản",
+      "title": "SSI có uy tín không? Đánh giá Chứng khoán SSI",
+      "url": "https://reviewchungkhoan.com/ctck/ssi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "tpb.vn",
+      "ref_id": "turn1search12",
+      "snippet": "Hà Nội 178 Nguyễn Ngọc Nại, Phường Khương Mai, Quận Thanh Xuân, TP.Hà Nội 4298 4305 | HEAVEN SHOP MAI HƯƠNG | Cửa hàng quần",
+      "title": "DANH SÁCH ĐIỂM CHẤP NHẬN THANH TOÁN VNPAY QR CỦA TPBANK",
+      "url": "https://tpb.vn/wps/wcm/connect/01e6f7ea-ff69-4003-bc0d-47b7f51beba9/DS%2BTHANH%2BTOAN%2BVNPAY%2BOFFLINE.pdf?CVID=mi92kSx&MOD=AJPERES"
+     },
+     {
+      "type": "text_result",
+      "domain": "cloud-cdn.seabank.com.vn",
+      "ref_id": "turn1search13",
+      "snippet": "DẤU ẤN HUYỀN THOẠI/ BÁO CÁO TÀI CHÍNH HỢP NHẤT 2024 ... Hà Nội ... Hà Nội ... 267 Ngọc Hồi, thị trấn Văn Điển,",
+      "title": "1",
+      "url": "https://cloud-cdn.seabank.com.vn/seabank-web/SB-AR-2024-TV-view.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "data.vietnamfinance.vn",
+      "ref_id": "turn1search5",
+      "snippet": "CTCP Đệ Tam (DTA) là doanh nghiệp hoạt động trong lĩnh vực Bất động sản, được thành lập năm 2003 và niêm yết từ 16/07/2010.",
+      "title": "DTA - CTCP Đệ Tam",
+      "url": "https://data.vietnamfinance.vn/co-phieu/DTA"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bvsc.com.vn",
+      "ref_id": "turn1search6",
+      "snippet": "Biểu lãi tiền gửi không kỳ hạn ... Cổ phiếu /Chứng chỉ quỹ /ETF /Chứng quyền có bảo đảm | Tổng giá trị giao dịch",
+      "title": "Biểu lãi - phí giao dịch",
+      "url": "https://www.bvsc.com.vn/danhmuc/dich-vu/khach-hang-ca-nhan/ho-tro/huong-dan-su-dung-dich-vu/bieu-lai-phi-giao-dich/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search14",
+      "snippet": "<td>CTCP Sách và Thiết bị Trường học Long An</td> ... <td>Số 434-436 đường Nguyễn Trãi- Xã Trung Văn- Huyện Từ Liêm- TP Hà Nội</td> ...",
+      "title": "<table id=\"e1\">",
+      "url": "https://ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=Danh+s%C3%A1ch+%C4%91%E1%BA%A1i+ch%C3%BAng+%C4%91%C4%83ng+k%C3%BD+giao+d%E1%BB%8Bch+Upcom&allowInterrupt=1&dDocName=APPSSCGOVVN162123915&dID=98306&filename=Danh+sach+cong+ty+dai+chung+da+niem+yet%2Cdang+ky+giao+dich+den+31.12.2018.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "langson.gov.vn",
+      "ref_id": "turn1search15",
+      "snippet": "Địa chỉ: số 89 đường Láng Hạ, phường Đống Đa, thành phố Hà Nội. ... Người đại diện theo pháp luật: Ông Ngô Chí Dũng",
+      "title": "2025-08-31 (8)",
+      "url": "https://langson.gov.vn/upload/2006486/20250903/1340_f176e.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pvchem.com.vn",
+      "ref_id": "turn1search16",
+      "snippet": "CHỦ TỊCH HĐQT TRƯƠNG ĐẠI NGHĨA ... THÀNH PHỐ HÀ NỘITT | MÃ CỔ ĐÔNG | HỌ VÀ TÊN | SỐ CP ỦY QUYỀN |",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://pvchem.com.vn/uploaded/BB%20881%20HDQT%202021.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vn.linkedin.com",
+      "ref_id": "turn1search7",
+      "snippet": "Hà Nội vào thu, trời bắt đầu se lạnh… còn list job của em thì vẫn đang khá “ấm” 🍂😆 Một số vị trí IT",
+      "title": "Hà Nội vào thu, trời bắt đầu se lạnh… còn list job của em thì vẫn đang khá “ấm” 🍂😆 Một số vị trí IT hiện có: 📍 Ngô Quyền — Tester / BA | 3 năm 📍 Lê Văn Lương — Tester | 3 năm | ĐH 📍 Láng Hạ —… | Mến Lê",
+      "url": "https://vn.linkedin.com/posts/m%E1%BA%BFn-l%C3%AA-00778033b_h%C3%A0-n%E1%BB%99i-v%C3%A0o-thu-tr%E1%BB%9Di-b%E1%BA%AFt-%C4%91%E1%BA%A7u-se-l%E1%BA%A1nh-c%C3%B2n-activity-7505841177208832000-tQ5K"
+     },
+     {
+      "type": "text_result",
+      "domain": "nif.mof.gov.vn",
+      "ref_id": "turn1search17",
+      "snippet": "VIETNAM) | Công ty Hợp danh Kiểm toán Việt ... Láng, Đống Đa, Hà Nội | x | | | x | x | x",
+      "title": "BỘ TÀI CHÍNH",
+      "url": "https://nif.mof.gov.vn/webcenter/contentattachfile/idcplg?dDocName=BTC266439&dID=116232&filename=1644437.PDF"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**Mình nghiêng về TCBS nếu bạn tự đầu tư, ưu tiên phí thấp; SSI hoặc VNDIRECT nếu bạn muốn có người hướng dẫn.** Ở Hà Nội, nên chọn theo nhu cầu hỗ trợ hơn là chỉ chọn công ty có văn phòng gần nhà.\n\n| Công ty | Phù hợp khi bạn… | Điểm cần lưu ý |\n|---|---|---|\n| **TCBS** | Tự tìm hiểu, tự đặt lệnh, chú trọng chi phí | Khách **không có iWealth Partner** hiện chịu phí giao dịch cổ phiếu **0,03%/giá trị giao dịch**; có Partner thì phí theo thỏa thuận **0,03–0,3%**. Vì vậy cần kiểm tra gói trước khi đăng ký. [Biểu phí TCBS](https://help.tcbs.com.vn/bieu-phi-dich-vu-chung-khoan/?Display_FAQ=33226) |\n| **SSI** | Muốn lựa chọn giữa tự giao dịch và có chuyên viên tư vấn | Có biểu phí riêng cho hai hình thức; nên yêu cầu báo đúng mức phí áp dụng cho tài khoản của bạn. [Dịch vụ và biểu phí SSI](https://www.ssi.com.vn/khach-hang-ca-nhan/dich-vu) |\n| **VNDIRECT** | Muốn phân biệt rõ tài khoản tự đầu tư và tài khoản có môi giới đồng hành | Gói **DTA** hướng tới người tự giao dịch; **DBA** dành cho người cần chuyên gia hỗ trợ. Phí phụ thuộc gói đăng ký. [Thông tin VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/14623187438873) |\n\n**Nếu là mình chọn:**\n- **Tự mua cổ phiếu/ETF, ít cần tư vấn:** TCBS.\n- **Mới hoàn toàn, muốn được hướng dẫn:** trao đổi thử với SSI và VNDIRECT, chọn nơi giải thích rõ ràng, không thúc ép giao dịch hoặc vay margin.\n\nTrước khi mở, hãy hỏi rõ **phí mua/bán thực tế, phí ứng trước tiền bán, phí chuyển chứng khoán đi và điều kiện ưu đãi**. Chỉ đăng ký qua kênh chính thức; không giao mật khẩu/OTP hay chuyển tiền vào tài khoản cá nhân của môi giới.\n\nBạn dự định đầu tư khoảng bao nhiêu vốn, và muốn **tự mua giữ lâu dài hay có môi giới tư vấn**?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 47459,
+    "cached_input_tokens": 31616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 741,
+    "reasoning_output_tokens": 9
+   }
+  }
+ ],
+ "thread_id": "01a1b00b-6b8f-7b62-ac6d-14c09b5ab327",
+ "error": ""
+}

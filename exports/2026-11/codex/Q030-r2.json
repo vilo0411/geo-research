@@ -1,0 +1,215 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q030-r2",
+ "prompt_id": "Q030",
+ "run": 2,
+ "question": "Mở tài khoản chứng khoán mất bao lâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:56:14",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 14.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b012-a5b4-7572-bc0f-07249f062803"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-7de62b71-6f67-4e56-bdca-da9911f3aceb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-7de62b71-6f67-4e56-bdca-da9911f3aceb",
+    "type": "web_search",
+    "query": "site.vndirect.com.vn mở tài khoản chứng khoán bao lâu eKYC ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.vndirect.com.vn mở tài khoản chứng khoán bao lâu eKYC",
+      "site.tcbs.com.vn mở tài khoản chứng khoán 24h"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Trong quá trình mở tài khoản tại VNDIRECT, sau khi chụp ảnh 2 mặt CCCD để hệ thống tự động nhận diện các thông tin,",
+      "title": "FAQ - Mở Tài Khoản – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/14250597614745-FAQ-M%E1%BB%9F-T%C3%A0i-Kho%E1%BA%A3n"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "# Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước ... Để rút tiền về tài khoản ngân hàng,",
+      "title": "Hướng dẫn mở tài khoản trực tuyến cho nhà đầu tư cá nhân trong nước – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/4413910748697-H%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-m%E1%BB%9F-t%C3%A0i-kho%E1%BA%A3n-tr%E1%BB%B1c-tuy%E1%BA%BFn-cho-nh%C3%A0-%C4%91%E1%BA%A7u-t%C6%B0-c%C3%A1-nh%C3%A2n-trong-n%C6%B0%E1%BB%9Bc"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "#### Mở tài khoản chứng khoán tại TCBS ... Nộp, rút 24/7 online ngay khi cần, tiền trong iPower nhận lợi tức theo ngày đến",
+      "title": "Mở tài khoản chứng khoán TCBS - Miễn phí giao dịch",
+      "url": "https://www.tcbs.com.vn/ca-nhan/uu-dai/mo-tai-khoan-chung-khoan-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Sau 24h (trừ thứ 7, chủ nhật) kể từ thời điểm hoàn thiện hồ sơ mở tài khoản, Quý khách có thể sử dụng tài",
+      "title": "Khi mở tài khoản sau bao lâu tôi có thể giao dịch được? - Techcom Securities - TCBS",
+      "url": "https://www.tcbs.com.vn/mo-tai-khoan-giao-dich-chung-khoan/khi-mo-tai-khoan-sau-bao-lau-toi-co-the-giao-dich-uoc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "#### Mở tài khoản Techcombank từ mục đối tác TCBS ... #### Mở tài khoản cho khách hàng cá nhân nước ngoài không cư trú",
+      "title": "Mở, thay đổi và quản lý tài khoản | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/mo-va-quan-ly-tai-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "###### Đầy đủ lựa chọn các gói giao dịch chủ động hay có hỗ trợ của chuyên viên tư vấn với mức phí và lãi",
+      "title": "Mở tài khoản chứng khoán VNDIRECT",
+      "url": "https://www.vndirect.com.vn/mo-tai-khoan-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "* Mở, thay đổi và quản lý tài khoản * Giao dịch chứng khoán ... * Đặc quyền tại TCBS",
+      "title": "Trang chủ | Trung tâm hỗ trợ TCBS",
+      "url": "https://help.tcbs.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "### Miễn phí vận chuyển cho khách hàng tại tất cả tỉnh/ thành trên cả nước ... VỀ VNDIRECT ... VỀ VNDIRECT ... ### Lưu",
+      "title": "HỒ SƠ MỞ TÀI KHOẢN CHỨNG KHOÁN",
+      "url": "https://www.vndirect.com.vn/huong-dan-van-chuyen-ho-so-ve-VNDIRECT/"
+     },
+     {
+      "type": "text_result",
+      "domain": "mydgo.vndirect.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Mở tài khoản VNDIRECT Chào mừng bạn đến với nền tảng đầu tư và giao dịch chứng khoán của VNDIRECT. ... DSTOCK Giao dịch chứng",
+      "title": "My DGO",
+      "url": "https://mydgo.vndirect.com.vn/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Dịch vụ chứng khoán là các dịch vụ chứng khoán của VNDIRECT cung cấp trong phạm vi phù hợp với quy định của pháp luật,",
+      "title": "CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN GIAO DỊCH CHỨNG KHOÁN - VNDIRECT",
+      "url": "https://www.vndirect.com.vn/cac-dieu-khoan-va-dieu-kien-giao-dich-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "Hiện nay, việc mở tài khoản chứng khoán và đầu tư trở nên dễ dàng hơn bao giờ hết chỉ với 1 lần kích hoạt",
+      "title": "Mở tài khoản chứng khoán VNDIRECT online 1 chạm và định danh eKYC",
+      "url": "https://dautu.vndirect.com.vn/mo-tai-khoan-chung-khoan-vndirect-online-ekyc/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Đa dạng các sản phẩm quỹ của Công ty quản lý quỹ IPA Đầu tư sinh lời một cách hiệu quả và dễ dàng trong",
+      "title": "Mở tài khoản chứng khoán VNDIRECT - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/mo-tai-khoan-vndirect/"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.nhandan.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Để biết thêm thông tin chi tiết về chương trình khuyến mại của Agribank, Quý khách hàng vui lòng liên hệ số tổng đài hỗ",
+      "title": "Nhân Dân — QUẢNG CÁO — 18/8/2025 — 6",
+      "url": "https://cdn.nhandan.vn/files/b3498ce031da26891e03fbe2713b0d6a7007d2f85d1c11f5015d5feb030aff886afc97b3ee59846a53fa2041ac4a7838/nhandan-18082025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vietcap.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Chứng minh nhân dân (CMND) hoặc thẻ căn cước công dân (CCCD) còn hiệu ... Mở tài khoản eKYC có trải nghiệm tốt nhất trình",
+      "title": "Hướng dẫn\nMở tài khoản trực tuyến\nĐịnh danh điện t",
+      "url": "https://www.vietcap.com.vn/mo-tai-khoan/docs/huongdan_ekyc_mobile.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search14",
+      "snippet": "Second screen: green check icon, headline “Chúc mừng bạn!”, section “Tài khoản ngân hàng” with fields “Số tài khoản 19112204568866”, “Tên tài khoản Tran Ai",
+      "title": "9Slide.vn",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/articles/hdsd-tinh-nang-mo-bo-doi-tai-khoan-tcb-tcbs-47ef654700-58c2e8e363.pdf?lead=merchant-dgmkt"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Số: 010511/24/TB-TCBS ... Website: www.tcbs.com.vn5. ... Nơi mở tài khoản thanh toán: Ngân hàng TMCP Công thương Việt Nam – Chi nhánh Hà ... •",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN",
+      "url": "https://www.tcbs.com.vn/wp-content/uploads/2025/11/1Thongbaophathanh_010511_24_TB-TCBS_final.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.kbsec.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "MỞ TÀI KHOẢN EKYC ... vụ giao dịch chứng khoán.",
+      "title": "HƯỚNG DẪN KÝ SỐ HỢP ĐỒNG ĐIỆN TỬ MỞ TÀI KHOẢN",
+      "url": "https://www.kbsec.com.vn/pic/general/files/HDSD%20MTK%282%29.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search17",
+      "snippet": "pháp eKYC tại VNDIRECT được xây dựng trên ... khoán, VNDIRECT đã phát triển DBOARD trở ... khách hàng mở tài khoản (trực tuyến qua",
+      "title": "01  PHẦN MỞ ĐẦU",
+      "url": "https://www.vndirect.com.vn/VNDIRECT.BCTN2020.2705.TiengViet.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Mở tài khoản chứng khoán online thường chỉ mất vài phút thao tác**, nhưng thời gian chờ kích hoạt để giao dịch tùy công ty.\n\n- **Đăng ký:** điền thông tin, chụp căn cước, xác thực khuôn mặt và ký hợp đồng điện tử.\n- **Chờ giao dịch:** có thể lâu hơn bước đăng ký. Ví dụ, TCBS thông báo có thể giao dịch **sau 24 giờ, trừ thứ Bảy và Chủ nhật**, kể từ khi hoàn thiện hồ sơ. [Nguồn TCBS](https://www.tcbs.com.vn/mo-tai-khoan-giao-dich-chung-khoan/khi-mo-tai-khoan-sau-bao-lau-toi-co-the-giao-dich-uoc/)\n\nBạn định mở tại công ty chứng khoán nào?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22203,
+    "cached_input_tokens": 15232,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 246,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b012-a5b4-7572-bc0f-07249f062803",
+ "error": ""
+}

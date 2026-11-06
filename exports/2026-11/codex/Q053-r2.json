@@ -1,0 +1,428 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q053-r2",
+ "prompt_id": "Q053",
+ "run": 2,
+ "question": "Nạp tiền vào tài khoản chứng khoán Chứng khoán DSC mất bao lâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:08:54",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 31.4,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01e-414f-7fc2-80a4-ebb4ebf5b750"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-a896b421-9c1c-4038-a76f-2c63e9e453bb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-a896b421-9c1c-4038-a76f-2c63e9e453bb",
+    "type": "web_search",
+    "query": "site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn nộp tiền tài khoản chứng khoán bao lâu"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Khi có nhu cầu chuyển tiền từ tài khoản chứng khoán ra tài khoản ngân hàng, Khách hàng thực hiện theo 1 trong các Phương",
+      "title": "Hướng dẫn rút tiền 24/7 tại DSC - Chứng khoán DSC",
+      "url": "https://dsc.com.vn/huong-dan/rut-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Tháng 8/2026, Việt Nam có gần 13,66 triệu tài khoản chứng khoán, trong đó hơn 13,58 triệu thuộc nhà đầu tư cá nhân trong nước",
+      "title": "Cách mở tài khoản chứng khoán online 3 phút cho người mới",
+      "url": "https://dsc.com.vn/en/kien-thuc/cach-mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Nộp tiền ... * Quy định giao dịch đối với sàn UPCOM",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "valueinvesting.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "DSC xét duyệt trong ngày làm việc, thường trong vòng 1–3 giờ với hồ sơ nộp trước 15:00. ... Trong app DSC Trade, vào mục",
+      "title": "Review DSC Securities: Có nên mở tài khoản chứng khoán DSC không? | Value Investing",
+      "url": "https://valueinvesting.com.vn/reviews/review-dsc-securities/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Phí chuyển khoản chứng khoán | Chuyển khoản chứng khoán sang thành viên lưu ký khác, chuyển khoản tất toán tài khoản | 01 giao",
+      "url": "https://dsc.com.vn/bieu-phi"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Nộp tiền ... * Quy định giao dịch đối với sàn UPCOM",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "phantichchungkhoan.net",
+      "ref_id": "turn0search6",
+      "snippet": "Tại màn hình DSC Trading, nhập Số tài khoản chứng khoán và Mật khẩu, sau đó bấm “Đăng nhập”. ... Quý khách có thể nộp",
+      "title": "Hướng dẫn sử dụng app chứng khoán DSC Trading | P2 - Phân Tích Chứng Khoán",
+      "url": "https://phantichchungkhoan.net/huong-dan-su-dung-app-chung-khoan-dsc-trading-p2/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vdsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Image Làm sao để nộp tiền vào tài khoản chứng khoán? ... Image Làm sao để rút/ chuyển tiền từ tài khoản chứng khoán ra",
+      "title": "FAQs - Những câu hỏi thường gặp | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vdsc.com.vn/faqs-nhung-cau-hoi-thuong-gap"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "d) Trường hợp DSC đã thực hiện bán toàn bộ chứng khoán có trong TKKQ của Khách Hàng nhưng không thể bán hết số chứng",
+      "url": "https://dsc.com.vn/dieu-khoan-chung/ban-dieu-khoan-va-dieu-kien-mo-tai-khoan-giao-dich-ky-quy"
+     },
+     {
+      "type": "text_result",
+      "domain": "phantichchungkhoan.net",
+      "ref_id": "turn0search9",
+      "snippet": "Quý khách có thể nộp tiền vào tài khoản chứng khoán mở tại DSC theo hai cách như sau: ... Sau khi đăng ký và",
+      "title": "Hướng dẫn mở tài khoản chứng khoán DSC nhanh chóng và tiện lợi - Phân Tích Chứng Khoán",
+      "url": "https://phantichchungkhoan.net/huong-dan-mo-tai-khoan-chung-khoan-dsc-nhanh-chong-va-tien-loi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "QUYỀN LỢI KHÁCH HÀNG NHẬN ĐƯỢC KHI MỞ TÀI KHOẢN CHỨNG KHOÁN TẠI DSC ... Mở tài khoản miễn phí của bạn ngay hôm nay!",
+      "title": "Dịch vụ mở tài khoản - DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn0search11",
+      "snippet": "6 | Phí nộp/rút tiền tài khoản ký quỹ trả cho Vietinbank | 11.000 đồng/giao dịch (đã bao gồm VAT) ... + Khoản vay có",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Nhập “Tên chủ tài khoản chứng khoán” (không dấu) vào mục “Tên khách hàng” ... Ảnh chụp màn hình ứng dụng di động “Nộp",
+      "title": "- Nhập “Tên chủ tài khoản chứng khoán” (không dấu) vào mục “Tên khách hàng”",
+      "url": "https://www.ssi.com.vn/upload/files/KHCN/Huong-dan-nop-tien/VCB_H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20n%E1%BB%99p%20ti%E1%BB%81n%20Mobile%20Banking.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.24hmoney.vn",
+      "ref_id": "turn0search13",
+      "snippet": "giao dịch nộp tiền vào tài khoản chứng khoán của khách hàng tại DSC được rút ngắn ... Với định hướng chung của thị trường",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://cdn.24hmoney.vn/upload/file/2026-1/2026-03-27/no-name-1774553274.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Cổ đông hiện hữu, cán bộ công nhân viên được chuyển nhượng quyền mua một lần cho các đối tượng khác trong thời gian đăng",
+      "title": "BÁN CÁO BẠCH",
+      "url": "https://www.ssi.com.vn/upload/file/a542e446-2705-48bc-9e7b-3cc20bcc57b6.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "acbs.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "bao gồm nhưng không giới hạn việc chào bán cho nhà đầu tư khác phù hợp với quy định của pháp luật. Trường hợp xử",
+      "title": "2\n\nbao gồm nhưng không giới hạn việc chào bán cho",
+      "url": "https://acbs.com.vn/Files/Domains/ACBS/WFL-1588/230602015215-1015-1015000013.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.psi.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Website: https://www.psi.vn ... Tài khoản được hiểu bao gồm Tài khoản lưu ký chứng khoán, Tài khoản giao dịch chứng khoán, Tài khoản giao dịch",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DẦU KHÍ",
+      "url": "https://www.psi.vn/uploads/san-pham-dich-vu/tai-lieu/PSI-Dieu%20khoan%20dieu%20kien%20mo%20tai%20khoan%20ca%20nhan%20va%20to%20chuc.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-d2432e1a-3634-452d-9aa1-548d38cb7911",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-d2432e1a-3634-452d-9aa1-548d38cb7911",
+    "type": "web_search",
+    "query": "https://dsc.com.vn/huong-dan/nop-tien",
+    "action": {
+     "type": "open_page",
+     "url": "https://dsc.com.vn/huong-dan/nop-tien"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 480",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/DWuVrwRVBIcjBB6L4mbBmugAxZYuKIYloLoPw_XTMBXA4ckO0TpbNs1xtYsRju4fXUcgJvUSCKucv_1rDswKyQ",
+      "title": "Hướng dẫn nộp tiền chứng khoán tại DSC nhanh chóng, đơn giản",
+      "url": "https://dsc.com.vn/huong-dan/nop-tien"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-46ab6909-6cdb-4709-9105-30de73030179",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-46ab6909-6cdb-4709-9105-30de73030179",
+    "type": "web_search",
+    "query": "site.dsc.com.vn \"nộp tiền\" \"phút\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn \"nộp tiền\" \"phút\"",
+      "site.dsc.com.vn \"nộp tiền\" \"24/7\"",
+      "site.dsc.com.vn \"nộp tiền\" \"16h\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "* # Hướng dẫn nộp tiền 24/7 tại DSC ... Cách 2: Nộp tiền mặt/ủy nhiệm chi/chuyển khoản IB vào tài khoản tổng của DSC",
+      "title": "Hướng dẫn nộp tiền chứng khoán tại DSC nhanh chóng, đơn giản",
+      "url": "https://www.dsc.com.vn/huong-dan/nop-tien?gidzl=-WbLMKVQONVz55LRGCrYSFGLL5vMasWZk1TRMmoIFoEt4maA2SPjAU12NWeAacXqvqjQ3ZACu0KRHz1bUW&zarsrc=30"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.psi.vn",
+      "ref_id": "turn2search12",
+      "snippet": "Trường hợp tiền của Quý khách được ngân hàng hạch toán vào tài khoản chuyên dụng của PSI sau 16h:30’ các ngày làm việc trong",
+      "title": "<table id=\"e1\">",
+      "url": "https://www.psi.vn/uploads/cau-hoi-thuong-gap/huong-dan-giao-dich/huong-dan-nop-tien-vao-tai-khoan/HU%CC%9BO%CC%9B%CC%81NG%20DA%CC%82%CC%83N%20NO%CC%A3%CC%82P%20TIE%CC%82%CC%80N%20-%20SU%CC%9B%CC%89%20DU%CC%A3NG%20DI%CC%A3CH%20VU%CC%A3.%20FINAL.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn2search1",
+      "snippet": "Tháng 8/2026, VSDC ghi nhận hơn 13,58 triệu tài khoản chứng khoán của nhà đầu tư cá nhân trong nước. ... Tài khoản chứng khoán",
+      "title": "Cách chơi chứng khoán cho người mới bắt đầu [2026]",
+      "url": "https://dsc.com.vn/en/kien-thuc/cach-dau-tu-chung-khoan-cho-nguoi-moi-bat-dau"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search2",
+      "snippet": "Sau vài phút xác thực thông tin và ký hợp đồng điện tử, tài khoản giao dịch sẽ được kích hoạt và bạn có thể",
+      "title": "Cách mua cổ phiếu trên sàn HOSE đơn giản cho người mới",
+      "url": "https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose"
+     },
+     {
+      "type": "text_result",
+      "domain": "b247.com.vn",
+      "ref_id": "turn2search3",
+      "snippet": "Chủ động làm việc trước khi cần sự tác động và nhắc nhở của người khác. ... Dịch vụ chuyển/nộp tiền Ngân hàng kiểu Uber",
+      "title": "B247",
+      "url": "https://b247.com.vn/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn2search4",
+      "snippet": "Nộp tiền mặt vào tài khoản của khách hàng, người khác, tài khoản công ty ... Giao dịch nộp và rút tiền 24/7 với mạng",
+      "title": "Dịch vụ qua CDM | Techcombank",
+      "url": "https://techcombank.com/khach-hang-ca-nhan/chi-tieu/dich-vu-khac/dich-vu-qua-cdm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.eves.com.vn",
+      "ref_id": "turn2search5",
+      "snippet": "⇒Hướng dẫn nộp tiền qua QR Code: https://www.eves.com.vn/HDSD-nop-tien-QRcode ... - Mã QR được tạo cho mỗi tiểu khoản là mã tĩnh, bạn có thể lưu",
+      "title": "Câu hỏi thường gặp",
+      "url": "https://www.eves.com.vn/wikibook/cau-hoi-thuong-gap/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn2search13",
+      "snippet": "❖ **Bước 1:** KH chọn mục “Tiện ích” → chọn “Nạp/rút tiền” để kiểm tra thông tin hướng dẫn nộp tiền và thực hiện chuyển",
+      "title": "HƯỚNG DẪN ĐẶT LỆNH GIAO DỊCH CK PHÁI SINH TRÊN WEB TRADING",
+      "url": "https://pinetree.vn/wp-content/uploads/2024/07/PTSV_Huong-dan-Giao-dich-Phai-Sinh_VI_decrypt.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.bsc.com.vn",
+      "ref_id": "turn2search6",
+      "snippet": "Quý khách có thể nộp tiền trực tuyến thông qua tài khoản thanh toán định danh của từng tiểu khoản, với các hình thức sau:",
+      "title": "Tài khoản chứng khoán cơ sở - BSC",
+      "url": "https://www.bsc.com.vn/giao-dich-tien-chung-khoan-co-so/"
+     },
+     {
+      "type": "text_result",
+      "domain": "haseco.vn",
+      "ref_id": "turn2search7",
+      "snippet": "Mang đến giải pháp thuận tiện nhất cho Khách hàng khi giao dịch, HASECO đã kết nối nộp tiền thu hộ, hệ thống hạch toán",
+      "title": "Hướng dẫn Nộp tiền vào tài khoản giao dịch – HASECO",
+      "url": "https://haseco.vn/huong-dan-nop-rut-chuyen-khoan-tien/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.dnse.com.vn",
+      "ref_id": "turn2search8",
+      "snippet": "Ký quỹ là khoản tiền đặt cọc nhà đầu tư phải nộp lên VSDC (Trung tâm lưu ký và bù trừ chứng khoán Việt Nam)",
+      "title": "Nộp cọc phái sinh | ENTRADE X",
+      "url": "https://hdsd.dnse.com.vn/huong-dan-giao-dich-tien/huong-dan-giao-dich-tien-phai-sinh/nop-coc-phai-sinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "reviewchungkhoan.com",
+      "ref_id": "turn2search9",
+      "snippet": "Chuyển vào tài khoản định danh thì tiền tự vào, ở nhiều công ty kể cả ngoài giờ (VPS, DNSE, MBS ghi 24/7); nhưng SSI,",
+      "title": "Nạp tiền vào tài khoản chứng khoán và rút tiền về ngân hàng",
+      "url": "https://reviewchungkhoan.com/nap-rut-tien-chung-khoan/"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn2search10",
+      "snippet": "Giao dịch tiền ## Nộp/Chuyển tiền vào tài khoản của Pinetree tại Ngân hàng TMCP Quân Đội (MBB) ... Chuyển tiền nhanh 24/7 (với số",
+      "title": "Nộp/Chuyển tiền vào tài khoản của Pinetree tại Ngân hàng TMCP Quân Đội (MBB) - Pinetree Securities",
+      "url": "https://pinetree.vn/post/dich-vu/nop-chuyen-tien-vao-tai-khoan-cua-pinetree-tai-ngan-hang-tmcp-quan-doi-mbb/"
+     },
+     {
+      "type": "text_result",
+      "domain": "hsc.com.vn",
+      "ref_id": "turn2search11",
+      "snippet": "HSC cung cấp dịch vụ nộp tiền nhanh chóng qua hình thức chuyển khoản nhanh 24/7 từ tài khoản của Quý khách tại các Ngân",
+      "title": "Tài khoản Cổ phiếu - HSC",
+      "url": "https://hsc.com.vn/vi/cash-deposit/stock-accounts.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "vdsc.com.vn",
+      "ref_id": "turn2search14",
+      "snippet": "| G | CHỌN MENU “NOP TIEN CHUNG KHOAN” NHẬP: --- | --- | --- | | CHỌN MENU “NOP TIEN CHUNG KHOAN” hập SmartBanking",
+      "title": "HDSD_Nap tien CK BIDV",
+      "url": "https://vdsc.com.vn/data/api/app/file-storage/9451ec72-18bc-43ca-c18c-08dbfec77794"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-abc1ee84-7682-4176-9bef-11c9f814a873",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-abc1ee84-7682-4176-9bef-11c9f814a873",
+    "type": "web_search",
+    "query": "https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn3view0",
+      "snippet": "Total lines: 221",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/VzkB2qiuQpZvnlTvEbX5BUZ9Znmy0soUG9GFv8hCigwl4UbyrJLxBNlMB9d9MGh4dm98xSyi6C92AOiId1I4tzalmYZWXpJvJ111mcdK0qCBnPAhU8hD0A8EZuB8RCQxtNs_r9HZU0dVl1CzzCtT2A",
+      "title": "Cách mua cổ phiếu trên sàn HOSE đơn giản cho người mới",
+      "url": "https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn3view1",
+      "snippet": "Total lines: 221",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/cn3t41HNq2MNfNwsgmzKAdR6Bj2AfHHIUDjwtzlMFHW02lXoO20Od1tC4JCQwsOB5MziTdhd4hRybQxULKTRUTtb0FZiB7J3_3JPIWbbMGoTijCBgHpLM7v3njlXs2g-HOCgNEk_KvuJ1RZ4KDcC3g",
+      "title": "Cách mua cổ phiếu trên sàn HOSE đơn giản cho người mới",
+      "url": "https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_4",
+    "type": "agent_message",
+    "text": "**Nạp tiền vào tài khoản chứng khoán DSC bằng chuyển khoản thường mất khoảng 1–10 phút**; nếu nộp tại quầy ngân hàng thì khoảng **10–30 phút**, theo thời gian tham khảo DSC công bố. Thực tế có thể lâu hơn tùy ngân hàng và tình trạng xử lý giao dịch. [Nguồn DSC](https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-tren-san-hose)\n\nNếu ngân hàng đã trừ tiền nhưng DSC chưa cập nhật số dư, bạn nên kiểm tra lại số tài khoản, nội dung chuyển tiền và giữ biên lai để liên hệ DSC qua **(024) 3880 3456** nhờ kiểm tra. [Hỗ trợ DSC](https://dsc.com.vn/huong-dan/nop-tien)"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 89689,
+    "cached_input_tokens": 60928,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 445,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01e-414f-7fc2-80a4-ebb4ebf5b750",
+ "error": ""
+}

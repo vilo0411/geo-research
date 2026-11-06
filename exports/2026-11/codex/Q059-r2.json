@@ -1,0 +1,274 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q059-r2",
+ "prompt_id": "Q059",
+ "run": 2,
+ "question": "Khiếu nại công ty chứng khoán ở đâu?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:11:56",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 61.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b021-04f2-7ac0-b3a2-ac05a2b97102"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-931d0e57-49a2-43e0-a6bd-ed7feb7b0831",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-931d0e57-49a2-43e0-a6bd-ed7feb7b0831",
+    "type": "web_search",
+    "query": "site.ssc.gov.vn phản ánh kiến nghị khiếu nại công ty chứng khoán Ủy ban Chứng khoán Nhà nước ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.ssc.gov.vn phản ánh kiến nghị khiếu nại công ty chứng khoán Ủy ban Chứng khoán Nhà nước",
+      "site.hnx.vn site.hsx.vn tranh chấp công ty chứng khoán khách hàng khiếu nại"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "mof.gov.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Ủy ban Chứng khoán Nhà nước là cơ quan trực thuộc Bộ Tài chính, thực hiện chức năng tham mưu, giúp Bộ trưởng Bộ Tài",
+      "title": "Cổng thông tin điện tử Bộ Tài Chính",
+      "url": "https://mof.gov.vn/btcvn/co-cau-to-chuc/uy-ban-chung-khoan-nha-nuoc"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.fbs.com",
+      "ref_id": "turn0search12",
+      "snippet": "Khiếu nại bao gồm thông tin nêu ở mục 8.1.6 và gửi tới Phòng Quản lý Chất lượng qua Mẫu phản hồi có trên website",
+      "title": "FBS. Thỏa thuận khách hàng",
+      "url": "https://cdn.fbs.com/docs/agreement_vi.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "owa.hnx.vn",
+      "ref_id": "turn0search13",
+      "snippet": "CÔNG TY CỔ PHẦN TẬP ĐOÀN KSFINANCE + Tiếp nhận và giải quyết khiếu nại: Tiếp nhận các khiếu nại liên quan tới mở tài",
+      "title": "BẢN CÁO BẠCH",
+      "url": "https://owa.hnx.vn/ftp/cims/2021/10_W2/000000010869783_1._KSF_BCB_Niem_yetcompressed_1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "shs.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "không khiếu nại, khiếu kiện hay tranh chấp với kết quả giao dịch được ... cập vào tài khoản tiền gửi của Khách hàng để",
+      "title": "HỢP ĐỒNG MỞ TÀI KHOẢN GIAO DỊCH CHỨNG KHOÁN",
+      "url": "https://shs.com.vn/Sites/QuoteVN/SiteRoot/HD%20Mo%20TK%20GDCK.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "media.vietteltelecom.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Nếu tranh chấp không thể giải quyết thông qua thương lượng, các Bên có quyền yêu cầu cơ quan có thẩm quyền giải quyết theo",
+      "url": "https://media.vietteltelecom.vn/upload/ckfinder/files/01_VIETTEL-BM05_HDTS_DN-%20Hop%20dong%20DVVT%20truyen%20hinh_UQ_1.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.forexmart.com",
+      "ref_id": "turn0search16",
+      "snippet": "7.14 Công ty có quyền yêu cầu Đối tác hoàn thành xác minh bằng cách cung cấp bằng chứng ... hạn chế quyền truy cập",
+      "title": "Thỏa thuận đối tác ForexMart",
+      "url": "https://www.forexmart.com/assets/pdf/PA/VN/ForexMartPartnershipAgreement.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "tusach.fph.gov.vn",
+      "ref_id": "turn0search17",
+      "snippet": "b) Nếu thương nhân, tổ chức cung cấp dịch vụ thương mại điện tử không công bố thông tin theo quy định tại Điểm a",
+      "title": "b) Nếu thương nhân, tổ chức cung cấp dịch vụ thương mại điện tử không công bố thông tin theo quy định tại Điểm a Khoản này, thì phải trực tiếp chịu trách nhiệm tiếp nhận, xử lý khiếu nại của khách hàng và giải quyết các tranh chấp liên quan đến hợp đồng được giao kết trên website thương mại điện tử của mình;",
+      "url": "https://tusach.fph.gov.vn/upload/data/news/11-10-18/b1.-chu-ky-so-300-trang-ok.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "bonds.hnx.vn",
+      "ref_id": "turn0search1",
+      "snippet": "1 | 10/09/2026 16:43 | PGT | Thông báo về việc bổ sung lý do đưa cổ phiếu vào danh sách chứng khoán không được",
+      "title": "Thông tin công bố",
+      "url": "https://bonds.hnx.vn/vi-vn/thong-tin-cong-bo-ny-hnx.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Ủy ban Chứng khoán Nhà nước thực hiện các nhiệm vụ và quyền hạn gồm: Trình Bộ trưởng Bộ Tài chính để trình cấp có",
+      "title": "Quy định về cơ cấu tổ chức của Ủy ban Chứng khoán Nhà nước",
+      "url": "https://baochinhphu.vn/quy-dinh-moi-ve-chuc-nang-co-cau-to-chuc-cua-uy-ban-chung-khoan-nha-nuoc-10225030410575135.htm"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssc.gov.vn",
+      "ref_id": "turn0search3",
+      "snippet": "### Bộ Tài chính, UBCKNN lấy ý kiến của các đơn vị, tổ chức, cá nhân đối với Nghị định sửa đổi, bổ sung một",
+      "title": "Trang chủ - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://www.ssc.gov.vn/webcenter/portal/ubck"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.mof.gov.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Trong kỳ báo cáo, UBCKNN không nhận được phản ánh, kiến nghị về quy định hành chính. ... Cùng với đó, UBCKNN sẽ triển khai",
+      "title": "Cổng thông tin điện tử Bộ Tài Chính",
+      "url": "https://www.mof.gov.vn/cong-nghe-thong-tin-va-chuyen-doi-so/hoat-dong-quan-ly/uy-ban-chung-khoan-nha-nuoc-day-nhanh-so-hoa-nganh-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search5",
+      "snippet": "3 | APS | Công ty Cổ phần Chứng khoán Châu Á - Thái Bình Dương | Kiểm soát ... 3 | 08/07/2026 14:38 |",
+      "title": "Danh sách chứng khoán",
+      "url": "https://www.hnx.vn/co-phieu-etfs/chung-khoan-ny-thong-tin.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hnx.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Hồ sơ chứng khoán ... Số 16 Phố Hoàng Minh Đạo - Phường Bồ Đề - Quận Long Biên - Thành phố Hà Nội ...",
+      "title": "CTCP In Hàng không",
+      "url": "https://www.hnx.vn/vi-vn/cophieu-etfs/chi-tiet-chung-khoan-uc-IHK.html?_des_tab=1"
+     },
+     {
+      "type": "text_result",
+      "domain": "baochinhphu.vn",
+      "ref_id": "turn0search7",
+      "snippet": "## (Chinhphu.vn) - Ủy ban Chứng khoán Nhà nước lấy ý kiến góp ý về dự thảo Quyết định ban hành quy chế sử dụng",
+      "title": "Hệ thống công bố thông tin của Ủy ban Chứng khoán Nhà nước",
+      "url": "https://baochinhphu.vn/de-xuat-quy-che-su-dung-he-thong-cong-bo-thong-tin-cua-uy-ban-chung-khoan-nha-nuoc-102240229164206791.htm"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-2c077df2-cccc-4ca9-9222-ad2ccebefa52",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-2c077df2-cccc-4ca9-9222-ad2ccebefa52",
+    "type": "web_search",
+    "query": "Luật chứng khoán 2019 Điều 133 tranh chấp thương lượng trọng tài tòa án ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "Luật chứng khoán 2019 Điều 133 tranh chấp thương lượng trọng tài tòa án",
+      "site.ssc.gov.vn \"164\" \"Trần Quang Khải\" liên hệ"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vanban.org",
+      "ref_id": "turn1search0",
+      "snippet": "### Điều 133. ... Trường hợp quyền, lợi ích hợp pháp của tổ chức, cá nhân trong hoạt động về chứng khoán và thị trường",
+      "title": "Luật Chứng khoán 2019 (54/2019/QH14, sửa đổi 2025)",
+      "url": "https://vanban.org/van-ban/luat-chung-khoan-2019-54-2019-qh14"
+     },
+     {
+      "type": "text_result",
+      "domain": "phapluatviet.vn",
+      "ref_id": "turn1search12",
+      "snippet": "**Điều 133. ... Trường hợp quyền, lợi ích hợp pháp của tổ chức, cá nhân trong hoạt động về chứng khoán và thị trường chứng",
+      "title": "LUẬT CHỨNG KHOÁN 2019",
+      "url": "https://phapluatviet.vn/wp-content/uploads/2025/01/LUAT-CHUNG-KHOAN-2019.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn1search13",
+      "snippet": "STT 1 | Tên tổ chức/cá nhân Bùi Tuấn Long | Tài khoản giao dịch chứng khoán (nếu có) | Chức vụ tại Công ty(nếu",
+      "title": "CÔNG TY CỔ PHẦN",
+      "url": "https://static2.vietstock.vn/vietstock/2025/7/25/1_tan_2025_7_25_b66733d_2025_07_bao_cao_tinh_hinh_quan_tri_6t2025_cb_signed.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssc.gov.vn",
+      "ref_id": "turn1search1",
+      "snippet": "Trụ sở làm việc mới của Ủy ban Chứng khoán Nhà nước hiện nay tại số 164 Trần Quang Khải, Quận Hoàn Kiếm, Tp. ...",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://www.ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN162106471"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search14",
+      "snippet": "Ủy ban Chứng khoán Nhà nước, Số 164 Trần Quang Khải, Phường Hoàn Kiếm, ... 2026-2029 nhằm đảm bảo hoạt động của các hệ thống",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620164767&dID=173103&filename=CV+165_CDS_GuiCongTy_BaoGia_ThueDV2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search2",
+      "snippet": "### Thông tin liên hệ hỗ trợ hệ thống Công bố thông tin (IDS) ... ### Quyết định 245/QĐ-UBCK ban hành Quy chế sử sử",
+      "title": "Home",
+      "url": "https://ssc.gov.vn/webcenter/portal/cbttsupport/pages_home"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1search15",
+      "snippet": "➤ Báo cáo liên quan đến hoạt động giám sát: Vụ Giám sát thị trường - UBCKNN số 164 Trần Quang Khải, Hoàn Kiếm, Hà",
+      "title": "điện thoại: 04.3934.0750 máy lẻ 410, địa chỉ email: quanlykinhdoanh@ssc.gov.vn.",
+      "url": "https://ssc.gov.vn/webcenter/contentattachfile/idcplg?IdcService=GET_FILE&IsAttachment=1&Rendition=QD+so+515+huong+dan+Quy+trinh+CBTT+va+Bao+cao+UBCKNN.PDF&allowInterrupt=1&dDocName=APPSSCGOVVN162076379&dID=104027&filename=QD+so+515+huong+dan+Quy+trinh+CBTT+va+Bao+cao+UBCKNN.PDF"
+     },
+     {
+      "type": "text_result",
+      "domain": "mof.gov.vn",
+      "ref_id": "turn1search3",
+      "snippet": "Điều kiện, tiêu chuẩn tuyển dụng a) Có một quốc tịch là quốc tịch Việt Nam;b) Đủ tuổi lao động theo quy định của pháp",
+      "title": "Cổng thông tin điện tử Bộ Tài Chính",
+      "url": "https://mof.gov.vn/bo-tai-chinh/thong-bao-chi-dao-dieu-hanh/uy-ban-chung-khoan-nha-nuoc-thong-bao-tuyen-dung"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "Ở Việt Nam, bạn có thể gửi đến **các nơi sau, tùy nội dung vụ việc**:\n\n1. **Chính công ty chứng khoán:** Gửi đơn đến bộ phận giải quyết khiếu nại hoặc ban lãnh đạo qua kênh chính thức. Nêu rõ sự việc, yêu cầu xử lý và đề nghị trả lời bằng văn bản; giữ lại bằng chứng đã gửi.\n\n2. **Ủy ban Chứng khoán Nhà nước (UBCKNN):** Nếu nghi công ty vi phạm quy định về chứng khoán, hoặc không giải quyết thỏa đáng, bạn có thể gửi đơn phản ánh, kiến nghị kèm chứng cứ đến cơ quan này — nơi quản lý, giám sát hoạt động chứng khoán. Địa chỉ: **164 Trần Quang Khải, phường Hoàn Kiếm, Hà Nội**. Có thể gửi bưu điện bảo đảm để lưu bằng chứng. [Chức năng UBCKNN](https://mof.gov.vn/btcvn/co-cau-to-chuc/uy-ban-chung-khoan-nha-nuoc) · [Địa chỉ cơ quan](https://mof.gov.vn/bo-tai-chinh/thong-bao-chi-dao-dieu-hanh/uy-ban-chung-khoan-nha-nuoc-thong-bao-tuyen-dung).\n\n3. **Tòa án hoặc trọng tài:** Nếu mục tiêu là **đòi tiền, yêu cầu bồi thường hoặc giải quyết tranh chấp hợp đồng**. Trọng tài cần có thỏa thuận trọng tài hợp lệ. Việc gửi đơn đến UBCKNN không thay thế thủ tục giải quyết tranh chấp này. [Điều 133 Luật Chứng khoán](https://vanban.org/van-ban/luat-chung-khoan-2019-54-2019-qh14).\n\n4. **Cơ quan công an:** Nếu có dấu hiệu lừa đảo, chiếm đoạt tiền, giả mạo chữ ký hoặc tài liệu, bạn nên trình báo sớm, không cần chờ công ty trả lời.\n\n**Hồ sơ nên có:** đơn trình bày diễn biến theo ngày, tên công ty, số tài khoản chứng khoán, hợp đồng, sao kê/lịch sử lệnh, email/tin nhắn, thiệt hại và yêu cầu cụ thể.\n\nBạn đang khiếu nại **công ty nào và về việc gì** — phí, bán giải chấp, tự ý giao dịch hay không cho rút tiền?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 39006,
+    "cached_input_tokens": 30848,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 702,
+    "reasoning_output_tokens": 9
+   }
+  }
+ ],
+ "thread_id": "01a1b021-04f2-7ac0-b3a2-ac05a2b97102",
+ "error": ""
+}

@@ -1,0 +1,410 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q054-r1",
+ "prompt_id": "Q054",
+ "run": 1,
+ "question": "Rút tiền từ tài khoản chứng khoán Chứng khoán DSC như thế nào?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:09:24",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 33.0,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01e-b424-7521-bc01-2a5107b85258"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5cb2f1ae-ed6b-48b4-8657-8f9bd3837e1a",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5cb2f1ae-ed6b-48b4-8657-8f9bd3837e1a",
+    "type": "web_search",
+    "query": "site.dsc.com.vn hướng dẫn rút tiền tài khoản chứng khoán DSC chuyển tiền",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn hướng dẫn rút tiền tài khoản chứng khoán DSC chuyển tiền"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Để thực hiện chuyển/rút tiền 24/7 tại DSC, Quý khách vui lòng thực hiện theo hướng dẫn sau: Khi có nhu cầu chuyển tiền từ",
+      "title": "Hướng dẫn rút tiền 24/7 tại DSC - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/rut-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search1",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Rút tiền ... * Quy định giao dịch đối với sàn UPCOM",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Rút tiền ... * Quy định giao dịch đối với sàn UPCOM",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Hạn mức chuyển tiền được áp dụng theo hạn mức trong ngày Quý khách đã đăng ký trên tài khoản hoặc theo quy định của",
+      "title": "Hướng dẫn rút tiền",
+      "url": "https://www.hsc.com.vn/vi/huong-dan-rut-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Chi tiết tại: https://www.hsc.com.vn/nop-tien/tai-khoan-co-phieu.html ... Trường hợp Quý khách nộp tiền vào tài khoản tổng của HSC sau 17h00 các ngày làm việc trong tuần",
+      "title": "Chuyển tiền",
+      "url": "https://www.hsc.com.vn/vi/chuyen-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search5",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Rút tiền ... * Quy định giao dịch đối với sàn UPCOM",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://www.dsc.com.vn/en/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Lưu ý: Để đảm bảo thanh toán khoản vay, tài khoản giao dịch chứng khoán có đủ tiền trước 16h30 của ngày thanh toán (không",
+      "title": "Chính sách dịch vụ giao dịch ký quỹ - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/chinh-sach-dich-vu-giao-dich-ky-quy?_ccrz_cb=e108f53d77df"
+     },
+     {
+      "type": "text_result",
+      "domain": "hdsd.vdsc.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Image Làm sao để nộp tiền vào tài khoản chứng khoán? ... Image Làm sao để rút/ chuyển tiền từ tài khoản chứng khoán ra",
+      "title": "FAQs - Những câu hỏi thường gặp | Hướng dẫn sử dụng",
+      "url": "https://hdsd.vdsc.com.vn/faqs-nhung-cau-hoi-thuong-gap"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef1.mediacdn.vn",
+      "ref_id": "turn0search12",
+      "snippet": "giao dịch nộp tiền vào tài khoản chứng khoán của khách hàng tại DSC được rút ngắn ... Với định hướng chung của thị trường",
+      "title": "Digitally signed by CÔNG TY CỔ",
+      "url": "https://cafef1.mediacdn.vn/Images/Uploaded/DuLieuDownload/BCTC/DSC_24CN_BCTN.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "QUYỀN LỢI KHÁCH HÀNG NHẬN ĐƯỢC KHI MỞ TÀI KHOẢN CHỨNG KHOÁN TẠI DSC ... Được hướng dẫn giao dịch và hỗ trợ tài khoản",
+      "title": "Dịch vụ mở tài khoản - DSC",
+      "url": "https://www.dsc.com.vn/dich-vu/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "QUYỀN LỢI KHÁCH HÀNG NHẬN ĐƯỢC KHI MỞ TÀI KHOẢN CHỨNG KHOÁN TẠI DSC ... Được hướng dẫn giao dịch và hỗ trợ tài khoản",
+      "title": "Dịch vụ mở tài khoản - DSC",
+      "url": "https://dsc.com.vn/dich-vu/mo-tai-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* Hướng dẫn cách mở tài khoản chứng khoán eKYC DSC ... * Rút tiền ... * Quy định giao dịch đối với sàn UPCOM",
+      "title": "Hướng dẫn giao dịch chứng khoán trên DSC",
+      "url": "https://dsc.com.vn/en/huong-dan"
+     },
+     {
+      "type": "text_result",
+      "domain": "elearn.dsc.com.vn",
+      "ref_id": "turn0search11",
+      "snippet": "Thông tin khách hàng của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, tổ chức cung ứng dịch vụ trung gian thanh toán,",
+      "title": "Điều khoản - Điều kiện về xử lý dữ liệu cá nhân tại DSC E-Learn",
+      "url": "https://elearn.dsc.com.vn/dieu-khoan-va-dieu-kien/dieu-khoan-ve-xu-ly-du-lieu-ca-nhan"
+     },
+     {
+      "type": "text_result",
+      "domain": "cdn.24hmoney.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Rủi ro thanh khoản phát sinh khi DSC không bảo đảm khả năng thực hiện đầy đủ và đúng hạn các nghĩa vụ thanh toán",
+      "title": "BCTN_DSC_2024.indd",
+      "url": "https://cdn.24hmoney.vn/upload/file/2026-1/2026-03-28/no-name-1774644609.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.eves.com.vn",
+      "ref_id": "turn0search14",
+      "snippet": "STT 1 | TÊN NGÂN HÀNG NH TMCP Đại Dương CN TP HCM (OJB) | SỐ TÀI KHOẢN 75070015655100018 | GHI CHÚ Để tiền được",
+      "title": "HƯỚNG DẪN NỘP, RÚT, CHUYỂN TIỀN",
+      "url": "https://www.eves.com.vn/OcsFiles/Huong%20dan%20Nop%2C%20Rut%2C%20CK%20tien.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Hướng dẫn đối với Cổ đông đã lưu ký: Cổ đông làm thủ tục chuyển nhượng quyền ... Bước 1: Cổ đông chuyển khoản tiền",
+      "title": "Hà Nội, ngày 19  tháng 09 năm 2025",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/DSC_Huong_dan_thuc_hien_quyen_0873413bd3.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "content.acbs.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Nộp/rút tiền từ tài khoản chứng khoán cơ sở (chỉ áp dụng đối với tài khoản chứng khoán cơ ... Rút nếu chuyển tiền từ",
+      "title": "HƯỚNG DẪN SỬ DỤNG GIAO DỊCH TRỰC TUYẾN CHỨNG KHOÁN PHÁI SINH TẠI ACBS",
+      "url": "https://content.acbs.com.vn/Files/Domains/ACBS/Static/Files/HDSD-GDCK-Phai-sinh-tai-ACBS.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "masvn.com",
+      "ref_id": "turn0search17",
+      "snippet": "Để rút tiền từ VSD về tài khoản chứng khoán người dùng thực hiện các bước sau: ... Bên dưới là phần “Lịch Sử Chuyển",
+      "title": "2.5.2.4 Rút Tiền Từ VSD:",
+      "url": "https://masvn.com/api/attachment/file/1600863137970-HTS_USER_MANUAL_VN.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-852a591b-d668-45f8-9458-1858c72f38f2",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-852a591b-d668-45f8-9458-1858c72f38f2",
+    "type": "web_search",
+    "query": "https://www.dsc.com.vn/huong-dan/rut-tien",
+    "action": {
+     "type": "open_page",
+     "url": "https://www.dsc.com.vn/huong-dan/rut-tien"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 480",
+      "thumbnail_url": "https://images.openai.com/static-rsc-1/MMROcl8yRKUFx40zNQhcdE2NIYtkF5qsv03vGNMaOGl0Hiv034mBsRisb1UaU5PDqdLEllMuMKMZ-qT1xqsqjw",
+      "title": "Hướng dẫn rút tiền 24/7 tại DSC - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/rut-tien"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-af9c848d-05d9-40fc-afb8-48600f20f474",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-af9c848d-05d9-40fc-afb8-48600f20f474",
+    "type": "web_search",
+    "query": "site.dsc.com.vn/huong-dan/rut-tien \"Bước 4\" ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.dsc.com.vn/huong-dan/rut-tien \"Bước 4\"",
+      "site.dsc.com.vn \"Chuyển tiền\" \"App\" \"OTP\" \"Bước 1\""
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search0",
+      "snippet": "Cách 1: Khách hàng mang theo CMNT/CCCD đến Chi nhánh/Hội sở/Phòng giao dịch của DSC yêu cầu chuyển tiền theo mẫu biểu “Yêu cầu chuyển",
+      "title": "Hướng dẫn rút tiền 24/7 tại DSC - Chứng khoán DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/rut-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search1",
+      "snippet": "## Bước 1: Tải ứng dụng DSC Trading trên điện thoại Quý khách truy cập App Store (đối với thiết bị sử dụng hệ điều",
+      "title": "Hướng dẫn cách mở tài khoản chứng khoán tại DSC",
+      "url": "https://www.dsc.com.vn/huong-dan/mo-tai-khoan-chung-khoan"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.pvcombank.com.vn",
+      "ref_id": "turn2search12",
+      "snippet": "BƯỚC 4 ... - “4 mã đầu: 8002” ... - “Tài khoản thanh toán: 101000760933” ... - THÊM VÀO DANH SÁCH THỤ HƯỞNG: Lưu thông",
+      "title": "HDSD_Chuyen tien qua code",
+      "url": "https://www.pvcombank.com.vn/static/documents/HDSD/HDSD_Chuyen%20tien%20qua%20code.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.pvcombank.com.vn",
+      "ref_id": "turn2search13",
+      "snippet": "BƯỚC 4 ... BƯỚC 4A",
+      "title": "HƯỚNG DẪN HOÀN TIỀN",
+      "url": "https://www.pvcombank.com.vn/static/2024/T6/HD%20Hoan%20tien.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "pinetree.vn",
+      "ref_id": "turn2search14",
+      "snippet": "- Bước 4: Màn hình xác nhận giao dịch được hiển thị, KH chọn và điền các thông tin cần thiết ... Bên dưới có",
+      "title": "- Chọn tiểu khoản (Khu vực 02)",
+      "url": "https://pinetree.vn/wp-content/uploads/2020/10/1.-Nop-rut-tien.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "sbsc.com.vn",
+      "ref_id": "turn2search15",
+      "snippet": "Bước 2: Nhập Số tiền chuyển, nội dung chuyển ... Bước 4: Xác nhận thông tin và nhấn nút ... https://strade.com.vn",
+      "title": "Microsoft Word - SBS_Guide_Withdraw_Deposit_Money_Vie.docx",
+      "url": "https://sbsc.com.vn/wp-content/uploads/2025/09/SBS_Huong-Dan-Rut-Chuyen-Tien-T8.25_Website.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "portal.vietcombank.com.vn",
+      "ref_id": "turn2search16",
+      "snippet": "vietcombank.com.vn ... BƯỚC 4 ... BƯỚC 4 ... Nếu lệnh giao dịch được lập thành công sau 16h của",
+      "title": "HƯỚNG DẪN VÀ LƯU Ý KHI",
+      "url": "https://portal.vietcombank.com.vn/content/personal/KhoAnh/20221130_HDSD%20VCB%20DIGIBANK/8.%20Chuye%CC%82%CC%89n%20tie%CC%82%CC%80n%20ngoa%CC%80i%20he%CC%A3%CC%82%20tho%CC%82%CC%81ng.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search2",
+      "snippet": "* Hướng dẫn Chuyển tiền trên App DSC Trading ... Bước 1: Đăng nhập vào mobile app và chọn Tab “GDTK” => “Chuyển tiền” =>",
+      "title": "Hướng dẫn Chuyển tiền trên App DSC Trading",
+      "url": "https://www.dsc.com.vn/huong-dan/huong-dan-chuyen-tien-tren-app-dsc-trading"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search3",
+      "snippet": "* Tiện ích trên App: Sử dụng tính năng chuyển tiền nhanh ngay trên ứng dụng ngân hàng của bạn tới số tài khoản chứng",
+      "title": "Hướng dẫn cách mua cổ phiếu PVD cho người mới bắt đầu",
+      "url": "https://www.dsc.com.vn/kien-thuc/cach-mua-co-phieu-pvd"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn2search4",
+      "snippet": "### Bước 1: Chọn ứng dụng và công ty chứng khoán ... * Chuyển khoản ngân hàng: Chuyển tiền từ tài khoản ngân hàng cá",
+      "title": "Cách chơi chứng khoán trên điện thoại cho người mới",
+      "url": "https://www.dsc.com.vn/kien-thuc/dau-tu-chung-khoan-tren-dien-thoai-huong-dan-chi-tiet"
+     },
+     {
+      "type": "text_result",
+      "domain": "ghtk.vn",
+      "ref_id": "turn2search5",
+      "snippet": "* Bước 2: Màn hình App hiện mục \"Cài đặt rút tiền tự động\" => Shop lựa chọn thời gian nhận tiền thu hộ như",
+      "title": "Hướng Dẫn Rút Tiền COD GHTK Mới Nhất 2026: Nhanh, Chính Xác, Tự Động | GHTK - Nền tảng hậu cần chuyên nghiệp",
+      "url": "https://ghtk.vn/blog/huong-dan-rut-tien-cod-ghtk-moi-nhat-2025-nhanh-chinh-xac-tu-dong/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hsc.com.vn",
+      "ref_id": "turn2search6",
+      "snippet": "Chi tiết tại: https://www.hsc.com.vn/nop-tien/tai-khoan-co-phieu.html ... 2.4 Hiện tại, tôi ở bên nước ngoài (không nhận được SMS OTP) làm sao để chuyển tiền từ tài",
+      "title": "Chuyển tiền",
+      "url": "https://www.hsc.com.vn/vi/chuyen-tien"
+     },
+     {
+      "type": "text_result",
+      "domain": "vietnamnet.vn",
+      "ref_id": "turn2search7",
+      "snippet": "Theo Quyết định số 2345/QĐ-NHNN ngày 18/12/2023 của Thống đốc Ngân hàng Nhà nước (NHNN) về triển khai các giải pháp an toàn, bảo mật",
+      "title": "Từ 1/7 chuyển tiền phải xác thực sinh trắc học: Các bước đăng ký và thực hiện",
+      "url": "https://vietnamnet.vn/tu-1-7-chuyen-tien-phai-xac-thuc-khuon-mat-cac-buoc-dang-ky-va-thuc-hien-2288414.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "tcsc.vn",
+      "ref_id": "turn2search8",
+      "snippet": "5 | Phí dịch vụ quản lý tài sản ký quỹ trả cho VSDC | 0,0024% giá trị lũy kế số dư tài sản ký",
+      "title": "Hỗ trợ",
+      "url": "https://tcsc.vn/vi/support"
+     },
+     {
+      "type": "text_result",
+      "domain": "dscvietnam.vn",
+      "ref_id": "turn2search9",
+      "snippet": "Hãy xem hướng dẫn mua hàng trực tuyến trên website dscvietnam.vn của chúng tôi dưới đây: ... Truy cập website của công ty DSC tại",
+      "title": "Hướng dẫn mua hàng | Công ty Cổ phần Thương mại Quốc tế DSC",
+      "url": "https://dscvietnam.vn/huong-dan-mua-hang/"
+     },
+     {
+      "type": "text_result",
+      "domain": "dsc.com.vn",
+      "ref_id": "turn2search10",
+      "snippet": "Bước 4: Khách hàng viết phiếu lệnh (tương ứng với loại công cụ nợ Khách hàng. giao dịch) yêu cầu thực hiện giao dịch công",
+      "title": "Quy định giao dịch công cụ nợ",
+      "url": "https://dsc.com.vn/en/huong-dan/quy-dinh-giao-dich-cong-cu-no"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungkhoanvps.org",
+      "ref_id": "turn2search11",
+      "snippet": "* Sử dụng trình duyệt và truy cập vào: https://smartone.vps.com.vn/Account/Login. ... #### Bước 4: Xác thực giao dịch bằng mã SmartOTP ... * Nhập mã",
+      "title": "Rút Tiền VPS: Điều Kiện, Hướng Dẫn Chi Tiết & Lỗi Thường Gặp",
+      "url": "https://chungkhoanvps.org/huong-dan/rut-tien-vps/"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_3",
+    "type": "agent_message",
+    "text": "Bạn có thể **chuyển tiền từ tài khoản chứng khoán DSC về tài khoản ngân hàng** qua ứng dụng hoặc website.\n\n### 1. Trên ứng dụng DSC Trading\n- Đăng nhập → chọn **GDTK → Chuyển tiền**.\n- Chọn **“Chuyển tiền ra ngoài đã đăng ký trước”**.\n- Chọn tài khoản ngân hàng nhận, nhập số tiền và kiểm tra thông tin.\n- Xác nhận bằng OTP theo hướng dẫn trên màn hình.  \n[Xem hướng dẫn trên ứng dụng của DSC](https://www.dsc.com.vn/huong-dan/huong-dan-chuyen-tien-tren-app-dsc-trading).\n\n### 2. Trên website DSC Trading\n- Đăng nhập → **Tài khoản → Thanh toán → Chuyển tiền ra ngoài cùng tên**.\n- Chọn tiểu khoản, nhập thông tin ngân hàng nhận, số tiền và nội dung chuyển.\n- Chọn **Tiếp tục**, nhập OTP để hoàn tất.  \n[Xem hướng dẫn rút tiền của DSC](https://www.dsc.com.vn/huong-dan/rut-tien).\n\n**Lưu ý:** Trang hướng dẫn DSC hiện ghi thời gian chuyển tiền **08:00–16:15 các ngày giao dịch**, hạn mức **20 tỷ đồng/ngày**, phí theo ngân hàng từng thời kỳ. Dù tiêu đề trang ghi “24/7”, bạn nên thực hiện trong khung giờ trên hoặc xác nhận lại với DSC nếu chuyển ngoài giờ. Bạn cũng có thể mang CCCD đến quầy DSC để yêu cầu chuyển tiền. [Nguồn DSC](https://www.dsc.com.vn/huong-dan/rut-tien)."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 63120,
+    "cached_input_tokens": 27648,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 542,
+    "reasoning_output_tokens": 8
+   }
+  }
+ ],
+ "thread_id": "01a1b01e-b424-7521-bc01-2a5107b85258",
+ "error": ""
+}

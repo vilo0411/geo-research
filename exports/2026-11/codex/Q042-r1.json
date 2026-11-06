@@ -1,0 +1,208 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q042-r1",
+ "prompt_id": "Q042",
+ "run": 1,
+ "question": "Có sản phẩm tiết kiệm sinh lời nào ở công ty chứng khoán không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:01:28",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 27.5,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b017-721d-79f2-a39f-6e729525daa5"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-fbf67c61-a38e-4997-804c-069ea86214bf",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-fbf67c61-a38e-4997-804c-069ea86214bf",
+    "type": "web_search",
+    "query": "site.tcbs.com.vn iSave không phải tiền gửi tiết kiệm ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "site.tcbs.com.vn iSave không phải tiền gửi tiết kiệm",
+      "site.vndirect.com.vn Dcash sản phẩm tiền gửi",
+      "site.ssi.com.vn sản phẩm quản lý tiền nhàn rỗi"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search0",
+      "snippet": "* Tại App VNDIRECT DGO: Quý khách vui lòng chọn icon sản phẩm dịch vụ tại góc phải màn hình, sau đó chọn DCash Grow",
+      "title": "SẢN PHẨM DCASH GROW – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50133506762905-S%E1%BA%A2N-PH%E1%BA%A8M-DCASH-GROW"
+     },
+     {
+      "type": "text_result",
+      "domain": "24hmoney.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Két vàng iSave là một kênh gửi tiền tiết kiệm không kỳ hạn của Công ty chứng khoán Ngân hàng Techcombank (Techcom Securities). ... Cụ",
+      "title": "10 câu hỏi về két vàng iSave",
+      "url": "https://24hmoney.vn/news/10-cau-hoi-ve-ket-vang-isave-c30a1664010.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "dautu.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "> DCASH ADVISORY là gói dịch vụ được thiết kế dành cho các nhà đầu tư có nhu cầu tìm kiếm các cơ hội đầu",
+      "title": "Tư vấn Đầu tư thị trường tiền tệ - Đầu tư tài chính cùng VNDIRECT",
+      "url": "https://dautu.vndirect.com.vn/tu-van-dau-tu-thi-truong-tien-te/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "DCash Grow mang lại lãi suất thực nhận sau thuế 5%/năm (áp dụng từ ngày 16/03/2026) – cao gấp 50 lần so với mức lãi",
+      "title": "FAQ - DCASH GROW – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search12",
+      "snippet": "Thương hiệu không chỉ đến từ các hình ảnh, thông tin của SSI trên các kênh truyền thông bên ngoài cũng như nội bộ, mà",
+      "title": "QUẢN TRỊ DOANH NGHIỆP/ HOẠT ĐỘNG QUẢN TRỊ RỦI RO",
+      "url": "https://www.ssi.com.vn/upload/file/ce7c4aa7-1272-4093-8dc2-60b3e6e11d2c.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Đây không phải là sản phẩm tiền gửi tiết kiệm tại ngân hàng. ... iBond là sản phẩm trái phiếu của những doanh nghiệp hàng",
+      "title": "Sản phẩm TCBS - Giải pháp đầu tư tài chính toàn diện",
+      "url": "https://www.tcbs.com.vn/ca-nhan/san-pham/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.tcbs.com.vn",
+      "ref_id": "turn0search13",
+      "snippet": "TCBS vay Số tiền cho vay có liên quan (T0) cho đến (và không bao gồm) ngày Khách ... Các mức lãi suất này sẽ",
+      "title": "THỎA THUẬN CHO VAY ISAVE",
+      "url": "https://www.tcbs.com.vn/isave/isave-tnc"
+     },
+     {
+      "type": "text_result",
+      "domain": "chungsi.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Bạn chỉ cần có tiền tạm thời để ở tài khoản, bất kể là dự phòng để thanh khoán các khoản chi định kỳ trong",
+      "title": "Két vàng ISAVE TCBS: cách tối ưu lãi suất (cập nhật 2023)",
+      "url": "https://chungsi.vn/toi-uu-lai-suat-va-thanh-khoan-bang-ket-vang-isave-tcbs/"
+     },
+     {
+      "type": "text_result",
+      "domain": "techcombank.com",
+      "ref_id": "turn0search14",
+      "snippet": "- Tại ngày cuối cùng của tháng liền trước, KH không nắm giữ bất kỳ khoản Tiền gửi tiết kiệm/Tiền gửi có kỳ hạn đang",
+      "title": "LÃI SUẤT CHO KHÁCH HÀNG CÓ KHOẢN TIỀN GỬI ĐẦU TIÊN",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/lai-suat-cho-khoan-tien-gui-dau-tien-20260425.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.vndirect.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "> DCASH FUND is an open-end fund certificate of the type of investment equivalent to deposits with high safety and liquidity because its assets are",
+      "title": "DCASH FUND - Chứng chỉ quỹ tiền gửi, độ an toàn & thanh khoản cao",
+      "url": "https://www.vndirect.com.vn/en/individual-customer/asset-portfolio/defense-assets/dfund/"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Tối ưu tiền vượt trội cùng với DCash Grow Giải pháp thông minh giúp tiền của Quý khách sinh lời 24/7 * SẢN PHẨM DCASH",
+      "title": "TỐI ƯU TIỀN – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/sections/53063787844633-T%E1%BB%90I-%C6%AFU-TI%E1%BB%80N"
+     },
+     {
+      "type": "text_result",
+      "domain": "help.tcbs.com.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Nếu Quý khách kết nối tài khoản TCBS và Techcombank/Vietinbank, khi đặt lệnh mua cổ phiếu, hệ thống sẽ cắt tiền theo thứ tự sau:",
+      "title": "Nội dung \"Cắt tiền ngân hàng để thực hiện nghĩa vụ thanh toán CK\" là gì? | Trung tâm hỗ trợ - TCBS",
+      "url": "https://help.tcbs.com.vn/ufaq/noi-dung-cat-tien-ngan-hang-de-thuc-hien-nghia-vu-thanh-toan-ck-la-gi/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Thực hiện đánh giá rủi ro rửa tiền và tài trợ khủng bố của Công ty để có những khuyến nghị, thay đổi phù hợp.",
+      "title": "VÙNG TƯƠNG LAI / VÙNG NỘI LỰC HỖ TRỢ PHÁT TRIỂN",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2019.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "mydgo.vndirect.com.vn",
+      "ref_id": "turn0search9",
+      "snippet": "VNDIRECT cung cấp dải sản phẩm đa dạng, phục vụ từng nhu cầu đầu tư của Quý khách.",
+      "title": "My DGO",
+      "url": "https://mydgo.vndirect.com.vn/tra-cuu-san-pham"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search16",
+      "snippet": "Vì vậy, công tác quản trị của SSI đã được xây dựng và từng bước hoàn thiện dựa trên những thông lệ quản trị công",
+      "title": "HOẠT ĐỘNG PHÁT TRIỂN BỀN VỮNG / QUẢN TRỊ DOANH NGHIỆP HƯỚNG TỚI PHÁT TRIỂN BỀN VỮNG",
+      "url": "https://www.ssi.com.vn/upload/files/IR/Reports/SSI_BCTN2018.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.ssi.com.vn",
+      "ref_id": "turn0search10",
+      "snippet": "* Củng cố nền tảng quản trị tài chính cho thế hệ kế thừa thông qua các hoạt động chia sẻ kiến thức tài chính",
+      "title": "Quản lý tài sản là gì? Dịch vụ quản lý tài sản tối ưu cùng SSI",
+      "url": "https://www.ssi.com.vn/quan-ly-tai-san"
+     },
+     {
+      "type": "text_result",
+      "domain": "sis.vn",
+      "ref_id": "turn0search11",
+      "snippet": "## [Button: Tổng quan về sản phẩm ] ... Tiện ích nhắc nhở qua Email, SMS, Zalo ... * Quản lý đánh giá: Nâng cao",
+      "title": "Phần mềm Quản lý Nhân sự - Tiền lương - SIS HRM",
+      "url": "https://sis.vn/quan-ly-nhan-su-tien-luong"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Có bạn nhé.** Một số công ty chứng khoán có sản phẩm giúp tiền nhàn rỗi sinh lời, nhưng **không nên coi chúng giống sổ tiết kiệm ngân hàng**.\n\nVí dụ:\n\n| Sản phẩm | Đặc điểm chính |\n|---|---|\n| **iSave – TCBS** | Theo thỏa thuận, bạn **cho TCBS vay tiền** và nhận lãi; không phải tiền gửi tiết kiệm ngân hàng. [Điều khoản iSave](https://www.tcbs.com.vn/isave/isave-tnc) |\n| **DCash Grow – VNDIRECT** | Giúp số dư tiền nhàn rỗi sinh lời. Trang FAQ công bố mức **5%/năm sau thuế**, áp dụng từ 16/3/2026; việc rút tiền có quy định về thời gian và hạn mức. Cần kiểm tra lại mức đang áp dụng trước khi tham gia. [Thông tin DCash Grow](https://support.vndirect.com.vn/hc/vi/articles/50085637776665-FAQ-DCASH-GROW) |\n| **Chứng chỉ quỹ tiền tệ/thu nhập cố định** | Đầu tư vào danh mục như tiền gửi, trái phiếu và giấy tờ có giá; đây là đầu tư quỹ, không phải gửi tiết kiệm. [Ví dụ DCash Fund](https://www.vndirect.com.vn/en/individual-customer/asset-portfolio/defense-assets/dfund/) |\n\n**Trước khi chọn**, bạn nên xem: ai có nghĩa vụ trả tiền, có cam kết gốc hay không, khi nào rút được, và lợi suất thực nhận sau thuế/phí. Đừng chỉ so con số lãi suất.\n\nBạn đang dùng công ty chứng khoán nào, và muốn để tiền linh hoạt hằng ngày hay trong vài tháng?"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22256,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 474,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b017-721d-79f2-a39f-6e729525daa5",
+ "error": ""
+}

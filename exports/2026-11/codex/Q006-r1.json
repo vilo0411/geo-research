@@ -1,0 +1,156 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q006-r1",
+ "prompt_id": "Q006",
+ "run": 1,
+ "question": "T+2 trong chứng khoán Việt Nam nghĩa là gì?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T15:37:33",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 20.7,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b001-8aa7-77a2-ad56-200947d3b9bc"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-5757bba2-759f-4926-9f11-10e3b569f38e",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-5757bba2-759f-4926-9f11-10e3b569f38e",
+    "type": "web_search",
+    "query": "site.vsd.vn T+2 11h30 13h00 thanh toán chứng khoán",
+    "action": {
+     "type": "search",
+     "query": "site.vsd.vn T+2 11h30 13h00 thanh toán chứng khoán"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search0",
+      "snippet": "- Từ 10h00 - 11h30 ngày thanh toán (T+1) đối với các giao dịch trái phiếu doanh nghiệp; ngày thanh toán (T+2) đối với các",
+      "title": "Quyết định 109/QĐ-VSD 2022 Quy chế hoạt động bù trừ thanh toán giao dịch chứng khoán",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-109-QD-VSD-2022-Quy-che-hoat-dong-bu-tru-thanh-toan-giao-dich-chung-khoan-526769.aspx?anchor=chuong_pl_4"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search1",
+      "snippet": "- Từ 10h00 - 11h30 ngày thanh toán (T+1) đối với các giao dịch trái phiếu doanh nghiệp; ngày thanh toán (T+2) đối với các",
+      "title": "Quyết định 109/QĐ-VSD 2022 Quy chế hoạt động bù trừ thanh toán giao dịch chứng khoán",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-109-QD-VSD-2022-Quy-che-hoat-dong-bu-tru-thanh-toan-giao-dich-chung-khoan-526769.aspx?tab=7"
+     },
+     {
+      "type": "text_result",
+      "domain": "support.vndirect.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Quý khách hàng vui lòng chờ lần lượt 1, 2 ngày (không tính ngày nghỉ) để được thanh toán. ... Ngày 19/08/2022, Tổng công ty",
+      "title": "Chu kỳ thanh toán chứng khoán – TRUNG TÂM HỖ TRỢ VNDIRECT",
+      "url": "https://support.vndirect.com.vn/hc/vi/articles/9816355920153-Chu-k%E1%BB%B3-thanh-to%C3%A1n-ch%E1%BB%A9ng-kho%C3%A1n"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- Thành viên nhận các Thông báo dưới dạng chứng từ điện tử qua cổng giao ... Chậm nhất 11h30 các ngày thanh toán giao",
+      "title": "CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://vbma.org.vn/storage/Quy%E1%BA%BFt%20%C4%91%E1%BB%8Bnh%20M%E1%BB%9AI/2024/Quy%E1%BA%BFt%20%C4%91%E1%BB%8Bnh%2048.Q%C4%90-H%C4%90TV.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "fhsc.com.vn",
+      "ref_id": "turn0search3",
+      "snippet": "Theo quy chế VSDC (Quyết định số 15/QĐ-HĐTV về Quy chế hoạt động bù trừ và thanh toán giao dịch chứng khoán tại Tổng công",
+      "title": "Thời gian thanh toán giao dịch chứng khoán",
+      "url": "https://fhsc.com.vn/thoi-gian-thanh-toan-tren-finhay"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search4",
+      "snippet": "Thời gian ngân hàng thanh toán (NHTT) hoàn tất thanh toán tiền và VSD hoàn tất thanh toán chứng khoán được điều chỉnh từ 15h30-16h00",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/152750"
+     },
+     {
+      "type": "text_result",
+      "domain": "thuvienphapluat.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Sau khi nhận kết quả giao dịch thông qua file dữ liệu từ SGDCK, VSD thực hiện thông báo tổng hợp kết quả giao dịch,",
+      "title": "Quyết định 27/QĐ-VSD Quy chế hoạt động bù trừ và thanh toán chứng khoán",
+      "url": "https://thuvienphapluat.vn/van-ban/Chung-khoan/Quyet-dinh-27-QD-VSD-Quy-che-hoat-dong-bu-tru-va-thanh-toan-chung-khoan-108503.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "vts.com.vn",
+      "ref_id": "turn0search6",
+      "snippet": "Chứng quyền có đảm bảo giúp bạn tận dụng cơ hội đầu tư với số vốn nhỏ, nhưng mang lại tiềm năng sinh lời cao",
+      "title": "Việt Thành",
+      "url": "https://vts.com.vn/chi-tiet-chung-quyen.html"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dnse.com.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Ngày 19/08/2022, Trung tâm Lưu ký Chứng khoán Việt Nam (VSD) đã ban hành Quyết định số 109/QĐ-VSD và số 110/QĐ-VSD cùng Quy chế mới",
+      "title": "Thông báo rút ngắn thời gian thanh toán chứng khoán (áp dụng từ 29/08/2022)",
+      "url": "https://www.dnse.com.vn/tin-tuc/thong-bao-rut-ngan-thoi-gian-thanh-toan-chung-khoan-ap-dung-tu-29-08-2022"
+     },
+     {
+      "type": "text_result",
+      "domain": "apsc.vn",
+      "ref_id": "turn0search8",
+      "snippet": "Ngày 19/8/2022, Trung tâm Lưu ký Chứng khoán Việt Nam (VSD) đã ban hành Quy chế hoạt động bù trừ và thanh toán giao dịch",
+      "title": "Chính thức giao dịch chứng khoán T+2 từ ngày 29/08/2022 - Alpha",
+      "url": "https://apsc.vn/tin-tuc/t2"
+     },
+     {
+      "type": "text_result",
+      "domain": "vbma.org.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Việc thanh toán giao dịch bị lùi do thiếu chứng khoán, thiếu tiền được thực hiện một, một số hoặc toàn bộ giao dịch tuỳ",
+      "title": "13\n\n2. Việc thanh toán giao dịch bị lùi do thiếu c",
+      "url": "https://vbma.org.vn/storage/legal-documents/November2024/Quy%E1%BA%BFt%20%C4%91%E1%BB%8Bnh%2048.Q%C4%90-H%C4%90TV1.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**T+2 nghĩa là giao dịch được thanh toán sau 2 ngày làm việc kể từ ngày khớp lệnh**, không tính thứ Bảy, Chủ nhật và ngày nghỉ lễ.\n\n- **T:** Ngày bạn mua hoặc bán thành công.\n- **T+1:** Ngày làm việc tiếp theo.\n- **T+2:** Ngày làm việc thứ hai — cổ phiếu mua hoặc tiền bán được chuyển về tài khoản.\n\n**Ví dụ:** Bạn mua cổ phiếu vào **thứ Hai**, thì **thứ Tư là T+2** nếu không có ngày lễ. Cổ phiếu về để bạn có thể bán trong **phiên chiều thứ Tư**. Nếu mua thứ Sáu, T+2 là thứ Ba tuần sau. [Nguồn: VSDC](https://vsdc.vn/vi/ad/152750), [VNDIRECT](https://support.vndirect.com.vn/hc/vi/articles/9816355920153-Chu-k%E1%BB%B3-thanh-to%C3%A1n-ch%E1%BB%A9ng-kho%C3%A1n).\n\nNói ngắn gọn: **khớp lệnh hôm nay không có nghĩa là cổ phiếu hoặc tiền bán về ngay hôm nay.**"
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 22059,
+    "cached_input_tokens": 16256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 321,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b001-8aa7-77a2-ad56-200947d3b9bc",
+ "error": ""
+}

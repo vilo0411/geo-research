@@ -1,0 +1,180 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q049-r1",
+ "prompt_id": "Q049",
+ "run": 1,
+ "question": "Chứng khoán DSC có được Ủy ban Chứng khoán cấp phép không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:06:09",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 39.2,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b01b-baa3-74b2-beca-ef42c709cc31"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-9d062999-d9b1-44d1-83e7-67d7e162a1a4",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-9d062999-d9b1-44d1-83e7-67d7e162a1a4",
+    "type": "web_search",
+    "query": "site.dsc.com.vn giấy phép Ủy ban chứng khoán 095 DSC",
+    "action": {
+     "type": "search",
+     "query": "site.dsc.com.vn giấy phép Ủy ban chứng khoán 095 DSC"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search12",
+      "snippet": "SOCIALIST REPUBLIC OF VIETNAM ... - **Giấy chứng nhận ĐKDN**: Giấy phép thành lập và hoạt động số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà",
+      "title": "DSC SECURITIES",
+      "url": "https://stream.vnx.vn/VNX/cims/2026/4_W3/000000016167820_20260417__DSC__CBTT_NQ_BBH_DHDCD_2026_VI.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "Giấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty chứng khoán số 42/GPĐC-UBCK ngày 01/4/2026 do Ủy ban Chứng khoán Nhà",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Ngày 8/8/2025, Thanh tra Ủy ban chứng khoán Nhà nước ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty",
+      "title": "Ngày 8/8/2025, Thanh tra Ủy ban chứng khoán Nhà nước ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty cổ phần chứng khoán DSC, toàn văn Kết luận Thanh tra như sau:",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Website: www.dsc.com.vn Email: info@dsc.com.vn ... Giấy phép hoạt động số: 29/UBCK-GPHĐKD, cấp bởi Ủy ban chứng khoán Nhà nước, ... hội đồng cổ đông (“ĐHĐCĐ”)",
+      "title": "CÔNG TY \nCỔ PHẦN \nCHỨNG \nKHOÁN DSC\nDigitally signe",
+      "url": "https://static2.vietstock.vn/vietstock/2025/8/29/20250828___dsc___cbtt_nq_phe_duyet_tl_lay_y_kien_vb_lan_2_2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search1",
+      "snippet": "Thông tin này đã được công bố trên trang thông tin điện tử của công ty vào ngày 12/08/2026 tại đường dẫn: https://dsc.com.vn/của Công ty.",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Interim / Quarterly Report 2026 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/interim-quarterly-report/2026/66181515/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search2",
+      "snippet": "11/2024/TTr - DHDCD/DSC) attached to the Annual General Meeting of Shareholders documents in 2024 on the websites of the Vietnam Stock Exchange and Hanoi Stock",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620159005"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Giấy phép điều chỉnh này có hiệu lực kể từ ngày ký và là bộ phận không tách rời của Giấy phép thành lập và",
+      "title": "BỘ TÀI CHÍNH",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/2023/05/6.-Giay-phep-thanh-lap-va-hoat-dong-cong-ty-chung-khoan-va-Cac-giay-phep-dieu-chinh-co-lien-quan.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search3",
+      "snippet": "SSC grants an amended license for the establishment and operation of securities business of DSC Securities Joint Stock Company Securities Business ... Số hiệu văn",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620162139&dID=169873"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search4",
+      "snippet": "SOCIALIST REPUBLIC OF VIETNAM ... O Trực tiếp đánh giá tính hình triển khai kế hoạch kinh doanh của Công ty, thường xuyên phối hợp,",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/annual-report/2026/45016802/"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search5",
+      "snippet": "Số hiệu văn bản UBCKNN cấp Quyết định sửa đổi Quyết định chấp thuận lập chi nhánh Hồ Chí Minh của CTCP Chứng khoán DSC",
+      "title": "Chi tiết tin - Ủy ban Chứng khoán Nhà nước",
+      "url": "https://ssc.gov.vn/webcenter/portal/ubck/pages_r/l/chitit?dDocName=APPSSCGOVVN1620152047"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search6",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động công ty chứng khoán số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Audit Report / Information 2024 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/audit-report-information/2025/46750687/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search7",
+      "snippet": "### DSC: Cấp Giấy chứng nhận Thành viên lưu ký sửa đổi lần 7 ... Tên thành viên lưu ký: Công ty cổ phần Chứng",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/194372"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search8",
+      "snippet": "Ngày 24/09/2024, Công ty chính thức niêm yết giao dịch chứng khoán trên Sở Giao dịch Chứng khoán Thành phố Hồ Chí Minh với mã",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Annual Report 2024 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/annual-report/2025/49187185/"
+     },
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search9",
+      "snippet": "Ngày 29/12/2025, Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam đã cấp Giấy chứng nhận Thành viên lưu ký sửa đổi",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam Tin tức",
+      "url": "https://vsdc.vn/vi/ad/190636"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_1",
+    "type": "agent_message",
+    "text": "**Có. Công ty Cổ phần Chứng khoán DSC được Ủy ban Chứng khoán Nhà nước cấp phép**, cụ thể:\n\n- **Giấy phép thành lập và hoạt động số 29/UBCK-GPHĐKD**, cấp ngày **18/12/2006**; tên cũ là Công ty Cổ phần Chứng khoán Đà Nẵng. Thông tin được xác nhận trong [kết luận thanh tra của UBCKNN](https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf).\n- Có **giấy phép điều chỉnh số 42/GPĐC-UBCK ngày 01/04/2026**, theo [thông báo của Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC)](https://vsdc.vn/vi/ad/194372).\n\nLưu ý: **được cấp phép không có nghĩa là khoản đầu tư được bảo đảm lợi nhuận**. Nếu bạn đang được mời đầu tư qua một ứng dụng hoặc đường link mang tên DSC, hãy gửi thông tin đó để kiểm tra có đúng đơn vị hay bị mạo danh."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 21933,
+    "cached_input_tokens": 14592,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 359,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b01b-baa3-74b2-beca-ef42c709cc31",
+ "error": ""
+}

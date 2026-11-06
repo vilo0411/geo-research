@@ -1,0 +1,246 @@
+{
+ "source": "codex",
+ "month": "2026-11",
+ "title": "Q045-r4",
+ "prompt_id": "Q045",
+ "run": 4,
+ "question": "Chứng khoán DSC có uy tín không?",
+ "model": "gpt-6.1-sol",
+ "reasoning_effort": "default",
+ "started_at": "2026-11-06T16:03:44",
+ "ok": true,
+ "returncode": 0,
+ "duration_sec": 31.3,
+ "events": [
+  {
+   "type": "thread.started",
+   "thread_id": "01a1b019-8323-7e43-8870-3b8c8407aef4"
+  },
+  {
+   "type": "turn.started"
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-63000008-637f-4aef-8a5b-14915f6539c9",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-63000008-637f-4aef-8a5b-14915f6539c9",
+    "type": "web_search",
+    "query": "DSC chứng khoán 2026 giấy phép Ủy ban chứng khoán xử phạt DSC ...",
+    "action": {
+     "type": "search",
+     "queries": [
+      "DSC chứng khoán 2026 giấy phép Ủy ban chứng khoán xử phạt DSC",
+      "DSC chứng khoán báo cáo tài chính 2025 kiểm toán"
+     ]
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "vsdc.vn",
+      "ref_id": "turn0search0",
+      "snippet": "### 024 - Công ty cổ phần Chứng khoán DSC ... Giấy phép thành lập và hoạt động kinh doanh công ty chứng khoán số",
+      "title": "Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam",
+      "url": "https://vsdc.vn/vi/md/8229"
+     },
+     {
+      "type": "text_result",
+      "domain": "cafef.vn",
+      "ref_id": "turn0search1",
+      "snippet": "Công ty Cổ phần Chứng khoán DSC (DSC - Upcom) được thành lập vào Tháng 12/2006, Hội sở chính tại số 80 Dịch Vọng Hậu,",
+      "title": "DSC: Tải về tài liệu BCTC - Công ty Cổ phần Chứng khoán DSC",
+      "url": "https://cafef.vn/du-lieu/hose/dsc-tai-lieu.chn"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search12",
+      "snippet": "- **Giấy chứng nhận ĐKDN**: Giấy phép thành lập và hoạt động số 29/UBCK-GPHĐKD do Ủy ban Chứng khoán Nhà nước cấp ngày 18/12/2006 ...",
+      "title": "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+      "url": "https://static2.vietstock.vn/vietstock/2026/3/20/20260320___dsc___cbtt_nq_thong_qua_tl_hop_dhdcd_thuong_nien_2026_vi_en.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn0search13",
+      "snippet": "Ngày 8/8/2025, Thanh tra Ủy ban chứng khoán Nhà nước ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty",
+      "title": "Ngày 8/8/2025, Thanh tra Ủy ban chứng khoán Nhà nước ban hành Kết luận Thanh tra số 47/KL-TT về việc thanh tra tại Công ty cổ phần chứng khoán DSC, toàn văn Kết luận Thanh tra như sau:",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.dsc.com.vn",
+      "ref_id": "turn0search2",
+      "snippet": "Trình bày trước cổ đông năm nay, ban lãnh đạo đã mang đến một báo cáo tài chính 2025 với mức lợi nhuận vượt xa",
+      "title": "DSC - ĐẠI HỘI ĐỒNG CỔ ĐÔNG THƯỜNG NIÊN 2026 (DSC AGM 2026)",
+      "url": "https://www.dsc.com.vn/tin-tuc/dsc-dai-hoi-2026"
+     },
+     {
+      "type": "text_result",
+      "domain": "taichinh.com",
+      "ref_id": "turn0search3",
+      "snippet": "Bảng số liệu báo cáo tài chính gốc - 17 khoản mục × 11 năm (tỷ đồng) ... Khoản mục | 2015 | 2016 |",
+      "title": "Giá cổ phiếu DSC - Chứng khoán DSC - taichinh.com",
+      "url": "https://taichinh.com/chung-khoan/dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "financialfilings.com",
+      "ref_id": "turn0search4",
+      "snippet": "○ Các chỉ số về khả năng thanh toán của DSC tiếp tục được duy trì ở mức an toàn, với hệ số thanh toán",
+      "title": "Công ty Cổ phần Chứng khoán DSC - Annual Report 2025 | FinancialFilings",
+      "url": "https://financialfilings.com/filings/cong-ty-co-phan-chung-khoan-dsc/annual-report/2026/45016802/"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.24hmoney.vn",
+      "ref_id": "turn0search5",
+      "snippet": "DSC ... Doanh thu hoạt động môi giới chứng khoán | 32.1 | 61.4% | 28.6 | 62.3% | 43 | 95.3% | 22.3 |",
+      "title": "DSC: Bảng báo cáo tài chính chi tiết - tải báo cáo tài chính | 24HMoney",
+      "url": "https://web.24hmoney.vn/stock/DSC/financial-report"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.stockbiz.vn",
+      "ref_id": "turn0search6",
+      "snippet": "CTCP Chứng khoán DSC (DSC : HOSE) Tài chính : Công ty Chứng khoán ... * Cân đối kế toán ... Q3 2025 Q4 2025",
+      "title": "DSC | Báo cáo tài chính | Bảng cân đối kế toán, kết quả kinh doanh, lưu chuyển tiền tệ của doanh nghiệp",
+      "url": "https://web.stockbiz.vn/Stocks/DSC/FinancialStatements.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.phs.vn",
+      "ref_id": "turn0search7",
+      "snippet": "Tin tức DSC: BCTC năm 2025 ... Tài liệu đính kèm:",
+      "title": "DSC: BCTC năm 2025",
+      "url": "https://www.phs.vn/tin-tuc/dsc-bctc-nam-2025/6372325"
+     },
+     {
+      "type": "text_result",
+      "domain": "fireant.vn",
+      "ref_id": "turn0search8",
+      "snippet": "# CTCP Chứng khoán DSC ... Năm 2025, DSC đạt doanh thu 695 tỷ đồng, lợi nhuận sau thuế của cổ đông công ty mẹ",
+      "title": "DSC: Báo cáo tài chính CTCP Chứng khoán DSC, doanh thu, lợi nhuận, EPS 5 năm | FireAnt",
+      "url": "https://fireant.vn/ma-chung-khoan/DSC/tai-chinh"
+     },
+     {
+      "type": "text_result",
+      "domain": "web.stockbiz.vn",
+      "ref_id": "turn0search9",
+      "snippet": "CTCP Chứng khoán DSC (DSC : HOSE) Tài chính : Công ty Chứng khoán ... Báo cáo tài chính Doanh thu 2023 2024 2025 2026",
+      "title": "DSC | Tổng quan tài chính | Thông tin tài chính tổng quan của doanh nghiệp",
+      "url": "https://web.stockbiz.vn/Stocks/DSC/FinancialHighlights.aspx"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.iwinstock.com",
+      "ref_id": "turn0search10",
+      "snippet": "# Báo cáo tài chính chi tiết - DSC - Công ty Cổ phần Chứng khoán DSC ## Báo cáo tài chính chi tiết -",
+      "title": "Báo cáo tài chính chi tiết - DSC - Công ty Cổ phần Chứng khoán DSC - iWinStock",
+      "url": "https://www.iwinstock.com/stock/DSC/financial-reports/"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.hodl.vn",
+      "ref_id": "turn0search11",
+      "snippet": "## Báo cáo tài chính Đơn vị: tỷ đồng · kỳ gần nhất bên phải · rê hoặc chạm vào cột để xem số ...",
+      "title": "Cổ phiếu DSC: giá 9.490, 52 tuần 8.810–16.650 | HODL.VN",
+      "url": "https://www.hodl.vn/stock/dsc"
+     },
+     {
+      "type": "text_result",
+      "domain": "static2.vietstock.vn",
+      "ref_id": "turn0search14",
+      "snippet": "Công ty hoạt động theo Giấy phép thành lập và hoạt động kinh doanh chứng khoán số 29/UBCK-GPĐKKD do Ủy ban Chứng khoán Nhà nước",
+      "title": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN DSC",
+      "url": "https://static2.vietstock.vn/vietstock/2026/4/20/20260417___dsc___bctc_q1_2026.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "extgw.dsc.com.vn",
+      "ref_id": "turn0search15",
+      "snippet": "Thông qua việc lựa chọn Công ty kiểm toán độc lập để kiểm toán báo cáo tài chính năm 2025 theo Tờ trình ĐHĐCĐ số",
+      "title": "Điều 2. Thông qua Báo cáo tài chính đã được kiểm toán năm 2024 của Công ty được kiểm toán độc lập bởi Công ty TNHH Kiểm toán & Tư vấn RSM Việt Nam – Chi nhánh Hà Nội, ký ngày 05/03/2025.",
+      "url": "https://extgw.dsc.com.vn/eback/uploads/Tai_lieu_hop_DHDCD_thuong_nien_2025_final_5959cb8655.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "www.datxanh.vn",
+      "ref_id": "turn0search16",
+      "snippet": "BÁO CÁO TÀI CHÍNH KIỂM TOÁN 2025 ... BÁO CÁO TÀI CHÍNH KIỂM TOÁN 2025",
+      "title": "BÁO CÁO TÀI CHÍNH KIỂM TOÁN 2025",
+      "url": "https://www.datxanh.vn/assets/uploads/myfiles/files/quan-he-co-dong/bao-cao-thuong-nien/2025/20260415%20-%20DXG%20-%20BCTN2025.pdf"
+     },
+     {
+      "type": "text_result",
+      "domain": "stream.vnx.vn",
+      "ref_id": "turn0search17",
+      "snippet": "Cho mục đích tổ chức cuộc họp Đại hội đồng cổ đông Thường niên năm 2026 của Công ty Cổ phần Chứng khoán DSC (“Đại",
+      "title": "DSC SECURITIES",
+      "url": "https://stream.vnx.vn/VNX/cims/2026/4_W3/000000016167820_20260417__DSC__CBTT_NQ_BBH_DHDCD_2026_VI.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.started",
+   "item": {
+    "id": "exec-fff6f4c8-3442-4510-9a0c-12e34593d8bb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    }
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "exec-fff6f4c8-3442-4510-9a0c-12e34593d8bb",
+    "type": "web_search",
+    "query": "",
+    "action": {
+     "type": "other"
+    },
+    "results": [
+     {
+      "type": "text_result",
+      "domain": "ssc.gov.vn",
+      "ref_id": "turn1view0",
+      "snippet": "Total lines: 278",
+      "url": "https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=APPSSCGOVVN1620157793&dID=164042&filename=Ke%CC%82%CC%81t+lua%CC%A3%CC%82n+TT+s%E1%BB%91+47.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "type": "item.completed",
+   "item": {
+    "id": "item_2",
+    "type": "agent_message",
+    "text": "**DSC là công ty chứng khoán có giấy phép, có thể cân nhắc mở tài khoản, nhưng không nên hiểu là “uy tín tuyệt đối” hay không có rủi ro.**\n\nCó hai mặt bạn nên biết:\n\n### Điểm tạo cơ sở tin cậy\n- **Pháp lý rõ ràng:** DSC được UBCKNN cấp phép từ năm 2006, hiện là thành viên lưu ký mã **024** tại VSDC. VSDC ghi nhận vốn điều lệ khoảng **2.785 tỷ đồng**. [Thông tin tại VSDC](https://vsdc.vn/vi/md/8229)\n- **Có niêm yết và chịu giám sát:** cổ phiếu DSC giao dịch trên HOSE từ ngày 24/10/2024. Kết luận thanh tra năm 2025 ghi nhận công ty duy trì các điều kiện cấp phép hoạt động. [Nguồn UBCKNN](https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&dDocName=APPSSCGOVVN1620157793&dID=164042)\n\n### Điểm cần thận trọng\nKết luận thanh tra ngày **8/8/2025** cũng ghi nhận nhiều vi phạm, gồm:\n- Bố trí nhân viên chưa có chứng chỉ hành nghề ở vị trí nhận lệnh.\n- Vi phạm hạn mức cho vay margin, cho khách giao dịch vượt sức mua.\n- Không duy trì hoạt động kiểm toán nội bộ.\n- Công bố sai lệch thông tin sử dụng vốn tăng thêm và một số thiếu sót công bố thông tin.\n\nĐây là **điểm trừ đáng lưu ý về tuân thủ và quản trị**, dù không tự động đồng nghĩa công ty lừa đảo hoặc mất khả năng thanh toán. [Kết luận thanh tra của UBCKNN](https://ssc.gov.vn/cs/idcplg?IdcService=GET_FILE&dDocName=APPSSCGOVVN1620157793&dID=164042)\n\n**Theo mình:** nếu mở tài khoản giao dịch thông thường, bạn có thể cân nhắc DSC nhưng nên thử số tiền nhỏ, kiểm tra nạp/rút và đọc kỹ phí, điều kiện margin. Chỉ sử dụng kênh chính thức; không chuyển tiền vào tài khoản cá nhân môi giới hoặc tin lời cam kết lợi nhuận.\n\n**Bạn đang định mở tài khoản tại DSC, mua cổ phiếu DSC, hay có người mời tham gia một gói đầu tư mang tên DSC?** Ba trường hợp này cần đánh giá khác nhau."
+   }
+  },
+  {
+   "type": "turn.completed",
+   "usage": {
+    "input_tokens": 51234,
+    "cached_input_tokens": 31488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 647,
+    "reasoning_output_tokens": 0
+   }
+  }
+ ],
+ "thread_id": "01a1b019-8323-7e43-8870-3b8c8407aef4",
+ "error": ""
+}
